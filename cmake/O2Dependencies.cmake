@@ -475,7 +475,7 @@ o2_define_bucket(
     common_boost_bucket
     fairmq_bucket
     Base FairTools Core MathCore Matrix Minuit Hist Geom GenVector RIO
-    AliTPCCommonBase_bucket
+    AliGPUCommon_bucket
 
     INCLUDE_DIRECTORIES
     ${FAIRROOT_INCLUDE_DIR}
@@ -626,7 +626,7 @@ o2_define_bucket(
     DetectorsBase
     RIO
     SimConfig
-    AliTPCCommonBase_bucket
+    AliGPUCommon_bucket
 
     INCLUDE_DIRECTORIES
     ${CMAKE_SOURCE_DIR}/Common/MathUtils/include
@@ -900,7 +900,7 @@ o2_define_bucket(
 
     DEPENDENCIES
     data_format_its_bucket
-    AliTPCCommonBase_bucket
+    AliGPUCommon_bucket
     #
     DataFormatsITS
     DetectorsBase
@@ -1059,7 +1059,7 @@ o2_define_bucket(
     Gen
     Base
     TreePlayer
-    O2CAGPUTracking
+    O2GPUTracking
     O2TPCFastTransformation
     TPCSimulation
     #the dependency on TPCSimulation should be removed at some point
@@ -1080,7 +1080,7 @@ o2_define_bucket(
     ${MS_GSL_INCLUDE_DIR}
 )
 
-include("${ALITPCCOMMON_DIR}/sources/cmake/O2Dependencies.cmake")
+include("${ALIGPU_DIR}/sources/cmake/O2Dependencies.cmake")
 
 o2_define_bucket(
     NAME
@@ -1123,6 +1123,8 @@ o2_define_bucket(
     ${CMAKE_SOURCE_DIR}/DataFormats/Headers/include
     ${Vc_INCLUDE_DIR}
     ${Boost_INCLUDE_DIR}
+    ${FAIRROOT_INCLUDE_DIR}
+    ${FairLogger_INCDIR}
 )
 
 o2_define_bucket(
@@ -1293,7 +1295,7 @@ o2_define_bucket(
     CommonDataFormat
     data_format_detectors_common_bucket
     DetectorsCommonDataFormats
-    AliTPCCommonBase_bucket
+    AliGPUCommon_bucket
 
     INCLUDE_DIRECTORIES
     ${FAIRROOT_INCLUDE_DIR}
