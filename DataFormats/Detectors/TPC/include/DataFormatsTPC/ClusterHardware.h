@@ -147,8 +147,8 @@ struct ClusterHardware { // Draft of hardware clusters in bit-packed format.
 
 struct ClusterHardwareContainer { // Temporary struct to hold a set of hardware clusters, prepended by an RDH, and a
                                   // short header with metadata, to be replace
-  // The total structure is supposed to use up to 8 kb (like a readout block, thus it can hold up to 339 clusters ((8192
-  // - 40) / 24)
+  // The total structure is supposed to use up to 8 kb (like a readout block, thus it can hold up to 406 clusters ((8192
+  // - 40) / 20)
   uint64_t mDH[8];             //< 8 * 64 bit RDH (raw data header)
   uint32_t timeBinOffset;      //< Time offset in timebins since beginning of the time frame
   uint16_t numberOfClusters;   //< Number of clusters in this 8kb structure
