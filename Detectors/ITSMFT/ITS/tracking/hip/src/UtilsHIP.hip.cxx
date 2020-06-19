@@ -148,13 +148,13 @@ void Utils::HostHIP::gpuMemcpyDeviceToHost(void* dst, const void* src, int size)
 //   checkHIPError(hipProfilerStop(), __FILE__, __LINE__);
 // }
 
-GPUd() int Utils::DeviceHIP::getLaneIndex()
+/*GPUd() int Utils::DeviceHIP::getLaneIndex()
 {
   uint32_t laneIndex;
   asm volatile("mov.u32 %0, %%laneid;"
                : "=r"(laneIndex));
   return static_cast<int>(laneIndex);
-}
+}*/
 
 // GPUd() int Utils::Device::shareToWarp(const int value, const int laneIndex)
 // {
