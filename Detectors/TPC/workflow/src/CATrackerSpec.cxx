@@ -56,6 +56,9 @@
 #include <iomanip>
 #include <stdexcept>
 #include <regex>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 #include "GPUReconstructionConvert.h"
 #include "DetectorsRaw/RDHUtils.h"
 
@@ -202,10 +205,14 @@ DataProcessorSpec getCATrackerSpec(ca::Config const& specconfig, std::vector<int
     auto& callbacks = ic.services().get<CallbackService>();
     callbacks.set(CallbackService::Id::RegionInfoCallback, [&processAttributes](FairMQRegionInfo const& info) {
       if (info.size) {
+        int fd = open("/tmp/o2_gpu_memlock_mutex.lock", O_RDWR | O_CREAT | O_CLOEXEC, S_IRUSR | S_IWUSR);
+        lockf(fd, F_LOCK, 0);
         auto& tracker = processAttributes->tracker;
         if (tracker->registerMemoryForGPU(info.ptr, info.size)) {
           throw std::runtime_error("Error registering memory for GPU");
         }
+        lockf(fd, F_ULOCK, 0);
+        close(fd);
       }
     });
 
