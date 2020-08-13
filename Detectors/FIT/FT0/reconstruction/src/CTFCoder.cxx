@@ -80,7 +80,7 @@ void CTFCoder::compress(CompressedDigits& cd, const gsl::span<const Digit>& digi
     // fill channels info
     cd.nChan[idig] = chanels.size();
     if (!cd.nChan[idig]) {
-      LOG(ERROR) << "Digits with no channels";
+      //      LOG(ERROR) << "Digits with no channels";
       continue;
     }
     uint8_t prevChan = 0;
