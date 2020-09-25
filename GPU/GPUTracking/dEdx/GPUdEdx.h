@@ -71,8 +71,8 @@ GPUdi() void GPUdEdx::checkSubThresh(int roc)
   if (roc != mLastROC) {
     if (mNSubThresh && mCount + mNSubThresh <= MAX_NCL) {
       for (int i = 0; i < mNSubThresh; i++) {
-        mChargeTot[mCount] = (unsigned short) (mSubThreshMinTot * 4.f + 0.5f);
-        mChargeMax[mCount++] = (unsigned short) (mSubThreshMinMax * 4.f + 0.5f);
+        mChargeTot[mCount] = (unsigned short)(mSubThreshMinTot * 4.f + 0.5f);
+        mChargeMax[mCount++] = (unsigned short)(mSubThreshMinMax * 4.f + 0.5f);
       }
       mNClsROC[mLastROC] += mNSubThresh;
       mNClsROCSubThresh[mLastROC] += mNSubThresh;
@@ -118,8 +118,8 @@ GPUdnii() void GPUdEdx::fillCluster(float qtot, float qmax, int padRow, float tr
   qmax /= qMaxCorr;
   qtot /= qTotCorr;
 
-  mChargeTot[mCount] = (unsigned short) (qtot * 4.f + 0.5f);
-  mChargeMax[mCount++] = (unsigned short) (qmax * 4.f + 0.5f);
+  mChargeTot[mCount] = (unsigned short)(qtot * 4.f + 0.5f);
+  mChargeMax[mCount++] = (unsigned short)(qmax * 4.f + 0.5f);
   mNClsROC[roc]++;
   if (qtot < mSubThreshMinTot) {
     mSubThreshMinTot = qtot;
