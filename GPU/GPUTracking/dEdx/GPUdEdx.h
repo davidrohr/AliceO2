@@ -50,13 +50,13 @@ class GPUdEdx
   GPUd() void computedEdx(GPUdEdxInfo& output, const GPUParam& param);
 
  private:
-  GPUd() float GetSortTruncMean(float* array, int count, int trunclow, int trunchigh);
+  GPUd() float GetSortTruncMean(unsigned short* array, int count, int trunclow, int trunchigh);
   GPUd() void checkSubThresh(int roc);
 
   static constexpr int MAX_NCL = GPUCA_ROW_COUNT; // Must fit in mNClsROC (unsigned char)!
 
-  float mChargeTot[MAX_NCL]; // No need for default, just some memory
-  float mChargeMax[MAX_NCL]; // No need for default, just some memory
+  unsigned short mChargeTot[MAX_NCL]; // No need for default, just some memory
+  unsigned short mChargeMax[MAX_NCL]; // No need for default, just some memory
   float mSubThreshMinTot = 0.f;
   float mSubThreshMinMax = 0.f;
   unsigned char mNClsROC[4] = {0};
@@ -71,8 +71,8 @@ GPUdi() void GPUdEdx::checkSubThresh(int roc)
   if (roc != mLastROC) {
     if (mNSubThresh && mCount + mNSubThresh <= MAX_NCL) {
       for (int i = 0; i < mNSubThresh; i++) {
-        mChargeTot[mCount] = mSubThreshMinTot;
-        mChargeMax[mCount++] = mSubThreshMinMax;
+        mChargeTot[mCount] = (unsigned short) (mSubThreshMinTot * 4.f + 0.5f);
+        mChargeMax[mCount++] = (unsigned short) (mSubThreshMinMax * 4.f + 0.5f);
       }
       mNClsROC[mLastROC] += mNSubThresh;
       mNClsROCSubThresh[mLastROC] += mNSubThresh;
@@ -118,8 +118,8 @@ GPUdnii() void GPUdEdx::fillCluster(float qtot, float qmax, int padRow, float tr
   qmax /= qMaxCorr;
   qtot /= qTotCorr;
 
-  mChargeTot[mCount] = qtot;
-  mChargeMax[mCount++] = qmax;
+  mChargeTot[mCount] = (unsigned short) (qtot * 4.f + 0.5f);
+  mChargeMax[mCount++] = (unsigned short) (qmax * 4.f + 0.5f);
   mNClsROC[roc]++;
   if (qtot < mSubThreshMinTot) {
     mSubThreshMinTot = qtot;
