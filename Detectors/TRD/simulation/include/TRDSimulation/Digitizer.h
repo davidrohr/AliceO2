@@ -40,10 +40,10 @@ class TRDArraySignal;
 class PadResponse;
 
 struct SignalArray {
-  double firstTBtime;                     // first TB time
+  double firstTBtime;                               // first TB time
   std::array<float, constants::TIMEBINS> signals{}; // signals
-  std::unordered_map<int, int> trackIds;  // tracks Ids associated to the signal
-  std::vector<MCLabel> labels;            // labels associated to the signal
+  std::unordered_map<int, int> trackIds;            // tracks Ids associated to the signal
+  std::vector<MCLabel> labels;                      // labels associated to the signal
 };
 
 using DigitContainer = std::vector<Digit>;
@@ -114,8 +114,8 @@ class Digitizer
   int mMaxTimeBinsTRAP = 30;                               // Maximum number of time bins for processing adcs; should be read from the CCDB or the TRAP config
 
   // Digitization containers
-  std::vector<HitType> mHitContainer;                            // the container of hits in a given detector
-  std::vector<MCLabel> mMergedLabels;                            // temporary label container
+  std::vector<HitType> mHitContainer;                                            // the container of hits in a given detector
+  std::vector<MCLabel> mMergedLabels;                                            // temporary label container
   std::array<SignalContainer, constants::MAXCHAMBER> mSignalsMapCollection;      // container for caching signals over a timeframe
   std::deque<std::array<SignalContainer, constants::MAXCHAMBER>> mPileupSignals; // container for piled up signals
 
