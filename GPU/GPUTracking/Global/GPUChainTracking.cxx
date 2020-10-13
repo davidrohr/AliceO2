@@ -57,6 +57,7 @@
 #include "TPCdEdxCalibrationSplines.h"
 #include "TPCClusterDecompressor.h"
 #include "GPUTPCCFChainContext.h"
+#include "GPUTrackingRefit.h"
 #else
 #include "GPUO2FakeClasses.h"
 #endif
@@ -2323,6 +2324,23 @@ int GPUChainTracking::DoTRDGPUTracking()
   return (0);
 }
 
+int GPUChainTracking::RunRefit()
+{
+#ifdef HAVE_O2HEADERS
+  GPUTrackingRefit re;
+  re.SetClusterStateArray(processorsShadow()->tpcMerger.ClusterStateExt());
+  re.SetPtrsFromGPUConstantMem(processorsShadow());
+  for (unsigned int i = 0; i < mIOPtrs.nMergedTracks; i++) {
+    if (mIOPtrs.mergedTracks[i].OK()) {
+      printf("Refitting track %d\n", i);
+      GPUTPCGMMergedTrack t = mIOPtrs.mergedTracks[i];
+      re.RefitTrackAsGPU(t, false);
+    }
+  }
+#endif
+  return 0;
+}
+
 int GPUChainTracking::RunChain()
 {
   const auto threadContext = GetThreadContext();
@@ -2405,6 +2423,10 @@ int GPUChainTracking::RunChain()
   }
 
   if (runRecoStep(RecoStep::TRDTracking, &GPUChainTracking::RunTRDTracking)) {
+    return 1;
+  }
+
+  if (runRecoStep(RecoStep::Refit, &GPUChainTracking::RunRefit)) {
     return 1;
   }
 
