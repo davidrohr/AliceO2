@@ -64,6 +64,9 @@
 #include <fcntl.h>
 #include "GPUReconstructionConvert.h"
 #include "DetectorsRaw/RDHUtils.h"
+#include "DetectorsBase/GeometryManager.h"
+#include "DetectorsBase/Propagator.h"
+#include "DetectorsCommonDataFormats/NameConf.h"
 
 using namespace o2::framework;
 using namespace o2::header;
@@ -180,6 +183,10 @@ DataProcessorSpec getCATrackerSpec(CompletionPolicyData* policyData, ca::Config 
         config.configWorkflow.outputs.setBits(GPUDataTypes::InOutType::TPCClusters, true);
         config.configWorkflow.outputs.setBits(GPUDataTypes::InOutType::TPCCompressedClusters, false);
       }
+
+      o2::base::GeometryManager::loadGeometry();
+      o2::base::Propagator::initFieldFromGRP(o2::base::NameConf::getGRPFileName());
+      config.configWorkflow.steps.setBits(GPUDataTypes::RecoStep::Refit, true);
 
       // Create and forward data objects for TPC transformation, material LUT, ...
       if (confParam.transformationFile.size()) {

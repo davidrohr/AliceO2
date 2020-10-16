@@ -34,6 +34,8 @@
 #include "GPUTPCGMMergedTrack.h"
 #include "GPUTPCGMMergedTrackHit.h"
 #include "GPUHostDataTypes.h"
+#include "GPUTrackingRefit.h"
+#include "GPUParam.h"
 
 #include <atomic>
 #ifdef WITH_OPENMP
@@ -248,7 +250,7 @@ int GPUCATracking::runTracking(GPUO2InterfaceIOPtrs* data, GPUInterfaceOutputs* 
        outerPar.C[12], outerPar.C[13], outerPar.C[14]}));
     int nOutCl = 0;
     for (int j = 0; j < tracks[i].NClusters(); j++) {
-      if (!(trackClusters[tracks[i].FirstClusterRef() + j].state & GPUTPCGMMergedTrackHit::flagReject)) {
+      if (!(trackClusters[tracks[i].FirstClusterRef() + j].state & (GPUTPCGMMergedTrackHit::flagReject | GPUTPCGMMergedTrackHit::flagNotFit))) {
         nOutCl++;
       }
     }
@@ -261,7 +263,7 @@ int GPUCATracking::runTracking(GPUO2InterfaceIOPtrs* data, GPUInterfaceOutputs* 
     std::vector<std::pair<MCCompLabel, unsigned int>> labels;
     nOutCl = 0;
     for (int j = 0; j < tracks[i].NClusters(); j++) {
-      if (trackClusters[tracks[i].FirstClusterRef() + j].state & GPUTPCGMMergedTrackHit::flagReject) {
+      if (trackClusters[tracks[i].FirstClusterRef() + j].state & (GPUTPCGMMergedTrackHit::flagReject | GPUTPCGMMergedTrackHit::flagNotFit)) {
         continue;
       }
       int clusterIdGlobal = trackClusters[tracks[i].FirstClusterRef() + j].num;
@@ -312,8 +314,28 @@ int GPUCATracking::runTracking(GPUO2InterfaceIOPtrs* data, GPUInterfaceOutputs* 
   }
   outClusRefs->resize(clusterOffsetCounter.load()); // remove overhead
 
-  mTrackingCAO2Interface->Clear(false);
+  GPUTrackingRefit re;
+  re.SetClusterStateArray(ptrs.mergedTrackHitStates);
+  re.SetPropagatorDefault();
+  re.SetClusterNative(ptrs.clustersNative);
+  re.SetTrackHitReferences(outClusRefs->data());
+  re.SetFastTransform(mTrackingCAO2Interface->getConfig().configCalib.fastTransform);
+  GPUParam param;
+  param.SetDefaults(mTrackingCAO2Interface->getConfig().configEvent.solenoidBz);
+  re.SetGPUParam(&param);
+  
+  for (unsigned int i = 0; i < outputTracks->size(); i++) {
+    printf("\nRefitting track %d\n", i);
+    TrackTPC t = (*outputTracks)[i];
+    int retval = re.RefitTrackAsGPU(t, false, true);
+    printf("Refit error code: %d\n", retval);
+    printf("\nRefitting track TrackParCov %d\n", i);
+    t = (*outputTracks)[i];
+    re.RefitTrackAsTrackParCov(t, false, true);
+    printf("Refit error code: %d\n", retval);
+  }
 
+  mTrackingCAO2Interface->Clear(false);
   return (retVal);
 }
 

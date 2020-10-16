@@ -231,6 +231,7 @@ struct GPUTrackingInOutPointers {
   const GPUTPCGMMergedTrackHitXYZ* mergedTrackHitsXYZ = nullptr;
   unsigned int nMergedTrackHits = 0;
   unsigned int* mergedTrackHitAttachment = nullptr;
+  unsigned char* mergedTrackHitStates = nullptr;
   const o2::tpc::CompressedClustersFlat* tpcCompressedClusters = nullptr;
   const GPUTRDTrackletWord* trdTracklets = nullptr;
   unsigned int nTRDTracklets = 0;

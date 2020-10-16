@@ -58,15 +58,16 @@ class GPUTrackingRefit
   void SetClusterStateArray(const unsigned char* v) { mPclusterState = v; }
   void SetPtrsFromGPUConstantMem(const GPUConstantMem* v);
   void SetPropagator(const o2::base::Propagator* v) { mPpropagator = v; }
+  void SetPropagatorDefault();
   void SetClusterNative(const o2::tpc::ClusterNativeAccess* v) { mPclusterNative = v; }
   void SetTrackHits(const GPUTPCGMMergedTrackHit* v) { mPtrackHits = v; }
   void SetTrackHitReferences(const unsigned int* v) { mPtrackHitReferences = v; }
   void SetFastTransform(const TPCFastTransform* v) { mPfastTransform = v; }
   void SetGPUParam(const MEM_CONSTANT(GPUParam)* v) { mPparam = v; }
-  GPUd() int RefitTrackAsGPU(GPUTPCGMMergedTrack& trk, bool outward = false) { return RefitTrack<GPUTPCGMMergedTrack, GPUTPCGMTrackParam>(trk, outward); }
-  GPUd() int RefitTrackAsTrackParCov(GPUTPCGMMergedTrack& trk, bool outward = false) { return RefitTrack<GPUTPCGMMergedTrack, o2::track::TrackParCov>(trk, outward); }
-  GPUd() int RefitTrackAsGPU(o2::tpc::TrackTPC& trk, bool outward = false) { return RefitTrack<o2::tpc::TrackTPC, GPUTPCGMTrackParam>(trk, outward); }
-  GPUd() int RefitTrackAsTrackParCov(o2::tpc::TrackTPC& trk, bool outward = false) { return RefitTrack<o2::tpc::TrackTPC, o2::track::TrackParCov>(trk, outward); }
+  GPUd() int RefitTrackAsGPU(GPUTPCGMMergedTrack& trk, bool outward = false, bool resetCov = false) { return RefitTrack<GPUTPCGMMergedTrack, GPUTPCGMTrackParam>(trk, outward, resetCov); }
+  GPUd() int RefitTrackAsTrackParCov(GPUTPCGMMergedTrack& trk, bool outward = false, bool resetCov = false) { return RefitTrack<GPUTPCGMMergedTrack, o2::track::TrackParCov>(trk, outward, resetCov); }
+  GPUd() int RefitTrackAsGPU(o2::tpc::TrackTPC& trk, bool outward = false, bool resetCov = false) { return RefitTrack<o2::tpc::TrackTPC, GPUTPCGMTrackParam>(trk, outward, resetCov); }
+  GPUd() int RefitTrackAsTrackParCov(o2::tpc::TrackTPC& trk, bool outward = false, bool resetCov = false) { return RefitTrack<o2::tpc::TrackTPC, o2::track::TrackParCov>(trk, outward, resetCov); }
 
  private:
   const unsigned char* mPclusterState = nullptr;                 // Ptr to shared cluster state
@@ -77,7 +78,7 @@ class GPUTrackingRefit
   const TPCFastTransform* mPfastTransform = nullptr;             // Ptr to TPC fast transform object
   const MEM_CONSTANT(GPUParam)* mPparam = nullptr;               // Ptr to GPUParam
   template <class T, class S>
-  GPUd() int RefitTrack(T& trk, bool outward);
+  GPUd() int RefitTrack(T& trk, bool outward, bool resetCov);
   template <class T, class S, class U>
   void convertTrack(T& trk, const S& trkX, U& prop);
   template <class U>

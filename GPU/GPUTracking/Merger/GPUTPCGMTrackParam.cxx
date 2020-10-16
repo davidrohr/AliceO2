@@ -11,7 +11,7 @@
 /// \file GPUTPCGMTrackParam.cxx
 /// \author David Rohr, Sergey Gorbunov
 
-#define GPUCA_CADEBUG 0
+#define GPUCA_CADEBUG 1
 #define DEBUG_SINGLE_TRACK -1
 
 #include "GPUTPCDef.h"
@@ -310,6 +310,8 @@ GPUd() bool GPUTPCGMTrackParam::Fit(const GPUTPCGMMerger* GPUrestrict() merger, 
       } else if (retVal == 2) { // cluster far away form the track
         if (allowModification) {
           MarkClusters(clusters, ihitMergeFirst, ihit, wayDirection, GPUTPCGMMergedTrackHit::flagRejectDistance);
+        } else if (iWay == nWays - 1) {
+          MarkClusters(clusters, ihitMergeFirst, ihit, wayDirection, GPUTPCGMMergedTrackHit::flagRejectErr);
         }
         nMissed++;
         nMissed2++;
@@ -961,6 +963,10 @@ GPUd() void GPUTPCGMTrackParam::RefitTrack(GPUTPCGMMergedTrack& GPUrestrict() tr
 {
   if (!track.OK()) {
     return;
+  }
+  if (iTrk > 0) {
+      track.SetOK(false);
+      return;
   }
 
   // clang-format off
