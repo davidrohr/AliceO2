@@ -159,7 +159,7 @@ static const float* getPar(const TrackParCov& trk) { return trk.getParams(); }
 template <class T, class S>
 GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
 {
-  CADEBUG(int ii;printf("\nRefitting track\n"));
+  CADEBUG(int ii; printf("\nRefitting track\n"));
   typename refitTrackTypes<S>::propagator prop;
   S trk;
   convertTrack(trk, trkX, prop);
@@ -169,7 +169,7 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
     count = trkX.NClusters();
     if (trkX.Looper()) {
       int leg = mPtrackHits[trkX.FirstClusterRef() + trkX.NClusters() - 1].leg;
-      for (int i = trkX.NClusters() - 2;i > 0;i--) {
+      for (int i = trkX.NClusters() - 2; i > 0; i--) {
         if (mPtrackHits[trkX.FirstClusterRef() + i].leg != leg) {
           begin = i + 1;
           break;
@@ -194,7 +194,7 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
   const ClusterNative* cl = nullptr;
   uint8_t sector, row, currentSector, currentRow;
   short clusterState, nextState;
-  for (int i = start;i != stop;i += cl ? 0 : direction) {
+  for (int i = start; i != stop; i += cl ? 0 : direction) {
     float x, y, z, charge;
     int clusters = 0;
     while (true) {
@@ -219,8 +219,7 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
           nextState = mPclusterState[cl - mPclusterNative->clustersLinear];
         }
       }
-      if (clusters == 0 || (row == currentRow && sector == currentSector))
-      {
+      if (clusters == 0 || (row == currentRow && sector == currentSector)) {
         if (clusters == 1) {
           x *= cl->qTot;
           y *= cl->qTot;
@@ -260,7 +259,7 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
       z /= charge;
       CADEBUG(printf("\tMerged Hit  Row %3d: Cluster Alpha %8.3f %3d, X %8.3f - Y %8.3f, Z %8.3f\n", row, mPparam->Alpha(sector), (int)sector, x, y, z));
     }
-    
+
     if constexpr (std::is_same<S, GPUTPCGMTrackParam>::value) {
       if (prop.PropagateToXAlpha(x, mPparam->Alpha(sector), !outward)) {
         return 2;

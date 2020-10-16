@@ -323,7 +323,7 @@ int GPUCATracking::runTracking(GPUO2InterfaceIOPtrs* data, GPUInterfaceOutputs* 
   GPUParam param;
   param.SetDefaults(mTrackingCAO2Interface->getConfig().configEvent.solenoidBz);
   re.SetGPUParam(&param);
-  
+
   for (unsigned int i = 0; i < outputTracks->size(); i++) {
     printf("\nRefitting track %d\n", i);
     TrackTPC t = (*outputTracks)[i];

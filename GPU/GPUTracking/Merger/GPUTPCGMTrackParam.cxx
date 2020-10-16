@@ -965,8 +965,8 @@ GPUd() void GPUTPCGMTrackParam::RefitTrack(GPUTPCGMMergedTrack& GPUrestrict() tr
     return;
   }
   if (iTrk > 0) {
-      track.SetOK(false);
-      return;
+    track.SetOK(false);
+    return;
   }
 
   // clang-format off

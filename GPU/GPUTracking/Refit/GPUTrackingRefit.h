@@ -63,7 +63,7 @@ class GPUTrackingRefit
   void SetTrackHits(const GPUTPCGMMergedTrackHit* v) { mPtrackHits = v; }
   void SetTrackHitReferences(const unsigned int* v) { mPtrackHitReferences = v; }
   void SetFastTransform(const TPCFastTransform* v) { mPfastTransform = v; }
-  void SetGPUParam(const MEM_CONSTANT(GPUParam)* v) { mPparam = v; }
+  void SetGPUParam(const MEM_CONSTANT(GPUParam) * v) { mPparam = v; }
   GPUd() int RefitTrackAsGPU(GPUTPCGMMergedTrack& trk, bool outward = false, bool resetCov = false) { return RefitTrack<GPUTPCGMMergedTrack, GPUTPCGMTrackParam>(trk, outward, resetCov); }
   GPUd() int RefitTrackAsTrackParCov(GPUTPCGMMergedTrack& trk, bool outward = false, bool resetCov = false) { return RefitTrack<GPUTPCGMMergedTrack, o2::track::TrackParCov>(trk, outward, resetCov); }
   GPUd() int RefitTrackAsGPU(o2::tpc::TrackTPC& trk, bool outward = false, bool resetCov = false) { return RefitTrack<o2::tpc::TrackTPC, GPUTPCGMTrackParam>(trk, outward, resetCov); }
@@ -76,7 +76,7 @@ class GPUTrackingRefit
   const GPUTPCGMMergedTrackHit* mPtrackHits = nullptr;           // Ptr to hits for GPUTPCGMMergedTrack tracks
   const unsigned int* mPtrackHitReferences = nullptr;            // Ptr to hits for TrackTPC tracks
   const TPCFastTransform* mPfastTransform = nullptr;             // Ptr to TPC fast transform object
-  const MEM_CONSTANT(GPUParam)* mPparam = nullptr;               // Ptr to GPUParam
+  const MEM_CONSTANT(GPUParam) * mPparam = nullptr;              // Ptr to GPUParam
   template <class T, class S>
   GPUd() int RefitTrack(T& trk, bool outward, bool resetCov);
   template <class T, class S, class U>
