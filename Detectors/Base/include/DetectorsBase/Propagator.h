@@ -55,7 +55,7 @@ class Propagator
     static Propagator instance;
     return &instance;
   }
-  
+
   static constexpr float MAX_SIN_PHI = 0.85f;
   static constexpr float MAX_STEP = 2.0f;
 

@@ -44,7 +44,9 @@ static constexpr int kIGNORE_ENDS = 3;
     }                                                                                                                \
   }
 
-void GPUTrackingRefitProcessor::InitializeProcessor() {}
+void GPUTrackingRefitProcessor::InitializeProcessor()
+{
+}
 
 void GPUTrackingRefitProcessor::RegisterMemoryAllocation()
 {
