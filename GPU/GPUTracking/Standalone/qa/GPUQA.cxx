@@ -65,13 +65,13 @@ using namespace GPUCA_NAMESPACE::gpu;
 #define QA_TIMING 0
 
 #ifdef GPUCA_MERGER_BY_MC_LABEL
-#define CHECK_CLUSTER_STATE_INIT_LEG_BY_MC()           \
-  if (!unattached && mTrackMCLabels[id].isValid()) {   \
-    int mcLabel = mTrackMCLabels[id].getTrackID();     \
-    int mcEvent = mTrackMCLabels[id].getEventID();     \
-    if (mTrackMCLabelsReverse[mcEvent][mcLabel] != id) {     \
-      attach &= (~gputpcgmmergertypes::attachGoodLeg); \
-    }                                                  \
+#define CHECK_CLUSTER_STATE_INIT_LEG_BY_MC()             \
+  if (!unattached && mTrackMCLabels[id].isValid()) {     \
+    int mcLabel = mTrackMCLabels[id].getTrackID();       \
+    int mcEvent = mTrackMCLabels[id].getEventID();       \
+    if (mTrackMCLabelsReverse[mcEvent][mcLabel] != id) { \
+      attach &= (~gputpcgmmergertypes::attachGoodLeg);   \
+    }                                                    \
   }
 #else
 #define CHECK_CLUSTER_STATE_INIT_LEG_BY_MC()
