@@ -508,7 +508,7 @@ int GPUQA::InitQACreateHistograms()
       createHist(mClusters[i], name, name, AXIS_BINS[4], binsPt.get());
     }
   }
-  
+
   if (mQATasks & taskTrackStatistics) {
     // Create Tracks Histograms
     sprintf(name, "nclusters");
@@ -1172,7 +1172,7 @@ void GPUQA::RunQA(bool matchOnly, const std::vector<o2::tpc::TrackTPC>* tracksEx
 #ifdef GPUCA_TPC_GEOMETRY_O2 // ignore z here, larger difference in X due to shifted reference
         if (fabsf(param.Y() - mclocal[1]) > (mConfig.strict ? 1.f : 4.f) || (mTracking->GetParam().par.continuousMaxTimeBin == 0 && fabsf(param.Z() + param.TZOffset() - mc1.z) > (mConfig.strict ? 1.f : 4.f))) { // TODO: fix TZOffset here
 #else
-        if (fabsf(param.Y() - mclocal[1]) > (mConfig.strict ? 1.f : 4.f) || fabsf(param.Z() + param.TZOffset() - mc1.z) > (mConfig.strict ? 1.f : 4.f)) { // TODO: fix TZOffset here
+        if (fabsf(param.Y() - mclocal[1]) > (mConfig.strict ? 1.f : 4.f) || fabsf(param.Z() + param.TZOffset() - mc1.z) > (mConfig.strict ? 1.f : 4.f)) {                                                                         // TODO: fix TZOffset here
 #endif
           continue;
         }
