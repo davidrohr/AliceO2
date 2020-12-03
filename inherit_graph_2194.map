@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="o2::trd::PadCalibrations\l\&lt; float \&gt;" alt="" coords="5,74,164,115"/>
+<area shape="rect" id="node2" href="$d6/db0/classo2_1_1trd_1_1LocalGainFactor.html" title="o2::trd::LocalGainFactor" alt="" coords="212,5,375,32"/>
+<area shape="rect" id="node3" href="$d5/d64/classo2_1_1trd_1_1LocalT0.html" title="o2::trd::LocalT0" alt="" coords="237,56,350,83"/>
+<area shape="rect" id="node4" href="$d9/d2f/classo2_1_1trd_1_1LocalVDrift.html" title="o2::trd::LocalVDrift" alt="" coords="227,107,359,133"/>
+<area shape="rect" id="node5" href="$db/d98/classo2_1_1trd_1_1PadNoise.html" title="o2::trd::PadNoise" alt="" coords="231,157,355,184"/>
+</map>

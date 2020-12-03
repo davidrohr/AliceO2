@@ -1,0 +1,5 @@
+<map id="o2::trd::PadStatus" name="o2::trd::PadStatus">
+<area shape="rect" id="node2" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="{o2::trd::PadCalibrations\l\&lt; char \&gt;\n||+ PadCalibrations()\l+ ~PadCalibrations()\l+ getNChannels()\l+ getChamberPads()\l+ getValue()\l+ getPadValue()\l+ setPadValue()\l+ setPadValue()\l+ reset()\l+ init()\l}" alt="" coords="129,432,287,656"/>
+<area shape="rect" id="node3" href="$d5/d5a/classstd_1_1array_3_01o2_1_1trd_1_1PadParameters_3_01char_01_4_00_01constants_1_1MAXCHAMBER_01_4.html" title="{array\&lt; o2::trd::PadParameters\l\&lt; char \&gt;, constants::MAXCHAMBER \&gt;\n||}" alt="" coords="5,219,259,311"/>
+<area shape="rect" id="node4" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="{o2::trd::PadCalibrations\&lt; T \&gt;\n||+ PadCalibrations()\l+ ~PadCalibrations()\l+ getNChannels()\l+ getChamberPads()\l+ getValue()\l+ getPadValue()\l+ setPadValue()\l+ setPadValue()\l+ reset()\l+ init()\l}" alt="" coords="283,160,474,369"/>
+</map>

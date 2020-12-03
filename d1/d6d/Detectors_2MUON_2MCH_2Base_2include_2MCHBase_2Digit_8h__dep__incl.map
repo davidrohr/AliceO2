@@ -1,0 +1,36 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Base/include/MCHBase/Digit.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Base/include/MCHBase/Digit.h">
+<area shape="rect" id="node2" href="$d3/d39/MCH_2Base_2include_2MCHBase_2PreCluster_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Base/include/MCHBase\l/PreCluster.h" alt="" coords="659,124,861,195"/>
+<area shape="rect" id="node4" href="$db/dad/PreClusterFinder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/PreClustering/include\l/MCHPreClustering/PreClusterFinder.h" alt="" coords="263,243,513,313"/>
+<area shape="rect" id="node5" href="$db/d3a/ClusterFinderOriginal_8h.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="5,361,259,432"/>
+<area shape="rect" id="node7" href="$d1/d4a/ClusterFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to run the original MLEM cluster finder. " alt="" coords="439,480,659,551"/>
+<area shape="rect" id="node9" href="$df/d50/PreClusterFinderSpec_8cxx.html" title="Implementation of a data processor to run the preclusterizer. " alt="" coords="709,361,949,432"/>
+<area shape="rect" id="node10" href="$d0/d5c/PreClusterSinkSpec_8cxx.html" title="Implementation of a data processor to write preclusters. " alt="" coords="867,243,1098,313"/>
+<area shape="rect" id="node11" href="$df/d26/Detectors_2MUON_2MCH_2Base_2src_2Digit_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Base/src/Digit.cxx" alt="" coords="1482,131,1662,187"/>
+<area shape="rect" id="node12" href="$d1/daf/digit2json_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/digit2json.cxx" alt="" coords="1518,250,1773,306"/>
+<area shape="rect" id="node13" href="$da/df9/DigitEncoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/DigitEncoder.h" alt="" coords="2068,131,2329,187"/>
+<area shape="rect" id="node14" href="$de/d19/MUON_2MCH_2Raw_2Encoder_2Digit_2digit2raw_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/digit2raw.cxx" alt="" coords="1797,250,2049,306"/>
+<area shape="rect" id="node15" href="$d9/d30/DigitEncoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/DigitEncoder.cxx" alt="" coords="2073,250,2348,306"/>
+<area shape="rect" id="node16" href="$d3/d01/MUON_2MCH_2Raw_2Encoder_2Digit_2DigitReader_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/DigitReader.h" alt="" coords="1738,131,1993,187"/>
+<area shape="rect" id="node18" href="$da/d5e/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Digitizer.h" alt="" coords="2671,124,2852,195"/>
+<area shape="rect" id="node20" href="$dc/dc3/testDigitization_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testDigitization.cxx" alt="" coords="3156,250,3420,306"/>
+<area shape="rect" id="node21" href="$db/d2f/MCHDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitizerSpec.cxx" alt="" coords="3445,250,3659,306"/>
+<area shape="rect" id="node22" href="$df/d3f/Response_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Response.h" alt="" coords="2404,124,2596,195"/>
+<area shape="rect" id="node25" href="$d9/d18/benchDigitMerging_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/benchDigit\lMerging.cxx" alt="" coords="3683,243,3898,313"/>
+<area shape="rect" id="node26" href="$d4/d2c/DigitMerging_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/DigitMerging.h" alt="" coords="2977,131,3213,187"/>
+<area shape="rect" id="node28" href="$d9/d60/testDigitMerging_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testDigitMerging.cxx" alt="" coords="4197,250,4469,306"/>
+<area shape="rect" id="node29" href="$db/d71/ClusterSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send clusters. " alt="" coords="3287,124,3519,195"/>
+<area shape="rect" id="node30" href="$d8/d48/ClusterSinkSpec_8cxx.html" title="Implementation of a data processor to write clusters. " alt="" coords="3543,131,3809,187"/>
+<area shape="rect" id="node31" href="$d0/d75/DataDecoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Workflow/src/DataDecoderSpec.cxx" alt="" coords="3833,131,4108,187"/>
+<area shape="rect" id="node32" href="$dd/da0/digits-sink-workflow_8cxx.html" title="This is an executable that dumps to a file on disk the digits received via DPL. " alt="" coords="4133,124,4313,195"/>
+<area shape="rect" id="node33" href="$d2/d75/DigitSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send digits. " alt="" coords="4337,131,4609,187"/>
+<area shape="rect" id="node34" href="$d8/d60/MCHDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitWriterSpec.h" alt="" coords="4634,131,4849,187"/>
+<area shape="rect" id="node3" href="$df/df1/MCH_2Base_2src_2PreCluster_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Base/src/PreCluster.cxx" alt="" coords="587,250,791,306"/>
+<area shape="rect" id="node8" href="$d8/dfc/PreClusterFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/PreClustering/src/PreCluster\lFinder.cxx" alt="" coords="283,361,511,432"/>
+<area shape="rect" id="node6" href="$d0/dff/ClusterFinderOriginal_8cxx.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="20,480,244,551"/>
+<area shape="rect" id="node17" href="$d2/d48/MUON_2MCH_2Raw_2Encoder_2Digit_2DigitReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/DigitReader.cxx" alt="" coords="1224,250,1493,306"/>
+<area shape="rect" id="node19" href="$d7/de0/MUON_2MCH_2Simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Digitizer.cxx" alt="" coords="2911,250,3132,306"/>
+<area shape="rect" id="node23" href="$d9/dbf/Response_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Response.cxx" alt="" coords="2372,250,2604,306"/>
+<area shape="rect" id="node24" href="$d5/d7c/testResponse_8cxx.html" title="This task tests of the Response of the MCH digitization. " alt="" coords="2628,250,2887,306"/>
+<area shape="rect" id="node27" href="$d0/dcc/DigitMerging_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/DigitMerging.cxx" alt="" coords="3923,250,4173,306"/>
+<area shape="rect" id="node35" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="4633,250,4849,306"/>
+</map>

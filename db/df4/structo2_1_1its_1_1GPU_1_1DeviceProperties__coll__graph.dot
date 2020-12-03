@@ -1,0 +1,16 @@
+digraph "o2::its::GPU::DeviceProperties"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::its::GPU::DeviceProperties\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +busWidth\n+warpSize\n+name\n+cudaCores\n+maxBlocksPerSM\n+maxThreadsPerBlock\n+gpuProcessors\n+streamProcessors" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +globalMemorySize\n+registersPerBlock\n+l2CacheSize\n+constantMemorySize\n+sharedMemorySize\n+maxClockRate" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{long\n||}",height=0.2,width=0.4,color="black",URL="$d7/d63/classlong.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +maxGridDim\n+maxThreadsDim" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{dim3\n||}",height=0.2,width=0.4,color="black",URL="$d3/db3/structdim3.html"];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +x\n+y\n+z" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{unsigned\n||}",height=0.2,width=0.4,color="grey75"];
+}

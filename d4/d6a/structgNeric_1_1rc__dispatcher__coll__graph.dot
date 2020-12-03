@@ -1,0 +1,8 @@
+digraph "gNeric::rc_dispatcher&lt; _ContainerT, F, Position, _IndexT &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{gNeric::rc_dispatcher\l\< _ContainerT, F, Position,\l _IndexT \>\n||+ apply()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/DCS/src/DCSProcessor.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/DCS/src/DCSProcessor.cxx">
+<area shape="rect" id="node2" href="$d7/da7/DCSProcessor_8h.html" title="DetectorsDCS/DCSProcessor.h" alt="" coords="1685,109,1896,136"/>
+<area shape="rect" id="node8" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="1997,348,2138,375"/>
+<area shape="rect" id="node10" href="$d0/dee/DataPointCompositeObject_8h.html" title="DetectorsDCS/DataPointComposite\lObject.h" alt="" coords="590,184,823,225"/>
+<area shape="rect" id="node18" href="$d1/d2d/DataPointIdentifier_8h.html" title="DetectorsDCS/DataPointIdentifier.h" alt="" coords="747,273,978,300"/>
+<area shape="rect" id="node24" href="$d5/d79/DeliveryType_8h.html" title="DetectorsDCS/DeliveryType.h" alt="" coords="66,348,266,375"/>
+<area shape="rect" id="node26" href="$d6/d8e/DataPointValue_8h.html" title="DetectorsDCS/DataPointValue.h" alt="" coords="1003,273,1218,300"/>
+<area shape="rect" id="node32" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="1984,273,2151,300"/>
+<area shape="rect" id="node33" href="$da/db7/MemFileHelper_8h.html" title="CommonUtils/MemFileHelper.h" alt="" coords="1581,191,1786,218"/>
+<area shape="rect" id="node38" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="2187,191,2314,218"/>
+<area shape="rect" id="node15" href="$dd/de9/Detectors_2DCS_2include_2DetectorsDCS_2StringUtils_8h.html" title="DetectorsDCS/StringUtils.h" alt="" coords="485,348,669,375"/>
+<area shape="rect" id="node23" href="$d6/de3/GenericFunctions_8h.html" title="DetectorsDCS/GenericFunctions.h" alt="" coords="298,423,523,449"/>
+<area shape="rect" id="node30" href="$d2/d52/Clock_8h.html" title="DetectorsDCS/Clock.h" alt="" coords="1458,348,1616,375"/>
+<area shape="rect" id="node37" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="1680,273,1858,300"/>
+</map>

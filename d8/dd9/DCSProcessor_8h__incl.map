@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/DCS/include/DetectorsDCS/DCSProcessor.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/DCS/include/DetectorsDCS/DCSProcessor.h">
+<area shape="rect" id="node7" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="1951,273,2093,300"/>
+<area shape="rect" id="node9" href="$d0/dee/DataPointCompositeObject_8h.html" title="DetectorsDCS/DataPointComposite\lObject.h" alt="" coords="443,109,676,151"/>
+<area shape="rect" id="node17" href="$d1/d2d/DataPointIdentifier_8h.html" title="DetectorsDCS/DataPointIdentifier.h" alt="" coords="737,199,968,225"/>
+<area shape="rect" id="node23" href="$d5/d79/DeliveryType_8h.html" title="DetectorsDCS/DeliveryType.h" alt="" coords="21,273,221,300"/>
+<area shape="rect" id="node25" href="$d6/d8e/DataPointValue_8h.html" title="DetectorsDCS/DataPointValue.h" alt="" coords="1008,199,1223,225"/>
+<area shape="rect" id="node31" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="1939,199,2105,225"/>
+<area shape="rect" id="node32" href="$da/db7/MemFileHelper_8h.html" title="CommonUtils/MemFileHelper.h" alt="" coords="1447,117,1653,143"/>
+<area shape="rect" id="node37" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="2212,117,2339,143"/>
+<area shape="rect" id="node14" href="$dd/de9/Detectors_2DCS_2include_2DetectorsDCS_2StringUtils_8h.html" title="DetectorsDCS/StringUtils.h" alt="" coords="594,273,778,300"/>
+<area shape="rect" id="node22" href="$d6/de3/GenericFunctions_8h.html" title="DetectorsDCS/GenericFunctions.h" alt="" coords="196,348,421,375"/>
+<area shape="rect" id="node29" href="$d2/d52/Clock_8h.html" title="DetectorsDCS/Clock.h" alt="" coords="1362,273,1519,300"/>
+<area shape="rect" id="node36" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="1541,199,1719,225"/>
+</map>

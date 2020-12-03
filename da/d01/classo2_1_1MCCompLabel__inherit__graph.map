@@ -1,0 +1,11 @@
+<map id="o2::MCCompLabel" name="o2::MCCompLabel">
+<area shape="rect" id="node2" href="$df/d56/classo2_1_1emcal_1_1MCLabel.html" title="Monte&#45;Carlo label for EMCAL clusters / digits. " alt="" coords="5,695,171,846"/>
+<area shape="rect" id="node3" href="$d1/d1b/classo2_1_1fdd_1_1MCLabel.html" title="{o2::fdd::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ getDetID()\l+ ClassDefNV()\l}" alt="" coords="195,710,317,831"/>
+<area shape="rect" id="node4" href="$dd/dfd/classo2_1_1ft0_1_1MCLabel.html" title="{o2::ft0::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ getDetID()\l+ ClassDefNV()\l}" alt="" coords="342,710,461,831"/>
+<area shape="rect" id="node5" href="$d2/d93/classo2_1_1fv0_1_1MCLabel.html" title="{o2::fv0::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ getChannel()\l+ ClassDefNV()\l}" alt="" coords="485,710,608,831"/>
+<area shape="rect" id="node6" href="$d9/d99/classo2_1_1mid_1_1MCClusterLabel.html" title="{o2::mid::MCClusterLabel\n||+ MCClusterLabel()\l+ MCClusterLabel()\l+ setIsFiredBP()\l+ isFiredBP()\l+ setIsFiredNBP()\l+ isFiredNBP()\l+ ClassDefNV()\l}" alt="" coords="633,688,799,853"/>
+<area shape="rect" id="node7" href="$db/d36/classo2_1_1mid_1_1MCLabel.html" title="{o2::mid::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ operator==()\l+ setDEId()\l+ getDEId()\l+ setColumnId()\l+ getColumnId()\l+ setCathode()\l+ getCathode()\l+ setFirstStrip()\l+ getFirstStrip()\l+ setLastStrip()\l+ getLastStrip()\l+ ClassDefNV()\l+ getLine()\l+ getStripInLine()\l+ getStrip()\l}" alt="" coords="824,615,949,927"/>
+<area shape="rect" id="node8" href="$d9/d1e/classo2_1_1phos_1_1MCLabel.html" title="{o2::phos::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ operator==()\l+ operator=()\l+ add()\l+ scale()\l+ getEdep()\l+ ClassDefNV()\l}" alt="" coords="974,681,1106,861"/>
+<area shape="rect" id="node9" href="$d7/d53/classo2_1_1tof_1_1MCLabel.html" title="{o2::tof::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ getTDC()\l}" alt="" coords="1130,717,1249,824"/>
+<area shape="rect" id="node10" href="$dc/d6f/classo2_1_1zdc_1_1MCLabel.html" title="{o2::zdc::MCLabel\n||+ MCLabel()\l+ MCLabel()\l+ getChannel()\l+ ClassDefNV()\l}" alt="" coords="1273,710,1399,831"/>
+</map>

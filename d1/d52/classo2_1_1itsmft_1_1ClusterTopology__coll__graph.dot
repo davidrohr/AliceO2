@@ -1,0 +1,8 @@
+digraph "o2::itsmft::ClusterTopology"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::itsmft::ClusterTopology\n||+ ClusterTopology()\l+ ClusterTopology()\l+ ClusterTopology()\l+ getByte()\l+ getPattern()\l+ getClusterPattern()\l+ getRowSpan()\l+ getColumnSpan()\l+ getUsedBytes()\l+ getHash()\l+ print()\l+ setPattern()\l+ setPattern()\l+ hashFunction()\l+ getCompleteHash()\l+ getCompleteHash()\l+ makeRareTopologyMap()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

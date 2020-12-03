@@ -1,0 +1,8 @@
+digraph "o2::dataformats::RangeReference&lt; FirstEntry, NElem &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{o2::dataformats::RangeReference\l\< FirstEntry, NElem \>\n||+ RangeReference()\l+ RangeReference()\l+ RangeReference()\l+ ~RangeReference()\l+ set()\l+ clear()\l+ getFirstEntry()\l+ getEntries()\l+ setFirstEntry()\l+ setEntries()\l+ changeEntriesBy()\l+ operator==()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

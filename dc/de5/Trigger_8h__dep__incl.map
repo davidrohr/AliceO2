@@ -1,0 +1,22 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Generators/include/Generators/Trigger.h" name="/home/runner/work/AliceO2/AliceO2/Generators/include/Generators/Trigger.h">
+<area shape="rect" id="node2" href="$d9/d12/Generator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/Generator.h" alt="" coords="1028,109,1213,165"/>
+<area shape="rect" id="node17" href="$d6/d2d/Generator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/Generator.cxx" alt="" coords="1568,213,1748,269"/>
+<area shape="rect" id="node19" href="$d9/dc0/TriggerParticle_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/TriggerParticle.h" alt="" coords="181,109,370,165"/>
+<area shape="rect" id="node21" href="$d7/d96/Trigger_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/Trigger.cxx" alt="" coords="1289,109,1469,165"/>
+<area shape="rect" id="node3" href="$de/daf/GeneratorFromFile_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/GeneratorFromFile.h" alt="" coords="665,213,878,269"/>
+<area shape="rect" id="node9" href="$d1/dfe/GeneratorHepMC_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/GeneratorHepMC.h" alt="" coords="903,213,1109,269"/>
+<area shape="rect" id="node11" href="$d8/da5/GeneratorPythia8_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/GeneratorPythia8.h" alt="" coords="1133,213,1340,269"/>
+<area shape="rect" id="node13" href="$d2/d3c/GeneratorTGenerator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/GeneratorTGenerator.h" alt="" coords="406,213,633,269"/>
+<area shape="rect" id="node18" href="$dc/d20/PrimaryGenerator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/PrimaryGenerator.cxx" alt="" coords="1364,213,1544,269"/>
+<area shape="rect" id="node4" href="$d7/d11/o2__sim__tpc_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/o2_sim_tpc.cxx" alt="" coords="644,317,877,373"/>
+<area shape="rect" id="node5" href="$d0/d83/GeneratorFactory_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorFactory.cxx" alt="" coords="5,317,185,373"/>
+<area shape="rect" id="node6" href="$d2/d60/GeneratorFromFile_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorFromFile.cxx" alt="" coords="901,317,1081,373"/>
+<area shape="rect" id="node7" href="$dc/d50/O2PrimaryServerDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice.h" alt="" coords="1106,325,1357,366"/>
+<area shape="rect" id="node8" href="$db/d8f/O2PrimaryServerDeviceRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice\lRunner.cxx" alt="" coords="1112,421,1351,477"/>
+<area shape="rect" id="node10" href="$d9/d91/GeneratorHepMC_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorHepMC.cxx" alt="" coords="1381,317,1561,373"/>
+<area shape="rect" id="node12" href="$dc/d91/GeneratorPythia8_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorPythia8.cxx" alt="" coords="1585,317,1765,373"/>
+<area shape="rect" id="node14" href="$d1/d4a/GeneratorPythia6_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/include\l/Generators/GeneratorPythia6.h" alt="" coords="209,317,416,373"/>
+<area shape="rect" id="node16" href="$d8/de5/GeneratorTGenerator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorTGenerator.cxx" alt="" coords="440,317,620,373"/>
+<area shape="rect" id="node15" href="$d7/dab/GeneratorPythia6_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorPythia6.cxx" alt="" coords="223,421,403,477"/>
+<area shape="rect" id="node20" href="$db/d40/TriggerParticle_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/TriggerParticle.cxx" alt="" coords="185,213,365,269"/>
+</map>

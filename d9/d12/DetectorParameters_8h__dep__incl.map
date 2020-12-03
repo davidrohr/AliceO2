@@ -1,0 +1,36 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/DetectorParameters.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/DetectorParameters.h">
+<area shape="rect" id="node2" href="$de/d0c/GeometryTransformer_8h.html" title="Geometry transformer for MID. " alt="" coords="1133,243,1322,313"/>
+<area shape="rect" id="node11" href="$d7/de7/MUON_2MID_2Simulation_2src_2Geometry_8cxx.html" title="Implementation of the trigger&#45;stations geometry. " alt="" coords="2225,487,2449,543"/>
+<area shape="rect" id="node15" href="$d4/dc0/HitFinder_8cxx.html" title="Implementation of the hit finder for MID. " alt="" coords="5,480,185,551"/>
+<area shape="rect" id="node19" href="$de/dbc/MUON_2MID_2Tracking_2src_2Tracker_8cxx.html" title="Implementation of the tracker algorithm for the MID. " alt="" coords="1203,487,1403,543"/>
+<area shape="rect" id="node21" href="$d1/dbe/ChamberEfficiency_8cxx.html" title="Implementation of the chamber efficiency for the MID RPC. " alt="" coords="1621,131,1868,187"/>
+<area shape="rect" id="node22" href="$d0/d40/DetectorParameters_8cxx.html" title="Implementation of detector params for MID. " alt="" coords="1893,131,2146,187"/>
+<area shape="rect" id="node23" href="$d6/d73/MUON_2MID_2Base_2src_2Mapping_8cxx.html" title="Implementation of mapping for MID. " alt="" coords="2171,131,2356,187"/>
+<area shape="rect" id="node24" href="$dc/d07/MUON_2MID_2Clustering_2src_2Clusterizer_8cxx.html" title="Implementation of the cluster reconstruction algorithm for MID. " alt="" coords="2380,131,2608,187"/>
+<area shape="rect" id="node25" href="$db/d2e/PreClusterizer_8cxx.html" title="Implementation of the pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="2633,131,2881,187"/>
+<area shape="rect" id="node26" href="$d6/db2/ColumnDataToLocalBoard_8cxx.html" title="Converter from ColumnData to raw local boards. " alt="" coords="2905,131,3192,187"/>
+<area shape="rect" id="node27" href="$d5/dc0/CrateMapper_8cxx.html" title="FEE ID to board ID converter. " alt="" coords="3217,131,3425,187"/>
+<area shape="rect" id="node28" href="$d1/d9a/DecodedDataAggregator_8cxx.html" title="MID decoded raw data aggregator. " alt="" coords="3449,131,3725,187"/>
+<area shape="rect" id="node29" href="$d5/d52/bench__Raw_8cxx.html" title="Benchmark MID raw data decoder. " alt="" coords="3749,131,3956,187"/>
+<area shape="rect" id="node30" href="$db/d42/testCrateMapper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Raw/test/testCrateMapper.cxx" alt="" coords="3981,131,4215,187"/>
+<area shape="rect" id="node31" href="$d8/d4c/testRaw_8cxx.html" title="Test MID raw data decoder. " alt="" coords="4239,131,4426,187"/>
+<area shape="rect" id="node32" href="$d8/d82/ChamberHV_8h.html" title="HV values for MID RPCs. " alt="" coords="4451,124,4649,195"/>
+<area shape="rect" id="node3" href="$dc/d25/GeometryTransformer_8cxx.html" title="Geometry transformer for MID. " alt="" coords="825,369,1088,425"/>
+<area shape="rect" id="node4" href="$d3/d9d/Positions_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Base/test/src/Positions.cxx" alt="" coords="233,369,449,425"/>
+<area shape="rect" id="node5" href="$da/de1/MUON_2MID_2Simulation_2include_2MIDSimulation_2Digitizer_8h.html" title="Digitizer for MID. " alt="" coords="2395,361,2575,432"/>
+<area shape="rect" id="node7" href="$d6/d45/testSimulation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testSimulation.cxx" alt="" coords="665,487,920,543"/>
+<area shape="rect" id="node9" href="$d1/db4/MUON_2MID_2Simulation_2include_2MIDSimulation_2Geometry_8h.html" title="Implementation of the trigger&#45;stations geometry. " alt="" coords="1467,361,1651,432"/>
+<area shape="rect" id="node12" href="$dd/df0/testGeometry_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testGeometry.cxx" alt="" coords="1707,487,1958,543"/>
+<area shape="rect" id="node14" href="$d7/d40/HitFinder_8h.html" title="Hit finder for MID. " alt="" coords="473,361,691,432"/>
+<area shape="rect" id="node18" href="$db/d8e/MUON_2MID_2Tracking_2include_2MIDTracking_2Tracker_8h.html" title="Track reconstruction algorithm for MID. " alt="" coords="1113,361,1342,432"/>
+<area shape="rect" id="node6" href="$d6/df9/MUON_2MID_2Simulation_2src_2Digitizer_8cxx.html" title="Implementation of the digitizer for MID. " alt="" coords="2473,487,2688,543"/>
+<area shape="rect" id="node8" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="2712,487,2927,543"/>
+<area shape="rect" id="node10" href="$db/dac/MUON_2MID_2Simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/src/Detector.cxx" alt="" coords="1983,487,2200,543"/>
+<area shape="rect" id="node13" href="$da/d28/TrackerMCSpec_8cxx.html" title="Data processor spec for MID MC tracker device. " alt="" coords="1427,487,1683,543"/>
+<area shape="rect" id="node16" href="$d0/db9/bench__Tracker_8cxx.html" title="Benchmark tracker device for MID. " alt="" coords="209,480,389,551"/>
+<area shape="rect" id="node17" href="$da/de0/testTracker_8cxx.html" title="Test tracking device for MID. " alt="" coords="414,487,641,543"/>
+<area shape="rect" id="node20" href="$db/da5/MUON_2MID_2Workflow_2src_2TrackerSpec_8cxx.html" title="Data processor spec for MID tracker device. " alt="" coords="945,487,1179,543"/>
+<area shape="rect" id="node33" href="$d5/d62/ChamberResponse_8h.html" title="MID RPC response. " alt="" coords="2707,243,2945,313"/>
+<area shape="rect" id="node35" href="$d1/d9f/ChamberHV_8cxx.html" title="Implementation of the HV for MID RPCs. " alt="" coords="4431,250,4669,306"/>
+<area shape="rect" id="node34" href="$de/dc3/ChamberResponse_8cxx.html" title="Implementation MID RPC response. " alt="" coords="2599,369,2877,425"/>
+</map>

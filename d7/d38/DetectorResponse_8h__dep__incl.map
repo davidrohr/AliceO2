@@ -1,0 +1,6 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PIDBase/DetectorResponse.h" name="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PIDBase/DetectorResponse.h">
+<area shape="rect" id="node2" href="$d9/d66/PIDTOF_8h.html" title="Implementation of the TOF detector response for PID. " alt="" coords="5,109,199,165"/>
+<area shape="rect" id="node4" href="$df/d83/PIDTPC_8h.html" title="Implementation of the TPC detector response for PID. " alt="" coords="223,109,416,165"/>
+<area shape="rect" id="node3" href="$d5/d53/pidTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTOF.cxx" alt="" coords="12,213,192,269"/>
+<area shape="rect" id="node5" href="$db/da2/pidTPC_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTPC.cxx" alt="" coords="229,213,409,269"/>
+</map>

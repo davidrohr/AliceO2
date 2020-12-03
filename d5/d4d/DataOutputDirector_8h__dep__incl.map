@@ -1,0 +1,24 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/DataOutputDirector.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/DataOutputDirector.h">
+<area shape="rect" id="node2" href="$d6/d58/CommonDataProcessors_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/CommonDataProcessors.h" alt="" coords="2163,109,2461,165"/>
+<area shape="rect" id="node8" href="$db/d61/DataOutputDirector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataOutputDirector.cxx" alt="" coords="2485,109,2672,165"/>
+<area shape="rect" id="node9" href="$d9/da0/WorkflowHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.h" alt="" coords="1135,109,1315,165"/>
+<area shape="rect" id="node23" href="$d8/de2/test__DataOutputDirector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataOutputDirector.cxx" alt="" coords="2696,109,2915,165"/>
+<area shape="rect" id="node3" href="$df/d93/CommonDataProcessors_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonDataProcessors.cxx" alt="" coords="2079,213,2299,269"/>
+<area shape="rect" id="node4" href="$dc/da7/WorkflowHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.cxx" alt="" coords="1875,213,2055,269"/>
+<area shape="rect" id="node5" href="$d9/dd7/benchmark__TableToTree_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_TableToTree.cxx" alt="" coords="2324,213,2545,269"/>
+<area shape="rect" id="node6" href="$dc/dc4/benchmark__TreeToTable_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_TreeToTable.cxx" alt="" coords="2569,213,2791,269"/>
+<area shape="rect" id="node7" href="$da/dae/test__TreeToTable_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_TreeToTable.cxx" alt="" coords="2815,213,2995,269"/>
+<area shape="rect" id="node10" href="$d8/d84/DeviceSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpec.cxx" alt="" coords="591,213,771,269"/>
+<area shape="rect" id="node11" href="$df/dda/DeviceSpecHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpecHelpers.h" alt="" coords="847,213,1027,269"/>
+<area shape="rect" id="node12" href="$d1/dd9/DeviceSpecHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpecHelpers.cxx" alt="" coords="5,317,195,373"/>
+<area shape="rect" id="node15" href="$d9/d51/test__DeviceSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DeviceSpec.cxx" alt="" coords="1697,317,1877,373"/>
+<area shape="rect" id="node20" href="$d7/d5a/FrameworkGUIDevicesGraph_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/FrameworkGUIDevicesGraph.cxx" alt="" coords="1103,213,1348,269"/>
+<area shape="rect" id="node21" href="$df/d36/benchmark__WorkflowHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_WorkflowHelpers.cxx" alt="" coords="1372,213,1620,269"/>
+<area shape="rect" id="node22" href="$de/dc3/test__WorkflowHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_WorkflowHelpers.cxx" alt="" coords="1645,213,1851,269"/>
+<area shape="rect" id="node13" href="$dc/df3/ExternalFairMQDeviceProxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ExternalFairMQDeviceProxy.cxx" alt="" coords="219,317,458,373"/>
+<area shape="rect" id="node14" href="$d7/d54/runDataProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/runDataProcessing.cxx" alt="" coords="483,317,667,373"/>
+<area shape="rect" id="node16" href="$d4/de8/test__DeviceSpecHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DeviceSpecHelpers.cxx" alt="" coords="691,317,914,373"/>
+<area shape="rect" id="node17" href="$d6/d53/test__FrameworkDataFlowToDDS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_FrameworkDataFlowToDDS.cxx" alt="" coords="938,317,1209,373"/>
+<area shape="rect" id="node18" href="$d4/dc4/test__Graphviz_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_Graphviz.cxx" alt="" coords="1233,317,1413,373"/>
+<area shape="rect" id="node19" href="$dd/d8a/test__TimeParallelPipelining_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_TimeParallelPipelining.cxx" alt="" coords="1437,317,1672,373"/>
+</map>

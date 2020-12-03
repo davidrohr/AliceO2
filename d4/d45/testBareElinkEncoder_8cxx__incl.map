@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Payload/testBareElinkEncoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Payload/testBareElinkEncoder.cxx">
+<area shape="rect" id="node4" href="$df/d23/BareElinkEncoder_8h.html" title="BareElinkEncoder.h" alt="" coords="474,124,611,151"/>
+<area shape="rect" id="node18" href="$d5/d49/SampaHeader_8h.html" title="MCHRawCommon/SampaHeader.h" alt="" coords="506,273,736,300"/>
+<area shape="rect" id="node5" href="$dc/d46/Assertions_8h.html" title="Assertions.h" alt="" coords="1236,199,1331,225"/>
+<area shape="rect" id="node7" href="$d8/d8a/BitSet_8h.html" title="BitSet.h" alt="" coords="361,273,430,300"/>
+<area shape="rect" id="node13" href="$df/d0f/ElinkEncoder_8h.html" title="ElinkEncoder.h" alt="" coords="23,273,134,300"/>
+<area shape="rect" id="node15" href="$d4/ddc/EncoderImplHelper_8h.html" title="EncoderImplHelper.h" alt="" coords="577,199,721,225"/>
+<area shape="rect" id="node16" href="$d0/d5b/SampaCluster_8h.html" title="MCHRawCommon/SampaCluster.h" alt="" coords="812,273,1043,300"/>
+<area shape="rect" id="node17" href="$d0/d64/DataFormats_8h.html" title="MCHRawCommon/DataFormats.h" alt="" coords="821,348,1045,375"/>
+<area shape="rect" id="node19" href="$dd/d02/NofBits_8h.html" title="NofBits.h" alt="" coords="1118,273,1196,300"/>
+</map>

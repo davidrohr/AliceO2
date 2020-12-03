@@ -1,0 +1,52 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/MUON/MID/include/DataFormatsMID/Cluster2D.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/MUON/MID/include/DataFormatsMID\l/Cluster2D.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Clustering/include\l/MIDClustering/Clusterizer.h",height=0.2,width=0.4,color="black",URL="$d5/d51/MUON_2MID_2Clustering_2include_2MIDClustering_2Clusterizer_8h.html",tooltip="Cluster reconstruction algorithm for MID. "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Clustering/src/Clusterizer.cxx",height=0.2,width=0.4,color="black",URL="$dc/d07/MUON_2MID_2Clustering_2src_2Clusterizer_8cxx.html",tooltip="Implementation of the cluster reconstruction algorithm for MID. "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Clustering/test/bench\l_Clusterizer.cxx",height=0.2,width=0.4,color="black",URL="$d2/d12/bench__Clusterizer_8cxx.html",tooltip="Benchmark clustering device for MID. "];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Clustering/test/testClusterizer.cxx",height=0.2,width=0.4,color="black",URL="$d6/dee/testClusterizer_8cxx.html",tooltip="Test clustering device for MID. "];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testSimulation.cxx",height=0.2,width=0.4,color="black",URL="$d6/d45/testSimulation_8cxx.html"];
+  Node4 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/ClusterizerMCSpec.cxx",height=0.2,width=0.4,color="black",URL="$d3/d1e/ClusterizerMCSpec_8cxx.html",tooltip="Data processor spec for MID MC clustering device. "];
+  Node4 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/ClusterizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/d57/MUON_2MID_2Workflow_2src_2ClusterizerSpec_8cxx.html",tooltip="Data processor spec for MID clustering device. "];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/include\l/MIDSimulation/ClusterLabeler.h",height=0.2,width=0.4,color="black",URL="$d2/d6b/ClusterLabeler_8h.html",tooltip="ClusterLabeler for MID. "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/src/ClusterLabeler.cxx",height=0.2,width=0.4,color="black",URL="$dd/de0/ClusterLabeler_8cxx.html",tooltip="Implementation of the ClusterLabeler for MID. "];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/TestingSimTools/include\l/MIDTestingSimTools/HitFinder.h",height=0.2,width=0.4,color="black",URL="$d7/d40/HitFinder_8h.html",tooltip="Hit finder for MID. "];
+  Node13 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/TestingSimTools/src\l/HitFinder.cxx",height=0.2,width=0.4,color="black",URL="$d4/dc0/HitFinder_8cxx.html",tooltip="Implementation of the hit finder for MID. "];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Tracking/test/bench\l_Tracker.cxx",height=0.2,width=0.4,color="black",URL="$d0/db9/bench__Tracker_8cxx.html",tooltip="Benchmark tracker device for MID. "];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Tracking/test/testTracker.cxx",height=0.2,width=0.4,color="black",URL="$da/de0/testTracker_8cxx.html",tooltip="Test tracking device for MID. "];
+  Node3 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Tracking/include/MIDTracking\l/Tracker.h",height=0.2,width=0.4,color="black",URL="$db/d8e/MUON_2MID_2Tracking_2include_2MIDTracking_2Tracker_8h.html",tooltip="Track reconstruction algorithm for MID. "];
+  Node17 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Tracking/src/Tracker.cxx",height=0.2,width=0.4,color="black",URL="$de/dbc/MUON_2MID_2Tracking_2src_2Tracker_8cxx.html",tooltip="Implementation of the tracker algorithm for the MID. "];
+  Node17 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/TrackerMCSpec.cxx",height=0.2,width=0.4,color="black",URL="$da/d28/TrackerMCSpec_8cxx.html",tooltip="Data processor spec for MID MC tracker device. "];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/TrackerSpec.cxx",height=0.2,width=0.4,color="black",URL="$db/da5/MUON_2MID_2Workflow_2src_2TrackerSpec_8cxx.html",tooltip="Data processor spec for MID tracker device. "];
+  Node3 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

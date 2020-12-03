@@ -1,0 +1,23 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f8de85f281636d081fd2e7e06b0134d2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Raw" fontname="Helvetica", fontsize="10", URL="dir_f8de85f281636d081fd2e7e06b0134d2.html"]
+  dir_f87a9edca48b007957cfb7f714049dcc [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_f87a9edca48b007957cfb7f714049dcc.html"];
+  }
+  dir_55964488a5749f1fcba45aaf4e122cee [shape=box label="Common" color="red" URL="dir_55964488a5749f1fcba45aaf4e122cee.html"];
+  dir_060542ae88c3eb8c9b22a30de881a7e9 [shape=box label="Decoder" color="red" URL="dir_060542ae88c3eb8c9b22a30de881a7e9.html"];
+  dir_934398cf98861ce15dff28db7cb4f35f [shape=box label="Encoder" color="red" URL="dir_934398cf98861ce15dff28db7cb4f35f.html"];
+  dir_26637d1bd82229bc9ed97f7e706be743 [shape=box label="Raw" color="red" URL="dir_26637d1bd82229bc9ed97f7e706be743.html"];
+  dir_060542ae88c3eb8c9b22a30de881a7e9->dir_55964488a5749f1fcba45aaf4e122cee [headlabel="8", labeldistance=1.5 headhref="dir_000632_000627.html"];
+  dir_060542ae88c3eb8c9b22a30de881a7e9->dir_934398cf98861ce15dff28db7cb4f35f [headlabel="2", labeldistance=1.5 headhref="dir_000632_000489.html"];
+  dir_060542ae88c3eb8c9b22a30de881a7e9->dir_26637d1bd82229bc9ed97f7e706be743 [headlabel="5", labeldistance=1.5 headhref="dir_000632_000665.html"];
+  dir_934398cf98861ce15dff28db7cb4f35f->dir_55964488a5749f1fcba45aaf4e122cee [headlabel="24", labeldistance=1.5 headhref="dir_000489_000627.html"];
+  dir_934398cf98861ce15dff28db7cb4f35f->dir_26637d1bd82229bc9ed97f7e706be743 [headlabel="3", labeldistance=1.5 headhref="dir_000489_000665.html"];
+  dir_f87a9edca48b007957cfb7f714049dcc->dir_55964488a5749f1fcba45aaf4e122cee [headlabel="1", labeldistance=1.5 headhref="dir_000640_000627.html"];
+  dir_f87a9edca48b007957cfb7f714049dcc->dir_060542ae88c3eb8c9b22a30de881a7e9 [headlabel="1", labeldistance=1.5 headhref="dir_000640_000632.html"];
+  dir_f87a9edca48b007957cfb7f714049dcc->dir_934398cf98861ce15dff28db7cb4f35f [headlabel="2", labeldistance=1.5 headhref="dir_000640_000489.html"];
+  dir_f87a9edca48b007957cfb7f714049dcc->dir_26637d1bd82229bc9ed97f7e706be743 [headlabel="1", labeldistance=1.5 headhref="dir_000640_000665.html"];
+}

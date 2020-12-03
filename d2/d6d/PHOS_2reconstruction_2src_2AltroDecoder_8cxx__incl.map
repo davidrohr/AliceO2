@@ -1,0 +1,21 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/reconstruction/src/AltroDecoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/reconstruction/src/AltroDecoder.cxx">
+<area shape="rect" id="node5" href="$df/d46/PHOS_2reconstruction_2include_2PHOSReconstruction_2AltroDecoder_8h.html" title="PHOSReconstruction\l/AltroDecoder.h" alt="" coords="995,109,1143,151"/>
+<area shape="rect" id="node16" href="$da/daf/PHOS_2reconstruction_2include_2PHOSReconstruction_2RawReaderMemory_8h.html" title="PHOSReconstruction\l/RawReaderMemory.h" alt="" coords="646,199,799,240"/>
+<area shape="rect" id="node27" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1512,117,1690,143"/>
+<area shape="rect" id="node9" href="$d0/df5/PHOS_2base_2include_2PHOSBase_2RCUTrailer_8h.html" title="PHOSBase/RCUTrailer.h" alt="" coords="810,295,981,322"/>
+<area shape="rect" id="node13" href="$dd/d66/PHOS_2reconstruction_2include_2PHOSReconstruction_2Bunch_8h.html" title="PHOSReconstruction\l/Bunch.h" alt="" coords="39,288,187,329"/>
+<area shape="rect" id="node15" href="$d0/dd9/PHOS_2reconstruction_2include_2PHOSReconstruction_2Channel_8h.html" title="PHOSReconstruction\l/Channel.h" alt="" coords="196,199,344,240"/>
+<area shape="rect" id="node17" href="$d1/d88/PHOS_2reconstruction_2include_2PHOSReconstruction_2RawBuffer_8h.html" title="PHOSReconstruction\l/RawBuffer.h" alt="" coords="486,288,634,329"/>
+<area shape="rect" id="node19" href="$d1/dfc/PHOS_2reconstruction_2include_2PHOSReconstruction_2RawPayload_8h.html" title="PHOSReconstruction\l/RawPayload.h" alt="" coords="211,288,359,329"/>
+<area shape="rect" id="node20" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="1351,377,1539,404"/>
+<area shape="rect" id="node21" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="1389,295,1528,322"/>
+<area shape="rect" id="node22" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1614,377,1750,404"/>
+<area shape="rect" id="node23" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1492,452,1676,479"/>
+<area shape="rect" id="node24" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1700,452,1859,479"/>
+<area shape="rect" id="node28" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1157,295,1314,322"/>
+<area shape="rect" id="node29" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1496,199,1706,240"/>
+<area shape="rect" id="node32" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="2055,206,2184,233"/>
+<area shape="rect" id="node31" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="1634,295,1872,322"/>
+<area shape="rect" id="node33" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="2048,295,2204,322"/>
+<area shape="rect" id="node38" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="2379,377,2562,404"/>
+</map>

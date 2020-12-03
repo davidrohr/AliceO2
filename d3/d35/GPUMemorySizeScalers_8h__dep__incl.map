@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Base/GPUMemorySizeScalers.h" name="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Base/GPUMemorySizeScalers.h">
+<area shape="rect" id="node2" href="$db/d5b/GPUReconstruction_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Base/GPUReconstruction.cxx" alt="" coords="5,109,208,165"/>
+<area shape="rect" id="node3" href="$d2/d58/GPUChainTracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Global/GPUChainTracking.cxx" alt="" coords="232,109,437,165"/>
+<area shape="rect" id="node4" href="$d3/d85/GPUChainTrackingIO_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Global/GPUChainTrackingIO.cxx" alt="" coords="461,109,680,165"/>
+<area shape="rect" id="node5" href="$d0/d48/GPUO2Interface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Interface/GPUO2Interface.cxx" alt="" coords="704,109,907,165"/>
+<area shape="rect" id="node6" href="$d0/dd4/GPUTPCGMMerger_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Merger/GPUTPCGMMerger.cxx" alt="" coords="931,109,1143,165"/>
+<area shape="rect" id="node9" href="$db/d4b/GPUTPCTracker_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/SliceTracker/GPUTPCTracker.cxx" alt="" coords="1167,109,1395,165"/>
+<area shape="rect" id="node10" href="$df/da0/GPUTPCClusterFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCClusterFinder.cxx" alt="" coords="1419,109,1714,165"/>
+<area shape="rect" id="node7" href="$d0/d25/GPUReconstructionIncludesDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Base/GPUReconstructionIncludesDevice.h" alt="" coords="1019,213,1298,269"/>
+<area shape="rect" id="node8" href="$d3/d33/GPUReconstructionHIP_8hip_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Base/hip/GPUReconstructionHIP.hip.cxx" alt="" coords="1025,317,1292,373"/>
+</map>

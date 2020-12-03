@@ -1,0 +1,13 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/AlpideCoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/AlpideCoder.cxx">
+<area shape="rect" id="node2" href="$d8/da2/AlpideCoder_8h.html" title="class for the ALPIDE data decoding/encoding " alt="" coords="623,124,782,165"/>
+<area shape="rect" id="node8" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="5,221,147,247"/>
+<area shape="rect" id="node10" href="$d0/d35/PayLoadCont_8h.html" title="Declaration of class for continuos buffer of ALPIDE data. " alt="" coords="408,221,520,247"/>
+<area shape="rect" id="node15" href="$da/d8d/PixelData_8h.html" title="Transient data classes for single pixel and set of pixels from current chip. " alt="" coords="797,213,955,255"/>
+<area shape="rect" id="node23" href="$dc/dc5/DecodingStat_8h.html" title="Alpide Chip and GBT link decoding statistics. " alt="" coords="595,303,754,344"/>
+<area shape="rect" id="node27" href="$d0/d7b/NoiseMap_8h.html" title="Definition of the ITSMFT NoiseMap. " alt="" coords="1103,221,1323,247"/>
+<area shape="rect" id="node16" href="$d3/d1e/DataFormats_2Detectors_2ITSMFT_2common_2include_2DataFormatsITSMFT_2Digit_8h.html" title="DataFormatsITSMFT/Digit.h" alt="" coords="862,310,1050,337"/>
+<area shape="rect" id="node18" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1282,303,1491,344"/>
+<area shape="rect" id="node19" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1071,399,1228,426"/>
+<area shape="rect" id="node22" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="1252,399,1489,426"/>
+<area shape="rect" id="node25" href="$dd/d86/GBTWord_8h.html" title="ITSMFTReconstruction\l/GBTWord.h" alt="" coords="753,392,911,433"/>
+</map>

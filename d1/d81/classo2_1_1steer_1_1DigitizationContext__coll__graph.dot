@@ -1,0 +1,8 @@
+digraph "o2::steer::DigitizationContext"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::steer::DigitizationContext\n||+ DigitizationContext()\l+ getNCollisions()\l+ setNCollisions()\l+ setMaxNumberParts()\l+ getMaxNumberParts()\l+ getEventRecords()\l+ getEventParts()\l+ getEventRecords()\l+ getEventParts()\l+ isQEDProvided()\l+ getBunchFilling()\l+ getBunchFilling()\l+ setMuPerBC()\l+ getMuPerBC()\l+ printCollisionSummary()\l+ setSimPrefixes()\l+ getSimPrefixes()\l+ fillQED()\l+ initSimChains()\l+ initSimKinematicsChains()\l+ checkVertexCompatibility()\l+ retrieveHits()\l+ getGRP()\l+ saveToFile()\l+ loadFromFile()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

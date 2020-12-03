@@ -1,0 +1,10 @@
+digraph "o2::trd::TrapConfig::TrapRegister"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::trd::TrapConfig\l::TrapRegister\n|# mName\l# mAddr\l# mNbits\l# mResetValue\l|+ TrapRegister()\l+ ~TrapRegister()\l+ init()\l+ initfromrun2()\l+ reset()\l+ setValue()\l+ setValue()\l+ getValue()\l+ getName()\l+ getAddr()\l+ getNbits()\l+ getResetValue()\l# TrapRegister()\l# operator=()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::trd::TrapConfig\l::TrapValue\n|+ mgkSize\l|+ TrapValue()\l+ ~TrapValue()\l+ allocate()\l+ allocatei()\l+ setDataFromRun2()\l+ getAllocMode()\l+ getDataRaw()\l+ getValidRaw()\l+ getDataSize()\l# setData()\l# setData()\l# setData()\l# getData()\l# getIdx()\l}",height=0.2,width=0.4,color="black",URL="$d0/dbb/classo2_1_1trd_1_1TrapConfig_1_1TrapValue.html"];
+}

@@ -1,0 +1,3 @@
+<map id="FairMCEventHeader" name="FairMCEventHeader">
+<area shape="rect" id="node2" href="$d4/db1/classo2_1_1dataformats_1_1MCEventHeader.html" title="{o2::dataformats::MCEvent\lHeader\n|# mEmbeddingFileName\l# mEmbeddingEventIndex\l# mEventStats\l|+ MCEventHeader()\l+ MCEventHeader()\l+ operator=()\l+ ~MCEventHeader()\l+ setEmbeddingFileName()\l+ setEmbeddingEventIndex()\l+ getEmbeddedIndex()\l+ Reset()\l+ getMCEventStats()\l# ClassDefOverride()\l}" alt="" coords="5,131,196,384"/>
+</map>

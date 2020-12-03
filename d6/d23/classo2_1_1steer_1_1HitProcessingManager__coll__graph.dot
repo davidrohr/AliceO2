@@ -1,0 +1,8 @@
+digraph "o2::steer::HitProcessingManager"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::steer::HitProcessing\lManager\n||+ ~HitProcessingManager()\l+ addInputFile()\l+ addInputSignalFile()\l+ setGeometryFile()\l+ getInteractionSampler()\l+ sampleCollisionTimes()\l+ sampleCollisionConstituents()\l+ run()\l+ registerRunFunction()\l+ setupRun()\l+ getDigitizationContext()\l+ getDigitizationContext()\l+ writeDigitizationContext()\l+ setupRunFromExistingContext()\l+ setRandomEventSequence()\l+ instance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

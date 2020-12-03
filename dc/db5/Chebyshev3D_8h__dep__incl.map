@@ -1,0 +1,37 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Common/MathUtils/include/MathUtils/Chebyshev3D.h" name="/home/runner/work/AliceO2/AliceO2/Common/MathUtils/include/MathUtils/Chebyshev3D.h">
+<area shape="rect" id="node2" href="$dd/dfb/MagneticWrapperChebyshev_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/Field/include\l/Field/MagneticWrapperChebyshev.h" alt="" coords="2891,109,3129,165"/>
+<area shape="rect" id="node36" href="$d8/d8d/Chebyshev3D_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/MathUtils\l/src/Chebyshev3D.cxx" alt="" coords="3153,109,3342,165"/>
+<area shape="rect" id="node3" href="$db/d4b/MagneticField_8h.html" title="Definition of the MagF class. " alt="" coords="2788,213,2995,269"/>
+<area shape="rect" id="node35" href="$de/d97/MagneticWrapperChebyshev_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/Field/src\l/MagneticWrapperChebyshev.cxx" alt="" coords="3019,213,3238,269"/>
+<area shape="rect" id="node4" href="$da/d34/MagFieldFact_8h.html" title="Definition of the MagFieldFact: factory for ALIDE mag. field from MagFieldParam. " alt="" coords="5,325,212,381"/>
+<area shape="rect" id="node5" href="$d0/dec/MagFieldFact_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/Field/src\l/MagFieldFact.cxx" alt="" coords="88,443,271,499"/>
+<area shape="rect" id="node6" href="$df/d54/MagFieldParam_8cxx.html" title="Implementation of the MagFieldParam class. " alt="" coords="288,325,471,381"/>
+<area shape="rect" id="node7" href="$d2/d78/MagneticField_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/Field/src\l/MagneticField.cxx" alt="" coords="495,325,677,381"/>
+<area shape="rect" id="node8" href="$d6/dda/testMagneticField_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/Field/test\l/testMagneticField.cxx" alt="" coords="702,325,889,381"/>
+<area shape="rect" id="node9" href="$d3/dee/Base_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/Detector.cxx" alt="" coords="913,325,1093,381"/>
+<area shape="rect" id="node10" href="$d8/dee/Propagator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/Propagator.cxx" alt="" coords="1117,325,1297,381"/>
+<area shape="rect" id="node11" href="$d3/d0f/FIT_2FDD_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Detector.cxx" alt="" coords="1322,325,1541,381"/>
+<area shape="rect" id="node12" href="$db/d6a/MatchTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTOF.cxx" alt="" coords="1565,325,1789,381"/>
+<area shape="rect" id="node13" href="$dc/d59/MatchTPCITS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx" alt="" coords="1813,325,2037,381"/>
+<area shape="rect" id="node14" href="$d7/dca/CookedTracker_8cxx.html" title="Implementation of the &quot;Cooked Matrix&quot; ITS tracker. " alt="" coords="2060,325,2333,381"/>
+<area shape="rect" id="node15" href="$d6/dbc/CookedTrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/CookedTrackerSpec.cxx" alt="" coords="2357,325,2631,381"/>
+<area shape="rect" id="node16" href="$de/d95/ITSMFT_2ITS_2workflow_2src_2TrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/TrackerSpec.cxx" alt="" coords="2655,325,2883,381"/>
+<area shape="rect" id="node17" href="$d0/d6b/ITSMFT_2MFT_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/Detector.cxx" alt="" coords="2907,325,3124,381"/>
+<area shape="rect" id="node18" href="$d1/dd0/ITSMFT_2MFT_2workflow_2src_2TrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/workflow/src/TrackerSpec.cxx" alt="" coords="3149,325,3383,381"/>
+<area shape="rect" id="node19" href="$d1/d8b/TrackFinder_8cxx.html" title="Implementation of a class to reconstruct tracks. " alt="" coords="3408,325,3639,381"/>
+<area shape="rect" id="node20" href="$d6/d6d/TrackFinderOriginal_8cxx.html" title="Implementation of a class to reconstruct tracks with the original algorithm. " alt="" coords="3663,325,3938,381"/>
+<area shape="rect" id="node21" href="$de/db3/MUON_2MCH_2Tracking_2src_2TrackFitter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/src/TrackFitter.cxx" alt="" coords="3963,325,4188,381"/>
+<area shape="rect" id="node22" href="$d1/d96/TrackAtVertexSpec_8cxx.html" title="Implementation of a data processor to extrapolate the tracks to the vertex. " alt="" coords="4213,317,4439,388"/>
+<area shape="rect" id="node23" href="$de/da5/FrameStructure_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Passive\l/src/FrameStructure.cxx" alt="" coords="4463,325,4647,381"/>
+<area shape="rect" id="node24" href="$d3/db6/SpaceCharge_8h.html" title="This class contains the algorithms for calculation the distortions and corrections. " alt="" coords="4672,317,4927,388"/>
+<area shape="rect" id="node29" href="$d9/d9e/CommonParam_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/base/src/CommonParam.cxx" alt="" coords="4951,325,5147,381"/>
+<area shape="rect" id="node30" href="$dc/d6e/testTRDDiffusionCoefficient_8cxx.html" title="This task tests the Diffusion Coefficient module of the TRD digitization. " alt="" coords="5171,325,5446,381"/>
+<area shape="rect" id="node31" href="$dd/d2b/o2__sim__its__ALP3_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/o2_sim_its_ALP3.cxx" alt="" coords="5471,325,5704,381"/>
+<area shape="rect" id="node32" href="$d7/d11/o2__sim__tpc_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/o2_sim_tpc.cxx" alt="" coords="5728,325,5961,381"/>
+<area shape="rect" id="node33" href="$dc/d50/O2PrimaryServerDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice.h" alt="" coords="5986,332,6237,373"/>
+<area shape="rect" id="node25" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="4563,436,4785,507"/>
+<area shape="rect" id="node28" href="$da/d8e/SpaceCharge_8cxx.html" title="Definition of SpaceCharge class. " alt="" coords="4809,443,5040,499"/>
+<area shape="rect" id="node26" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="4470,555,4654,611"/>
+<area shape="rect" id="node27" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="4679,555,4893,611"/>
+<area shape="rect" id="node34" href="$db/d8f/O2PrimaryServerDeviceRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice\lRunner.cxx" alt="" coords="5992,443,6231,499"/>
+</map>

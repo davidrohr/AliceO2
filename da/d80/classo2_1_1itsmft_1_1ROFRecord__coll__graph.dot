@@ -1,0 +1,8 @@
+digraph "o2::itsmft::ROFRecord"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::itsmft::ROFRecord\n||+ ROFRecord()\l+ ROFRecord()\l+ setBCData()\l+ setROFrame()\l+ setEntry()\l+ setFirstEntry()\l+ setNEntries()\l+ getBCData()\l+ getBCData()\l+ getEntry()\l+ getEntry()\l+ getNEntries()\l+ getFirstEntry()\l+ getROFrame()\l+ clear()\l+ print()\l+ getROFData()\l+ getROFDataAt()\l+ getROFData()\l+ getROFDataAt()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

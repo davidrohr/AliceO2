@@ -1,0 +1,21 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/CollectCalibInfoTOF.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/CollectCalibInfoTOF.h">
+<area shape="rect" id="node8" href="$d6/d9c/CalibInfoTOF_8h.html" title="Class to store the output of the matching to TOF for calibration. " alt="" coords="1583,199,1763,240"/>
+<area shape="rect" id="node9" href="$d4/d78/CalibInfoTOFshort_8h.html" title="Class to store the output of the matching to TOF for calibration (no channel info, available in CalibInfoTOF.h) " alt="" coords="5,199,185,240"/>
+<area shape="rect" id="node10" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="1062,124,1179,151"/>
+<area shape="rect" id="node11" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="998,474,1235,501"/>
+<area shape="rect" id="node12" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="971,206,1145,233"/>
+<area shape="rect" id="node13" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1769,295,1947,322"/>
+<area shape="rect" id="node23" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1269,377,1479,419"/>
+<area shape="rect" id="node35" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="479,377,658,419"/>
+<area shape="rect" id="node41" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="717,288,895,329"/>
+<area shape="rect" id="node44" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1425,295,1622,322"/>
+<area shape="rect" id="node14" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2494,474,2630,501"/>
+<area shape="rect" id="node17" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1478,474,1635,501"/>
+<area shape="rect" id="node18" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="1868,474,2056,501"/>
+<area shape="rect" id="node20" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="1895,385,2034,411"/>
+<area shape="rect" id="node26" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="2084,385,2213,411"/>
+<area shape="rect" id="node15" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2795,556,2979,583"/>
+<area shape="rect" id="node16" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2612,556,2771,583"/>
+<area shape="rect" id="node27" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="2132,474,2288,501"/>
+<area shape="rect" id="node33" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1973,556,2156,583"/>
+</map>

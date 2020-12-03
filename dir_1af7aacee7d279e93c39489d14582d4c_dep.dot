@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Mapping/SegContour/include/MCHMappingSegContour" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_aa08e53bf10e46bc061669876836df7d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_aa08e53bf10e46bc061669876836df7d.html"]
+  dir_1af7aacee7d279e93c39489d14582d4c [shape=box, label="MCHMappingSegContour", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1af7aacee7d279e93c39489d14582d4c.html"];
+  }
+  dir_bb33a65c2c121b6655a8db1556a9cb2b [shape=box label="Interface" color="red" URL="dir_bb33a65c2c121b6655a8db1556a9cb2b.html"];
+  dir_f53aaea7b1f4a3d2e21e52645ea2576d [shape=box label="Contour" color="red" URL="dir_f53aaea7b1f4a3d2e21e52645ea2576d.html"];
+  dir_1af7aacee7d279e93c39489d14582d4c->dir_bb33a65c2c121b6655a8db1556a9cb2b [headlabel="2", labeldistance=1.5 headhref="dir_000621_000592.html"];
+  dir_1af7aacee7d279e93c39489d14582d4c->dir_f53aaea7b1f4a3d2e21e52645ea2576d [headlabel="6", labeldistance=1.5 headhref="dir_000621_000283.html"];
+}

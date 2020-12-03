@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/GBTOutputHandler.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/GBTOutputHandler.h">
+<area shape="rect" id="node5" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="241,199,450,240"/>
+<area shape="rect" id="node11" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="247,124,455,151"/>
+<area shape="rect" id="node12" href="$d2/da5/CrateParameters_8h.html" title="MID RO crate parameters. " alt="" coords="1091,206,1279,233"/>
+<area shape="rect" id="node13" href="$d8/de7/ElectronicsDelay_8h.html" title="Delay parameters for MID electronics. " alt="" coords="479,124,667,151"/>
+<area shape="rect" id="node15" href="$de/d54/ELinkDecoder_8h.html" title="MID e&#45;link decoder. " alt="" coords="800,124,971,151"/>
+<area shape="rect" id="node17" href="$d3/d4a/LocalBoardRO_8h.html" title="Structure to store the FEE local board information. " alt="" coords="673,206,847,233"/>
+<area shape="rect" id="node6" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="267,288,424,315"/>
+<area shape="rect" id="node10" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="5,288,243,315"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/PreClustering/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6229e1f1a243f5ed3f0013dfa4f13deb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PreClustering" fontname="Helvetica", fontsize="10", URL="dir_6229e1f1a243f5ed3f0013dfa4f13deb.html"]
+  dir_4624e4eb636fdecc4c4b4b837c04f177 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_4624e4eb636fdecc4c4b4b837c04f177.html"];
+  }
+  dir_51c9f1ab42d905cb59d3f62357040d76 [shape=box label="include" color="red" URL="dir_51c9f1ab42d905cb59d3f62357040d76.html"];
+  dir_b098e3604916eca5f90f2bb1c75b7880 [shape=box label="Mapping" color="red" URL="dir_b098e3604916eca5f90f2bb1c75b7880.html"];
+  dir_4624e4eb636fdecc4c4b4b837c04f177->dir_51c9f1ab42d905cb59d3f62357040d76 [headlabel="1", labeldistance=1.5 headhref="dir_000626_000624.html"];
+  dir_4624e4eb636fdecc4c4b4b837c04f177->dir_b098e3604916eca5f90f2bb1c75b7880 [headlabel="2", labeldistance=1.5 headhref="dir_000626_000591.html"];
+}

@@ -1,0 +1,24 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h">
+<area shape="rect" id="node9" href="$d3/d6e/DataFormats_2Detectors_2EMCAL_2include_2DataFormatsEMCAL_2Digit_8h.html" title="DataFormatsEMCAL/Digit.h" alt="" coords="3738,206,3925,233"/>
+<area shape="rect" id="node21" href="$dd/da8/EMCAL_2base_2include_2EMCALBase_2Geometry_8h.html" title="EMCALBase/Geometry.h" alt="" coords="2401,206,2571,233"/>
+<area shape="rect" id="node29" href="$db/dcf/EMCAL_2base_2include_2EMCALBase_2GeometryBase_8h.html" title="EMCALBase/GeometryBase.h" alt="" coords="1910,295,2110,322"/>
+<area shape="rect" id="node39" href="$d8/d16/Detectors_2EMCAL_2base_2include_2EMCALBase_2Hit_8h.html" title="EMCALBase/Hit.h" alt="" coords="1965,124,2095,151"/>
+<area shape="rect" id="node48" href="$dc/dca/EMCAL_2simulation_2include_2EMCALSimulation_2SimParam_8h.html" title="EMCALSimulation/SimParam.h" alt="" coords="4845,124,5050,151"/>
+<area shape="rect" id="node58" href="$d2/d41/LabeledDigit_8h.html" title="EMCALSimulation/LabeledDigit.h" alt="" coords="3593,124,3809,151"/>
+<area shape="rect" id="node61" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="4255,199,4407,240"/>
+<area shape="rect" id="node12" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="3085,295,3311,322"/>
+<area shape="rect" id="node17" href="$dd/dda/DataFormats_2Detectors_2EMCAL_2include_2DataFormatsEMCAL_2Constants_8h.html" title="DataFormatsEMCAL/Constants.h" alt="" coords="3335,295,3554,322"/>
+<area shape="rect" id="node13" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="3119,385,3277,411"/>
+<area shape="rect" id="node14" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2462,467,2598,493"/>
+<area shape="rect" id="node15" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2341,541,2525,568"/>
+<area shape="rect" id="node16" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2549,541,2708,568"/>
+<area shape="rect" id="node30" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1737,295,1886,322"/>
+<area shape="rect" id="node38" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="2053,385,2234,411"/>
+<area shape="rect" id="node40" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1954,199,2106,240"/>
+<area shape="rect" id="node41" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="1735,206,1930,233"/>
+<area shape="rect" id="node42" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="257,295,451,322"/>
+<area shape="rect" id="node49" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="5133,288,5311,329"/>
+<area shape="rect" id="node54" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="4917,199,5095,240"/>
+<area shape="rect" id="node59" href="$d3/dc8/DataFormats_2Detectors_2EMCAL_2include_2DataFormatsEMCAL_2MCLabel_8h.html" title="DataFormatsEMCAL/MCLabel.h" alt="" coords="2994,206,3205,233"/>
+<area shape="rect" id="node60" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="2909,288,3061,329"/>
+</map>

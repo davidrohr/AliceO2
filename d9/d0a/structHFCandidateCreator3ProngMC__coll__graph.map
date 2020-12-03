@@ -1,0 +1,5 @@
+<map id="HFCandidateCreator3ProngMC" name="HFCandidateCreator3ProngMC">
+<area shape="rect" id="node2" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::HfCandProng3MCGen \&gt;\n||}" alt="" coords="5,145,212,237"/>
+<area shape="rect" id="node3" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\&lt; T \&gt;\n||}" alt="" coords="123,5,323,83"/>
+<area shape="rect" id="node4" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::HfCandProng3MCRec \&gt;\n||}" alt="" coords="236,145,443,237"/>
+</map>

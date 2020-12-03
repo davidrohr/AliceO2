@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PID/PIDTPC.h" name="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PID/PIDTPC.h">
+<area shape="rect" id="node4" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="343,191,484,218"/>
+<area shape="rect" id="node6" href="$d5/d08/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2PID_8h.html" title="ReconstructionDataFormats\l/PID.h" alt="" coords="36,184,223,225"/>
+<area shape="rect" id="node9" href="$dc/d68/DetectorResponse_8h.html" title="Handler for any detector (or other entity) response. This provides the basic quantities computed by a..." alt="" coords="438,109,637,136"/>
+<area shape="rect" id="node7" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="36,273,193,300"/>
+<area shape="rect" id="node8" href="$d3/d9d/PhysicsConstants_8h.html" title="Header to collect physics constants. " alt="" coords="218,273,475,300"/>
+<area shape="rect" id="node13" href="$d0/ded/ParamBase_8h.html" title="Set of utilities to handle the parametrization of the PID response for each detector These are the ba..." alt="" coords="678,191,837,218"/>
+</map>

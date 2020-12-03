@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$d0/d76/classo2_1_1framework_1_1InputRecord_1_1Iterator.html" title="o2::framework::InputRecord\l::Iterator\&lt; InputRecord, T \&gt;" alt="" coords="168,5,352,47"/>
+<area shape="rect" id="node4" href="$d1/d05/classo2_1_1framework_1_1InputSpan_1_1Iterator.html" title="o2::framework::InputSpan\l::Iterator\&lt; InputSpan, T \&gt;" alt="" coords="174,71,346,112"/>
+<area shape="rect" id="node6" href="$de/d5f/classo2_1_1algorithm_1_1PageParser_1_1Iterator.html" title="o2::algorithm::PageParser\l\&lt; PageHeaderT, PageSize,\l ElementT, GroupT, GetNElements\lFctT \&gt;::Iterator\&lt; T \&gt;" alt="" coords="147,136,373,207"/>
+<area shape="rect" id="node7" href="$dc/dfd/classo2_1_1framework_1_1DPLRawParser_1_1Iterator.html" title="o2::framework::DPLRawParser\l::Iterator\&lt; T \&gt;" alt="" coords="158,231,362,272"/>
+<area shape="rect" id="node8" href="$d0/d76/classo2_1_1framework_1_1InputRecord_1_1Iterator.html" title="o2::framework::InputRecord\l::Iterator\&lt; ParentT, T \&gt;" alt="" coords="168,296,352,337"/>
+<area shape="rect" id="node9" href="$d1/de9/classo2_1_1framework_1_1InputRecordWalker_1_1Iterator.html" title="o2::framework::InputRecord\lWalker::Iterator\&lt; T \&gt;" alt="" coords="168,361,352,403"/>
+<area shape="rect" id="node10" href="$d1/d05/classo2_1_1framework_1_1InputSpan_1_1Iterator.html" title="an iterator class working on position within the a parent class " alt="" coords="174,427,346,468"/>
+<area shape="rect" id="node11" href="$d6/d9f/classo2_1_1framework_1_1RawParser_1_1Iterator.html" title="o2::framework::RawParser\l\&lt; MAX_SIZE \&gt;::Iterator\l\&lt; T, ParentType \&gt;" alt="" coords="171,493,349,549"/>
+<area shape="rect" id="node3" href="$d2/d86/classo2_1_1framework_1_1InputRecord_1_1InputRecordIterator.html" title="o2::framework::InputRecord\l::InputRecordIterator\&lt; T \&gt;" alt="" coords="421,5,605,47"/>
+<area shape="rect" id="node5" href="$d4/dce/classo2_1_1framework_1_1InputSpan_1_1InputSpanIterator.html" title="o2::framework::InputSpan\l::InputSpanIterator\&lt; T \&gt;" alt="" coords="427,71,599,112"/>
+</map>

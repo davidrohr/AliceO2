@@ -1,0 +1,6 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/reconstruction/include/TPCReconstruction/DigitalCurrentClusterIntegrator.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/reconstruction/include/TPCReconstruction/DigitalCurrentClusterIntegrator.h">
+<area shape="rect" id="node2" href="$d2/d41/HardwareClusterDecoder_8h.html" title="Decoder to convert TPC ClusterHardware to ClusterNative. " alt="" coords="125,139,368,224"/>
+<area shape="rect" id="node5" href="$d1/d81/DigitalCurrentClusterIntegrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/DigitalCurrent\lClusterIntegrator.cxx" alt="" coords="393,146,607,217"/>
+<area shape="rect" id="node3" href="$d4/d7c/HardwareClusterDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/HardwareCluster\lDecoder.cxx" alt="" coords="5,272,237,343"/>
+<area shape="rect" id="node4" href="$d9/d7b/ClusterDecoderRawSpec_8cxx.html" title="Processor spec for decoder of TPC raw cluster data. " alt="" coords="262,272,485,343"/>
+</map>

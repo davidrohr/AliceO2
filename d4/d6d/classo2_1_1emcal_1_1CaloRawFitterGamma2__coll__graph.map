@@ -1,0 +1,4 @@
+<map id="o2::emcal::CaloRawFitterGamma2" name="o2::emcal::CaloRawFitterGamma2">
+<area shape="rect" id="node2" href="$d8/d83/classo2_1_1emcal_1_1CaloRawFitter.html" title="{o2::emcal::CaloRawFitter\n||+ CaloRawFitter()\l+ ~CaloRawFitter()\l+ evaluate()\l+ preFitEvaluateSamples()\l+ setTimeConstraint()\l+ setIsZeroSuppressed()\l+ setAmpCut()\l+ setNsamplePed()\l+ setL1Phase()\l+ getIsZeroSuppressed()\l+ getAmpCut()\l+ getNsamplePed()\l+ getReversed()\l+ getAlgoName()\l+ getAlgoAbbr()\l+ getAlgo()\l+ maxAmp()\l+ maxAmp()\l+ checkBunchEdgesForMax()\l+ isInTimeRange()\l+ reverseAndSubtractPed()\l+ selectBunch()\l+ selectSubarray()\l+ evaluatePedestal()\l+ calculateChi2()\l# ClassDefNV()\l}" alt="" coords="178,219,373,663"/>
+<area shape="rect" id="node5" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="207,13,253,90"/>
+</map>

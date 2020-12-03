@@ -1,0 +1,5 @@
+<map id="o2::cpv::Clusterer" name="o2::cpv::Clusterer">
+<area shape="rect" id="node3" href="$dc/d10/classshort.html" title="{short\n||}" alt="" coords="226,71,277,149"/>
+<area shape="rect" id="node7" href="$d3/dd0/classo2_1_1cpv_1_1BadChannelMap.html" title="CCDB container for bad (masked) channels in CPV. " alt="" coords="706,5,914,215"/>
+<area shape="rect" id="node8" href="$d3/df4/classo2_1_1cpv_1_1CalibParams.html" title="{o2::cpv::CalibParams\n||+ CalibParams()\l+ CalibParams()\l+ ~CalibParams()\l+ getGain()\l+ setGain()\l+ setGain()\l}" alt="" coords="939,35,1087,185"/>
+</map>

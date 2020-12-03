@@ -1,0 +1,8 @@
+digraph "o2::qa::features::Feature"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::qa::features::Feature\n||+ Feature()\l+ Feature()\l+ MCRaw()\l+ RecRaw()\l+ UnitRaw()\l+ NameRaw()\l+ Name()\l+ MC()\l+ Rec()\l+ MCRecDiff()\l+ RelativeMCRecDiff()\l+ Unit()\l+ operator std::string()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

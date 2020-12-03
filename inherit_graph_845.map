@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$d3/dfa/classo2_1_1fit_1_1DataBlockBase.html" title="o2::fit::DataBlockBase\l\&lt; DataBlockPM, RawHeaderPM,\l RawDataPM \&gt;" alt="" coords="133,5,349,61"/>
+<area shape="rect" id="node4" href="$d3/dfa/classo2_1_1fit_1_1DataBlockBase.html" title="o2::fit::DataBlockBase\l\&lt; DataBlockTCM, RawHeaderTCM,\l RawDataTCM \&gt;" alt="" coords="124,85,359,141"/>
+<area shape="rect" id="node6" href="$d3/dfa/classo2_1_1fit_1_1DataBlockBase.html" title="o2::fit::DataBlockBase\l\&lt; DataBlockTCMext, RawHeader\lTCMext, RawDataTCM, RawDataTCMext \&gt;" alt="" coords="100,165,383,221"/>
+<area shape="rect" id="node8" href="$d3/dfa/classo2_1_1fit_1_1DataBlockBase.html" title="o2::fit::DataBlockBase\l\&lt; DataBlock, Header, DataStructures \&gt;" alt="" coords="115,246,368,287"/>
+<area shape="rect" id="node3" href="$d7/dde/classo2_1_1ft0_1_1DataBlockPM.html" title="o2::ft0::DataBlockPM" alt="" coords="444,20,592,47"/>
+<area shape="rect" id="node5" href="$de/d11/classo2_1_1ft0_1_1DataBlockTCM.html" title="o2::ft0::DataBlockTCM" alt="" coords="439,100,597,127"/>
+<area shape="rect" id="node7" href="$df/d91/classo2_1_1ft0_1_1DataBlockTCMext.html" title="o2::ft0::DataBlockTCMext" alt="" coords="431,180,605,207"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="o2::framework::is_messageable&lt; T &gt;" name="o2::framework::is_messageable&lt; T &gt;">
+<area shape="rect" id="node3" href="$de/de6/structo2_1_1framework_1_1is__messageable.html" title="{o2::framework::is_messageable\l\&lt; T::value_type \&gt;\n||}" alt="" coords="45,345,252,437"/>
+<area shape="rect" id="node4" href="$de/daa/structo2_1_1framework_1_1has__messageable__value__type_3_01T_00_01std_1_1conditional__t_3_01falsc0ccb74b139ceafbf5dcec91225c029a.html" title="{o2::framework::has\l_messageable_value_type\l\&lt; T, std::conditional_t\l\&lt; false, typename T::value\l_type, void \&gt; \&gt;\n||}" alt="" coords="59,487,238,623"/>
+</map>

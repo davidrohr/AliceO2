@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/MUON/MCH/include/DataFormatsMCH/TrackMCH.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/MUON/MCH/include/DataFormatsMCH/TrackMCH.h">
+<area shape="rect" id="node2" href="$d4/ddb/TrackMCH_8cxx.html" title="Implementation of the MCH track. " alt="" coords="5,131,223,187"/>
+<area shape="rect" id="node3" href="$d1/d96/TrackAtVertexSpec_8cxx.html" title="Implementation of a data processor to extrapolate the tracks to the vertex. " alt="" coords="247,124,474,195"/>
+<area shape="rect" id="node4" href="$d7/d30/TrackFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="499,124,753,195"/>
+<area shape="rect" id="node5" href="$dd/dea/TrackFinderSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="778,131,1045,187"/>
+<area shape="rect" id="node6" href="$db/d54/TrackFitterSpec_8cxx.html" title="Implementation of a data processor to read, refit and send tracks with attached clusters. " alt="" coords="1069,131,1329,187"/>
+<area shape="rect" id="node7" href="$d5/d93/TrackSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send tracks. " alt="" coords="1353,131,1632,187"/>
+<area shape="rect" id="node8" href="$d7/d7d/TrackSinkSpec_8cxx.html" title="Implementation of a data processor to print the tracks. " alt="" coords="1657,131,1913,187"/>
+</map>

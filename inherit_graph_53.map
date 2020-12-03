@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$df/dcb/classBASE.html" title="BASE" alt="" coords="5,79,64,105"/>
+<area shape="rect" id="node2" href="$d6/dcc/classgNeric_1_1rc__mixin.html" title="Mixin component is used with different data types. " alt="" coords="121,5,315,32"/>
+<area shape="rect" id="node3" href="$dc/d78/classo2_1_1framework_1_1GenericRootTreeReader_1_1BranchConfigurationElement.html" title="o2::framework::GenericRoot\lTreeReader\&lt; KeyType \&gt;::\lBranchConfigurationElement\l\&lt; DataT, BASE \&gt;" alt="" coords="124,57,312,127"/>
+<area shape="rect" id="node4" href="$d0/dc9/classo2_1_1framework_1_1MessageContext_1_1ScopeHook.html" title="o2::framework::MessageContext\l::ScopeHook\&lt; T, BASE \&gt;" alt="" coords="112,151,324,193"/>
+</map>

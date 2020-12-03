@@ -1,0 +1,18 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/include/DataFormatsTPC/ZeroSuppression.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/include/DataFormatsTPC/ZeroSuppression.h">
+<area shape="rect" id="node2" href="$db/d86/ZeroSuppress_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/ZeroSuppress.h" alt="" coords="13,131,269,187"/>
+<area shape="rect" id="node4" href="$d2/dbc/ZSSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/ZSSpec.cxx" alt="" coords="217,250,397,306"/>
+<area shape="rect" id="node5" href="$df/d6c/convertDigitsToRawZS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/run/convertDigitsTo\lRawZS.cxx" alt="" coords="344,124,547,195"/>
+<area shape="rect" id="node6" href="$da/d78/CATrackerSpec_8cxx.html" title="Processor spec for running TPC CA tracking. " alt="" coords="571,131,794,187"/>
+<area shape="rect" id="node7" href="$d0/d80/TPC_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/RecoWorkflow.cxx" alt="" coords="818,131,1033,187"/>
+<area shape="rect" id="node8" href="$dc/d65/GPUTPCCFDecodeZS_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFDecodeZS.h" alt="" coords="1057,131,1340,187"/>
+<area shape="rect" id="node16" href="$db/d5c/GPUTPCCFDecodeZS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFDecode\lZS.cxx" alt="" coords="1250,243,1505,313"/>
+<area shape="rect" id="node17" href="$df/da0/GPUTPCClusterFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCClusterFinder.cxx" alt="" coords="1415,131,1710,187"/>
+<area shape="rect" id="node3" href="$d2/d14/ZeroSuppress_8cxx.html" title="Class for the TPC zero suppressed data format. " alt="" coords="5,250,192,306"/>
+<area shape="rect" id="node9" href="$d1/d59/GPUTPCClusterFinderKernels_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCClusterFinder\lKernels.h" alt="" coords="956,243,1225,313"/>
+<area shape="rect" id="node10" href="$da/de7/CfUtils_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/CfUtils.h" alt="" coords="997,361,1185,417"/>
+<area shape="rect" id="node11" href="$d8/db8/ClusterAccumulator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/ClusterAccumulator.cxx" alt="" coords="311,465,585,521"/>
+<area shape="rect" id="node12" href="$de/d30/GPUTPCCFClusterizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFClusterizer.cxx" alt="" coords="610,465,907,521"/>
+<area shape="rect" id="node13" href="$dd/d19/GPUTPCCFDeconvolution_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFDeconvolution.cxx" alt="" coords="932,465,1249,521"/>
+<area shape="rect" id="node14" href="$d4/d72/GPUTPCCFNoiseSuppression_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFNoiseSuppression.cxx" alt="" coords="1274,465,1614,521"/>
+<area shape="rect" id="node15" href="$d9/dbb/GPUTPCCFPeakFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFPeakFinder.cxx" alt="" coords="1638,465,1938,521"/>
+</map>

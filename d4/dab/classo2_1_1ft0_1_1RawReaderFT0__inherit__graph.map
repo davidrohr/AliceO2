@@ -1,0 +1,5 @@
+<map id="o2::ft0::RawReaderFT0" name="o2::ft0::RawReaderFT0">
+<area shape="rect" id="node2" href="$d8/d79/classo2_1_1ft0_1_1RawReaderFT0Base.html" title="{RawReaderFT0BaseNorm\n||+ RawReaderFT0Base()\l+ ~RawReaderFT0Base()\l+ process()\l}" alt="" coords="5,419,181,525"/>
+<area shape="rect" id="node3" href="$df/de1/classo2_1_1fit_1_1RawReaderBase.html" title="{o2::fit::RawReaderBase\l\&lt; DigitBlockFT0type \&gt;\n|+ mMapDigits\l|+ RawReaderBase()\l+ ~RawReaderBase()\l+ decodeBlocks()\l+ processBinaryData()\l+ getDigits()\l}" alt="" coords="12,219,175,369"/>
+<area shape="rect" id="node4" href="$df/de1/classo2_1_1fit_1_1RawReaderBase.html" title="{o2::fit::RawReaderBase\l\&lt; DigitBlockType \&gt;\n|+ mMapDigits\l|+ RawReaderBase()\l+ ~RawReaderBase()\l+ decodeBlocks()\l+ processBinaryData()\l+ getDigits()\l}" alt="" coords="12,5,175,156"/>
+</map>

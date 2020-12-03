@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::framework::Remap64Bit\l\< uint64_t[N]\>",height=0.2,width=0.4,color="black",URL="$d8/dda/structo2_1_1framework_1_1Remap64Bit_3_01uint64__t[N]_4.html"];
+}

@@ -1,0 +1,6 @@
+<map id="o2::dataformats::Vertex&lt; Stamp &gt;" name="o2::dataformats::Vertex&lt; Stamp &gt;">
+<area shape="rect" id="node2" href="$dc/d08/classo2_1_1dataformats_1_1VertexBase.html" title="{o2::dataformats::VertexBase\n||+ VertexBase()\l+ ~VertexBase()\l+ VertexBase()\l+ print()\l+ asString()\l+ getX()\l+ getY()\l+ getZ()\l+ getSigmaX2()\l+ getSigmaY2()\l+ getSigmaZ2()\l+ getSigmaXY()\l+ getSigmaXZ()\l+ getSigmaYZ()\l+ getCov()\l+ getXYZ()\l+ getXYZ()\l+ setX()\l+ setY()\l+ setZ()\l+ setXYZ()\l+ setPos()\l+ setSigmaX2()\l+ setSigmaY2()\l+ setSigmaZ2()\l+ setSigmaXY()\l+ setSigmaXZ()\l+ setSigmaYZ()\l+ setCov()\l+ setCov()\l# ClassDefNV()\l}" alt="" coords="183,315,372,832"/>
+<area shape="rect" id="node4" href="$d5/daf/classROOT_1_1Math_1_1PositionVector3D.html" title="{ROOT::Math::PositionVector3\lD\&lt; float \&gt;\n||}" alt="" coords="179,160,376,252"/>
+<area shape="rect" id="node5" href="$d5/daf/classROOT_1_1Math_1_1PositionVector3D.html" title="{ROOT::Math::PositionVector3\lD\&lt; CoordSystem, Tag \&gt;\n||}" alt="" coords="179,5,376,97"/>
+<area shape="rect" id="node7" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="397,535,443,612"/>
+</map>

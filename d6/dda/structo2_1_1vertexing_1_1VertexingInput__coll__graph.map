@@ -1,0 +1,7 @@
+<map id="o2::vertexing::VertexingInput" name="o2::vertexing::VertexingInput">
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="167,505,213,583"/>
+<area shape="rect" id="node5" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; float, float \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="351,476,539,612"/>
+<area shape="rect" id="node6" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\l\&lt; float \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="224,233,412,413"/>
+<area shape="rect" id="node7" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\&lt; T \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="313,5,533,171"/>
+<area shape="rect" id="node8" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; T, E \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="436,255,624,391"/>
+</map>

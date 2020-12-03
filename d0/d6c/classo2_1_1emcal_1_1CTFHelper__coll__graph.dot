@@ -1,0 +1,8 @@
+digraph "o2::emcal::CTFHelper"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::emcal::CTFHelper\n||+ CTFHelper()\l+ createHeader()\l+ getSize()\l+ begin_bcIncTrig()\l+ end_bcIncTrig()\l+ begin_orbitIncTrig()\l+ end_orbitIncTrig()\l+ begin_entriesTrig()\l+ end_entriesTrig()\l+ begin_towerID()\l+ end_towerID()\l+ begin_time()\l+ end_time()\l+ begin_energy()\l+ end_energy()\l+ begin_status()\l+ end_status()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

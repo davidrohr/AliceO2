@@ -1,0 +1,58 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/src/DecodedDataAggregator.cxx"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Raw/src/DecodedDataAggregator.cxx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MIDRaw/DecodedDataAggregator.h",height=0.2,width=0.4,color="black",URL="$d7/d48/DecodedDataAggregator_8h.html",tooltip="MID decoded raw data aggregator. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vector",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="map",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="gsl/gsl",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="DataFormatsMID/ColumnData.h",height=0.2,width=0.4,color="black",URL="$d3/d53/ColumnData_8h.html",tooltip="Strip pattern (aka digits) "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="cstdint",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="iostream",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="array",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="DataFormatsMID/ROFRecord.h",height=0.2,width=0.4,color="black",URL="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html",tooltip="Definition of the MID event record. "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="CommonDataFormat/Interaction\lRecord.h",height=0.2,width=0.4,color="black",URL="$d9/d80/InteractionRecord_8h.html"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="GPUCommonRtypes.h",height=0.2,width=0.4,color="black",URL="$d2/d45/GPUCommonRtypes_8h.html"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Rtypes.h",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="iosfwd",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="cmath",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="CommonConstants/LHCConstants.h",height=0.2,width=0.4,color="black",URL="$d4/dc6/LHCConstants_8h.html",tooltip="Header to collect LHC related constants. "];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="MIDRaw/CrateMapper.h",height=0.2,width=0.4,color="black",URL="$db/d83/CrateMapper_8h.html",tooltip="Mapper to convert the RO Ids to a format suitable for O2. "];
+  Node16 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="unordered_map",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="MIDRaw/LocalBoardRO.h",height=0.2,width=0.4,color="black",URL="$d3/d4a/LocalBoardRO_8h.html",tooltip="Structure to store the FEE local board information. "];
+  Node18 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="MIDBase/DetectorParameters.h",height=0.2,width=0.4,color="black",URL="$dc/de4/DetectorParameters_8h.html",tooltip="Useful detector parameters for MID. "];
+  Node19 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="string",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="MIDRaw/CrateParameters.h",height=0.2,width=0.4,color="black",URL="$d2/da5/CrateParameters_8h.html",tooltip="MID RO crate parameters. "];
+  Node21 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

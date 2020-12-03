@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::pid::tof::ExpTimes\l\< Coll, Trck, id \>",height=0.2,width=0.4,color="black",URL="$d1/d56/classo2_1_1pid_1_1tof_1_1ExpTimes.html",tooltip="Class to handle the the TOF detector response for the expected time. "];
+}

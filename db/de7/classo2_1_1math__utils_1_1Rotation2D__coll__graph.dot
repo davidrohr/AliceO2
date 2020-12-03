@@ -1,0 +1,8 @@
+digraph "o2::math_utils::Rotation2D&lt; value_T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::math_utils::Rotation2\lD\< value_T \>\n||+ Rotation2D()\l+ Rotation2D()\l+ Rotation2D()\l+ ~Rotation2D()\l+ Rotation2D()\l+ Rotation2D()\l+ operator=()\l+ operator=()\l+ set()\l+ set()\l+ getComponents()\l+ operator()()\l+ operator^()\l+ operator()()\l+ operator^()\l+ operator()()\l+ operator^()\l+ operator()()\l+ operator^()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+<map id="o2::fdd::RawEventData" name="o2::fdd::RawEventData">
+<area shape="rect" id="node2" href="$d9/d60/structo2_1_1fdd_1_1TCMdata.html" title="{o2::fdd::TCMdata\n||}" alt="" coords="204,307,328,384"/>
+<area shape="rect" id="node4" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="399,5,467,83"/>
+<area shape="rect" id="node7" href="$d3/da5/structo2_1_1fdd_1_1EventHeader.html" title="{o2::fdd::EventHeader\n||}" alt="" coords="1191,307,1338,384"/>
+<area shape="rect" id="node9" href="$d2/dbd/structo2_1_1fdd_1_1EventData.html" title="{o2::fdd::EventData\n|+ isDoubleEvent\l+ is1TimeLostEvent\l+ isAmpHigh\l|+ generateFlags()\l}" alt="" coords="507,292,646,399"/>
+</map>

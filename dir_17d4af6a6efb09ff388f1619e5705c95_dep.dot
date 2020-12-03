@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/Common/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_74593c7a91e03746ae2a516888bf9494 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Common" fontname="Helvetica", fontsize="10", URL="dir_74593c7a91e03746ae2a516888bf9494.html"]
+  dir_17d4af6a6efb09ff388f1619e5705c95 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_17d4af6a6efb09ff388f1619e5705c95.html"];
+  }
+  dir_67c58cc5aaf29270141b8a8cdbb7295e [shape=box label="include" color="red" URL="dir_67c58cc5aaf29270141b8a8cdbb7295e.html"];
+  dir_17d4af6a6efb09ff388f1619e5705c95->dir_67c58cc5aaf29270141b8a8cdbb7295e [headlabel="1", labeldistance=1.5 headhref="dir_000108_000105.html"];
+}

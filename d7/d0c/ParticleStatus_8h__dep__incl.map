@@ -1,0 +1,50 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/include/SimulationDataFormat/ParticleStatus.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/include/SimulationDataFormat/ParticleStatus.h">
+<area shape="rect" id="node2" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="5704,124,5919,195"/>
+<area shape="rect" id="node3" href="$d4/d03/simulation_2include_2SimulationDataFormat_2Stack_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/simulation\l/include/SimulationDataFormat/Stack.h" alt="" coords="2969,243,3219,299"/>
+<area shape="rect" id="node14" href="$dd/d20/Stack_8cxx.html" title="Implementation of the Stack class. " alt="" coords="5760,354,5975,410"/>
+<area shape="rect" id="node15" href="$d5/d9d/test_2MCTrack_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/simulation\l/test/MCTrack.cxx" alt="" coords="5521,354,5736,410"/>
+<area shape="rect" id="node36" href="$d4/d70/checkStack_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/checkStack.cxx" alt="" coords="5999,361,6191,403"/>
+<area shape="rect" id="node44" href="$d8/d3c/src_2MCTrack_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/simulation\l/src/MCTrack.cxx" alt="" coords="5704,243,5919,299"/>
+<area shape="rect" id="node45" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="6216,354,6455,410"/>
+<area shape="rect" id="node46" href="$d2/d60/GeneratorFromFile_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorFromFile.cxx" alt="" coords="5943,243,6123,299"/>
+<area shape="rect" id="node47" href="$dd/de5/MCKinematicsReader_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/MCKinematicsReader.h" alt="" coords="6249,243,6449,299"/>
+<area shape="rect" id="node4" href="$d1/d23/HitType_8h.html" title="Definition of the FIT hits class. " alt="" coords="2227,347,2449,417"/>
+<area shape="rect" id="node11" href="$dc/d88/FIT_2FT0_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/src/Detector.cxx" alt="" coords="2527,591,2741,647"/>
+<area shape="rect" id="node12" href="$db/d50/O2HitMerger_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h" alt="" coords="2765,599,2948,640"/>
+<area shape="rect" id="node16" href="$de/de0/CPV_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/simulation/src/Detector.cxx" alt="" coords="2790,354,2977,410"/>
+<area shape="rect" id="node17" href="$da/d98/EMCAL_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/simulation/src/Detector.cxx" alt="" coords="3001,354,3187,410"/>
+<area shape="rect" id="node18" href="$d3/d0f/FIT_2FDD_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Detector.cxx" alt="" coords="3211,354,3430,410"/>
+<area shape="rect" id="node19" href="$d6/d5c/FIT_2FV0_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/simulation/src/Detector.cxx" alt="" coords="3455,354,3669,410"/>
+<area shape="rect" id="node20" href="$d6/db7/G3Config_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/gconfig\l/src/G3Config.cxx" alt="" coords="3693,354,3873,410"/>
+<area shape="rect" id="node21" href="$d4/d6b/G4Config_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/gconfig\l/src/G4Config.cxx" alt="" coords="3897,354,4077,410"/>
+<area shape="rect" id="node22" href="$d7/d24/HMPID_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/HMPID\l/simulation/src/Detector.cxx" alt="" coords="4102,354,4289,410"/>
+<area shape="rect" id="node23" href="$d9/d0d/ITSMFT_2ITS_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/simulation/src/Detector.cxx" alt="" coords="4313,354,4523,410"/>
+<area shape="rect" id="node24" href="$d0/d6b/ITSMFT_2MFT_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/Detector.cxx" alt="" coords="4548,354,4765,410"/>
+<area shape="rect" id="node25" href="$da/ddd/MUON_2MCH_2Simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Detector.cxx" alt="" coords="4789,354,5012,410"/>
+<area shape="rect" id="node26" href="$d6/d21/MCH_2Simulation_2src_2Stepper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Stepper.cxx" alt="" coords="5037,354,5255,410"/>
+<area shape="rect" id="node27" href="$db/dac/MUON_2MID_2Simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/src/Detector.cxx" alt="" coords="5280,354,5497,410"/>
+<area shape="rect" id="node28" href="$d0/d8d/MID_2Simulation_2src_2Stepper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/src/Stepper.cxx" alt="" coords="5,354,217,410"/>
+<area shape="rect" id="node29" href="$df/d4d/PHOS_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/Detector.cxx" alt="" coords="242,354,429,410"/>
+<area shape="rect" id="node30" href="$d4/d59/TOF_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/src/Detector.cxx" alt="" coords="453,354,639,410"/>
+<area shape="rect" id="node31" href="$d2/d2c/TPC_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Detector.cxx" alt="" coords="663,354,850,410"/>
+<area shape="rect" id="node32" href="$da/d16/TRD_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/Detector.cxx" alt="" coords="874,354,1061,410"/>
+<area shape="rect" id="node33" href="$d0/d7e/Upgrades_2IT3_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Upgrades\l/IT3/simulation/src/Detector.cxx" alt="" coords="1085,354,1295,410"/>
+<area shape="rect" id="node34" href="$d8/d97/Upgrades_2PostLS4_2IT4_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Upgrades\l/PostLS4/IT4/simulation/src\l/Detector.cxx" alt="" coords="1319,347,1512,417"/>
+<area shape="rect" id="node35" href="$df/dac/ZDC_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/simulation/src/Detector.cxx" alt="" coords="1537,354,1723,410"/>
+<area shape="rect" id="node37" href="$db/d82/O2SimDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2SimDevice.h" alt="" coords="2575,361,2765,403"/>
+<area shape="rect" id="node39" href="$dc/d50/O2PrimaryServerDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice.h" alt="" coords="1747,361,1998,403"/>
+<area shape="rect" id="node41" href="$df/d82/O2MCApplication_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/O2MCApplication.h" alt="" coords="2023,354,2203,410"/>
+<area shape="rect" id="node5" href="$d7/d12/FIT_2FT0_2simulation_2include_2FT0Simulation_2Detector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/include\l/FT0Simulation/Detector.h" alt="" coords="2268,465,2448,536"/>
+<area shape="rect" id="node8" href="$d4/dfd/FT0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitizerSpec.cxx" alt="" coords="1896,703,2111,759"/>
+<area shape="rect" id="node6" href="$da/d10/FIT_2FT0_2simulation_2include_2FT0Simulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/include\l/FT0Simulation/Digitizer.h" alt="" coords="2096,584,2276,655"/>
+<area shape="rect" id="node9" href="$dd/d0b/FIT_2FT0_2simulation_2include_2FT0Simulation_2DigitizerTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/include\l/FT0Simulation/DigitizerTask.h" alt="" coords="2301,584,2503,655"/>
+<area shape="rect" id="node7" href="$de/dd9/FIT_2FT0_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/src/Digitizer.cxx" alt="" coords="2135,703,2346,759"/>
+<area shape="rect" id="node10" href="$d8/d59/FIT_2FT0_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/src/DigitizerTask.cxx" alt="" coords="2370,703,2610,759"/>
+<area shape="rect" id="node13" href="$d9/d16/O2HitMergerRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx" alt="" coords="2737,710,2976,751"/>
+<area shape="rect" id="node38" href="$d6/da5/O2SimDeviceRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2SimDeviceRunner.cxx" alt="" coords="2573,480,2820,521"/>
+<area shape="rect" id="node40" href="$db/d8f/O2PrimaryServerDeviceRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice\lRunner.cxx" alt="" coords="1380,473,1619,529"/>
+<area shape="rect" id="node42" href="$d9/d9b/O2RunSim_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/O2RunSim.h" alt="" coords="1927,473,2107,529"/>
+<area shape="rect" id="node43" href="$df/d3b/O2MCApplication_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/O2MCApplication.cxx" alt="" coords="1643,480,1903,521"/>
+<area shape="rect" id="node48" href="$d7/d23/StandaloneAODProducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/StandaloneAODProducer.cxx" alt="" coords="6479,354,6698,410"/>
+<area shape="rect" id="node49" href="$db/dd9/MCKinematicsReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/MCKinematics\lReader.cxx" alt="" coords="6722,354,6941,410"/>
+</map>

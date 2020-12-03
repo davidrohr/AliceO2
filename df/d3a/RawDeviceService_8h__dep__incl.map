@@ -1,0 +1,20 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/RawDeviceService.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/RawDeviceService.h">
+<area shape="rect" id="node2" href="$d3/d87/RawFileReaderWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/RawFileReaderWorkflow.cxx" alt="" coords="5,117,224,173"/>
+<area shape="rect" id="node3" href="$d7/d8c/CompressorTask_8cxx.html" title="TOF raw data compressor task. " alt="" coords="248,117,499,173"/>
+<area shape="rect" id="node4" href="$d6/dc7/CompressedAnalysisTask_8cxx.html" title="TOF compressed data analysis task. " alt="" coords="523,109,751,180"/>
+<area shape="rect" id="node5" href="$de/d88/SimpleRawDeviceService_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/SimpleRawDevice\lService.h" alt="" coords="827,109,1075,180"/>
+<area shape="rect" id="node6" href="$d7/d54/runDataProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/runDataProcessing.cxx" alt="" coords="697,228,881,284"/>
+<area shape="rect" id="node8" href="$d4/dc5/AODReaderHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/AODReaderHelpers.cxx" alt="" coords="1099,117,1288,173"/>
+<area shape="rect" id="node9" href="$d9/d10/CommonMessageBackends_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonMessageBackends.cxx" alt="" coords="1312,117,1549,173"/>
+<area shape="rect" id="node10" href="$dc/df3/ExternalFairMQDeviceProxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ExternalFairMQDeviceProxy.cxx" alt="" coords="1574,117,1813,173"/>
+<area shape="rect" id="node11" href="$d4/d7a/LifetimeHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/LifetimeHelpers.cxx" alt="" coords="1837,117,2017,173"/>
+<area shape="rect" id="node12" href="$d3/dac/TextControlService_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/TextControlService.cxx" alt="" coords="2041,117,2226,173"/>
+<area shape="rect" id="node13" href="$dc/da7/WorkflowHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.cxx" alt="" coords="2250,117,2430,173"/>
+<area shape="rect" id="node14" href="$d2/da2/test__DataAllocator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataAllocator.cxx" alt="" coords="2454,117,2639,173"/>
+<area shape="rect" id="node15" href="$d8/d7e/test__ParallelPipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ParallelPipeline.cxx" alt="" coords="2664,117,2859,173"/>
+<area shape="rect" id="node16" href="$d5/d24/test__SimpleDataProcessingDevice01_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_SimpleDataProcessing\lDevice01.cxx" alt="" coords="2883,109,3098,180"/>
+<area shape="rect" id="node17" href="$dd/d16/test__StaggeringWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_StaggeringWorkflow.cxx" alt="" coords="3122,117,3345,173"/>
+<area shape="rect" id="node18" href="$d1/dca/Dispatcher_8cxx.html" title="Implementation of Dispatcher for O2 Data Sampling. " alt="" coords="3369,117,3575,173"/>
+<area shape="rect" id="node19" href="$d2/d23/dataSamplingBenchmark_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingBenchmark.cxx" alt="" coords="3599,117,3822,173"/>
+<area shape="rect" id="node7" href="$d8/de1/SimpleRawDeviceService_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/SimpleRawDeviceService.cxx" alt="" coords="906,228,1131,284"/>
+</map>

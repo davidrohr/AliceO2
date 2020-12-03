@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Simulation/include/MIDSimulation/ColumnDataMC.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Simulation/include/MIDSimulation/ColumnDataMC.h">
+<area shape="rect" id="node2" href="$da/de1/MUON_2MID_2Simulation_2include_2MIDSimulation_2Digitizer_8h.html" title="Digitizer for MID. " alt="" coords="345,124,525,195"/>
+<area shape="rect" id="node4" href="$d6/d45/testSimulation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testSimulation.cxx" alt="" coords="244,243,499,299"/>
+<area shape="rect" id="node5" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="523,243,737,299"/>
+<area shape="rect" id="node6" href="$dc/d92/DigitsMerger_8h.html" title="Digits merger for MID. " alt="" coords="601,124,803,195"/>
+<area shape="rect" id="node8" href="$d6/d1b/MUON_2MID_2Workflow_2src_2DigitReaderSpec_8cxx.html" title="Data processor spec for MID digits reader device. " alt="" coords="827,131,1087,187"/>
+<area shape="rect" id="node9" href="$d9/d65/MIDDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitWriterSpec.h" alt="" coords="1111,131,1325,187"/>
+<area shape="rect" id="node3" href="$d6/df9/MUON_2MID_2Simulation_2src_2Digitizer_8cxx.html" title="Implementation of the digitizer for MID. " alt="" coords="5,243,220,299"/>
+<area shape="rect" id="node7" href="$db/d63/DigitsMerger_8cxx.html" title="Implementation of the digits merger for MID. " alt="" coords="761,243,1003,299"/>
+<area shape="rect" id="node10" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1110,243,1326,299"/>
+</map>

@@ -1,0 +1,91 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/include/TPCBase/PadSecPos.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/include/TPCBase/PadSecPos.h">
+<area shape="rect" id="node2" href="$d3/d54/DigitPos_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/DigitPos.h" alt="" coords="8058,109,8283,165"/>
+<area shape="rect" id="node3" href="$d5/d1d/TPC_2base_2include_2TPCBase_2Mapper_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/Mapper.h" alt="" coords="5656,213,5875,269"/>
+<area shape="rect" id="node88" href="$dc/df5/LinkZSToDigitsSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/LinkZSToDigitsSpec.cxx" alt="" coords="9037,332,9286,388"/>
+<area shape="rect" id="node90" href="$d1/d38/PadSecPos_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/PadSecPos.cxx" alt="" coords="8358,109,8538,165"/>
+<area shape="rect" id="node68" href="$d3/d6c/DigitPos_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/DigitPos.cxx" alt="" coords="8833,332,9013,388"/>
+<area shape="rect" id="node4" href="$db/d9b/CalArray_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/CalArray.h" alt="" coords="4957,332,5184,388"/>
+<area shape="rect" id="node5" href="$d6/d2b/TPC_2base_2include_2TPCBase_2CalDet_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/CalDet.h" alt="" coords="4293,465,4509,521"/>
+<area shape="rect" id="node8" href="$d1/d8a/testTPCCDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/test/testTPCCDBInterface.cxx" alt="" coords="3182,710,3421,766"/>
+<area shape="rect" id="node10" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="1951,1059,2174,1129"/>
+<area shape="rect" id="node11" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="608,1177,792,1233"/>
+<area shape="rect" id="node13" href="$df/d53/DigitContainer_8cxx.html" title="Implementation of the Digit Container. " alt="" coords="1312,1066,1531,1122"/>
+<area shape="rect" id="node23" href="$dd/d5f/Painter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/Painter.cxx" alt="" coords="4702,710,4882,766"/>
+<area shape="rect" id="node24" href="$dd/db7/Detectors_2TPC_2base_2src_2Utils_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/Utils.cxx" alt="" coords="4251,710,4431,766"/>
+<area shape="rect" id="node25" href="$d2/d9a/CalibTreeDump_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/CalibTreeDump.cxx" alt="" coords="4907,710,5133,766"/>
+<area shape="rect" id="node28" href="$d4/d43/testTPCCalDet_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/test/testTPCCalDet.cxx" alt="" coords="5338,591,5537,647"/>
+<area shape="rect" id="node29" href="$dc/d42/CalibPadGainTracks_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/include/TPCCalibration\l/CalibPadGainTracks.h" alt="" coords="6361,584,6583,655"/>
+<area shape="rect" id="node37" href="$d6/d66/DigitDump_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/DigitDump.cxx" alt="" coords="7525,947,7723,1003"/>
+<area shape="rect" id="node40" href="$d9/df5/SimpleEventDisplay_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/monitor/src/SimpleEventDisplay.cxx" alt="" coords="5483,947,5722,1003"/>
+<area shape="rect" id="node43" href="$d2/df2/Clusters_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/src/Clusters.cxx" alt="" coords="5362,710,5542,766"/>
+<area shape="rect" id="node49" href="$d4/d6c/HwClusterer_8cxx.html" title="Hwclusterer for the TPC. " alt="" coords="3996,829,4228,885"/>
+<area shape="rect" id="node50" href="$df/d47/testTPCHwClusterer_8cxx.html" title="This task tests the TPC HwClusterer. " alt="" coords="6349,829,6635,885"/>
+<area shape="rect" id="node53" href="$d7/dd7/CalibRawBase_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/include/TPCCalibration\l/CalibRawBase.h" alt="" coords="5829,703,6051,773"/>
+<area shape="rect" id="node56" href="$d4/ddf/RawReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/RawReader.cxx" alt="" coords="6075,710,6303,766"/>
+<area shape="rect" id="node59" href="$d5/dcb/DigitGlobalPad_8h.html" title="Definition of the GlobalPad container. " alt="" coords="194,703,417,773"/>
+<area shape="rect" id="node60" href="$d0/d60/DigitTime_8h.html" title="Definition of the Time Bin container. " alt="" coords="441,821,663,892"/>
+<area shape="rect" id="node64" href="$d3/d96/CalArray_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/CalArray.cxx" alt="" coords="4809,465,4989,521"/>
+<area shape="rect" id="node65" href="$db/d86/ZeroSuppress_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/ZeroSuppress.h" alt="" coords="6511,332,6767,388"/>
+<area shape="rect" id="node66" href="$d2/d14/ZeroSuppress_8cxx.html" title="Class for the TPC zero suppressed data format. " alt="" coords="6412,465,6599,521"/>
+<area shape="rect" id="node69" href="$d7/db3/TPC_2base_2src_2Mapper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/Mapper.cxx" alt="" coords="6030,332,6210,388"/>
+<area shape="rect" id="node70" href="$dc/d5f/testTPCMapper_8cxx.html" title="This task tests the mapper function. " alt="" coords="6234,332,6435,388"/>
+<area shape="rect" id="node71" href="$db/d19/DigitalCurrentClusterIntegrator_8h.html" title="Decoder to convert TPC ClusterHardware to ClusterNative. " alt="" coords="8186,317,8411,403"/>
+<area shape="rect" id="node73" href="$d4/d7c/HardwareClusterDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/HardwareCluster\lDecoder.cxx" alt="" coords="7328,584,7560,655"/>
+<area shape="rect" id="node76" href="$db/d52/GBTFrameContainer_8h.html" title="Container class for the GBT Frames. " alt="" coords="5627,325,5903,395"/>
+<area shape="rect" id="node79" href="$db/dd8/KrBoxClusterFinder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/include\l/TPCReconstruction/KrBoxClusterFinder.h" alt="" coords="8435,325,8706,395"/>
+<area shape="rect" id="node81" href="$d4/d2e/GPUCATracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/GPUCATracking.cxx" alt="" coords="6842,332,7099,388"/>
+<area shape="rect" id="node82" href="$d2/d24/RawReaderCRU_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/RawReaderCRU.cxx" alt="" coords="7124,332,7383,388"/>
+<area shape="rect" id="node83" href="$d5/dc0/TPCFastTransformHelperO2_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/TPCFastTransform\lHelperO2.cxx" alt="" coords="7406,325,7653,395"/>
+<area shape="rect" id="node84" href="$d6/d42/testTPCFastTransform_8cxx.html" title="This task tests the TPC Fast Transformation. " alt="" coords="7677,325,7891,395"/>
+<area shape="rect" id="node85" href="$d2/da8/ElectronTransport_8h.html" title="Definition of the electron transport. " alt="" coords="641,584,863,655"/>
+<area shape="rect" id="node86" href="$d4/d43/TPC_2simulation_2include_2TPCSimulation_2PadResponse_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/PadResponse.h" alt="" coords="2763,325,2986,395"/>
+<area shape="rect" id="node87" href="$d7/d18/TPC_2simulation_2src_2PadResponse_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/PadResponse.cxx" alt="" coords="2888,465,3107,521"/>
+<area shape="rect" id="node89" href="$d5/df5/DataInterpreterTPC_8cxx.html" title="converting TPC data to Event Visualisation primitives " alt="" coords="7915,332,8163,388"/>
+<area shape="rect" id="node6" href="$dc/df2/CDBInterface_8h.html" title="Simple interface to the CDB manager. " alt="" coords="1777,591,2031,647"/>
+<area shape="rect" id="node22" href="$de/d7a/Detectors_2TPC_2base_2include_2TPCBase_2Utils_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/include/TPCBase/Utils.h" alt="" coords="4635,591,4837,647"/>
+<area shape="rect" id="node27" href="$d1/d01/TPC_2base_2src_2CalDet_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/CalDet.cxx" alt="" coords="4278,591,4458,647"/>
+<area shape="rect" id="node31" href="$da/df1/CalibPedestal_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/include/TPCCalibration\l/CalibPedestal.h" alt="" coords="4466,821,4689,892"/>
+<area shape="rect" id="node34" href="$d2/d5d/CalibPulser_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/include/TPCCalibration\l/CalibPulser.h" alt="" coords="4819,821,5042,892"/>
+<area shape="rect" id="node36" href="$d6/d25/DigitDump_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/include/TPCCalibration\l/DigitDump.h" alt="" coords="6103,821,6326,892"/>
+<area shape="rect" id="node39" href="$db/dc3/SimpleEventDisplay_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/monitor/include/TPCMonitor\l/SimpleEventDisplay.h" alt="" coords="5509,821,5697,892"/>
+<area shape="rect" id="node41" href="$dc/da4/CalPadWrapper_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/include/TPCQC/CalPadWrapper.h" alt="" coords="3435,591,3677,647"/>
+<area shape="rect" id="node42" href="$df/d01/Clusters_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/include/TPCQC/Clusters.h" alt="" coords="5115,591,5315,647"/>
+<area shape="rect" id="node45" href="$db/db1/TPC_2reconstruction_2include_2TPCReconstruction_2Clusterer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/include\l/TPCReconstruction/Clusterer.h" alt="" coords="3702,584,3911,655"/>
+<area shape="rect" id="node52" href="$d3/d11/RawReader_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/include\l/TPCReconstruction/RawReader.h" alt="" coords="5661,584,5886,655"/>
+<area shape="rect" id="node57" href="$d9/d79/GEMAmplification_8h.html" title="Definition of the GEM amplification. " alt="" coords="2773,584,2995,655"/>
+<area shape="rect" id="node58" href="$d0/d45/SAMPAProcessing_8h.html" title="Definition of the SAMPA response. " alt="" coords="993,584,1215,655"/>
+<area shape="rect" id="node63" href="$dc/de4/TPCPadGainCalib_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/TPCPadGainCalib.cxx" alt="" coords="3987,591,4253,647"/>
+<area shape="rect" id="node7" href="$dc/d71/CDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/CDBInterface.cxx" alt="" coords="1942,710,2127,766"/>
+<area shape="rect" id="node9" href="$dd/d94/DigitContainer_8h.html" title="Definition of the Digit Container. " alt="" coords="1645,940,1867,1011"/>
+<area shape="rect" id="node12" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="2103,1177,2318,1233"/>
+<area shape="rect" id="node14" href="$dd/d5e/testTPCDigitContainer_8cxx.html" title="This task tests the DigitContainer of the TPC digitization. " alt="" coords="1605,1066,1877,1122"/>
+<area shape="rect" id="node15" href="$d1/d98/ElectronTransport_8cxx.html" title="Implementation of the electron transport. " alt="" coords="827,710,1066,766"/>
+<area shape="rect" id="node16" href="$db/d6c/GEMAmplification_8cxx.html" title="Implementation of the GEM amplification. " alt="" coords="2763,710,3005,766"/>
+<area shape="rect" id="node17" href="$d1/dd8/SAMPAProcessing_8cxx.html" title="Implementation of the SAMPA response. " alt="" coords="1141,710,1389,766"/>
+<area shape="rect" id="node18" href="$d4/d82/testTPCElectronTransport_8cxx.html" title="This task tests the ElectronTransport module of the TPC digitization. " alt="" coords="541,703,753,773"/>
+<area shape="rect" id="node19" href="$d5/d97/testTPCGEMAmplification_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCGEMAmplification.cxx" alt="" coords="2203,710,2498,766"/>
+<area shape="rect" id="node20" href="$d0/d5c/testTPCSAMPAProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCSAMPAProcessing.cxx" alt="" coords="1413,710,1715,766"/>
+<area shape="rect" id="node21" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="2523,710,2739,766"/>
+<area shape="rect" id="node26" href="$da/d78/CATrackerSpec_8cxx.html" title="Processor spec for running TPC CA tracking. " alt="" coords="4455,710,4678,766"/>
+<area shape="rect" id="node30" href="$d9/da6/CalibPadGainTracks_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/CalibPadGainTracks.cxx" alt="" coords="6379,710,6635,766"/>
+<area shape="rect" id="node32" href="$dd/d58/calib-pedestal_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/run/calib&#45;pedestal.cxx" alt="" coords="4287,947,4503,1003"/>
+<area shape="rect" id="node33" href="$d6/d99/CalibPedestal_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/CalibPedestal.cxx" alt="" coords="4527,947,4745,1003"/>
+<area shape="rect" id="node35" href="$d4/ddc/CalibPulser_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/CalibPulser.cxx" alt="" coords="4829,947,5032,1003"/>
+<area shape="rect" id="node38" href="$d5/d78/RawToDigitsSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/RawToDigitsSpec.cxx" alt="" coords="6097,947,6332,1003"/>
+<area shape="rect" id="node44" href="$d4/de0/test__Clusters_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/test/test_Clusters.cxx" alt="" coords="5158,710,5338,766"/>
+<area shape="rect" id="node46" href="$de/df6/HwClusterer_8h.html" title="Class for TPC HW cluster finding. " alt="" coords="3597,703,3827,773"/>
+<area shape="rect" id="node47" href="$de/d64/TPC_2reconstruction_2include_2TPCReconstruction_2ClustererTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/include\l/TPCReconstruction/ClustererTask.h" alt="" coords="3497,821,3735,892"/>
+<area shape="rect" id="node51" href="$d5/d17/TPC_2workflow_2src_2ClustererSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/ClustererSpec.cxx" alt="" coords="3759,829,3971,885"/>
+<area shape="rect" id="node48" href="$d8/d0f/TPC_2reconstruction_2src_2ClustererTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/ClustererTask.cxx" alt="" coords="3495,947,3737,1003"/>
+<area shape="rect" id="node55" href="$d0/db1/readRawData_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/run/readRawData.cxx" alt="" coords="5566,710,5805,766"/>
+<area shape="rect" id="node54" href="$d9/d74/CalibRawBase_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/CalibRawBase.cxx" alt="" coords="5829,829,6051,885"/>
+<area shape="rect" id="node62" href="$d1/ddd/DigitGlobalPad_8cxx.html" title="Implementation of the Pad container. " alt="" coords="194,829,417,885"/>
+<area shape="rect" id="node61" href="$dd/dcd/DigitTime_8cxx.html" title="Implementation of the Time Bin container. " alt="" coords="456,947,648,1003"/>
+<area shape="rect" id="node67" href="$d2/dbc/ZSSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/ZSSpec.cxx" alt="" coords="6623,465,6803,521"/>
+<area shape="rect" id="node72" href="$d2/d41/HardwareClusterDecoder_8h.html" title="Decoder to convert TPC ClusterHardware to ClusterNative. " alt="" coords="8177,451,8420,536"/>
+<area shape="rect" id="node75" href="$d1/d81/DigitalCurrentClusterIntegrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/DigitalCurrent\lClusterIntegrator.cxx" alt="" coords="7938,458,8153,529"/>
+<area shape="rect" id="node74" href="$d9/d7b/ClusterDecoderRawSpec_8cxx.html" title="Processor spec for decoder of TPC raw cluster data. " alt="" coords="8187,584,8410,655"/>
+<area shape="rect" id="node77" href="$db/dc7/readGBTFrames_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/run/readGBTFrames.cxx" alt="" coords="5729,465,5983,521"/>
+<area shape="rect" id="node78" href="$d4/dfc/GBTFrameContainer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/GBTFrameContainer.cxx" alt="" coords="6007,465,6286,521"/>
+<area shape="rect" id="node80" href="$d6/da7/KrBoxClusterFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/KrBoxCluster\lFinder.cxx" alt="" coords="8465,458,8677,529"/>
+</map>

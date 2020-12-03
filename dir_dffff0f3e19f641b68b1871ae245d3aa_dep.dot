@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/Mergers/include/Mergers" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_54d051ade5e6bd04623ba91b90a1a5a2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_54d051ade5e6bd04623ba91b90a1a5a2.html"]
+  dir_dffff0f3e19f641b68b1871ae245d3aa [shape=box, label="Mergers", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_dffff0f3e19f641b68b1871ae245d3aa.html"];
+  }
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_dffff0f3e19f641b68b1871ae245d3aa->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="5", labeldistance=1.5 headhref="dir_000609_000062.html"];
+}

@@ -1,0 +1,3 @@
+<map id="o2::its::TrackerTraitsNV" name="o2::its::TrackerTraitsNV">
+<area shape="rect" id="node2" href="$d5/dde/classo2_1_1its_1_1TrackerTraits.html" title="{o2::its::TrackerTraits\n|# mPrimaryVertexContext\l# mTrkParams\l# mChain\l# mChainRunITSTrackFit\l|+ ~TrackerTraits()\l+ getBinsRect()\l+ SetRecoChain()\l+ computeLayerTracklets()\l+ computeLayerCells()\l+ refitTracks()\l+ UpdateTrackingParameters()\l+ getPrimaryVertexContext()\l+ getEmptyBinsRect()\l}" alt="" coords="5,5,207,244"/>
+</map>

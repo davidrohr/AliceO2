@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Base" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_061f7088060f41729027f6c2fce0273e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MCH" fontname="Helvetica", fontsize="10", URL="dir_061f7088060f41729027f6c2fce0273e.html"]
+  subgraph clusterdir_1155c84989a046e7de4bf0156dc4b34c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_1155c84989a046e7de4bf0156dc4b34c.html"];
+    dir_1155c84989a046e7de4bf0156dc4b34c [shape=plaintext label="Base"];
+    dir_db17acc51980e01200fbd960a484d92d [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_db17acc51980e01200fbd960a484d92d.html"];
+    dir_e74f222de121f2668b81ad26da4a941f [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_e74f222de121f2668b81ad26da4a941f.html"];
+  }
+  }
+  dir_e74f222de121f2668b81ad26da4a941f->dir_db17acc51980e01200fbd960a484d92d [headlabel="4", labeldistance=1.5 headhref="dir_000174_000151.html"];
+}

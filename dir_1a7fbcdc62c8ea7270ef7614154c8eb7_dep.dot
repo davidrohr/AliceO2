@@ -1,0 +1,20 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_677b030cc750909e4cd27413873678d8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_677b030cc750909e4cd27413873678d8.html"]
+  dir_1a7fbcdc62c8ea7270ef7614154c8eb7 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1a7fbcdc62c8ea7270ef7614154c8eb7.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_8878d5c3559bc3ebfb711a18a96e91b8 [shape=box label="include" color="red" URL="dir_8878d5c3559bc3ebfb711a18a96e91b8.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_8878d5c3559bc3ebfb711a18a96e91b8->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="10", labeldistance=1.5 headhref="dir_000060_000035.html"];
+  dir_8878d5c3559bc3ebfb711a18a96e91b8->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="16", labeldistance=1.5 headhref="dir_000060_000089.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000035_000089.html"];
+  dir_1a7fbcdc62c8ea7270ef7614154c8eb7->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="4", labeldistance=1.5 headhref="dir_000692_000035.html"];
+  dir_1a7fbcdc62c8ea7270ef7614154c8eb7->dir_8878d5c3559bc3ebfb711a18a96e91b8 [headlabel="18", labeldistance=1.5 headhref="dir_000692_000060.html"];
+  dir_1a7fbcdc62c8ea7270ef7614154c8eb7->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000692_000089.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="39", labeldistance=1.5 headhref="dir_000089_000035.html"];
+}

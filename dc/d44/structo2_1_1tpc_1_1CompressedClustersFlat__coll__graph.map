@@ -1,0 +1,11 @@
+<map id="o2::tpc::CompressedClustersFlat" name="o2::tpc::CompressedClustersFlat">
+<area shape="rect" id="node2" href="$dd/dd7/structo2_1_1tpc_1_1CompressedClustersCounters.html" title="{o2::tpc::CompressedClusters\lCounters\n||+ ClassDefNV()\l}" alt="" coords="557,1005,751,1097"/>
+<area shape="rect" id="node11" href="$d6/d95/structo2_1_1tpc_1_1CompressedClusters.html" title="{o2::tpc::CompressedClusters\n||+ CompressedClusters()\l+ ~CompressedClusters()\l+ CompressedClusters()\l+ ClassDefNV()\l}" alt="" coords="328,1255,521,1376"/>
+<area shape="rect" id="node4" href="$dd/d72/structo2_1_1tpc_1_1CompressedClustersOffsets.html" title="{o2::tpc::CompressedClusters\lOffsets\n||}" alt="" coords="105,1269,299,1361"/>
+<area shape="rect" id="node5" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="{o2::tpc::CompressedClusters\lPtrs_x\&lt; size_t, size_t,\l size_t \&gt;\n|+ qTotA\l+ flagsA\l+ padResA\l+ timeResA\l+ qPtA\l+ sliceA\l+ padA\l+ qTotU\l+ flagsU\l+ timeDiffU\l+ sigmaPadU\l+ sigmaTimeU\l+ nSliceRowClusters\l|+ ClassDefNV()\l}" alt="" coords="99,909,292,1192"/>
+<area shape="rect" id="node7" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="{o2::tpc::CompressedClusters\lPtrs_x\&lt; TCHAR, TSHORT, TINT \&gt;\n|+ sliceA\l|+ ClassDefNV()\l}" alt="" coords="106,292,338,384"/>
+<area shape="rect" id="node13" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="{o2::tpc::CompressedClusters\lPtrs_x\&lt; unsigned char *,\l unsigned short *, unsigned int *\&gt;\n|+ sliceA\l|+ ClassDefNV()\l}" alt="" coords="373,593,588,700"/>
+<area shape="rect" id="node12" href="$dd/d10/structo2_1_1tpc_1_1CompressedClustersPtrs.html" title="{o2::tpc::CompressedClustersPtrs\n||}" alt="" coords="316,1012,533,1089"/>
+<area shape="rect" id="node14" href="$dc/d10/classshort.html" title="{short\n||}" alt="" coords="407,299,458,377"/>
+<area shape="rect" id="node16" href="$d3/d41/classunsigned_01char_01_5.html" title="{unsigned char *\n||}" alt="" coords="657,299,769,377"/>
+</map>

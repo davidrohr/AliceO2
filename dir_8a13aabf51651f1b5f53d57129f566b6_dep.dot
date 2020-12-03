@@ -1,0 +1,23 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1306292b77b40360479b729ac9ee7efe {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ITSMFT" fontname="Helvetica", fontsize="10", URL="dir_1306292b77b40360479b729ac9ee7efe.html"]
+  subgraph clusterdir_8a13aabf51651f1b5f53d57129f566b6 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_8a13aabf51651f1b5f53d57129f566b6.html"];
+    dir_8a13aabf51651f1b5f53d57129f566b6 [shape=plaintext label="test"];
+    dir_04efe6227c275c48803e66c564837fd2 [shape=box label="HitAnalysis" color="red" fillcolor="white" style="filled" URL="dir_04efe6227c275c48803e66c564837fd2.html"];
+  }
+  }
+  dir_871aad07cbf94d6cd423c3d8d5bdf4e9 [shape=box label="ITS" color="red" URL="dir_871aad07cbf94d6cd423c3d8d5bdf4e9.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf [shape=box label="common" color="red" URL="dir_85bf31a2e8d306e7598ffcb73f8df6bf.html"];
+  dir_871aad07cbf94d6cd423c3d8d5bdf4e9->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="29", labeldistance=1.5 headhref="dir_000053_000035.html"];
+  dir_871aad07cbf94d6cd423c3d8d5bdf4e9->dir_85bf31a2e8d306e7598ffcb73f8df6bf [headlabel="42", labeldistance=1.5 headhref="dir_000053_000071.html"];
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="21", labeldistance=1.5 headhref="dir_000071_000035.html"];
+  dir_04efe6227c275c48803e66c564837fd2->dir_871aad07cbf94d6cd423c3d8d5bdf4e9 [headlabel="1", labeldistance=1.5 headhref="dir_000598_000053.html"];
+  dir_04efe6227c275c48803e66c564837fd2->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000598_000035.html"];
+  dir_04efe6227c275c48803e66c564837fd2->dir_85bf31a2e8d306e7598ffcb73f8df6bf [headlabel="3", labeldistance=1.5 headhref="dir_000598_000071.html"];
+}

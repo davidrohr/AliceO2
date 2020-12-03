@@ -1,0 +1,8 @@
+digraph "o2::framework::DataInputDirector"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::DataInput\lDirector\n||+ DataInputDirector()\l+ DataInputDirector()\l+ DataInputDirector()\l+ reset()\l+ createDefaultDataInputDescriptor()\l+ printOut()\l+ atEnd()\l+ setInputfilesFile()\l+ setFilenamesRegex()\l+ readJson()\l+ closeInputFiles()\l+ getDataInputDescriptor()\l+ getNumberInputDescriptors()\l+ getTreeReader()\l+ getDataTree()\l+ getTimeFrameNumber()\l+ getFileFolder()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

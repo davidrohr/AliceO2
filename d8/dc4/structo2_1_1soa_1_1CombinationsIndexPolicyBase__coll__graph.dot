@@ -1,0 +1,16 @@
+digraph "o2::soa::CombinationsIndexPolicyBase&lt; Ts &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node15 [label="{o2::soa::CombinationsIndex\lPolicyBase\< Ts \>\n||+ CombinationsIndexPolicyBase()\l+ moveToEnd()\l+ addOne()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node15 [color="grey25",fontsize="10",style="solid",label=" +mCurrent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node16 [label="{tuple\< typename Ts\l::iterator... \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node17 -> Node15 [color="grey25",fontsize="10",style="solid",label=" +mIsEnd" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node17 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+  Node18 -> Node15 [color="grey25",fontsize="10",style="solid",label=" +mMaxOffset" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node18 [label="{o2::soa::NTupleType\l\< uint64_t, sizeof...(Ts)\>\n||}",height=0.2,width=0.4,color="black",URL="$dd/da8/structo2_1_1soa_1_1NTupleType.html"];
+  Node19 -> Node18 [dir="back",color="orange",fontsize="10",style="solid",label=" \< uint64_t, sizeof...(Ts)\>" ,fontname="Helvetica"];
+  Node19 [label="{o2::soa::NTupleType\l\< T, N, REST \>\n||}",height=0.2,width=0.4,color="black",URL="$dd/da8/structo2_1_1soa_1_1NTupleType.html"];
+}

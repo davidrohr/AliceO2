@@ -1,0 +1,4 @@
+<map id="o2::trd::PadNoise" name="o2::trd::PadNoise">
+<area shape="rect" id="node2" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="{o2::trd::PadCalibrations\l\&lt; float \&gt;\n|# mreadOutChamber\l|+ PadCalibrations()\l+ ~PadCalibrations()\l+ getNChannels()\l+ getChamberPads()\l+ getValue()\l+ getPadValue()\l+ setPadValue()\l+ setPadValue()\l+ reset()\l+ init()\l}" alt="" coords="21,277,180,501"/>
+<area shape="rect" id="node3" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="{o2::trd::PadCalibrations\&lt; T \&gt;\n|# mreadOutChamber\l|+ PadCalibrations()\l+ ~PadCalibrations()\l+ getNChannels()\l+ getChamberPads()\l+ getValue()\l+ getPadValue()\l+ setPadValue()\l+ setPadValue()\l+ reset()\l+ init()\l}" alt="" coords="5,5,196,215"/>
+</map>

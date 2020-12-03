@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/Analysis/StrangenessTables.h" name="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/Analysis/StrangenessTables.h">
+<area shape="rect" id="node2" href="$d5/d51/aodDataModelGraph_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/DataModel\l/src/aodDataModelGraph.cxx" alt="" coords="5,109,199,165"/>
+<area shape="rect" id="node3" href="$d2/d15/cascadeconsumer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/cascadeconsumer.cxx" alt="" coords="223,109,431,165"/>
+<area shape="rect" id="node4" href="$d0/dd5/cascadefinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/cascadefinder.cxx" alt="" coords="456,109,639,165"/>
+<area shape="rect" id="node5" href="$d1/db8/cascadeproducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/cascadeproducer.cxx" alt="" coords="663,109,864,165"/>
+<area shape="rect" id="node6" href="$d4/d77/lambdakzeroconsumer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/lambdakzeroconsumer.cxx" alt="" coords="888,109,1121,165"/>
+<area shape="rect" id="node7" href="$d5/d6e/lambdakzerofinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/lambdakzerofinder.cxx" alt="" coords="1146,109,1354,165"/>
+<area shape="rect" id="node8" href="$d6/d2a/lambdakzeroproducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/lambdakzeroproducer.cxx" alt="" coords="1378,109,1605,165"/>
+</map>

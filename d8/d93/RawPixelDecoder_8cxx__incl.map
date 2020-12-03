@@ -1,0 +1,62 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/RawPixelDecoder.cxx">
+<area shape="rect" id="node2" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1441,399,1619,426"/>
+<area shape="rect" id="node27" href="$d7/d6e/RawPixelDecoder_8h.html" title="Definition of the Alpide pixel reader for raw data processing. " alt="" coords="2657,124,2816,165"/>
+<area shape="rect" id="node76" href="$d4/db9/DPLRawParser_8h.html" title="A raw page parser for DPL input. " alt="" coords="5207,221,5389,247"/>
+<area shape="rect" id="node99" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="4745,131,4923,158"/>
+<area shape="rect" id="node3" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="487,667,623,694"/>
+<area shape="rect" id="node6" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="705,667,862,694"/>
+<area shape="rect" id="node8" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="2536,667,2724,694"/>
+<area shape="rect" id="node10" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="2667,578,2806,605"/>
+<area shape="rect" id="node13" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1081,571,1291,612"/>
+<area shape="rect" id="node17" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="4589,489,4719,515"/>
+<area shape="rect" id="node4" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="365,749,549,776"/>
+<area shape="rect" id="node5" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="573,749,732,776"/>
+<area shape="rect" id="node16" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="969,667,1206,694"/>
+<area shape="rect" id="node18" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="5155,578,5311,605"/>
+<area shape="rect" id="node25" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="6363,667,6545,694"/>
+<area shape="rect" id="node30" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="3551,489,3693,515"/>
+<area shape="rect" id="node32" href="$d3/d57/ChipMappingITS_8h.html" title="ITSMFTReconstruction\l/ChipMappingITS.h" alt="" coords="4131,392,4289,433"/>
+<area shape="rect" id="node39" href="$d0/d6b/ChipMappingMFT_8h.html" title="ITSMFTReconstruction\l/ChipMappingMFT.h" alt="" coords="3704,392,3863,433"/>
+<area shape="rect" id="node41" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="969,310,1144,337"/>
+<area shape="rect" id="node53" href="$d0/dd1/GBTLink_8h.html" title="Declarations of helper classes for the ITS/MFT raw data decoding. " alt="" coords="2657,213,2816,255"/>
+<area shape="rect" id="node59" href="$db/d0e/RUDecodeData_8h.html" title="Declaration of the Readout Unite decoder class. " alt="" coords="2813,303,2972,344"/>
+<area shape="rect" id="node60" href="$da/d8d/PixelData_8h.html" title="Transient data classes for single pixel and set of pixels from current chip. " alt="" coords="2325,481,2484,523"/>
+<area shape="rect" id="node68" href="$df/d2e/PixelReader_8h.html" title="Abstract class for Alpide data reader class. " alt="" coords="1745,392,1904,433"/>
+<area shape="rect" id="node73" href="$d0/dc6/ITSMFT_2common_2include_2DataFormatsITSMFT_2ROFRecord_8h.html" title="DataFormatsITSMFT/ROFRecord.h" alt="" coords="863,489,1093,515"/>
+<area shape="rect" id="node34" href="$dc/dd8/RUInfo_8h.html" title="ITSMFTReconstruction\l/RUInfo.h" alt="" coords="3317,481,3476,523"/>
+<area shape="rect" id="node35" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="4357,481,4565,523"/>
+<area shape="rect" id="node38" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="4778,578,4898,605"/>
+<area shape="rect" id="node42" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="210,571,389,612"/>
+<area shape="rect" id="node49" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="331,481,510,523"/>
+<area shape="rect" id="node52" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1219,399,1417,426"/>
+<area shape="rect" id="node55" href="$d0/d35/PayLoadCont_8h.html" title="Declaration of class for continuos buffer of ALPIDE data. " alt="" coords="3115,571,3273,612"/>
+<area shape="rect" id="node57" href="$d4/d20/PayLoadSG_8h.html" title="Declaration of class for scatter&#45;gather buffer. " alt="" coords="2129,571,2288,612"/>
+<area shape="rect" id="node58" href="$dd/d86/GBTWord_8h.html" title="ITSMFTReconstruction\l/GBTWord.h" alt="" coords="2152,660,2311,701"/>
+<area shape="rect" id="node62" href="$dc/dc5/DecodingStat_8h.html" title="Alpide Chip and GBT link decoding statistics. " alt="" coords="2932,571,3091,612"/>
+<area shape="rect" id="node64" href="$d8/da2/AlpideCoder_8h.html" title="class for the ALPIDE data decoding/encoding " alt="" coords="2915,392,3073,433"/>
+<area shape="rect" id="node61" href="$d3/d1e/DataFormats_2Detectors_2ITSMFT_2common_2include_2DataFormatsITSMFT_2Digit_8h.html" title="DataFormatsITSMFT/Digit.h" alt="" coords="1815,578,2003,605"/>
+<area shape="rect" id="node67" href="$d0/d7b/NoiseMap_8h.html" title="Definition of the ITSMFT NoiseMap. " alt="" coords="1519,578,1739,605"/>
+<area shape="rect" id="node69" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="686,481,838,523"/>
+<area shape="rect" id="node70" href="$d1/da6/ConstMCTruthContainer_8h.html" title="A const (ready only) version of MCTruthContainer. " alt="" coords="4743,481,4922,523"/>
+<area shape="rect" id="node71" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="4439,571,4591,612"/>
+<area shape="rect" id="node72" href="$db/d31/Traits_8h.html" title="Framework/Traits.h" alt="" coords="5737,667,5872,694"/>
+<area shape="rect" id="node74" href="$de/d64/RangeReference_8h.html" title="Class to refer to the 1st entry and N elements of some group in the continuous container. " alt="" coords="705,578,963,605"/>
+<area shape="rect" id="node77" href="$df/d22/RawParser_8h.html" title="Generic parser for consecutive raw pages. " alt="" coords="6931,578,7086,605"/>
+<area shape="rect" id="node81" href="$d6/d5c/InputRecord_8h.html" title="Framework/InputRecord.h" alt="" coords="6277,310,6450,337"/>
+<area shape="rect" id="node82" href="$d5/dfb/DataRef_8h.html" title="Framework/DataRef.h" alt="" coords="7300,489,7451,515"/>
+<area shape="rect" id="node83" href="$d5/db8/DataRefUtils_8h.html" title="Framework/DataRefUtils.h" alt="" coords="6505,399,6683,426"/>
+<area shape="rect" id="node78" href="$d7/dbe/VariantHelpers_8h.html" title="Framework/VariantHelpers.h" alt="" coords="7313,667,7501,694"/>
+<area shape="rect" id="node79" href="$d9/de8/CompilerBuiltins_8h.html" title="Framework/CompilerBuiltins.h" alt="" coords="7309,749,7506,776"/>
+<area shape="rect" id="node86" href="$d0/d95/TypeTraits_8h.html" title="Framework/TypeTraits.h" alt="" coords="6489,578,6653,605"/>
+<area shape="rect" id="node87" href="$d7/d91/BoostSerializer_8h.html" title="Templatised boost serializer/deserializer for containers and base types. " alt="" coords="3805,578,4010,605"/>
+<area shape="rect" id="node92" href="$d1/d76/RuntimeError_8h.html" title="Framework/RuntimeError.h" alt="" coords="6894,489,7073,515"/>
+<area shape="rect" id="node93" href="$d5/d19/InputRoute_8h.html" title="Framework/InputRoute.h" alt="" coords="6300,489,6467,515"/>
+<area shape="rect" id="node96" href="$da/d0f/InputSpan_8h.html" title="Framework/InputSpan.h" alt="" coords="7401,399,7563,426"/>
+<area shape="rect" id="node97" href="$dc/d03/TableConsumer_8h.html" title="Framework/TableConsumer.h" alt="" coords="6979,399,7174,426"/>
+<area shape="rect" id="node84" href="$db/dff/RootSerializationSupport_8h.html" title="Framework/RootSerialization\lSupport.h" alt="" coords="3989,481,4180,523"/>
+<area shape="rect" id="node85" href="$d1/d53/SerializationMethods_8h.html" title="Type wrappers for enfording a specific serialization method. " alt="" coords="6053,489,6276,515"/>
+<area shape="rect" id="node88" href="$d6/d68/DataSpecUtils_8h.html" title="Framework/DataSpecUtils.h" alt="" coords="5842,489,6029,515"/>
+<area shape="rect" id="node91" href="$d1/d00/CheckTypes_8h.html" title="Framework/CheckTypes.h" alt="" coords="6643,489,6819,515"/>
+<area shape="rect" id="node89" href="$d5/d3f/InputSpec_8h.html" title="Framework/InputSpec.h" alt="" coords="5933,578,6095,605"/>
+<area shape="rect" id="node94" href="$d2/dd9/ExpirationHandler_8h.html" title="Framework/ExpirationHandler.h" alt="" coords="6170,578,6375,605"/>
+</map>

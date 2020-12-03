@@ -1,0 +1,22 @@
+digraph "o2::trd::GeometryBase"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{o2::trd::GeometryBase\n|# TLENGTH\l# SHEIGHT\l# SWIDTH1\l# SWIDTH2\l# SLENGTH\l# FLENGTH\l# SMPLTT\l# VSPACE\l# CRAH\l# CDRH\l# CAMH\l# CROH\l# CROW\l# CH\l# CHSV\l# ANODEPOS\l# CALT\l# CCLST\l# CCLFT\l# CGLT\l# CCUTA\l# CCUTB\l# CAUT\l# CALW\l# CALH\l# CALWMOD\l# CALHMOD\l# CWSW\l# CWSH\l# DRTHICK\l# AMTHICK\l# XETHICK\l# WRTHICK\l# RMYTHICK\l# RCBTHICK\l# RFBTHICK\l# PPPTHICK\l# PCBTHICK\l# PPCTHICK\l# PRBTHICK\l# PELTHICK\l# PHCTHICK\l# DRZPOS\l# AMZPOS\l# WRZPOSA\l# WRZPOSB\l# CALZPOS\l# MCMROW\l# ROBMAXC0\l# ROBMAXC1\l# ADCMAX\l# TBMAX\l# PADMAX\l# COLMAX\l# ROWMAXC0\l# ROWMAXC1\l# TIME0BASE\l# TIME0\l# XTRDBEG\l# XTRDEND\l# CWIDTH\l# CLENGTH\l|+ ~GeometryBase()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l# GeometryBase()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +eps\n+y\n+z" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{float\n||}",height=0.2,width=0.4,color="black",URL="$d4/dc3/classfloat.html"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mPadPlanes" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{o2::trd::PadPlane\n|# mLength\l# mLengthRim\l# mLengthOPad\l# mWidthOPad\l# mTiltingAngle\l# mPadRowSMOffset\l# mAnodeWireOffset\l|+ PadPlane()\l+ PadPlane()\l+ PadPlane()\l+ operator=()\l+ ~PadPlane()\l+ setLayer()\l+ setStack()\l+ setRowSpacing()\l+ setColSpacing()\l+ setLengthRim()\l+ setWidthRim()\l+ setNcols()\l+ setNrows()\l+ setPadCol()\l+ setPadRow()\l+ setLength()\l+ setWidth()\l+ setLengthOPad()\l+ setWidthOPad()\l+ setLengthIPad()\l+ setWidthIPad()\l+ setPadRowSMOffset()\l+ setAnodeWireOffset()\l+ setTiltingAngle()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l}",height=0.2,width=0.4,color="black",URL="$df/d92/classo2_1_1trd_1_1PadPlane.html"];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mPadRow\n#mWidth\n#mPadCol\n#mTiltingTan\n#mWidthIPad\n+const\n#mLengthIPad\n#mWidthRim\n#mRowSpacing\n#mColSpacing\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{double\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mNrows\n#mLayer\n#mNcols\n#mStack" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #MAXROWS\n#MAXCOLS" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +const\n#mSMStatus\n+stack\n+st\n+row" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +status" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #RPADW\n#VROCSM\n#MCMMAX\n#PGLTHICK\n#CPADW\n#PPDTHICK\n#RRHTHICK\n#RGLTHICK\n#CSVH\n#HSPACE\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+}

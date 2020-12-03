@@ -1,0 +1,4 @@
+<map id="o2::tpc::CompressedClustersOffsets" name="o2::tpc::CompressedClustersOffsets">
+<area shape="rect" id="node2" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="{o2::tpc::CompressedClusters\lPtrs_x\&lt; size_t, size_t,\l size_t \&gt;\n|+ qTotA\l+ flagsA\l+ padResA\l+ timeResA\l+ qPtA\l+ sliceA\l+ padA\l+ qTotU\l+ flagsU\l+ timeDiffU\l+ sigmaPadU\l+ sigmaTimeU\l+ nSliceRowClusters\l|+ ClassDefNV()\l}" alt="" coords="5,593,199,876"/>
+<area shape="rect" id="node4" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="{o2::tpc::CompressedClusters\lPtrs_x\&lt; TCHAR, TSHORT, TINT \&gt;\n|+ sliceA\l|+ ClassDefNV()\l}" alt="" coords="91,292,323,384"/>
+</map>

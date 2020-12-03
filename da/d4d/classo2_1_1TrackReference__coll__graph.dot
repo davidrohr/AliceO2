@@ -1,0 +1,8 @@
+digraph "o2::TrackReference"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::TrackReference\n||+ TrackReference()\l+ TrackReference()\l+ TrackReference()\l+ ~TrackReference()\l+ getTrackID()\l+ setTrackID()\l+ setLength()\l+ setTime()\l+ getLength()\l+ getTime()\l+ R()\l+ Pt()\l+ PhiPos()\l+ Phi()\l+ Theta()\l+ X()\l+ Y()\l+ Z()\l+ Px()\l+ Py()\l+ Pz()\l+ P()\l+ getUserId()\l+ getDetectorId()\l+ setDetectorId()\l+ setPosition()\l+ setMomentum()\l+ setUserId()\l+ phiPosition()\l+ Alpha()\l+ LocalX()\l+ LocalY()\l+ getTrackStatus()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

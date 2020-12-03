@@ -1,0 +1,8 @@
+digraph "o2::mid::Tracker"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mid::Tracker\n||+ Tracker()\l+ setImpactParamCut()\l+ getImpactParamCut()\l+ setSigmaCut()\l+ getSigmaCut()\l+ process()\l+ process()\l+ init()\l+ getTracks()\l+ getClusters()\l+ getTrackROFRecords()\l+ getClusterROFRecords()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,8 @@
+digraph "o2::gpu::GPUTPCO2Interface"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::gpu::GPUTPCO2Interface\n||+ GPUTPCO2Interface()\l+ ~GPUTPCO2Interface()\l+ Initialize()\l+ Deinitialize()\l+ RunTracking()\l+ Clear()\l+ GetParamContinuous()\l+ GetClusterErrors2()\l+ registerMemoryForGPU()\l+ unregisterMemoryForGPU()\l+ getConfig()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

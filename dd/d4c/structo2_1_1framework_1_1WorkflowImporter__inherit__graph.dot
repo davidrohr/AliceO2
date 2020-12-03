@@ -1,0 +1,10 @@
+digraph "o2::framework::WorkflowImporter"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::framework::WorkflowImporter\n|+ debug\l+ states\l+ spec\l+ dataProcessors\l+ metadata\l+ inputOptions\l+ binding\l+ origin\l+ description\l+ subspec\l+ lifetime\l+ optionName\l+ optionType\l+ optionDefault\l+ optionHelp\l+ outputHasSubSpec\l+ inputHasSubSpec\l|+ WorkflowImporter()\l+ StartObject()\l+ EndObject()\l+ StartArray()\l+ EndArray()\l+ Key()\l+ String()\l+ Uint()\l+ Int()\l+ Uint64()\l+ Double()\l+ enter()\l+ push()\l+ pop()\l+ in()\l+ previousIs()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{rapidjson::BaseReaderHandler\l\< rapidjson::UTF8\<\>, WorkflowImporter \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

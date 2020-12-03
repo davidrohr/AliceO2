@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/include/SimulationDataFormat/MCTrack.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/include/SimulationDataFormat/MCTrack.h">
+<area shape="rect" id="node2" href="$d9/d26/ParticleStatus_8h.html" title="SimulationDataFormat\l/ParticleStatus.h" alt="" coords="420,124,572,165"/>
+<area shape="rect" id="node4" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="682,124,890,165"/>
+<area shape="rect" id="node13" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1086,213,1206,240"/>
+<area shape="rect" id="node25" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="592,213,748,240"/>
+<area shape="rect" id="node14" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="954,288,1120,315"/>
+<area shape="rect" id="node15" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="1144,288,1370,315"/>
+<area shape="rect" id="node17" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="1394,288,1597,315"/>
+<area shape="rect" id="node19" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1458,437,1594,464"/>
+<area shape="rect" id="node22" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="1208,363,1352,389"/>
+<area shape="rect" id="node24" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1376,363,1615,389"/>
+<area shape="rect" id="node20" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1337,512,1521,539"/>
+<area shape="rect" id="node21" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1546,512,1704,539"/>
+<area shape="rect" id="node30" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="111,288,294,315"/>
+</map>

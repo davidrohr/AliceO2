@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Common/SimConfig/include/SimConfig/SimConfig.h" name="/home/runner/work/AliceO2/AliceO2/Common/SimConfig/include/SimConfig/SimConfig.h">
+<area shape="rect" id="node2" href="$d8/d12/SimConfig_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/src/SimConfig.cxx" alt="" coords="5,109,200,165"/>
+<area shape="rect" id="node3" href="$d2/da3/TestConfig_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/test/TestConfig.cxx" alt="" coords="224,109,419,165"/>
+<area shape="rect" id="node4" href="$d6/d4f/TestConfigurableParam_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/test/TestConfigurableParam.cxx" alt="" coords="443,109,658,165"/>
+<area shape="rect" id="node5" href="$da/da3/Cave_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Passive\l/src/Cave.cxx" alt="" coords="683,109,867,165"/>
+<area shape="rect" id="node6" href="$da/d69/testTPCParameters_8cxx.html" title="This task tests the Parameter handling. " alt="" coords="891,109,1117,165"/>
+<area shape="rect" id="node7" href="$d0/d83/GeneratorFactory_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorFactory.cxx" alt="" coords="1141,109,1321,165"/>
+<area shape="rect" id="node8" href="$db/d82/O2SimDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2SimDevice.h" alt="" coords="1345,117,1535,158"/>
+<area shape="rect" id="node12" href="$dc/d50/O2PrimaryServerDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice.h" alt="" coords="1560,117,1811,158"/>
+<area shape="rect" id="node13" href="$db/d8f/O2PrimaryServerDeviceRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice\lRunner.cxx" alt="" coords="1694,213,1933,269"/>
+<area shape="rect" id="node14" href="$d8/d07/o2sim_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/o2sim.cxx" alt="" coords="1886,117,2066,158"/>
+<area shape="rect" id="node15" href="$d8/ddd/o2sim__parallel_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/o2sim_parallel.cxx" alt="" coords="2090,117,2297,158"/>
+<area shape="rect" id="node16" href="$df/d3b/O2MCApplication_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/O2MCApplication.cxx" alt="" coords="2321,117,2581,158"/>
+<area shape="rect" id="node9" href="$db/d50/O2HitMerger_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h" alt="" coords="1122,221,1305,262"/>
+<area shape="rect" id="node11" href="$d6/da5/O2SimDeviceRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2SimDeviceRunner.cxx" alt="" coords="1353,221,1599,262"/>
+<area shape="rect" id="node10" href="$d9/d16/O2HitMergerRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx" alt="" coords="1094,317,1333,359"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/reconstruction/src/ReadRaw.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/reconstruction/src/ReadRaw.cxx">
+<area shape="rect" id="node2" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="2499,273,2687,300"/>
+<area shape="rect" id="node4" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1015,348,1225,389"/>
+<area shape="rect" id="node9" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="421,437,659,464"/>
+<area shape="rect" id="node10" href="$d3/dcb/FT0_2include_2DataFormatsFT0_2RawEventData_8h.html" title="DataFormatsFT0/RawEventData.h" alt="" coords="503,199,729,225"/>
+<area shape="rect" id="node11" href="$d0/d0a/DataFormats_2Detectors_2FIT_2FT0_2include_2DataFormatsFT0_2Digit_8h.html" title="DataFormatsFT0/Digit.h" alt="" coords="653,273,816,300"/>
+<area shape="rect" id="node17" href="$dc/d44/FIT_2FT0_2include_2DataFormatsFT0_2ChannelData_8h.html" title="DataFormatsFT0/ChannelData.h" alt="" coords="351,355,563,382"/>
+<area shape="rect" id="node24" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="5,273,147,300"/>
+<area shape="rect" id="node28" href="$d0/d72/FT0_2reconstruction_2include_2FT0Reconstruction_2ReadRaw_8h.html" title="FT0Reconstruction/ReadRaw.h" alt="" coords="1289,124,1495,151"/>
+<area shape="rect" id="node35" href="$d5/d65/DigitsTemp_8h.html" title="DataFormatsFT0/DigitsTemp.h" alt="" coords="955,199,1157,225"/>
+<area shape="rect" id="node38" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1935,124,2132,151"/>
+<area shape="rect" id="node42" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="2156,124,2335,151"/>
+<area shape="rect" id="node5" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1216,437,1373,464"/>
+<area shape="rect" id="node21" href="$dd/d1f/FT0_2include_2DataFormatsFT0_2LookUpTable_8h.html" title="DataFormatsFT0/LookUpTable.h" alt="" coords="1616,273,1829,300"/>
+<area shape="rect" id="node12" href="$de/d64/RangeReference_8h.html" title="Class to refer to the 1st entry and N elements of some group in the continuous container. " alt="" coords="734,355,991,382"/>
+<area shape="rect" id="node13" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1396,355,1623,382"/>
+<area shape="rect" id="node14" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2900,437,3036,464"/>
+<area shape="rect" id="node15" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2973,512,3157,539"/>
+<area shape="rect" id="node16" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2790,512,2949,539"/>
+<area shape="rect" id="node43" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="2724,199,2863,225"/>
+<area shape="rect" id="node46" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="2283,199,2413,225"/>
+<area shape="rect" id="node47" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="2270,273,2426,300"/>
+<area shape="rect" id="node51" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="2593,355,2775,382"/>
+</map>

@@ -1,0 +1,12 @@
+digraph "o2::tof::CompressedDecodingTask"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::tof::CompressedDecodingTask\n||+ CompressedDecodingTask()\l+ ~CompressedDecodingTask()\l+ init()\l+ run()\l+ endOfStream()\l+ postData()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{DecoderBase\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}",height=0.2,width=0.4,color="black",URL="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html"];
+  Node2 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{o2::framework::Task\n||+ ~Task()\l+ init()\l+ run()\l+ endOfStream()\l}",height=0.2,width=0.4,color="black",URL="$de/dac/classo2_1_1framework_1_1Task.html"];
+}

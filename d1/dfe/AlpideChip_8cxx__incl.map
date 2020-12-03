@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/simulation/src/AlpideChip.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/simulation/src/AlpideChip.cxx">
+<area shape="rect" id="node2" href="$da/d2d/AlpideChip_8h.html" title="Creates an ALPIDE chip in simulation. " alt="" coords="101,109,310,136"/>
+<area shape="rect" id="node5" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="1291,109,1522,136"/>
+<area shape="rect" id="node21" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="2553,184,2773,211"/>
+<area shape="rect" id="node25" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="3163,109,3338,136"/>
+<area shape="rect" id="node6" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1332,184,1481,211"/>
+<area shape="rect" id="node7" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1275,355,1411,382"/>
+<area shape="rect" id="node10" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="245,266,403,293"/>
+<area shape="rect" id="node20" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="2140,266,2321,293"/>
+<area shape="rect" id="node8" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1153,437,1337,464"/>
+<area shape="rect" id="node9" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1362,437,1521,464"/>
+<area shape="rect" id="node35" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="3880,266,4075,293"/>
+<area shape="rect" id="node41" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="3957,184,4152,211"/>
+</map>

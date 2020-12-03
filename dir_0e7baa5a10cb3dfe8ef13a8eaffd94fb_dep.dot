@@ -1,0 +1,17 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/ITSMFT/ITS/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_279659ddc9854b304a1ef4f4a176eeda {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ITS" fontname="Helvetica", fontsize="10", URL="dir_279659ddc9854b304a1ef4f4a176eeda.html"]
+  dir_0e7baa5a10cb3dfe8ef13a8eaffd94fb [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0e7baa5a10cb3dfe8ef13a8eaffd94fb.html"];
+  }
+  dir_2670cea8fab64371920b2f1ad7e45a63 [shape=box label="include" color="red" URL="dir_2670cea8fab64371920b2f1ad7e45a63.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_a24d6d0829ce59989bf769e9c553cbcc [shape=box label="common" color="red" URL="dir_a24d6d0829ce59989bf769e9c553cbcc.html"];
+  dir_0e7baa5a10cb3dfe8ef13a8eaffd94fb->dir_2670cea8fab64371920b2f1ad7e45a63 [headlabel="1", labeldistance=1.5 headhref="dir_000244_000242.html"];
+  dir_0e7baa5a10cb3dfe8ef13a8eaffd94fb->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000244_000035.html"];
+  dir_0e7baa5a10cb3dfe8ef13a8eaffd94fb->dir_a24d6d0829ce59989bf769e9c553cbcc [headlabel="1", labeldistance=1.5 headhref="dir_000244_000116.html"];
+  dir_a24d6d0829ce59989bf769e9c553cbcc->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000116_000035.html"];
+}

@@ -1,0 +1,12 @@
+digraph "o2::trd::CalROC"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::trd::CalROC\n||+ CalROC()\l+ CalROC()\l+ ~CalROC()\l+ getNrows()\l+ getNcols()\l+ getChannel()\l+ getNchannels()\l+ getValue()\l+ getValue()\l+ setValue()\l+ setValue()\l+ setName()\l+ setTitle()\l+ getName()\l+ getTitle()\l+ getMean()\l+ getMeanNotNull()\l+ getRMS()\l+ getRMSNotNull()\l+ getMedian()\l+ getLTM()\l+ add()\l+ multiply()\l+ add()\l+ multiply()\l+ divide()\l+ unfold()\l+ makeHisto2D()\l+ makeHisto1D()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mData" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{vector\< unsigned short \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mName\n#mTitle\n#mNrows\n#mCha\n#mNchannels\n#mNcols\n#mPla" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,8 @@
+digraph "o2::mch::TrackFitter"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::TrackFitter\n||+ TrackFitter()\l+ ~TrackFitter()\l+ TrackFitter()\l+ operator=()\l+ TrackFitter()\l+ operator=()\l+ initField()\l+ smoothTracks()\l+ isSmootherEnabled()\l+ useClusterResolution()\l+ useChamberResolution()\l+ setChamberResolution()\l+ fit()\l+ runKalmanFilter()\l+ getMaxChi2()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

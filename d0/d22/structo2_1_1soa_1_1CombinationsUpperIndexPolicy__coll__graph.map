@@ -1,0 +1,6 @@
+<map id="o2::soa::CombinationsUpperIndexPolicy&lt; Ts &gt;" name="o2::soa::CombinationsUpperIndexPolicy&lt; Ts &gt;">
+<area shape="rect" id="node2" href="$de/dac/structo2_1_1soa_1_1CombinationsIndexPolicyBase.html" title="{o2::soa::CombinationsIndex\lPolicyBase\&lt; Ts... \&gt;\n||+ CombinationsIndexPolicyBase()\l+ moveToEnd()\l+ addOne()\l}" alt="" coords="221,499,441,620"/>
+<area shape="rect" id="node7" href="$de/dac/structo2_1_1soa_1_1CombinationsIndexPolicyBase.html" title="{o2::soa::CombinationsIndex\lPolicyBase\&lt; Ts \&gt;\n||+ CombinationsIndexPolicyBase()\l+ moveToEnd()\l+ addOne()\l}" alt="" coords="102,315,322,436"/>
+<area shape="rect" id="node5" href="$dd/da8/structo2_1_1soa_1_1NTupleType.html" title="{o2::soa::NTupleType\l\&lt; uint64_t, sizeof...(Ts)\&gt;\n||}" alt="" coords="243,160,410,252"/>
+<area shape="rect" id="node6" href="$dd/da8/structo2_1_1soa_1_1NTupleType.html" title="{o2::soa::NTupleType\l\&lt; T, N, REST \&gt;\n||}" alt="" coords="255,5,399,97"/>
+</map>

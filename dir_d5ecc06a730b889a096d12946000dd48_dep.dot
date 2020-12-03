@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/Passive/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f01815b857f9009bea48e2cb39492245 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Passive" fontname="Helvetica", fontsize="10", URL="dir_f01815b857f9009bea48e2cb39492245.html"]
+  subgraph clusterdir_d5ecc06a730b889a096d12946000dd48 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d5ecc06a730b889a096d12946000dd48.html"];
+    dir_d5ecc06a730b889a096d12946000dd48 [shape=plaintext label="include"];
+    dir_72724ee868ffdb57615bd2021f241624 [shape=box label="DetectorsPassive" color="black" fillcolor="white" style="filled" URL="dir_72724ee868ffdb57615bd2021f241624.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_72724ee868ffdb57615bd2021f241624->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000679_000035.html"];
+}

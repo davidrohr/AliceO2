@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Headers/include/Headers/SubframeMetadata.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Headers/include/Headers/SubframeMetadata.h">
+<area shape="rect" id="node2" href="$df/d5b/EPNReceiverDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/EPNReceiverDevice.cxx" alt="" coords="5,109,200,165"/>
+<area shape="rect" id="node3" href="$d6/d3d/FakeTimeframeGeneratorDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/FakeTimeframeGeneratorDevice.cxx" alt="" coords="225,109,487,165"/>
+<area shape="rect" id="node4" href="$de/d5d/FLPSenderDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/FLPSenderDevice.cxx" alt="" coords="511,109,691,165"/>
+<area shape="rect" id="node5" href="$d2/d68/SubframeBuilderDevice_8cxx.html" title="Demonstrator device for a subframe builder. " alt="" coords="716,109,927,165"/>
+<area shape="rect" id="node6" href="$d1/db0/TimeframeParser_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/TimeframeParser.cxx" alt="" coords="951,109,1131,165"/>
+<area shape="rect" id="node7" href="$da/d30/TimeframeReaderDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/TimeframeReaderDevice.cxx" alt="" coords="1156,109,1375,165"/>
+<area shape="rect" id="node8" href="$db/dfa/TimeframeValidatorDevice_8cxx.html" title="Validator device for a full time frame. " alt="" coords="1399,109,1625,165"/>
+<area shape="rect" id="node9" href="$d7/d2f/TimeframeWriterDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/TimeframeWriterDevice.cxx" alt="" coords="1649,109,1860,165"/>
+<area shape="rect" id="node10" href="$d7/d98/DataPublisherDevice_8cxx.html" title="Utility device for data publishing. " alt="" coords="1885,109,2081,165"/>
+</map>

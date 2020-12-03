@@ -1,0 +1,5 @@
+<map id="o2::itsmft::ITSMFTDPLDigitizerTask" name="o2::itsmft::ITSMFTDPLDigitizerTask">
+<area shape="rect" id="node3" href="$da/d25/classo2_1_1itsmft_1_1ITSDPLDigitizerTask.html" title="{o2::itsmft::ITSDPLDigitizerTask\n|+ DETID\l+ DETOR\l|+ ITSDPLDigitizerTask()\l+ setDigitizationOptions()\l}" alt="" coords="5,593,215,700"/>
+<area shape="rect" id="node4" href="$d2/dc2/classo2_1_1itsmft_1_1MFTDPLDigitizerTask.html" title="{o2::itsmft::MFTDPLDigitizerTask\n|+ DETID\l+ DETOR\l|+ MFTDPLDigitizerTask()\l+ setDigitizationOptions()\l}" alt="" coords="239,593,453,700"/>
+<area shape="rect" id="node2" href="$de/de1/classo2_1_1base_1_1BaseDPLDigitizer.html" title="{o2::base::BaseDPLDigitizer\n||+ BaseDPLDigitizer()\l+ ~BaseDPLDigitizer()\l+ BaseDPLDigitizer()\l+ init()\l+ initDigitizerTask()\l}" alt="" coords="135,5,319,141"/>
+</map>

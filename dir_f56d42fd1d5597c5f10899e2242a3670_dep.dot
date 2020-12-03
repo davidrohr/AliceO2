@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/test/HitAnalysis/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_04efe6227c275c48803e66c564837fd2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="HitAnalysis" fontname="Helvetica", fontsize="10", URL="dir_04efe6227c275c48803e66c564837fd2.html"]
+  subgraph clusterdir_f56d42fd1d5597c5f10899e2242a3670 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f56d42fd1d5597c5f10899e2242a3670.html"];
+    dir_f56d42fd1d5597c5f10899e2242a3670 [shape=plaintext label="include"];
+    dir_8b8e3e487bb8619b295d830f37a233b8 [shape=box label="HitAnalysis" color="black" fillcolor="white" style="filled" URL="dir_8b8e3e487bb8619b295d830f37a233b8.html"];
+  }
+  }
+  dir_85bf31a2e8d306e7598ffcb73f8df6bf [shape=box label="common" color="red" URL="dir_85bf31a2e8d306e7598ffcb73f8df6bf.html"];
+  dir_8b8e3e487bb8619b295d830f37a233b8->dir_85bf31a2e8d306e7598ffcb73f8df6bf [headlabel="1", labeldistance=1.5 headhref="dir_000600_000071.html"];
+}

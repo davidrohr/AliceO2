@@ -1,0 +1,19 @@
+digraph "o2::ctf::Block&lt; W &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::ctf::Block\< W \>\n||+ getDict()\l+ getData()\l+ getLiterals()\l+ getCreatePayload()\l+ getCreateDict()\l+ getCreateData()\l+ getCreateLiterals()\l+ setNDict()\l+ setNData()\l+ setNLiterals()\l+ getNDict()\l+ getNData()\l+ getNLiterals()\l+ getNStored()\l+ ~Block()\l+ clear()\l+ storeDict()\l+ storeData()\l+ storeLiterals()\l+ realignBlock()\l+ store()\l+ relocate()\l+ ClassDefNV()\l+ estimateSize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +nDict\n+nLiterals\n+nStored\n+nData" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +registry" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{o2::ctf::Registry\n||+ getFreeBlockStart()\l+ getFreeSize()\l+ ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$d0/d1c/structo2_1_1ctf_1_1Registry.html",tooltip="registry struct for the buffer start and offsets of writable space "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +head" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{char\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +offsFreeStart\n+size" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{size_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node2 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +nFilledBlocks" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +payload" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{W *\n||}",height=0.2,width=0.4,color="grey75"];
+}

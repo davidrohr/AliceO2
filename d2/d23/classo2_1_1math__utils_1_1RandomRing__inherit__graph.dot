@@ -1,0 +1,18 @@
+digraph "o2::math_utils::RandomRing&lt; N &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::math_utils::RandomRing\< N \>\n||+ RandomRing()\l+ RandomRing()\l+ initialize()\l+ initialize()\l+ initialize()\l+ getNextValue()\l+ getNextValueVc()\l+ getRingPosition()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="orange",fontsize="10",style="solid",label=" \< 1000 \>" ,fontname="Helvetica"];
+  Node1 [label="{o2::math_utils::RandomRing\l\< 1000 \>\n||+ RandomRing()\l+ RandomRing()\l+ initialize()\l+ initialize()\l+ initialize()\l+ getNextValue()\l+ getNextValueVc()\l+ getRingPosition()\l}",height=0.2,width=0.4,color="black",URL="$dc/dfc/classo2_1_1math__utils_1_1RandomRing.html"];
+  Node0 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< float_v::size() *Digitization\lParameters::PheRRSize \>" ,fontname="Helvetica"];
+  Node2 [label="{o2::math_utils::RandomRing\l\< float_v::size() *Digitization\lParameters::PheRRSize \>\n||+ RandomRing()\l+ RandomRing()\l+ initialize()\l+ initialize()\l+ initialize()\l+ getNextValue()\l+ getNextValueVc()\l+ getRingPosition()\l}",height=0.2,width=0.4,color="black",URL="$dc/dfc/classo2_1_1math__utils_1_1RandomRing.html"];
+  Node0 -> Node3 [dir="back",color="orange",fontsize="10",style="solid",label=" \< 10000 \>" ,fontname="Helvetica"];
+  Node3 [label="{o2::math_utils::RandomRing\l\< 10000 \>\n||+ RandomRing()\l+ RandomRing()\l+ initialize()\l+ initialize()\l+ initialize()\l+ getNextValue()\l+ getNextValueVc()\l+ getRingPosition()\l}",height=0.2,width=0.4,color="black",URL="$dc/dfc/classo2_1_1math__utils_1_1RandomRing.html"];
+  Node0 -> Node4 [dir="back",color="orange",fontsize="10",style="solid",label=" \< float_v::size() *DP\l::NOISE_RANDOM_RING_SIZE \>" ,fontname="Helvetica"];
+  Node4 [label="{o2::math_utils::RandomRing\l\< float_v::size() *DP::NOISE\l_RANDOM_RING_SIZE \>\n||+ RandomRing()\l+ RandomRing()\l+ initialize()\l+ initialize()\l+ initialize()\l+ getNextValue()\l+ getNextValueVc()\l+ getRingPosition()\l}",height=0.2,width=0.4,color="black",URL="$dc/dfc/classo2_1_1math__utils_1_1RandomRing.html"];
+  Node0 -> Node5 [dir="back",color="orange",fontsize="10",style="solid",label=" \< float_v::size() *Digitization\lParameters::HitRRSize \>" ,fontname="Helvetica"];
+  Node5 [label="{o2::math_utils::RandomRing\l\< float_v::size() *Digitization\lParameters::HitRRSize \>\n||+ RandomRing()\l+ RandomRing()\l+ initialize()\l+ initialize()\l+ initialize()\l+ getNextValue()\l+ getNextValueVc()\l+ getRingPosition()\l}",height=0.2,width=0.4,color="black",URL="$dc/dfc/classo2_1_1math__utils_1_1RandomRing.html"];
+}

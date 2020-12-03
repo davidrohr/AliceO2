@@ -1,0 +1,4 @@
+<map id="o2::dataformats::TimeStampWithError&lt; T, E &gt;" name="o2::dataformats::TimeStampWithError&lt; T, E &gt;">
+<area shape="rect" id="node3" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; float, float \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="21,419,209,555"/>
+<area shape="rect" id="node2" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\&lt; T \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="5,5,225,171"/>
+</map>

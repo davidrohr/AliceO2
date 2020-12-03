@@ -1,0 +1,28 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Reconstruction/include/ReconstructionDataFormats/V0.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node64 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats/V0.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/V0.cxx",height=0.2,width=0.4,color="black",URL="$d1/d1b/V0_8cxx.html"];
+  Node64 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/SecondaryVertexReaderSpec.h",height=0.2,width=0.4,color="black",URL="$d9/d65/SecondaryVertexReaderSpec_8h.html"];
+  Node66 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/secondary-vertex\l-reader-workflow.cxx",height=0.2,width=0.4,color="black",URL="$d8/d27/secondary-vertex-reader-workflow_8cxx.html"];
+  Node66 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexReaderSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/dad/SecondaryVertexReaderSpec_8cxx.html"];
+  Node64 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexWriterSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/de6/SecondaryVertexWriterSpec_8cxx.html"];
+  Node64 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/Vertexing\l/include/DetectorsVertexing\l/SVertexer.h",height=0.2,width=0.4,color="black",URL="$db/dbe/SVertexer_8h.html",tooltip="Secondary vertex finder. "];
+  Node70 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/SecondaryVertexingSpec.h",height=0.2,width=0.4,color="black",URL="$de/d21/SecondaryVertexingSpec_8h.html"];
+  Node71 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/secondary-vertexing\l-workflow.cxx",height=0.2,width=0.4,color="black",URL="$d9/d62/secondary-vertexing-workflow_8cxx.html"];
+  Node71 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexingSpec.cxx",height=0.2,width=0.4,color="black",URL="$d9/dfc/SecondaryVertexingSpec_8cxx.html"];
+  Node70 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/Vertexing\l/src/SVertexer.cxx",height=0.2,width=0.4,color="black",URL="$d4/d3b/SVertexer_8cxx.html",tooltip="Secondary vertex finder. "];
+}

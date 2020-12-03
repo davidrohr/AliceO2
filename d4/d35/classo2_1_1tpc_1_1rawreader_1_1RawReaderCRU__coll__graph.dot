@@ -1,0 +1,8 @@
+digraph "o2::tpc::rawreader::RawReaderCRU"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::rawreader\l::RawReaderCRU\n||+ RawReaderCRU()\l+ scanFile()\l+ setLink()\l+ setVerbosity()\l+ setDebugLevel()\l+ setEventNumber()\l+ setReaderNumber()\l+ setFillADCdataMap()\l+ getFillADCdataMap()\l+ getEventNumber()\l+ getNumberOfEvents()\l+ checkLinkPresent()\l+ processDataFile()\l+ processDataMemory()\l+ processPacket()\l+ processMemory()\l+ processLinks()\l+ findSyncPositions()\l+ syncFoundForLink()\l+ getADCMap()\l+ clearMap()\l+ getCRU()\l+ forceCRU()\l+ setManager()\l+ copyEvents()\l+ runADCDataCallback()\l+ processFile()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

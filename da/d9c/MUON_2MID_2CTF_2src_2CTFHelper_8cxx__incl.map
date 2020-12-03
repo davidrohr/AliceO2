@@ -1,0 +1,28 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/CTF/src/CTFHelper.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/CTF/src/CTFHelper.cxx">
+<area shape="rect" id="node2" href="$d9/d0e/MUON_2MID_2CTF_2include_2MIDCTF_2CTFHelper_8h.html" title="MIDCTF/CTFHelper.h" alt="" coords="428,109,580,136"/>
+<area shape="rect" id="node3" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="340,266,548,293"/>
+<area shape="rect" id="node11" href="$d3/d53/ColumnData_8h.html" title="Strip pattern (aka digits) " alt="" coords="105,266,316,293"/>
+<area shape="rect" id="node14" href="$df/d9b/MUON_2MID_2include_2DataFormatsMID_2CTF_8h.html" title="DataFormatsMID/CTF.h" alt="" coords="482,184,646,211"/>
+<area shape="rect" id="node4" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="274,348,483,389"/>
+<area shape="rect" id="node5" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="390,437,548,464"/>
+<area shape="rect" id="node10" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="129,437,366,464"/>
+<area shape="rect" id="node16" href="$da/d91/EncodedBlocks_8h.html" title="DetectorsCommonDataFormats\l/EncodedBlocks.h" alt="" coords="633,259,841,300"/>
+<area shape="rect" id="node18" href="$d4/de7/rans_8h.html" title="header for public api " alt="" coords="1650,355,1744,382"/>
+<area shape="rect" id="node48" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="774,355,953,382"/>
+<area shape="rect" id="node50" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="398,751,540,777"/>
+<area shape="rect" id="node19" href="$dd/d65/FrequencyTable_8h.html" title="Histogram to depict frequencies of source symbols for rANS compression. " alt="" coords="1578,751,1704,777"/>
+<area shape="rect" id="node25" href="$d4/da1/helper_8h.html" title="various helper functions " alt="" coords="2746,825,2861,852"/>
+<area shape="rect" id="node28" href="$dd/d74/Utilities_2rANS_2include_2rANS_2Encoder_8h.html" title="Encoder.h" alt="" coords="2499,512,2580,539"/>
+<area shape="rect" id="node38" href="$dc/d62/Utilities_2rANS_2include_2rANS_2Decoder_8h.html" title="Decoder.h" alt="" coords="1142,512,1225,539"/>
+<area shape="rect" id="node41" href="$d5/ddf/DedupEncoder_8h.html" title="DedupEncoder.h" alt="" coords="2086,437,2204,464"/>
+<area shape="rect" id="node44" href="$da/da6/DedupDecoder_8h.html" title="DedupDecoder.h" alt="" coords="1196,437,1316,464"/>
+<area shape="rect" id="node45" href="$d9/de1/LiteralEncoder_8h.html" title="LiteralEncoder.h" alt="" coords="2579,437,2695,464"/>
+<area shape="rect" id="node46" href="$df/dfe/LiteralDecoder_8h.html" title="LiteralDecoder.h" alt="" coords="1054,437,1172,464"/>
+<area shape="rect" id="node29" href="$de/d8e/Utilities_2rANS_2include_2rANS_2internal_2Encoder_8h.html" title="internal/Encoder.h" alt="" coords="2322,594,2448,621"/>
+<area shape="rect" id="node32" href="$d2/d53/EncoderSymbol_8h.html" title="Structure containing all relevant information to encode a symbol. " alt="" coords="2620,676,2745,703"/>
+<area shape="rect" id="node36" href="$d8/dd9/SymbolTable_8h.html" title="Container for information needed to encode/decode a symbol of the alphabet. " alt="" coords="2049,594,2204,621"/>
+<area shape="rect" id="node31" href="$d7/d99/DecoderSymbol_8h.html" title="Structure containing all relevant information for decoding a rANS encoded symbol. ..." alt="" coords="1634,676,1760,703"/>
+<area shape="rect" id="node37" href="$d0/d51/SymbolStatistics_8h.html" title="Structure to depict the distribution of symbols in the source message. " alt="" coords="1324,676,1456,703"/>
+<area shape="rect" id="node39" href="$d6/dfb/Utilities_2rANS_2include_2rANS_2internal_2Decoder_8h.html" title="internal/Decoder.h" alt="" coords="1745,594,1873,621"/>
+<area shape="rect" id="node40" href="$dc/d3b/ReverseSymbolLookupTable_8h.html" title="Maps CDF back to source symbol &#45; needed for the decoder. " alt="" coords="1001,587,1204,628"/>
+</map>

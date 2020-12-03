@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="variant\< std::string,\l o2::framework::data\l_matcher::ContextRef \>",height=0.2,width=0.4,color="black",URL="$d8/dca/classstd_1_1variant_3_01std_1_1string_00_01o2_1_1framework_1_1data__matcher_1_1ContextRef_01_4.html"];
+}

@@ -1,0 +1,4 @@
+<map id="o2::tof::CompressedDecodingTask" name="o2::tof::CompressedDecodingTask">
+<area shape="rect" id="node2" href="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html" title="{DecoderBase\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}" alt="" coords="5,5,176,185"/>
+<area shape="rect" id="node3" href="$de/dac/classo2_1_1framework_1_1Task.html" title="{o2::framework::Task\n||+ ~Task()\l+ init()\l+ run()\l+ endOfStream()\l}" alt="" coords="201,35,343,156"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="o2::mid::Helper" name="o2::mid::Helper">
+<area shape="rect" id="node2" href="$d2/df3/classo2_1_1mid_1_1GeometryTransformer.html" title="{o2::mid::GeometryTransformer\n||+ setMatrix()\l+ getMatrix()\l+ localToGlobal()\l+ globalToLocal()\l+ localToGlobal()\l+ globalToLocal()\l+ localToGlobal()\l+ globalToLocal()\l}" alt="" coords="5,49,205,229"/>
+<area shape="rect" id="node3" href="$d6/d48/classo2_1_1mid_1_1TrackGenerator.html" title="Class to generate tracks for MID. " alt="" coords="229,64,416,215"/>
+<area shape="rect" id="node4" href="$db/d25/classo2_1_1mid_1_1HitFinder.html" title="Class to find the impact point of a track on the chamber. " alt="" coords="441,86,586,193"/>
+<area shape="rect" id="node5" href="$d1/d66/classo2_1_1mid_1_1Mapping.html" title="{o2::mid::Mapping\n||+ Mapping()\l+ ~Mapping()\l+ stripByLocation()\l+ stripByLocationInBoard()\l+ stripByPosition()\l+ getStripSize()\l+ getNStripsNBP()\l+ getFirstColumn()\l+ getFirstBoardBP()\l+ getLastBoardBP()\l+ getBoardId()\l+ getNeighbours()\l+ isValid()\l+ nextStrip()\l}" alt="" coords="610,5,787,273"/>
+<area shape="rect" id="node6" href="$da/d04/classo2_1_1mid_1_1Tracker.html" title="Tracking algorithm for MID. " alt="" coords="812,20,991,259"/>
+</map>

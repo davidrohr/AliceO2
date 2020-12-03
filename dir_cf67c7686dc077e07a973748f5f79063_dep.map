@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw">
+<area shape="rect" id="node1" href="dir_cf67c7686dc077e07a973748f5f79063.html" title="MIDRaw" alt="" coords="100,52,175,100"/>
+<area shape="rect" id="node2" href="dir_b5547b1068d53f0f904ee5a2a84992af.html" title="Base" alt="" coords="5,148,77,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000660_000647.html" title="1" alt="" coords="81,133,89,148"/>
+<area shape="rect" id="node3" href="dir_26637d1bd82229bc9ed97f7e706be743.html" title="Raw" alt="" coords="101,148,173,196"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000660_000665.html" title="3" alt="" coords="142,122,150,137"/>
+<area shape="rect" id="node4" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="124,244,223,292"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000660_000089.html" title="13" alt="" coords="186,221,201,235"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000665_000089.html" title="15" alt="" coords="158,216,173,231"/>
+<area shape="rect" id="clust1" href="dir_c79384bd87b5c57290ef89b923823ea3.html" title="include" alt="" coords="89,16,185,111"/>
+</map>

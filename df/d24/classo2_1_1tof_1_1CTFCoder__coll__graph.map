@@ -1,0 +1,4 @@
+<map id="o2::tof::CTFCoder" name="o2::tof::CTFCoder">
+<area shape="rect" id="node2" href="$d1/db7/classo2_1_1ctf_1_1CTFCoderBase.html" title="{o2::ctf::CTFCoderBase\n||+ CTFCoderBase()\l+ CTFCoderBase()\l+ loadDictionaryTreeFile()\l+ readDictionaryFromFile()\l+ createCoder()\l+ clear()\l# getPrefix()\l# ClassDefNV()\l}" alt="" coords="69,784,246,964"/>
+<area shape="rect" id="node3" href="$d6/dd5/classo2_1_1detectors_1_1DetID.html" title="Static class with identifiers, bitmasks and names for ALICE detectors. " alt="" coords="5,292,147,721"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$df/d06/classo2_1_1detectors_1_1DetMatrixCache.html" title="o2::detectors::DetMatrix\lCache" alt="" coords="5,138,168,179"/>
+<area shape="rect" id="node2" href="$d8/d60/classo2_1_1detectors_1_1DetMatrixCacheIndirect.html" title="Variant of DetMatrixCache for non consecutive indexing. " alt="" coords="222,175,385,217"/>
+<area shape="rect" id="node4" href="$d9/d02/classo2_1_1itsmft_1_1GeometryTGeo.html" title="o2::itsmft::GeometryTGeo" alt="" coords="216,107,391,133"/>
+<area shape="rect" id="node3" href="$dc/d3f/classo2_1_1trd_1_1Geometry.html" title="o2::trd::Geometry" alt="" coords="464,208,588,235"/>
+<area shape="rect" id="node5" href="$d9/d81/classo2_1_1its3_1_1GeometryTGeo.html" title="o2::its3::GeometryTGeo" alt="" coords="445,157,607,184"/>
+<area shape="rect" id="node6" href="$d8/d99/classo2_1_1its4_1_1GeometryTGeo.html" title="o2::its4::GeometryTGeo" alt="" coords="445,5,607,32"/>
+<area shape="rect" id="node7" href="$dc/d86/classo2_1_1its_1_1GeometryTGeo.html" title="o2::its::GeometryTGeo" alt="" coords="449,56,603,83"/>
+<area shape="rect" id="node8" href="$de/db5/classo2_1_1mft_1_1GeometryTGeo.html" title="o2::mft::GeometryTGeo" alt="" coords="446,107,606,133"/>
+<area shape="rect" id="node9" href="$d8/db1/classo2_1_1gpu_1_1FlatObject.html" title="FlatObject" alt="" coords="262,309,345,336"/>
+<area shape="rect" id="node10" href="$d1/de6/classo2_1_1base_1_1MatLayerCyl.html" title="o2::base::MatLayerCyl" alt="" coords="449,309,603,336"/>
+<area shape="rect" id="node11" href="$dc/da6/classo2_1_1base_1_1MatLayerCylSet.html" title="o2::base::MatLayerCylSet" alt="" coords="439,360,613,387"/>
+<area shape="rect" id="node12" href="$dd/d58/classo2_1_1trd_1_1GeometryFlat.html" title="o2::trd::GeometryFlat" alt="" coords="453,259,599,285"/>
+<area shape="rect" id="node13" href="$d8/d39/classo2_1_1trd_1_1GeometryBase.html" title="o2::trd::GeometryBase" alt="" coords="226,251,381,277"/>
+</map>

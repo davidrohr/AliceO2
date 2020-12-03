@@ -1,0 +1,6 @@
+<map id="o2::soa::Column&lt; T, INHERIT &gt;" name="o2::soa::Column&lt; T, INHERIT &gt;">
+<area shape="rect" id="node2" href="$d7/d26/classo2_1_1soa_1_1ColumnIterator.html" title="{o2::soa::ColumnIterator\&lt; T \&gt;\n||+ ColumnIterator()\l+ ColumnIterator()\l+ ColumnIterator()\l+ ColumnIterator()\l+ operator=()\l+ operator=()\l+ nextChunk()\l+ prevChunk()\l+ moveToChunk()\l+ moveToEnd()\l+ operator*()\l+ moveToPos()\l+ checkNextChunk()\l}" alt="" coords="382,491,573,744"/>
+<area shape="rect" id="node3" href="$d5/d2a/structo2_1_1soa_1_1Chunked.html" title="{o2::soa::Chunked\n||}" alt="" coords="5,255,131,333"/>
+<area shape="rect" id="node9" href="$d7/d26/classo2_1_1soa_1_1ColumnIterator.html" title="{o2::soa::ColumnIterator\l\&lt; T, ChunkingPolicy \&gt;\n||+ ColumnIterator()\l+ ColumnIterator()\l+ ColumnIterator()\l+ operator=()\l+ ColumnIterator()\l+ operator=()\l+ nextChunk()\l+ prevChunk()\l+ moveToChunk()\l+ moveToEnd()\l+ operator*()\l+ moveToPos()\l+ checkNextChunk()\l}" alt="" coords="283,160,442,428"/>
+<area shape="rect" id="node10" href="$d3/db7/classo2_1_1soa_1_1ChunkingPolicy.html" title="{ChunkingPolicy\n||}" alt="" coords="283,5,397,83"/>
+</map>

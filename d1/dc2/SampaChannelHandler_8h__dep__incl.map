@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/SampaChannelHandler.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Decoder/include/MCHRawDecoder/SampaChannelHandler.h">
+<area shape="rect" id="node2" href="$dc/d36/PageDecoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/include\l/MCHRawDecoder/PageDecoder.h" alt="" coords="837,124,1064,195"/>
+<area shape="rect" id="node3" href="$d0/da1/PayloadDecoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/PayloadDecoder.h" alt="" coords="376,250,651,306"/>
+<area shape="rect" id="node4" href="$da/db7/BareGBTDecoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/BareGBTDecoder.h" alt="" coords="283,369,565,425"/>
+<area shape="rect" id="node6" href="$db/d18/UserLogicEndpointDecoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/UserLogicEndpoint\lDecoder.h" alt="" coords="1280,361,1557,432"/>
+<area shape="rect" id="node7" href="$d8/dcb/testUserLogicEndpointDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/testUserLogic\lEndpointDecoder.cxx" alt="" coords="1471,480,1719,551"/>
+<area shape="rect" id="node11" href="$d7/ddc/BareElinkDecoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/BareElinkDecoder.h" alt="" coords="19,131,301,187"/>
+<area shape="rect" id="node13" href="$db/de7/UserLogicElinkDecoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/UserLogicElink\lDecoder.h" alt="" coords="1177,124,1431,195"/>
+<area shape="rect" id="node5" href="$df/dcf/PageDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/PageDecoder.cxx" alt="" coords="553,487,823,543"/>
+<area shape="rect" id="node8" href="$d2/ddb/testClosureCoDec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/test/testClosureCoDec.cxx" alt="" coords="1024,250,1275,306"/>
+<area shape="rect" id="node9" href="$d0/d3e/MCH_2Raw_2Tools_2rawdump_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Tools/rawdump.cxx" alt="" coords="1299,250,1506,306"/>
+<area shape="rect" id="node10" href="$d0/d75/DataDecoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Workflow/src/DataDecoderSpec.cxx" alt="" coords="725,250,1000,306"/>
+<area shape="rect" id="node12" href="$d1/d49/testBareElinkDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/testBareElink\lDecoder.cxx" alt="" coords="5,243,251,313"/>
+</map>

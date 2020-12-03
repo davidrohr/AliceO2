@@ -1,0 +1,15 @@
+digraph "o2::trd::SimParam"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::trd::SimParam\n|# mChipGain\l# mElAttachProp\l# mTimeCoupling\l|+ SetGasGain()\l+ SetNoise()\l+ SetChipGain()\l+ SetADCoutRange()\l+ SetADCinRange()\l+ SetADCbaseline()\l+ SetDiffusion()\l+ SetElAttach()\l+ SetElAttachProp()\l+ SetTimeResponse()\l+ SetCrossTalk()\l+ SetPadCoupling()\l+ SetTimeCoupling()\l+ SetTimeStruct()\l+ SetPadResponse()\l+ SetNTimeBins()\l+ SetNTBoverwriteOCDB()\l+ GetGasGain()\l+ GetNoise()\l+ GetChipGain()\l+ GetADCoutRange()\l+ GetADCinRange()\l+ GetADCbaseline()\l+ GetTRFlo()\l+ GetTRFhi()\l+ GetPadCoupling()\l+ GetTimeCoupling()\l+ GetNTimeBins()\l+ GetNTBoverwriteOCDB()\l+ DiffusionOn()\l+ ElAttachOn()\l+ GetElAttachProp()\l+ TRFOn()\l+ CTOn()\l+ TimeStructOn()\l+ PRFOn()\l+ getNumberOfPadsInPadResponse()\l+ TimeResponse()\l+ CrossTalk()\l+ ReInit()\l+ Instance()\l+ Terminate()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #fgInstance" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mPadCoupling\n#mTRFsmp\n#mNoise\n#mTRFhi\n#mInvTRFwid\n#mTRFlo\n#mADCoutRange\n#mADCinRange\n#mCTsmp\n#mGasGain\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{float\n||}",height=0.2,width=0.4,color="black",URL="$d4/dc3/classfloat.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mTimeStructOn\n#mCTOn\n#mTRFbin\n#mElAttachOn\n#mPRFOn\n#mNTimeBins\n#mTRFOn\n#mDiffusionOn\n#mADCbaseline" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mNTBoverwriteOCDB\n#fgTerminated" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+}

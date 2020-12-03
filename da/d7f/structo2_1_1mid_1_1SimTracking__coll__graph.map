@@ -1,0 +1,6 @@
+<map id="o2::mid::SimTracking" name="o2::mid::SimTracking">
+<area shape="rect" id="node2" href="$d2/de4/classo2_1_1mid_1_1TrackLabeler.html" title="{o2::mid::TrackLabeler\n||+ process()\l+ getTracksLabels()\l+ getTrackClustersLabels()\l}" alt="" coords="5,71,185,178"/>
+<area shape="rect" id="node3" href="$d6/d48/classo2_1_1mid_1_1TrackGenerator.html" title="Class to generate tracks for MID. " alt="" coords="210,49,397,200"/>
+<area shape="rect" id="node4" href="$db/d25/classo2_1_1mid_1_1HitFinder.html" title="Class to find the impact point of a track on the chamber. " alt="" coords="421,71,567,178"/>
+<area shape="rect" id="node5" href="$da/d04/classo2_1_1mid_1_1Tracker.html" title="Tracking algorithm for MID. " alt="" coords="591,5,770,244"/>
+</map>

@@ -1,0 +1,20 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/DCS/include/DetectorsDCS" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c95f3e1f9928aa536053908b0b0602c6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_c95f3e1f9928aa536053908b0b0602c6.html"]
+  dir_9a464a5d7576b97b39f904b6d49c2b1d [shape=box, label="DetectorsDCS", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_9a464a5d7576b97b39f904b6d49c2b1d.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_6af676bf18881990e4083e191d0e63e0 [shape=box label="CCDB" color="red" URL="dir_6af676bf18881990e4083e191d0e63e0.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="2", labeldistance=1.5 headhref="dir_000035_000062.html"];
+  dir_6af676bf18881990e4083e191d0e63e0->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="4", labeldistance=1.5 headhref="dir_000028_000035.html"];
+  dir_6af676bf18881990e4083e191d0e63e0->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="2", labeldistance=1.5 headhref="dir_000028_000062.html"];
+  dir_9a464a5d7576b97b39f904b6d49c2b1d->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000086_000035.html"];
+  dir_9a464a5d7576b97b39f904b6d49c2b1d->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="2", labeldistance=1.5 headhref="dir_000086_000028.html"];
+  dir_9a464a5d7576b97b39f904b6d49c2b1d->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="1", labeldistance=1.5 headhref="dir_000086_000062.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="8", labeldistance=1.5 headhref="dir_000062_000035.html"];
+}

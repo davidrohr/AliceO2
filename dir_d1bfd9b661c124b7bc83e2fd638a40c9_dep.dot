@@ -1,0 +1,17 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/rANS/include/rANS" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6457007ee79fd0f642811f7d23f262dc {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_6457007ee79fd0f642811f7d23f262dc.html"]
+  subgraph clusterdir_d1bfd9b661c124b7bc83e2fd638a40c9 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d1bfd9b661c124b7bc83e2fd638a40c9.html"];
+    dir_d1bfd9b661c124b7bc83e2fd638a40c9 [shape=plaintext label="rANS"];
+    dir_f9ff6bb427e0476b9475f71e4852f164 [shape=box label="internal" color="black" fillcolor="white" style="filled" URL="dir_f9ff6bb427e0476b9475f71e4852f164.html"];
+    dir_04be1a46ec461cd022be61fe8d9e2176 [shape=box label="utils" color="black" fillcolor="white" style="filled" URL="dir_04be1a46ec461cd022be61fe8d9e2176.html"];
+  }
+  }
+  dir_d1bfd9b661c124b7bc83e2fd638a40c9->dir_04be1a46ec461cd022be61fe8d9e2176 [headlabel="1", labeldistance=1.5 headhref="dir_000663_000861.html"];
+  dir_d1bfd9b661c124b7bc83e2fd638a40c9->dir_f9ff6bb427e0476b9475f71e4852f164 [headlabel="25", labeldistance=1.5 headhref="dir_000663_000664.html"];
+}

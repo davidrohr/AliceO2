@@ -1,0 +1,5 @@
+<map id="o2::event_visualisation::DataInterpreter" name="o2::event_visualisation::DataInterpreter">
+<area shape="rect" id="node2" href="$d1/d46/classo2_1_1event__visualisation_1_1DataInterpreterITS.html" title="{o2::event_visualisation\l::DataInterpreterITS\n||+ DataInterpreterITS()\l+ ~DataInterpreterITS()\l+ interpretDataForType()\l}" alt="" coords="5,211,171,333"/>
+<area shape="rect" id="node3" href="$de/de7/classo2_1_1event__visualisation_1_1DataInterpreterTPC.html" title="{o2::event_visualisation\l::DataInterpreterTPC\n||+ DataInterpreterTPC()\l+ ~DataInterpreterTPC()\l+ interpretDataForType()\l}" alt="" coords="195,211,360,333"/>
+<area shape="rect" id="node4" href="$d3/d38/classo2_1_1event__visualisation_1_1DataInterpreterVSD.html" title="{o2::event_visualisation\l::DataInterpreterVSD\n||+ DropEvent()\l+ DataInterpreterVSD()\l+ ~DataInterpreterVSD()\l+ interpretDataForType()\l}" alt="" coords="384,204,549,340"/>
+</map>

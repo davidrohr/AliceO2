@@ -1,0 +1,12 @@
+digraph "o2::trd::CalDet"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::trd::CalDet\n||+ CalDet()\l+ ~CalDet()\l+ getValue()\l+ getValue()\l+ setValue()\l+ setValue()\l+ setName()\l+ setTitle()\l+ getName()\l+ getTitle()\l+ getMean()\l+ getMeanRobust()\l+ getRMS()\l+ getRMSRobust()\l+ getMedian()\l+ getLTM()\l+ calcMean()\l+ calcMean()\l+ calcRMS()\l+ calcRMS()\l+ getMeanSM()\l+ makeHisto1Distribution()\l+ makeHisto1DAsFunctionOfDet()\l+ makeHisto2DCh()\l+ makeHisto2DSmPl()\l+ add()\l+ multiply()\l+ add()\l+ multiply()\l+ divide()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mName\n#mTitle" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mData" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{array\< float, constants\l::NSECTOR \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

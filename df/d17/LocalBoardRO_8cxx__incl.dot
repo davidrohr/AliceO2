@@ -1,0 +1,24 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/src/LocalBoardRO.cxx"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Raw/src/LocalBoardRO.cxx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MIDRaw/LocalBoardRO.h",height=0.2,width=0.4,color="black",URL="$d3/d4a/LocalBoardRO_8h.html",tooltip="Structure to store the FEE local board information. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="cstdint",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="array",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="iosfwd",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="iostream",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="fmt/format.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="MIDRaw/CrateParameters.h",height=0.2,width=0.4,color="black",URL="$d2/da5/CrateParameters_8h.html",tooltip="MID RO crate parameters. "];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

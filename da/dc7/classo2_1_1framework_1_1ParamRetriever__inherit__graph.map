@@ -1,0 +1,6 @@
+<map id="o2::framework::ParamRetriever" name="o2::framework::ParamRetriever">
+<area shape="rect" id="node2" href="$d1/d9c/classo2_1_1framework_1_1BoostOptionsRetriever.html" title="{o2::framework::BoostOptions\lRetriever\n||+ BoostOptionsRetriever()\l+ update()\l}" alt="" coords="5,145,197,252"/>
+<area shape="rect" id="node3" href="$d4/dbb/classo2_1_1framework_1_1ConfigurationOptionsRetriever.html" title="ParamRetriever which uses AliceO2Group/Configuration to get the options. " alt="" coords="222,145,439,252"/>
+<area shape="rect" id="node4" href="$d5/d5f/classo2_1_1framework_1_1FairOptionsRetriever.html" title="{o2::framework::FairOptions\lRetriever\n||+ FairOptionsRetriever()\l+ update()\l}" alt="" coords="463,145,643,252"/>
+<area shape="rect" id="node5" href="$dc/d81/classo2_1_1framework_1_1SimpleOptionsRetriever.html" title="{o2::framework::SimpleOptions\lRetriever\n||+ SimpleOptionsRetriever()\l+ update()\l}" alt="" coords="667,145,866,252"/>
+</map>

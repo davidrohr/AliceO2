@@ -1,0 +1,6 @@
+<map id="o2::its::GPU::ArrayHIP&lt; T, Size &gt;" name="o2::its::GPU::ArrayHIP&lt; T, Size &gt;">
+<area shape="rect" id="node2" href="$dd/da6/structo2_1_1its_1_1GPU_1_1ArrayHIP.html" title="{o2::its::GPU::ArrayHIP\l\&lt; o2::its::GPU::VectorHIP\l\&lt; int \&gt;, 3 \&gt;\n|+ InternalArray\l|+ copy()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l}" alt="" coords="5,270,181,450"/>
+<area shape="rect" id="node3" href="$dd/da6/structo2_1_1its_1_1GPU_1_1ArrayHIP.html" title="{o2::its::GPU::ArrayHIP\l\&lt; o2::its::GPU::VectorHIP\l\&lt; int \&gt;, 2 \&gt;\n|+ InternalArray\l|+ copy()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l}" alt="" coords="205,270,381,450"/>
+<area shape="rect" id="node4" href="$dd/da6/structo2_1_1its_1_1GPU_1_1ArrayHIP.html" title="{o2::its::GPU::ArrayHIP\l\&lt; o2::its::GPU::VectorHIP\l\&lt; int \&gt;, constants::its::\lLayersNumberVertexer &#45; 1 \&gt;\n|+ InternalArray\l|+ copy()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l}" alt="" coords="405,263,592,457"/>
+<area shape="rect" id="node5" href="$dd/da6/structo2_1_1its_1_1GPU_1_1ArrayHIP.html" title="{o2::its::GPU::ArrayHIP\l\&lt; o2::its::GPU::VectorHIP\l\&lt; o2::its::Cluster \&gt;, constants\l::its::LayersNumberVertexer \&gt;\n|+ InternalArray\l|+ copy()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l}" alt="" coords="617,263,815,457"/>
+</map>

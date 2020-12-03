@@ -1,0 +1,8 @@
+digraph "o2::its::ROframe"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::its::ROframe\n||+ ROframe()\l+ getROFrameId()\l+ getPrimaryVertex()\l+ getPrimaryVerticesNum()\l+ addPrimaryVertex()\l+ addPrimaryVertices()\l+ addPrimaryReconstructedVertex()\l+ printPrimaryVertices()\l+ getTotalClusters()\l+ empty()\l+ getClusters()\l+ getClustersOnLayer()\l+ getTrackingFrameInfoOnLayer()\l+ getTrackingFrameInfo()\l+ getClusterTrackingFrameInfo()\l+ getClusterLabels()\l+ getClusterLabels()\l+ getClusterExternalIndex()\l+ getTracksId()\l+ addClusterToLayer()\l+ addTrackingFrameInfoToLayer()\l+ addClusterLabelToLayer()\l+ addClusterExternalIndexTo\lLayer()\l+ hasMCinformation()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

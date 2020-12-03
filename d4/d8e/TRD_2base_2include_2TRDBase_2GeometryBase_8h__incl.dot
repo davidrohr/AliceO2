@@ -1,0 +1,26 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/TRD/base/include/TRDBase/GeometryBase.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/base/include/TRDBase/GeometryBase.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GPUCommonDef.h",height=0.2,width=0.4,color="black",URL="$df/d21/GPUCommonDef_8h.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GPUCommonDefSettings.h",height=0.2,width=0.4,color="black",URL="$d5/d93/GPUCommonDefSettings_8h.html"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GPUCommonDefAPI.h",height=0.2,width=0.4,color="black",URL="$da/d5a/GPUCommonDefAPI_8h.html"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="TRDBase/CommonParam.h",height=0.2,width=0.4,color="black",URL="$d5/d17/CommonParam_8h.html"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GPUCommonRtypes.h",height=0.2,width=0.4,color="black",URL="$d2/d45/GPUCommonRtypes_8h.html"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Rtypes.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="DataFormatsTRD/Constants.h",height=0.2,width=0.4,color="black",URL="$d6/dc2/DataFormats_2Detectors_2TRD_2include_2DataFormatsTRD_2Constants_8h.html"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="TRDBase/PadPlane.h",height=0.2,width=0.4,color="black",URL="$da/de4/PadPlane_8h.html"];
+  Node8 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

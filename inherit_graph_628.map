@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$dc/d08/classo2_1_1ctf_1_1EncodedBlocks.html" title="o2::ctf::EncodedBlocks\l\&lt; CTFHeader, 7, uint32_t \&gt;" alt="" coords="5,49,188,90"/>
+<area shape="rect" id="node2" href="$d2/d75/structo2_1_1emcal_1_1CTF.html" title="wrapper for the Entropy&#45;encoded triggers and cells of the TF " alt="" coords="236,5,349,32"/>
+<area shape="rect" id="node3" href="$d6/d3c/structo2_1_1mid_1_1CTF.html" title="wrapper for the Entropy&#45;encoded clusters of the TF " alt="" coords="243,56,342,83"/>
+<area shape="rect" id="node4" href="$d2/d13/structo2_1_1phos_1_1CTF.html" title="wrapper for the Entropy&#45;encoded triggers and cells of the TF " alt="" coords="239,107,346,133"/>
+</map>

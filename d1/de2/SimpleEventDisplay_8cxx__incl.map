@@ -1,0 +1,44 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/monitor/src/SimpleEventDisplay.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/monitor/src/SimpleEventDisplay.cxx">
+<area shape="rect" id="node6" href="$d1/d73/Defs_8h.html" title="DataFormatsTPC/Defs.h" alt="" coords="849,915,1017,941"/>
+<area shape="rect" id="node24" href="$db/d9b/CalArray_8h.html" title="TPCBase/CalArray.h" alt="" coords="1597,430,1743,457"/>
+<area shape="rect" id="node31" href="$d5/d1d/TPC_2base_2include_2TPCBase_2Mapper_8h.html" title="TPCBase/Mapper.h" alt="" coords="1235,519,1372,546"/>
+<area shape="rect" id="node34" href="$de/d41/PadPos_8h.html" title="TPCBase/PadPos.h" alt="" coords="1043,758,1183,785"/>
+<area shape="rect" id="node41" href="$df/d26/CRU_8h.html" title="TPCBase/CRU.h" alt="" coords="424,676,548,703"/>
+<area shape="rect" id="node47" href="$db/dc3/SimpleEventDisplay_8h.html" title="TPCMonitor/SimpleEventDisplay.h" alt="" coords="700,109,925,136"/>
+<area shape="rect" id="node8" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="3161,1071,3342,1098"/>
+<area shape="rect" id="node12" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2329,989,2478,1016"/>
+<area shape="rect" id="node9" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="4013,1153,4149,1180"/>
+<area shape="rect" id="node10" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="3891,1228,4075,1255"/>
+<area shape="rect" id="node11" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="4100,1228,4259,1255"/>
+<area shape="rect" id="node13" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="4654,1071,4811,1098"/>
+<area shape="rect" id="node35" href="$dd/d0b/PadSecPos_8h.html" title="TPCBase/PadSecPos.h" alt="" coords="1173,676,1335,703"/>
+<area shape="rect" id="node36" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="1131,840,1263,867"/>
+<area shape="rect" id="node38" href="$da/d61/PadROCPos_8h.html" title="TPCBase/PadROCPos.h" alt="" coords="725,676,895,703"/>
+<area shape="rect" id="node40" href="$d3/d54/DigitPos_8h.html" title="TPCBase/DigitPos.h" alt="" coords="903,601,1047,628"/>
+<area shape="rect" id="node42" href="$d1/d1f/FECInfo_8h.html" title="TPCBase/FECInfo.h" alt="" coords="1653,915,1796,941"/>
+<area shape="rect" id="node43" href="$da/d9d/PadRegionInfo_8h.html" title="TPCBase/PadRegionInfo.h" alt="" coords="1515,601,1695,628"/>
+<area shape="rect" id="node44" href="$d6/d42/PartitionInfo_8h.html" title="TPCBase/PartitionInfo.h" alt="" coords="1173,601,1337,628"/>
+<area shape="rect" id="node37" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="1097,915,1297,941"/>
+<area shape="rect" id="node39" href="$dc/d14/ROC_8h.html" title="TPCBase/ROC.h" alt="" coords="551,758,675,785"/>
+<area shape="rect" id="node49" href="$d6/d2b/TPC_2base_2include_2TPCBase_2CalDet_8h.html" title="TPCBase/CalDet.h" alt="" coords="1693,341,1828,367"/>
+<area shape="rect" id="node54" href="$d7/dd7/CalibRawBase_8h.html" title="TPCCalibration/CalibRawBase.h" alt="" coords="2297,184,2510,211"/>
+<area shape="rect" id="node51" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="2010,430,2151,457"/>
+<area shape="rect" id="node59" href="$db/d52/GBTFrameContainer_8h.html" title="Container class for the GBT Frames. " alt="" coords="3394,423,3599,464"/>
+<area shape="rect" id="node73" href="$d3/d11/RawReader_8h.html" title="TPCReconstruction/RawReader.h" alt="" coords="2293,259,2514,285"/>
+<area shape="rect" id="node76" href="$d6/dbe/RawReaderEventSync_8h.html" title="TPCReconstruction/RawReader\lEventSync.h" alt="" coords="2655,333,2866,375"/>
+<area shape="rect" id="node77" href="$df/d86/RawReaderCRU_8h.html" title="TPCReconstruction/RawReader\lCRU.h" alt="" coords="4346,512,4557,553"/>
+<area shape="rect" id="node60" href="$d3/d7d/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Digit_8h.html" title="DataFormatsTPC/Digit.h" alt="" coords="4464,915,4631,941"/>
+<area shape="rect" id="node63" href="$d5/d41/AdcClockMonitor_8h.html" title="Class to monitor the ADC smapling clock contained in the GBT frame. " alt="" coords="2732,512,2931,553"/>
+<area shape="rect" id="node65" href="$dc/dea/GBTFrame_8h.html" title="GBT Frame object. " alt="" coords="3243,519,3459,546"/>
+<area shape="rect" id="node66" href="$df/dc4/HalfSAMPAData_8h.html" title="Class for data from one half SAMPA. " alt="" coords="3970,519,4221,546"/>
+<area shape="rect" id="node67" href="$d1/df0/SyncPatternMonitor_8h.html" title="Class to monitor the data stream and detect synchronization patterns. " alt="" coords="2955,512,3169,553"/>
+<area shape="rect" id="node61" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="4434,989,4661,1016"/>
+<area shape="rect" id="node83" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="4543,601,4722,628"/>
+<area shape="rect" id="node84" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="4461,758,4649,785"/>
+<area shape="rect" id="node92" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="4216,840,4399,867"/>
+<area shape="rect" id="node85" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="4399,676,4538,703"/>
+<area shape="rect" id="node87" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="4783,751,4992,792"/>
+<area shape="rect" id="node89" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="4563,676,4692,703"/>
+<area shape="rect" id="node88" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="4709,840,4946,867"/>
+<area shape="rect" id="node90" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="4016,758,4172,785"/>
+</map>

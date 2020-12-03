@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RecPoint.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/RecPoint.h">
+<area shape="rect" id="node2" href="$d8/dbe/Reconstructor_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/reconstruction/include\l/FDDReconstruction/Reconstructor.h" alt="" coords="105,124,344,195"/>
+<area shape="rect" id="node4" href="$d7/df4/ReconstructorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/include/FDDWorkflow\l/ReconstructorSpec.h" alt="" coords="210,243,453,313"/>
+<area shape="rect" id="node7" href="$d5/de9/FDD_2workflow_2include_2FDDWorkflow_2RecPointReaderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/include/FDDWorkflow\l/RecPointReaderSpec.h" alt="" coords="419,124,662,195"/>
+<area shape="rect" id="node9" href="$de/d4e/FDD_2workflow_2src_2RecPointWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/RecPointWriter\lSpec.cxx" alt="" coords="687,124,912,195"/>
+<area shape="rect" id="node3" href="$d8/d07/Reconstructor_8cxx.html" title="Implementation of the FDD reconstruction. " alt="" coords="5,243,185,313"/>
+<area shape="rect" id="node5" href="$d3/db6/ReconstructorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/Reconstructor\lSpec.cxx" alt="" coords="94,361,313,432"/>
+<area shape="rect" id="node6" href="$d6/d61/FIT_2FDD_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/RecoWorkflow.cxx" alt="" coords="337,369,584,425"/>
+<area shape="rect" id="node8" href="$dc/d46/FDD_2workflow_2src_2RecPointReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/RecPointReader\lSpec.cxx" alt="" coords="477,243,709,313"/>
+</map>

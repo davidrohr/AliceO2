@@ -1,0 +1,8 @@
+<map id="o2::dataformats::VtxTrackIndex" name="o2::dataformats::VtxTrackIndex">
+<area shape="rect" id="node2" href="$d2/dd3/classo2_1_1dataformats_1_1AbstractRef.html" title="{o2::dataformats::Abstract\lRef\&lt; 26, 3, 3 \&gt;\n||+ AbstractRef()\l+ AbstractRef()\l+ AbstractRef()\l+ getIndex()\l+ setIndex()\l+ getSource()\l+ setSource()\l+ getFlags()\l+ setFlags()\l+ testBit()\l+ setBit()\l+ resetBit()\l+ set()\l+ getRaw()\l+ operator Base_t()\l+ NBitsIndex()\l+ NBitsSource()\l+ NBitsFlags()\l# ClassDefNV()\l}" alt="" coords="468,608,639,964"/>
+<area shape="rect" id="node3" href="$d4/d98/classstatic_01constexpr_01Idx__t.html" title="{static constexpr Idx_t\n||}" alt="" coords="675,329,823,406"/>
+<area shape="rect" id="node4" href="$db/d94/classstatic_01constexpr_01Base__t.html" title="{static constexpr Base_t\n||}" alt="" coords="5,329,165,406"/>
+<area shape="rect" id="node5" href="$d7/de2/classstatic_01constexpr_01Flg__t.html" title="{static constexpr Flg_t\n||}" alt="" coords="190,329,338,406"/>
+<area shape="rect" id="node8" href="$d2/dd3/classo2_1_1dataformats_1_1AbstractRef.html" title="{o2::dataformats::Abstract\lRef\&lt; NBIdx, NBSrc, NBFlg \&gt;\n||+ AbstractRef()\l+ AbstractRef()\l+ AbstractRef()\l+ getIndex()\l+ setIndex()\l+ getSource()\l+ setSource()\l+ getFlags()\l+ setFlags()\l+ testBit()\l+ setBit()\l+ resetBit()\l+ set()\l+ getRaw()\l+ operator Base_t()\l+ NBitsIndex()\l+ NBitsSource()\l+ NBitsFlags()\l# ClassDefNV()\l}" alt="" coords="455,189,651,545"/>
+<area shape="rect" id="node7" href="$d3/da2/classstatic_01constexpr_01Src__t.html" title="{static constexpr Src_t\n||}" alt="" coords="847,329,998,406"/>
+</map>

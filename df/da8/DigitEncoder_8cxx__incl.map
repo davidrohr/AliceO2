@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Digit/DigitEncoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Digit/DigitEncoder.cxx">
+<area shape="rect" id="node2" href="$d8/d72/Detectors_2MUON_2MCH_2Base_2include_2MCHBase_2Digit_8h.html" title="MCHBase/Digit.h" alt="" coords="160,206,285,233"/>
+<area shape="rect" id="node4" href="$d6/d1f/MUON_2MCH_2Mapping_2Interface_2include_2MCHMappingInterface_2Segmentation_8h.html" title="MCHMappingInterface\l/Segmentation.h" alt="" coords="2027,109,2180,151"/>
+<area shape="rect" id="node15" href="$d0/d64/DataFormats_8h.html" title="MCHRawCommon/DataFormats.h" alt="" coords="268,288,492,315"/>
+<area shape="rect" id="node17" href="$d5/dcd/DsDetId_8h.html" title="MCHRawElecMap/DsDetId.h" alt="" coords="516,288,710,315"/>
+<area shape="rect" id="node19" href="$da/df9/DigitEncoder_8h.html" title="DigitEncoder.h" alt="" coords="942,117,1050,143"/>
+<area shape="rect" id="node28" href="$d1/d2e/PayloadEncoder_8h.html" title="MCHRawEncoderPayload\l/PayloadEncoder.h" alt="" coords="1542,109,1716,151"/>
+<area shape="rect" id="node5" href="$df/db6/CathodeSegmentation_8h.html" title="MCHMappingInterface\l/CathodeSegmentation.h" alt="" coords="2020,199,2187,240"/>
+<area shape="rect" id="node14" href="$d0/d5f/Segmentation_8inl.html" title="Segmentation.inl" alt="" coords="2263,206,2382,233"/>
+<area shape="rect" id="node6" href="$d0/dc7/CathodeSegmentationCInterface_8h.html" title="CathodeSegmentationCInterface.h" alt="" coords="2115,288,2338,315"/>
+<area shape="rect" id="node20" href="$d4/d09/DsElecId_8h.html" title="MCHRawElecMap/DsElecId.h" alt="" coords="1062,288,1262,315"/>
+<area shape="rect" id="node22" href="$d2/d71/MUON_2MCH_2Raw_2ElecMap_2include_2MCHRawElecMap_2Mapper_8h.html" title="MCHRawElecMap/Mapper.h" alt="" coords="1205,206,1394,233"/>
+<area shape="rect" id="node24" href="$d8/d97/FeeLinkId_8h.html" title="MCHRawElecMap/FeeLinkId.h" alt="" coords="785,288,988,315"/>
+<area shape="rect" id="node29" href="$d0/d5b/SampaCluster_8h.html" title="MCHRawCommon/SampaCluster.h" alt="" coords="1766,206,1996,233"/>
+</map>

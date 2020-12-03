@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/common/include/CommonDataFormat" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b3cbaeac21b2dd46525d7d1aff7e496f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_b3cbaeac21b2dd46525d7d1aff7e496f.html"]
+  dir_553408518cf33329044527e17a139785 [shape=box, label="CommonDataFormat", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_553408518cf33329044527e17a139785.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_f511f1e9c03c071966ae594f00bbc5e0 [shape=box label="GPU" color="red" URL="dir_f511f1e9c03c071966ae594f00bbc5e0.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_f511f1e9c03c071966ae594f00bbc5e0 [headlabel="11", labeldistance=1.5 headhref="dir_000035_000783.html"];
+  dir_553408518cf33329044527e17a139785->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000096_000035.html"];
+  dir_553408518cf33329044527e17a139785->dir_f511f1e9c03c071966ae594f00bbc5e0 [headlabel="4", labeldistance=1.5 headhref="dir_000096_000783.html"];
+  dir_f511f1e9c03c071966ae594f00bbc5e0->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="4", labeldistance=1.5 headhref="dir_000783_000035.html"];
+}

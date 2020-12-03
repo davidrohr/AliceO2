@@ -1,0 +1,7 @@
+<map id="o2::its::VertexerTraits" name="o2::its::VertexerTraits">
+<area shape="rect" id="node3" href="$d2/de3/structo2_1_1its_1_1VertexingParameters.html" title="{o2::its::VertexingParameters\n||}" alt="" coords="371,402,559,479"/>
+<area shape="rect" id="node4" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="199,5,245,83"/>
+<area shape="rect" id="node8" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="704,402,772,479"/>
+<area shape="rect" id="node9" href="$d2/d77/classo2_1_1its_1_1IndexTableUtils.html" title="{o2::its::IndexTableUtils\n||+ setTrackingParameters()\l+ getInverseZCoordinate()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l}" alt="" coords="872,343,1049,538"/>
+<area shape="rect" id="node12" href="$d6/d58/classo2_1_1its_1_1ROframe.html" title="{o2::its::ROframe\n||+ ROframe()\l+ getROFrameId()\l+ getPrimaryVertex()\l+ getPrimaryVerticesNum()\l+ addPrimaryVertex()\l+ addPrimaryVertices()\l+ addPrimaryReconstructedVertex()\l+ printPrimaryVertices()\l+ getTotalClusters()\l+ empty()\l+ getClusters()\l+ getClustersOnLayer()\l+ getTrackingFrameInfoOnLayer()\l+ getTrackingFrameInfo()\l+ getClusterTrackingFrameInfo()\l+ getClusterLabels()\l+ getClusterLabels()\l+ getClusterExternalIndex()\l+ getTracksId()\l+ addClusterToLayer()\l+ addTrackingFrameInfoToLayer()\l+ addClusterLabelToLayer()\l+ addClusterExternalIndexTo\lLayer()\l+ hasMCinformation()\l+ clear()\l}" alt="" coords="1189,219,1420,663"/>
+</map>

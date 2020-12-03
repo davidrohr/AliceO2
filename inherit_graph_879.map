@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$d2/d93/structo2_1_1framework_1_1can__assign_3_01From_00_01To_00_01std_1_1conditional__t_3_01false_00_01a870c707fa8a6ba939d3ab6dd377bdf0.html" title="o2::framework::can\l_assign\&lt; From, To, std\l::conditional_t\&lt; false,\l class_member_checker\&lt;\l decltype(&amp;From::operator\l())\&gt;, void \&gt; \&gt;" alt="" coords="129,5,302,105"/>
+<area shape="rect" id="node3" href="$d5/d72/structo2_1_1framework_1_1detail_1_1returns__void__t.html" title="o2::framework::detail\l::returns_void_t\&lt; T \&gt;" alt="" coords="143,129,287,171"/>
+<area shape="rect" id="node4" href="$d0/dd2/structo2_1_1framework_1_1is__span_3_01T_00_01std_1_1conditional__t_3_01false_00_01typename_01T_105843acfab416227e244bd7b1a0ae304.html" title="o2::framework::is_span\l\&lt; T, std::conditional\l_t\&lt; false, typename T::\lvalue_type, void \&gt; \&gt;" alt="" coords="136,195,295,265"/>
+<area shape="rect" id="node5" href="$d6/db7/structo2_1_1framework_1_1ServiceKindExtractor_3_01T_00_01std_1_1void__t_3_01decltype_07T_1_1service__kind_08_4_01_4.html" title="o2::framework::ServiceKind\lExtractor\&lt; T, std::void\l_t\&lt; decltype(T::service\l_kind)\&gt; \&gt;" alt="" coords="124,289,307,360"/>
+</map>

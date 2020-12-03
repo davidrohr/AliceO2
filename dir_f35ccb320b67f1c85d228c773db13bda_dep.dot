@@ -1,0 +1,21 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/O2Device" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b05a5fa85f84bfc9013183c9d87f9a36 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Utilities" fontname="Helvetica", fontsize="10", URL="dir_b05a5fa85f84bfc9013183c9d87f9a36.html"]
+  subgraph clusterdir_f35ccb320b67f1c85d228c773db13bda {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f35ccb320b67f1c85d228c773db13bda.html"];
+    dir_f35ccb320b67f1c85d228c773db13bda [shape=plaintext label="O2Device"];
+    dir_d3b78df6ad62fb0dba8e15cecc7a4774 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_d3b78df6ad62fb0dba8e15cecc7a4774.html"];
+    dir_894f4b8a7fb87b298feac5d932863f41 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_894f4b8a7fb87b298feac5d932863f41.html"];
+    dir_b207a6bd414d3baa6e659644d7b336db [shape=box label="test" color="black" fillcolor="white" style="filled" URL="dir_b207a6bd414d3baa6e659644d7b336db.html"];
+  }
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_b207a6bd414d3baa6e659644d7b336db->dir_d3b78df6ad62fb0dba8e15cecc7a4774 [headlabel="1", labeldistance=1.5 headhref="dir_000850_000847.html"];
+  dir_b207a6bd414d3baa6e659644d7b336db->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000850_000089.html"];
+  dir_d3b78df6ad62fb0dba8e15cecc7a4774->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="3", labeldistance=1.5 headhref="dir_000847_000089.html"];
+  dir_894f4b8a7fb87b298feac5d932863f41->dir_d3b78df6ad62fb0dba8e15cecc7a4774 [headlabel="1", labeldistance=1.5 headhref="dir_000849_000847.html"];
+}

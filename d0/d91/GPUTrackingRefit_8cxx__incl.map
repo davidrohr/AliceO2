@@ -1,0 +1,79 @@
+<map id="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Refit/GPUTrackingRefit.cxx" name="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Refit/GPUTrackingRefit.cxx">
+<area shape="rect" id="node2" href="$df/ded/GPUTrackingRefit_8h.html" title="GPUTrackingRefit.h" alt="" coords="1665,549,1805,575"/>
+<area shape="rect" id="node17" href="$d5/d5c/GPUO2DataTypes_8h.html" title="GPUO2DataTypes.h" alt="" coords="929,549,1071,575"/>
+<area shape="rect" id="node21" href="$d8/d33/GPUTPCGMTrackParam_8h.html" title="GPUTPCGMTrackParam.h" alt="" coords="355,549,536,575"/>
+<area shape="rect" id="node26" href="$d8/dfd/GPUTPCGMMergedTrack_8h.html" title="GPUTPCGMMergedTrack.h" alt="" coords="93,459,280,486"/>
+<area shape="rect" id="node27" href="$d0/dd8/GPUTPCGMPropagator_8h.html" title="GPUTPCGMPropagator.h" alt="" coords="528,370,701,397"/>
+<area shape="rect" id="node31" href="$db/df8/GPUConstantMem_8h.html" title="GPUConstantMem.h" alt="" coords="1847,191,1991,218"/>
+<area shape="rect" id="node50" href="$d4/db1/TPCFastTransform_8h.html" title="Definition of TPCFastTransform class. " alt="" coords="2547,370,2693,397"/>
+<area shape="rect" id="node62" href="$d7/d8b/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2Track_8h.html" title="ReconstructionDataFormats\l/Track.h" alt="" coords="4975,273,5161,315"/>
+<area shape="rect" id="node88" href="$d2/df9/Propagator_8h.html" title="DetectorsBase/Propagator.h" alt="" coords="3819,109,4005,136"/>
+<area shape="rect" id="node94" href="$d5/dc9/TrackTPC_8h.html" title="DataFormatsTPC/TrackTPC.h" alt="" coords="5683,191,5883,218"/>
+<area shape="rect" id="node3" href="$d2/d6d/GPUDef_8h.html" title="GPUDef.h" alt="" coords="1300,727,1383,754"/>
+<area shape="rect" id="node13" href="$d6/d57/GPUProcessor_8h.html" title="GPUProcessor.h" alt="" coords="1498,638,1619,665"/>
+<area shape="rect" id="node4" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2271,884,2407,911"/>
+<area shape="rect" id="node7" href="$d2/d37/GPUDefConstantsAndSettings_8h.html" title="GPUDefConstantsAndSettings.h" alt="" coords="1429,809,1643,836"/>
+<area shape="rect" id="node8" href="$dc/de9/GPUDefGPUParameters_8h.html" title="GPUDefGPUParameters.h" alt="" coords="203,809,381,836"/>
+<area shape="rect" id="node10" href="$d3/d4c/GPUDefOpenCL12Templates_8h.html" title="GPUDefOpenCL12Templates.h" alt="" coords="1198,809,1405,836"/>
+<area shape="rect" id="node11" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="4869,809,5027,836"/>
+<area shape="rect" id="node5" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2148,959,2332,985"/>
+<area shape="rect" id="node6" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2357,959,2515,985"/>
+<area shape="rect" id="node9" href="$d6/dff/GPUDefMacros_8h.html" title="GPUDefMacros.h" alt="" coords="229,884,355,911"/>
+<area shape="rect" id="node18" href="$da/d28/GPUO2FakeClasses_8h.html" title="GPUO2FakeClasses.h" alt="" coords="1851,638,2007,665"/>
+<area shape="rect" id="node20" href="$d3/d1f/GPUdEdxInfo_8h.html" title="GPUdEdxInfo.h" alt="" coords="388,638,503,665"/>
+<area shape="rect" id="node19" href="$d4/dc5/GPUDataTypes_8h.html" title="GPUDataTypes.h" alt="" coords="1871,727,1998,754"/>
+<area shape="rect" id="node22" href="$da/dab/GPUTPCDef_8h.html" title="GPUTPCDef.h" alt="" coords="1211,638,1322,665"/>
+<area shape="rect" id="node23" href="$d3/dcc/GPUTPCGMMergedTrackHit_8h.html" title="GPUTPCGMMergedTrackHit.h" alt="" coords="93,638,296,665"/>
+<area shape="rect" id="node24" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="3405,809,3549,836"/>
+<area shape="rect" id="node28" href="$d0/d79/GPUTPCGMOfflineStatisticalErrors_8h.html" title="GPUTPCGMOfflineStatistical\lErrors.h" alt="" coords="405,452,600,493"/>
+<area shape="rect" id="node29" href="$d6/d37/GPUTPCGMPhysicalTrackModel_8h.html" title="GPUTPCGMPhysicalTrackModel.h" alt="" coords="625,459,853,486"/>
+<area shape="rect" id="node30" href="$d9/d9c/GPUTPCGMPolynomialField_8h.html" title="GPUTPCGMPolynomialField.h" alt="" coords="1096,549,1299,575"/>
+<area shape="rect" id="node32" href="$d6/d25/GPUTPCTracker_8h.html" title="GPUTPCTracker.h" alt="" coords="1139,281,1272,307"/>
+<area shape="rect" id="node37" href="$df/d13/GPUParam_8h.html" title="GPUParam.h" alt="" coords="1850,459,1950,486"/>
+<area shape="rect" id="node47" href="$da/da4/GPUErrors_8h.html" title="GPUErrors.h" alt="" coords="741,281,838,307"/>
+<area shape="rect" id="node49" href="$d7/d4f/GPUTRDDef_8h.html" title="GPUTRDDef.h" alt="" coords="2083,281,2194,307"/>
+<area shape="rect" id="node34" href="$dd/d7b/GPUTPCHitId_8h.html" title="GPUTPCHitId.h" alt="" coords="1268,370,1385,397"/>
+<area shape="rect" id="node35" href="$df/d4a/GPUTPCSliceData_8h.html" title="GPUTPCSliceData.h" alt="" coords="1531,370,1677,397"/>
+<area shape="rect" id="node44" href="$de/d15/GPUTPCTrackParam_8h.html" title="GPUTPCTrackParam.h" alt="" coords="928,459,1088,486"/>
+<area shape="rect" id="node46" href="$db/d6e/GPUTPCTracklet_8h.html" title="GPUTPCTracklet.h" alt="" coords="1112,459,1248,486"/>
+<area shape="rect" id="node36" href="$d8/dff/GPUTPCRow_8h.html" title="GPUTPCRow.h" alt="" coords="1425,459,1541,486"/>
+<area shape="rect" id="node43" href="$d5/da6/GPUMemoryResource_8h.html" title="GPUMemoryResource.h" alt="" coords="1475,549,1640,575"/>
+<area shape="rect" id="node38" href="$dd/dc6/GPUSettings_8h.html" title="GPUSettings.h" alt="" coords="2905,549,3015,575"/>
+<area shape="rect" id="node42" href="$d6/d1b/GPUTPCGeometry_8h.html" title="GPUTPCGeometry.h" alt="" coords="1497,727,1644,754"/>
+<area shape="rect" id="node41" href="$da/d08/qconfig_8h.html" title="utils/qconfig.h" alt="" coords="2934,638,3037,665"/>
+<area shape="rect" id="node45" href="$df/d00/GPUTPCBaseTrackParam_8h.html" title="GPUTPCBaseTrackParam.h" alt="" coords="662,549,853,575"/>
+<area shape="rect" id="node48" href="$de/d0d/GPUErrorCodes_8h.html" title="GPUErrorCodes.h" alt="" coords="725,370,853,397"/>
+<area shape="rect" id="node51" href="$db/dff/FlatObject_8h.html" title="Definition of FlatObject class. " alt="" coords="2697,727,2791,754"/>
+<area shape="rect" id="node57" href="$d5/dde/TPCFastTransformGeo_8h.html" title="Definition of TPCFastTransformGeo class. " alt="" coords="2175,727,2345,754"/>
+<area shape="rect" id="node58" href="$d8/d93/TPCFastSpaceChargeCorrection_8h.html" title="Definition of TPCFastSpaceChargeCorrection class. " alt="" coords="2335,459,2561,486"/>
+<area shape="rect" id="node55" href="$df/d5b/GPUCommonLogger_8h.html" title="GPUCommonLogger.h" alt="" coords="2997,809,3152,836"/>
+<area shape="rect" id="node59" href="$dd/d27/Spline2D_8h.html" title="Definition of Spline2D class. " alt="" coords="2405,549,2491,575"/>
+<area shape="rect" id="node60" href="$de/da6/Spline1D_8h.html" title="Definition of Spline1D class. " alt="" coords="2471,727,2558,754"/>
+<area shape="rect" id="node61" href="$d7/d2f/Spline2DSpec_8h.html" title="Definition of Spline2DSpec class. " alt="" coords="2438,638,2554,665"/>
+<area shape="rect" id="node63" href="$d2/d98/TrackParametrization_8h.html" title="ReconstructionDataFormats\l/TrackParametrization.h" alt="" coords="4895,452,5081,493"/>
+<area shape="rect" id="node87" href="$d3/d30/TrackParametrizationWithError_8h.html" title="ReconstructionDataFormats\l/TrackParametrizationWithError.h" alt="" coords="5025,363,5241,404"/>
+<area shape="rect" id="node67" href="$d4/de2/BaseCluster_8h.html" title="ReconstructionDataFormats\l/BaseCluster.h" alt="" coords="5072,541,5259,583"/>
+<area shape="rect" id="node69" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="3976,809,4157,836"/>
+<area shape="rect" id="node75" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="5933,809,6171,836"/>
+<area shape="rect" id="node76" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="5845,638,5965,665"/>
+<area shape="rect" id="node81" href="$d8/d77/Primitive2D_8h.html" title="Declarations of 2D primitives. " alt="" coords="5419,549,5581,575"/>
+<area shape="rect" id="node84" href="$d5/d08/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2PID_8h.html" title="ReconstructionDataFormats\l/PID.h" alt="" coords="4000,541,4187,583"/>
+<area shape="rect" id="node86" href="$d2/d97/TrackUtils_8h.html" title="ReconstructionDataFormats\l/TrackUtils.h" alt="" coords="5656,541,5843,583"/>
+<area shape="rect" id="node68" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="4120,727,4269,754"/>
+<area shape="rect" id="node74" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="4304,631,4512,672"/>
+<area shape="rect" id="node77" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="6198,727,6365,754"/>
+<area shape="rect" id="node79" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="5847,727,6073,754"/>
+<area shape="rect" id="node80" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="5571,727,5773,754"/>
+<area shape="rect" id="node82" href="$d6/d9b/CircleXY_8h.html" title="MathUtils/detail/CircleXY.h" alt="" coords="5214,727,5394,754"/>
+<area shape="rect" id="node83" href="$da/d66/IntervalXY_8h.html" title="MathUtils/detail/IntervalXY.h" alt="" coords="5581,638,5771,665"/>
+<area shape="rect" id="node85" href="$d3/d9d/PhysicsConstants_8h.html" title="Header to collect physics constants. " alt="" coords="3921,638,4178,665"/>
+<area shape="rect" id="node89" href="$d7/d99/DCA_8h.html" title="ReconstructionDataFormats\l/DCA.h" alt="" coords="4445,720,4632,761"/>
+<area shape="rect" id="node90" href="$d6/db1/TrackLTIntegral_8h.html" title="Track Length and TOF integral. " alt="" coords="4000,184,4187,225"/>
+<area shape="rect" id="node91" href="$d9/da9/MatLayerCylSet_8h.html" title="Declarations for the wrapper for the set of cylindrical material layers. " alt="" coords="3549,452,3736,493"/>
+<area shape="rect" id="node92" href="$da/df3/MatLayerCyl_8h.html" title="Declarations for single cylindrical material layer class. " alt="" coords="3495,638,3694,665"/>
+<area shape="rect" id="node93" href="$d4/d1b/Ray_8h.html" title="DetectorsBase/Ray.h" alt="" coords="3625,549,3773,575"/>
+<area shape="rect" id="node95" href="$de/d64/RangeReference_8h.html" title="Class to refer to the 1st entry and N elements of some group in the continuous container. " alt="" coords="5903,281,6161,307"/>
+<area shape="rect" id="node96" href="$de/dcd/ClusterNative_8h.html" title="Class of a TPC cluster in TPC&#45;native coordinates (row, time) " alt="" coords="6389,727,6609,754"/>
+<area shape="rect" id="node99" href="$d5/da8/dEdxInfo_8h.html" title="DataFormatsTPC/dEdxInfo.h" alt="" coords="5687,281,5879,307"/>
+<area shape="rect" id="node98" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="6332,809,6532,836"/>
+</map>

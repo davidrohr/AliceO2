@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/ChamberEfficiency.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/ChamberEfficiency.h">
+<area shape="rect" id="node2" href="$d1/dbe/ChamberEfficiency_8cxx.html" title="Implementation of the chamber efficiency for the MID RPC. " alt="" coords="212,139,459,195"/>
+<area shape="rect" id="node3" href="$de/d74/ChamberEfficiencyResponse_8h.html" title="MID RPC effciency response. " alt="" coords="483,124,710,209"/>
+<area shape="rect" id="node4" href="$da/de1/MUON_2MID_2Simulation_2include_2MIDSimulation_2Digitizer_8h.html" title="Digitizer for MID. " alt="" coords="347,257,527,328"/>
+<area shape="rect" id="node7" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="523,376,737,432"/>
+<area shape="rect" id="node8" href="$d8/d57/ChamberEfficiencyResponse_8cxx.html" title="Implementation MID RPC efficiency response. " alt="" coords="634,257,887,328"/>
+<area shape="rect" id="node5" href="$d6/df9/MUON_2MID_2Simulation_2src_2Digitizer_8cxx.html" title="Implementation of the digitizer for MID. " alt="" coords="5,376,220,432"/>
+<area shape="rect" id="node6" href="$d6/d45/testSimulation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testSimulation.cxx" alt="" coords="244,376,499,432"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$de/dac/structo2_1_1soa_1_1CombinationsIndexPolicyBase.html" title="o2::soa::CombinationsIndex\lPolicyBase\&lt; T, Ts... \&gt;" alt="" coords="5,133,191,174"/>
+<area shape="rect" id="node2" href="$d3/dc5/structo2_1_1soa_1_1CombinationsBlockSameIndexPolicyBase.html" title="o2::soa::CombinationsBlock\lSameIndexPolicyBase\&lt; T1,\l T, Ts... \&gt;" alt="" coords="239,85,425,141"/>
+<area shape="rect" id="node6" href="$d3/dc5/structo2_1_1soa_1_1CombinationsBlockSameIndexPolicyBase.html" title="o2::soa::CombinationsBlock\lSameIndexPolicyBase\&lt; T1,\l T, Ts \&gt;" alt="" coords="239,165,425,221"/>
+<area shape="rect" id="node3" href="$dc/d9d/structo2_1_1soa_1_1CombinationsBlockFullSameIndexPolicy.html" title="o2::soa::CombinationsBlock\lFullSameIndexPolicy\&lt; T1,\l T, Ts \&gt;" alt="" coords="480,5,667,61"/>
+<area shape="rect" id="node4" href="$db/d74/structo2_1_1soa_1_1CombinationsBlockStrictlyUpperSameIndexPolicy.html" title="o2::soa::CombinationsBlock\lStrictlyUpperSameIndexPolicy\l\&lt; T1, T, Ts \&gt;" alt="" coords="473,85,673,141"/>
+<area shape="rect" id="node5" href="$d1/db2/structo2_1_1soa_1_1CombinationsBlockUpperSameIndexPolicy.html" title="o2::soa::CombinationsBlock\lUpperSameIndexPolicy\&lt; T1,\l T, Ts \&gt;" alt="" coords="478,165,669,221"/>
+</map>

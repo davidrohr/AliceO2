@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FV0/workflow/include/FV0Workflow" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FV0/workflow/include/FV0Workflow">
+<area shape="rect" id="node1" href="dir_2bb1918f9c140f261f392e625af493b4.html" title="FV0Workflow" alt="" coords="52,52,153,100"/>
+<area shape="rect" id="node2" href="dir_e0bfde3cc4c1f87a15076e6d43624461.html" title="reconstruction" alt="" coords="5,148,109,196"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000502_000483.html" title="2" alt="" coords="80,127,88,142"/>
+<area shape="rect" id="node3" href="dir_bcbb2cf9a3d3d83e5515c82071a07177.html" title="Framework" alt="" coords="58,244,145,292"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000502_000062.html" title="6" alt="" coords="119,221,127,236"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000483_000062.html" title="1" alt="" coords="86,216,94,231"/>
+<area shape="rect" id="clust1" href="dir_92143a1f76ab3242176be049b81b09c9.html" title="include" alt="" coords="41,16,164,111"/>
+</map>

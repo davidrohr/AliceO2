@@ -1,0 +1,31 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/reconstruction/src/RawReaderCRU.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/reconstruction/src/RawReaderCRU.cxx">
+<area shape="rect" id="node5" href="$df/d86/RawReaderCRU_8h.html" title="TPCReconstruction/RawReader\lCRU.h" alt="" coords="1301,184,1512,225"/>
+<area shape="rect" id="node19" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="516,273,695,300"/>
+<area shape="rect" id="node58" href="$d5/d1d/TPC_2base_2include_2TPCBase_2Mapper_8h.html" title="TPCBase/Mapper.h" alt="" coords="2297,109,2434,136"/>
+<area shape="rect" id="node64" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="2763,109,2904,136"/>
+<area shape="rect" id="node25" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="770,430,958,457"/>
+<area shape="rect" id="node39" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="682,512,865,539"/>
+<area shape="rect" id="node41" href="$df/d26/CRU_8h.html" title="TPCBase/CRU.h" alt="" coords="2115,273,2239,300"/>
+<area shape="rect" id="node56" href="$de/d41/PadPos_8h.html" title="TPCBase/PadPos.h" alt="" coords="2334,348,2474,375"/>
+<area shape="rect" id="node57" href="$da/d61/PadROCPos_8h.html" title="TPCBase/PadROCPos.h" alt="" coords="1691,273,1861,300"/>
+<area shape="rect" id="node20" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1468,751,1604,777"/>
+<area shape="rect" id="node23" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="960,669,1117,695"/>
+<area shape="rect" id="node26" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="505,348,644,375"/>
+<area shape="rect" id="node29" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1182,423,1391,464"/>
+<area shape="rect" id="node32" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="351,348,481,375"/>
+<area shape="rect" id="node21" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1347,825,1531,852"/>
+<area shape="rect" id="node22" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1555,825,1714,852"/>
+<area shape="rect" id="node31" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="1155,512,1392,539"/>
+<area shape="rect" id="node33" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="355,430,511,457"/>
+<area shape="rect" id="node42" href="$d1/d73/Defs_8h.html" title="DataFormatsTPC/Defs.h" alt="" coords="2065,512,2233,539"/>
+<area shape="rect" id="node53" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="2569,430,2701,457"/>
+<area shape="rect" id="node55" href="$dc/d14/ROC_8h.html" title="TPCBase/ROC.h" alt="" coords="2014,348,2138,375"/>
+<area shape="rect" id="node43" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="1552,669,1733,695"/>
+<area shape="rect" id="node44" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2125,587,2275,613"/>
+<area shape="rect" id="node54" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="2535,512,2735,539"/>
+<area shape="rect" id="node59" href="$dd/d0b/PadSecPos_8h.html" title="TPCBase/PadSecPos.h" alt="" coords="2568,273,2731,300"/>
+<area shape="rect" id="node60" href="$d3/d54/DigitPos_8h.html" title="TPCBase/DigitPos.h" alt="" coords="2467,191,2611,218"/>
+<area shape="rect" id="node61" href="$d1/d1f/FECInfo_8h.html" title="TPCBase/FECInfo.h" alt="" coords="1930,587,2073,613"/>
+<area shape="rect" id="node62" href="$da/d9d/PadRegionInfo_8h.html" title="TPCBase/PadRegionInfo.h" alt="" coords="2211,191,2391,218"/>
+<area shape="rect" id="node63" href="$d6/d42/PartitionInfo_8h.html" title="TPCBase/PartitionInfo.h" alt="" coords="2023,191,2187,218"/>
+</map>

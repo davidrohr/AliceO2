@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TRD/include/DataFormatsTRD/LinkRecord.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TRD/include/DataFormatsTRD/LinkRecord.h">
+<area shape="rect" id="node2" href="$d6/dc7/LinkRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/TRD/src/LinkRecord.cxx" alt="" coords="5,131,219,187"/>
+<area shape="rect" id="node3" href="$da/d8b/RawData_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/TRD/src/RawData.cxx" alt="" coords="243,131,456,187"/>
+<area shape="rect" id="node4" href="$d3/d2d/Trap2CRU_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/Trap2CRU.h" alt="" coords="530,124,753,195"/>
+<area shape="rect" id="node5" href="$d0/d2c/Trap2CRU_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/Trap2CRU.cxx" alt="" coords="359,250,558,306"/>
+<area shape="rect" id="node6" href="$d9/dfe/trap2raw_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/trap2raw.cxx" alt="" coords="583,250,769,306"/>
+<area shape="rect" id="node7" href="$dc/d96/TRDTrapSimulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrapSimulatorSpec.h" alt="" coords="877,124,1088,195"/>
+<area shape="rect" id="node8" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="794,250,1062,306"/>
+<area shape="rect" id="node11" href="$d1/d78/TRDTrapRawWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapRawWriterSpec.cxx" alt="" coords="1112,131,1387,187"/>
+<area shape="rect" id="node9" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="1086,243,1330,313"/>
+<area shape="rect" id="node10" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1355,250,1571,306"/>
+</map>

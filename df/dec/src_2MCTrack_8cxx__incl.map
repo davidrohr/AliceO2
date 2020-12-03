@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/src/MCTrack.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/src/MCTrack.cxx">
+<area shape="rect" id="node2" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="977,109,1129,151"/>
+<area shape="rect" id="node3" href="$d9/d26/ParticleStatus_8h.html" title="SimulationDataFormat\l/ParticleStatus.h" alt="" coords="420,199,572,240"/>
+<area shape="rect" id="node5" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="682,199,890,240"/>
+<area shape="rect" id="node14" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1086,288,1206,315"/>
+<area shape="rect" id="node26" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="592,288,748,315"/>
+<area shape="rect" id="node15" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="954,363,1120,389"/>
+<area shape="rect" id="node16" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="1144,363,1370,389"/>
+<area shape="rect" id="node18" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="1394,363,1597,389"/>
+<area shape="rect" id="node20" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1458,512,1594,539"/>
+<area shape="rect" id="node23" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="1208,437,1352,464"/>
+<area shape="rect" id="node25" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1376,437,1615,464"/>
+<area shape="rect" id="node21" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1337,587,1521,613"/>
+<area shape="rect" id="node22" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1546,587,1704,613"/>
+<area shape="rect" id="node31" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="111,363,294,389"/>
+</map>

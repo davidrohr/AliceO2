@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Contour/include/MCHContour/ContourCreator.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Contour/include/MCHContour/ContourCreator.h">
+<area shape="rect" id="node2" href="$de/d51/SVGWriter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Contour/include/MCHContour\l/SVGWriter.h" alt="" coords="568,124,801,195"/>
+<area shape="rect" id="node9" href="$d3/d4a/ContourCreator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Contour/test/ContourCreator.cxx" alt="" coords="826,131,1077,187"/>
+<area shape="rect" id="node10" href="$da/d65/CathodeSegmentationContours_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/SegContour\l/src/CathodeSegmentationContours.cxx" alt="" coords="1101,124,1356,195"/>
+<area shape="rect" id="node11" href="$de/de2/SegmentationContours_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/SegContour\l/src/SegmentationContours.cxx" alt="" coords="1380,124,1587,195"/>
+<area shape="rect" id="node3" href="$d0/db8/CathodeSegmentationSVGWriter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/SegContour\l/include/MCHMappingSegContour\l/CathodeSegmentationSVGWriter.h" alt="" coords="494,243,723,328"/>
+<area shape="rect" id="node4" href="$de/d54/CathodeSegmentationSVGWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/SegContour\l/src/CathodeSegmentationSVGWriter.cxx" alt="" coords="5,376,271,447"/>
+<area shape="rect" id="node5" href="$de/d56/SegmentationSVGWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/SegContour\l/src/SegmentationSVGWriter.cxx" alt="" coords="295,376,511,447"/>
+<area shape="rect" id="node6" href="$d2/d0f/SVGSegmentation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/SegContour\l/src/SVGSegmentation.cxx" alt="" coords="536,376,719,447"/>
+<area shape="rect" id="node7" href="$df/dc1/CathodeSegmentation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/test/src/CathodeSegmentation.cxx" alt="" coords="743,383,1059,439"/>
+<area shape="rect" id="node8" href="$d2/dba/CathodeSegmentationLong_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Mapping/test/src/CathodeSegmentation\lLong.cxx" alt="" coords="1083,376,1374,447"/>
+</map>

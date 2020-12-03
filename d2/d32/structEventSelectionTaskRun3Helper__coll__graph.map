@@ -1,0 +1,7 @@
+<map id="EventSelectionTaskRun3Helper" name="EventSelectionTaskRun3Helper">
+<area shape="rect" id="node2" href="$d5/df4/structo2_1_1framework_1_1Builds.html" title="{o2::framework::Builds\l\&lt; aod::SparseBCsFT0s \&gt;\n||+ operator&#45;\&gt;()\l+ operator*()\l+ asArrowTable()\l+ pack()\l+ build()\l}" alt="" coords="166,928,338,1079"/>
+<area shape="rect" id="node3" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="{o2::framework::TableTransform\l\&lt; aod::MetadataTrait\&lt; aod\l::SparseBCsFT0s \&gt;::metadata \&gt;\n||+ sources_pack()\l+ base_spec()\l+ base_specs_impl()\l+ base_specs()\l+ spec()\l+ output()\l+ ref()\l}" alt="" coords="5,496,219,691"/>
+<area shape="rect" id="node4" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="Helper template for table transformations. " alt="" coords="79,5,283,185"/>
+<area shape="rect" id="node7" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="{o2::framework::TableTransform\l\&lt; aod::MetadataTrait\&lt; T \&gt;\l::metadata \&gt;\n||+ sources_pack()\l+ base_spec()\l+ base_specs_impl()\l+ base_specs()\l+ spec()\l+ output()\l+ ref()\l}" alt="" coords="150,277,354,472"/>
+<area shape="rect" id="node6" href="$d5/df4/structo2_1_1framework_1_1Builds.html" title="This helper struct allows you to declare index tables to be created in a task. " alt="" coords="177,715,327,865"/>
+</map>

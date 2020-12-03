@@ -1,0 +1,29 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Steer/include/Steer/MCKinematicsReader.h" name="/home/runner/work/AliceO2/AliceO2/Steer/include/Steer/MCKinematicsReader.h">
+<area shape="rect" id="node2" href="$d1/def/DigitizationContext_8h.html" title="SimulationDataFormat\l/DigitizationContext.h" alt="" coords="1128,109,1280,151"/>
+<area shape="rect" id="node45" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="2961,199,3113,240"/>
+<area shape="rect" id="node54" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="2051,109,2203,151"/>
+<area shape="rect" id="node55" href="$d2/d1f/MCEventHeader_8h.html" title="SimulationDataFormat\l/MCEventHeader.h" alt="" coords="2345,199,2497,240"/>
+<area shape="rect" id="node58" href="$d5/dbe/TrackReference_8h.html" title="SimulationDataFormat\l/TrackReference.h" alt="" coords="3628,199,3780,240"/>
+<area shape="rect" id="node61" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="1773,199,1925,240"/>
+<area shape="rect" id="node6" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="358,199,567,240"/>
+<area shape="rect" id="node13" href="$d4/d5f/BunchFilling_8h.html" title="CommonDataFormat/BunchFilling.h" alt="" coords="1373,206,1603,233"/>
+<area shape="rect" id="node16" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="1243,288,1451,329"/>
+<area shape="rect" id="node39" href="$de/d28/GRPObject_8h.html" title="Header of the General Run Parameters object. " alt="" coords="716,199,881,240"/>
+<area shape="rect" id="node42" href="$df/d5b/GPUCommonLogger_8h.html" title="GPUCommonLogger.h" alt="" coords="53,206,208,233"/>
+<area shape="rect" id="node7" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2048,295,2205,322"/>
+<area shape="rect" id="node12" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="680,295,917,322"/>
+<area shape="rect" id="node21" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="900,377,1020,404"/>
+<area shape="rect" id="node32" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="1291,377,1447,404"/>
+<area shape="rect" id="node22" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="522,452,689,479"/>
+<area shape="rect" id="node23" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="763,452,989,479"/>
+<area shape="rect" id="node25" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="1013,452,1216,479"/>
+<area shape="rect" id="node26" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="796,601,932,628"/>
+<area shape="rect" id="node29" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="901,527,1045,553"/>
+<area shape="rect" id="node31" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1070,527,1309,553"/>
+<area shape="rect" id="node27" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="675,676,859,703"/>
+<area shape="rect" id="node28" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="883,676,1042,703"/>
+<area shape="rect" id="node37" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1375,452,1558,479"/>
+<area shape="rect" id="node41" href="$da/d58/Units_8h.html" title="Header to collect definitions for different units. " alt="" coords="420,295,577,322"/>
+<area shape="rect" id="node46" href="$d9/d26/ParticleStatus_8h.html" title="SimulationDataFormat\l/ParticleStatus.h" alt="" coords="3419,288,3571,329"/>
+<area shape="rect" id="node57" href="$d6/d9d/MCEventStats_8h.html" title="SimulationDataFormat\l/MCEventStats.h" alt="" coords="2405,288,2557,329"/>
+</map>

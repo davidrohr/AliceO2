@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::framework::DataProcessor\lLabel",height=0.2,width=0.4,color="black",URL="$d7/ded/structo2_1_1framework_1_1DataProcessorLabel.html",tooltip="A label that can be associated to a DataProcessorSpec. "];
+}

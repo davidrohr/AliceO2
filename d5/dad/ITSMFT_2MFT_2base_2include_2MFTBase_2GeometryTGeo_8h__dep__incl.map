@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/GeometryTGeo.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/GeometryTGeo.h">
+<area shape="rect" id="node2" href="$d5/d24/ChipSegmentation_8cxx.html" title="Description of the virtual segmentation of the chips. " alt="" coords="5,124,248,180"/>
+<area shape="rect" id="node3" href="$df/d83/GeometryBuilder_8cxx.html" title="Class describing MFT Geometry Builder. " alt="" coords="273,124,506,180"/>
+<area shape="rect" id="node4" href="$d0/dc4/ITSMFT_2MFT_2base_2src_2GeometryTGeo_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/GeometryTGeo.cxx" alt="" coords="530,124,755,180"/>
+<area shape="rect" id="node5" href="$d1/d8f/HalfDiskSegmentation_8cxx.html" title="Class for the description of the structure of a half&#45;disk. " alt="" coords="780,124,1047,180"/>
+<area shape="rect" id="node6" href="$d1/d7f/HalfSegmentation_8cxx.html" title="Segmentation class for each half of the ALICE Muon Forward Tracker. " alt="" coords="1071,124,1311,180"/>
+<area shape="rect" id="node7" href="$d6/dc0/LadderSegmentation_8cxx.html" title="Description of the virtual segmentation of a ladder. " alt="" coords="1335,124,1590,180"/>
+<area shape="rect" id="node8" href="$d0/d6b/ITSMFT_2MFT_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/Detector.cxx" alt="" coords="1614,124,1831,180"/>
+<area shape="rect" id="node9" href="$d6/d87/ITSMFT_2MFT_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/DigitizerTask.cxx" alt="" coords="1855,124,2099,180"/>
+<area shape="rect" id="node10" href="$dd/d79/MFT_2tracking_2src_2IOUtils_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/tracking/src/IOUtils.cxx" alt="" coords="2124,124,2319,180"/>
+<area shape="rect" id="node11" href="$d4/d8b/ITSMFT_2MFT_2workflow_2src_2ClustererSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/workflow/src/ClustererSpec.cxx" alt="" coords="2343,124,2585,180"/>
+<area shape="rect" id="node12" href="$d1/dd0/ITSMFT_2MFT_2workflow_2src_2TrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/workflow/src/TrackerSpec.cxx" alt="" coords="2609,124,2844,180"/>
+<area shape="rect" id="node13" href="$d3/d43/ITSMFTDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ITSMFTDigitizerSpec.cxx" alt="" coords="2869,124,3083,180"/>
+</map>

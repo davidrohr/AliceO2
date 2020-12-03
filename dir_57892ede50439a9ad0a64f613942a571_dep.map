@@ -1,0 +1,28 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/workflow/include/PHOSWorkflow" name="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/workflow/include/PHOSWorkflow">
+<area shape="rect" id="node1" href="dir_57892ede50439a9ad0a64f613942a571.html" title="PHOSWorkflow" alt="" coords="137,52,252,100"/>
+<area shape="rect" id="node2" href="dir_f8d0b672e09eeb12dbd411d9fb531afa.html" title="calib" alt="" coords="195,244,267,292"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000430_000394.html" title="1" alt="" coords="231,218,239,232"/>
+<area shape="rect" id="node3" href="dir_fa21b46838f21636bfdcc60e4853f0ed.html" title="base" alt="" coords="195,340,267,388"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000430_000231.html" title="2" alt="" coords="266,323,274,338"/>
+<area shape="rect" id="node4" href="dir_3af9af54da49e799fe4b1df79119dad7.html" title="simulation" alt="" coords="342,148,423,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000430_000328.html" title="1" alt="" coords="325,128,333,143"/>
+<area shape="rect" id="node5" href="dir_da16e9ad2b18bb132f2d9a9746692e88.html" title="reconstruction" alt="" coords="99,148,203,196"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000430_000406.html" title="5" alt="" coords="173,127,181,142"/>
+<area shape="rect" id="node6" href="dir_bcbb2cf9a3d3d83e5515c82071a07177.html" title="Framework" alt="" coords="187,532,274,580"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000430_000062.html" title="17" alt="" coords="166,520,181,534"/>
+<area shape="rect" id="node7" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="181,436,280,484"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000430_000089.html" title="10" alt="" coords="189,410,204,424"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000394_000231.html" title="2" alt="" coords="235,314,243,329"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000231_000089.html" title="1" alt="" coords="226,409,234,424"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000328_000394.html" title="2" alt="" coords="283,235,291,250"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000328_000231.html" title="10" alt="" coords="279,330,294,345"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000328_000062.html" title="1" alt="" coords="268,517,276,531"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000328_000089.html" title="11" alt="" coords="266,421,281,435"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000406_000394.html" title="2" alt="" coords="201,217,209,231"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000406_000231.html" title="6" alt="" coords="204,313,212,328"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000406_000089.html" title="18" alt="" coords="200,409,215,424"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000062_000089.html" title="73" alt="" coords="224,496,239,510"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000089_000231.html" title="3" alt="" coords="227,400,235,414"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000089_000062.html" title="22" alt="" coords="223,505,237,520"/>
+<area shape="rect" id="clust1" href="dir_9a0b85f4762b447524757a410a4669a6.html" title="include" alt="" coords="127,16,263,111"/>
+</map>

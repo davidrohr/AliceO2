@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/base/include/TOFBase/WindowFiller.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/base/include/TOFBase/WindowFiller.h">
+<area shape="rect" id="node2" href="$dc/d87/WindowFiller_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/base/src/WindowFiller.cxx" alt="" coords="158,117,338,173"/>
+<area shape="rect" id="node3" href="$d4/d36/Detectors_2TOF_2reconstruction_2include_2TOFReconstruction_2Decoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/include\l/TOFReconstruction/Decoder.h" alt="" coords="362,109,566,180"/>
+<area shape="rect" id="node9" href="$d0/d85/TOF_2simulation_2include_2TOFSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/include/TOFSimulation\l/Digitizer.h" alt="" coords="841,109,1063,180"/>
+<area shape="rect" id="node4" href="$de/da8/TOF_2reconstruction_2src_2Decoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/src/Decoder.cxx" alt="" coords="5,235,213,291"/>
+<area shape="rect" id="node5" href="$de/d5e/TOF_2reconstruction_2src_2Encoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/src/Encoder.cxx" alt="" coords="238,235,445,291"/>
+<area shape="rect" id="node6" href="$db/d4c/CompressedDecodingTask_8h.html" title="TOF compressed data decoding task. " alt="" coords="469,228,704,299"/>
+<area shape="rect" id="node7" href="$da/dfd/tof-reco-workflow_8cxx.html" title="Basic DPL workflow for TOF reconstruction starting from digits. " alt="" coords="224,347,448,417"/>
+<area shape="rect" id="node8" href="$d8/d56/CompressedDecodingTask_8cxx.html" title="TOF compressed data decoding task. " alt="" coords="473,347,706,417"/>
+<area shape="rect" id="node10" href="$d8/dc6/TOF_2simulation_2include_2TOFSimulation_2DigitizerTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/include/TOFSimulation\l/DigitizerTask.h" alt="" coords="728,228,949,299"/>
+<area shape="rect" id="node12" href="$d4/df3/TOF_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/src/Digitizer.cxx" alt="" coords="973,235,1157,291"/>
+<area shape="rect" id="node13" href="$d6/d61/TOFDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TOFDigitizerSpec.cxx" alt="" coords="1182,235,1397,291"/>
+<area shape="rect" id="node11" href="$dd/df3/TOF_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/src/DigitizerTask.cxx" alt="" coords="732,354,945,410"/>
+</map>

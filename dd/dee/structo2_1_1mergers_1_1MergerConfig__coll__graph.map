@@ -1,0 +1,7 @@
+<map id="o2::mergers::MergerConfig" name="o2::mergers::MergerConfig">
+<area shape="rect" id="node2" href="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html" title="{o2::mergers::ConfigEntry\l\&lt; PublicationDecision \&gt;\n||}" alt="" coords="425,300,593,392"/>
+<area shape="rect" id="node11" href="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html" title="{o2::mergers::ConfigEntry\l\&lt; MergedObjectTimespan \&gt;\n||}" alt="" coords="200,300,384,392"/>
+<area shape="rect" id="node13" href="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html" title="{o2::mergers::ConfigEntry\l\&lt; InputObjectsTimespan \&gt;\n||}" alt="" coords="626,300,803,392"/>
+<area shape="rect" id="node5" href="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html" title="{o2::mergers::ConfigEntry\l\&lt; V, P \&gt;\n||}" alt="" coords="685,145,853,237"/>
+<area shape="rect" id="node8" href="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html" title="{o2::mergers::ConfigEntry\l\&lt; TopologySize, int \&gt;\n||}" alt="" coords="1092,300,1260,392"/>
+</map>

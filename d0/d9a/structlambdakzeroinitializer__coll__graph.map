@@ -1,0 +1,7 @@
+<map id="lambdakzeroinitializer" name="lambdakzeroinitializer">
+<area shape="rect" id="node2" href="$d7/d15/structo2_1_1framework_1_1Spawns.html" title="{o2::framework::Spawns\l\&lt; aod::V0DataExt \&gt;\n||+ pack()\l+ operator&#45;\&gt;()\l+ operator*()\l+ asArrowTable()\l}" alt="" coords="220,943,380,1079"/>
+<area shape="rect" id="node3" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="{o2::framework::TableTransform\l\&lt; aod::MetadataTrait\&lt; framework\l::pack_head_t\&lt; aod::V0DataExt\l ::originals \&gt; \&gt;::metadata \&gt;\n||+ sources_pack()\l+ base_spec()\l+ base_specs_impl()\l+ base_specs()\l+ spec()\l+ output()\l+ ref()\l}" alt="" coords="5,525,221,735"/>
+<area shape="rect" id="node4" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="Helper template for table transformations. " alt="" coords="117,5,321,185"/>
+<area shape="rect" id="node8" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="{o2::framework::TableTransform\l\&lt; aod::MetadataTrait\&lt; framework\l::pack_head_t\&lt; T::originals \&gt;\l \&gt;::metadata \&gt;\n||+ sources_pack()\l+ base_spec()\l+ base_specs_impl()\l+ base_specs()\l+ spec()\l+ output()\l+ ref()\l}" alt="" coords="529,292,745,501"/>
+<area shape="rect" id="node7" href="$d7/d15/structo2_1_1framework_1_1Spawns.html" title="{o2::framework::Spawns\&lt; T \&gt;\n||+ pack()\l+ operator&#45;\&gt;()\l+ operator*()\l+ asArrowTable()\l}" alt="" coords="335,759,527,880"/>
+</map>

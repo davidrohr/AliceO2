@@ -1,0 +1,8 @@
+digraph "o2::emcal::RCUTrailer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::emcal::RCUTrailer\n||+ RCUTrailer()\l+ ~RCUTrailer()\l+ reset()\l+ printStream()\l+ constructFromRawPayload()\l+ getFECErrorsA()\l+ getFECErrorsB()\l+ getErrorsG2()\l+ getErrorsG3()\l+ getActiveFECsA()\l+ getActiveFECsB()\l+ getAltroCFGReg1()\l+ getAltroCFGReg2()\l+ getRCUID()\l+ getTrailerSize()\l+ getPayloadSize()\l+ getFirmwareVersion()\l+ getNumberOfChannelAddress\lMismatch()\l+ getNumberOfChannelLength\lMismatch()\l+ getBaselineCorrection()\l+ getPolarity()\l+ getNumberOfPresamples()\l+ getNumberOfPostsamples()\l+ hasSecondBaselineCorr()\l+ getGlitchFilter()\l+ getNumberOfNonZeroSuppressed\lPostsamples()\l+ getNumberOfNonZeroSuppressed\lPresamples()\l+ hasZeroSuppression()\l+ getNumberOfAltroBuffers()\l+ getNumberOfPretriggerSamples()\l+ getNumberOfSamplesPerChannel()\l+ isSparseReadout()\l+ getTimeSample()\l+ setTimeSample()\l+ getL1Phase()\l+ setL1Phase()\l+ setFECErrorsA()\l+ setFECErrorsB()\l+ setErrorsG2()\l+ setErrorsG3()\l+ setActiveFECsA()\l+ setActiveFECsB()\l+ setAltroCFGReg1()\l+ setAltroCFGReg2()\l+ setFirmwareVersion()\l+ setPayloadSize()\l+ isInitialized()\l+ encode()\l+ constructFromPayloadWords()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,5 @@
+<map id="o2::tpc::ElementalHit" name="o2::tpc::ElementalHit">
+<area shape="rect" id="node2" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="9,167,56,245"/>
+<area shape="rect" id="node3" href="$d5/daf/classROOT_1_1Math_1_1PositionVector3D.html" title="{ROOT::Math::PositionVector3\lD\&lt; float \&gt;\n||}" alt="" coords="81,160,278,252"/>
+<area shape="rect" id="node4" href="$d5/daf/classROOT_1_1Math_1_1PositionVector3D.html" title="{ROOT::Math::PositionVector3\lD\&lt; CoordSystem, Tag \&gt;\n||}" alt="" coords="81,5,278,97"/>
+</map>

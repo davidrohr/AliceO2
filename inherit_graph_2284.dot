@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QATrackingResolution",height=0.2,width=0.4,color="black",URL="$d9/db7/structQATrackingResolution.html",tooltip="Task to evaluate the tracking resolution (Pt, Eta, Phi and impact parameter) "];
+}

@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Framework/AnalysisTools/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6a8da6aee604753bfbf1b13d1451fb0d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="AnalysisTools" fontname="Helvetica", fontsize="10", URL="dir_6a8da6aee604753bfbf1b13d1451fb0d.html"]
+  subgraph clusterdir_d2288e295e053662e65beb47b89e1292 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_d2288e295e053662e65beb47b89e1292.html"];
+    dir_d2288e295e053662e65beb47b89e1292 [shape=plaintext label="include"];
+    dir_8bd5551433ff88b6e110ae1f220a9be9 [shape=box label="Framework" color="black" fillcolor="white" style="filled" URL="dir_8bd5551433ff88b6e110ae1f220a9be9.html"];
+  }
+  }
+  dir_ab5a80d4bd40f73f0851d5ff6a022779 [shape=box label="Logger" color="red" URL="dir_ab5a80d4bd40f73f0851d5ff6a022779.html"];
+  dir_8bd5551433ff88b6e110ae1f220a9be9->dir_ab5a80d4bd40f73f0851d5ff6a022779 [headlabel="1", labeldistance=1.5 headhref="dir_000759_000771.html"];
+}

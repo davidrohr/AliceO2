@@ -1,0 +1,15 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/TPC/qc/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bfeba01dad5848f9ca8d5c9f8df7a236 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="qc" fontname="Helvetica", fontsize="10", URL="dir_bfeba01dad5848f9ca8d5c9f8df7a236.html"]
+  dir_5676e72751febff59fe6ec26354a6d94 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_5676e72751febff59fe6ec26354a6d94.html"];
+  }
+  dir_f7fa4a2371ee0ebf620e3ad8fc60120f [shape=box label="include" color="red" URL="dir_f7fa4a2371ee0ebf620e3ad8fc60120f.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_f7fa4a2371ee0ebf620e3ad8fc60120f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="4", labeldistance=1.5 headhref="dir_000261_000089.html"];
+  dir_5676e72751febff59fe6ec26354a6d94->dir_f7fa4a2371ee0ebf620e3ad8fc60120f [headlabel="4", labeldistance=1.5 headhref="dir_000707_000261.html"];
+  dir_5676e72751febff59fe6ec26354a6d94->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000707_000089.html"];
+}

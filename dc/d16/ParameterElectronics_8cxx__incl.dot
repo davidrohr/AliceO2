@@ -1,0 +1,38 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/src/ParameterElectronics.cxx"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/ParameterElectronics.cxx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="TPCBase/ParameterElectronics.h",height=0.2,width=0.4,color="black",URL="$d3/d47/ParameterElectronics_8h.html",tooltip="Definition of the parameter class for the detector electronics. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="array",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CommonUtils/Configurable\lParam.h",height=0.2,width=0.4,color="black",URL="$db/d2c/ConfigurableParam_8h.html"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="vector",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="map",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="unordered_map",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="boost/property_tree\l/ptree.hpp",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="typeinfo",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="iostream",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="CommonUtils/Configurable\lParamHelper.h",height=0.2,width=0.4,color="black",URL="$da/d6b/ConfigurableParamHelper_8h.html"];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="TClass.h",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="type_traits",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TFile.h",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="CommonConstants/LHCConstants.h",height=0.2,width=0.4,color="black",URL="$d4/dc6/LHCConstants_8h.html",tooltip="Header to collect LHC related constants. "];
+}

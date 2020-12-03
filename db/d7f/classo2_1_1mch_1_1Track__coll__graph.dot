@@ -1,0 +1,8 @@
+digraph "o2::mch::Track"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::Track\n||+ Track()\l+ ~Track()\l+ Track()\l+ operator=()\l+ Track()\l+ operator=()\l+ getParamAtVertex()\l+ getNClusters()\l+ first()\l+ last()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ rbegin()\l+ rbegin()\l+ rend()\l+ rend()\l+ createParamAtCluster()\l+ addParamAtCluster()\l+ removeParamAtCluster()\l+ getNClustersInCommon()\l+ isBetter()\l+ tagRemovableClusters()\l+ setCurrentParam()\l+ getCurrentParam()\l+ getCurrentChamber()\l+ hasCurrentParam()\l+ areCurrentParamValid()\l+ invalidateCurrentParam()\l+ connected()\l+ isConnected()\l+ removable()\l+ isRemovable()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

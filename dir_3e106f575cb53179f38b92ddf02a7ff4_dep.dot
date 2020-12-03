@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TRD/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bb194ed89d4d31aa97da8e5c0af864ff {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TRD" fontname="Helvetica", fontsize="10", URL="dir_bb194ed89d4d31aa97da8e5c0af864ff.html"]
+  dir_3e106f575cb53179f38b92ddf02a7ff4 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3e106f575cb53179f38b92ddf02a7ff4.html"];
+  }
+  dir_37cb16e5a1a76e7ae4faac09696b430a [shape=box label="include" color="red" URL="dir_37cb16e5a1a76e7ae4faac09696b430a.html"];
+  dir_3e106f575cb53179f38b92ddf02a7ff4->dir_37cb16e5a1a76e7ae4faac09696b430a [headlabel="7", labeldistance=1.5 headhref="dir_000177_000162.html"];
+}

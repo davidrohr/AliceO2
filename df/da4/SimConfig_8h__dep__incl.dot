@@ -1,0 +1,40 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Common/SimConfig/include/SimConfig/SimConfig.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/include/SimConfig/SimConfig.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/src/SimConfig.cxx",height=0.2,width=0.4,color="black",URL="$d8/d12/SimConfig_8cxx.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/test/TestConfig.cxx",height=0.2,width=0.4,color="black",URL="$d2/da3/TestConfig_8cxx.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/test/TestConfigurableParam.cxx",height=0.2,width=0.4,color="black",URL="$d6/d4f/TestConfigurableParam_8cxx.html"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/Passive\l/src/Cave.cxx",height=0.2,width=0.4,color="black",URL="$da/da3/Cave_8cxx.html"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/test/testTPCParameters.cxx",height=0.2,width=0.4,color="black",URL="$da/d69/testTPCParameters_8cxx.html",tooltip="This task tests the Parameter handling. "];
+  Node3 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/runner/work/AliceO2\l/AliceO2/Generators/src\l/GeneratorFactory.cxx",height=0.2,width=0.4,color="black",URL="$d0/d83/GeneratorFactory_8cxx.html"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2SimDevice.h",height=0.2,width=0.4,color="black",URL="$db/d82/O2SimDevice_8h.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h",height=0.2,width=0.4,color="black",URL="$db/d50/O2HitMerger_8h.html"];
+  Node11 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx",height=0.2,width=0.4,color="black",URL="$d9/d16/O2HitMergerRunner_8cxx.html"];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2SimDeviceRunner.cxx",height=0.2,width=0.4,color="black",URL="$d6/da5/O2SimDeviceRunner_8cxx.html"];
+  Node3 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice.h",height=0.2,width=0.4,color="black",URL="$dc/d50/O2PrimaryServerDevice_8h.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2PrimaryServerDevice\lRunner.cxx",height=0.2,width=0.4,color="black",URL="$db/d8f/O2PrimaryServerDeviceRunner_8cxx.html"];
+  Node3 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="/home/runner/work/AliceO2\l/AliceO2/run/o2sim.cxx",height=0.2,width=0.4,color="black",URL="$d8/d07/o2sim_8cxx.html"];
+  Node3 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="/home/runner/work/AliceO2\l/AliceO2/run/o2sim_parallel.cxx",height=0.2,width=0.4,color="black",URL="$d8/ddd/o2sim__parallel_8cxx.html"];
+  Node3 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/src/O2MCApplication.cxx",height=0.2,width=0.4,color="black",URL="$df/d3b/O2MCApplication_8cxx.html"];
+}

@@ -1,0 +1,5 @@
+<map id="o2::mid::SimDigitizer" name="o2::mid::SimDigitizer">
+<area shape="rect" id="node2" href="$d0/d31/classo2_1_1mid_1_1DigitsMerger.html" title="{o2::mid::DigitsMerger\n||+ process()\l+ getColumnData()\l+ getMCContainer()\l+ getROFRecords()\l}" alt="" coords="5,42,152,163"/>
+<area shape="rect" id="node3" href="$d8/dba/classo2_1_1mid_1_1ChamberResponseParams.html" title="{o2::mid::ChamberResponse\lParams\n||+ getParA()\l+ getParB()\l+ getParC()\l+ getParametersA()\l+ getParametersC()\l+ setParA()\l+ setParC()\l+ setParB()\l}" alt="" coords="177,5,362,200"/>
+<area shape="rect" id="node4" href="$d8/d69/classo2_1_1mid_1_1Digitizer.html" title="{o2::mid::Digitizer\n||+ Digitizer()\l+ ~Digitizer()\l+ process()\l+ setEventID()\l+ setSrcID()\l+ setGeometryTransformer()\l+ setChamberResponse()\l+ setSeed()\l}" alt="" coords="387,13,573,193"/>
+</map>

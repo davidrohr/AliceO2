@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.h" name="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/TPCClusterFinder/GPUTPCCFClusterizer.h">
+<area shape="rect" id="node2" href="$d1/d59/GPUTPCClusterFinderKernels_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCClusterFinder\lKernels.h" alt="" coords="455,109,725,180"/>
+<area shape="rect" id="node5" href="$de/d30/GPUTPCCFClusterizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFClusterizer.cxx" alt="" coords="5,332,303,388"/>
+<area shape="rect" id="node3" href="$da/de7/CfUtils_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/CfUtils.h" alt="" coords="531,228,719,284"/>
+<area shape="rect" id="node4" href="$d8/db8/ClusterAccumulator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/ClusterAccumulator.cxx" alt="" coords="327,332,602,388"/>
+<area shape="rect" id="node6" href="$dd/d19/GPUTPCCFDeconvolution_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFDeconvolution.cxx" alt="" coords="626,332,943,388"/>
+<area shape="rect" id="node7" href="$d4/d72/GPUTPCCFNoiseSuppression_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFNoiseSuppression.cxx" alt="" coords="968,332,1308,388"/>
+<area shape="rect" id="node8" href="$d9/dbb/GPUTPCCFPeakFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TPCClusterFinder/GPUTPCCFPeakFinder.cxx" alt="" coords="1332,332,1632,388"/>
+</map>

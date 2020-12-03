@@ -1,0 +1,6 @@
+<map id="o2::tpc::ClusterNativeBuffer" name="o2::tpc::ClusterNativeBuffer">
+<area shape="rect" id="node2" href="$d4/dcf/structo2_1_1tpc_1_1ClusterGroupHeader.html" title="{o2::tpc::ClusterGroupHeader\n||+ ClusterGroupHeader()\l}" alt="" coords="61,619,250,696"/>
+<area shape="rect" id="node3" href="$d6/de9/structo2_1_1tpc_1_1ClusterGroupAttribute.html" title="{o2::tpc::ClusterGroupAttribute\n||+ set()\l+ getSubSpecification()\l}" alt="" coords="5,173,201,265"/>
+<area shape="rect" id="node6" href="$dc/dbc/structo2_1_1tpc_1_1ClusterNative.html" title="{o2::tpc::ClusterNative\n||+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUdDefault()\l+ GPUd()\l+ sigmaTimePacked()\l+ sigmaPadPacked()\l+ qMax()\l+ qTot()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l}" alt="" coords="284,413,435,901"/>
+<area shape="rect" id="node7" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="325,180,393,257"/>
+</map>

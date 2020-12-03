@@ -1,0 +1,8 @@
+digraph "o2::data_compression::HuffmanNode&lt; _CodeType &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::data_compression\l::HuffmanNode\< _CodeType \>\n||+ HuffmanNode()\l+ HuffmanNode()\l+ operator=()\l+ ~HuffmanNode()\l+ HuffmanNode()\l+ HuffmanNode()\l+ operator\<()\l+ getBinaryCode()\l+ getBinaryCodeLength()\l+ getIndex()\l+ getLeftChild()\l+ getRightChild()\l+ setBinaryCode()\l+ operator\<\<=()\l+ operator\>\>=()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

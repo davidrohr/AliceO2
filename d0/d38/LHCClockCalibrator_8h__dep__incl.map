@@ -1,0 +1,6 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/LHCClockCalibrator.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/LHCClockCalibrator.h">
+<area shape="rect" id="node2" href="$d1/dff/LHCClockCalibrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/LHCClockCalibrator.cxx" alt="" coords="5,131,259,187"/>
+<area shape="rect" id="node3" href="$d0/d37/LHCClockCalibratorSpec_8h.html" title="Device to calibrate LHC clock phase using TOF data. " alt="" coords="283,124,467,195"/>
+<area shape="rect" id="node4" href="$d1/d1b/lhc-clockphase-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/lhc&#45;clockphase&#45;workflow.cxx" alt="" coords="171,243,365,313"/>
+<area shape="rect" id="node5" href="$dc/da8/tof-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;calib&#45;workflow.cxx" alt="" coords="390,243,570,313"/>
+</map>

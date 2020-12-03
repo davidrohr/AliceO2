@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="gNeric::rc_mixin\< BASE,\l T \>::member_apply_at\< F \>",height=0.2,width=0.4,color="black",URL="$d0/d87/classgNeric_1_1rc__mixin_1_1member__apply__at.html"];
+}

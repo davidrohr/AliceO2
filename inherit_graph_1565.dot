@@ -1,0 +1,27 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::itsmft::GBTWord",height=0.2,width=0.4,color="black",URL="$d5/d5c/structo2_1_1itsmft_1_1GBTWord.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="o2::itsmft::GBTCableDiagnostic",height=0.2,width=0.4,color="black",URL="$db/d23/structo2_1_1itsmft_1_1GBTCableDiagnostic.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="o2::itsmft::GBTCableStatus",height=0.2,width=0.4,color="black",URL="$d4/d50/structo2_1_1itsmft_1_1GBTCableStatus.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="o2::itsmft::GBTCalibration",height=0.2,width=0.4,color="black",URL="$d0/d06/structo2_1_1itsmft_1_1GBTCalibration.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="o2::itsmft::GBTData",height=0.2,width=0.4,color="black",URL="$d3/d38/structo2_1_1itsmft_1_1GBTData.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="o2::itsmft::GBTDataHeader",height=0.2,width=0.4,color="black",URL="$d7/d6f/structo2_1_1itsmft_1_1GBTDataHeader.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="o2::itsmft::GBTDataHeaderL",height=0.2,width=0.4,color="black",URL="$dc/dce/structo2_1_1itsmft_1_1GBTDataHeaderL.html"];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="o2::itsmft::GBTDataTrailer",height=0.2,width=0.4,color="black",URL="$d2/d9e/structo2_1_1itsmft_1_1GBTDataTrailer.html"];
+  Node0 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="o2::itsmft::GBTDiagnostic",height=0.2,width=0.4,color="black",URL="$d8/ddd/structo2_1_1itsmft_1_1GBTDiagnostic.html"];
+  Node0 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="o2::itsmft::GBTTrigger",height=0.2,width=0.4,color="black",URL="$d9/dd3/structo2_1_1itsmft_1_1GBTTrigger.html"];
+}

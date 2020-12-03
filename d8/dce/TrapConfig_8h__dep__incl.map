@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/include/TRDSimulation/TrapConfig.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/include/TRDSimulation/TrapConfig.h">
+<area shape="rect" id="node2" href="$d7/d42/TrapSimulator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/TrapSimulator.h" alt="" coords="505,124,727,195"/>
+<area shape="rect" id="node3" href="$db/dc3/TrapConfigHandler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapConfigHandler.cxx" alt="" coords="5,250,251,306"/>
+<area shape="rect" id="node4" href="$da/deb/TrapSimulator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapSimulator.cxx" alt="" coords="275,250,493,306"/>
+<area shape="rect" id="node5" href="$dc/d96/TRDTrapSimulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrapSimulatorSpec.h" alt="" coords="848,243,1059,313"/>
+<area shape="rect" id="node10" href="$d8/d55/TrapConfig_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapConfig.cxx" alt="" coords="801,131,1001,187"/>
+<area shape="rect" id="node6" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="614,369,882,425"/>
+<area shape="rect" id="node9" href="$d7/da6/TRDDigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitReaderSpec.cxx" alt="" coords="517,250,773,306"/>
+<area shape="rect" id="node7" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="1147,361,1391,432"/>
+<area shape="rect" id="node8" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="907,369,1123,425"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="o2::event_visualisation::DataReader" name="o2::event_visualisation::DataReader">
+<area shape="rect" id="node2" href="$df/db5/classo2_1_1event__visualisation_1_1DataReaderITS.html" title="{o2::event_visualisation\l::DataReaderITS\n||+ DataReaderITS()\l+ open()\l+ GetEventCount()\l+ getEventData()\l}" alt="" coords="5,197,160,333"/>
+<area shape="rect" id="node3" href="$d5/d2d/classo2_1_1event__visualisation_1_1DataReaderTPC.html" title="{o2::event_visualisation\l::DataReaderTPC\n||+ DataReaderTPC()\l+ open()\l+ GetEventCount()\l+ getEventData()\l}" alt="" coords="184,197,339,333"/>
+<area shape="rect" id="node4" href="$d2/d6a/classo2_1_1event__visualisation_1_1DataReaderVSD.html" title="{o2::event_visualisation\l::DataReaderVSD\n||+ GetEventCount()\l+ DataReaderVSD()\l+ ~DataReaderVSD()\l+ open()\l+ getEventData()\l}" alt="" coords="363,189,517,340"/>
+</map>

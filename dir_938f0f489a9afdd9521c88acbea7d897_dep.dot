@@ -1,0 +1,21 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/TimeFrame" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2171f7ec022c5423887b07c69b2f5b48 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DataFormats" fontname="Helvetica", fontsize="10", URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"]
+  subgraph clusterdir_938f0f489a9afdd9521c88acbea7d897 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_938f0f489a9afdd9521c88acbea7d897.html"];
+    dir_938f0f489a9afdd9521c88acbea7d897 [shape=plaintext label="TimeFrame"];
+    dir_56c29c4c417493ae7f7f0363d2aa76df [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_56c29c4c417493ae7f7f0363d2aa76df.html"];
+    dir_a9690881ab3fc03ec461608a2e1f8524 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_a9690881ab3fc03ec461608a2e1f8524.html"];
+    dir_8b35a96416ad4d121afd3e3f28c7d206 [shape=box label="test" color="black" fillcolor="white" style="filled" URL="dir_8b35a96416ad4d121afd3e3f28c7d206.html"];
+  }
+  }
+  dir_183e7c4434404fe9096e1bd8673e1fcf [shape=box label="Headers" color="red" URL="dir_183e7c4434404fe9096e1bd8673e1fcf.html"];
+  dir_56c29c4c417493ae7f7f0363d2aa76df->dir_183e7c4434404fe9096e1bd8673e1fcf [headlabel="1", labeldistance=1.5 headhref="dir_000292_000097.html"];
+  dir_8b35a96416ad4d121afd3e3f28c7d206->dir_56c29c4c417493ae7f7f0363d2aa76df [headlabel="1", labeldistance=1.5 headhref="dir_000295_000292.html"];
+  dir_8b35a96416ad4d121afd3e3f28c7d206->dir_183e7c4434404fe9096e1bd8673e1fcf [headlabel="1", labeldistance=1.5 headhref="dir_000295_000097.html"];
+  dir_a9690881ab3fc03ec461608a2e1f8524->dir_56c29c4c417493ae7f7f0363d2aa76df [headlabel="1", labeldistance=1.5 headhref="dir_000294_000292.html"];
+}

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$df/de1/classo2_1_1fit_1_1RawReaderBase.html" title="o2::fit::RawReaderBase\l\&lt; DigitBlockFT0type \&gt;" alt="" coords="5,23,168,65"/>
+<area shape="rect" id="node2" href="$d8/d79/classo2_1_1ft0_1_1RawReaderFT0Base.html" title="o2::ft0::RawReaderFT0Base\l\&lt; DigitBlockFT0type, DataBlock\lPMtype, DataBlockTCMtype \&gt;" alt="" coords="216,16,427,72"/>
+<area shape="rect" id="node3" href="$d7/d00/classo2_1_1ft0_1_1RawReaderFT0.html" title="o2::ft0::RawReaderFT0" alt="" coords="484,5,643,32"/>
+<area shape="rect" id="node4" href="$d1/dc7/classo2_1_1ft0_1_1RawReaderFT0ext.html" title="o2::ft0::RawReaderFT0ext" alt="" coords="475,56,652,83"/>
+</map>

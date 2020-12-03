@@ -1,0 +1,8 @@
+digraph "o2::tpc::SAMPAProcessing"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::SAMPAProcessing\n||+ ~SAMPAProcessing()\l+ updateParameters()\l+ getADCvalue()\l+ getADCSaturation()\l+ makeSignal()\l+ getShapedSignal()\l+ getGamma4()\l+ getTimeBin()\l+ getZfromTimeBin()\l+ getTimeBinFromTime()\l+ getTimeFromBin()\l+ getTimeBinTime()\l+ getNoise()\l+ getPedestal()\l+ instance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

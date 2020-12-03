@@ -1,0 +1,20 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/ParallelContext.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/ParallelContext.h">
+<area shape="rect" id="node2" href="$dd/d27/CommonServices_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonServices.cxx" alt="" coords="5,109,185,165"/>
+<area shape="rect" id="node3" href="$db/d7a/o2NullSink_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/o2NullSink.cxx" alt="" coords="209,109,389,165"/>
+<area shape="rect" id="node4" href="$d7/d54/runDataProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/runDataProcessing.cxx" alt="" coords="414,109,598,165"/>
+<area shape="rect" id="node5" href="$db/d30/test__CallbackService_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CallbackService.cxx" alt="" coords="623,109,824,165"/>
+<area shape="rect" id="node6" href="$d5/d47/test__CustomGUIGL_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CustomGUIGL.cxx" alt="" coords="848,109,1041,165"/>
+<area shape="rect" id="node7" href="$d6/dd1/test__CustomGUISokol_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CustomGUISokol.cxx" alt="" coords="1065,109,1275,165"/>
+<area shape="rect" id="node8" href="$d3/d66/test__Parallel_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_Parallel.cxx" alt="" coords="1299,109,1479,165"/>
+<area shape="rect" id="node9" href="$d8/d7e/test__ParallelPipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ParallelPipeline.cxx" alt="" coords="1503,109,1698,165"/>
+<area shape="rect" id="node10" href="$d0/d0b/test__ParallelProducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ParallelProducer.cxx" alt="" coords="1723,109,1924,165"/>
+<area shape="rect" id="node11" href="$d7/d71/test__RegionInfoCallbackService_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_RegionInfoCallbackService.cxx" alt="" coords="1949,109,2213,165"/>
+<area shape="rect" id="node12" href="$d7/d18/test__SimpleTracksED_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_SimpleTracksED.cxx" alt="" coords="2237,109,2442,165"/>
+<area shape="rect" id="node13" href="$d1/d4f/test__TimePipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_TimePipeline.cxx" alt="" coords="2466,109,2647,165"/>
+<area shape="rect" id="node14" href="$db/d1a/flpQualification_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/flpQualification.cxx" alt="" coords="2672,109,2905,165"/>
+<area shape="rect" id="node15" href="$d3/d09/o2ParallelWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/o2ParallelWorkflow.cxx" alt="" coords="2929,109,3163,165"/>
+<area shape="rect" id="node16" href="$d8/d33/test__CompletionPolicies_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/test_CompletionPolicies.cxx" alt="" coords="3187,109,3420,165"/>
+<area shape="rect" id="node17" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="3444,109,3659,165"/>
+<area shape="rect" id="node18" href="$d3/dbe/dataSamplingParallel_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingParallel.cxx" alt="" coords="3683,109,3889,165"/>
+<area shape="rect" id="node19" href="$db/d9e/dataSamplingTimePipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingTimePipeline.cxx" alt="" coords="3913,109,4144,165"/>
+</map>

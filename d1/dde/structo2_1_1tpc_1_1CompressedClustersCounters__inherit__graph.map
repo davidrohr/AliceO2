@@ -1,0 +1,6 @@
+<map id="o2::tpc::CompressedClustersCounters" name="o2::tpc::CompressedClustersCounters">
+<area shape="rect" id="node2" href="$d6/d95/structo2_1_1tpc_1_1CompressedClusters.html" title="{o2::tpc::CompressedClusters\n||+ CompressedClusters()\l+ ~CompressedClusters()\l+ CompressedClusters()\l+ ClassDefNV()\l}" alt="" coords="24,219,217,340"/>
+<area shape="rect" id="node4" href="$dd/d43/structo2_1_1tpc_1_1CompressedClustersFlat.html" title="{o2::tpc::CompressedClustersFlat\n|+ totalDataSize\l+ ptrForward\l|+ CompressedClustersFlat()\l+ set()\l+ setForward()\l}" alt="" coords="241,219,456,340"/>
+<area shape="rect" id="node5" href="$d1/ded/structo2_1_1tpc_1_1CTFHeader.html" title="{o2::tpc::CTFHeader\n|+ flags\l|+ ClassDefNV()\l}" alt="" coords="481,241,619,318"/>
+<area shape="rect" id="node3" href="$de/dcb/structo2_1_1tpc_1_1CompressedClustersROOT.html" title="{o2::tpc::CompressedClustersROOT\n|+ flatdataSize\l+ flatdata\l|+ CompressedClustersROOT()\l+ CompressedClustersROOT()\l+ CompressedClustersROOT()\l+ ClassDefNV()\l}" alt="" coords="5,388,236,524"/>
+</map>

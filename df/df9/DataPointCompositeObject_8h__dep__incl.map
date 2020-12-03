@@ -1,0 +1,20 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/DCS/include/DetectorsDCS/DataPointCompositeObject.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/DCS/include/DetectorsDCS/DataPointCompositeObject.h">
+<area shape="rect" id="node2" href="$d6/d8f/DataPointCreator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/include/DetectorsDCS/DataPoint\lCreator.h" alt="" coords="194,124,413,195"/>
+<area shape="rect" id="node4" href="$d8/dc4/DataPointGenerator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/src/DataPointGenerator.cxx" alt="" coords="209,250,397,306"/>
+<area shape="rect" id="node5" href="$d4/d9b/DataPointGenerator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/include/DetectorsDCS/DataPoint\lGenerator.h" alt="" coords="526,124,745,195"/>
+<area shape="rect" id="node7" href="$df/d6e/DCSRandomDataGeneratorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/DCSRandomDataGenerator\lSpec.h" alt="" coords="660,243,931,313"/>
+<area shape="rect" id="node9" href="$d7/da7/DCSProcessor_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/include/DetectorsDCS/DCSProcessor.h" alt="" coords="825,131,1085,187"/>
+<area shape="rect" id="node11" href="$d8/d4e/DCSDataProcessorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/DCSDataProcessorSpec.h" alt="" coords="1159,250,1423,306"/>
+<area shape="rect" id="node13" href="$d4/d16/DataPointCompositeObject_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/src/DataPointCompositeObject.cxx" alt="" coords="1159,131,1391,187"/>
+<area shape="rect" id="node14" href="$da/d71/testDataPointTypes_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/test/testDataPointTypes.cxx" alt="" coords="1416,131,1609,187"/>
+<area shape="rect" id="node15" href="$d1/d21/DCSConsumerSpec_8h.html" title="Consumer of DPs coming from DCS server; it is just to check that we receive and pack the data correct..." alt="" coords="1634,131,1871,187"/>
+<area shape="rect" id="node17" href="$db/d55/DCSDataGeneratorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/DCSDataGeneratorSpec.h" alt="" coords="1896,131,2159,187"/>
+<area shape="rect" id="node18" href="$da/d2a/DCStoDPLconverter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/DCStoDPLconverter.h" alt="" coords="2183,131,2421,187"/>
+<area shape="rect" id="node3" href="$dd/d1d/DataPointCreator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/src/DataPointCreator.cxx" alt="" coords="5,250,185,306"/>
+<area shape="rect" id="node6" href="$db/d90/testDataPointGenerator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/test/testDataPointGenerator.cxx" alt="" coords="421,250,636,306"/>
+<area shape="rect" id="node8" href="$d4/d48/dcs-random-data-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/dcs&#45;random\l&#45;data&#45;workflow.cxx" alt="" coords="1019,361,1199,432"/>
+<area shape="rect" id="node10" href="$d0/d0b/DCSProcessor_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/src/DCSProcessor.cxx" alt="" coords="955,250,1135,306"/>
+<area shape="rect" id="node12" href="$da/dd6/dcs-data-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/dcs&#45;data&#45;workflow.cxx" alt="" coords="1353,369,1592,425"/>
+<area shape="rect" id="node16" href="$d7/db3/dcs-data-client-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/dcs&#45;data&#45;client\l&#45;workflow.cxx" alt="" coords="1657,243,1849,313"/>
+<area shape="rect" id="node19" href="$dc/d45/dcs-proxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/dcs&#45;proxy.cxx" alt="" coords="2207,250,2397,306"/>
+</map>

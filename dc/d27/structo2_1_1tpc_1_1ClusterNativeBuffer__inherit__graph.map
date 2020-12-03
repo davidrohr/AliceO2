@@ -1,0 +1,4 @@
+<map id="o2::tpc::ClusterNativeBuffer" name="o2::tpc::ClusterNativeBuffer">
+<area shape="rect" id="node2" href="$d4/dcf/structo2_1_1tpc_1_1ClusterGroupHeader.html" title="{o2::tpc::ClusterGroupHeader\n|+ nClusters\l|+ ClusterGroupHeader()\l}" alt="" coords="9,160,198,237"/>
+<area shape="rect" id="node3" href="$d6/de9/structo2_1_1tpc_1_1ClusterGroupAttribute.html" title="{o2::tpc::ClusterGroupAttribute\n|+ sector\l+ globalPadRow\l|+ set()\l+ getSubSpecification()\l}" alt="" coords="5,5,201,112"/>
+</map>

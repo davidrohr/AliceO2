@@ -1,0 +1,20 @@
+digraph "o2::trd::TrapConfig"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::trd::TrapConfig\n||+ TrapConfig()\l+ ~TrapConfig()\l+ setTrapRegAlloc()\l+ setTrapReg()\l+ setTrapReg()\l+ getTrapReg()\l+ resetRegs()\l+ getConfigVersion()\l+ getConfigName()\l+ setConfigVersion()\l+ setConfigName()\l+ setDmemAlloc()\l+ setDmem()\l+ setDmem()\l+ setDmem()\l+ setDmem()\l+ getDmemUnsigned()\l+ resetDmem()\l+ configureOnlineGains()\l+ peek()\l+ poke()\l+ getRegName()\l+ getRegAddress()\l+ getRegNBits()\l+ getRegResetValue()\l+ getRegByAddress()\l+ printTrapReg()\l+ printTrapAddr()\l+ printMemDatx()\l+ printMemDatx()\l+ printMemDatx()\l+ printMemDatx()\l+ printDatx()\l+ printVerify()\l+ initRegs()\l+ PrintDmemValue3()\l+ PrintRegisterValue3()\l+ DumpTrapConfig2File()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mTrapConfigName\n+mTrapConfigVersion" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mDmem" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{array\< o2::trd::TrapConfig\l::TrapDmemWord, mgkDmemWords \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mRegisterValue" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{array\< o2::trd::TrapConfig\l::TrapRegister, kLastReg \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mgkRegisterAddressBlock\lSize\n+mgkRegisterAddressBlock\lStart" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{const\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mgkMcmlistSize\n+mlastAlloc\n+mgkImemWords\n+mgkDbankStartAddress\n+mgkImemStartAddress\n+mgRegAddressMapInitialized\n+mgkDbankWords\n+mgkDmemWords\n+mgkDmemStartAddress" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mgRegAddressMap" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{array\< TrapReg_t, 0x400\l+0x200+0x4 \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

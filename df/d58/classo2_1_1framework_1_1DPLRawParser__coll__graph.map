@@ -1,0 +1,5 @@
+<map id="o2::framework::DPLRawParser" name="o2::framework::DPLRawParser">
+<area shape="rect" id="node2" href="$d8/d47/structo2_1_1header_1_1RAWDataHeaderV4.html" title="{o2::header::RAWDataHeaderV4\n|+ word0\l+ blockLength\l+ zero0\l+ word1\l+ word2\l+ word3\l+ word4\l+ heartbeatBC\l+ zero42\l+ word5\l+ word6\l+ detectorField\l+ stop\l+ pageCnt\l|}" alt="" coords="644,292,853,560"/>
+<area shape="rect" id="node3" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="5,5,73,83"/>
+<area shape="rect" id="node10" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="921,5,989,83"/>
+</map>

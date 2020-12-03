@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Utils/include/DPLUtils/RootTreeReader.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Utils/include/DPLUtils/RootTreeReader.h">
+<area shape="rect" id="node2" href="$df/d2e/CPV_2workflow_2src_2PublisherSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/workflow/src/PublisherSpec.cxx" alt="" coords="7,117,220,173"/>
+<area shape="rect" id="node3" href="$d2/d55/EMCAL_2workflow_2include_2EMCALWorkflow_2PublisherSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/include/EMCALWorkflow\l/PublisherSpec.h" alt="" coords="245,109,473,180"/>
+<area shape="rect" id="node6" href="$d1/d8d/PHOS_2workflow_2src_2PublisherSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/PublisherSpec.cxx" alt="" coords="507,117,720,173"/>
+<area shape="rect" id="node7" href="$d9/d4e/TPC_2workflow_2include_2TPCWorkflow_2PublisherSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/include/TPCWorkflow\l/PublisherSpec.h" alt="" coords="745,109,954,180"/>
+<area shape="rect" id="node13" href="$d7/da6/TRDDigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitReaderSpec.cxx" alt="" coords="979,117,1235,173"/>
+<area shape="rect" id="node14" href="$d6/d0d/test__RootTreeReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/test_RootTreeReader.cxx" alt="" coords="1259,117,1461,173"/>
+<area shape="rect" id="node4" href="$d4/d71/EMCAL_2workflow_2src_2PublisherSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/PublisherSpec.cxx" alt="" coords="5,235,219,291"/>
+<area shape="rect" id="node5" href="$d2/dbf/EMCAL_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/RecoWorkflow.cxx" alt="" coords="243,235,458,291"/>
+<area shape="rect" id="node8" href="$df/de7/AODProducerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx" alt="" coords="482,235,691,291"/>
+<area shape="rect" id="node9" href="$d5/db4/MatchTPCITSWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/MatchTPCITSWorkflow.cxx" alt="" coords="716,235,983,291"/>
+<area shape="rect" id="node10" href="$d1/d67/TrackInterpolationWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TrackInterpolationWorkflow.cxx" alt="" coords="1007,228,1239,299"/>
+<area shape="rect" id="node11" href="$d4/dac/TPC_2workflow_2src_2PublisherSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/PublisherSpec.cxx" alt="" coords="1263,235,1476,291"/>
+<area shape="rect" id="node12" href="$d0/d80/TPC_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/RecoWorkflow.cxx" alt="" coords="1501,235,1715,291"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="pidTPCTaskQA" name="pidTPCTaskQA">
+<area shape="rect" id="node2" href="$d8/d34/classo2_1_1framework_1_1HistogramRegistry.html" title="{o2::framework::Histogram\lRegistry\n||+ HistogramRegistry()\l+ add()\l+ add()\l+ add()\l+ addClone()\l+ contains()\l+ get()\l+ operator()()\l+ spec()\l+ ref()\l+ setHash()\l+ operator*()\l+ fill()\l+ fill()\l+ getSize()\l+ getSize()\l+ print()\l}" alt="" coords="5,624,179,951"/>
+<area shape="rect" id="node4" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; int \&gt;\n||+ Configurable()\l}" alt="" coords="423,741,609,833"/>
+<area shape="rect" id="node5" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; int \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="555,469,741,561"/>
+<area shape="rect" id="node6" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; int \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="555,315,741,407"/>
+<area shape="rect" id="node8" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; T \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="333,160,520,252"/>
+<area shape="rect" id="node16" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; float \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="69,315,256,407"/>
+<area shape="rect" id="node10" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; T \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="280,315,467,407"/>
+<area shape="rect" id="node15" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; float \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="133,469,320,561"/>
+<area shape="rect" id="node11" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; T, IP \&gt;\n||+ Configurable()\l}" alt="" coords="344,469,531,561"/>
+<area shape="rect" id="node14" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; float \&gt;\n||+ Configurable()\l}" alt="" coords="212,741,399,833"/>
+<area shape="rect" id="node17" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="139,167,186,245"/>
+</map>

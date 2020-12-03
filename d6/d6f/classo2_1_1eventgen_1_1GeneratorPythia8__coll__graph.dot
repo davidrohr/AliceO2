@@ -1,0 +1,31 @@
+digraph "o2::eventgen::GeneratorPythia8"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{o2::eventgen::GeneratorPythia8\n||+ GeneratorPythia8()\l+ GeneratorPythia8()\l+ ~GeneratorPythia8()\l+ Init()\l+ setConfig()\l+ setHooksFileName()\l+ setHooksFuncName()\l+ setUserHooks()\l+ readString()\l+ readFile()\l# GeneratorPythia8()\l# operator=()\l# generateEvent()\l# importParticles()\l# updateHeader()\l# importParticles()\l# selectFromAncestor()\l# ClassDefOverride()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{o2::eventgen::Generator\n||+ Generator()\l+ Generator()\l+ ~Generator()\l+ Init()\l+ ReadEvent()\l+ setMomentumUnit()\l+ setEnergyUnit()\l+ setPositionUnit()\l+ setTimeUnit()\l+ setBoost()\l+ setTriggerMode()\l+ addTrigger()\l+ addDeepTrigger()\l+ notifyEmbedding()\l# Generator()\l# operator=()\l# generateEvent()\l# importParticles()\l# updateHeader()\l# addTracks()\l# boostEvent()\l# triggerEvent()\l# ClassDefOverride()\l}",height=0.2,width=0.4,color="black",URL="$d3/da7/classo2_1_1eventgen_1_1Generator.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{FairGenerator\n||}",height=0.2,width=0.4,color="black",URL="$df/d40/classFairGenerator.html"];
+  Node6 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mParticles" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{vector\< TParticle \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mTimeUnit\n#mEnergyUnit\n#mPositionUnit\n#mMomentumUnit" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{double\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mDeepTriggers" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{vector\< DeepTrigger \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mTriggers" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{vector\< Trigger \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mBoost" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{Double_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mInterfaceName" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mTriggerMode" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{ETriggerMode_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node13 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mInterface" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{void *\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mHooksFuncName\n#mConfig\n#mHooksFileName" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mPythia" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{Pythia\n||}",height=0.2,width=0.4,color="grey75"];
+}

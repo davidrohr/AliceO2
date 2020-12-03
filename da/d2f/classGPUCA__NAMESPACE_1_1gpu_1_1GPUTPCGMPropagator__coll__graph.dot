@@ -1,0 +1,10 @@
+digraph "GPUCA_NAMESPACE::gpu::GPUTPCGMPropagator"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{GPUCA_NAMESPACE::gpu\l::GPUTPCGMPropagator\n|+ param\l+ inter\l+ refit\l+ err2Y\l+ err2Z\l+ inter\l+ err2Y\l+ err2Z\l+ err2Y\l+ chiZ\l+ Y\l+ Z\l+ Y\l+ Z\l+ err2Z\l+ param\l+ projY\l+ projZ\l|+ GPUdDefault()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +posZ\n+Alpha\n+rejectChi2\n+posAlpha\n+const\n+clusterState\n+inFlyDirection\n+rho\n+X\n+iRow\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{float\n||}",height=0.2,width=0.4,color="black",URL="$d4/dc3/classfloat.html"];
+}

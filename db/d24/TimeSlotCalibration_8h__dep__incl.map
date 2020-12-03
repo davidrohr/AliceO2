@@ -1,0 +1,22 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/Calibration/include/DetectorsCalibration/TimeSlotCalibration.h">
+<area shape="rect" id="node2" href="$de/d56/MeanVertexCalibrator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/include/DetectorsCalibration\l/MeanVertexCalibrator.h" alt="" coords="252,124,451,195"/>
+<area shape="rect" id="node7" href="$d8/df3/TimeSlotCalibration_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/src/TimeSlotCalibration.cxx" alt="" coords="519,131,717,187"/>
+<area shape="rect" id="node8" href="$da/d2b/LHCClockCalibrator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/LHCClockCalibrator.h" alt="" coords="741,124,964,195"/>
+<area shape="rect" id="node13" href="$dd/d2a/TOFCalibCollector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/TOFCalibCollector.h" alt="" coords="1625,124,1848,195"/>
+<area shape="rect" id="node18" href="$db/dc2/TOFChannelCalibrator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/TOFChannelCalibrator.h" alt="" coords="988,124,1211,195"/>
+<area shape="rect" id="node3" href="$d5/d39/MeanVertexCalibrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/src/MeanVertexCalibrator.cxx" alt="" coords="5,250,204,306"/>
+<area shape="rect" id="node4" href="$d2/d6a/MeanVertexCalibratorSpec_8h.html" title="Device to calibrate MeanVertex. " alt="" coords="227,243,475,313"/>
+<area shape="rect" id="node5" href="$df/d9c/mean-vertex-calibration-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/workflow/src/mean&#45;vertex&#45;calibration\l&#45;workflow.cxx" alt="" coords="9,361,248,432"/>
+<area shape="rect" id="node6" href="$db/d3b/MeanVertexCalibratorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/workflow/src/MeanVertexCalibratorSpec.cxx" alt="" coords="273,369,558,425"/>
+<area shape="rect" id="node9" href="$d1/dff/LHCClockCalibrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/LHCClockCalibrator.cxx" alt="" coords="499,250,753,306"/>
+<area shape="rect" id="node10" href="$d0/d37/LHCClockCalibratorSpec_8h.html" title="Device to calibrate LHC clock phase using TOF data. " alt="" coords="777,243,961,313"/>
+<area shape="rect" id="node11" href="$d1/d1b/lhc-clockphase-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/lhc&#45;clockphase&#45;workflow.cxx" alt="" coords="709,361,903,432"/>
+<area shape="rect" id="node12" href="$dc/da8/tof-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;calib&#45;workflow.cxx" alt="" coords="928,361,1108,432"/>
+<area shape="rect" id="node14" href="$d2/d3f/TOFCalibCollector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/TOFCalibCollector.cxx" alt="" coords="1497,250,1741,306"/>
+<area shape="rect" id="node15" href="$d1/df4/TOFCalibCollectorSpec_8h.html" title="Device to collect information for TOF time slewing calibration. " alt="" coords="1765,243,1945,313"/>
+<area shape="rect" id="node17" href="$d7/d2e/TOFCalibCollectorWriterSpec_8h.html" title="Device to write to tree the information for TOF time slewing calibration. " alt="" coords="1970,243,2181,313"/>
+<area shape="rect" id="node16" href="$d8/d3b/tof-collect-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;collect&#45;calib&#45;workflow.cxx" alt="" coords="1867,361,2062,432"/>
+<area shape="rect" id="node19" href="$d9/dff/TOFChannelCalibrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/TOFChannelCalibrator.cxx" alt="" coords="1206,250,1473,306"/>
+<area shape="rect" id="node20" href="$df/de3/TOFChannelCalibratorSpec_8h.html" title="Device to calibrate TOF channles (offsets) " alt="" coords="985,243,1182,313"/>
+<area shape="rect" id="node21" href="$db/d97/tof-channel-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;channel&#45;calib&#45;workflow.cxx" alt="" coords="1133,361,1335,432"/>
+</map>

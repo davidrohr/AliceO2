@@ -1,0 +1,8 @@
+<map id="_BASE" name="_BASE">
+<area shape="rect" id="node2" href="$dc/db1/classo2_1_1data__compression_1_1HuffmanModel.html" title="{o2::data_compression\l::HuffmanModel\&lt; _BASE,\l Rep, orderMSB \&gt;\n|+ OrderMSB\l|+ HuffmanModel()\l+ ~HuffmanModel()\l+ init()\l+ Encode()\l+ Decode()\l+ GenerateHuffmanTree()\l+ assignCode()\l+ write()\l+ write()\l+ read()\l+ read()\l+ print()\l}" alt="" coords="5,131,180,399"/>
+<area shape="rect" id="node3" href="$db/d4d/classo2_1_1framework_1_1MessageContext_1_1VectorObject.html" title="{o2::framework::MessageContext\l::VectorObject\&lt; T, _BASE \&gt;\n||+ VectorObject()\l}" alt="" coords="204,219,416,311"/>
+<area shape="rect" id="node4" href="$d7/da1/classo2_1_1test_1_1Fifo.html" title="A thread safe FIFO. " alt="" coords="441,197,561,333"/>
+<area shape="rect" id="node5" href="$d6/da1/classo2_1_1test_1_1geometric__distribution.html" title="specialization of std::geometric_distribution which implements also the analytic formula. " alt="" coords="585,204,755,325"/>
+<area shape="rect" id="node6" href="$db/d37/classo2_1_1test_1_1normal__distribution.html" title="specialization of std::normal_distribution which implements also the analytic formula. " alt="" coords="779,197,961,333"/>
+<area shape="rect" id="node7" href="$d2/dde/classo2_1_1test_1_1poisson__distribution.html" title="specialization of std::poisson_distribution which implements also the analytic formula. " alt="" coords="986,197,1175,333"/>
+</map>

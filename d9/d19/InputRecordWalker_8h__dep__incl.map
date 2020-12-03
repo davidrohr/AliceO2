@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/InputRecordWalker.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/InputRecordWalker.h">
+<area shape="rect" id="node2" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="5,117,244,173"/>
+<area shape="rect" id="node3" href="$d2/db0/EMCAL_2workflow_2src_2RawToCellConverterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/RawToCellConverter\lSpec.cxx" alt="" coords="269,109,495,180"/>
+<area shape="rect" id="node4" href="$d6/d73/TPCITSMatchingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TPCITSMatchingSpec.cxx" alt="" coords="519,117,778,173"/>
+<area shape="rect" id="node5" href="$d8/d85/TPCInterpolationSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TPCInterpolationSpec.cxx" alt="" coords="802,109,1026,180"/>
+<area shape="rect" id="node6" href="$d9/d48/PHOS_2workflow_2src_2RawToCellConverterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RawToCellConverter\lSpec.cxx" alt="" coords="1050,109,1277,180"/>
+<area shape="rect" id="node7" href="$da/d78/CATrackerSpec_8cxx.html" title="Processor spec for running TPC CA tracking. " alt="" coords="1301,117,1524,173"/>
+<area shape="rect" id="node8" href="$d9/d7b/ClusterDecoderRawSpec_8cxx.html" title="Processor spec for decoder of TPC raw cluster data. " alt="" coords="1548,109,1771,180"/>
+<area shape="rect" id="node9" href="$d5/d17/TPC_2workflow_2src_2ClustererSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/ClustererSpec.cxx" alt="" coords="1795,117,2007,173"/>
+<area shape="rect" id="node10" href="$d2/dbc/ZSSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/ZSSpec.cxx" alt="" coords="2031,117,2211,173"/>
+<area shape="rect" id="node11" href="$dc/d05/test__InputRecordWalker_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_InputRecordWalker.cxx" alt="" coords="2235,117,2454,173"/>
+<area shape="rect" id="node12" href="$d1/d02/test__RootTreeWriterWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/test_RootTreeWriterWorkflow.cxx" alt="" coords="2478,117,2729,173"/>
+<area shape="rect" id="node13" href="$d8/dd2/TPCDigitRootWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitRootWriterSpec.cxx" alt="" coords="2753,117,2973,173"/>
+<area shape="rect" id="node14" href="$d1/dca/Dispatcher_8cxx.html" title="Implementation of Dispatcher for O2 Data Sampling. " alt="" coords="2997,117,3204,173"/>
+<area shape="rect" id="node15" href="$db/d51/FullHistoryMerger_8cxx.html" title="Implementation of O2 Mergers, v0.1. " alt="" coords="3228,117,3408,173"/>
+<area shape="rect" id="node16" href="$d0/d24/IntegratingMerger_8cxx.html" title="Implementation of O2 Mergers, v0.1. " alt="" coords="3432,117,3612,173"/>
+</map>

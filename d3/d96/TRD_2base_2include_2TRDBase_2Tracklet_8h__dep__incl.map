@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/base/include/TRDBase/Tracklet.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/base/include/TRDBase/Tracklet.h">
+<area shape="rect" id="node2" href="$d2/d07/Tracklet_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/base/src/Tracklet.cxx" alt="" coords="5,117,185,173"/>
+<area shape="rect" id="node3" href="$db/dc3/TrapConfigHandler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapConfigHandler.cxx" alt="" coords="210,117,455,173"/>
+<area shape="rect" id="node4" href="$d8/dff/TRDTrackletWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrackletWriterSpec.h" alt="" coords="479,109,690,180"/>
+<area shape="rect" id="node5" href="$d0/dfb/TRDTrackletWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrackletWriter\lSpec.cxx" alt="" coords="224,228,439,299"/>
+<area shape="rect" id="node6" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="463,228,707,299"/>
+<area shape="rect" id="node7" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="731,235,947,291"/>
+</map>

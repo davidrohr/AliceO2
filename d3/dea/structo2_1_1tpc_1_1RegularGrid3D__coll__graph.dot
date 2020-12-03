@@ -1,0 +1,8 @@
+digraph "o2::tpc::RegularGrid3D&lt; DataT, Nx, Ny, Nz &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::RegularGrid3D\l\< DataT, Nx, Ny, Nz \>\n||+ RegularGrid3D()\l+ getDeltaXDataIndex()\l+ getDeltaYDataIndex()\l+ getDeltaZDataIndex()\l+ getDeltaDataIndex()\l+ isIndexInGrid()\l+ getGridMin()\l+ getGridMinX()\l+ getGridMinY()\l+ getGridMinZ()\l+ getGridMaxX()\l+ getGridMaxY()\l+ getGridMaxZ()\l+ getInvSpacing()\l+ getInvSpacingX()\l+ getInvSpacingY()\l+ getInvSpacingZ()\l+ getSpacingX()\l+ getSpacingY()\l+ getSpacingZ()\l+ clampToGrid()\l+ clampToGridRel()\l+ clampToGridCircular()\l+ clampToGridCircularRel()\l+ checkStability()\l+ getXVertex()\l+ getYVertex()\l+ getZVertex()\l+ getMaxIndices()\l+ getMaxIndexX()\l+ getMaxIndexY()\l+ getMaxIndexZ()\l+ getN()\l+ getNX()\l+ getNY()\l+ getNZ()\l+ getDim()\l+ getFX()\l+ getFY()\l+ getFZ()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

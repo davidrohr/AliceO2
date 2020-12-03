@@ -1,0 +1,4 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/TrackSinkSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/TrackSinkSpec.h">
+<area shape="rect" id="node2" href="$d7/dfd/tracks-sink-workflow_8cxx.html" title="Implementation of a DPL device to write tracks and attached clusters into a binary file..." alt="" coords="5,109,185,180"/>
+<area shape="rect" id="node3" href="$d7/d7d/TrackSinkSpec_8cxx.html" title="Implementation of a data processor to print the tracks. " alt="" coords="210,117,466,173"/>
+</map>

@@ -1,0 +1,24 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Clustering" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_061f7088060f41729027f6c2fce0273e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MCH" fontname="Helvetica", fontsize="10", URL="dir_061f7088060f41729027f6c2fce0273e.html"]
+  subgraph clusterdir_888858b226b7bc70f7e8b18d57d75108 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_888858b226b7bc70f7e8b18d57d75108.html"];
+    dir_888858b226b7bc70f7e8b18d57d75108 [shape=plaintext label="Clustering"];
+    dir_484f77b1fbf41c1c23153e848cd358eb [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_484f77b1fbf41c1c23153e848cd358eb.html"];
+    dir_23922bf0390bd85ad0d381b0a74e736c [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_23922bf0390bd85ad0d381b0a74e736c.html"];
+  }
+  }
+  dir_6229e1f1a243f5ed3f0013dfa4f13deb [shape=box label="PreClustering" color="red" URL="dir_6229e1f1a243f5ed3f0013dfa4f13deb.html"];
+  dir_1155c84989a046e7de4bf0156dc4b34c [shape=box label="Base" color="red" URL="dir_1155c84989a046e7de4bf0156dc4b34c.html"];
+  dir_b098e3604916eca5f90f2bb1c75b7880 [shape=box label="Mapping" color="red" URL="dir_b098e3604916eca5f90f2bb1c75b7880.html"];
+  dir_23922bf0390bd85ad0d381b0a74e736c->dir_484f77b1fbf41c1c23153e848cd358eb [headlabel="1", labeldistance=1.5 headhref="dir_000605_000603.html"];
+  dir_6229e1f1a243f5ed3f0013dfa4f13deb->dir_1155c84989a046e7de4bf0156dc4b34c [headlabel="2", labeldistance=1.5 headhref="dir_000623_000150.html"];
+  dir_6229e1f1a243f5ed3f0013dfa4f13deb->dir_b098e3604916eca5f90f2bb1c75b7880 [headlabel="2", labeldistance=1.5 headhref="dir_000623_000591.html"];
+  dir_484f77b1fbf41c1c23153e848cd358eb->dir_6229e1f1a243f5ed3f0013dfa4f13deb [headlabel="1", labeldistance=1.5 headhref="dir_000603_000623.html"];
+  dir_484f77b1fbf41c1c23153e848cd358eb->dir_1155c84989a046e7de4bf0156dc4b34c [headlabel="2", labeldistance=1.5 headhref="dir_000603_000150.html"];
+  dir_484f77b1fbf41c1c23153e848cd358eb->dir_b098e3604916eca5f90f2bb1c75b7880 [headlabel="1", labeldistance=1.5 headhref="dir_000603_000591.html"];
+}

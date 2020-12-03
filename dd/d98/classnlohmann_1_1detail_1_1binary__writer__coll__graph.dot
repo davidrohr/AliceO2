@@ -1,0 +1,8 @@
+digraph "nlohmann::detail::binary_writer&lt; BasicJsonType, CharType &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{nlohmann::detail::binary\l_writer\< BasicJsonType,\l CharType \>\n||+ binary_writer()\l+ write_cbor()\l+ write_msgpack()\l+ write_ubjson()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,101 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/DataProcessingHeader.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/DataProcessingHeader.h">
+<area shape="rect" id="node2" href="$d3/d87/RawFileReaderWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/RawFileReaderWorkflow.cxx" alt="" coords="389,473,608,529"/>
+<area shape="rect" id="node3" href="$d3/da3/DataDescriptorMatcher_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataDescriptor\lMatcher.h" alt="" coords="2670,124,2898,195"/>
+<area shape="rect" id="node7" href="$df/d93/CommonDataProcessors_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonDataProcessors.cxx" alt="" coords="2671,703,2891,759"/>
+<area shape="rect" id="node17" href="$dc/df3/ExternalFairMQDeviceProxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ExternalFairMQDeviceProxy.cxx" alt="" coords="2982,807,3220,863"/>
+<area shape="rect" id="node23" href="$d0/d2b/DataDescriptorMatcher_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataDescriptorMatcher.cxx" alt="" coords="2022,354,2230,410"/>
+<area shape="rect" id="node27" href="$db/dac/DataProcessingDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingDevice.cxx" alt="" coords="10136,703,10343,759"/>
+<area shape="rect" id="node29" href="$d1/d57/DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataRelayer.cxx" alt="" coords="10772,591,10952,647"/>
+<area shape="rect" id="node30" href="$d8/dd6/benchmark__DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_DataRelayer.cxx" alt="" coords="10977,591,11198,647"/>
+<area shape="rect" id="node31" href="$df/d93/benchmark__InputRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_InputRecord.cxx" alt="" coords="11222,591,11441,647"/>
+<area shape="rect" id="node32" href="$dc/d6d/test__DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataRelayer.cxx" alt="" coords="11466,591,11646,647"/>
+<area shape="rect" id="node59" href="$da/dcf/test__RootTreeWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/test_RootTreeWriter.cxx" alt="" coords="2869,591,3064,647"/>
+<area shape="rect" id="node70" href="$d5/d63/DPLBroadcaster_8cxx.html" title="Implementation of generic DPL broadcaster, v0.1. " alt="" coords="9934,473,10114,529"/>
+<area shape="rect" id="node77" href="$db/d9d/DataAllocator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataAllocator.cxx" alt="" coords="916,473,1096,529"/>
+<area shape="rect" id="node79" href="$da/df2/ReadoutAdapter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ReadoutAdapter.cxx" alt="" coords="1120,473,1300,529"/>
+<area shape="rect" id="node83" href="$d1/dca/Dispatcher_8cxx.html" title="Implementation of Dispatcher for O2 Data Sampling. " alt="" coords="2306,591,2512,647"/>
+<area shape="rect" id="node84" href="$d1/de8/test__DataSampling_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/test_DataSampling.cxx" alt="" coords="2536,591,2743,647"/>
+<area shape="rect" id="node85" href="$d3/ddc/test__DataSamplingPolicy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/test_DataSamplingPolicy.cxx" alt="" coords="10062,591,10286,647"/>
+<area shape="rect" id="node86" href="$dc/da2/DataSamplingReadoutAdapter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/src/DataSamplingReadoutAdapter.cxx" alt="" coords="1324,473,1574,529"/>
+<area shape="rect" id="node90" href="$d4/d7a/LifetimeHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/LifetimeHelpers.cxx" alt="" coords="10346,354,10526,410"/>
+<area shape="rect" id="node96" href="$d8/d4b/DataProcessingHeader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingHeader.cxx" alt="" coords="11377,131,11585,187"/>
+<area shape="rect" id="node97" href="$df/dc1/test__InputRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_InputRecord.cxx" alt="" coords="11610,131,11790,187"/>
+<area shape="rect" id="node98" href="$d0/dd6/DataSamplingConditionNConsecutive_8cxx.html" title="Implementation of DataSamplingConditionNConsecutive. " alt="" coords="11814,131,12108,187"/>
+<area shape="rect" id="node99" href="$d4/dba/DataSamplingConditionRandom_8cxx.html" title="Implementation of random DataSamplingCondition. " alt="" coords="12132,131,12390,187"/>
+<area shape="rect" id="node100" href="$dd/d70/test__DataSamplingCondition_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/test_DataSamplingCondition.cxx" alt="" coords="12414,131,12657,187"/>
+<area shape="rect" id="node4" href="$d0/d9c/DataInputDirector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataInputDirector.h" alt="" coords="1743,354,1998,410"/>
+<area shape="rect" id="node5" href="$d4/d61/DataOutputDirector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataOutputDirector.h" alt="" coords="1853,473,2117,529"/>
+<area shape="rect" id="node22" href="$d7/dc7/DataMatcherWalker_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataMatcherWalker.h" alt="" coords="2164,243,2430,299"/>
+<area shape="rect" id="node24" href="$d4/dab/DataSpecUtils_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataSpecUtils.cxx" alt="" coords="1598,473,1778,529"/>
+<area shape="rect" id="node25" href="$df/d59/DataRelayer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataRelayer.h" alt="" coords="10737,473,10961,529"/>
+<area shape="rect" id="node33" href="$d5/d3f/InputSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/InputSpec.h" alt="" coords="5505,243,5716,299"/>
+<area shape="rect" id="node45" href="$d3/d17/DataDescriptorQueryBuilder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataDescriptorQueryBuilder.cxx" alt="" coords="4207,473,4443,529"/>
+<area shape="rect" id="node46" href="$dd/d1e/test__DataDescriptorMatcher_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataDescriptorMatcher.cxx" alt="" coords="3942,473,4183,529"/>
+<area shape="rect" id="node92" href="$d4/def/TimesliceIndex_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/TimesliceIndex.h" alt="" coords="10706,243,10944,299"/>
+<area shape="rect" id="node94" href="$df/d68/DataRelayerHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataRelayerHelpers.cxx" alt="" coords="1898,243,2088,299"/>
+<area shape="rect" id="node95" href="$d5/de4/benchmark__DataDescriptorMatcher_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_DataDescriptorMatcher.cxx" alt="" coords="2642,243,2925,299"/>
+<area shape="rect" id="node19" href="$d4/dc5/AODReaderHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/AODReaderHelpers.cxx" alt="" coords="2141,473,2330,529"/>
+<area shape="rect" id="node20" href="$d6/d2a/DataInputDirector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataInputDirector.cxx" alt="" coords="3686,473,3866,529"/>
+<area shape="rect" id="node21" href="$df/d68/test__DataInputDirector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataInputDirector.cxx" alt="" coords="683,473,892,529"/>
+<area shape="rect" id="node6" href="$d6/d58/CommonDataProcessors_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/CommonDataProcessors.h" alt="" coords="3189,591,3488,647"/>
+<area shape="rect" id="node12" href="$db/d61/DataOutputDirector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataOutputDirector.cxx" alt="" coords="1852,591,2038,647"/>
+<area shape="rect" id="node13" href="$d9/da0/WorkflowHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.h" alt="" coords="9582,591,9762,647"/>
+<area shape="rect" id="node18" href="$d8/de2/test__DataOutputDirector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataOutputDirector.cxx" alt="" coords="2062,591,2281,647"/>
+<area shape="rect" id="node8" href="$dc/da7/WorkflowHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.cxx" alt="" coords="6534,703,6714,759"/>
+<area shape="rect" id="node9" href="$d9/dd7/benchmark__TableToTree_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_TableToTree.cxx" alt="" coords="3344,703,3565,759"/>
+<area shape="rect" id="node10" href="$dc/dc4/benchmark__TreeToTable_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_TreeToTable.cxx" alt="" coords="3589,703,3810,759"/>
+<area shape="rect" id="node11" href="$da/dae/test__TreeToTable_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_TreeToTable.cxx" alt="" coords="3139,703,3319,759"/>
+<area shape="rect" id="node14" href="$d8/d84/DeviceSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpec.cxx" alt="" coords="9694,703,9874,759"/>
+<area shape="rect" id="node15" href="$df/dda/DeviceSpecHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpecHelpers.h" alt="" coords="8424,703,8604,759"/>
+<area shape="rect" id="node16" href="$d1/dd9/DeviceSpecHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpecHelpers.cxx" alt="" coords="9561,807,9750,863"/>
+<area shape="rect" id="node26" href="$d3/d4b/DataProcessingDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataProcessing\lDevice.h" alt="" coords="10311,584,10544,655"/>
+<area shape="rect" id="node28" href="$dd/d27/CommonServices_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonServices.cxx" alt="" coords="10568,591,10748,647"/>
+<area shape="rect" id="node34" href="$dc/d55/ctf-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/ctf&#45;reader\l&#45;workflow.cxx" alt="" coords="3239,347,3419,417"/>
+<area shape="rect" id="node35" href="$d7/dcb/ctf-writer-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/ctf&#45;writer\l&#45;workflow.cxx" alt="" coords="3443,347,3623,417"/>
+<area shape="rect" id="node36" href="$d8/d12/CTFReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/CTFReaderSpec.cxx" alt="" coords="3648,354,3874,410"/>
+<area shape="rect" id="node37" href="$d4/dd7/CTFWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/CTFWriterSpec.cxx" alt="" coords="3899,354,4119,410"/>
+<area shape="rect" id="node38" href="$df/d6d/TPCSectorCompletionPolicy_8h.html" title="DPL completion policy helper for TPC scetor data. " alt="" coords="4143,347,4352,417"/>
+<area shape="rect" id="node39" href="$dd/d1a/TRDDigitWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitWriterSpec.cxx" alt="" coords="9070,591,9319,647"/>
+<area shape="rect" id="node40" href="$d0/dfb/TRDTrackletWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrackletWriter\lSpec.cxx" alt="" coords="8316,584,8531,655"/>
+<area shape="rect" id="node41" href="$d1/d78/TRDTrapRawWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapRawWriterSpec.cxx" alt="" coords="7540,591,7814,647"/>
+<area shape="rect" id="node42" href="$db/d34/AnalysisHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/AnalysisHelpers.h" alt="" coords="2456,354,2703,410"/>
+<area shape="rect" id="node43" href="$d3/d2c/ChannelMatching_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/ChannelMatching.h" alt="" coords="9786,591,10038,647"/>
+<area shape="rect" id="node44" href="$db/de2/DataDescriptorQueryBuilder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataDescriptor\lQueryBuilder.h" alt="" coords="4479,347,4707,417"/>
+<area shape="rect" id="node47" href="$d0/df4/DataProcessorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataProcessor\lSpec.h" alt="" coords="7470,347,7697,417"/>
+<area shape="rect" id="node48" href="$db/d30/test__CallbackService_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CallbackService.cxx" alt="" coords="8715,473,8916,529"/>
+<area shape="rect" id="node49" href="$d5/d47/test__CustomGUIGL_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CustomGUIGL.cxx" alt="" coords="8940,473,9134,529"/>
+<area shape="rect" id="node50" href="$d6/dd1/test__CustomGUISokol_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CustomGUISokol.cxx" alt="" coords="9362,473,9571,529"/>
+<area shape="rect" id="node51" href="$d2/da2/test__DataAllocator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataAllocator.cxx" alt="" coords="6183,473,6368,529"/>
+<area shape="rect" id="node52" href="$d3/d66/test__Parallel_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_Parallel.cxx" alt="" coords="5979,473,6159,529"/>
+<area shape="rect" id="node53" href="$d8/d7e/test__ParallelPipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ParallelPipeline.cxx" alt="" coords="5513,473,5708,529"/>
+<area shape="rect" id="node54" href="$d7/d71/test__RegionInfoCallbackService_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_RegionInfoCallbackService.cxx" alt="" coords="6393,473,6657,529"/>
+<area shape="rect" id="node55" href="$d7/d18/test__SimpleTracksED_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_SimpleTracksED.cxx" alt="" coords="6681,473,6886,529"/>
+<area shape="rect" id="node56" href="$dd/d16/test__StaggeringWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_StaggeringWorkflow.cxx" alt="" coords="5732,473,5955,529"/>
+<area shape="rect" id="node57" href="$d1/d4f/test__TimePipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_TimePipeline.cxx" alt="" coords="6910,473,7092,529"/>
+<area shape="rect" id="node58" href="$d5/dc8/MakeRootTreeWriterSpec_8h.html" title="Configurable generator for RootTreeWriter processor spec. " alt="" coords="7848,465,8098,536"/>
+<area shape="rect" id="node60" href="$d1/d02/test__RootTreeWriterWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/test_RootTreeWriterWorkflow.cxx" alt="" coords="8556,591,8806,647"/>
+<area shape="rect" id="node61" href="$d1/dc0/CPVDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitWriterSpec.h" alt="" coords="8831,591,9046,647"/>
+<area shape="rect" id="node62" href="$d8/dcd/FDDDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitWriterSpec.h" alt="" coords="6534,591,6748,647"/>
+<area shape="rect" id="node63" href="$d2/d92/Steer_2DigitizerWorkflow_2src_2FT0DigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitWriterSpec.h" alt="" coords="6772,591,6987,647"/>
+<area shape="rect" id="node64" href="$d3/d12/FV0DigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FV0DigitWriterSpec.h" alt="" coords="9343,591,9558,647"/>
+<area shape="rect" id="node65" href="$d5/d5b/HMPIDDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/HMPIDDigitWriterSpec.h" alt="" coords="7011,591,7226,647"/>
+<area shape="rect" id="node66" href="$d8/d60/MCHDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitWriterSpec.h" alt="" coords="7250,591,7464,647"/>
+<area shape="rect" id="node67" href="$d9/d65/MIDDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitWriterSpec.h" alt="" coords="7839,591,8054,647"/>
+<area shape="rect" id="node68" href="$d4/d33/PHOSDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitWriterSpec.h" alt="" coords="8078,591,8292,647"/>
+<area shape="rect" id="node69" href="$d9/d31/ZDCDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ZDCDigitWriterSpec.h" alt="" coords="6295,591,6510,647"/>
+<area shape="rect" id="node71" href="$d6/d0d/test__RootTreeReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/test_RootTreeReader.cxx" alt="" coords="7116,473,7318,529"/>
+<area shape="rect" id="node72" href="$de/dbe/MCTruthWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCTruthWriterSpec.h" alt="" coords="8476,473,8691,529"/>
+<area shape="rect" id="node73" href="$d3/dbe/dataSamplingParallel_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingParallel.cxx" alt="" coords="4467,473,4674,529"/>
+<area shape="rect" id="node74" href="$de/da3/dataSamplingPodAndRoot_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingPodAndRoot.cxx" alt="" coords="4750,473,4980,529"/>
+<area shape="rect" id="node75" href="$db/d9e/dataSamplingTimePipeline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingTimePipeline.cxx" alt="" coords="5004,473,5235,529"/>
+<area shape="rect" id="node76" href="$d6/d68/DataSpecUtils_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataSpecUtils.h" alt="" coords="2776,354,3012,410"/>
+<area shape="rect" id="node78" href="$d6/dda/InputSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/InputSpec.cxx" alt="" coords="3226,473,3406,529"/>
+<area shape="rect" id="node80" href="$d2/d13/StreamOperators_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/StreamOperators.cxx" alt="" coords="3430,473,3610,529"/>
+<area shape="rect" id="node81" href="$d5/d5b/test__InputSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_InputSpec.cxx" alt="" coords="3022,473,3202,529"/>
+<area shape="rect" id="node82" href="$d2/d1b/DataSamplingPolicy_8h.html" title="A declaration of O2 Data Sampling Policy. " alt="" coords="2406,473,2692,529"/>
+<area shape="rect" id="node87" href="$d7/d12/ForwardRoute_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/ForwardRoute.h" alt="" coords="9850,354,10083,410"/>
+<area shape="rect" id="node88" href="$d5/d19/InputRoute_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/InputRoute.h" alt="" coords="10107,354,10322,410"/>
+<area shape="rect" id="node89" href="$df/d8e/InputRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/InputRecord.cxx" alt="" coords="9442,354,9622,410"/>
+<area shape="rect" id="node91" href="$d7/d78/DataSampling_8h.html" title="Definition of O2 Data Sampling, v1.0. " alt="" coords="4884,354,5134,410"/>
+<area shape="rect" id="node93" href="$df/dc4/test__TimesliceIndex_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_TimesliceIndex.cxx" alt="" coords="10652,354,10846,410"/>
+</map>

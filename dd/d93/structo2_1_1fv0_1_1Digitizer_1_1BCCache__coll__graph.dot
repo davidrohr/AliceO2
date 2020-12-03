@@ -1,0 +1,20 @@
+digraph "o2::fv0::Digitizer::BCCache"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::fv0::Digitizer\l::BCCache\n||+ clear()\l+ operator=()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{o2::InteractionRecord\n||+ InteractionRecord()\l+ InteractionRecord()\l+ InteractionRecord()\l+ InteractionRecord()\l+ clear()\l+ isDummy()\l+ setFromNS()\l+ bc2ns()\l+ operator==()\l+ operator!=()\l+ differenceInBC()\l+ differenceInBCNS()\l+ differenceInBCMS()\l+ toLong()\l+ setFromLong()\l+ operator\>()\l+ operator\>=()\l+ operator\<()\l+ operator\<=()\l+ operator--()\l+ operator--()\l+ operator++()\l+ operator++()\l+ operator+=()\l+ operator-=()\l+ operator+=()\l+ operator-=()\l+ operator+()\l+ operator-()\l+ operator+()\l+ operator-()\l+ print()\l+ asString()\l+ ClassDefNV()\l+ bc2ns()\l+ ns2bc()\l}",height=0.2,width=0.4,color="black",URL="$d1/d21/structo2_1_1InteractionRecord.html"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +DummyTime" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{double\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +DummyBC\n+bc" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{uint16_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +orbit\n+DummyOrbit" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{uint32_t\n||}",height=0.2,width=0.4,color="black",URL="$d3/d87/classuint32__t.html"];
+  Node7 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +mPmtChargeVsTime" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{array\< ChannelBCDataF,\l Constants::nFv0Channels \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +labels" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{vector\< o2::fv0::MCLabel \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,40 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/test/bench_Raw.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/test/bench_Raw.cxx">
+<area shape="rect" id="node4" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="1575,109,1716,136"/>
+<area shape="rect" id="node6" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="3558,437,3768,479"/>
+<area shape="rect" id="node13" href="$de/da2/Raw_2include_2DetectorsRaw_2RawFileReader_8h.html" title="DetectorsRaw/RawFileReader.h" alt="" coords="804,266,1015,293"/>
+<area shape="rect" id="node37" href="$df/d22/RawParser_8h.html" title="Generic parser for consecutive raw pages. " alt="" coords="418,445,572,471"/>
+<area shape="rect" id="node42" href="$d3/d53/ColumnData_8h.html" title="Strip pattern (aka digits) " alt="" coords="4918,445,5128,471"/>
+<area shape="rect" id="node45" href="$dc/de4/DetectorParameters_8h.html" title="Useful detector parameters for MID. " alt="" coords="1506,445,1716,471"/>
+<area shape="rect" id="node46" href="$d9/d05/Detectors_2MUON_2MID_2Raw_2include_2MIDRaw_2Decoder_8h.html" title="MID raw data decoder. " alt="" coords="3230,184,3368,211"/>
+<area shape="rect" id="node53" href="$de/d24/GBTDecoder_8h.html" title="Class interface for the MID GBT decoder. " alt="" coords="3547,266,3712,293"/>
+<area shape="rect" id="node55" href="$d1/dcf/Detectors_2MUON_2MID_2Raw_2include_2MIDRaw_2Encoder_8h.html" title="MID raw data encoder. " alt="" coords="3405,109,3542,136"/>
+<area shape="rect" id="node7" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1519,534,1676,561"/>
+<area shape="rect" id="node12" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="3515,534,3752,561"/>
+<area shape="rect" id="node20" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="1306,534,1494,561"/>
+<area shape="rect" id="node21" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="757,534,913,561"/>
+<area shape="rect" id="node30" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1404,355,1583,382"/>
+<area shape="rect" id="node28" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="629,616,812,643"/>
+<area shape="rect" id="node31" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="988,534,1124,561"/>
+<area shape="rect" id="node34" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="1090,445,1228,471"/>
+<area shape="rect" id="node36" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="733,445,862,471"/>
+<area shape="rect" id="node32" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1462,616,1646,643"/>
+<area shape="rect" id="node33" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1278,616,1437,643"/>
+<area shape="rect" id="node38" href="$d7/dbe/VariantHelpers_8h.html" title="Framework/VariantHelpers.h" alt="" coords="154,534,342,561"/>
+<area shape="rect" id="node39" href="$d9/de8/CompilerBuiltins_8h.html" title="Framework/CompilerBuiltins.h" alt="" coords="131,616,328,643"/>
+<area shape="rect" id="node48" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="3595,355,3803,382"/>
+<area shape="rect" id="node49" href="$d7/dd3/CrateMasks_8h.html" title="MID crate masks. " alt="" coords="3158,355,3318,382"/>
+<area shape="rect" id="node50" href="$d2/da5/CrateParameters_8h.html" title="MID RO crate parameters. " alt="" coords="3249,445,3381,471"/>
+<area shape="rect" id="node51" href="$d8/de7/ElectronicsDelay_8h.html" title="Delay parameters for MID electronics. " alt="" coords="4065,355,4253,382"/>
+<area shape="rect" id="node52" href="$d7/dde/FEEIdConfig_8h.html" title="Hardware Id to FeeId mapper. " alt="" coords="2096,445,2260,471"/>
+<area shape="rect" id="node54" href="$d3/d4a/LocalBoardRO_8h.html" title="Structure to store the FEE local board information. " alt="" coords="4697,355,4872,382"/>
+<area shape="rect" id="node56" href="$da/d08/RawFileWriter_8h.html" title="Utility class to write detectors data to (multiple) raw data file(s) respecting CRU format..." alt="" coords="2132,184,2336,211"/>
+<area shape="rect" id="node70" href="$d2/db5/ColumnDataToLocalBoard_8h.html" title="Converter from ColumnData to raw local boards. " alt="" coords="4328,259,4526,300"/>
+<area shape="rect" id="node74" href="$d8/d2e/GBTUserLogicEncoder_8h.html" title="Raw data encoder for MID GBT user logic. " alt="" coords="3893,266,4116,293"/>
+<area shape="rect" id="node62" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="2146,266,2321,293"/>
+<area shape="rect" id="node63" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="2572,437,2751,479"/>
+<area shape="rect" id="node66" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="2278,348,2456,389"/>
+<area shape="rect" id="node69" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="2582,355,2779,382"/>
+<area shape="rect" id="node71" href="$d3/d07/MUON_2MID_2Base_2include_2MIDBase_2Mapping_8h.html" title="Mapping for MID. " alt="" coords="4531,355,4672,382"/>
+<area shape="rect" id="node73" href="$db/d83/CrateMapper_8h.html" title="Mapper to convert the RO Ids to a format suitable for O2. " alt="" coords="4161,445,4325,471"/>
+<area shape="rect" id="node72" href="$d7/d0a/MpArea_8h.html" title="Mapping area for MID. " alt="" coords="4604,445,4741,471"/>
+</map>

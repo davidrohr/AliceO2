@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/ChipMappingITS.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/ChipMappingITS.cxx">
+<area shape="rect" id="node3" href="$d3/d57/ChipMappingITS_8h.html" title="ITSMFTReconstruction\l/ChipMappingITS.h" alt="" coords="666,124,825,165"/>
+<area shape="rect" id="node9" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="340,303,496,329"/>
+<area shape="rect" id="node18" href="$dc/dd8/RUInfo_8h.html" title="ITSMFTReconstruction\l/RUInfo.h" alt="" coords="809,213,968,255"/>
+<area shape="rect" id="node19" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="992,213,1200,255"/>
+<area shape="rect" id="node16" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="472,377,654,404"/>
+<area shape="rect" id="node23" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1543,303,1663,329"/>
+<area shape="rect" id="node24" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="1409,377,1576,404"/>
+<area shape="rect" id="node25" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="1600,377,1825,404"/>
+<area shape="rect" id="node27" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="1850,377,2052,404"/>
+<area shape="rect" id="node29" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1939,527,2075,553"/>
+<area shape="rect" id="node32" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="1608,452,1752,479"/>
+<area shape="rect" id="node33" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1828,452,2066,479"/>
+<area shape="rect" id="node30" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1816,601,2000,628"/>
+<area shape="rect" id="node31" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2025,601,2184,628"/>
+</map>

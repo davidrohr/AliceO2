@@ -1,0 +1,8 @@
+digraph "GPUCA_NAMESPACE::gpu::GPUQA"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{GPUCA_NAMESPACE::gpu\l::GPUQA\n||+ GPUQA()\l+ ~GPUQA()\l+ InitQA()\l+ RunQA()\l+ DrawQAHistograms()\l+ SetMCTrackRange()\l+ SuppressTrack()\l+ SuppressHit()\l+ HitAttachStatus()\l+ GetMCTrackLabel()\l+ clusterRemovable()\l+ QAAvailable()\l+ IsInitialized()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

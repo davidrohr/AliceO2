@@ -1,0 +1,10 @@
+<map id="JTask" name="JTask">
+<area shape="rect" id="node2" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; o2::test::SimplePODClass \&gt;\n||+ Configurable()\l}" alt="" coords="417,624,619,716"/>
+<area shape="rect" id="node3" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; o2::test::SimplePODClass \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="257,469,529,561"/>
+<area shape="rect" id="node4" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; o2::test::SimplePODClass \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="123,315,353,407"/>
+<area shape="rect" id="node5" href="$d6/da0/classo2_1_1test_1_1SimplePODClass.html" title="{o2::test::SimplePODClass\n||}" alt="" coords="5,167,183,245"/>
+<area shape="rect" id="node6" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="71,5,117,83"/>
+<area shape="rect" id="node8" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; T \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="301,160,487,252"/>
+<area shape="rect" id="node10" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; T \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="382,315,569,407"/>
+<area shape="rect" id="node11" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; T, IP \&gt;\n||+ Configurable()\l}" alt="" coords="553,469,739,561"/>
+</map>

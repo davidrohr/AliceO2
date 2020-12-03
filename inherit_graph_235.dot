@@ -1,0 +1,15 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1864 [label="GPUCA_NAMESPACE::gpu\l::GPUChain",height=0.2,width=0.4,color="black",URL="$dd/d48/classGPUCA__NAMESPACE_1_1gpu_1_1GPUChain.html"];
+  Node1864 -> Node1865 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1865 [label="GPUCA_NAMESPACE::gpu\l::GPUChainITS",height=0.2,width=0.4,color="black",URL="$db/d8f/classGPUCA__NAMESPACE_1_1gpu_1_1GPUChainITS.html"];
+  Node1864 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GPUCA_NAMESPACE::gpu\l::GPUChainTracking",height=0.2,width=0.4,color="black",URL="$d5/d5f/classGPUCA__NAMESPACE_1_1gpu_1_1GPUChainTracking.html"];
+  Node0 [label="GPUCA_NAMESPACE::gpu\l::GPUReconstructionHelpers\l::helperDelegateBase",height=0.2,width=0.4,color="black",URL="$d2/dab/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionHelpers_1_1helperDelegateBase.html"];
+  Node0 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Utilities/Mergers/test/test_ObjectStore.cxx" name="/home/runner/work/AliceO2/AliceO2/Utilities/Mergers/test/test_ObjectStore.cxx">
+<area shape="rect" id="node2" href="$da/dc0/ObjectStore_8h.html" title="Definition of ObjectStore for Mergers, v0.1. " alt="" coords="197,109,351,136"/>
+<area shape="rect" id="node5" href="$d5/dfb/DataRef_8h.html" title="Framework/DataRef.h" alt="" coords="5,184,156,211"/>
+<area shape="rect" id="node6" href="$de/d26/CustomMergeableObject_8h.html" title="An example of overriding O2 Mergers merging interface, v0.1. " alt="" coords="903,109,1131,136"/>
+<area shape="rect" id="node9" href="$df/d5c/CustomMergeableTObject_8h.html" title="An example of a custom TObject inheriting MergeInterface. " alt="" coords="1155,109,1391,136"/>
+<area shape="rect" id="node11" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="723,109,879,136"/>
+<area shape="rect" id="node7" href="$de/d80/MergeInterface_8h.html" title="Definition of O2 Mergers merging interface, v0.1. " alt="" coords="1277,184,1447,211"/>
+<area shape="rect" id="node19" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="523,184,705,211"/>
+</map>

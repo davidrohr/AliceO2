@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Cluster.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/Cluster.h">
+<area shape="rect" id="node2" href="$dd/df3/EventData_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/include/DataFormatsEMCAL\l/EventData.h" alt="" coords="80,124,323,195"/>
+<area shape="rect" id="node3" href="$da/dcc/EventHandler_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/include/DataFormatsEMCAL\l/EventHandler.h" alt="" coords="80,243,323,313"/>
+<area shape="rect" id="node5" href="$d3/dd3/AnalysisClusterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/include/EMCALWorkflow\l/AnalysisClusterSpec.h" alt="" coords="357,361,585,432"/>
+<area shape="rect" id="node6" href="$d2/d75/AnalysisClusterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/AnalysisClusterSpec.cxx" alt="" coords="117,480,368,536"/>
+<area shape="rect" id="node7" href="$d2/dbf/EMCAL_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/RecoWorkflow.cxx" alt="" coords="1329,480,1543,536"/>
+<area shape="rect" id="node8" href="$d9/d04/DataFormats_2Detectors_2EMCAL_2src_2Cluster_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/src/Cluster.cxx" alt="" coords="701,131,915,187"/>
+<area shape="rect" id="node9" href="$d0/d55/ClusterFactory_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/base/include/EMCALBase/ClusterFactory.h" alt="" coords="397,131,677,187"/>
+<area shape="rect" id="node10" href="$d0/d21/ClusterFactory_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/base/src/ClusterFactory.cxx" alt="" coords="535,250,726,306"/>
+<area shape="rect" id="node11" href="$da/d9a/EMCAL_2reconstruction_2include_2EMCALReconstruction_2Clusterizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/reconstruction/include/EMCALReconstruction\l/Clusterizer.h" alt="" coords="1091,124,1381,195"/>
+<area shape="rect" id="node12" href="$d8/dc0/ClusterizerTask_8h.html" title="Definition of the EMCAL clusterizer task. " alt="" coords="804,243,1095,313"/>
+<area shape="rect" id="node13" href="$d6/da0/ClusterizerTask_8cxx.html" title="Implementation of the EMCAL cluster finder task. " alt="" coords="733,369,984,425"/>
+<area shape="rect" id="node15" href="$d2/dd1/EMCAL_2workflow_2include_2EMCALWorkflow_2ClusterizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/include/EMCALWorkflow\l/ClusterizerSpec.h" alt="" coords="1415,243,1643,313"/>
+<area shape="rect" id="node16" href="$d7/d67/EMCAL_2workflow_2src_2ClusterizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/ClusterizerSpec.cxx" alt="" coords="1473,369,1695,425"/>
+<area shape="rect" id="node4" href="$d7/d53/EventHandler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/src/EventHandler.cxx" alt="" coords="95,369,308,425"/>
+<area shape="rect" id="node14" href="$d2/d78/EMCAL_2reconstruction_2src_2Clusterizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/reconstruction/src/Clusterizer.cxx" alt="" coords="1169,250,1391,306"/>
+</map>

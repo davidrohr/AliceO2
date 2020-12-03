@@ -1,0 +1,36 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/common/include/CommonDataFormat/AbstractRef.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/common/include/CommonDataFormat/AbstractRef.h">
+<area shape="rect" id="node2" href="$d0/d00/VtxTrackIndex_8h.html" title="Index of track attached to vertx: index in its proper container, container source and flags..." alt="" coords="1779,124,2023,195"/>
+<area shape="rect" id="node3" href="$d0/d0c/V0_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats/V0.h" alt="" coords="579,250,846,306"/>
+<area shape="rect" id="node9" href="$db/dbe/SVertexer_8h.html" title="Secondary vertex finder. " alt="" coords="883,361,1075,432"/>
+<area shape="rect" id="node14" href="$d7/dac/VtxTrackRef_8h.html" title="Referenc on track indices contributing to the vertex, with possibility chose tracks from specific sou..." alt="" coords="1859,243,2103,313"/>
+<area shape="rect" id="node16" href="$d7/d23/StandaloneAODProducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/StandaloneAODProducer.cxx" alt="" coords="2506,369,2725,425"/>
+<area shape="rect" id="node17" href="$d3/d93/PrimaryVertexReaderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/PrimaryVertexReaderSpec.h" alt="" coords="1512,361,1780,432"/>
+<area shape="rect" id="node21" href="$db/db1/PVertexerHelpers_8h.html" title="Primary vertex finder helper classes. " alt="" coords="1805,361,1997,432"/>
+<area shape="rect" id="node31" href="$d7/d99/VertexTrackMatcher_8h.html" title="Class for vertex track association. " alt="" coords="2290,361,2482,432"/>
+<area shape="rect" id="node35" href="$dd/da0/VtxTrackIndex_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/VtxTrackIndex.cxx" alt="" coords="2229,250,2473,306"/>
+<area shape="rect" id="node4" href="$d1/d1b/V0_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/V0.cxx" alt="" coords="5,369,249,425"/>
+<area shape="rect" id="node5" href="$d9/d65/SecondaryVertexReaderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/SecondaryVertexReaderSpec.h" alt="" coords="273,361,541,432"/>
+<area shape="rect" id="node8" href="$d6/de6/SecondaryVertexWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexWriterSpec.cxx" alt="" coords="566,369,859,425"/>
+<area shape="rect" id="node6" href="$d8/d27/secondary-vertex-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/secondary&#45;vertex\l&#45;reader&#45;workflow.cxx" alt="" coords="9,480,233,551"/>
+<area shape="rect" id="node7" href="$d6/dad/SecondaryVertexReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexReaderSpec.cxx" alt="" coords="257,487,557,543"/>
+<area shape="rect" id="node10" href="$de/d21/SecondaryVertexingSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/SecondaryVertexingSpec.h" alt="" coords="581,480,849,551"/>
+<area shape="rect" id="node13" href="$d4/d3b/SVertexer_8cxx.html" title="Secondary vertex finder. " alt="" coords="874,487,1066,543"/>
+<area shape="rect" id="node11" href="$d9/d62/secondary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/secondary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="1163,599,1387,669"/>
+<area shape="rect" id="node12" href="$d9/dfc/SecondaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexingSpec.cxx" alt="" coords="578,606,853,662"/>
+<area shape="rect" id="node15" href="$d2/daf/VtxTrackRef_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/VtxTrackRef.cxx" alt="" coords="2021,369,2265,425"/>
+<area shape="rect" id="node18" href="$df/de7/AODProducerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx" alt="" coords="2039,836,2248,892"/>
+<area shape="rect" id="node19" href="$de/deb/primary-vertex-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/primary&#45;vertex&#45;reader\l&#45;workflow.cxx" alt="" coords="1090,480,1317,551"/>
+<area shape="rect" id="node20" href="$d9/dd2/PrimaryVertexReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/PrimaryVertexReaderSpec.cxx" alt="" coords="1341,487,1623,543"/>
+<area shape="rect" id="node22" href="$dd/d09/PrimaryVertexWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/PrimaryVertexWriterSpec.cxx" alt="" coords="1749,487,2025,543"/>
+<area shape="rect" id="node23" href="$d4/d02/PVertexer_8h.html" title="Primary vertex finder. " alt="" coords="2266,480,2458,551"/>
+<area shape="rect" id="node30" href="$db/dfb/PVertexerHelpers_8cxx.html" title="Primary vertex finder helper classes. " alt="" coords="2050,487,2242,543"/>
+<area shape="rect" id="node24" href="$d8/d11/PrimaryVertexingSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/PrimaryVertexingSpec.h" alt="" coords="2228,599,2496,669"/>
+<area shape="rect" id="node29" href="$da/d7a/PVertexer_8cxx.html" title="Primary vertex finder. " alt="" coords="2011,606,2203,662"/>
+<area shape="rect" id="node25" href="$d2/d09/AODProducerWorkflowSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/include/AODProducerWorkflow\l/AODProducerWorkflowSpec.h" alt="" coords="2181,717,2388,788"/>
+<area shape="rect" id="node26" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="2289,836,2528,892"/>
+<area shape="rect" id="node27" href="$d2/dfc/primary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/primary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="2463,717,2687,788"/>
+<area shape="rect" id="node28" href="$db/d2d/PrimaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/PrimaryVertexingSpec.cxx" alt="" coords="1847,725,2106,781"/>
+<area shape="rect" id="node32" href="$d9/d8e/VertexTrackMatcherSpec_8h.html" title="Specs for vertex track association device. " alt="" coords="2483,480,2751,551"/>
+<area shape="rect" id="node34" href="$d0/de5/VertexTrackMatcher_8cxx.html" title="Class for vertex track association. " alt="" coords="2775,487,2967,543"/>
+<area shape="rect" id="node33" href="$de/d73/VertexTrackMatcherSpec_8cxx.html" title="Specs for vertex track association device. " alt="" coords="2613,606,2889,662"/>
+</map>

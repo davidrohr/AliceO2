@@ -1,0 +1,29 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/GEMAmplification.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/GEMAmplification.h">
+<area shape="rect" id="node2" href="$db/dac/RandomRing_8h.html" title="MathUtils/RandomRing.h" alt="" coords="155,206,324,233"/>
+<area shape="rect" id="node8" href="$db/d5b/ParameterGas_8h.html" title="Definition of the parameter class for the detector gas. " alt="" coords="597,124,775,151"/>
+<area shape="rect" id="node20" href="$de/d2b/ParameterGEM_8h.html" title="Definition of the parameter class for the GEM stack. " alt="" coords="799,124,983,151"/>
+<area shape="rect" id="node22" href="$df/d26/CRU_8h.html" title="TPCBase/CRU.h" alt="" coords="2215,467,2339,493"/>
+<area shape="rect" id="node43" href="$de/d41/PadPos_8h.html" title="TPCBase/PadPos.h" alt="" coords="1653,541,1793,568"/>
+<area shape="rect" id="node44" href="$d6/d2b/TPC_2base_2include_2TPCBase_2CalDet_8h.html" title="TPCBase/CalDet.h" alt="" coords="1952,124,2087,151"/>
+<area shape="rect" id="node9" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="775,288,954,329"/>
+<area shape="rect" id="node16" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="597,199,775,240"/>
+<area shape="rect" id="node23" href="$d1/d73/Defs_8h.html" title="DataFormatsTPC/Defs.h" alt="" coords="1906,691,2074,717"/>
+<area shape="rect" id="node40" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="2237,616,2369,643"/>
+<area shape="rect" id="node42" href="$dc/d14/ROC_8h.html" title="TPCBase/ROC.h" alt="" coords="2164,541,2288,568"/>
+<area shape="rect" id="node24" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="1597,847,1778,874"/>
+<area shape="rect" id="node28" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2527,765,2677,792"/>
+<area shape="rect" id="node25" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2101,929,2237,956"/>
+<area shape="rect" id="node26" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1979,1004,2163,1031"/>
+<area shape="rect" id="node27" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2188,1004,2347,1031"/>
+<area shape="rect" id="node29" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2701,847,2858,874"/>
+<area shape="rect" id="node41" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="2203,691,2403,717"/>
+<area shape="rect" id="node48" href="$d5/d1d/TPC_2base_2include_2TPCBase_2Mapper_8h.html" title="TPCBase/Mapper.h" alt="" coords="1483,295,1620,322"/>
+<area shape="rect" id="node55" href="$db/d9b/CalArray_8h.html" title="TPCBase/CalArray.h" alt="" coords="1836,206,1981,233"/>
+<area shape="rect" id="node59" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="2158,206,2299,233"/>
+<area shape="rect" id="node49" href="$dd/d0b/PadSecPos_8h.html" title="TPCBase/PadSecPos.h" alt="" coords="2027,467,2190,493"/>
+<area shape="rect" id="node50" href="$da/d61/PadROCPos_8h.html" title="TPCBase/PadROCPos.h" alt="" coords="1782,467,1953,493"/>
+<area shape="rect" id="node51" href="$d3/d54/DigitPos_8h.html" title="TPCBase/DigitPos.h" alt="" coords="2002,385,2146,411"/>
+<area shape="rect" id="node52" href="$d1/d1f/FECInfo_8h.html" title="TPCBase/FECInfo.h" alt="" coords="1187,616,1329,643"/>
+<area shape="rect" id="node53" href="$da/d9d/PadRegionInfo_8h.html" title="TPCBase/PadRegionInfo.h" alt="" coords="1456,385,1636,411"/>
+<area shape="rect" id="node54" href="$d6/d42/PartitionInfo_8h.html" title="TPCBase/PartitionInfo.h" alt="" coords="1763,385,1927,411"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/CTF.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FV0/include/DataFormatsFV0/CTF.h">
+<area shape="rect" id="node2" href="$de/dbc/FIT_2FV0_2src_2CTF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/FIT/FV0/src/CTF.cxx" alt="" coords="5,117,219,173"/>
+<area shape="rect" id="node3" href="$d8/d12/CTFReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/CTFReaderSpec.cxx" alt="" coords="243,117,469,173"/>
+<area shape="rect" id="node4" href="$d4/dd7/CTFWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/CTFWriterSpec.cxx" alt="" coords="494,117,714,173"/>
+<area shape="rect" id="node5" href="$d5/df7/FIT_2FV0_2reconstruction_2include_2FV0Reconstruction_2CTFCoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/reconstruction/include\l/FV0Reconstruction/CTFCoder.h" alt="" coords="738,109,953,180"/>
+<area shape="rect" id="node6" href="$d7/d64/test__ctf__io__fv0_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/test/test_ctf_io_fv0.cxx" alt="" coords="435,235,615,291"/>
+<area shape="rect" id="node7" href="$db/d3b/FIT_2FV0_2reconstruction_2src_2CTFCoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/reconstruction/src\l/CTFCoder.cxx" alt="" coords="639,228,819,299"/>
+<area shape="rect" id="node8" href="$d0/d18/FIT_2FV0_2workflow_2include_2FV0Workflow_2EntropyDecoderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/workflow/include/FV0Workflow\l/EntropyDecoderSpec.h" alt="" coords="844,228,1079,299"/>
+<area shape="rect" id="node11" href="$de/de1/FIT_2FV0_2workflow_2include_2FV0Workflow_2EntropyEncoderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/workflow/include/FV0Workflow\l/EntropyEncoderSpec.h" alt="" coords="1103,228,1337,299"/>
+<area shape="rect" id="node9" href="$dc/d55/ctf-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/ctf&#45;reader\l&#45;workflow.cxx" alt="" coords="651,347,831,417"/>
+<area shape="rect" id="node10" href="$dd/dce/FIT_2FV0_2workflow_2src_2EntropyDecoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/workflow/src/EntropyDecoder\lSpec.cxx" alt="" coords="856,347,1083,417"/>
+<area shape="rect" id="node12" href="$d8/d40/FIT_2FV0_2workflow_2src_2entropy-encoder-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/workflow/src/entropy\l&#45;encoder&#45;workflow.cxx" alt="" coords="1122,347,1302,417"/>
+<area shape="rect" id="node13" href="$d6/dec/FIT_2FV0_2workflow_2src_2EntropyEncoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/workflow/src/EntropyEncoder\lSpec.cxx" alt="" coords="1326,347,1551,417"/>
+</map>

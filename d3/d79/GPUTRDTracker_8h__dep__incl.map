@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/TRDTracking/GPUTRDTracker.h" name="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/TRDTracking/GPUTRDTracker.h">
+<area shape="rect" id="node2" href="$df/d24/TRDGlobalTrackingSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDGlobalTrackingSpec.h" alt="" coords="141,109,352,180"/>
+<area shape="rect" id="node5" href="$da/df6/GPUReconstructionCPU_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Base/GPUReconstructionCPU.cxx" alt="" coords="377,117,607,173"/>
+<area shape="rect" id="node6" href="$d2/d58/GPUChainTracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Global/GPUChainTracking.cxx" alt="" coords="632,117,837,173"/>
+<area shape="rect" id="node7" href="$d3/d85/GPUChainTrackingIO_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Global/GPUChainTrackingIO.cxx" alt="" coords="861,117,1080,173"/>
+<area shape="rect" id="node8" href="$d9/d33/GPUTRDTracker_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/TRDTracking/GPUTRDTracker.cxx" alt="" coords="1104,117,1339,173"/>
+<area shape="rect" id="node9" href="$db/dd1/GPUTRDTrackerComponent_8cxx.html" title="A TRD tracker processing component for the GPU. " alt="" coords="1363,117,1664,173"/>
+<area shape="rect" id="node3" href="$d5/d34/TRDGlobalTrackingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDGlobalTracking\lSpec.cxx" alt="" coords="5,228,224,299"/>
+<area shape="rect" id="node4" href="$de/d40/TRDTrackingWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrackingWorkflow.cxx" alt="" coords="249,235,511,291"/>
+</map>

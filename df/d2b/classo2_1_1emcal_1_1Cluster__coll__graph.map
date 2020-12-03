@@ -1,0 +1,4 @@
+<map id="o2::emcal::Cluster" name="o2::emcal::Cluster">
+<area shape="rect" id="node2" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\l\&lt; Float16_t \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="21,233,209,413"/>
+<area shape="rect" id="node3" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\&lt; T \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="5,5,225,171"/>
+</map>

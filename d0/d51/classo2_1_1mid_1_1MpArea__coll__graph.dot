@@ -1,0 +1,8 @@
+digraph "o2::mid::MpArea"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mid::MpArea\n||+ MpArea()\l+ getCenterX()\l+ getCenterY()\l+ getHalfSizeX()\l+ getHalfSizeY()\l+ isValid()\l+ setXmin()\l+ setXmax()\l+ setYmin()\l+ setYmax()\l+ getXmin()\l+ getXmax()\l+ getYmin()\l+ getYmax()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,8 @@
+digraph "o2::framework::CommonServices"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::CommonServices\n||+ simpleServiceInit()\l+ singletonServiceInit()\l+ noConfiguration()\l+ monitoringSpec()\l+ infologgerContextSpec()\l+ infologgerSpec()\l+ configurationSpec()\l+ controlSpec()\l+ rootFileSpec()\l+ parallelSpec()\l+ rawDeviceSpec()\l+ callbacksSpec()\l+ timesliceIndex()\l+ dataRelayer()\l+ tracingSpec()\l+ threadPool()\l+ dataProcessingStats()\l+ defaultServices()\l+ requiredServices()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

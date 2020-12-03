@@ -1,0 +1,4 @@
+<map id="nlohmann::detail::merge_and_renumber&lt; Sequence1, Sequence2 &gt;" name="nlohmann::detail::merge_and_renumber&lt; Sequence1, Sequence2 &gt;">
+<area shape="rect" id="node2" href="$da/de9/structnlohmann_1_1detail_1_1merge__and__renumber.html" title="{nlohmann::detail::merge\l_and_renumber\&lt; make_index\l_sequence\&lt; N/2 \&gt;::type, make\l_index_sequence\&lt; N &#45; N/2 \&gt;::type \&gt;\n||}" alt="" coords="5,204,240,325"/>
+<area shape="rect" id="node3" href="$d9/d0e/structnlohmann_1_1detail_1_1make__index__sequence.html" title="{nlohmann::detail::make\l_index_sequence\&lt; N \&gt;\n||}" alt="" coords="44,375,201,467"/>
+</map>

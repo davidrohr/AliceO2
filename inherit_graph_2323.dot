@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ROOT::Math::SMatrix\l\< double, 5, 5, ROOT\l::Math::MatRepSym\< double,\l 5 \> \>",height=0.2,width=0.4,color="black",URL="$dc/d65/classROOT_1_1Math_1_1SMatrix.html"];
+}

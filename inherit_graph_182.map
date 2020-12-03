@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$dc/d5e/classGPUCA__NAMESPACE_1_1gpu_1_1FlatObject.html" title="GPUCA_GPUCODE. " alt="" coords="5,289,196,331"/>
+<area shape="rect" id="node2" href="$de/d7d/classGPUCA__NAMESPACE_1_1gpu_1_1IrregularSpline1D.html" title="GPUCA_NAMESPACE::gpu\l::IrregularSpline1D" alt="" coords="260,5,451,47"/>
+<area shape="rect" id="node3" href="$d5/d77/classGPUCA__NAMESPACE_1_1gpu_1_1IrregularSpline2D3D.html" title="GPUCA_NAMESPACE::gpu\l::IrregularSpline2D3D" alt="" coords="260,71,451,112"/>
+<area shape="rect" id="node4" href="$d2/def/classGPUCA__NAMESPACE_1_1gpu_1_1SemiregularSpline2D3D.html" title="GPUCA_NAMESPACE::gpu\l::SemiregularSpline2D3D" alt="" coords="260,136,451,177"/>
+<area shape="rect" id="node5" href="$df/dfd/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DContainer.html" title="GPUCA_NAMESPACE::gpu\l::Spline1DContainer\&lt;\l DataT \&gt;" alt="" coords="260,202,451,258"/>
+<area shape="rect" id="node9" href="$dc/d7b/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2DContainer.html" title="GPUCA_NAMESPACE::gpu\l::Spline2DContainer\&lt;\l DataT \&gt;" alt="" coords="260,282,451,338"/>
+<area shape="rect" id="node13" href="$d1/dc2/classGPUCA__NAMESPACE_1_1gpu_1_1SplineContainer.html" title="GPUCA_NAMESPACE::gpu\l::SplineContainer\&lt; DataT \&gt;" alt="" coords="260,363,451,404"/>
+<area shape="rect" id="node17" href="$d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html" title="GPUCA_NAMESPACE::gpu\l::TPCdEdxCalibrationSplines" alt="" coords="259,428,451,469"/>
+<area shape="rect" id="node18" href="$d6/d2c/classGPUCA__NAMESPACE_1_1gpu_1_1TPCFastSpaceChargeCorrection.html" title="GPUCA_NAMESPACE::gpu\l::TPCFastSpaceChargeCorrection" alt="" coords="244,493,467,535"/>
+<area shape="rect" id="node19" href="$d2/d47/classGPUCA__NAMESPACE_1_1gpu_1_1TPCFastTransform.html" title="GPUCA_NAMESPACE::gpu\l::TPCFastTransform" alt="" coords="260,559,451,600"/>
+<area shape="rect" id="node6" href="$dd/d56/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DSpec_3_01DataT_00_01YdimT_00_010_01_4.html" title="GPUCA_NAMESPACE::gpu\l::Spline1DSpec\&lt; DataT,\l YdimT, 0 \&gt;" alt="" coords="515,162,705,218"/>
+<area shape="rect" id="node7" href="$d1/d66/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DSpec_3_01DataT_00_01YdimT_00_011_01_4.html" title="GPUCA_NAMESPACE::gpu\l::Spline1DSpec\&lt; DataT,\l YdimT, 1 \&gt;" alt="" coords="753,82,944,138"/>
+<area shape="rect" id="node8" href="$da/dbc/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DSpec_3_01DataT_00_01YdimT_00_012_01_4.html" title="GPUCA_NAMESPACE::gpu\l::Spline1DSpec\&lt; DataT,\l YdimT, 2 \&gt;" alt="" coords="753,162,944,218"/>
+<area shape="rect" id="node10" href="$df/d9c/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2DSpec_3_01DataT_00_01YdimT_00_010_01_4.html" title="GPUCA_NAMESPACE::gpu\l::Spline2DSpec\&lt; DataT,\l YdimT, 0 \&gt;" alt="" coords="515,282,705,338"/>
+<area shape="rect" id="node11" href="$d7/df3/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2DSpec_3_01DataT_00_01YdimT_00_011_01_4.html" title="GPUCA_NAMESPACE::gpu\l::Spline2DSpec\&lt; DataT,\l YdimT, 1 \&gt;" alt="" coords="753,242,944,298"/>
+<area shape="rect" id="node12" href="$d1/dfa/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2DSpec_3_01DataT_00_01YdimT_00_012_01_4.html" title="GPUCA_NAMESPACE::gpu\l::Spline2DSpec\&lt; DataT,\l YdimT, 2 \&gt;" alt="" coords="753,322,944,378"/>
+<area shape="rect" id="node14" href="$d0/d0e/classGPUCA__NAMESPACE_1_1gpu_1_1SplineSpec_3_01DataT_00_01XdimT_00_01YdimT_00_010_01_4.html" title="GPUCA_NAMESPACE::gpu\l::SplineSpec\&lt; DataT,\l XdimT, YdimT, 0 \&gt;" alt="" coords="515,402,705,458"/>
+<area shape="rect" id="node15" href="$d8/d65/classGPUCA__NAMESPACE_1_1gpu_1_1SplineSpec_3_01DataT_00_01XdimT_00_01YdimT_00_011_01_4.html" title="GPUCA_NAMESPACE::gpu\l::SplineSpec\&lt; DataT,\l XdimT, YdimT, 1 \&gt;" alt="" coords="753,402,944,458"/>
+<area shape="rect" id="node16" href="$d7/de2/classGPUCA__NAMESPACE_1_1gpu_1_1SplineSpec_3_01DataT_00_01XdimT_00_01YdimT_00_012_01_4.html" title="GPUCA_NAMESPACE::gpu\l::SplineSpec\&lt; DataT,\l XdimT, YdimT, 2 \&gt;" alt="" coords="753,482,944,538"/>
+</map>

@@ -1,0 +1,14 @@
+digraph "o2::tof::Compressor&lt; RDH, verbose &gt;::DecoderSummary_t"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tof::Compressor\l\< RDH, verbose \>::DecoderSummary_t\n|+ tofOrbit\l+ drmHeadW5\l+ drmDataTrailer\l+ ltmDataHeader\l+ trmDataTrailer\l+ trmChainHeader\l+ trmChainTrailer\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +trmErrors\n+trmDataHits" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{uint8_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +ltmDecodeError\n+hasErrors\n+hasHits\n+drmDecodeError\n+trmDecodeError" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +drmDataHeader\n+ltmDataTrailer\n+trmDataHeader\n+trmDataHit\n+drmHeadW1\n+drmHeadW2\n+tofDataHeader\n+drmHeadW3\n+drmHeadW4\n+trmError\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{const\n||}",height=0.2,width=0.4,color="grey75"];
+}

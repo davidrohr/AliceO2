@@ -1,0 +1,7 @@
+<map id="CentralityTableTask" name="CentralityTableTask">
+<area shape="rect" id="node2" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::Cents \&gt;\n||}" alt="" coords="29,579,197,671"/>
+<area shape="rect" id="node3" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\&lt; T \&gt;\n||}" alt="" coords="5,292,205,369"/>
+<area shape="rect" id="node4" href="$de/de9/structo2_1_1framework_1_1Service.html" title="{o2::framework::Service\l\&lt; o2::ccdb::BasicCCDBManager \&gt;\n||+ operator&#45;\&gt;()\l}" alt="" coords="229,579,456,671"/>
+<area shape="rect" id="node5" href="$da/d73/classo2_1_1ccdb_1_1BasicCCDBManager.html" title="{o2::ccdb::BasicCCDBManager\n||+ setURL()\l+ setTimestamp()\l+ getURL()\l+ getTimestamp()\l+ getForTimeStamp()\l+ get()\l+ isHostReachable()\l+ clearCache()\l+ clearCache()\l+ isCachingEnabled()\l+ setCaching()\l+ isLocalObjectValidityChecking\lEnabled()\l+ setLocalObjectValidityChecking()\l+ setCreatedNotAfter()\l+ getCreatedNotAfter()\l+ resetCreatedNotAfter()\l+ setCreatedNotBefore()\l+ getCreatedNotBefore()\l+ resetCreatedNotBefore()\l+ instance()\l}" alt="" coords="229,145,456,516"/>
+<area shape="rect" id="node6" href="$de/de9/structo2_1_1framework_1_1Service.html" title="{o2::framework::Service\&lt; T \&gt;\n||+ operator&#45;\&gt;()\l}" alt="" coords="480,292,669,369"/>
+</map>

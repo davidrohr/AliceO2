@@ -1,0 +1,5 @@
+<map id="AliHLTTPCRawClusterData" name="AliHLTTPCRawClusterData">
+<area shape="rect" id="node2" href="$d1/d6e/structAliHLTTPCRawCluster.html" title="{AliHLTTPCRawCluster\n||+ AliHLTTPCRawCluster()\l+ AliHLTTPCRawCluster()\l+ AliHLTTPCRawCluster()\l+ operator=()\l+ Clear()\l+ GetPadRow()\l+ GetPad()\l+ GetTime()\l+ GetSigmaPad2()\l+ GetSigmaTime2()\l+ GetCharge()\l+ GetQMax()\l+ GetFlagSplitPad()\l+ GetFlagSplitTime()\l+ GetFlagSplitAny()\l+ GetFlagEdge()\l+ GetFlagSplitAnyOrEdge()\l+ GetFlags()\l+ SetPadRow()\l+ SetPad()\l+ SetTime()\l+ SetSigmaPad2()\l+ SetSigmaTime2()\l+ SetCharge()\l+ SetQMax()\l+ ClearFlags()\l+ SetFlags()\l+ SetFlagSplitPad()\l+ SetFlagSplitTime()\l+ SetFlagEdge()\l}" alt="" coords="71,189,253,692"/>
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="5,5,52,83"/>
+<area shape="rect" id="node4" href="$dc/d10/classshort.html" title="{short\n||}" alt="" coords="119,5,170,83"/>
+</map>

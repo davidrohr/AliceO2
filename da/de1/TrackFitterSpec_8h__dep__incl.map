@@ -1,0 +1,4 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/TrackFitterSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/TrackFitterSpec.h">
+<area shape="rect" id="node2" href="$db/d54/TrackFitterSpec_8cxx.html" title="Implementation of a data processor to read, refit and send tracks with attached clusters. " alt="" coords="5,117,265,173"/>
+<area shape="rect" id="node3" href="$d9/d84/tracks-to-tracks-workflow_8cxx.html" title="Implementation of a DPL device to refit the tracks from the attached clusters. " alt="" coords="289,109,469,180"/>
+</map>

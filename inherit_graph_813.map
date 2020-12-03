@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d9/ded/classo2_1_1event__visualisation_1_1DataReader.html" title="o2::event_visualisation\l::DataReader" alt="" coords="5,71,160,112"/>
+<area shape="rect" id="node2" href="$df/db5/classo2_1_1event__visualisation_1_1DataReaderITS.html" title="o2::event_visualisation\l::DataReaderITS" alt="" coords="208,5,363,47"/>
+<area shape="rect" id="node3" href="$d5/d2d/classo2_1_1event__visualisation_1_1DataReaderTPC.html" title="o2::event_visualisation\l::DataReaderTPC" alt="" coords="208,71,363,112"/>
+<area shape="rect" id="node4" href="$d2/d6a/classo2_1_1event__visualisation_1_1DataReaderVSD.html" title="o2::event_visualisation\l::DataReaderVSD" alt="" coords="208,136,363,177"/>
+</map>

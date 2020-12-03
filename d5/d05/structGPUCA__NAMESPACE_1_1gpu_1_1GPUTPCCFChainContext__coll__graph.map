@@ -1,0 +1,7 @@
+<map id="GPUCA_NAMESPACE::gpu::GPUTPCCFChainContext" name="GPUCA_NAMESPACE::gpu::GPUTPCCFChainContext">
+<area shape="rect" id="node3" href="$da/d95/structo2_1_1tpc_1_1ClusterNativeAccess.html" title="{o2::tpc::ClusterNativeAccess\n||+ setOffsetPtrs()\l+ setOffsetPtrs()\l}" alt="" coords="93,197,288,289"/>
+<area shape="rect" id="node7" href="$d5/d77/structGPUCA__NAMESPACE_1_1gpu_1_1GPUTPCCFChainContext_1_1PtrSave.html" title="{GPUCA_NAMESPACE::gpu\l::GPUTPCCFChainContext\l::PtrSave\n||}" alt="" coords="429,454,619,561"/>
+<area shape="rect" id="node8" href="$da/d0d/structGPUCA__NAMESPACE_1_1gpu_1_1GPUTPCClusterFinder_1_1ZSOffset.html" title="{GPUCA_NAMESPACE::gpu\l::GPUTPCClusterFinder\l::ZSOffset\n||}" alt="" coords="429,189,619,296"/>
+<area shape="rect" id="node10" href="$db/d3d/structGPUCA__NAMESPACE_1_1gpu_1_1CfFragment.html" title="{GPUCA_NAMESPACE::gpu\l::CfFragment\n||+ GPUdDefault()\l+ GPUd()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l}" alt="" coords="957,432,1147,583"/>
+<area shape="rect" id="node11" href="$dc/d10/classshort.html" title="{short\n||}" alt="" coords="1015,204,1065,281"/>
+</map>

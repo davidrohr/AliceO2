@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GPUCA_NAMESPACE::gpu\l::GPUFakeEmpty",height=0.2,width=0.4,color="black",URL="$d7/ddf/classGPUCA__NAMESPACE_1_1gpu_1_1GPUFakeEmpty.html"];
+}

@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/QC/include/MIDQC/GBTRawDataChecker.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/QC/include/MIDQC/GBTRawDataChecker.h">
+<area shape="rect" id="node8" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="255,124,463,151"/>
+<area shape="rect" id="node15" href="$d8/de7/ElectronicsDelay_8h.html" title="Delay parameters for MID electronics. " alt="" coords="538,124,726,151"/>
+<area shape="rect" id="node17" href="$d3/d4a/LocalBoardRO_8h.html" title="Structure to store the FEE local board information. " alt="" coords="685,206,859,233"/>
+<area shape="rect" id="node9" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="253,199,462,240"/>
+<area shape="rect" id="node10" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="5,288,163,315"/>
+<area shape="rect" id="node14" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="269,288,507,315"/>
+</map>

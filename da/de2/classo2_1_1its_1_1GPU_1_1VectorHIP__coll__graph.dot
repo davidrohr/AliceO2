@@ -1,0 +1,8 @@
+digraph "o2::its::GPU::VectorHIP&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node8 [label="{o2::its::GPU::VectorHIP\< T \>\n||+ VectorHIP()\l+ VectorHIP()\l+ VectorHIP()\l+ GPUhd()\l+ VectorHIP()\l+ operator=()\l+ GPUhd()\l+ operator=()\l+ getSizeFromDevice()\l+ getElementFromDevice()\l+ resize()\l+ reset()\l+ reset()\l+ copyIntoVector()\l+ copyIntoSizedVector()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUd()\l+ GPUhd()\l+ GPUd()\l# destroy()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

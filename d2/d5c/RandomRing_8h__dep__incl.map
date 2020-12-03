@@ -1,0 +1,61 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Common/MathUtils/include/MathUtils/RandomRing.h" name="/home/runner/work/AliceO2/AliceO2/Common/MathUtils/include/MathUtils/RandomRing.h">
+<area shape="rect" id="node2" href="$d3/d51/FIT_2FDD_2simulation_2include_2FDDSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/include\l/FDDSimulation/Digitizer.h" alt="" coords="2462,109,2642,180"/>
+<area shape="rect" id="node5" href="$da/d10/FIT_2FT0_2simulation_2include_2FT0Simulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/include\l/FT0Simulation/Digitizer.h" alt="" coords="3155,109,3335,180"/>
+<area shape="rect" id="node8" href="$d6/d82/FIT_2FV0_2simulation_2include_2FV0Simulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/simulation/include\l/FV0Simulation/Digitizer.h" alt="" coords="3494,109,3674,180"/>
+<area shape="rect" id="node11" href="$d2/da8/ElectronTransport_8h.html" title="Definition of the electron transport. " alt="" coords="167,109,390,180"/>
+<area shape="rect" id="node15" href="$d9/d79/GEMAmplification_8h.html" title="Definition of the GEM amplification. " alt="" coords="987,347,1210,417"/>
+<area shape="rect" id="node19" href="$d0/d45/SAMPAProcessing_8h.html" title="Definition of the SAMPA response. " alt="" coords="1334,109,1556,180"/>
+<area shape="rect" id="node31" href="$d4/dae/TRD_2simulation_2include_2TRDSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/Digitizer.h" alt="" coords="2666,109,2888,180"/>
+<area shape="rect" id="node41" href="$df/dff/InteractionSampler_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/InteractionSampler.h" alt="" coords="4752,117,4933,173"/>
+<area shape="rect" id="node3" href="$d0/d8c/FIT_2FDD_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Digitizer.cxx" alt="" coords="2177,235,2393,291"/>
+<area shape="rect" id="node4" href="$d2/d97/FDDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx" alt="" coords="2967,354,3182,410"/>
+<area shape="rect" id="node6" href="$de/dd9/FIT_2FT0_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/src/Digitizer.cxx" alt="" coords="3140,235,3350,291"/>
+<area shape="rect" id="node7" href="$d4/dfd/FT0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitizerSpec.cxx" alt="" coords="3466,354,3680,410"/>
+<area shape="rect" id="node9" href="$da/d9b/FIT_2FV0_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/simulation/src/Digitizer.cxx" alt="" coords="3478,235,3690,291"/>
+<area shape="rect" id="node10" href="$d0/d1c/FV0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FV0DigitizerSpec.cxx" alt="" coords="3704,354,3919,410"/>
+<area shape="rect" id="node12" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="670,703,854,759"/>
+<area shape="rect" id="node13" href="$d1/d98/ElectronTransport_8cxx.html" title="Implementation of the electron transport. " alt="" coords="283,235,522,291"/>
+<area shape="rect" id="node14" href="$d4/d82/testTPCElectronTransport_8cxx.html" title="This task tests the ElectronTransport module of the TPC digitization. " alt="" coords="47,228,259,299"/>
+<area shape="rect" id="node16" href="$db/d6c/GEMAmplification_8cxx.html" title="Implementation of the GEM amplification. " alt="" coords="598,473,839,529"/>
+<area shape="rect" id="node17" href="$d5/d97/testTPCGEMAmplification_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCGEMAmplification.cxx" alt="" coords="863,473,1158,529"/>
+<area shape="rect" id="node18" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1817,473,2033,529"/>
+<area shape="rect" id="node20" href="$d5/dcb/DigitGlobalPad_8h.html" title="Definition of the GlobalPad container. " alt="" coords="1334,228,1556,299"/>
+<area shape="rect" id="node24" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="1687,703,1902,759"/>
+<area shape="rect" id="node26" href="$dd/d5e/testTPCDigitContainer_8cxx.html" title="This task tests the DigitContainer of the TPC digitization. " alt="" coords="996,591,1268,647"/>
+<area shape="rect" id="node29" href="$d1/dd8/SAMPAProcessing_8cxx.html" title="Implementation of the SAMPA response. " alt="" coords="1580,235,1828,291"/>
+<area shape="rect" id="node30" href="$d0/d5c/testTPCSAMPAProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCSAMPAProcessing.cxx" alt="" coords="1852,235,2153,291"/>
+<area shape="rect" id="node21" href="$d0/d60/DigitTime_8h.html" title="Definition of the Time Bin container. " alt="" coords="1334,347,1556,417"/>
+<area shape="rect" id="node28" href="$d1/ddd/DigitGlobalPad_8cxx.html" title="Implementation of the Pad container. " alt="" coords="1580,354,1803,410"/>
+<area shape="rect" id="node22" href="$dd/d94/DigitContainer_8h.html" title="Definition of the Digit Container. " alt="" coords="1291,465,1514,536"/>
+<area shape="rect" id="node27" href="$dd/dcd/DigitTime_8cxx.html" title="Implementation of the Time Bin container. " alt="" coords="1588,473,1780,529"/>
+<area shape="rect" id="node23" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="1291,584,1514,655"/>
+<area shape="rect" id="node25" href="$df/d53/DigitContainer_8cxx.html" title="Implementation of the Digit Container. " alt="" coords="1538,591,1757,647"/>
+<area shape="rect" id="node32" href="$d7/d42/TrapSimulator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/TrapSimulator.h" alt="" coords="2467,228,2690,299"/>
+<area shape="rect" id="node34" href="$da/deb/TrapSimulator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapSimulator.cxx" alt="" coords="1839,354,2056,410"/>
+<area shape="rect" id="node36" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="2490,473,2758,529"/>
+<area shape="rect" id="node38" href="$d7/da6/TRDDigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitReaderSpec.cxx" alt="" coords="2686,354,2942,410"/>
+<area shape="rect" id="node39" href="$d7/d40/TRD_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/Digitizer.cxx" alt="" coords="2916,235,3100,291"/>
+<area shape="rect" id="node40" href="$d6/df2/TRDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitizerSpec.cxx" alt="" coords="3206,354,3441,410"/>
+<area shape="rect" id="node33" href="$db/dc3/TrapConfigHandler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapConfigHandler.cxx" alt="" coords="2316,354,2561,410"/>
+<area shape="rect" id="node35" href="$dc/d96/TRDTrapSimulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrapSimulatorSpec.h" alt="" coords="2081,347,2292,417"/>
+<area shape="rect" id="node37" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="2064,465,2308,536"/>
+<area shape="rect" id="node42" href="$dd/d85/testHBFUtils_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/test/testHBFUtils.cxx" alt="" coords="4867,235,5047,291"/>
+<area shape="rect" id="node43" href="$d3/d09/testRawReaderWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/test/testRawReaderWriter.cxx" alt="" coords="5072,235,5274,291"/>
+<area shape="rect" id="node44" href="$db/d50/O2HitMerger_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h" alt="" coords="4636,243,4819,284"/>
+<area shape="rect" id="node46" href="$d3/d13/SimReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimReaderSpec.cxx" alt="" coords="3943,354,4158,410"/>
+<area shape="rect" id="node47" href="$dd/d40/HitProcessingManager_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/HitProcessingManager.h" alt="" coords="4408,235,4612,291"/>
+<area shape="rect" id="node59" href="$de/d50/InteractionSampler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/Interaction\lSampler.cxx" alt="" coords="5298,235,5493,291"/>
+<area shape="rect" id="node60" href="$d6/d9e/testInteractionSampler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/test/testInteraction\lSampler.cxx" alt="" coords="5518,235,5738,291"/>
+<area shape="rect" id="node45" href="$d9/d16/O2HitMergerRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx" alt="" coords="6936,361,7175,403"/>
+<area shape="rect" id="node48" href="$da/dfe/CPVDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.cxx" alt="" coords="4284,354,4499,410"/>
+<area shape="rect" id="node49" href="$d5/d9b/EMCALDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/EMCALDigitizerSpec.cxx" alt="" coords="4523,354,4738,410"/>
+<area shape="rect" id="node50" href="$d8/d00/HMPIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/HMPIDDigitizerSpec.cxx" alt="" coords="4762,354,4976,410"/>
+<area shape="rect" id="node51" href="$d3/d43/ITSMFTDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ITSMFTDigitizerSpec.cxx" alt="" coords="5000,354,5215,410"/>
+<area shape="rect" id="node52" href="$db/d2f/MCHDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitizerSpec.cxx" alt="" coords="5239,354,5454,410"/>
+<area shape="rect" id="node53" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="5478,354,5692,410"/>
+<area shape="rect" id="node54" href="$db/d77/PHOSDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitizerSpec.cxx" alt="" coords="5716,354,5931,410"/>
+<area shape="rect" id="node55" href="$d6/d61/TOFDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TOFDigitizerSpec.cxx" alt="" coords="5955,354,6170,410"/>
+<area shape="rect" id="node56" href="$d1/d1a/ZDCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ZDCDigitizerSpec.cxx" alt="" coords="6194,354,6408,410"/>
+<area shape="rect" id="node57" href="$d6/d0b/HitProcessingManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/HitProcessing\lManager.cxx" alt="" coords="6432,354,6647,410"/>
+<area shape="rect" id="node58" href="$d7/d6d/testHitProcessingManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/test/testHitProcessing\lManager.cxx" alt="" coords="6671,354,6912,410"/>
+</map>

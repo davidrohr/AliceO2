@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::framework::CallbackRegistry\l\< Id, RegistryPair\< Id, Id\l::Start, StartCallback \>, RegistryPair\l\< Id, Id::Stop, StopCallback \>, RegistryPair\l\< Id, Id::Reset, ResetCallback \>, RegistryPair\l\< Id, Id::Idle, IdleCallback \>, RegistryPair\l\< Id, Id::ClockTick, ClockTickCallback \>, RegistryPair\l\< Id, Id::EndOfStream, EndOfStreamCallback \>, RegistryPair\l\< Id, Id::RegionInfoCallback, RegionInfoCallback \> \>",height=0.2,width=0.4,color="black",URL="$db/d9d/classo2_1_1framework_1_1CallbackRegistry.html"];
+}

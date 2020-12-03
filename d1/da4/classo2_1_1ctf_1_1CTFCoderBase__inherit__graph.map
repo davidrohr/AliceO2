@@ -1,0 +1,11 @@
+<map id="o2::ctf::CTFCoderBase" name="o2::ctf::CTFCoderBase">
+<area shape="rect" id="node2" href="$dd/d89/classo2_1_1emcal_1_1CTFCoder.html" title="{o2::emcal::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l}" alt="" coords="5,299,153,435"/>
+<area shape="rect" id="node3" href="$dc/dd0/classo2_1_1fdd_1_1CTFCoder.html" title="{o2::fdd::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l}" alt="" coords="178,299,309,435"/>
+<area shape="rect" id="node4" href="$d1/df2/classo2_1_1ft0_1_1CTFCoder.html" title="{o2::ft0::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l}" alt="" coords="333,299,461,435"/>
+<area shape="rect" id="node5" href="$d5/ddc/classo2_1_1fv0_1_1CTFCoder.html" title="{o2::fv0::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l}" alt="" coords="485,299,615,435"/>
+<area shape="rect" id="node6" href="$d0/d32/classo2_1_1itsmft_1_1CTFCoder.html" title="{o2::itsmft::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l# ClassDefNV()\l}" alt="" coords="639,292,786,443"/>
+<area shape="rect" id="node7" href="$df/d51/classo2_1_1mid_1_1CTFCoder.html" title="{o2::mid::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l}" alt="" coords="811,299,945,435"/>
+<area shape="rect" id="node8" href="$df/db6/classo2_1_1phos_1_1CTFCoder.html" title="{o2::phos::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l}" alt="" coords="970,299,1111,435"/>
+<area shape="rect" id="node9" href="$da/d9a/classo2_1_1tof_1_1CTFCoder.html" title="{o2::tof::CTFCoder\n||+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l# ClassDefNV()\l}" alt="" coords="1135,292,1263,443"/>
+<area shape="rect" id="node10" href="$d4/d75/classo2_1_1tpc_1_1CTFCoder.html" title="{o2::tpc::CTFCoder\n|+ Alignment\l|+ CTFCoder()\l+ ~CTFCoder()\l+ encode()\l+ decode()\l+ createCoders()\l+ estimateCompressedSize()\l+ getCombineColumns()\l+ setCombineColumns()\l+ estimateSize()\l+ setCompClusAddresses()\l+ alignSize()\l+ setAlignedPtr()\l}" alt="" coords="1287,248,1479,487"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="o2::trd::PadCalibrations&lt; T &gt;" name="o2::trd::PadCalibrations&lt; T &gt;">
+<area shape="rect" id="node2" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="{o2::trd::PadCalibrations\l\&lt; float \&gt;\n|# mreadOutChamber\l|+ PadCalibrations()\l+ ~PadCalibrations()\l+ getNChannels()\l+ getChamberPads()\l+ getValue()\l+ getPadValue()\l+ setPadValue()\l+ setPadValue()\l+ reset()\l+ init()\l}" alt="" coords="317,277,475,501"/>
+<area shape="rect" id="node7" href="$da/dcc/classo2_1_1trd_1_1PadCalibrations.html" title="{o2::trd::PadCalibrations\l\&lt; char \&gt;\n|# mreadOutChamber\l|+ PadCalibrations()\l+ ~PadCalibrations()\l+ getNChannels()\l+ getChamberPads()\l+ getValue()\l+ getPadValue()\l+ setPadValue()\l+ setPadValue()\l+ reset()\l+ init()\l}" alt="" coords="595,277,754,501"/>
+<area shape="rect" id="node3" href="$d6/db0/classo2_1_1trd_1_1LocalGainFactor.html" title="{o2::trd::LocalGainFactor\n||+ ~LocalGainFactor()\l}" alt="" coords="5,639,168,716"/>
+<area shape="rect" id="node4" href="$d5/d64/classo2_1_1trd_1_1LocalT0.html" title="{o2::trd::LocalT0\n||+ ~LocalT0()\l}" alt="" coords="193,639,306,716"/>
+<area shape="rect" id="node5" href="$d9/d2f/classo2_1_1trd_1_1LocalVDrift.html" title="{o2::trd::LocalVDrift\n||+ ~LocalVDrift()\l}" alt="" coords="330,639,462,716"/>
+<area shape="rect" id="node6" href="$db/d98/classo2_1_1trd_1_1PadNoise.html" title="{o2::trd::PadNoise\n||+ ~PadNoise()\l}" alt="" coords="486,639,610,716"/>
+<area shape="rect" id="node8" href="$d9/dce/classo2_1_1trd_1_1PadStatus.html" title="{o2::trd::PadStatus\n||+ ~PadStatus()\l+ isMasked()\l+ isBridgedLeft()\l+ isBridgedRight()\l+ isNotConnected()\l+ getNrows()\l+ getNcols()\l+ getChannel()\l+ getNChannels()\l+ getStatus()\l+ getStatus()\l+ setStatus()\l+ setStatus()\l}" alt="" coords="635,551,771,804"/>
+</map>

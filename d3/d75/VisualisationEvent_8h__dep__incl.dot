@@ -1,0 +1,53 @@
+digraph "/home/runner/work/AliceO2/AliceO2/EventVisualisation/DataConverter/include/EventVisualisationDataConverter/VisualisationEvent.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/DataConverter/include/EventVisualisation\lDataConverter/VisualisationEvent.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/include/EventVisualisationBase\l/DataInterpreter.h",height=0.2,width=0.4,color="black",URL="$dd/dbf/DataInterpreter_8h.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/src/DataInterpreter.cxx",height=0.2,width=0.4,color="black",URL="$d5/d0c/DataInterpreter_8cxx.html"];
+  Node11 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/include/EventVisualisation\lDetectors/DataInterpreterITS.h",height=0.2,width=0.4,color="black",URL="$d9/d95/DataInterpreterITS_8h.html",tooltip="converting ITS data to Event Visualisation primitives "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/src/DataInterpreterITS.cxx",height=0.2,width=0.4,color="black",URL="$d2/d8a/DataInterpreterITS_8cxx.html",tooltip="converting ITS data to Event Visualisation primitives "];
+  Node13 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/Initializer.cxx",height=0.2,width=0.4,color="black",URL="$df/d2a/Initializer_8cxx.html"];
+  Node11 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/include/EventVisualisation\lDetectors/DataInterpreterTPC.h",height=0.2,width=0.4,color="black",URL="$dc/df2/DataInterpreterTPC_8h.html",tooltip="converting TPC data to Event Visualisation primitives "];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/src/DataInterpreterTPC.cxx",height=0.2,width=0.4,color="black",URL="$d5/df5/DataInterpreterTPC_8cxx.html",tooltip="converting TPC data to Event Visualisation primitives "];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/include/EventVisualisation\lDetectors/DataInterpreterVSD.h",height=0.2,width=0.4,color="black",URL="$d2/d21/DataInterpreterVSD_8h.html",tooltip="converting VSD data to Event Visualisation primitives "];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/src/DataInterpreterVSD.cxx",height=0.2,width=0.4,color="black",URL="$de/df8/DataInterpreterVSD_8cxx.html",tooltip="converting VSD data to Event Visualisation primitives "];
+  Node11 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/EventManager.h",height=0.2,width=0.4,color="black",URL="$d8/d25/EventManager_8h.html"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/EventManagerFrame.h",height=0.2,width=0.4,color="black",URL="$d9/d30/EventManagerFrame_8h.html",tooltip="GUI (bottom buttons) for visualisation. "];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/EventManagerFrame.cxx",height=0.2,width=0.4,color="black",URL="$d0/dc0/EventManagerFrame_8cxx.html",tooltip="GUI (bottom buttons) for visualisation. "];
+  Node21 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/Initializer.h",height=0.2,width=0.4,color="black",URL="$d8/df3/Initializer_8h.html"];
+  Node23 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/main.cxx",height=0.2,width=0.4,color="black",URL="$d5/d40/main_8cxx.html"];
+  Node20 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/EventManager.cxx",height=0.2,width=0.4,color="black",URL="$dd/d21/EventManager_8cxx.html"];
+  Node20 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/MultiView.cxx",height=0.2,width=0.4,color="black",URL="$da/d7a/MultiView_8cxx.html"];
+  Node11 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/DataConverter/src/VisualisationEvent.cxx",height=0.2,width=0.4,color="black",URL="$d5/d73/VisualisationEvent_8cxx.html"];
+  Node10 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

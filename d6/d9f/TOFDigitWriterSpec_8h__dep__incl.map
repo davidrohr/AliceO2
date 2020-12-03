@@ -1,0 +1,5 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFDigitWriterSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/workflow/include/TOFWorkflowUtils/TOFDigitWriterSpec.h">
+<area shape="rect" id="node2" href="$da/dfd/tof-reco-workflow_8cxx.html" title="Basic DPL workflow for TOF reconstruction starting from digits. " alt="" coords="5,124,229,195"/>
+<area shape="rect" id="node3" href="$d1/d80/TOFDigitWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/workflow/src/TOFDigitWriterSpec.cxx" alt="" coords="253,131,499,187"/>
+<area shape="rect" id="node4" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="524,131,740,187"/>
+</map>

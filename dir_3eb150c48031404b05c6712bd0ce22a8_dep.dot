@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Base/hip/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_236e6b352f5b490d1495933397d231fa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="hip" fontname="Helvetica", fontsize="10", URL="dir_236e6b352f5b490d1495933397d231fa.html"]
+  dir_3eb150c48031404b05c6712bd0ce22a8 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_3eb150c48031404b05c6712bd0ce22a8.html"];
+  }
+  dir_ba48ca66118492a4424f86e9da0f6902 [shape=box label="Common" URL="dir_ba48ca66118492a4424f86e9da0f6902.html"];
+  dir_3eb150c48031404b05c6712bd0ce22a8->dir_ba48ca66118492a4424f86e9da0f6902 [headlabel="1", labeldistance=1.5 headhref="dir_000789_000784.html"];
+}

@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/include/TRDSimulation/Detector.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/include/TRDSimulation/Detector.h">
+<area shape="rect" id="node2" href="$d4/dae/TRD_2simulation_2include_2TRDSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/Digitizer.h" alt="" coords="391,124,614,195"/>
+<area shape="rect" id="node7" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="158,487,426,543"/>
+<area shape="rect" id="node10" href="$d7/da6/TRDDigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitReaderSpec.cxx" alt="" coords="1043,369,1299,425"/>
+<area shape="rect" id="node12" href="$d6/df2/TRDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitizerSpec.cxx" alt="" coords="688,250,923,306"/>
+<area shape="rect" id="node13" href="$da/d16/TRD_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/Detector.cxx" alt="" coords="997,131,1184,187"/>
+<area shape="rect" id="node14" href="$db/d50/O2HitMerger_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h" alt="" coords="1209,139,1391,180"/>
+<area shape="rect" id="node3" href="$d7/d42/TrapSimulator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/TrapSimulator.h" alt="" coords="391,243,614,313"/>
+<area shape="rect" id="node5" href="$da/deb/TrapSimulator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapSimulator.cxx" alt="" coords="246,369,463,425"/>
+<area shape="rect" id="node11" href="$d7/d40/TRD_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/Digitizer.cxx" alt="" coords="35,250,219,306"/>
+<area shape="rect" id="node4" href="$db/dc3/TrapConfigHandler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapConfigHandler.cxx" alt="" coords="773,369,1019,425"/>
+<area shape="rect" id="node6" href="$dc/d96/TRDTrapSimulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrapSimulatorSpec.h" alt="" coords="539,361,749,432"/>
+<area shape="rect" id="node8" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="734,480,978,551"/>
+<area shape="rect" id="node9" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="493,487,709,543"/>
+<area shape="rect" id="node15" href="$d9/d16/O2HitMergerRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx" alt="" coords="1181,257,1419,299"/>
+</map>

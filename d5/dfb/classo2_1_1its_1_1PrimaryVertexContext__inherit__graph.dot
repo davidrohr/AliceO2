@@ -1,0 +1,10 @@
+digraph "o2::its::PrimaryVertexContext"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::its::PrimaryVertexContext\n|+ mIndexTableUtils\l# mPrimaryVertex\l# mMinR\l# mMaxR\l# mClusters\l# mUsedClusters\l# mCells\l# mCellsLookupTable\l# mCellsNeighbours\l# mRoads\l# mIndexTables\l# mTracklets\l# mTrackletsLookupTable\l# mRoadLabels\l|+ PrimaryVertexContext()\l+ ~PrimaryVertexContext()\l+ PrimaryVertexContext()\l+ operator=()\l+ initialise()\l+ getPrimaryVertex()\l+ getClusters()\l+ getCells()\l+ getCellsLookupTable()\l+ getCellsNeighbours()\l+ getRoads()\l+ getMinR()\l+ getMaxR()\l+ isClusterUsed()\l+ markUsedCluster()\l+ getIndexTables()\l+ getTracklets()\l+ getTrackletsLookupTable()\l+ initialiseRoadLabels()\l+ setRoadLabel()\l+ getRoadLabel()\l+ isRoadFake()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::its::PrimaryVertexContextNV\n||+ PrimaryVertexContextNV()\l+ ~PrimaryVertexContextNV()\l+ initialise()\l+ getDeviceContext()\l+ getDeviceClusters()\l+ getDeviceTracklets()\l+ getDeviceTrackletsLookup\lTable()\l+ getDeviceTrackletsPerClusters\lTable()\l+ getDeviceCells()\l+ getDeviceCellsLookupTable()\l+ getDeviceCellsPerTracklet\lTable()\l+ getTempTableArray()\l+ getTempTrackletArray()\l+ getTempCellArray()\l+ updateDeviceContext()\l}",height=0.2,width=0.4,color="black",URL="$d4/d9d/classo2_1_1its_1_1PrimaryVertexContextNV.html"];
+}

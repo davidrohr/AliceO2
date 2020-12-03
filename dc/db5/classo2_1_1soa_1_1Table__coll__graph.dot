@@ -1,0 +1,8 @@
+digraph "o2::soa::Table&lt; C &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{o2::soa::Table\< C \>\n||+ Table()\l+ Table()\l+ begin()\l+ end()\l+ filtered_begin()\l+ iteratorAt()\l+ begin()\l+ end()\l+ asArrowTable()\l+ offset()\l+ size()\l+ tableSize()\l+ bindExternalIndices()\l+ select()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

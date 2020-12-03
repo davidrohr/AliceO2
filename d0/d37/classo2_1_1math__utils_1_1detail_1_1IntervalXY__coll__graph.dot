@@ -1,0 +1,8 @@
+digraph "o2::math_utils::detail::IntervalXY&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::math_utils::detail\l::IntervalXY\< T \>\n||+ IntervalXY()\l+ getX0()\l+ getY0()\l+ getX0()\l+ getY0()\l+ getX1()\l+ getY1()\l+ getDX()\l+ getDY()\l+ getDX()\l+ getDY()\l+ setX0()\l+ setY0()\l+ setX1()\l+ setY1()\l+ setDX()\l+ setDY()\l+ setEdges()\l+ eval()\l+ eval()\l+ getLineCoefs()\l+ seenByCircle()\l+ circleCrossParam()\l+ seenByLine()\l+ lineCrossParam()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

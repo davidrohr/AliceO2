@@ -1,0 +1,8 @@
+digraph "o2::event_visualisation::VisualisationEvent"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::event_visualisation\l::VisualisationEvent\n||+ VisualisationEvent()\l+ addTrack()\l+ addCluster()\l+ GetMultiplicity()\l+ getTrack()\l+ getTrackCount()\l+ getCluster()\l+ getClusterCount()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,21 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Workflow/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_541a9f579a56d3c8f641580c9f97913d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Workflow" fontname="Helvetica", fontsize="10", URL="dir_541a9f579a56d3c8f641580c9f97913d.html"]
+  subgraph clusterdir_2bb5eb61d33140858f79122ad9ee2c7f {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_2bb5eb61d33140858f79122ad9ee2c7f.html"];
+    dir_2bb5eb61d33140858f79122ad9ee2c7f [shape=plaintext label="include"];
+    dir_8da4417866e9b101c8c6992e70f49dba [shape=box label="MIDWorkflow" color="black" fillcolor="white" style="filled" URL="dir_8da4417866e9b101c8c6992e70f49dba.html"];
+  }
+  }
+  dir_55bb03bc4479a61c5f6db133927cb48c [shape=box label="Raw" color="red" URL="dir_55bb03bc4479a61c5f6db133927cb48c.html"];
+  dir_ec47f4617e2325ef786d87078c97382a [shape=box label="CTF" color="red" URL="dir_ec47f4617e2325ef786d87078c97382a.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_55bb03bc4479a61c5f6db133927cb48c->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="7", labeldistance=1.5 headhref="dir_000642_000062.html"];
+  dir_8da4417866e9b101c8c6992e70f49dba->dir_55bb03bc4479a61c5f6db133927cb48c [headlabel="3", labeldistance=1.5 headhref="dir_000427_000642.html"];
+  dir_8da4417866e9b101c8c6992e70f49dba->dir_ec47f4617e2325ef786d87078c97382a [headlabel="2", labeldistance=1.5 headhref="dir_000427_000486.html"];
+  dir_8da4417866e9b101c8c6992e70f49dba->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="13", labeldistance=1.5 headhref="dir_000427_000062.html"];
+}

@@ -1,0 +1,7 @@
+<map id="cascadeinitializer" name="cascadeinitializer">
+<area shape="rect" id="node2" href="$d7/d15/structo2_1_1framework_1_1Spawns.html" title="{o2::framework::Spawns\l\&lt; aod::CascDataExt \&gt;\n||+ pack()\l+ operator&#45;\&gt;()\l+ operator*()\l+ asArrowTable()\l}" alt="" coords="228,943,388,1079"/>
+<area shape="rect" id="node3" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="{o2::framework::TableTransform\l\&lt; aod::MetadataTrait\&lt; framework\l::pack_head_t\&lt; aod::CascDataExt\l ::originals \&gt; \&gt;::metadata \&gt;\n||+ sources_pack()\l+ base_spec()\l+ base_specs_impl()\l+ base_specs()\l+ spec()\l+ output()\l+ ref()\l}" alt="" coords="5,525,229,735"/>
+<area shape="rect" id="node4" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="Helper template for table transformations. " alt="" coords="107,5,311,185"/>
+<area shape="rect" id="node8" href="$d6/dec/structo2_1_1framework_1_1TableTransform.html" title="{o2::framework::TableTransform\l\&lt; aod::MetadataTrait\&lt; framework\l::pack_head_t\&lt; T::originals \&gt;\l \&gt;::metadata \&gt;\n||+ sources_pack()\l+ base_spec()\l+ base_specs_impl()\l+ base_specs()\l+ spec()\l+ output()\l+ ref()\l}" alt="" coords="537,292,753,501"/>
+<area shape="rect" id="node7" href="$d7/d15/structo2_1_1framework_1_1Spawns.html" title="{o2::framework::Spawns\&lt; T \&gt;\n||+ pack()\l+ operator&#45;\&gt;()\l+ operator*()\l+ asArrowTable()\l}" alt="" coords="343,759,535,880"/>
+</map>

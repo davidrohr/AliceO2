@@ -1,0 +1,10 @@
+digraph "o2::framework::is_container&lt; T, std::conditional_t&lt; false, class_member_checker&lt; typename T::value_type, typename T::size_type, typename T::allocator_type, typename T::iterator, typename T::const_iterator, decltype(std::declval&lt; T &gt;().size()), decltype(std::declval&lt; T &gt;().begin()), decltype(std::declval&lt; T &gt;().end()), decltype(std::declval&lt; T &gt;().cbegin()), decltype(std::declval&lt; T &gt;().cend())&gt;, void &gt; &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::framework::is_container\l\< T, std::conditional_t\l\< false, class_member_checker\l\< typename T::value_type, typename\l T::size_type, typename T::allocator\l_type, typename T::iterator, typename\l T::const_iterator, decltype(std::declval\l\< T \>().size()), decltype(std::declval\<\l T \>().begin()), decltype(std::declval\< T\l \>().end()), decltype(std::declval\< T \>().cbegin\l()), decltype(std::declval\< T \>().cend())\>, void \> \>\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{true_type\n||}",height=0.2,width=0.4,color="grey75"];
+}

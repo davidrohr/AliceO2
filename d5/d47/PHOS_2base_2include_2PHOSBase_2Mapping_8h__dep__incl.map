@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/base/include/PHOSBase/Mapping.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/base/include/PHOSBase/Mapping.h">
+<area shape="rect" id="node2" href="$d2/d5b/PHOS_2base_2src_2Mapping_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/base/src/Mapping.cxx" alt="" coords="173,117,353,173"/>
+<area shape="rect" id="node3" href="$d4/ddc/PHOS_2simulation_2include_2PHOSSimulation_2RawWriter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/include/PHOSSimulation\l/RawWriter.h" alt="" coords="377,109,611,180"/>
+<area shape="rect" id="node9" href="$d7/da1/PHOS_2workflow_2include_2PHOSWorkflow_2RawToCellConverterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/RawToCellConverterSpec.h" alt="" coords="657,109,877,180"/>
+<area shape="rect" id="node10" href="$d9/d48/PHOS_2workflow_2src_2RawToCellConverterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RawToCellConverter\lSpec.cxx" alt="" coords="805,228,1031,299"/>
+<area shape="rect" id="node4" href="$dd/d69/PHOS_2simulation_2src_2RawCreator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/RawCreator.cxx" alt="" coords="5,235,212,291"/>
+<area shape="rect" id="node5" href="$d2/d55/PHOS_2simulation_2src_2RawWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/RawWriter.cxx" alt="" coords="236,235,435,291"/>
+<area shape="rect" id="node6" href="$d7/df2/PHOS_2workflow_2include_2PHOSWorkflow_2RawWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/RawWriterSpec.h" alt="" coords="509,228,729,299"/>
+<area shape="rect" id="node7" href="$df/d39/PHOS_2workflow_2src_2RawWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RawWriterSpec.cxx" alt="" coords="387,347,609,403"/>
+<area shape="rect" id="node8" href="$d8/d7e/PHOS_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RecoWorkflow.cxx" alt="" coords="647,347,861,403"/>
+</map>

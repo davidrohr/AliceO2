@@ -1,0 +1,4 @@
+<map id="o2::trd::TrapConfig::TrapValue" name="o2::trd::TrapConfig::TrapValue">
+<area shape="rect" id="node2" href="$da/d4a/classo2_1_1trd_1_1TrapConfig_1_1TrapDmemWord.html" title="{o2::trd::TrapConfig\l::TrapDmemWord\n|# mName\l# mAddr\l|+ TrapDmemWord()\l+ ~TrapDmemWord()\l+ reset()\l+ setValue()\l+ setValue()\l+ getValue()\l+ setAddress()\l+ getName()\l+ getAddress()\l# TrapDmemWord()\l# operator=()\l# ClassDefNV()\l}" alt="" coords="5,373,152,641"/>
+<area shape="rect" id="node3" href="$d6/d43/classo2_1_1trd_1_1TrapConfig_1_1TrapRegister.html" title="{o2::trd::TrapConfig\l::TrapRegister\n|# mName\l# mAddr\l# mNbits\l# mResetValue\l|+ TrapRegister()\l+ ~TrapRegister()\l+ init()\l+ initfromrun2()\l+ reset()\l+ setValue()\l+ setValue()\l+ getValue()\l+ getName()\l+ getAddr()\l+ getNbits()\l+ getResetValue()\l# TrapRegister()\l# operator=()\l# ClassDefNV()\l}" alt="" coords="176,336,307,677"/>
+</map>

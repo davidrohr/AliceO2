@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_87e4e27fa2128902da5e37b3e7ab3f52 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TPC" fontname="Helvetica", fontsize="10", URL="dir_87e4e27fa2128902da5e37b3e7ab3f52.html"]
+  dir_eefe8374d82063b4a715141da5bc342d [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_eefe8374d82063b4a715141da5bc342d.html"];
+  }
+  dir_6f22cbd49ee75d810f2bfe3ea5accc3c [shape=box label="include" color="red" URL="dir_6f22cbd49ee75d810f2bfe3ea5accc3c.html"];
+  dir_eefe8374d82063b4a715141da5bc342d->dir_6f22cbd49ee75d810f2bfe3ea5accc3c [headlabel="4", labeldistance=1.5 headhref="dir_000265_000144.html"];
+}

@@ -1,0 +1,21 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/Decoder.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/Decoder.h">
+<area shape="rect" id="node6" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="1309,199,1517,225"/>
+<area shape="rect" id="node13" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1032,199,1211,225"/>
+<area shape="rect" id="node31" href="$d7/dd3/CrateMasks_8h.html" title="MID crate masks. " alt="" coords="2175,124,2335,151"/>
+<area shape="rect" id="node32" href="$d2/da5/CrateParameters_8h.html" title="MID RO crate parameters. " alt="" coords="2293,199,2425,225"/>
+<area shape="rect" id="node33" href="$d8/de7/ElectronicsDelay_8h.html" title="Delay parameters for MID electronics. " alt="" coords="1593,199,1781,225"/>
+<area shape="rect" id="node35" href="$d7/dde/FEEIdConfig_8h.html" title="Hardware Id to FeeId mapper. " alt="" coords="2462,124,2626,151"/>
+<area shape="rect" id="node37" href="$de/d24/GBTDecoder_8h.html" title="Class interface for the MID GBT decoder. " alt="" coords="1736,124,1901,151"/>
+<area shape="rect" id="node38" href="$d3/d4a/LocalBoardRO_8h.html" title="Structure to store the FEE local board information. " alt="" coords="1941,199,2115,225"/>
+<area shape="rect" id="node7" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1466,273,1675,315"/>
+<area shape="rect" id="node8" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1135,363,1292,389"/>
+<area shape="rect" id="node12" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="1367,363,1604,389"/>
+<area shape="rect" id="node14" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="284,363,420,389"/>
+<area shape="rect" id="node17" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="922,363,1110,389"/>
+<area shape="rect" id="node18" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="527,281,665,307"/>
+<area shape="rect" id="node21" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="806,281,935,307"/>
+<area shape="rect" id="node15" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="5,437,189,464"/>
+<area shape="rect" id="node16" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="214,437,373,464"/>
+<area shape="rect" id="node22" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="742,363,898,389"/>
+<area shape="rect" id="node29" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="583,437,766,464"/>
+</map>

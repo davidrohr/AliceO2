@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$de/d1a/classo2_1_1its_1_1VertexerTraits.html" title="o2::its::VertexerTraits" alt="" coords="5,31,153,57"/>
+<area shape="rect" id="node2" href="$da/dd6/classo2_1_1its_1_1VertexerTraitsGPU.html" title="o2::its::VertexerTraitsGPU" alt="" coords="201,5,379,32"/>
+<area shape="rect" id="node3" href="$de/da3/classo2_1_1its_1_1VertexerTraitsHIP.html" title="o2::its::VertexerTraitsHIP" alt="" coords="205,56,375,83"/>
+</map>

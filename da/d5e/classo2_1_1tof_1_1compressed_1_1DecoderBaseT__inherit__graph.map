@@ -1,0 +1,6 @@
+<map id="o2::tof::compressed::DecoderBaseT&lt; RDH &gt;" name="o2::tof::compressed::DecoderBaseT&lt; RDH &gt;">
+<area shape="rect" id="node2" href="$dd/d7c/classo2_1_1tof_1_1CompressedDecodingTask.html" title="{o2::tof::CompressedDecodingTask\n||+ CompressedDecodingTask()\l+ ~CompressedDecodingTask()\l+ init()\l+ run()\l+ endOfStream()\l+ postData()\l}" alt="" coords="5,292,231,443"/>
+<area shape="rect" id="node3" href="$db/db0/classo2_1_1tof_1_1CompressedInspectorTask.html" title="{o2::tof::CompressedInspector\lTask\&lt; RDH \&gt;\n||+ CompressedInspectorTask()\l+ ~CompressedInspectorTask()\l+ init()\l+ run()\l}" alt="" coords="255,299,461,435"/>
+<area shape="rect" id="node4" href="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html" title="{o2::tof::compressed\l::DecoderBaseT\&lt; o2::\lheader::RAWDataHeaderV6 \&gt;\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}" alt="" coords="485,263,684,472"/>
+<area shape="rect" id="node5" href="$d1/dfa/classo2_1_1tof_1_1CompressedAnalysis.html" title="{o2::tof::CompressedAnalysis\n||+ CompressedAnalysis()\l+ ~CompressedAnalysis()\l+ initialize()\l+ finalize()\l}" alt="" coords="489,521,680,643"/>
+</map>

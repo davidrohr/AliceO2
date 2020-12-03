@@ -1,0 +1,10 @@
+digraph "o2::zdc::Geometry"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::zdc::Geometry\n|+ ZNFIBRE\l+ ZNSECTORS\l+ ZNDIVISION\l+ ZNAPOSITION\l+ ZPDIMENSION\l+ ZPFIBRE\l+ ZPSECTORS\l+ ZPGROOVES\l+ ZPAPOSITION\l+ ZEMFIBRE\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +ZPFIBREDIAMETER\n+ZNGROOVES\n+ZPCPOSITION\n+ZEMDIMENSION\n+ZEMPOSITION\n+ZNCPOSITION\n+ZEMDIVISION\n+ZNDIMENSION\n+ZPDIVISION\n+ZNFIBREDIAMETER\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+}

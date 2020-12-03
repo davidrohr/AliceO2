@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Parameters/include/DataFormatsParameters/GRPObject.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Parameters/include/DataFormatsParameters/GRPObject.h">
+<area shape="rect" id="node5" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="302,131,540,158"/>
+<area shape="rect" id="node6" href="$da/d58/Units_8h.html" title="Header to collect definitions for different units. " alt="" coords="564,131,721,158"/>
+<area shape="rect" id="node7" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="745,124,953,165"/>
+<area shape="rect" id="node14" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1344,213,1464,240"/>
+<area shape="rect" id="node26" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="495,213,651,240"/>
+<area shape="rect" id="node15" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="1020,288,1187,315"/>
+<area shape="rect" id="node16" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="1262,288,1487,315"/>
+<area shape="rect" id="node18" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="1512,288,1714,315"/>
+<area shape="rect" id="node20" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1482,437,1618,464"/>
+<area shape="rect" id="node23" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="1424,363,1568,389"/>
+<area shape="rect" id="node25" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1643,363,1882,389"/>
+<area shape="rect" id="node21" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1361,512,1545,539"/>
+<area shape="rect" id="node22" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1570,512,1728,539"/>
+<area shape="rect" id="node31" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="410,288,592,315"/>
+</map>

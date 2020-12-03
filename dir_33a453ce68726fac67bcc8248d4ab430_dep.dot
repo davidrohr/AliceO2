@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FV0/base" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_47779a59737632a3da2336a4e8799b86 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="FV0" fontname="Helvetica", fontsize="10", URL="dir_47779a59737632a3da2336a4e8799b86.html"]
+  subgraph clusterdir_33a453ce68726fac67bcc8248d4ab430 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_33a453ce68726fac67bcc8248d4ab430.html"];
+    dir_33a453ce68726fac67bcc8248d4ab430 [shape=plaintext label="base"];
+    dir_98c94a806ecf1bc457b2ac7d4612af07 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_98c94a806ecf1bc457b2ac7d4612af07.html"];
+    dir_eed9b8d4a6168776d7ef7f227d4173e4 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_eed9b8d4a6168776d7ef7f227d4173e4.html"];
+  }
+  }
+  dir_eed9b8d4a6168776d7ef7f227d4173e4->dir_98c94a806ecf1bc457b2ac7d4612af07 [headlabel="1", labeldistance=1.5 headhref="dir_000384_000186.html"];
+}

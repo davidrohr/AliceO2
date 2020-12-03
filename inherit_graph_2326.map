@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d9/d7d/classROOT_1_1RDF_1_1RCombinedDSIndex.html" title="ROOT::RDF::RCombinedDSIndex" alt="" coords="5,111,229,138"/>
+<area shape="rect" id="node2" href="$d3/d75/classROOT_1_1RDF_1_1RCombinedDSBlockJoinIndex.html" title="ROOT::RDF::RCombinedDSBlock\lJoinIndex\&lt; INDEX_TYPE \&gt;" alt="" coords="283,5,509,47"/>
+<area shape="rect" id="node3" href="$dc/df9/classROOT_1_1RDF_1_1RCombinedDSColumnJoinIndex.html" title="ROOT::RDF::RCombinedDSColumn\lJoinIndex\&lt; INDEX_TYPE \&gt;" alt="" coords="277,71,515,112"/>
+<area shape="rect" id="node4" href="$df/d02/classROOT_1_1RDF_1_1RCombinedDSCrossJoinIndex.html" title="ROOT::RDF::RCombinedDSCross\lJoinIndex" alt="" coords="283,136,509,177"/>
+<area shape="rect" id="node5" href="$df/dc7/classROOT_1_1RDF_1_1RCombinedDSFriendIndex.html" title="ROOT::RDF::RCombinedDSFriend\lIndex" alt="" coords="282,201,510,243"/>
+</map>

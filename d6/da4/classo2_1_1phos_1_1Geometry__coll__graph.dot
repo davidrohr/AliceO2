@@ -1,0 +1,8 @@
+digraph "o2::phos::Geometry"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::phos::Geometry\n||+ Geometry()\l+ Geometry()\l+ Geometry()\l+ ~Geometry()\l+ operator=()\l+ GetName()\l+ GetInstance()\l+ GetInstance()\l+ areNeighbours()\l+ relToAbsId()\l+ absToRelNumbering()\l+ absIdToModule()\l+ absIdToRelPosInModule()\l+ relToAbsNumbering()\l+ getTotalNCells()\l+ isCellExists()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

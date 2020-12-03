@@ -1,0 +1,39 @@
+digraph "o2::mergers::MergerConfig"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mergers::MergerConfig\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +publicationDecision" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{o2::mergers::ConfigEntry\l\< PublicationDecision \>\n||}",height=0.2,width=0.4,color="black",URL="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +param" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{double\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +value" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{PublicationDecision\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< PublicationDecision \>" ,fontname="Helvetica"];
+  Node5 [label="{o2::mergers::ConfigEntry\l\< V, P \>\n||}",height=0.2,width=0.4,color="black",URL="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html"];
+  Node6 -> Node5 [color="grey25",fontsize="10",style="solid",label=" +value" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{V\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node5 [color="grey25",fontsize="10",style="solid",label=" +param" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{P\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +topologySize" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{o2::mergers::ConfigEntry\l\< TopologySize, int \>\n||}",height=0.2,width=0.4,color="black",URL="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html"];
+  Node9 -> Node8 [color="grey25",fontsize="10",style="solid",label=" +param" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node8 [color="grey25",fontsize="10",style="solid",label=" +value" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{TopologySize\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node8 [dir="back",color="orange",fontsize="10",style="solid",label=" \< TopologySize, int \>" ,fontname="Helvetica"];
+  Node11 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mergedObjectTimespan" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{o2::mergers::ConfigEntry\l\< MergedObjectTimespan \>\n||}",height=0.2,width=0.4,color="black",URL="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html"];
+  Node3 -> Node11 [color="grey25",fontsize="10",style="solid",label=" +param" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 -> Node11 [color="grey25",fontsize="10",style="solid",label=" +value" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{MergedObjectTimespan\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node11 [dir="back",color="orange",fontsize="10",style="solid",label=" \< MergedObjectTimespan \>" ,fontname="Helvetica"];
+  Node13 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +inputObjectTimespan" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{o2::mergers::ConfigEntry\l\< InputObjectsTimespan \>\n||}",height=0.2,width=0.4,color="black",URL="$d1/d9c/structo2_1_1mergers_1_1ConfigEntry.html"];
+  Node3 -> Node13 [color="grey25",fontsize="10",style="solid",label=" +param" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 -> Node13 [color="grey25",fontsize="10",style="solid",label=" +value" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{InputObjectsTimespan\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node13 [dir="back",color="orange",fontsize="10",style="solid",label=" \< InputObjectsTimespan \>" ,fontname="Helvetica"];
+}

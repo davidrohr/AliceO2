@@ -1,0 +1,3 @@
+<map id="AliHLTHOMERReader" name="AliHLTHOMERReader">
+<area shape="rect" id="node2" href="$db/daf/classAliHLTMonitoringReader.html" title="{AliHLTMonitoringReader\n||+ AliHLTMonitoringReader()\l+ ~AliHLTMonitoringReader()\l+ GetConnectionStatus()\l+ GetErrorConnectionNdx()\l+ ReadNextEvent()\l+ ReadNextEvent()\l+ GetEventType()\l+ GetEventID()\l+ GetBlockCnt()\l+ GetBlockDataLength()\l+ GetBlockData()\l+ GetBlockSendNodeID()\l+ GetBlockByteOrder()\l+ GetBlockTypeAlignment()\l+ GetBlockStatusFlags()\l+ GetBlockDataType()\l+ GetBlockDataOrigin()\l+ GetBlockDataSpec()\l+ FindBlockNdx()\l+ FindBlockNdx()\l}" alt="" coords="22,5,214,361"/>
+</map>

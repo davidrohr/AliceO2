@@ -1,0 +1,15 @@
+<map id="TracksAndEventClassificationQA" name="TracksAndEventClassificationQA">
+<area shape="rect" id="node2" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; o2::analysis::SimpleInclusiveCut \&gt;\n||+ Configurable()\l}" alt="" coords="1389,1069,1626,1161"/>
+<area shape="rect" id="node3" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; o2::analysis\l::SimpleInclusiveCut \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="1322,799,1509,906"/>
+<area shape="rect" id="node4" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; o2::analysis::SimpleInclusiveCut \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="1198,498,1465,590"/>
+<area shape="rect" id="node5" href="$db/dee/classo2_1_1analysis_1_1SimpleInclusiveCut.html" title="{o2::analysis::SimpleInclusiveCut\n||+ SimpleInclusiveCut()\l+ SimpleInclusiveCut()\l+ SimpleInclusiveCut()\l+ ~SimpleInclusiveCut()\l+ operator=()\l}" alt="" coords="1282,211,1495,347"/>
+<area shape="rect" id="node7" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="1465,27,1512,105"/>
+<area shape="rect" id="node9" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; T \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="1519,233,1706,325"/>
+<area shape="rect" id="node14" href="$d4/d79/structo2_1_1framework_1_1OutputObj.html" title="{o2::framework::OutputObj\l\&lt; TH1F \&gt;\n||+ spec()\l+ OutputObj()\l+ OutputObj()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setHash()\l+ operator&#45;\&gt;()\l+ operator*()\l+ ref()\l}" alt="" coords="733,733,905,972"/>
+<area shape="rect" id="node19" href="$da/d96/structo2_1_1framework_1_1InputSpec.html" title="{o2::framework::InputSpec\n||+ InputSpec()\l+ InputSpec()\l+ InputSpec()\l+ InputSpec()\l+ InputSpec()\l+ operator==()\l}" alt="" coords="149,204,321,355"/>
+<area shape="rect" id="node24" href="$d4/d79/structo2_1_1framework_1_1OutputObj.html" title="{o2::framework::OutputObj\&lt; T \&gt;\n||+ OutputObj()\l+ OutputObj()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setHash()\l+ spec()\l+ operator&#45;\&gt;()\l+ operator*()\l+ ref()\l}" alt="" coords="403,432,607,656"/>
+<area shape="rect" id="node11" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; T \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="1489,498,1675,590"/>
+<area shape="rect" id="node12" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; T, IP \&gt;\n||+ Configurable()\l}" alt="" coords="1533,807,1719,899"/>
+<area shape="rect" id="node17" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="349,241,417,318"/>
+<area shape="rect" id="node26" href="$d1/d9a/structo2_1_1framework_1_1expressions_1_1Filter.html" title="A struct, containing the root of the expression tree. " alt="" coords="1696,1062,1879,1169"/>
+</map>

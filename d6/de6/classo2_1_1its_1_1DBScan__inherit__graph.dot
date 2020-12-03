@@ -1,0 +1,10 @@
+digraph "o2::its::DBScan&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::its::DBScan\< T \>\n||+ DBScan()\l+ DBScan()\l+ init()\l+ classifyVertices()\l+ classifyVertices()\l+ classifyVertices()\l+ getStates()\l+ getCores()\l+ computeClusters()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::its::Graph\< T \>\n|+ mVertices\l+ mExecutors\l|+ Graph()\l+ Graph()\l+ init()\l+ getCluster()\l+ getClusterIndices()\l+ getClusterIndices()\l+ computeEdges()\l+ getEdges()\l+ isMultiThreading()\l}",height=0.2,width=0.4,color="black",URL="$dd/d03/classo2_1_1its_1_1Graph.html"];
+}

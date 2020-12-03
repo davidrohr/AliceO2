@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Examples/Ex2" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_03680f297d755c096b0a1ead13ee12b7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Examples" fontname="Helvetica", fontsize="10", URL="dir_03680f297d755c096b0a1ead13ee12b7.html"]
+  subgraph clusterdir_796c6520f78513947d27220245881da4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_796c6520f78513947d27220245881da4.html"];
+    dir_796c6520f78513947d27220245881da4 [shape=plaintext label="Ex2"];
+    dir_f98ba2b03327e5f5a05c754eb2d24163 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_f98ba2b03327e5f5a05c754eb2d24163.html"];
+    dir_8f8ad3270777609d93dfdb52a992386a [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_8f8ad3270777609d93dfdb52a992386a.html"];
+  }
+  }
+  dir_8f8ad3270777609d93dfdb52a992386a->dir_f98ba2b03327e5f5a05c754eb2d24163 [headlabel="1", labeldistance=1.5 headhref="dir_000751_000742.html"];
+}

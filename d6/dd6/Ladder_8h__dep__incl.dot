@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/Ladder.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/include/MFTBase\l/Ladder.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/Flex.cxx",height=0.2,width=0.4,color="black",URL="$d7/d93/Flex_8cxx.html",tooltip="Flex class for ALICE MFT upgrade. "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/HalfDisk.cxx",height=0.2,width=0.4,color="black",URL="$d6/d66/HalfDisk_8cxx.html",tooltip="Class describing geometry of one half of a MFT disk. "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/Ladder.cxx",height=0.2,width=0.4,color="black",URL="$dc/d80/Ladder_8cxx.html",tooltip="Ladder builder. "];
+}

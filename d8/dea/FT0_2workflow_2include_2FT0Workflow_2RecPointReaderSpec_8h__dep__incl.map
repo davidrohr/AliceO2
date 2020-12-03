@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/workflow/include/FT0Workflow/RecPointReaderSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/workflow/include/FT0Workflow/RecPointReaderSpec.h">
+<area shape="rect" id="node2" href="$d8/df2/FT0_2workflow_2src_2RecPointReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/src/RecPointReader\lSpec.cxx" alt="" coords="5,124,232,195"/>
+<area shape="rect" id="node3" href="$d5/db4/MatchTPCITSWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/MatchTPCITSWorkflow.cxx" alt="" coords="256,131,523,187"/>
+<area shape="rect" id="node4" href="$d2/dfc/primary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/primary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="547,124,771,195"/>
+<area shape="rect" id="node5" href="$de/d48/tof-matcher-global_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;matcher&#45;global.cxx" alt="" coords="795,124,1019,195"/>
+<area shape="rect" id="node6" href="$da/d65/tof-matcher-tpc_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;matcher&#45;tpc.cxx" alt="" coords="1043,124,1267,195"/>
+<area shape="rect" id="node7" href="$da/dfd/tof-reco-workflow_8cxx.html" title="Basic DPL workflow for TOF reconstruction starting from digits. " alt="" coords="1291,124,1515,195"/>
+</map>

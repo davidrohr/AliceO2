@@ -1,0 +1,30 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/TOFChannelCalibrator.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/TOFChannelCalibrator.h">
+<area shape="rect" id="node2" href="$dc/df2/TimeSlotCalibration_8h.html" title="DetectorsCalibration\l/TimeSlotCalibration.h" alt="" coords="56,377,207,419"/>
+<area shape="rect" id="node3" href="$dd/d77/TimeSlot_8h.html" title="DetectorsCalibration\l/TimeSlot.h" alt="" coords="171,467,313,508"/>
+<area shape="rect" id="node10" href="$d6/d9c/CalibInfoTOF_8h.html" title="Class to store the output of the matching to TOF for calibration. " alt="" coords="407,199,587,240"/>
+<area shape="rect" id="node11" href="$d8/de0/CalibLHCphaseTOF_8h.html" title="Class to store the output of the matching to TOF for calibration. " alt="" coords="457,288,677,329"/>
+<area shape="rect" id="node13" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="918,124,1035,151"/>
+<area shape="rect" id="node48" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="337,474,504,501"/>
+<area shape="rect" id="node49" href="$d7/d65/CalibTOFapi_8h.html" title="Class to use TOF calibration (decalibration, calibration) " alt="" coords="741,206,940,233"/>
+<area shape="rect" id="node6" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="261,556,402,583"/>
+<area shape="rect" id="node14" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="3142,474,3379,501"/>
+<area shape="rect" id="node15" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="1744,206,1919,233"/>
+<area shape="rect" id="node16" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="2453,295,2631,322"/>
+<area shape="rect" id="node26" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="2737,377,2947,419"/>
+<area shape="rect" id="node38" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="1585,377,1763,419"/>
+<area shape="rect" id="node44" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="1954,288,2133,329"/>
+<area shape="rect" id="node47" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1733,295,1930,322"/>
+<area shape="rect" id="node17" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2814,474,2950,501"/>
+<area shape="rect" id="node20" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1979,474,2137,501"/>
+<area shape="rect" id="node21" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="2551,474,2739,501"/>
+<area shape="rect" id="node23" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="2473,385,2611,411"/>
+<area shape="rect" id="node29" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="2319,385,2448,411"/>
+<area shape="rect" id="node18" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2925,556,3109,583"/>
+<area shape="rect" id="node19" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2741,556,2900,583"/>
+<area shape="rect" id="node30" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="2161,474,2317,501"/>
+<area shape="rect" id="node36" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="2007,556,2189,583"/>
+<area shape="rect" id="node50" href="$d5/df3/BasicCCDBManager_8h.html" title="CCDB/BasicCCDBManager.h" alt="" coords="1257,295,1456,322"/>
+<area shape="rect" id="node56" href="$d3/d81/CalibTimeSlewingParamTOF_8h.html" title="Class to store the output of the matching to TOF for calibration. " alt="" coords="702,288,889,329"/>
+<area shape="rect" id="node51" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="1192,385,1319,411"/>
+<area shape="rect" id="node55" href="$da/d86/CCDBTimeStampUtils_8h.html" title="CCDB/CCDBTimeStampUtils.h" alt="" coords="959,385,1168,411"/>
+</map>

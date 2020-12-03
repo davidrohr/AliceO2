@@ -1,0 +1,26 @@
+<map id="/home/runner/work/AliceO2/AliceO2/EventVisualisation/View/src/Initializer.cxx" name="/home/runner/work/AliceO2/AliceO2/EventVisualisation/View/src/Initializer.cxx">
+<area shape="rect" id="node2" href="$d8/df3/Initializer_8h.html" title="EventVisualisationView\l/Initializer.h" alt="" coords="624,109,783,151"/>
+<area shape="rect" id="node3" href="$d8/d25/EventManager_8h.html" title="EventVisualisationView\l/EventManager.h" alt="" coords="624,199,783,240"/>
+<area shape="rect" id="node4" href="$d6/d7c/VisualisationConstants_8h.html" title="EventVisualisationBase\l/VisualisationConstants.h" alt="" coords="1274,377,1445,419"/>
+<area shape="rect" id="node33" href="$db/d9e/ConfigurationManager_8h.html" title="EventVisualisationBase\l/ConfigurationManager.h" alt="" coords="1147,109,1311,151"/>
+<area shape="rect" id="node35" href="$d7/d97/EventVisualisation_2Base_2include_2EventVisualisationBase_2GeometryManager_8h.html" title="EventVisualisationBase\l/GeometryManager.h" alt="" coords="1529,109,1689,151"/>
+<area shape="rect" id="node37" href="$d7/d29/MultiView_8h.html" title="EventVisualisationView\l/MultiView.h" alt="" coords="1713,109,1872,151"/>
+<area shape="rect" id="node41" href="$d1/deb/DataSourceOffline_8h.html" title="Grouping reading from file(s) " alt="" coords="2155,199,2315,240"/>
+<area shape="rect" id="node43" href="$df/da6/DataReaderTPC_8h.html" title="TPC Detector&#45;specific reading from file(s) " alt="" coords="2209,109,2395,151"/>
+<area shape="rect" id="node45" href="$dc/df2/DataInterpreterTPC_8h.html" title="converting TPC data to Event Visualisation primitives " alt="" coords="1267,199,1454,240"/>
+<area shape="rect" id="node46" href="$d5/df4/DataReaderITS_8h.html" title="reading from file(s) " alt="" coords="1947,109,2134,151"/>
+<area shape="rect" id="node47" href="$d9/d95/DataInterpreterITS_8h.html" title="converting ITS data to Event Visualisation primitives " alt="" coords="1057,199,1243,240"/>
+<area shape="rect" id="node48" href="$d9/d30/EventManagerFrame_8h.html" title="GUI (bottom buttons) for visualisation. " alt="" coords="859,109,1017,151"/>
+<area shape="rect" id="node6" href="$dd/dbf/DataInterpreter_8h.html" title="EventVisualisationBase\l/DataInterpreter.h" alt="" coords="1193,288,1353,329"/>
+<area shape="rect" id="node17" href="$d7/dec/EventVisualisation_2Base_2include_2EventVisualisationBase_2DataReader_8h.html" title="EventVisualisationBase\l/DataReader.h" alt="" coords="2214,288,2374,329"/>
+<area shape="rect" id="node18" href="$d5/df3/BasicCCDBManager_8h.html" title="CCDB/BasicCCDBManager.h" alt="" coords="740,295,939,322"/>
+<area shape="rect" id="node19" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="353,385,480,411"/>
+<area shape="rect" id="node7" href="$d0/d35/VisualisationEvent_8h.html" title="EventVisualisationDataConverter\l/VisualisationEvent.h" alt="" coords="1633,377,1848,419"/>
+<area shape="rect" id="node8" href="$d0/d40/VisualisationTrack_8h.html" title="EventVisualisationDataConverter\l/VisualisationTrack.h" alt="" coords="1589,556,1804,597"/>
+<area shape="rect" id="node14" href="$d5/d20/VisualisationCluster_8h.html" title="EventVisualisationDataConverter\l/VisualisationCluster.h" alt="" coords="1815,467,2029,508"/>
+<area shape="rect" id="node9" href="$de/ddf/ConversionConstants_8h.html" title="ConversionConstants.h" alt="" coords="1484,645,1643,672"/>
+<area shape="rect" id="node29" href="$da/d86/CCDBTimeStampUtils_8h.html" title="CCDB/CCDBTimeStampUtils.h" alt="" coords="668,385,877,411"/>
+<area shape="rect" id="node25" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="279,474,445,501"/>
+<area shape="rect" id="node27" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="285,563,426,590"/>
+<area shape="rect" id="node42" href="$dc/d54/DataSource_8h.html" title="EventVisualisationBase\l/DataSource.h" alt="" coords="1750,288,1910,329"/>
+</map>

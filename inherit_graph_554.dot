@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::FrameIndex",height=0.2,width=0.4,color="black",URL="$de/d9e/structo2_1_1algorithm_1_1TableView_1_1FrameIndex.html",tooltip="FrameIndex is composed from column description and row number. "];
+}

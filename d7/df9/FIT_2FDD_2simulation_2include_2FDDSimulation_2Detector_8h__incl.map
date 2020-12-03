@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FDD/simulation/include/FDDSimulation/Detector.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FDD/simulation/include/FDDSimulation/Detector.h">
+<area shape="rect" id="node2" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2055,199,2207,240"/>
+<area shape="rect" id="node19" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="2231,206,2406,233"/>
+<area shape="rect" id="node43" href="$d8/df5/DataFormats_2Detectors_2FIT_2FDD_2include_2DataFormatsFDD_2Hit_8h.html" title="DataFormatsFDD/Hit.h" alt="" coords="2367,124,2526,151"/>
+<area shape="rect" id="node45" href="$de/d71/FIT_2FDD_2base_2include_2FDDBase_2Geometry_8h.html" title="FDDBase/Geometry.h" alt="" coords="1157,206,1309,233"/>
+<area shape="rect" id="node3" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1340,288,1489,315"/>
+<area shape="rect" id="node4" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1880,459,2016,486"/>
+<area shape="rect" id="node7" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2049,370,2207,397"/>
+<area shape="rect" id="node18" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="1793,370,1975,397"/>
+<area shape="rect" id="node5" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1759,541,1943,568"/>
+<area shape="rect" id="node6" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1967,541,2126,568"/>
+<area shape="rect" id="node26" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="2357,288,2577,315"/>
+<area shape="rect" id="node33" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="3036,370,3231,397"/>
+<area shape="rect" id="node39" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="3097,288,3292,315"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/test/testCompressedClusters.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/test/testCompressedClusters.cxx">
+<area shape="rect" id="node2" href="$d2/d7d/CompressedClusters_8h.html" title="Container to store compressed TPC cluster data. " alt="" coords="273,199,455,240"/>
+<area shape="rect" id="node8" href="$d3/d64/CompressedClustersHelpers_8h.html" title="Helper for the CompressedClusters container. " alt="" coords="509,109,715,151"/>
+<area shape="rect" id="node3" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="211,288,347,315"/>
+<area shape="rect" id="node6" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="371,288,528,315"/>
+<area shape="rect" id="node4" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="5,363,189,389"/>
+<area shape="rect" id="node5" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="214,363,373,389"/>
+<area shape="rect" id="node13" href="$d4/d4a/FlattenRestore_8h.html" title="Utilities to copy complex objects to flat buffer and restore. " alt="" coords="724,206,903,233"/>
+</map>

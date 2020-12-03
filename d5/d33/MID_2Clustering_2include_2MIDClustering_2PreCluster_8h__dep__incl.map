@@ -1,0 +1,18 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Clustering/include/MIDClustering/PreCluster.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Clustering/include/MIDClustering/PreCluster.h">
+<area shape="rect" id="node2" href="$d5/d51/MUON_2MID_2Clustering_2include_2MIDClustering_2Clusterizer_8h.html" title="Cluster reconstruction algorithm for MID. " alt="" coords="816,243,1004,313"/>
+<area shape="rect" id="node4" href="$d2/d12/bench__Clusterizer_8cxx.html" title="Benchmark clustering device for MID. " alt="" coords="5,361,185,432"/>
+<area shape="rect" id="node8" href="$d6/d57/MUON_2MID_2Workflow_2src_2ClusterizerSpec_8cxx.html" title="Data processor spec for MID clustering device. " alt="" coords="209,369,464,425"/>
+<area shape="rect" id="node9" href="$d8/dc8/PreClusterHelper_8h.html" title="Pre&#45;clusters helper for MID. " alt="" coords="947,124,1172,195"/>
+<area shape="rect" id="node11" href="$d7/d1a/PreClusterizer_8h.html" title="Pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="583,243,791,313"/>
+<area shape="rect" id="node13" href="$d5/d50/MID_2Clustering_2src_2PreCluster_8cxx.html" title="Implementation of the pre&#45;cluster for MID. " alt="" coords="1297,131,1523,187"/>
+<area shape="rect" id="node14" href="$d2/d6b/ClusterLabeler_8h.html" title="ClusterLabeler for MID. " alt="" coords="1369,243,1579,313"/>
+<area shape="rect" id="node16" href="$de/d28/PreClusterLabeler_8h.html" title="PreClusterLabeler for MID. " alt="" coords="1604,243,1835,313"/>
+<area shape="rect" id="node3" href="$dc/d07/MUON_2MID_2Clustering_2src_2Clusterizer_8cxx.html" title="Implementation of the cluster reconstruction algorithm for MID. " alt="" coords="1040,369,1268,425"/>
+<area shape="rect" id="node5" href="$d6/dee/testClusterizer_8cxx.html" title="Test clustering device for MID. " alt="" coords="761,369,1016,425"/>
+<area shape="rect" id="node6" href="$d6/d45/testSimulation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testSimulation.cxx" alt="" coords="1592,369,1847,425"/>
+<area shape="rect" id="node7" href="$d3/d1e/ClusterizerMCSpec_8cxx.html" title="Data processor spec for MID MC clustering device. " alt="" coords="1293,369,1567,425"/>
+<area shape="rect" id="node10" href="$de/dcf/PreClusterHelper_8cxx.html" title="Implementation of the pre&#45;clusters for MID. " alt="" coords="1028,250,1293,306"/>
+<area shape="rect" id="node12" href="$db/d2e/PreClusterizer_8cxx.html" title="Implementation of the pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="489,369,737,425"/>
+<area shape="rect" id="node15" href="$dd/de0/ClusterLabeler_8cxx.html" title="Implementation of the ClusterLabeler for MID. " alt="" coords="1871,369,2122,425"/>
+<area shape="rect" id="node17" href="$db/d5b/PreClusterLabeler_8cxx.html" title="Implementation of the PreClusterLabeler for MID. " alt="" coords="2147,369,2417,425"/>
+</map>

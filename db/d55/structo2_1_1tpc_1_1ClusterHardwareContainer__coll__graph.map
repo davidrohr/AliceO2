@@ -1,0 +1,5 @@
+<map id="o2::tpc::ClusterHardwareContainer" name="o2::tpc::ClusterHardwareContainer">
+<area shape="rect" id="node2" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="5,299,73,377"/>
+<area shape="rect" id="node4" href="$d2/d6b/structo2_1_1tpc_1_1ClusterHardware.html" title="{o2::tpc::ClusterHardware\n||+ getQTotFloat()\l+ getQTot()\l+ getQMax()\l+ getRow()\l+ getFlags()\l+ getPadPre()\l+ getPad()\l+ getTimeLocalPre()\l+ getTimePeak()\l+ getTimeLocal()\l+ getSigmaPad2()\l+ getSigmaTime2()\l+ setCluster()\l+ setCluster()\l}" alt="" coords="387,204,555,472"/>
+<area shape="rect" id="node5" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="257,5,325,83"/>
+</map>

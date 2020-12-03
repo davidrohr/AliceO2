@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Utilities/DataFlow/src/runSubframeBuilderDevice.cxx" name="/home/runner/work/AliceO2/AliceO2/Utilities/DataFlow/src/runSubframeBuilderDevice.cxx">
+<area shape="rect" id="node3" href="$d0/d82/SubframeBuilderDevice_8h.html" title="Demonstrator device for a subframe builder. " alt="" coords="621,109,799,151"/>
+<area shape="rect" id="node4" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="928,423,1084,449"/>
+<area shape="rect" id="node15" href="$d2/d09/HeartbeatFrame_8h.html" title="Headers/HeartbeatFrame.h" alt="" coords="327,348,507,375"/>
+<area shape="rect" id="node19" href="$d2/dee/O2Device_8h.html" title="O2Device/O2Device.h" alt="" coords="920,199,1073,225"/>
+<area shape="rect" id="node38" href="$d3/d95/PayloadMerger_8h.html" title="DataFlow/PayloadMerger.h" alt="" coords="123,348,303,375"/>
+<area shape="rect" id="node40" href="$d2/de2/SubframeUtils_8h.html" title="DataFlow/SubframeUtils.h" alt="" coords="486,273,662,300"/>
+<area shape="rect" id="node13" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1199,505,1381,531"/>
+<area shape="rect" id="node22" href="$d7/db2/Utilities_8h.html" title="O2Device/Utilities.h" alt="" coords="1533,273,1671,300"/>
+<area shape="rect" id="node23" href="$dc/d03/MemoryResources_8h.html" title="MemoryResources/MemoryResources.h" alt="" coords="1755,423,2012,449"/>
+<area shape="rect" id="node35" href="$d4/d00/Headers_2include_2Headers_2Stack_8h.html" title="Headers/Stack.h" alt="" coords="1587,348,1707,375"/>
+</map>

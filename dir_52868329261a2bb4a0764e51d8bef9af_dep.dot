@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/O2MessageMonitor/include/O2MessageMonitor" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6b56571caff32114415aa1746cf6f43a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_6b56571caff32114415aa1746cf6f43a.html"]
+  dir_52868329261a2bb4a0764e51d8bef9af [shape=box, label="O2MessageMonitor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_52868329261a2bb4a0764e51d8bef9af.html"];
+  }
+  dir_f35ccb320b67f1c85d228c773db13bda [shape=box label="O2Device" color="red" URL="dir_f35ccb320b67f1c85d228c773db13bda.html"];
+  dir_52868329261a2bb4a0764e51d8bef9af->dir_f35ccb320b67f1c85d228c773db13bda [headlabel="1", labeldistance=1.5 headhref="dir_000853_000846.html"];
+}

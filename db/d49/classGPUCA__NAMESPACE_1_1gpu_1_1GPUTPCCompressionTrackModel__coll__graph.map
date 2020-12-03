@@ -1,0 +1,5 @@
+<map id="GPUCA_NAMESPACE::gpu::GPUTPCCompressionTrackModel" name="GPUCA_NAMESPACE::gpu::GPUTPCCompressionTrackModel">
+<area shape="rect" id="node2" href="$db/d5d/structGPUCA__NAMESPACE_1_1gpu_1_1GPUTPCCompressionTrackModel_1_1MaterialCorrection.html" title="{GPUCA_NAMESPACE::gpu\l::GPUTPCCompressionTrackModel\l::MaterialCorrection\n||+ GPUhd()\l}" alt="" coords="121,321,352,428"/>
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="213,5,260,83"/>
+<area shape="rect" id="node5" href="$d9/dc9/structGPUCA__NAMESPACE_1_1gpu_1_1GPUTPCCompressionTrackModel_1_1PhysicalTrackModel.html" title="{GPUCA_NAMESPACE::gpu\l::GPUTPCCompressionTrackModel\l::PhysicalTrackModel\n|+ z\l+ secphi\l+ dzds\l+ dlds\l+ pt\l|}" alt="" coords="376,292,607,457"/>
+</map>

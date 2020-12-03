@@ -1,0 +1,20 @@
+<map id="/home/runner/work/AliceO2/AliceO2/EventVisualisation/View/src/EventManagerFrame.cxx" name="/home/runner/work/AliceO2/AliceO2/EventVisualisation/View/src/EventManagerFrame.cxx">
+<area shape="rect" id="node5" href="$d9/d30/EventManagerFrame_8h.html" title="GUI (bottom buttons) for visualisation. " alt="" coords="983,109,1141,151"/>
+<area shape="rect" id="node37" href="$d7/d29/MultiView_8h.html" title="EventVisualisationView\l/MultiView.h" alt="" coords="1781,199,1940,240"/>
+<area shape="rect" id="node42" href="$d1/deb/DataSourceOffline_8h.html" title="Grouping reading from file(s) " alt="" coords="1274,199,1434,240"/>
+<area shape="rect" id="node44" href="$d3/d28/DataReaderVSD_8h.html" title="EventVisualisationDetectors\l/DataReaderVSD.h" alt="" coords="2189,199,2375,240"/>
+<area shape="rect" id="node6" href="$d8/d25/EventManager_8h.html" title="EventVisualisationView\l/EventManager.h" alt="" coords="821,199,980,240"/>
+<area shape="rect" id="node7" href="$d6/d7c/VisualisationConstants_8h.html" title="EventVisualisationBase\l/VisualisationConstants.h" alt="" coords="1447,377,1618,419"/>
+<area shape="rect" id="node9" href="$dd/dbf/DataInterpreter_8h.html" title="EventVisualisationBase\l/DataInterpreter.h" alt="" coords="966,288,1126,329"/>
+<area shape="rect" id="node20" href="$d7/dec/EventVisualisation_2Base_2include_2EventVisualisationBase_2DataReader_8h.html" title="EventVisualisationBase\l/DataReader.h" alt="" coords="1509,288,1669,329"/>
+<area shape="rect" id="node21" href="$d5/df3/BasicCCDBManager_8h.html" title="CCDB/BasicCCDBManager.h" alt="" coords="443,295,641,322"/>
+<area shape="rect" id="node22" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="668,385,795,411"/>
+<area shape="rect" id="node10" href="$d0/d35/VisualisationEvent_8h.html" title="EventVisualisationDataConverter\l/VisualisationEvent.h" alt="" coords="1208,377,1423,419"/>
+<area shape="rect" id="node11" href="$d0/d40/VisualisationTrack_8h.html" title="EventVisualisationDataConverter\l/VisualisationTrack.h" alt="" coords="1308,556,1523,597"/>
+<area shape="rect" id="node17" href="$d5/d20/VisualisationCluster_8h.html" title="EventVisualisationDataConverter\l/VisualisationCluster.h" alt="" coords="1277,467,1492,508"/>
+<area shape="rect" id="node12" href="$de/ddf/ConversionConstants_8h.html" title="ConversionConstants.h" alt="" coords="1433,645,1592,672"/>
+<area shape="rect" id="node32" href="$da/d86/CCDBTimeStampUtils_8h.html" title="CCDB/CCDBTimeStampUtils.h" alt="" coords="5,385,215,411"/>
+<area shape="rect" id="node28" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="965,474,1132,501"/>
+<area shape="rect" id="node30" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="965,563,1106,590"/>
+<area shape="rect" id="node43" href="$dc/d54/DataSource_8h.html" title="EventVisualisationBase\l/DataSource.h" alt="" coords="1274,288,1434,329"/>
+</map>

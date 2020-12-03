@@ -1,0 +1,15 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/Vertexing/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_411c6bed3d84b00fddab3a93c8a3b5fb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Vertexing" fontname="Helvetica", fontsize="10", URL="dir_411c6bed3d84b00fddab3a93c8a3b5fb.html"]
+  dir_a132bc2c584076a38e235eca4d667b8c [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a132bc2c584076a38e235eca4d667b8c.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_685195b2337b28da095e36f150390e16 [shape=box label="include" color="red" URL="dir_685195b2337b28da095e36f150390e16.html"];
+  dir_685195b2337b28da095e36f150390e16->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="8", labeldistance=1.5 headhref="dir_000721_000035.html"];
+  dir_a132bc2c584076a38e235eca4d667b8c->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000724_000035.html"];
+  dir_a132bc2c584076a38e235eca4d667b8c->dir_685195b2337b28da095e36f150390e16 [headlabel="1", labeldistance=1.5 headhref="dir_000724_000721.html"];
+}

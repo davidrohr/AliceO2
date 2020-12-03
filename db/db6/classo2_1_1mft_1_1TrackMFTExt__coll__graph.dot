@@ -1,0 +1,22 @@
+digraph "o2::mft::TrackMFTExt"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node6 [label="{o2::mft::TrackMFTExt\n||+ TrackMFTExt()\l+ TrackMFTExt()\l+ ~TrackMFTExt()\l+ getExternalClusterIndex()\l+ setExternalClusterIndex()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{o2::mft::TrackMFT\n||+ TrackMFT()\l+ TrackMFT()\l+ ~TrackMFT()\l+ setCA()\l+ isCA()\l+ isLTF()\l+ setInvQPtSeed()\l+ getInvQPtSeed()\l+ getPtSeed()\l+ getChargeSeed()\l+ setChi2QPtSeed()\l+ getChi2QPtSeed()\l+ getROFrame()\l+ setROFrame()\l+ getNumberOfPoints()\l+ getExternalClusterIndexOffset()\l+ setExternalClusterIndexOffset()\l+ setNumberOfPoints()\l+ print()\l+ getOutParam()\l+ setOutParam()\l}",height=0.2,width=0.4,color="black",URL="$d1/de4/classo2_1_1mft_1_1TrackMFT.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{o2::track::TrackParCovFwd\n||+ TrackParCovFwd()\l+ ~TrackParCovFwd()\l+ operator=()\l+ TrackParCovFwd()\l+ getCovariances()\l+ setCovariances()\l+ deleteCovariances()\l+ getSigma2X()\l+ getSigma2Y()\l+ getSigma2Phi()\l+ getSigma2Tanl()\l+ getSigma2InvQPt()\l+ propagateToZlinear()\l+ propagateToZquadratic()\l+ propagateToZhelix()\l+ addMCSEffect()\l+ update()\l}",height=0.2,width=0.4,color="black",URL="$d3/dad/classo2_1_1track_1_1TrackParCovFwd.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{o2::track::TrackParFwd\n||+ TrackParFwd()\l+ ~TrackParFwd()\l+ TrackParFwd()\l+ operator=()\l+ TrackParFwd()\l+ operator=()\l+ getZ()\l+ setZ()\l+ getX()\l+ setX()\l+ getY()\l+ setY()\l+ setPhi()\l+ getPhi()\l+ setTanl()\l+ getTanl()\l+ setInvQPt()\l+ getInvQPt()\l+ getPt()\l+ getInvPt()\l+ getPx()\l+ getInvPx()\l+ getPy()\l+ getInvPy()\l+ getPz()\l+ getInvPz()\l+ getP()\l+ getInverseMomentum()\l+ getEta()\l+ getCharge()\l+ setCharge()\l+ getParameters()\l+ setParameters()\l+ addParameters()\l+ getTrackChi2()\l+ setTrackChi2()\l+ propagateParamToZlinear()\l+ propagateParamToZquadratic()\l+ propagateParamToZhelix()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$d8/d10/classo2_1_1track_1_1TrackParFwd.html"];
+  Node10 -> Node9 [color="grey25",fontsize="10",style="solid",label=" #mTrackChi2\n#mZ" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{Double_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node9 [color="grey25",fontsize="10",style="solid",label=" #mParameters" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{SVector\< Double_t, 5 \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #mExtClsIndex" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{array\< int, MaxClusters \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node13 -> Node6 [color="grey25",fontsize="10",style="solid",label=" +MaxClusters" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+}

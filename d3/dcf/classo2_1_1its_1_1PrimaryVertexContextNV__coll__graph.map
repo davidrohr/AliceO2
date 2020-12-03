@@ -1,0 +1,6 @@
+<map id="o2::its::PrimaryVertexContextNV" name="o2::its::PrimaryVertexContextNV">
+<area shape="rect" id="node2" href="$df/dde/classo2_1_1its_1_1PrimaryVertexContext.html" title="{o2::its::PrimaryVertexContext\n||+ PrimaryVertexContext()\l+ ~PrimaryVertexContext()\l+ PrimaryVertexContext()\l+ operator=()\l+ initialise()\l+ getPrimaryVertex()\l+ getClusters()\l+ getCells()\l+ getCellsLookupTable()\l+ getCellsNeighbours()\l+ getRoads()\l+ getMinR()\l+ getMaxR()\l+ isClusterUsed()\l+ markUsedCluster()\l+ getIndexTables()\l+ getTracklets()\l+ getTrackletsLookupTable()\l+ initialiseRoadLabels()\l+ setRoadLabel()\l+ getRoadLabel()\l+ isRoadFake()\l}" alt="" coords="802,461,997,847"/>
+<area shape="rect" id="node9" href="$d2/d77/classo2_1_1its_1_1IndexTableUtils.html" title="{o2::its::IndexTableUtils\n||+ setTrackingParameters()\l+ getInverseZCoordinate()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l+ GPUhdi()\l}" alt="" coords="1003,175,1180,369"/>
+<area shape="rect" id="node12" href="$d9/d19/structfloat3.html" title="{float3\n||}" alt="" coords="1379,233,1433,311"/>
+<area shape="rect" id="node13" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="1383,5,1429,83"/>
+</map>

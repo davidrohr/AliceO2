@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/src/Geometry.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/src/Geometry.cxx">
+<area shape="rect" id="node4" href="$d6/d2e/ITSMFT_2MFT_2base_2include_2MFTBase_2Geometry_8h.html" title="MFTBase/Geometry.h" alt="" coords="107,184,257,211"/>
+<area shape="rect" id="node6" href="$d1/d81/GeometryBuilder_8h.html" title="Class describing MFT Geometry Builder. " alt="" coords="948,109,1139,136"/>
+<area shape="rect" id="node7" href="$dd/d83/ITSMFT_2MFT_2base_2include_2MFTBase_2Segmentation_8h.html" title="MFTBase/Segmentation.h" alt="" coords="215,259,389,285"/>
+<area shape="rect" id="node9" href="$d2/d77/HalfSegmentation_8h.html" title="Segmentation class for each half of the ALICE Muon Forward Tracker. " alt="" coords="336,184,535,211"/>
+<area shape="rect" id="node13" href="$dc/d53/HalfDiskSegmentation_8h.html" title="Class for the description of the structure of a half&#45;disk. " alt="" coords="488,109,713,136"/>
+<area shape="rect" id="node14" href="$d9/de7/LadderSegmentation_8h.html" title="Description of the virtual segmentation of a ladder. " alt="" coords="659,184,873,211"/>
+<area shape="rect" id="node15" href="$d3/dbd/ChipSegmentation_8h.html" title="Chip (sensor) segmentation description. " alt="" coords="801,259,1003,285"/>
+<area shape="rect" id="node11" href="$d3/de7/VSegmentation_8h.html" title="Abstract base class for MFT Segmentation description. " alt="" coords="603,333,785,360"/>
+</map>

@@ -1,0 +1,18 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/EMCAL/include/DataFormatsEMCAL/EventData.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node22 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/include/DataFormatsEMCAL\l/EventData.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/include/DataFormatsEMCAL\l/EventHandler.h",height=0.2,width=0.4,color="black",URL="$da/dcc/EventHandler_8h.html"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/EMCAL/src/EventHandler.cxx",height=0.2,width=0.4,color="black",URL="$d7/d53/EventHandler_8cxx.html"];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/include/EMCALWorkflow\l/AnalysisClusterSpec.h",height=0.2,width=0.4,color="black",URL="$d3/dd3/AnalysisClusterSpec_8h.html"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/AnalysisClusterSpec.cxx",height=0.2,width=0.4,color="black",URL="$d2/d75/AnalysisClusterSpec_8cxx.html"];
+  Node25 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/RecoWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d2/dbf/EMCAL_2workflow_2src_2RecoWorkflow_8cxx.html"];
+}

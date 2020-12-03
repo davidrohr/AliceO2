@@ -1,0 +1,70 @@
+<map id="/home/runner/work/AliceO2/AliceO2/CCDB/include/CCDB/BasicCCDBManager.h" name="/home/runner/work/AliceO2/AliceO2/CCDB/include/CCDB/BasicCCDBManager.h">
+<area shape="rect" id="node2" href="$de/d41/centralityTable_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/centralityTable.cxx" alt="" coords="5,117,185,173"/>
+<area shape="rect" id="node3" href="$d9/df1/eventSelection_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/eventSelection.cxx" alt="" coords="209,117,389,173"/>
+<area shape="rect" id="node4" href="$d5/d53/pidTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTOF.cxx" alt="" coords="413,117,593,173"/>
+<area shape="rect" id="node5" href="$db/da2/pidTPC_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTPC.cxx" alt="" coords="617,117,797,173"/>
+<area shape="rect" id="node6" href="$d9/d61/correlations_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGCF/correlations.cxx" alt="" coords="821,117,1001,173"/>
+<area shape="rect" id="node7" href="$d7/d26/timestamp_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/timestamp.cxx" alt="" coords="1025,117,1205,173"/>
+<area shape="rect" id="node8" href="$d4/da6/ccdbaccess_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tutorials\l/src/ccdbaccess.cxx" alt="" coords="1229,117,1409,173"/>
+<area shape="rect" id="node9" href="$de/dc1/efficiencyGlobal_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tutorials\l/src/efficiencyGlobal.cxx" alt="" coords="1433,117,1613,173"/>
+<area shape="rect" id="node10" href="$df/d59/efficiencyPerRun_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tutorials\l/src/efficiencyPerRun.cxx" alt="" coords="1637,117,1817,173"/>
+<area shape="rect" id="node11" href="$df/da8/BasicCCDBManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/CCDB/src/BasicCCDBManager.cxx" alt="" coords="1842,124,2130,165"/>
+<area shape="rect" id="node12" href="$d6/d86/testBasicCCDBManager_8cxx.html" title="Test BasicCCDBManager and caching functionality. " alt="" coords="2154,124,2469,165"/>
+<area shape="rect" id="node13" href="$d2/d09/AODProducerWorkflowSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/include/AODProducerWorkflow\l/AODProducerWorkflowSpec.h" alt="" coords="2493,109,2700,180"/>
+<area shape="rect" id="node15" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="1445,235,1684,291"/>
+<area shape="rect" id="node16" href="$df/df4/CCDBPopulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/workflow/CCDBPopulatorSpec.h" alt="" coords="2776,117,2993,173"/>
+<area shape="rect" id="node18" href="$d7/d65/CalibTOFapi_8h.html" title="Class to use TOF calibration (decalibration, calibration) " alt="" coords="3017,109,3240,180"/>
+<area shape="rect" id="node41" href="$dc/df2/CDBInterface_8h.html" title="Simple interface to the CDB manager. " alt="" coords="4801,117,5056,173"/>
+<area shape="rect" id="node57" href="$dc/db4/Calibrations_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/base/src/Calibrations.cxx" alt="" coords="5080,117,5260,173"/>
+<area shape="rect" id="node58" href="$dc/d96/TRDTrapSimulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrapSimulatorSpec.h" alt="" coords="6138,109,6349,180"/>
+<area shape="rect" id="node59" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="6644,235,6912,291"/>
+<area shape="rect" id="node61" href="$db/d83/ZDC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/simulation/src/Digitizer.cxx" alt="" coords="6423,117,6607,173"/>
+<area shape="rect" id="node62" href="$d8/d25/EventManager_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/EventManager.h" alt="" coords="7281,109,7523,180"/>
+<area shape="rect" id="node14" href="$df/de7/AODProducerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx" alt="" coords="1212,235,1421,291"/>
+<area shape="rect" id="node17" href="$d2/d5c/ccdb-populator-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Calibration\l/workflow/ccdb&#45;populator&#45;workflow.cxx" alt="" coords="1709,235,1957,291"/>
+<area shape="rect" id="node19" href="$d5/ded/CalibTOF_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/CalibTOF.h" alt="" coords="1980,228,2203,299"/>
+<area shape="rect" id="node21" href="$da/d2b/LHCClockCalibrator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/LHCClockCalibrator.h" alt="" coords="2227,228,2449,299"/>
+<area shape="rect" id="node26" href="$db/dc2/TOFChannelCalibrator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/TOFChannelCalibrator.h" alt="" coords="2473,228,2696,299"/>
+<area shape="rect" id="node30" href="$d9/d35/CalibTOFapi_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/CalibTOFapi.cxx" alt="" coords="2720,235,2929,291"/>
+<area shape="rect" id="node31" href="$dc/d24/TOF_2reconstruction_2include_2TOFReconstruction_2Clusterer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/include\l/TOFReconstruction/Clusterer.h" alt="" coords="2954,228,3162,299"/>
+<area shape="rect" id="node35" href="$da/df1/TOFClusterizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/workflow/src/TOFClusterizerSpec.cxx" alt="" coords="3030,354,3278,410"/>
+<area shape="rect" id="node36" href="$d0/d85/TOF_2simulation_2include_2TOFSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/include/TOFSimulation\l/Digitizer.h" alt="" coords="3237,228,3458,299"/>
+<area shape="rect" id="node40" href="$d6/d61/TOFDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TOFDigitizerSpec.cxx" alt="" coords="3756,354,3971,410"/>
+<area shape="rect" id="node20" href="$de/d89/CalibTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/CalibTOF.cxx" alt="" coords="1319,354,1511,410"/>
+<area shape="rect" id="node22" href="$d1/dff/LHCClockCalibrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/LHCClockCalibrator.cxx" alt="" coords="1743,354,1997,410"/>
+<area shape="rect" id="node23" href="$d0/d37/LHCClockCalibratorSpec_8h.html" title="Device to calibrate LHC clock phase using TOF data. " alt="" coords="1535,347,1719,417"/>
+<area shape="rect" id="node24" href="$d1/d1b/lhc-clockphase-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/lhc&#45;clockphase&#45;workflow.cxx" alt="" coords="1530,465,1725,536"/>
+<area shape="rect" id="node25" href="$dc/da8/tof-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;calib&#45;workflow.cxx" alt="" coords="1781,465,1961,536"/>
+<area shape="rect" id="node27" href="$d9/dff/TOFChannelCalibrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/TOFChannelCalibrator.cxx" alt="" coords="2242,354,2509,410"/>
+<area shape="rect" id="node28" href="$df/de3/TOFChannelCalibratorSpec_8h.html" title="Device to calibrate TOF channles (offsets) " alt="" coords="2021,347,2218,417"/>
+<area shape="rect" id="node29" href="$db/d97/tof-channel-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;channel&#45;calib&#45;workflow.cxx" alt="" coords="2018,465,2221,536"/>
+<area shape="rect" id="node32" href="$d4/d74/TOF_2reconstruction_2include_2TOFReconstruction_2ClustererTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/include\l/TOFReconstruction/ClustererTask.h" alt="" coords="2769,347,3006,417"/>
+<area shape="rect" id="node34" href="$d5/d8a/TOF_2reconstruction_2src_2Clusterer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/src/Clusterer.cxx" alt="" coords="2533,354,2745,410"/>
+<area shape="rect" id="node33" href="$d5/d10/TOF_2reconstruction_2src_2ClustererTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/src/ClustererTask.cxx" alt="" coords="2767,473,3008,529"/>
+<area shape="rect" id="node37" href="$d8/dc6/TOF_2simulation_2include_2TOFSimulation_2DigitizerTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/include/TOFSimulation\l/DigitizerTask.h" alt="" coords="3510,347,3731,417"/>
+<area shape="rect" id="node39" href="$d4/df3/TOF_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/src/Digitizer.cxx" alt="" coords="3302,354,3486,410"/>
+<area shape="rect" id="node38" href="$dd/df3/TOF_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/simulation/src/DigitizerTask.cxx" alt="" coords="3514,473,3727,529"/>
+<area shape="rect" id="node42" href="$dc/d71/CDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/CDBInterface.cxx" alt="" coords="5265,235,5451,291"/>
+<area shape="rect" id="node43" href="$d1/d8a/testTPCCDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/test/testTPCCDBInterface.cxx" alt="" coords="5475,235,5713,291"/>
+<area shape="rect" id="node44" href="$dd/d94/DigitContainer_8h.html" title="Definition of the Digit Container. " alt="" coords="5788,228,6011,299"/>
+<area shape="rect" id="node46" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="5783,473,5967,529"/>
+<area shape="rect" id="node47" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="4723,473,4937,529"/>
+<area shape="rect" id="node48" href="$df/d53/DigitContainer_8cxx.html" title="Implementation of the Digit Container. " alt="" coords="5299,354,5518,410"/>
+<area shape="rect" id="node49" href="$dd/d5e/testTPCDigitContainer_8cxx.html" title="This task tests the DigitContainer of the TPC digitization. " alt="" coords="5789,354,6061,410"/>
+<area shape="rect" id="node50" href="$d1/d98/ElectronTransport_8cxx.html" title="Implementation of the electron transport. " alt="" coords="3584,235,3823,291"/>
+<area shape="rect" id="node51" href="$db/d6c/GEMAmplification_8cxx.html" title="Implementation of the GEM amplification. " alt="" coords="3847,235,4088,291"/>
+<area shape="rect" id="node52" href="$d1/dd8/SAMPAProcessing_8cxx.html" title="Implementation of the SAMPA response. " alt="" coords="4113,235,4361,291"/>
+<area shape="rect" id="node53" href="$d4/d82/testTPCElectronTransport_8cxx.html" title="This task tests the ElectronTransport module of the TPC digitization. " alt="" coords="4384,228,4596,299"/>
+<area shape="rect" id="node54" href="$d5/d97/testTPCGEMAmplification_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCGEMAmplification.cxx" alt="" coords="4620,235,4915,291"/>
+<area shape="rect" id="node55" href="$d0/d5c/testTPCSAMPAProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCSAMPAProcessing.cxx" alt="" coords="4939,235,5241,291"/>
+<area shape="rect" id="node56" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="6135,235,6351,291"/>
+<area shape="rect" id="node45" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="5543,347,5765,417"/>
+<area shape="rect" id="node60" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="6376,228,6620,299"/>
+<area shape="rect" id="node63" href="$d9/d30/EventManagerFrame_8h.html" title="GUI (bottom buttons) for visualisation. " alt="" coords="7676,228,7917,299"/>
+<area shape="rect" id="node65" href="$df/d2a/Initializer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/Initializer.cxx" alt="" coords="7510,354,7694,410"/>
+<area shape="rect" id="node66" href="$d8/df3/Initializer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/Initializer.h" alt="" coords="6936,228,7177,299"/>
+<area shape="rect" id="node68" href="$dd/d21/EventManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/EventManager.cxx" alt="" coords="7201,235,7392,291"/>
+<area shape="rect" id="node69" href="$da/d7a/MultiView_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/MultiView.cxx" alt="" coords="7417,235,7601,291"/>
+<area shape="rect" id="node64" href="$d0/dc0/EventManagerFrame_8cxx.html" title="GUI (bottom buttons) for visualisation. " alt="" coords="7718,354,7945,410"/>
+<area shape="rect" id="node67" href="$d5/d40/main_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/main.cxx" alt="" coords="6965,354,7149,410"/>
+</map>

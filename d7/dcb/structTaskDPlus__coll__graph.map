@@ -1,0 +1,9 @@
+<map id="TaskDPlus" name="TaskDPlus">
+<area shape="rect" id="node2" href="$d8/d34/classo2_1_1framework_1_1HistogramRegistry.html" title="{o2::framework::Histogram\lRegistry\n||+ HistogramRegistry()\l+ add()\l+ add()\l+ add()\l+ addClone()\l+ contains()\l+ get()\l+ operator()()\l+ spec()\l+ ref()\l+ setHash()\l+ operator*()\l+ fill()\l+ fill()\l+ getSize()\l+ getSize()\l+ print()\l}" alt="" coords="5,624,179,951"/>
+<area shape="rect" id="node4" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; int \&gt;\n||+ Configurable()\l}" alt="" coords="203,741,389,833"/>
+<area shape="rect" id="node5" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; int \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="177,469,364,561"/>
+<area shape="rect" id="node6" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; int \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="33,315,220,407"/>
+<area shape="rect" id="node8" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; T \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="195,160,381,252"/>
+<area shape="rect" id="node10" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; T \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="244,315,431,407"/>
+<area shape="rect" id="node11" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; T, IP \&gt;\n||+ Configurable()\l}" alt="" coords="388,469,575,561"/>
+</map>

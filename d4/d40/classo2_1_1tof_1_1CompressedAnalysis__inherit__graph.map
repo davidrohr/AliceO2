@@ -1,0 +1,4 @@
+<map id="o2::tof::CompressedAnalysis" name="o2::tof::CompressedAnalysis">
+<area shape="rect" id="node2" href="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html" title="{o2::tof::compressed\l::DecoderBaseT\&lt; o2::\lheader::RAWDataHeaderV6 \&gt;\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}" alt="" coords="5,263,204,472"/>
+<area shape="rect" id="node3" href="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html" title="{o2::tof::compressed\l::DecoderBaseT\&lt; RDH \&gt;\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}" alt="" coords="19,5,190,200"/>
+</map>

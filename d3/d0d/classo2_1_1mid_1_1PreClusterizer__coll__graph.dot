@@ -1,0 +1,8 @@
+digraph "o2::mid::PreClusterizer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mid::PreClusterizer\n||+ init()\l+ process()\l+ process()\l+ getPreClusters()\l+ getROFRecords()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,5 @@
+<map id="o2::its::TrackerTraits" name="o2::its::TrackerTraits">
+<area shape="rect" id="node2" href="$dc/d36/classo2_1_1its_1_1TrackerTraitsCPU.html" title="{o2::its::TrackerTraitsCPU\n|# mTracklets\l# mCells\l|+ TrackerTraitsCPU()\l+ ~TrackerTraitsCPU()\l+ computeLayerCells()\l+ computeLayerTracklets()\l+ refitTracks()\l}" alt="" coords="5,292,184,443"/>
+<area shape="rect" id="node3" href="$de/de2/classo2_1_1its_1_1TrackerTraitsHIP.html" title="{o2::its::TrackerTraitsHIP\n||}" alt="" coords="209,329,375,406"/>
+<area shape="rect" id="node4" href="$d8/dcb/classo2_1_1its_1_1TrackerTraitsNV.html" title="{o2::its::TrackerTraitsNV\n||+ TrackerTraitsNV()\l+ ~TrackerTraitsNV()\l+ computeLayerCells()\l+ computeLayerTracklets()\l+ refitTracks()\l}" alt="" coords="400,299,579,435"/>
+</map>

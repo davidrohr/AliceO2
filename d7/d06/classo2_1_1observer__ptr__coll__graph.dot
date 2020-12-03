@@ -1,0 +1,8 @@
+digraph "o2::observer_ptr&lt; W &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::observer_ptr\< W \>\n||+ observer_ptr()\l+ observer_ptr()\l+ observer_ptr()\l+ observer_ptr()\l+ observer_ptr()\l+ observer_ptr()\l+ release()\l+ reset()\l+ swap()\l+ swap()\l+ get()\l+ operator*()\l+ operator-\>()\l+ operator=()\l+ operator=()\l+ operator element_type *()\l+ operator bool()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

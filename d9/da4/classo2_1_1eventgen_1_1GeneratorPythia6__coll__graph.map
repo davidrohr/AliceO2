@@ -1,0 +1,5 @@
+<map id="o2::eventgen::GeneratorPythia6" name="o2::eventgen::GeneratorPythia6">
+<area shape="rect" id="node2" href="$d2/d82/classo2_1_1eventgen_1_1GeneratorTGenerator.html" title="{o2::eventgen::GeneratorTGenerator\n||+ GeneratorTGenerator()\l+ GeneratorTGenerator()\l+ ~GeneratorTGenerator()\l+ setTGenerator()\l+ getTGenerator()\l+ Init()\l# GeneratorTGenerator()\l# operator=()\l# generateEvent()\l# importParticles()\l# ClassDefOverride()\l}" alt="" coords="393,711,619,935"/>
+<area shape="rect" id="node3" href="$d3/da7/classo2_1_1eventgen_1_1Generator.html" title="{o2::eventgen::Generator\n||+ Generator()\l+ Generator()\l+ ~Generator()\l+ Init()\l+ ReadEvent()\l+ setMomentumUnit()\l+ setEnergyUnit()\l+ setPositionUnit()\l+ setTimeUnit()\l+ setBoost()\l+ setTriggerMode()\l+ addTrigger()\l+ addDeepTrigger()\l+ notifyEmbedding()\l# Generator()\l# operator=()\l# generateEvent()\l# importParticles()\l# updateHeader()\l# addTracks()\l# boostEvent()\l# triggerEvent()\l# ClassDefOverride()\l}" alt="" coords="425,189,587,589"/>
+<area shape="rect" id="node4" href="$df/d40/classFairGenerator.html" title="{FairGenerator\n||}" alt="" coords="339,5,441,83"/>
+</map>

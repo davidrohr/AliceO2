@@ -1,0 +1,7 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/ColumnDataToLocalBoard.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/ColumnDataToLocalBoard.h">
+<area shape="rect" id="node6" href="$d3/d53/ColumnData_8h.html" title="Strip pattern (aka digits) " alt="" coords="205,124,415,151"/>
+<area shape="rect" id="node9" href="$d3/d07/MUON_2MID_2Base_2include_2MIDBase_2Mapping_8h.html" title="Mapping for MID. " alt="" coords="730,124,871,151"/>
+<area shape="rect" id="node11" href="$db/d83/CrateMapper_8h.html" title="Mapper to convert the RO Ids to a format suitable for O2. " alt="" coords="491,124,655,151"/>
+<area shape="rect" id="node12" href="$d3/d4a/LocalBoardRO_8h.html" title="Structure to store the FEE local board information. " alt="" coords="5,124,180,151"/>
+<area shape="rect" id="node10" href="$d7/d0a/MpArea_8h.html" title="Mapping area for MID. " alt="" coords="647,199,784,225"/>
+</map>

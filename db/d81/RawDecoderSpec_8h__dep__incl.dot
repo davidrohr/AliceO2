@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Workflow/include/MIDWorkflow/RawDecoderSpec.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node135 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/include/MIDWorkflow\l/RawDecoderSpec.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node135 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node136 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/raw-to\l-digits-workflow.cxx",height=0.2,width=0.4,color="black",URL="$d9/d38/MID_2Workflow_2src_2raw-to-digits-workflow_8cxx.html",tooltip="MID raw to digits workflow. "];
+  Node135 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node137 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/RawDecoderSpec.cxx",height=0.2,width=0.4,color="black",URL="$d1/dc9/RawDecoderSpec_8cxx.html",tooltip="Data processor spec for MID raw decoder device. "];
+}

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::tpc::zerosupp_link\l_based::Data\< DataBitSizeT,\l SignificantBitsT \>",height=0.2,width=0.4,color="black",URL="$d5/d9b/structo2_1_1tpc_1_1zerosupp__link__based_1_1Data.html",tooltip="empty header for "];
+}

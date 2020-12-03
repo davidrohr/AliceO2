@@ -1,0 +1,4 @@
+<map id="o2::mch::contour::Polygon&lt; T &gt;" name="o2::mch::contour::Polygon&lt; T &gt;">
+<area shape="rect" id="node2" href="$da/da4/classo2_1_1mch_1_1contour_1_1Polygon.html" title="{o2::mch::contour::Polygon\l\&lt; double \&gt;\n||+ Polygon()\l+ Polygon()\l+ Polygon()\l+ firstVertex()\l+ size()\l+ empty()\l+ operator[]()\l+ isCounterClockwiseOriented()\l+ isManhattan()\l+ isClosed()\l+ contains()\l+ signedArea()\l+ scale()\l+ translate()\l}" alt="" coords="5,336,213,619"/>
+<area shape="rect" id="node3" href="$da/da4/classo2_1_1mch_1_1contour_1_1Polygon.html" title="{o2::mch::contour::Polygon\l\&lt; int \&gt;\n||+ Polygon()\l+ Polygon()\l+ Polygon()\l+ firstVertex()\l+ size()\l+ empty()\l+ operator[]()\l+ isCounterClockwiseOriented()\l+ isManhattan()\l+ isClosed()\l+ contains()\l+ signedArea()\l+ scale()\l+ translate()\l}" alt="" coords="237,336,445,619"/>
+</map>

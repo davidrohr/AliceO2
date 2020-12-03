@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/reconstruction/run" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_da16e9ad2b18bb132f2d9a9746692e88 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reconstruction" fontname="Helvetica", fontsize="10", URL="dir_da16e9ad2b18bb132f2d9a9746692e88.html"]
+  dir_64a7a856c57d288f25917d8b0243ea79 [shape=box, label="run", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_64a7a856c57d288f25917d8b0243ea79.html"];
+  }
+  dir_31b4a6c34d54b2347b970402ffd45e26 [shape=box label="include" color="red" URL="dir_31b4a6c34d54b2347b970402ffd45e26.html"];
+  dir_26637d1bd82229bc9ed97f7e706be743 [shape=box label="Raw" color="red" URL="dir_26637d1bd82229bc9ed97f7e706be743.html"];
+  dir_64a7a856c57d288f25917d8b0243ea79->dir_31b4a6c34d54b2347b970402ffd45e26 [headlabel="2", labeldistance=1.5 headhref="dir_000492_000407.html"];
+  dir_64a7a856c57d288f25917d8b0243ea79->dir_26637d1bd82229bc9ed97f7e706be743 [headlabel="1", labeldistance=1.5 headhref="dir_000492_000665.html"];
+}

@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/BuildTopologyDictionary.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/reconstruction/src/BuildTopologyDictionary.cxx">
+<area shape="rect" id="node2" href="$d9/d1d/BuildTopologyDictionary_8h.html" title="Definition of the BuildTopologyDictionary class. " alt="" coords="1953,124,2132,165"/>
+<area shape="rect" id="node35" href="$df/ddf/LookUp_8h.html" title="Definition of the LookUp class. " alt="" coords="2319,124,2478,165"/>
+<area shape="rect" id="node5" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="1461,221,1691,247"/>
+<area shape="rect" id="node22" href="$d8/ddb/ClusterTopology_8h.html" title="Definition of the ClusterTopology class. " alt="" coords="2125,213,2317,255"/>
+<area shape="rect" id="node27" href="$d1/d08/TopologyDictionary_8h.html" title="Definition of the ClusterTopology class. " alt="" coords="2495,213,2697,255"/>
+<area shape="rect" id="node7" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1481,310,1631,337"/>
+<area shape="rect" id="node8" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="127,481,263,508"/>
+<area shape="rect" id="node11" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2109,399,2267,426"/>
+<area shape="rect" id="node21" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="15,399,196,426"/>
+<area shape="rect" id="node9" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="5,556,189,583"/>
+<area shape="rect" id="node10" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="214,556,373,583"/>
+<area shape="rect" id="node23" href="$de/dc1/ClusterPattern_8h.html" title="DataFormatsITSMFT/Cluster\lPattern.h" alt="" coords="2259,303,2451,344"/>
+<area shape="rect" id="node26" href="$df/de4/CompCluster_8h.html" title="Definition of the ITSMFT compact cluster. " alt="" coords="2511,399,2750,426"/>
+<area shape="rect" id="node28" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="2525,310,2667,337"/>
+</map>

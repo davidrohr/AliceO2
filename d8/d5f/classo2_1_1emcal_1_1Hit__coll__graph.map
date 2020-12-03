@@ -1,0 +1,7 @@
+<map id="o2::emcal::Hit" name="o2::emcal::Hit">
+<area shape="rect" id="node2" href="$de/d90/classo2_1_1BasicXYZEHit.html" title="{o2::BasicXYZEHit\&lt; float \&gt;\n||+ GetEnergyLoss()\l+ SetEnergyLoss()\l+ ClassDefNV()\l}" alt="" coords="93,984,272,1091"/>
+<area shape="rect" id="node3" href="$d9/d95/classo2_1_1BasicXYZVHit.html" title="{o2::BasicXYZVHit\&lt; float,\l float, float \&gt;\n||+ BasicXYZVHit()\l+ BasicXYZVHit()\l+ GetX()\l+ GetY()\l+ GetZ()\l+ GetPos()\l+ GetHitValue()\l+ GetTime()\l+ GetDetectorID()\l+ SetTime()\l+ SetHitValue()\l+ SetDetectorID()\l+ SetX()\l+ SetY()\l+ SetZ()\l+ SetXYZ()\l+ SetPos()\l+ ClassDefNV()\l}" alt="" coords="5,580,176,921"/>
+<area shape="rect" id="node4" href="$db/dfe/classo2_1_1BaseHit.html" title="{o2::BaseHit\n||+ BaseHit()\l+ BaseHit()\l+ GetTrackID()\l+ SetTrackID()\l}" alt="" coords="51,5,162,127"/>
+<area shape="rect" id="node5" href="$d9/d95/classo2_1_1BasicXYZVHit.html" title="{o2::BasicXYZVHit\&lt; T,\l E, V \&gt;\n||+ BasicXYZVHit()\l+ BasicXYZVHit()\l+ GetX()\l+ GetY()\l+ GetZ()\l+ GetPos()\l+ GetHitValue()\l+ GetTime()\l+ GetDetectorID()\l+ SetTime()\l+ SetHitValue()\l+ SetDetectorID()\l+ SetX()\l+ SetY()\l+ SetZ()\l+ SetXYZ()\l+ SetPos()\l+ ClassDefNV()\l}" alt="" coords="129,176,282,517"/>
+<area shape="rect" id="node6" href="$de/d90/classo2_1_1BasicXYZEHit.html" title="{o2::BasicXYZEHit\&lt; T,\l E, V \&gt;\n||+ GetEnergyLoss()\l+ SetEnergyLoss()\l+ ClassDefNV()\l}" alt="" coords="201,690,354,811"/>
+</map>

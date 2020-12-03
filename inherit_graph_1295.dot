@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::framework::SpawnManager\l\< Spawns\< TABLE \> \>",height=0.2,width=0.4,color="black",URL="$db/d3e/structo2_1_1framework_1_1SpawnManager_3_01Spawns_3_01TABLE_01_4_01_4.html"];
+}

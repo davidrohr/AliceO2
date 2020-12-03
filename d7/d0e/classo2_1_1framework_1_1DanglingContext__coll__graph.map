@@ -1,0 +1,3 @@
+<map id="o2::framework::DanglingContext" name="o2::framework::DanglingContext">
+<area shape="rect" id="node2" href="$dc/dba/structo2_1_1framework_1_1ServiceRegistry.html" title="{o2::framework::ServiceRegistry\n||+ ServiceRegistry()\l+ ServiceRegistry()\l+ operator=()\l+ preProcessingCallbacks()\l+ postProcessingCallbacks()\l+ preDanglingCallbacks()\l+ postDanglingCallbacks()\l+ preEOSCallbacks()\l+ postEOSCallbacks()\l+ postDispatchingCallbacks()\l+ declareService()\l+ bindService()\l+ registerService()\l+ getPos()\l+ get()\l+ registerService()\l+ registerService()\l+ registerService()\l+ active()\l+ get()\l}" alt="" coords="1005,204,1211,560"/>
+</map>

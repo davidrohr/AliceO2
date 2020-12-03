@@ -1,0 +1,8 @@
+digraph "o2::parameters::GRPObject"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::parameters::GRPObject\n||+ GRPObject()\l+ ~GRPObject()\l+ getTimeStart()\l+ getTimeEnd()\l+ setTimeStart()\l+ setTimeEnd()\l+ getCrossingAngle()\l+ setCrossingAngle()\l+ getBeamZ()\l+ getBeamA()\l+ getBeamZ2A()\l+ setBeamAZ()\l+ setBeamEnergyPerZ()\l+ getBeamEnergyPerZ()\l+ getBeamEnergyPerNucleon()\l+ getSqrtS()\l+ getL3Current()\l+ getDipoleCurrent()\l+ setL3Current()\l+ setDipoleCurrent()\l+ getDataPeriod()\l+ setDataPeriod()\l+ getLHCState()\l+ setLHCState()\l+ setRun()\l+ getRun()\l+ setFill()\l+ getFill()\l+ getDetsReadOut()\l+ setDetsReadOut()\l+ getDetsContinuousReadOut()\l+ setDetsContinuousReadOut()\l+ getDetsTrigger()\l+ setDetsTrigger()\l+ addDetReadOut()\l+ remDetReadOut()\l+ addDetContinuousReadOut()\l+ remDetContinuousReadOut()\l+ addDetTrigger()\l+ remDetTrigger()\l+ isDetReadOut()\l+ isDetContinuousReadOut()\l+ isDetTriggers()\l+ setDetROMode()\l+ getDetROMode()\l+ getDetsReadOut()\l+ getDetsReadOut()\l+ print()\l+ loadFrom()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

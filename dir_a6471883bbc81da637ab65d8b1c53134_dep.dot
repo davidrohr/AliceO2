@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Base/opencl" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_442920581a03c66cf8c08ae559108050 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Base" fontname="Helvetica", fontsize="10", URL="dir_442920581a03c66cf8c08ae559108050.html"]
+  dir_a6471883bbc81da637ab65d8b1c53134 [shape=box, label="opencl", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a6471883bbc81da637ab65d8b1c53134.html"];
+  }
+  dir_6a038b5a887c8ead4833719d3dab2a78 [shape=box label="opencl-common" URL="dir_6a038b5a887c8ead4833719d3dab2a78.html"];
+  dir_a6471883bbc81da637ab65d8b1c53134->dir_6a038b5a887c8ead4833719d3dab2a78 [headlabel="2", labeldistance=1.5 headhref="dir_000791_000790.html"];
+}

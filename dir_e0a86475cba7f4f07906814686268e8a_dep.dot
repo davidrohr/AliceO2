@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/EventVisualisation/View/include/EventVisualisationView" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ecb4103f915c7a04dd46c195301b3d6c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_ecb4103f915c7a04dd46c195301b3d6c.html"]
+  dir_e0a86475cba7f4f07906814686268e8a [shape=box, label="EventVisualisationView", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e0a86475cba7f4f07906814686268e8a.html"];
+  }
+  dir_6af676bf18881990e4083e191d0e63e0 [shape=box label="CCDB" color="red" URL="dir_6af676bf18881990e4083e191d0e63e0.html"];
+  dir_aefce7a2bfca35990ebbcc105bbcfa2a [shape=box label="Base" color="red" URL="dir_aefce7a2bfca35990ebbcc105bbcfa2a.html"];
+  dir_e0a86475cba7f4f07906814686268e8a->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="2", labeldistance=1.5 headhref="dir_000735_000028.html"];
+  dir_e0a86475cba7f4f07906814686268e8a->dir_aefce7a2bfca35990ebbcc105bbcfa2a [headlabel="3", labeldistance=1.5 headhref="dir_000735_000348.html"];
+}

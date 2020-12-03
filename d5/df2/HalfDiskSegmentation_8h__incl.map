@@ -1,0 +1,5 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/HalfDiskSegmentation.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/HalfDiskSegmentation.h">
+<area shape="rect" id="node3" href="$d9/de7/LadderSegmentation_8h.html" title="Description of the virtual segmentation of a ladder. " alt="" coords="139,124,353,151"/>
+<area shape="rect" id="node5" href="$d3/de7/VSegmentation_8h.html" title="Abstract base class for MFT Segmentation description. " alt="" coords="336,273,519,300"/>
+<area shape="rect" id="node8" href="$d3/dbd/ChipSegmentation_8h.html" title="Chip (sensor) segmentation description. " alt="" coords="327,199,528,225"/>
+</map>

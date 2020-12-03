@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/MUON/MID/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f1c8e1699fc4a5536cc82d7d165bc0fd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MID" fontname="Helvetica", fontsize="10", URL="dir_f1c8e1699fc4a5536cc82d7d165bc0fd.html"]
+  dir_1e3e96c740890a6c16d80fa4bf194bf5 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1e3e96c740890a6c16d80fa4bf194bf5.html"];
+  }
+  dir_96aabaa43176ba6e3c12efb65181d828 [shape=box label="include" color="red" URL="dir_96aabaa43176ba6e3c12efb65181d828.html"];
+  dir_1e3e96c740890a6c16d80fa4bf194bf5->dir_96aabaa43176ba6e3c12efb65181d828 [headlabel="3", labeldistance=1.5 headhref="dir_000214_000200.html"];
+}

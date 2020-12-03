@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/test/testMCTruthContainer.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/test/testMCTruthContainer.cxx">
+<area shape="rect" id="node3" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="729,199,881,240"/>
+<area shape="rect" id="node6" href="$d1/da6/ConstMCTruthContainer_8h.html" title="A const (ready only) version of MCTruthContainer. " alt="" coords="528,109,707,151"/>
+<area shape="rect" id="node17" href="$db/ded/LabelContainer_8h.html" title="SimulationDataFormat\l/LabelContainer.h" alt="" coords="205,199,357,240"/>
+<area shape="rect" id="node20" href="$d6/dae/IOMCTruthContainerView_8h.html" title="A special IO container &#45; splitting a given vector to enable ROOT IO. " alt="" coords="912,199,1099,240"/>
+<area shape="rect" id="node4" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="931,288,1088,315"/>
+<area shape="rect" id="node7" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="541,199,693,240"/>
+<area shape="rect" id="node16" href="$db/d31/Traits_8h.html" title="Framework/Traits.h" alt="" coords="382,206,517,233"/>
+</map>

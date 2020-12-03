@@ -1,0 +1,8 @@
+digraph "o2::tpc::SyncPatternMonitor"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::SyncPatternMonitor\n||+ SyncPatternMonitor()\l+ SyncPatternMonitor()\l+ SyncPatternMonitor()\l+ ~SyncPatternMonitor()\l+ reset()\l+ addSequence()\l+ getPosition()\l+ getPatternA()\l+ getPatternB()\l+ getSyncStart()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

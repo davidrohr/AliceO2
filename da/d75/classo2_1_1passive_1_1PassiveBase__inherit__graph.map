@@ -1,0 +1,11 @@
+<map id="o2::passive::PassiveBase" name="o2::passive::PassiveBase">
+<area shape="rect" id="node3" href="$d7/d12/classo2_1_1passive_1_1Absorber.html" title="{o2::passive::Absorber\n||+ Absorber()\l+ Absorber()\l+ ~Absorber()\l+ ConstructGeometry()\l+ createMaterials()\l+ CloneModule()\l}" alt="" coords="5,293,161,443"/>
+<area shape="rect" id="node4" href="$d9/d93/classo2_1_1passive_1_1Compensator.html" title="{o2::passive::Compensator\n||+ Compensator()\l+ Compensator()\l+ ~Compensator()\l+ ConstructGeometry()\l+ CloneModule()\l}" alt="" coords="185,300,360,436"/>
+<area shape="rect" id="node5" href="$d2/d54/classo2_1_1passive_1_1Dipole.html" title="{o2::passive::Dipole\n||+ Dipole()\l+ Dipole()\l+ ~Dipole()\l+ ConstructGeometry()\l+ CloneModule()\l}" alt="" coords="384,300,540,436"/>
+<area shape="rect" id="node6" href="$de/db8/classo2_1_1passive_1_1FrameStructure.html" title="{o2::passive::FrameStructure\n||+ FrameStructure()\l+ FrameStructure()\l+ ~FrameStructure()\l+ CloneModule()\l+ ConstructGeometry()\l+ hasHoles()\l+ setHoles()\l}" alt="" coords="565,285,751,451"/>
+<area shape="rect" id="node7" href="$d3/d82/classo2_1_1passive_1_1Hall.html" title="{o2::passive::Hall\n||+ Hall()\l+ Hall()\l+ ~Hall()\l+ ConstructGeometry()\l+ CloneModule()\l}" alt="" coords="776,300,932,436"/>
+<area shape="rect" id="node8" href="$d2/dc7/classo2_1_1passive_1_1Magnet.html" title="{o2::passive::Magnet\n||+ Magnet()\l+ Magnet()\l+ ~Magnet()\l+ ConstructGeometry()\l+ createMaterials()\l+ CloneModule()\l}" alt="" coords="956,293,1112,443"/>
+<area shape="rect" id="node9" href="$d0/d9b/classo2_1_1passive_1_1Pipe.html" title="{o2::passive::Pipe\n||+ Pipe()\l+ Pipe()\l+ ~Pipe()\l+ ConstructGeometry()\l+ CloneModule()\l+ getRmin()\l+ getRmax()\l+ getWidth()\l+ getDz()\l}" alt="" coords="1136,271,1292,465"/>
+<area shape="rect" id="node10" href="$dc/d7a/classo2_1_1passive_1_1Shil.html" title="{o2::passive::Shil\n||+ Shil()\l+ Shil()\l+ ~Shil()\l+ ConstructGeometry()\l+ CloneModule()\l}" alt="" coords="1316,300,1472,436"/>
+<area shape="rect" id="node2" href="$d4/d06/classFairModule.html" title="{FairModule\n||}" alt="" coords="712,5,799,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/workflow/include/TPCWorkflow/PublisherSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/workflow/include/TPCWorkflow/PublisherSpec.h">
+<area shape="rect" id="node2" href="$df/de7/AODProducerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx" alt="" coords="5,131,215,187"/>
+<area shape="rect" id="node3" href="$d5/db4/MatchTPCITSWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/MatchTPCITSWorkflow.cxx" alt="" coords="239,131,506,187"/>
+<area shape="rect" id="node4" href="$d1/d67/TrackInterpolationWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TrackInterpolationWorkflow.cxx" alt="" coords="530,124,762,195"/>
+<area shape="rect" id="node5" href="$d4/dac/TPC_2workflow_2src_2PublisherSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/PublisherSpec.cxx" alt="" coords="786,131,999,187"/>
+<area shape="rect" id="node6" href="$d0/d80/TPC_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/RecoWorkflow.cxx" alt="" coords="1024,131,1239,187"/>
+</map>

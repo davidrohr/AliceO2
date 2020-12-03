@@ -1,0 +1,6 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/workflow/include/TPCWorkflow/TPCSectorCompletionPolicy.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/workflow/include/TPCWorkflow/TPCSectorCompletionPolicy.h">
+<area shape="rect" id="node2" href="$db/d94/tpcits-match-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/tpcits&#45;match&#45;workflow.cxx" alt="" coords="5,131,261,187"/>
+<area shape="rect" id="node3" href="$d5/d57/tpc-interpolation-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/tpc&#45;interpolation&#45;workflow.cxx" alt="" coords="285,124,509,195"/>
+<area shape="rect" id="node4" href="$d3/dbf/tpc-reco-workflow_8cxx.html" title="Basic DPL workflow for TPC reconstruction starting from digits. " alt="" coords="533,131,765,187"/>
+<area shape="rect" id="node5" href="$dd/dd3/TPCSectorCompletionPolicy_8cxx.html" title="DPL completion policy helper for TPC scetor data. " alt="" coords="789,124,1024,195"/>
+</map>

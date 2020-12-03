@@ -1,0 +1,10 @@
+digraph "AliHLTHOMERBlockDescriptor"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AliHLTHOMERBlockDescriptor\n||+ AliHLTHOMERBlockDescriptor()\l+ UseHeader()\l+ Initialize()\l+ SetByteOrder()\l+ GetByteOrder()\l+ SetVersion()\l+ SetID()\l+ SetHeaderLength()\l+ GetHeaderLength()\l+ SetAlignment()\l+ SetUInt64Alignment()\l+ SetUInt32Alignment()\l+ SetUInt16Alignment()\l+ SetUInt8Alignment()\l+ SetDoubleAlignment()\l+ SetFloatAlignment()\l+ SetType()\l+ SetSubType1()\l+ SetSubType2()\l+ SetBirth_s()\l+ SetBirth_us()\l+ SetProducerNode()\l+ SetBlockOffset()\l+ GetBlockOffset()\l+ SetBlockSize()\l+ GetBlockSize()\l+ SetStatusFlags()\l+ GetStatusFlags()\l+ GetHeader()\l+ GetHOMERBlockDescriptorSize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #fHeader" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{void *\n||}",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,10 @@
+digraph "o2::itsmft::PayLoadCont"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::itsmft::PayLoadCont\n||+ PayLoadCont()\l+ PayLoadCont()\l+ ~PayLoadCont()\l+ PayLoadCont()\l+ operator=()\l+ data()\l+ expand()\l+ isEmpty()\l+ clear()\l+ getUnusedSize()\l+ getSize()\l+ getOffset()\l+ getCapacity()\l+ getFreeCapacity()\l+ ensureFreeCapacity()\l+ fillFast()\l+ addFast()\l+ addFast()\l+ addFast()\l+ eraseFast()\l+ erase()\l+ fill()\l+ add()\l+ add()\l+ add()\l+ shrinkToSize()\l+ operator[]()\l+ operator[]()\l+ current()\l+ next()\l+ next()\l+ rewind()\l+ moveUnusedToHead()\l+ append()\l+ getPtr()\l+ setPtr()\l+ getEnd()\l+ setEnd()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +MinCapacity" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+}

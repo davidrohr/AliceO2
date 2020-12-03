@@ -1,0 +1,6 @@
+<map id="EventSelectionTaskRun3" name="EventSelectionTaskRun3">
+<area shape="rect" id="node2" href="$d2/d33/structEvSelParameters.html" title="{EvSelParameters\n|+ fV0ADist\l+ fV0CDist\l+ fV0ABBlower\l+ fV0ABGlower\l+ fV0ABGupper\l+ fV0CBBlower\l+ fV0CBGupper\l+ fFDABBlower\l+ fFDABBupper\l+ fFDABGupper\l+ fFDCBBlower\l+ fFDCBBupper\l+ fFDCBGupper\l+ fZNABBupper\l+ fZNCBBupper\l+ fT0ABBlower\l+ fT0ABBupper\l+ fT0CBBupper\l|}" alt="" coords="5,292,129,619"/>
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="44,5,91,83"/>
+<area shape="rect" id="node4" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::EvSels \&gt;\n||}" alt="" coords="154,409,322,501"/>
+<area shape="rect" id="node5" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\&lt; T \&gt;\n||}" alt="" coords="138,5,338,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Simulation/include/MIDSimulation/TrackLabeler.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Simulation/include/MIDSimulation/TrackLabeler.h">
+<area shape="rect" id="node4" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="790,124,942,165"/>
+<area shape="rect" id="node13" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="59,213,211,255"/>
+<area shape="rect" id="node14" href="$d4/d54/DataFormats_2Detectors_2MUON_2MID_2include_2DataFormatsMID_2Track_8h.html" title="Reconstructed MID track. " alt="" coords="269,131,439,158"/>
+<area shape="rect" id="node17" href="$d0/daa/Cluster3D_8h.html" title="Reconstructed MID cluster (global coordinates) " alt="" coords="463,131,661,158"/>
+<area shape="rect" id="node18" href="$d3/db3/MCClusterLabel_8h.html" title="Label for MID clusters. " alt="" coords="27,131,244,158"/>
+<area shape="rect" id="node5" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="387,303,545,329"/>
+</map>

@@ -1,0 +1,22 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Common/MathUtils/include/MathUtils" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a8353808d0468577e29de121914e6940 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_a8353808d0468577e29de121914e6940.html"]
+  subgraph clusterdir_23c27c77d2172bac1b174c3c1a070dcb {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_23c27c77d2172bac1b174c3c1a070dcb.html"];
+    dir_23c27c77d2172bac1b174c3c1a070dcb [shape=plaintext label="MathUtils"];
+    dir_5a3d183d62e616cbba6c610c1047d5c5 [shape=box label="detail" color="black" fillcolor="white" style="filled" URL="dir_5a3d183d62e616cbba6c610c1047d5c5.html"];
+  }
+  }
+  dir_6595de266f53d2529c2724716663252d [shape=box label="Constants" color="red" URL="dir_6595de266f53d2529c2724716663252d.html"];
+  dir_f511f1e9c03c071966ae594f00bbc5e0 [shape=box label="GPU" color="red" URL="dir_f511f1e9c03c071966ae594f00bbc5e0.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_5a3d183d62e616cbba6c610c1047d5c5->dir_6595de266f53d2529c2724716663252d [headlabel="1", labeldistance=1.5 headhref="dir_000047_000036.html"];
+  dir_5a3d183d62e616cbba6c610c1047d5c5->dir_f511f1e9c03c071966ae594f00bbc5e0 [headlabel="5", labeldistance=1.5 headhref="dir_000047_000783.html"];
+  dir_23c27c77d2172bac1b174c3c1a070dcb->dir_5a3d183d62e616cbba6c610c1047d5c5 [headlabel="6", labeldistance=1.5 headhref="dir_000046_000047.html"];
+  dir_23c27c77d2172bac1b174c3c1a070dcb->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="1", labeldistance=1.5 headhref="dir_000046_000062.html"];
+  dir_f511f1e9c03c071966ae594f00bbc5e0->dir_6595de266f53d2529c2724716663252d [headlabel="2", labeldistance=1.5 headhref="dir_000783_000036.html"];
+}

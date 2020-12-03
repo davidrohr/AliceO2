@@ -1,0 +1,20 @@
+digraph "nlohmann::detail::index_sequence&lt; Ints &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{nlohmann::detail::index\l_sequence\< Ints \>\n||+ size()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="orange",fontsize="10",style="solid",label=" \<\>" ,fontname="Helvetica"];
+  Node1 [label="{nlohmann::detail::index\l_sequence\<\>\n||+ size()\l}",height=0.2,width=0.4,color="black",URL="$d4/d69/structnlohmann_1_1detail_1_1index__sequence.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{nlohmann::detail::make\l_index_sequence\< 0 \>\n||}",height=0.2,width=0.4,color="black",URL="$d9/d8f/structnlohmann_1_1detail_1_1make__index__sequence_3_010_01_4.html"];
+  Node0 -> Node3 [dir="back",color="orange",fontsize="10",style="solid",label=" \< 0 \>" ,fontname="Helvetica"];
+  Node3 [label="{nlohmann::detail::index\l_sequence\< 0 \>\n||+ size()\l}",height=0.2,width=0.4,color="black",URL="$d4/d69/structnlohmann_1_1detail_1_1index__sequence.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{nlohmann::detail::make\l_index_sequence\< 1 \>\n||}",height=0.2,width=0.4,color="black",URL="$d4/d5f/structnlohmann_1_1detail_1_1make__index__sequence_3_011_01_4.html"];
+  Node0 -> Node5 [dir="back",color="orange",fontsize="10",style="solid",label=" \< I1...,(sizeof...\l(I1)+I2)... \>" ,fontname="Helvetica"];
+  Node5 [label="{nlohmann::detail::index\l_sequence\< I1...,(sizeof...\l(I1)+I2)... \>\n||+ size()\l}",height=0.2,width=0.4,color="black",URL="$d4/d69/structnlohmann_1_1detail_1_1index__sequence.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{nlohmann::detail::merge\l_and_renumber\< index_sequence\l\< I1... \>, index_sequence\<\l I2... \> \>\n||}",height=0.2,width=0.4,color="black",URL="$df/d89/structnlohmann_1_1detail_1_1merge__and__renumber_3_01index__sequence_3_01I1_8_8_8_01_4_00_01inde4885d6f1d93a04f25932afbd429c4793.html"];
+}

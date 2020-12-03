@@ -1,0 +1,20 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/include/TPCSpaceCharge/SpaceChargeHelpers.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node30 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/spacecharge/include/TPCSpaceCharge\l/SpaceChargeHelpers.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/spacecharge/include/TPCSpaceCharge\l/SpaceCharge.h",height=0.2,width=0.4,color="black",URL="$d3/db6/SpaceCharge_8h.html",tooltip="This class contains the algorithms for calculation the distortions and corrections. "];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h",height=0.2,width=0.4,color="black",URL="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html"];
+  Node32 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx",height=0.2,width=0.4,color="black",URL="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html"];
+  Node32 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d2/d0b/TPCDigitizerSpec_8cxx.html"];
+  Node31 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/spacecharge/src/SpaceCharge.cxx",height=0.2,width=0.4,color="black",URL="$da/d8e/SpaceCharge_8cxx.html",tooltip="Definition of SpaceCharge class. "];
+  Node30 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/spacecharge/test/testO2TPCPoisson\lSolver.cxx",height=0.2,width=0.4,color="black",URL="$d2/d8c/testO2TPCPoissonSolver_8cxx.html"];
+}

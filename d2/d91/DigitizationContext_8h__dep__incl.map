@@ -1,0 +1,31 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/include/SimulationDataFormat/DigitizationContext.h">
+<area shape="rect" id="node2" href="$df/dc2/DigitizationContext_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/simulation\l/src/DigitizationContext.cxx" alt="" coords="75,124,289,180"/>
+<area shape="rect" id="node3" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="5,228,244,284"/>
+<area shape="rect" id="node4" href="$d7/d23/StandaloneAODProducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/StandaloneAODProducer.cxx" alt="" coords="269,228,487,284"/>
+<area shape="rect" id="node5" href="$db/d2d/PrimaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/PrimaryVertexingSpec.cxx" alt="" coords="639,124,898,180"/>
+<area shape="rect" id="node6" href="$d9/dfc/SecondaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexingSpec.cxx" alt="" coords="922,124,1197,180"/>
+<area shape="rect" id="node7" href="$d6/d73/TPCITSMatchingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TPCITSMatchingSpec.cxx" alt="" coords="1221,124,1479,180"/>
+<area shape="rect" id="node8" href="$dd/d40/HitProcessingManager_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/HitProcessingManager.h" alt="" coords="3096,124,3300,180"/>
+<area shape="rect" id="node28" href="$dd/de5/MCKinematicsReader_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/include\l/Steer/MCKinematicsReader.h" alt="" coords="415,124,615,180"/>
+<area shape="rect" id="node9" href="$d6/df2/TRDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitizerSpec.cxx" alt="" coords="2669,228,2903,284"/>
+<area shape="rect" id="node10" href="$d7/da6/TRDDigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitReaderSpec.cxx" alt="" coords="2927,228,3183,284"/>
+<area shape="rect" id="node11" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="3208,228,3476,284"/>
+<area shape="rect" id="node12" href="$da/dfe/CPVDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.cxx" alt="" coords="3500,228,3715,284"/>
+<area shape="rect" id="node13" href="$d5/d9b/EMCALDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/EMCALDigitizerSpec.cxx" alt="" coords="3739,228,3953,284"/>
+<area shape="rect" id="node14" href="$d2/d97/FDDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx" alt="" coords="3977,228,4192,284"/>
+<area shape="rect" id="node15" href="$d4/dfd/FT0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitizerSpec.cxx" alt="" coords="4216,228,4431,284"/>
+<area shape="rect" id="node16" href="$d0/d1c/FV0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FV0DigitizerSpec.cxx" alt="" coords="4455,228,4669,284"/>
+<area shape="rect" id="node17" href="$d8/d00/HMPIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/HMPIDDigitizerSpec.cxx" alt="" coords="4693,228,4908,284"/>
+<area shape="rect" id="node18" href="$d3/d43/ITSMFTDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ITSMFTDigitizerSpec.cxx" alt="" coords="4932,228,5147,284"/>
+<area shape="rect" id="node19" href="$db/d2f/MCHDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitizerSpec.cxx" alt="" coords="5171,228,5385,284"/>
+<area shape="rect" id="node20" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="5409,228,5624,284"/>
+<area shape="rect" id="node21" href="$db/d77/PHOSDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitizerSpec.cxx" alt="" coords="971,228,1185,284"/>
+<area shape="rect" id="node22" href="$d3/d13/SimReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimReaderSpec.cxx" alt="" coords="1209,228,1424,284"/>
+<area shape="rect" id="node23" href="$d6/d61/TOFDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TOFDigitizerSpec.cxx" alt="" coords="1448,228,1663,284"/>
+<area shape="rect" id="node24" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="1687,228,1901,284"/>
+<area shape="rect" id="node25" href="$d1/d1a/ZDCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ZDCDigitizerSpec.cxx" alt="" coords="1925,228,2140,284"/>
+<area shape="rect" id="node26" href="$d6/d0b/HitProcessingManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/HitProcessing\lManager.cxx" alt="" coords="2164,228,2379,284"/>
+<area shape="rect" id="node27" href="$d7/d6d/testHitProcessingManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/test/testHitProcessing\lManager.cxx" alt="" coords="2403,228,2644,284"/>
+<area shape="rect" id="node29" href="$d4/d70/checkStack_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/checkStack.cxx" alt="" coords="754,235,946,277"/>
+<area shape="rect" id="node30" href="$db/dd9/MCKinematicsReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/src/MCKinematics\lReader.cxx" alt="" coords="511,228,730,284"/>
+</map>

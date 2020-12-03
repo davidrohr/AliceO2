@@ -1,0 +1,12 @@
+digraph "o2::soa::IndexTable&lt; Key, H, Ts &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::soa::IndexTable\l\< Key, H, Ts \>\n||+ IndexTable()\l+ IndexTable()\l+ IndexTable()\l+ operator=()\l+ operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::soa::Table\< soa\l::Index\<\>, H, Ts... \>\n||+ Table()\l+ Table()\l+ begin()\l+ begin()\l+ end()\l+ end()\l+ filtered_begin()\l+ iteratorAt()\l+ asArrowTable()\l+ offset()\l+ size()\l+ tableSize()\l+ bindExternalIndices()\l+ select()\l}",height=0.2,width=0.4,color="black",URL="$de/dbc/classo2_1_1soa_1_1Table.html"];
+  Node2 -> Node1 [dir="back",color="orange",fontsize="10",style="solid",label=" \< soa::Index\<\>, H,\l Ts... \>" ,fontname="Helvetica"];
+  Node2 [label="{o2::soa::Table\< C \>\n||+ Table()\l+ Table()\l+ begin()\l+ end()\l+ filtered_begin()\l+ iteratorAt()\l+ begin()\l+ end()\l+ asArrowTable()\l+ offset()\l+ size()\l+ tableSize()\l+ bindExternalIndices()\l+ select()\l}",height=0.2,width=0.4,color="black",URL="$de/dbc/classo2_1_1soa_1_1Table.html"];
+}

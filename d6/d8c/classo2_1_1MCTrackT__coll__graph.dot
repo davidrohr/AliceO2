@@ -1,0 +1,8 @@
+digraph "o2::MCTrackT&lt; _T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::MCTrackT\< _T \>\n||+ MCTrackT()\l+ MCTrackT()\l+ MCTrackT()\l+ MCTrackT()\l+ ~MCTrackT()\l+ Print()\l+ GetPdgCode()\l+ getMotherTrackId()\l+ getSecondMotherTrackId()\l+ isPrimary()\l+ isSecondary()\l+ getFirstDaughterTrackId()\l+ getLastDaughterTrackId()\l+ GetStartVertexMomentumX()\l+ GetStartVertexMomentumY()\l+ GetStartVertexMomentumZ()\l+ GetStartVertexCoordinatesX()\l+ GetStartVertexCoordinatesY()\l+ GetStartVertexCoordinatesZ()\l+ GetStartVertexCoordinatesT()\l+ GetMass()\l+ GetEnergy()\l+ Px()\l+ Py()\l+ Pz()\l+ Vx()\l+ Vy()\l+ Vz()\l+ T()\l+ GetPt()\l+ GetP()\l+ GetPhi()\l+ GetEta()\l+ GetTheta()\l+ GetRapidity()\l+ GetMomentum()\l+ Get4Momentum()\l+ GetStartVertex()\l+ getHitMask()\l+ setHitMask()\l+ SetMotherTrackId()\l+ SetSecondMotherTrackId()\l+ SetFirstDaughterTrackId()\l+ SetLastDaughterTrackId()\l+ setHit()\l+ leftTrace()\l+ getNumDet()\l+ setStore()\l+ getStore()\l+ hasHits()\l+ setProcess()\l+ getProcess()\l+ setToBeDone()\l+ getToBeDone()\l+ getProdProcessAsString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

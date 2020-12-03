@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/calib/include/PHOSCalib/BadChannelMap.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/calib/include/PHOSCalib/BadChannelMap.h">
+<area shape="rect" id="node2" href="$d5/d07/PHOS_2calib_2src_2BadChannelMap_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/calib/src/BadChannelMap.cxx" alt="" coords="5,131,205,187"/>
+<area shape="rect" id="node3" href="$d4/d71/PHOS_2calib_2src_2CalibDB_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/calib/src/CalibDB.cxx" alt="" coords="230,131,410,187"/>
+<area shape="rect" id="node4" href="$d1/d34/PHOS_2reconstruction_2include_2PHOSReconstruction_2Clusterer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/reconstruction/include\l/PHOSReconstruction/Clusterer.h" alt="" coords="434,124,654,195"/>
+<area shape="rect" id="node9" href="$d5/d29/PHOS_2workflow_2include_2PHOSWorkflow_2CellConverterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/CellConverterSpec.h" alt="" coords="678,124,898,195"/>
+<area shape="rect" id="node5" href="$d2/d52/PHOS_2reconstruction_2src_2Clusterer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/reconstruction/src/Clusterer.cxx" alt="" coords="198,250,410,306"/>
+<area shape="rect" id="node6" href="$d3/d8c/PHOS_2workflow_2include_2PHOSWorkflow_2ClusterizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/ClusterizerSpec.h" alt="" coords="434,243,654,313"/>
+<area shape="rect" id="node7" href="$da/df8/PHOS_2workflow_2src_2ClusterizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/ClusterizerSpec.cxx" alt="" coords="386,361,609,417"/>
+<area shape="rect" id="node8" href="$d8/d7e/PHOS_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RecoWorkflow.cxx" alt="" coords="633,361,847,417"/>
+<area shape="rect" id="node10" href="$d1/d69/PHOS_2workflow_2src_2CellConverterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/CellConverterSpec.cxx" alt="" coords="778,250,1017,306"/>
+</map>

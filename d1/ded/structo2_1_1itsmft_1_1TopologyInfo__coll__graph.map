@@ -1,0 +1,4 @@
+<map id="o2::itsmft::TopologyInfo" name="o2::itsmft::TopologyInfo">
+<area shape="rect" id="node2" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="5,314,52,391"/>
+<area shape="rect" id="node4" href="$d3/d02/classo2_1_1itsmft_1_1ClusterPattern.html" title="{o2::itsmft::ClusterPattern\n||+ ClusterPattern()\l+ ClusterPattern()\l+ ClusterPattern()\l+ getPattern()\l+ getByte()\l+ getRowSpan()\l+ getColumnSpan()\l+ getUsedBytes()\l+ setPattern()\l+ setPattern()\l+ getCOG()\l+ getCOG()\l}" alt="" coords="173,233,343,472"/>
+</map>

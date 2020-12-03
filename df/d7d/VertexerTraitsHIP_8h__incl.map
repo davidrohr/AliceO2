@@ -1,0 +1,27 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/hip/include/ITStrackingHIP/VertexerTraitsHIP.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/hip/include/ITStrackingHIP/VertexerTraitsHIP.h">
+<area shape="rect" id="node4" href="$d2/dd6/VertexerTraits_8h.html" title="Class to compute the primary vertex in ITS from tracklets. " alt="" coords="660,221,847,247"/>
+<area shape="rect" id="node6" href="$da/d7f/Detectors_2ITSMFT_2ITS_2tracking_2include_2ITStracking_2Cluster_8h.html" title="ITStracking/Cluster.h" alt="" coords="1121,467,1268,493"/>
+<area shape="rect" id="node25" href="$d0/d86/Detectors_2ITSMFT_2ITS_2tracking_2include_2ITStracking_2Constants_8h.html" title="ITStracking/Constants.h" alt="" coords="499,616,663,643"/>
+<area shape="rect" id="node29" href="$d8/db3/ITSMFT_2ITS_2tracking_2include_2ITStracking_2Tracklet_8h.html" title="ITStracking/Tracklet.h" alt="" coords="1343,385,1494,411"/>
+<area shape="rect" id="node32" href="$d4/d1e/DeviceStoreVertexerHIP_8h.html" title="This class serves as memory interface for GPU vertexer. It will access needed data structures from de..." alt="" coords="1585,124,1773,165"/>
+<area shape="rect" id="node37" href="$d1/d7c/UniquePointerHIP_8h.html" title="ITStrackingHIP/UniquePointer\lHIP.h" alt="" coords="2554,377,2753,419"/>
+<area shape="rect" id="node7" href="$df/d3d/Definitions_8h.html" title="ITStracking/Definitions.h" alt="" coords="841,691,1007,717"/>
+<area shape="rect" id="node8" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2127,840,2263,867"/>
+<area shape="rect" id="node22" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="469,765,613,792"/>
+<area shape="rect" id="node27" href="$d3/d59/Configuration_8h.html" title="ITStracking/Configuration.h" alt="" coords="296,541,477,568"/>
+<area shape="rect" id="node28" href="$df/d50/ClusterLines_8h.html" title="ITStracking/ClusterLines.h" alt="" coords="1102,303,1279,329"/>
+<area shape="rect" id="node30" href="$dc/ddf/ITS_2tracking_2include_2ITStracking_2IndexTableUtils_8h.html" title="ITStracking/IndexTableUtils.h" alt="" coords="516,467,711,493"/>
+<area shape="rect" id="node12" href="$dc/d3e/MathUtils_8h.html" title="ITStracking/MathUtils.h" alt="" coords="1343,541,1503,568"/>
+<area shape="rect" id="node9" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2004,915,2188,941"/>
+<area shape="rect" id="node10" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2213,915,2371,941"/>
+<area shape="rect" id="node16" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1721,616,1841,643"/>
+<area shape="rect" id="node17" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="1965,691,2131,717"/>
+<area shape="rect" id="node19" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="1715,691,1941,717"/>
+<area shape="rect" id="node21" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="1488,691,1691,717"/>
+<area shape="rect" id="node24" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1539,765,1778,792"/>
+<area shape="rect" id="node34" href="$de/d49/ArrayHIP_8h.html" title="ITStrackingHIP/ArrayHIP.h" alt="" coords="2041,221,2223,247"/>
+<area shape="rect" id="node36" href="$d2/dc8/ClusterLinesHIP_8h.html" title="GPU&#45;compliant version of ClusterLines, for the moment separated, might create a common traits for Clu..." alt="" coords="1731,213,1920,255"/>
+<area shape="rect" id="node41" href="$dd/dda/VectorHIP_8h.html" title="ITStrackingHIP/VectorHIP.h" alt="" coords="2425,541,2613,568"/>
+<area shape="rect" id="node38" href="$d8/d28/UtilsHIP_8h.html" title="ITStrackingHIP/UtilsHIP.h" alt="" coords="2741,616,2918,643"/>
+<area shape="rect" id="node39" href="$d4/dac/StreamHIP_8h.html" title="ITStrackingHIP/StreamHIP.h" alt="" coords="2653,691,2845,717"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/d83/classo2_1_1emcal_1_1CaloRawFitter.html" title="o2::emcal::CaloRawFitter" alt="" coords="5,46,176,73"/>
+<area shape="rect" id="node2" href="$d5/d31/classo2_1_1emcal_1_1CaloRawFitterGamma2.html" title="Raw data fitting: Gamma&#45;2 function. " alt="" coords="224,5,395,47"/>
+<area shape="rect" id="node3" href="$d7/dd6/classo2_1_1emcal_1_1CaloRawFitterStandard.html" title="Raw data fitting: standard TMinuit fit. " alt="" coords="224,71,395,112"/>
+</map>

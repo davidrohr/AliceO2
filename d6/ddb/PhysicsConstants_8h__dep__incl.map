@@ -1,0 +1,101 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Common/Constants/include/CommonConstants/PhysicsConstants.h" name="/home/runner/work/AliceO2/AliceO2/Common/Constants/include/CommonConstants/PhysicsConstants.h">
+<area shape="rect" id="node2" href="$d9/df6/GRPObject_8cxx.html" title="Implementation of General Run Parameters object. " alt="" coords="3001,131,3224,187"/>
+<area shape="rect" id="node3" href="$d5/d08/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2PID_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats/PID.h" alt="" coords="3248,131,3521,187"/>
+<area shape="rect" id="node30" href="$db/d6a/MatchTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTOF.cxx" alt="" coords="8722,1170,8946,1226"/>
+<area shape="rect" id="node36" href="$dc/d59/MatchTPCITS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx" alt="" coords="5941,1059,6165,1115"/>
+<area shape="rect" id="node44" href="$db/de1/TrackLTIntegral_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/TrackLTIntegral.cxx" alt="" coords="9263,725,9507,781"/>
+<area shape="rect" id="node45" href="$d7/d6a/testLTOFIntegration_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/test/testLTOFIntegration.cxx" alt="" coords="6240,725,6484,781"/>
+<area shape="rect" id="node46" href="$d2/df9/Propagator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/include/DetectorsBase/Propagator.h" alt="" coords="6865,725,7101,781"/>
+<area shape="rect" id="node82" href="$d9/d15/Detectors_2FIT_2FDD_2base_2include_2FDDBase_2Constants_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/base/include/FDDBase\l/Constants.h" alt="" coords="9621,124,9815,195"/>
+<area shape="rect" id="node88" href="$dc/dff/FV0DigParam_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/simulation/include\l/FV0Simulation/FV0DigParam.h" alt="" coords="10202,124,10410,195"/>
+<area shape="rect" id="node91" href="$d3/dd7/Detectors_2ZDC_2base_2include_2ZDCBase_2Constants_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/base/include/ZDCBase/Constants.h" alt="" coords="11520,131,11756,187"/>
+<area shape="rect" id="node4" href="$d1/d98/PIDResponse_8h.html" title="Set of tables, tasks and utilities to provide the interface between the analysis data model and the P..." alt="" coords="1912,606,2105,662"/>
+<area shape="rect" id="node23" href="$d9/d66/PIDTOF_8h.html" title="Implementation of the TOF detector response for PID. " alt="" coords="2628,369,2821,425"/>
+<area shape="rect" id="node24" href="$df/d83/PIDTPC_8h.html" title="Implementation of the TPC detector response for PID. " alt="" coords="2845,369,3039,425"/>
+<area shape="rect" id="node25" href="$dc/d68/DetectorResponse_8h.html" title="Handler for any detector (or other entity) response. This provides the basic quantities computed by a..." alt="" coords="2939,250,3187,306"/>
+<area shape="rect" id="node26" href="$d6/db1/TrackLTIntegral_8h.html" title="Track Length and TOF integral. " alt="" coords="6291,599,6535,669"/>
+<area shape="rect" id="node28" href="$d0/d74/MatchTOF_8h.html" title="Class to perform TOF matching to global tracks. " alt="" coords="4177,1059,4411,1115"/>
+<area shape="rect" id="node70" href="$d2/d98/TrackParametrization_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats\l/TrackParametrization.h" alt="" coords="3263,243,3507,313"/>
+<area shape="rect" id="node72" href="$d0/d0c/V0_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats/V0.h" alt="" coords="798,606,1065,662"/>
+<area shape="rect" id="node78" href="$db/da4/DataFormats_2Reconstruction_2src_2PID_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/PID.cxx" alt="" coords="2404,250,2648,306"/>
+<area shape="rect" id="node79" href="$de/d89/CalibTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/CalibTOF.cxx" alt="" coords="2673,250,2865,306"/>
+<area shape="rect" id="node80" href="$d0/de6/V0Hypothesis_8h.html" title="V0 hypothesis checker. " alt="" coords="3651,243,3843,313"/>
+<area shape="rect" id="node5" href="$d8/d95/HFSecondaryVertex_8h.html" title="Definitions of tables of heavy&#45;flavour decay candidates. " alt="" coords="1799,725,2053,781"/>
+<area shape="rect" id="node6" href="$d5/d51/aodDataModelGraph_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/DataModel\l/src/aodDataModelGraph.cxx" alt="" coords="1689,843,1883,899"/>
+<area shape="rect" id="node7" href="$d0/dd5/cascadefinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/cascadefinder.cxx" alt="" coords="1907,843,2089,899"/>
+<area shape="rect" id="node8" href="$d1/db8/cascadeproducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/cascadeproducer.cxx" alt="" coords="2113,843,2315,899"/>
+<area shape="rect" id="node9" href="$d5/d6e/lambdakzerofinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/lambdakzerofinder.cxx" alt="" coords="1457,843,1665,899"/>
+<area shape="rect" id="node10" href="$d6/d2a/lambdakzeroproducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/lambdakzeroproducer.cxx" alt="" coords="2339,843,2566,899"/>
+<area shape="rect" id="node11" href="$d4/dbd/ReducedInfoTables_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/DataModel\l/include/Analysis/ReducedInfoTables.h" alt="" coords="984,725,1233,781"/>
+<area shape="rect" id="node12" href="$d9/d5b/filterPP_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGDQ/filterPP.cxx" alt="" coords="1048,843,1228,899"/>
+<area shape="rect" id="node13" href="$d9/d14/tableMaker_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGDQ/tableMaker.cxx" alt="" coords="1252,843,1432,899"/>
+<area shape="rect" id="node14" href="$d8/d04/tableMaker__pp_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGDQ/tableMaker_pp.cxx" alt="" coords="583,843,775,899"/>
+<area shape="rect" id="node15" href="$dc/d1a/tableMakerMuon__pp_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGDQ/tableMakerMuon_pp.cxx" alt="" coords="799,843,1023,899"/>
+<area shape="rect" id="node16" href="$d5/d53/pidTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTOF.cxx" alt="" coords="2231,725,2411,781"/>
+<area shape="rect" id="node17" href="$db/da2/pidTPC_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTPC.cxx" alt="" coords="2435,725,2615,781"/>
+<area shape="rect" id="node18" href="$d2/d15/cascadeconsumer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/cascadeconsumer.cxx" alt="" coords="2639,725,2847,781"/>
+<area shape="rect" id="node19" href="$d4/d77/lambdakzeroconsumer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/lambdakzeroconsumer.cxx" alt="" coords="2872,725,3105,781"/>
+<area shape="rect" id="node20" href="$dc/d93/NucleiSpectraTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/NucleiSpectraTask.cxx" alt="" coords="1510,725,1723,781"/>
+<area shape="rect" id="node21" href="$df/d80/spectraTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/spectraTOF.cxx" alt="" coords="3129,725,3309,781"/>
+<area shape="rect" id="node22" href="$da/db2/spectraTPC_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/PWGLF/spectraTPC.cxx" alt="" coords="3333,725,3513,781"/>
+<area shape="rect" id="node27" href="$d4/d70/MatchInfoTOF_8h.html" title="Class to store the output of the matching to TOF. " alt="" coords="3944,717,4188,788"/>
+<area shape="rect" id="node34" href="$d5/d1e/TrackTPCITS_8h.html" title="Result of refitting TPC&#45;ITS matched track. " alt="" coords="4351,717,4595,788"/>
+<area shape="rect" id="node33" href="$d3/d0c/TrackInterpolation_8h.html" title="Definition of the TrackInterpolation class. " alt="" coords="3994,836,4258,907"/>
+<area shape="rect" id="node29" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="4020,1170,4259,1226"/>
+<area shape="rect" id="node31" href="$d8/d84/RecoWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowSpec.cxx" alt="" coords="4287,1170,4602,1226"/>
+<area shape="rect" id="node32" href="$d4/d76/RecoWorkflowWithTPCSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowWith\lTPCSpec.cxx" alt="" coords="4627,1163,4913,1233"/>
+<area shape="rect" id="node35" href="$d3/dac/MatchTPCITS_8h.html" title="Class to perform TPC ITS matching. " alt="" coords="5845,955,6103,1011"/>
+<area shape="rect" id="node37" href="$db/d2d/PrimaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/PrimaryVertexingSpec.cxx" alt="" coords="4829,843,5087,899"/>
+<area shape="rect" id="node38" href="$d9/dfc/SecondaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexingSpec.cxx" alt="" coords="5111,843,5386,899"/>
+<area shape="rect" id="node39" href="$d6/d73/TPCITSMatchingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TPCITSMatchingSpec.cxx" alt="" coords="5562,955,5821,1011"/>
+<area shape="rect" id="node40" href="$d8/d85/TPCInterpolationSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TPCInterpolationSpec.cxx" alt="" coords="5410,836,5634,907"/>
+<area shape="rect" id="node41" href="$d5/d34/TRDGlobalTrackingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDGlobalTracking\lSpec.cxx" alt="" coords="4586,836,4805,907"/>
+<area shape="rect" id="node42" href="$db/dbe/SVertexer_8h.html" title="Secondary vertex finder. " alt="" coords="3461,836,3653,907"/>
+<area shape="rect" id="node43" href="$d4/d3b/SVertexer_8cxx.html" title="Secondary vertex finder. " alt="" coords="4013,955,4205,1011"/>
+<area shape="rect" id="node47" href="$dd/d36/BaseDPLDigitizer_8h.html" title="Definition of the base digitizer task class. " alt="" coords="8726,843,9003,899"/>
+<area shape="rect" id="node48" href="$df/d11/BaseDPLDigitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/BaseDPLDigitizer.cxx" alt="" coords="8061,955,8241,1011"/>
+<area shape="rect" id="node52" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="9103,1059,9319,1115"/>
+<area shape="rect" id="node57" href="$d8/dee/Propagator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/Propagator.cxx" alt="" coords="9028,843,9208,899"/>
+<area shape="rect" id="node58" href="$db/d9a/MatchTPCITSParams_8h.html" title="Configurable params for TPC ITS matching. " alt="" coords="5760,843,6063,899"/>
+<area shape="rect" id="node59" href="$d6/d1f/tof-calibinfo-reader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;calibinfo&#45;reader.cxx" alt="" coords="9233,836,9457,907"/>
+<area shape="rect" id="node60" href="$de/d48/tof-matcher-global_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;matcher&#45;global.cxx" alt="" coords="6239,836,6463,907"/>
+<area shape="rect" id="node61" href="$da/d65/tof-matcher-tpc_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;matcher&#45;tpc.cxx" alt="" coords="6487,836,6711,907"/>
+<area shape="rect" id="node62" href="$da/dfd/tof-reco-workflow_8cxx.html" title="Basic DPL workflow for TOF reconstruction starting from digits. " alt="" coords="6735,836,6959,907"/>
+<area shape="rect" id="node63" href="$d7/dca/CookedTracker_8cxx.html" title="Implementation of the &quot;Cooked Matrix&quot; ITS tracker. " alt="" coords="6983,843,7256,899"/>
+<area shape="rect" id="node64" href="$d6/dbc/CookedTrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/CookedTrackerSpec.cxx" alt="" coords="7280,843,7553,899"/>
+<area shape="rect" id="node65" href="$de/d95/ITSMFT_2ITS_2workflow_2src_2TrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/TrackerSpec.cxx" alt="" coords="7577,843,7805,899"/>
+<area shape="rect" id="node66" href="$d1/dd0/ITSMFT_2MFT_2workflow_2src_2TrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/workflow/src/TrackerSpec.cxx" alt="" coords="7830,843,8065,899"/>
+<area shape="rect" id="node67" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="8089,836,8333,907"/>
+<area shape="rect" id="node68" href="$da/d7a/PVertexer_8cxx.html" title="Primary vertex finder. " alt="" coords="8358,843,8550,899"/>
+<area shape="rect" id="node69" href="$df/d2b/GPUTrackingRefit_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Refit/GPUTrackingRefit.cxx" alt="" coords="3677,843,3868,899"/>
+<area shape="rect" id="node49" href="$d6/df2/TRDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitizerSpec.cxx" alt="" coords="8505,955,8739,1011"/>
+<area shape="rect" id="node50" href="$d1/d37/CPVDigitizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.h" alt="" coords="8865,955,9080,1011"/>
+<area shape="rect" id="node51" href="$da/dfe/CPVDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.cxx" alt="" coords="8792,1059,9007,1115"/>
+<area shape="rect" id="node53" href="$df/d81/EMCALDigitizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/EMCALDigitizerSpec.h" alt="" coords="9104,955,9319,1011"/>
+<area shape="rect" id="node54" href="$d2/d97/FDDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx" alt="" coords="9343,955,9557,1011"/>
+<area shape="rect" id="node55" href="$d4/dfd/FT0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitizerSpec.cxx" alt="" coords="8265,955,8480,1011"/>
+<area shape="rect" id="node56" href="$d0/d1c/FV0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FV0DigitizerSpec.cxx" alt="" coords="9967,955,10181,1011"/>
+<area shape="rect" id="node71" href="$d7/d8b/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2Track_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats/Track.h" alt="" coords="3435,487,3718,543"/>
+<area shape="rect" id="node76" href="$d3/d30/TrackParametrizationWithError_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/include/ReconstructionDataFormats\l/TrackParametrizationWithError.h" alt="" coords="3115,361,3359,432"/>
+<area shape="rect" id="node77" href="$d6/d73/TrackParametrization_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/TrackParametrization.cxx" alt="" coords="3383,369,3627,425"/>
+<area shape="rect" id="node73" href="$d1/d1b/V0_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Reconstruction\l/src/V0.cxx" alt="" coords="5,725,249,781"/>
+<area shape="rect" id="node74" href="$d9/d65/SecondaryVertexReaderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/SecondaryVertexReaderSpec.h" alt="" coords="273,717,541,788"/>
+<area shape="rect" id="node75" href="$d6/de6/SecondaryVertexWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexWriterSpec.cxx" alt="" coords="566,725,859,781"/>
+<area shape="rect" id="node81" href="$d9/d13/V0Hypothesis_8cxx.html" title="V0 hypothesis checker. " alt="" coords="3651,369,3843,425"/>
+<area shape="rect" id="node83" href="$d6/dfc/FDD_2include_2DataFormatsFDD_2LookUpTable_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/FIT/FDD/include/DataFormatsFDD\l/LookUpTable.h" alt="" coords="9833,243,10064,313"/>
+<area shape="rect" id="node84" href="$d0/ddf/FDD_2include_2DataFormatsFDD_2RawEventData_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/FIT/FDD/include/DataFormatsFDD\l/RawEventData.h" alt="" coords="9757,361,9988,432"/>
+<area shape="rect" id="node85" href="$de/da4/test__ctf__io__fdd_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/test/test_ctf_io_fdd.cxx" alt="" coords="10088,250,10268,306"/>
+<area shape="rect" id="node86" href="$d3/d51/FIT_2FDD_2simulation_2include_2FDDSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/include\l/FDDSimulation/Digitizer.h" alt="" coords="9536,480,9716,551"/>
+<area shape="rect" id="node87" href="$d8/d53/FDD_2simulation_2src_2Digits2Raw_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Digits2Raw.cxx" alt="" coords="9523,250,9759,306"/>
+<area shape="rect" id="node89" href="$d6/d82/FIT_2FV0_2simulation_2include_2FV0Simulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/simulation/include\l/FV0Simulation/Digitizer.h" alt="" coords="10100,480,10280,551"/>
+<area shape="rect" id="node90" href="$db/db0/FV0DigParam_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FV0/simulation/src/FV0DigParam.cxx" alt="" coords="10343,250,10589,306"/>
+<area shape="rect" id="node92" href="$dd/d40/ZDC_2include_2DataFormatsZDC_2BCData_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/ZDC/include/DataFormatsZDC\l/BCData.h" alt="" coords="11175,243,11389,313"/>
+<area shape="rect" id="node93" href="$d5/df4/ZDC_2include_2DataFormatsZDC_2ChannelData_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/ZDC/include/DataFormatsZDC\l/ChannelData.h" alt="" coords="11413,243,11626,313"/>
+<area shape="rect" id="node94" href="$de/d87/OrbitRawData_8h.html" title="Class to describe ZDC scalers and pedestals per orbit, received from the FE. " alt="" coords="11650,243,11863,313"/>
+<area shape="rect" id="node95" href="$df/dd9/OrbitRecData_8h.html" title="Class to describe ZDC scalers reconstructed from the channels data. " alt="" coords="11887,243,12101,313"/>
+<area shape="rect" id="node96" href="$d0/dad/RecEvent_8h.html" title="Class to describe reconstructed ZDC event (single BC with signal in one of detectors) ..." alt="" coords="12125,243,12338,313"/>
+<area shape="rect" id="node97" href="$d4/d8c/ModuleConfig_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/base/include/ZDCBase/ModuleConfig.h" alt="" coords="12362,250,12618,306"/>
+<area shape="rect" id="node98" href="$d7/d5a/SimCondition_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/simulation/include/ZDCSimulation\l/SimCondition.h" alt="" coords="12643,243,12865,313"/>
+<area shape="rect" id="node99" href="$df/dac/ZDC_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/simulation/src/Detector.cxx" alt="" coords="10663,250,10850,306"/>
+<area shape="rect" id="node100" href="$d2/d0f/SpatialPhotonResponse_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ZDC\l/simulation/src/SpatialPhotonResponse.cxx" alt="" coords="10875,250,11151,306"/>
+</map>

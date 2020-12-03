@@ -1,0 +1,8 @@
+digraph "o2::base::MaterialManager"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::base::MaterialManager\n||+ Material()\l+ Mixture()\l+ Medium()\l+ DefaultProcesses()\l+ SpecialProcesses()\l+ DefaultProcess()\l+ SpecialProcess()\l+ DefaultCuts()\l+ SpecialCuts()\l+ DefaultCut()\l+ SpecialCut()\l+ loadCutsAndProcessesFromFile()\l+ enableSpecialProcesses()\l+ specialProcessesEnabled()\l+ enableSpecialCuts()\l+ specialCutsEnabled()\l+ getMaterialID()\l+ getMediumID()\l+ getTGeoMedium()\l+ getTGeoMedium()\l+ getMediumIDMappingAsVector()\l+ getProcessName()\l+ getCutName()\l+ getModuleFromMediumID()\l+ getMediumNameFromMediumID()\l+ getMediaWithSpecialProcess()\l+ getMediaWithSpecialCut()\l+ getDefaultProcesses()\l+ getDefaultCuts()\l+ getSpecialProcesses()\l+ getSpecialProcesses()\l+ getSpecialCuts()\l+ getSpecialCuts()\l+ printProcesses()\l+ printCuts()\l+ printMaterials()\l+ printMedia()\l+ ClassDefNV()\l+ Instance()\l+ printContainingMedia()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

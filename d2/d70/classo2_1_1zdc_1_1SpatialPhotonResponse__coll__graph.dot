@@ -1,0 +1,8 @@
+digraph "o2::zdc::SpatialPhotonResponse"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::zdc::SpatialPhotonResponse\n||+ SpatialPhotonResponse()\l+ SpatialPhotonResponse()\l+ addPhoton()\l+ printToScreen()\l+ reset()\l+ getCellLx()\l+ getCellLy()\l+ getNx()\l+ getNy()\l+ getLowerX()\l+ getLowerY()\l+ hasSignal()\l+ getPhotonSum()\l+ setDetectorID()\l+ getDetectorID()\l+ setHitTime()\l+ getHitTime()\l+ getPhotonsPerChannel()\l+ getImageData()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

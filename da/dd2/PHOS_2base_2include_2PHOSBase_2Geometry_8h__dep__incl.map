@@ -1,0 +1,19 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/base/include/PHOSBase/Geometry.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/base/include/PHOSBase/Geometry.h">
+<area shape="rect" id="node2" href="$da/d25/DataFormats_2Detectors_2PHOS_2src_2Cluster_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/PHOS/src/Cluster.cxx" alt="" coords="5,117,219,173"/>
+<area shape="rect" id="node3" href="$d0/dab/PHOS_2base_2src_2Geometry_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/base/src/Geometry.cxx" alt="" coords="243,117,423,173"/>
+<area shape="rect" id="node4" href="$d2/d5b/PHOS_2base_2src_2Mapping_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/base/src/Mapping.cxx" alt="" coords="447,117,627,173"/>
+<area shape="rect" id="node5" href="$d5/d07/PHOS_2calib_2src_2BadChannelMap_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/calib/src/BadChannelMap.cxx" alt="" coords="652,117,852,173"/>
+<area shape="rect" id="node6" href="$d9/d8e/PHOS_2calib_2src_2CalibParams_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/calib/src/CalibParams.cxx" alt="" coords="877,117,1057,173"/>
+<area shape="rect" id="node7" href="$d2/d52/PHOS_2reconstruction_2src_2Clusterer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/reconstruction/src/Clusterer.cxx" alt="" coords="1081,117,1293,173"/>
+<area shape="rect" id="node8" href="$d3/d64/PHOS_2reconstruction_2src_2FullCluster_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/reconstruction/src/FullCluster.cxx" alt="" coords="1317,117,1539,173"/>
+<area shape="rect" id="node9" href="$d6/d4b/PHOS_2simulation_2include_2PHOSSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/include/PHOSSimulation\l/Digitizer.h" alt="" coords="1563,109,1797,180"/>
+<area shape="rect" id="node14" href="$df/d4d/PHOS_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/Detector.cxx" alt="" coords="1821,117,2008,173"/>
+<area shape="rect" id="node15" href="$dd/d69/PHOS_2simulation_2src_2RawCreator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/RawCreator.cxx" alt="" coords="2033,117,2239,173"/>
+<area shape="rect" id="node16" href="$d3/d8c/PHOS_2workflow_2include_2PHOSWorkflow_2ClusterizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/ClusterizerSpec.h" alt="" coords="2263,109,2483,180"/>
+<area shape="rect" id="node10" href="$d0/d6d/PHOS_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/Digitizer.cxx" alt="" coords="1459,228,1643,284"/>
+<area shape="rect" id="node11" href="$dd/d48/PHOSDigitizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitizerSpec.h" alt="" coords="1718,228,1933,284"/>
+<area shape="rect" id="node12" href="$db/d77/PHOSDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitizerSpec.cxx" alt="" coords="1573,332,1787,388"/>
+<area shape="rect" id="node13" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1812,332,2028,388"/>
+<area shape="rect" id="node17" href="$da/df8/PHOS_2workflow_2src_2ClusterizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/ClusterizerSpec.cxx" alt="" coords="2141,228,2363,284"/>
+<area shape="rect" id="node18" href="$d8/d7e/PHOS_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RecoWorkflow.cxx" alt="" coords="2387,228,2602,284"/>
+</map>

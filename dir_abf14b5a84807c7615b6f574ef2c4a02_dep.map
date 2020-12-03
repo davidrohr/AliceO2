@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/GlobalTrackingWorkflow/include" name="/home/runner/work/AliceO2/AliceO2/Detectors/GlobalTrackingWorkflow/include">
+<area shape="rect" id="node2" href="dir_0d81bb6ecd8803ab552d555e1b61b092.html" title="GlobalTrackingWorkflow" alt="" coords="125,63,289,111"/>
+<area shape="rect" id="node3" href="dir_411c6bed3d84b00fddab3a93c8a3b5fb.html" title="Vertexing" alt="" coords="5,159,83,207"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000540_000720.html" title="3" alt="" coords="99,151,107,165"/>
+<area shape="rect" id="node4" href="dir_18e0e8b4b629c3c13e7ad1457bcd5f89.html" title="GlobalTracking" alt="" coords="107,159,216,207"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000540_000534.html" title="1" alt="" coords="184,138,192,153"/>
+<area shape="rect" id="node5" href="dir_bcbb2cf9a3d3d83e5515c82071a07177.html" title="Framework" alt="" coords="146,351,233,399"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000540_000062.html" title="18" alt="" coords="229,335,244,350"/>
+<area shape="rect" id="node6" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="140,255,239,303"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000540_000089.html" title="11" alt="" coords="215,236,230,251"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000720_000089.html" title="33" alt="" coords="135,230,150,245"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000534_000089.html" title="34" alt="" coords="178,227,193,242"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000062_000089.html" title="73" alt="" coords="183,314,197,329"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000089_000062.html" title="22" alt="" coords="181,324,196,339"/>
+<area shape="rect" id="clust2" href="dir_abf14b5a84807c7615b6f574ef2c4a02.html" alt="" coords="113,52,396,121"/>
+<area shape="rect" id="clust1" href="dir_109ace25e426b841fbcad1590c555213.html" title="GlobalTrackingWorkflow" alt="" coords="103,16,407,132"/>
+</map>

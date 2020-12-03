@@ -1,0 +1,5 @@
+<map id="o2::ft0::RawReaderFT0Base&lt; DigitBlockFT0type, DataBlockPMtype, DataBlockTCMtype &gt;" name="o2::ft0::RawReaderFT0Base&lt; DigitBlockFT0type, DataBlockPMtype, DataBlockTCMtype &gt;">
+<area shape="rect" id="node2" href="$df/de1/classo2_1_1fit_1_1RawReaderBase.html" title="{o2::fit::RawReaderBase\l\&lt; DigitBlockFT0type \&gt;\n||+ RawReaderBase()\l+ ~RawReaderBase()\l+ decodeBlocks()\l+ processBinaryData()\l+ getDigits()\l}" alt="" coords="74,373,237,524"/>
+<area shape="rect" id="node3" href="$d8/da5/classstd_1_1map_3_01o2_1_1InteractionRecord_00_01DigitBlockFT0type_01_4.html" title="{map\&lt; o2::InteractionRecord,\l DigitBlockFT0type \&gt;\n||}" alt="" coords="5,189,193,281"/>
+<area shape="rect" id="node4" href="$df/de1/classo2_1_1fit_1_1RawReaderBase.html" title="{o2::fit::RawReaderBase\l\&lt; DigitBlockType \&gt;\n||+ RawReaderBase()\l+ ~RawReaderBase()\l+ decodeBlocks()\l+ processBinaryData()\l+ getDigits()\l}" alt="" coords="218,160,381,311"/>
+</map>

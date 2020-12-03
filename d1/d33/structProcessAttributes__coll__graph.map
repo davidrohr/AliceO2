@@ -1,0 +1,5 @@
+<map id="ProcessAttributes" name="ProcessAttributes">
+<area shape="rect" id="node2" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="5,783,52,861"/>
+<area shape="rect" id="node3" href="$dc/daa/classo2_1_1dataformats_1_1MCTruthContainer.html" title="{o2::dataformats::MCTruth\lContainer\&lt; o2::MCCompLabel \&gt;\n||+ MCTruthContainer()\l+ MCTruthContainer()\l+ MCTruthContainer()\l+ MCTruthContainer()\l+ ~MCTruthContainer()\l+ operator=()\l+ operator=()\l+ getMCTruthHeader()\l+ getElement()\l+ getIndexedSize()\l+ getNElements()\l+ getTruthArray()\l+ getLabels()\l+ getLabels()\l+ clear()\l+ clear_andfreememory()\l+ addElement()\l+ addElements()\l+ addElements()\l+ addElementRandomAccess()\l+ setFrom()\l+ mergeAtBack()\l+ mergeAtBack()\l+ flatten_to()\l+ restore_from()\l+ print()\l+ inflate()\l+ deflate()\l+ ClassDefNV()\l}" alt="" coords="75,571,286,1073"/>
+<area shape="rect" id="node4" href="$dc/daa/classo2_1_1dataformats_1_1MCTruthContainer.html" title="A container to hold and manage MC truth information/labels. " alt="" coords="79,5,283,508"/>
+</map>

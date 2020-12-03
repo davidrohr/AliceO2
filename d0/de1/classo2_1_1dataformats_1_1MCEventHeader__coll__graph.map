@@ -1,0 +1,4 @@
+<map id="o2::dataformats::MCEventHeader" name="o2::dataformats::MCEventHeader">
+<area shape="rect" id="node2" href="$dd/d8f/classFairMCEventHeader.html" title="{FairMCEventHeader\n||}" alt="" coords="5,71,147,149"/>
+<area shape="rect" id="node5" href="$d9/ddb/classo2_1_1dataformats_1_1MCEventStats.html" title="{o2::dataformats::MCEvent\lStats\n||+ setNHits()\l+ getNHits()\l+ setNTransportedTracks()\l+ getNTransportedTracks()\l+ setNKeptTracks()\l+ getNKeptTracks()\l+ setNSteps()\l+ getNSteps()\l+ add()\l}" alt="" coords="460,5,639,215"/>
+</map>

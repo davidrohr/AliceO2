@@ -1,0 +1,8 @@
+digraph "o2::tpc::GBTFrameContainer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::GBTFrameContainer\n||+ GBTFrameContainer()\l+ GBTFrameContainer()\l+ GBTFrameContainer()\l+ ~GBTFrameContainer()\l+ reset()\l+ getSize()\l+ getNentries()\l+ addGBTFrame()\l+ addGBTFrame()\l+ addGBTFrame()\l+ addGBTFramesFromFile()\l+ addGBTFramesFromBinaryFile()\l+ setEnableAdcClockWarning()\l+ setEnableSyncPatternWarning()\l+ setEnableCompileAdcValues()\l+ setEnableStoreGBTFrames()\l+ getData()\l+ getData()\l+ getNFramesAnalyzed()\l+ getGBTFrame()\l+ operator[]()\l+ operator[]()\l+ begin()\l+ begin()\l+ cbegin()\l+ end()\l+ end()\l+ cend()\l+ rbegin()\l+ rbegin()\l+ crbegin()\l+ rend()\l+ rend()\l+ crend()\l+ setTimebin()\l+ getTimebin()\l+ reProcessAllFrames()\l+ overwriteAdcClock()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

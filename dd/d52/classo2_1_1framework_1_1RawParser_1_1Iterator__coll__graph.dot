@@ -1,0 +1,10 @@
+digraph "o2::framework::RawParser&lt; MAX_SIZE &gt;::Iterator&lt; T, ParentType &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::framework::RawParser\l\< MAX_SIZE \>::Iterator\l\< T, ParentType \>\n||+ Iterator()\l+ Iterator()\l+ ~Iterator()\l+ operator++()\l+ operator++()\l+ operator*()\l+ operator==()\l+ operator!=()\l+ raw()\l+ data()\l+ offset()\l+ size()\l+ get_if()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{IteratorBase\< T \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

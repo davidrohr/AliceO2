@@ -1,0 +1,27 @@
+var classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines =
+[
+    [ "SplineType", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#ae2035dada5c45b68a9d28966dae580a2", null ],
+    [ "TPCdEdxCalibrationSplines", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#ac90a7e0212e2617c031dd428050eaa67", null ],
+    [ "TPCdEdxCalibrationSplines", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a8ea015ae4433b0fb4dec39f678f13dbe", null ],
+    [ "TPCdEdxCalibrationSplines", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a2e0207fea55c0ceca846865f9e4a2a72", null ],
+    [ "~TPCdEdxCalibrationSplines", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#aea6a7d50d6d8de6015393ea1c5342f45", null ],
+    [ "cloneFromObject", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#afdac7ff6bea556a40cd0a366950def9c", null ],
+    [ "destroy", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a037017f49a7b178a0bd52da11f3afe0f", null ],
+    [ "GPUd", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a76a43756da0da0111c97861f02913334", null ],
+    [ "GPUd", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a25a58512ed0fe4a0e8f905aac1b70e64", null ],
+    [ "GPUd", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#acfda3c42e05f58e39f3293042832fd9e", null ],
+    [ "GPUd", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a392cda9400e6bdb9e22f0371633bb202", null ],
+    [ "GPUd", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a91aceeb103aa68735c8b435324598ed5", null ],
+    [ "GPUd", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#aac5af1702eb06b1f67c7237378df15b5", null ],
+    [ "moveBufferTo", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#ada172b48c0c6dceee19c25bf6163c493", null ],
+    [ "operator=", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#aa21b3a5fe3464adbee681f2951c6ad7b", null ],
+    [ "recreate", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#ae3b1a71ea058d6e0b25f41b5eb157374", null ],
+    [ "setActualBufferAddress", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#af3209c3e5a1c362e88ac4fd5d241acc5", null ],
+    [ "setDefaultSplines", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a3f42445e7b0c4a16a4c026e9ffb8750c", null ],
+    [ "setFutureBufferAddress", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a259bde069a41117e78dc2bc1ef573c8d", null ],
+    [ "setSplinesFromFile", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a52175c08a84460d53da81433d4352183", null ],
+    [ "writeToFile", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a21f4ae9383fa71d04d9ec55b3810d480", null ],
+    [ "angleZ", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a3ded81ce1740379782982c5a2f46e214", null ],
+    [ "const", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a4ac469994eab2dcc291a2474be104bb2", null ],
+    [ "const", "d6/da0/classGPUCA__NAMESPACE_1_1gpu_1_1TPCdEdxCalibrationSplines.html#a4ac469994eab2dcc291a2474be104bb2", null ]
+];

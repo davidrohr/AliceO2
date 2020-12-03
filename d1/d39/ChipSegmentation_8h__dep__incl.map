@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/ChipSegmentation.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/ChipSegmentation.h">
+<area shape="rect" id="node2" href="$d9/de7/LadderSegmentation_8h.html" title="Description of the virtual segmentation of a ladder. " alt="" coords="537,124,728,195"/>
+<area shape="rect" id="node4" href="$de/d37/ITSMFT_2MFT_2base_2src_2Geometry_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/Geometry.cxx" alt="" coords="5,361,199,417"/>
+<area shape="rect" id="node10" href="$d7/d93/Flex_8cxx.html" title="Flex class for ALICE MFT upgrade. " alt="" coords="211,250,396,306"/>
+<area shape="rect" id="node11" href="$dc/d80/Ladder_8cxx.html" title="Ladder builder. " alt="" coords="739,250,924,306"/>
+<area shape="rect" id="node12" href="$d6/dc0/LadderSegmentation_8cxx.html" title="Description of the virtual segmentation of a ladder. " alt="" coords="948,250,1203,306"/>
+<area shape="rect" id="node13" href="$d5/d24/ChipSegmentation_8cxx.html" title="Description of the virtual segmentation of the chips. " alt="" coords="854,131,1097,187"/>
+<area shape="rect" id="node3" href="$dc/d53/HalfDiskSegmentation_8h.html" title="Class for the description of the structure of a half&#45;disk. " alt="" coords="472,243,663,313"/>
+<area shape="rect" id="node9" href="$d7/d41/ITSMFT_2MFT_2base_2src_2Segmentation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/Segmentation.cxx" alt="" coords="1223,361,1439,417"/>
+<area shape="rect" id="node5" href="$d3/d36/HalfDetector_8cxx.html" title="Class Building the geometry of one half of the ALICE Muon Forward Tracker. " alt="" coords="989,361,1199,417"/>
+<area shape="rect" id="node6" href="$d6/d66/HalfDisk_8cxx.html" title="Class describing geometry of one half of a MFT disk. " alt="" coords="223,361,410,417"/>
+<area shape="rect" id="node7" href="$d1/d8f/HalfDiskSegmentation_8cxx.html" title="Class for the description of the structure of a half&#45;disk. " alt="" coords="434,361,701,417"/>
+<area shape="rect" id="node8" href="$d1/d7f/HalfSegmentation_8cxx.html" title="Segmentation class for each half of the ALICE Muon Forward Tracker. " alt="" coords="725,361,965,417"/>
+</map>

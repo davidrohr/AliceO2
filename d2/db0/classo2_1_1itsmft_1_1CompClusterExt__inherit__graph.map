@@ -1,0 +1,3 @@
+<map id="o2::itsmft::CompClusterExt" name="o2::itsmft::CompClusterExt">
+<area shape="rect" id="node2" href="$dc/da3/classo2_1_1itsmft_1_1CompCluster.html" title="{o2::itsmft::CompCluster\n|+ NBitsRow\l+ NBitsCol\l+ NBitsPattID\l+ InvalidPatternID\l|+ CompCluster()\l+ set()\l+ getRow()\l+ getCol()\l+ getPatternID()\l+ getFlag()\l+ setRow()\l+ setCol()\l+ setPatternID()\l+ setFlag()\l+ print()\l+ ClassDefNV()\l}" alt="" coords="15,5,178,288"/>
+</map>

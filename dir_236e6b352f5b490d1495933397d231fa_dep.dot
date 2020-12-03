@@ -1,0 +1,17 @@
+digraph "/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Base/hip" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_442920581a03c66cf8c08ae559108050 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Base" fontname="Helvetica", fontsize="10", URL="dir_442920581a03c66cf8c08ae559108050.html"]
+  subgraph clusterdir_236e6b352f5b490d1495933397d231fa {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_236e6b352f5b490d1495933397d231fa.html"];
+    dir_236e6b352f5b490d1495933397d231fa [shape=plaintext label="hip"];
+    dir_3eb150c48031404b05c6712bd0ce22a8 [shape=box label="test" color="black" fillcolor="white" style="filled" URL="dir_3eb150c48031404b05c6712bd0ce22a8.html"];
+  }
+  }
+  dir_ba48ca66118492a4424f86e9da0f6902 [shape=box label="Common" URL="dir_ba48ca66118492a4424f86e9da0f6902.html"];
+  dir_3eb150c48031404b05c6712bd0ce22a8->dir_ba48ca66118492a4424f86e9da0f6902 [headlabel="1", labeldistance=1.5 headhref="dir_000789_000784.html"];
+  dir_236e6b352f5b490d1495933397d231fa->dir_ba48ca66118492a4424f86e9da0f6902 [headlabel="3", labeldistance=1.5 headhref="dir_000788_000784.html"];
+}

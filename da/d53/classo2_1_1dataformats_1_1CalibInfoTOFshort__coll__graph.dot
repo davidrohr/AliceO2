@@ -1,0 +1,8 @@
+digraph "o2::dataformats::CalibInfoTOFshort"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::dataformats::CalibInfo\lTOFshort\n||+ CalibInfoTOFshort()\l+ CalibInfoTOFshort()\l+ setTOFChIndex()\l+ getTOFChIndex()\l+ setTimestamp()\l+ getTimestamp()\l+ setDeltaTimePi()\l+ getDeltaTimePi()\l+ setTot()\l+ getTot()\l+ setFlags()\l+ getFlags()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

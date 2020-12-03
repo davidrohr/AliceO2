@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/PreClustering/src/PreClusterFinder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/PreClustering/src/PreClusterFinder.cxx">
+<area shape="rect" id="node2" href="$db/dad/PreClusterFinder_8h.html" title="MCHPreClustering/PreCluster\lFinder.h" alt="" coords="302,124,501,165"/>
+<area shape="rect" id="node17" href="$d4/d03/PreClusterFinderMapping_8h.html" title="PreClusterFinderMapping.h" alt="" coords="821,131,1001,158"/>
+<area shape="rect" id="node8" href="$d8/d72/Detectors_2MUON_2MCH_2Base_2include_2MCHBase_2Digit_8h.html" title="MCHBase/Digit.h" alt="" coords="5,310,131,337"/>
+<area shape="rect" id="node10" href="$d3/d39/MCH_2Base_2include_2MCHBase_2PreCluster_8h.html" title="MCHBase/PreCluster.h" alt="" coords="97,221,257,247"/>
+<area shape="rect" id="node18" href="$d6/d1f/MUON_2MCH_2Mapping_2Interface_2include_2MCHMappingInterface_2Segmentation_8h.html" title="MCHMappingInterface\l/Segmentation.h" alt="" coords="847,213,1001,255"/>
+<area shape="rect" id="node19" href="$df/db6/CathodeSegmentation_8h.html" title="MCHMappingInterface\l/CathodeSegmentation.h" alt="" coords="1071,303,1238,344"/>
+<area shape="rect" id="node24" href="$d0/d5f/Segmentation_8inl.html" title="Segmentation.inl" alt="" coords="865,310,983,337"/>
+<area shape="rect" id="node20" href="$d0/dc7/CathodeSegmentationCInterface_8h.html" title="CathodeSegmentationCInterface.h" alt="" coords="867,392,1090,419"/>
+</map>

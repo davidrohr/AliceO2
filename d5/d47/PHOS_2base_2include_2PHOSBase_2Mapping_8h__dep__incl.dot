@@ -1,0 +1,29 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/base/include/PHOSBase/Mapping.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/base/include/PHOSBase/Mapping.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/base/src/Mapping.cxx",height=0.2,width=0.4,color="black",URL="$d2/d5b/PHOS_2base_2src_2Mapping_8cxx.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/include/PHOSSimulation\l/RawWriter.h",height=0.2,width=0.4,color="black",URL="$d4/ddc/PHOS_2simulation_2include_2PHOSSimulation_2RawWriter_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/RawCreator.cxx",height=0.2,width=0.4,color="black",URL="$dd/d69/PHOS_2simulation_2src_2RawCreator_8cxx.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/simulation/src/RawWriter.cxx",height=0.2,width=0.4,color="black",URL="$d2/d55/PHOS_2simulation_2src_2RawWriter_8cxx.html"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/RawWriterSpec.h",height=0.2,width=0.4,color="black",URL="$d7/df2/PHOS_2workflow_2include_2PHOSWorkflow_2RawWriterSpec_8h.html"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RawWriterSpec.cxx",height=0.2,width=0.4,color="black",URL="$df/d39/PHOS_2workflow_2src_2RawWriterSpec_8cxx.html"];
+  Node10 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RecoWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d8/d7e/PHOS_2workflow_2src_2RecoWorkflow_8cxx.html"];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/include/PHOSWorkflow\l/RawToCellConverterSpec.h",height=0.2,width=0.4,color="black",URL="$d7/da1/PHOS_2workflow_2include_2PHOSWorkflow_2RawToCellConverterSpec_8h.html"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/workflow/src/RawToCellConverter\lSpec.cxx",height=0.2,width=0.4,color="black",URL="$d9/d48/PHOS_2workflow_2src_2RawToCellConverterSpec_8cxx.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,32 @@
+digraph "o2::fdd::RawEventData"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::fdd::RawEventData\n||+ RawEventData()\l+ getEventHeaderPtr()\l+ getEventDataPtr()\l+ print()\l+ printHexEventHeader()\l+ printHexEventData()\l+ size()\l+ to_vector()\l+ ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mTCMdata" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{o2::fdd::TCMdata\n||}",height=0.2,width=0.4,color="black",URL="$d9/d60/structo2_1_1fdd_1_1TCMdata.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@17" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{anonymous:+@17\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +orA\n+nChanA\n+sCen\n+orC\n+word\n+nChanC\n+vertex\n+cen" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{uint64_t\n||}",height=0.2,width=0.4,color="black",URL="$d6/d30/classuint64__t.html"];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +timeA\n+timeC\n+reservedField1\n+reservedField2\n+amplA\n+amplC" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{int64_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +PayloadSize" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mEventHeader" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{o2::fdd::EventHeader\n||}",height=0.2,width=0.4,color="black",URL="$d3/da5/structo2_1_1fdd_1_1EventHeader.html"];
+  Node4 -> Node7 [color="grey25",fontsize="10",style="solid",label=" +word\n+nGBTWords\n+startDescriptor\n+reservedField1\n+reservedField2\n+bc\n+reservedField3\n+orbit" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 -> Node7 [color="grey25",fontsize="10",style="solid",label=" +@9" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{anonymous:+@9\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node7 [color="grey25",fontsize="10",style="solid",label=" +PayloadSize" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mEventData" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{o2::fdd::EventData\n|+ isDoubleEvent\l+ is1TimeLostEvent\l+ isAmpHigh\l|+ generateFlags()\l}",height=0.2,width=0.4,color="black",URL="$d2/dbd/structo2_1_1fdd_1_1EventData.html"];
+  Node4 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +isEventInTVDC\n+is2TimeLostEvent\n+isADCinGate\n+word\n+isTimeInfoLate\n+numberADC\n+word_zeros\n+channelID\n+isTimeInfoLost\n+reservedField\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +@13" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{anonymous:+@13\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +time\n+charge" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 -> Node9 [color="grey25",fontsize="10",style="solid",label=" +PayloadSizeSecondWord\n+PayloadSizeFirstWord" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +gStartDescriptor" ,arrowhead="odiamond",fontname="Helvetica"];
+}

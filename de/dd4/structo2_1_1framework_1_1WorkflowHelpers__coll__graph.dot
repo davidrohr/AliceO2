@@ -1,0 +1,8 @@
+digraph "o2::framework::WorkflowHelpers"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::WorkflowHelpers\n||+ topologicalSort()\l+ verifyWorkflow()\l+ injectServiceDevices()\l+ constructGraph()\l+ sortEdges()\l+ computeOutEdgeActions()\l+ computeInEdgeActions()\l+ getDataOutputDirector()\l+ analyzeOutputs()\l+ computeDanglingOutputs()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

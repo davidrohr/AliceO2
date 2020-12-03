@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Generators/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0b342c6c6b7d2278121a0bb9c4985063 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Generators" fontname="Helvetica", fontsize="10", URL="dir_0b342c6c6b7d2278121a0bb9c4985063.html"]
+  subgraph clusterdir_dc16c1a7f621fbfbc9e5d9a781b7ebe8 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_dc16c1a7f621fbfbc9e5d9a781b7ebe8.html"];
+    dir_dc16c1a7f621fbfbc9e5d9a781b7ebe8 [shape=plaintext label="include"];
+    dir_ce5fc3cf909a28bf516a9af697270792 [shape=box label="Generators" color="black" fillcolor="white" style="filled" URL="dir_ce5fc3cf909a28bf516a9af697270792.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_ce5fc3cf909a28bf516a9af697270792->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="22", labeldistance=1.5 headhref="dir_000781_000035.html"];
+}

@@ -1,0 +1,20 @@
+digraph "o2::tof::CompressedInfos"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tof::CompressedInfos\n||+ CompressedInfos()\l+ clear()\l+ ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +chanInStrip" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{vector\< std::uint8_t \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +header" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{o2::tof::CTFHeader\n||+ ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$df/d44/structo2_1_1tof_1_1CTFHeader.html",tooltip="Header for a single CTF. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +firstBC" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{uint16_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +nPatternBytes\n+firstOrbit\n+nDigits\n+nROFs" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{uint32_t\n||}",height=0.2,width=0.4,color="black",URL="$d3/d87/classuint32__t.html"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +orbitIncROF\n+pattMap\n+ndigROF\n+ndiaCrate\n+ndiaROF" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{vector\< uint32_t \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +stripID\n+bcIncROF\n+timeFrameInc\n+timeTDCInc\n+tot" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{vector\< std::uint16_t \>\n||}",height=0.2,width=0.4,color="grey75"];
+}

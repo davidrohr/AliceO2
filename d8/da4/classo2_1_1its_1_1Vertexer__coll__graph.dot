@@ -1,0 +1,8 @@
+digraph "o2::its::Vertexer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::its::Vertexer\n||+ Vertexer()\l+ ~Vertexer()\l+ Vertexer()\l+ operator=()\l+ setROframe()\l+ setParameters()\l+ getGlobalConfiguration()\l+ getVertParameters()\l+ getROFrame()\l+ exportVertices()\l+ getTraits()\l+ clustersToVertices()\l+ filterMCTracklets()\l+ validateTracklets()\l+ findTracklets()\l+ findTrivialMCTracklets()\l+ findVertices()\l+ findHistVertices()\l+ initialiseVertexer()\l+ dumpTraits()\l+ evaluateTask()\l+ setDebugCombinatorics()\l+ setDebugTrackletSelection()\l+ setDebugLines()\l+ setDebugSummaryLines()\l+ setDebugCentroidsHistograms()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

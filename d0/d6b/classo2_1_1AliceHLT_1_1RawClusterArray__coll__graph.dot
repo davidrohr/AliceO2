@@ -1,0 +1,8 @@
+digraph "o2::AliceHLT::RawClusterArray"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::AliceHLT::RawCluster\lArray\n||+ RawClusterArray()\l+ RawClusterArray()\l+ RawClusterArray()\l+ ~RawClusterArray()\l+ init()\l+ init()\l+ GetNClusters()\l+ begin()\l+ end()\l+ operator[]()\l+ print()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

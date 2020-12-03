@@ -1,0 +1,31 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Base/src/DCAFitter.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/Base/src/DCAFitter.cxx">
+<area shape="rect" id="node2" href="$d4/d7b/DCAFitter_8h.html" title="Defintions for DCA fitter class. " alt="" coords="23,109,205,136"/>
+<area shape="rect" id="node5" href="$d7/d8b/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2Track_8h.html" title="ReconstructionDataFormats\l/Track.h" alt="" coords="3451,184,3638,225"/>
+<area shape="rect" id="node6" href="$d2/d98/TrackParametrization_8h.html" title="ReconstructionDataFormats\l/TrackParametrization.h" alt="" coords="3597,363,3783,404"/>
+<area shape="rect" id="node63" href="$d3/d30/TrackParametrizationWithError_8h.html" title="ReconstructionDataFormats\l/TrackParametrizationWithError.h" alt="" coords="3582,273,3798,315"/>
+<area shape="rect" id="node7" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="4118,959,4254,985"/>
+<area shape="rect" id="node10" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="303,727,461,754"/>
+<area shape="rect" id="node11" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="4479,884,4623,911"/>
+<area shape="rect" id="node18" href="$d4/de2/BaseCluster_8h.html" title="ReconstructionDataFormats\l/BaseCluster.h" alt="" coords="2262,452,2449,493"/>
+<area shape="rect" id="node28" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="3421,727,3602,754"/>
+<area shape="rect" id="node44" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="3799,727,3919,754"/>
+<area shape="rect" id="node49" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="4216,884,4455,911"/>
+<area shape="rect" id="node56" href="$d8/d77/Primitive2D_8h.html" title="Declarations of 2D primitives. " alt="" coords="515,459,676,486"/>
+<area shape="rect" id="node60" href="$d5/d08/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2PID_8h.html" title="ReconstructionDataFormats\l/PID.h" alt="" coords="1111,452,1298,493"/>
+<area shape="rect" id="node62" href="$d2/d97/TrackUtils_8h.html" title="ReconstructionDataFormats\l/TrackUtils.h" alt="" coords="3877,631,4063,672"/>
+<area shape="rect" id="node8" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="3997,1033,4181,1060"/>
+<area shape="rect" id="node9" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="4205,1033,4364,1060"/>
+<area shape="rect" id="node19" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1658,638,1807,665"/>
+<area shape="rect" id="node33" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="2605,541,2813,583"/>
+<area shape="rect" id="node34" href="$df/d5b/GPUCommonLogger_8h.html" title="GPUCommonLogger.h" alt="" coords="3099,638,3254,665"/>
+<area shape="rect" id="node38" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="2605,631,2813,672"/>
+<area shape="rect" id="node50" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="2909,727,3065,754"/>
+<area shape="rect" id="node45" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="3455,809,3621,836"/>
+<area shape="rect" id="node46" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="3747,809,3972,836"/>
+<area shape="rect" id="node48" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="4097,809,4299,836"/>
+<area shape="rect" id="node54" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="2927,809,3109,836"/>
+<area shape="rect" id="node57" href="$d6/d9b/CircleXY_8h.html" title="MathUtils/detail/CircleXY.h" alt="" coords="304,638,484,665"/>
+<area shape="rect" id="node58" href="$da/d66/IntervalXY_8h.html" title="MathUtils/detail/IntervalXY.h" alt="" coords="171,549,361,575"/>
+<area shape="rect" id="node59" href="$d4/d5d/Bracket_8h.html" title="Class to represent an interval and some operations over it. " alt="" coords="509,638,682,665"/>
+<area shape="rect" id="node61" href="$d3/d9d/PhysicsConstants_8h.html" title="Header to collect physics constants. " alt="" coords="909,549,1167,575"/>
+</map>

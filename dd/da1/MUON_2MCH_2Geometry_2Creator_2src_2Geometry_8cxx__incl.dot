@@ -1,0 +1,42 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Geometry/Creator/src/Geometry.cxx"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Geometry/Creator/src\l/Geometry.cxx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="MCHGeometryCreator\l/Geometry.h",height=0.2,width=0.4,color="black",URL="$db/d5d/MUON_2MCH_2Geometry_2Creator_2include_2MCHGeometryCreator_2Geometry_8h.html"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vector",height=0.2,width=0.4,color="grey75"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="iostream",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="MCHGeometryTransformer\l/VolumePaths.h",height=0.2,width=0.4,color="black",URL="$d3/d2e/VolumePaths_8h.html"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="string",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Station1Geometry.h",height=0.2,width=0.4,color="black",URL="$dc/d11/Station1Geometry_8h.html",tooltip="Implementation of the station 1 geometry. "];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Station2Geometry.h",height=0.2,width=0.4,color="black",URL="$d0/df6/Station2Geometry_8h.html",tooltip="Implementation of the station 2 geometry. "];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Station345Geometry.h",height=0.2,width=0.4,color="black",URL="$d9/d7e/Station345Geometry_8h.html",tooltip="Implementation of the slat-stations geometry. "];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Materials.h",height=0.2,width=0.4,color="black",URL="$d1/d20/MCH_2Geometry_2Creator_2src_2Materials_8h.html"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="TGeoPhysicalNode.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="fmt/format.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="TGeoVolume.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TGeoManager.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Framework/Logger.h",height=0.2,width=0.4,color="black",URL="$dd/da4/Logger_8h.html"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="fairlogger/Logger.h",height=0.2,width=0.4,color="grey75"];
+}

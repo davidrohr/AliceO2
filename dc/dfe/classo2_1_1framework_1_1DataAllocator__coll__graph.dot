@@ -1,0 +1,8 @@
+digraph "o2::framework::DataAllocator"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::DataAllocator\n||+ DataAllocator()\l+ newChunk()\l+ newChunk()\l+ adoptChunk()\l+ make()\l+ make_boost()\l+ adopt()\l+ adopt()\l+ adopt()\l+ adopt()\l+ adopt()\l+ adopt_boost()\l+ snapshot()\l+ snapshot()\l+ make()\l+ adopt()\l+ getMemoryResource()\l+ makeVector()\l+ adoptContainer()\l+ adoptContainer()\l+ snapshot()\l+ isAllowed()\l+ findMessageHeader()\l+ findMessageHeader()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

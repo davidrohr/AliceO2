@@ -1,0 +1,4 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/include/MCHWorkflow/ClusterFinderOriginalSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/include/MCHWorkflow/ClusterFinderOriginalSpec.h">
+<area shape="rect" id="node2" href="$d1/d4a/ClusterFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to run the original MLEM cluster finder. " alt="" coords="5,124,225,195"/>
+<area shape="rect" id="node3" href="$da/d18/preclusters-to-clusters-original-workflow_8cxx.html" title="This is an executable that runs the original MLEM cluster finder via DPL. " alt="" coords="250,124,463,195"/>
+</map>

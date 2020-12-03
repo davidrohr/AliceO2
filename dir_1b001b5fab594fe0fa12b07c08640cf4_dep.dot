@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/ZDC/base/include/ZDCBase" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_02327da50a4add2fe46b03f4277cb8e9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_02327da50a4add2fe46b03f4277cb8e9.html"]
+  dir_1b001b5fab594fe0fa12b07c08640cf4 [shape=box, label="ZDCBase", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1b001b5fab594fe0fa12b07c08640cf4.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_1b001b5fab594fe0fa12b07c08640cf4->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000194_000035.html"];
+}

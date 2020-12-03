@@ -1,0 +1,3 @@
+<map id="o2::soa::Chunked" name="o2::soa::Chunked">
+<area shape="rect" id="node2" href="$d7/d26/classo2_1_1soa_1_1ColumnIterator.html" title="{o2::soa::ColumnIterator\&lt; T \&gt;\n|+ mCurrent\l+ mCurrentPos\l+ mLast\l+ mColumn\l+ mFirstIndex\l+ mCurrentChunk\l|+ ColumnIterator()\l+ ColumnIterator()\l+ ColumnIterator()\l+ ColumnIterator()\l+ operator=()\l+ operator=()\l+ nextChunk()\l+ prevChunk()\l+ moveToChunk()\l+ moveToEnd()\l+ operator*()\l+ moveToPos()\l+ checkNextChunk()\l}" alt="" coords="5,131,196,457"/>
+</map>

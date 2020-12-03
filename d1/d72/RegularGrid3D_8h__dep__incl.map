@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/include/TPCSpaceCharge/RegularGrid3D.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/include/TPCSpaceCharge/RegularGrid3D.h">
+<area shape="rect" id="node2" href="$dc/d2a/PoissonSolver_8h.html" title="This class provides implementation of Poisson equation solver by MultiGrid Method Original version of..." alt="" coords="651,243,906,313"/>
+<area shape="rect" id="node3" href="$d3/db6/SpaceCharge_8h.html" title="This class contains the algorithms for calculation the distortions and corrections. " alt="" coords="207,361,462,432"/>
+<area shape="rect" id="node10" href="$dc/d04/TriCubic_8h.html" title="Definition of TriCubic class. " alt="" coords="347,124,602,195"/>
+<area shape="rect" id="node8" href="$d6/ddc/PoissonSolver_8cxx.html" title="This class provides implementation of Poisson Eq solver by MultiGrid Method. " alt="" coords="753,369,988,425"/>
+<area shape="rect" id="node9" href="$d2/d8c/testO2TPCPoissonSolver_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/spacecharge/test/testO2TPCPoisson\lSolver.cxx" alt="" coords="487,361,729,432"/>
+<area shape="rect" id="node4" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="98,480,321,551"/>
+<area shape="rect" id="node7" href="$da/d8e/SpaceCharge_8cxx.html" title="Definition of SpaceCharge class. " alt="" coords="345,487,575,543"/>
+<area shape="rect" id="node5" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="5,599,189,655"/>
+<area shape="rect" id="node6" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="214,599,429,655"/>
+<area shape="rect" id="node11" href="$d5/d0c/SpaceChargeHelpers_8h.html" title="This file provides all necesseray classes which are used during the calcution of the distortions and ..." alt="" coords="373,243,627,313"/>
+</map>

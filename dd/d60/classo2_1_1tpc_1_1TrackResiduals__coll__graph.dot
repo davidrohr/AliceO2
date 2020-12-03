@@ -1,0 +1,8 @@
+digraph "o2::tpc::TrackResiduals"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::TrackResiduals\n||+ TrackResiduals()\l+ init()\l+ initBinning()\l+ initResultsContainer()\l+ reset()\l+ setPrintMemoryUsage()\l+ setKernelType()\l+ buildLocalResidualTreesFrom\lRun2Data()\l+ fillLocalResidualsTrees()\l+ prepareDeltaTreeBranches()\l+ prepareLocalResidualTrees()\l+ writeLocalResidualTreesToFile()\l+ convertToLocalResiduals()\l+ processResiduals()\l+ processSectorResiduals()\l+ processVoxelResiduals()\l+ processVoxelDispersions()\l+ validateVoxels()\l+ smooth()\l+ fitPoly1Robust()\l+ getMAD2Sigma()\l+ medFit()\l+ roFunc()\l+ selectKthMin()\l+ getSmoothEstimate()\l+ getKernelWeight()\l+ compareToHelix()\l+ fitCircle()\l+ fitPoly1()\l+ diffToLocLine()\l+ diffToMA()\l+ setNXBins()\l+ setNY2XBins()\l+ setNZ2XBins()\l+ setY2XBinning()\l+ setZ2XBinning()\l+ getGlbVoxBin()\l+ getGlbVoxBin()\l+ getVoxelCoordinates()\l+ getX()\l+ getY2X()\l+ getZ2X()\l+ getXBinIgnored()\l+ findVoxel()\l+ findVoxelBin()\l+ getXBin()\l+ getXBinExact()\l+ getRowID()\l+ getY2XBinExact()\l+ getY2XBin()\land 50 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

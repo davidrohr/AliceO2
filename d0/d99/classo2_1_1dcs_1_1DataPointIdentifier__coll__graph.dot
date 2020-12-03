@@ -1,0 +1,8 @@
+digraph "o2::dcs::DataPointIdentifier"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::dcs::DataPointIdentifier\n||+ DataPointIdentifier()\l+ DataPointIdentifier()\l+ operator==()\l+ operator!=()\l+ get_alias()\l+ get_type()\l+ hash_code()\l+ ~DataPointIdentifier()\l+ ClassDefNV()\l+ FILL()\l+ FILL()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

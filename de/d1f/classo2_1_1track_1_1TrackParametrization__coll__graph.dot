@@ -1,0 +1,8 @@
+digraph "o2::track::TrackParametrization&lt; value_T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node7 [label="{o2::track::TrackParametrization\l\< value_T \>\n||+ TrackParametrization()\l+ TrackParametrization()\l+ TrackParametrization()\l+ TrackParametrization()\l+ TrackParametrization()\l+ operator=()\l+ operator=()\l+ ~TrackParametrization()\l+ getParams()\l+ getParam()\l+ getX()\l+ getAlpha()\l+ getY()\l+ getZ()\l+ getSnp()\l+ getTgl()\l+ getQ2Pt()\l+ getCharge2Pt()\l+ getAbsCharge()\l+ getPID()\l+ setPID()\l+ getCsp2()\l+ getCsp()\l+ setX()\l+ setParam()\l+ setAlpha()\l+ setY()\l+ setZ()\l+ setSnp()\l+ setTgl()\l+ setQ2Pt()\l+ setAbsCharge()\l+ getXatLabR()\l+ getCircleParamsLoc()\l+ getCircleParams()\l+ getLineParams()\l+ getCurvature()\l+ getCharge()\l+ getSign()\l+ getPhi()\l+ getPhiPos()\l+ getPtInv()\l+ getP2Inv()\l+ getP2()\l+ getPInv()\l+ getP()\l+ getPt()\l+ getTheta()\l+ getEta()\l+ getXYZGlo()\l+ getXYZGlo()\l+ getPxPyPzGlo()\l+ getPosDirGlo()\l+ getYZAt()\l+ getZAt()\l+ getYAt()\l+ getXYZGloAt()\l+ correctForELoss()\l+ rotateParam()\l+ propagateParamTo()\l+ propagateParamTo()\l+ propagateParamToDCA()\l+ invertParam()\l+ isValid()\l+ invalidate()\l+ getUserField()\l+ setUserField()\l+ printParam()\l+ asString()\l# updateParam()\l# updateParams()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

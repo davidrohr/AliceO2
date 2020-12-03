@@ -1,0 +1,8 @@
+digraph "o2::itsmft::MC2RawEncoder&lt; Mapping &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::itsmft::MC2RawEncoder\l\< Mapping \>\n||+ MC2RawEncoder()\l+ ~MC2RawEncoder()\l+ digits2raw()\l+ finalize()\l+ init()\l+ getCreateRUDecode()\l+ getRUDecode()\l+ setVerbosity()\l+ getVerbosity()\l+ getMapping()\l+ setMinMaxRUSW()\l+ getRUSWMin()\l+ getRUSWMax()\l+ setContinuousReadout()\l+ isContinuousReadout()\l+ getWriter()\l+ getDefaultSinkName()\l+ setDefaultSinkName()\l+ carryOverMethod()\l+ newRDHMethod()\l+ addGBTLink()\l+ getGBTLink()\l+ getGBTLink()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

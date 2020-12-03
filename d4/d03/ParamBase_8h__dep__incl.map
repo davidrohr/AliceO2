@@ -1,0 +1,13 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PIDBase/ParamBase.h" name="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PIDBase/ParamBase.h">
+<area shape="rect" id="node2" href="$d4/dca/BetheBloch_8h.html" title="Implementation for the TPC PID response of the BB parametrization. " alt="" coords="5,109,199,165"/>
+<area shape="rect" id="node4" href="$d3/da9/TOFReso_8h.html" title="Implementation for the TOF PID response of the expected times resolution. " alt="" coords="440,109,633,165"/>
+<area shape="rect" id="node6" href="$d0/d5c/TPCReso_8h.html" title="Implementation for the TPC PID response of the BB resolution. " alt="" coords="223,109,416,165"/>
+<area shape="rect" id="node7" href="$dc/d68/DetectorResponse_8h.html" title="Handler for any detector (or other entity) response. This provides the basic quantities computed by a..." alt="" coords="658,109,906,165"/>
+<area shape="rect" id="node12" href="$d7/d11/ParamBase_8cxx.html" title="Set of utilities to handle the parametrization of the PID response for each detector These are the ba..." alt="" coords="931,109,1124,165"/>
+<area shape="rect" id="node3" href="$d1/dc6/handleParamTPCBetheBloch_8cxx.html" title="A simple tool to produce Bethe Bloch parametrization objects for the TPC PID Response. " alt="" coords="74,213,317,269"/>
+<area shape="rect" id="node5" href="$d0/d84/handleParamTOFReso_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/DataModel\l/src/handleParamTOFReso.cxx" alt="" coords="433,213,640,269"/>
+<area shape="rect" id="node8" href="$d9/d66/PIDTOF_8h.html" title="Implementation of the TOF detector response for PID. " alt="" coords="675,213,868,269"/>
+<area shape="rect" id="node10" href="$df/d83/PIDTPC_8h.html" title="Implementation of the TPC detector response for PID. " alt="" coords="892,213,1085,269"/>
+<area shape="rect" id="node9" href="$d5/d53/pidTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTOF.cxx" alt="" coords="681,317,861,373"/>
+<area shape="rect" id="node11" href="$db/da2/pidTPC_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Analysis/Tasks\l/pidTPC.cxx" alt="" coords="899,317,1079,373"/>
+</map>

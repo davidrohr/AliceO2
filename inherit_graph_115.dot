@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="EMCalRawFitter",height=0.2,width=0.4,color="black",URL="$df/dcb/classEMCalRawFitter.html",tooltip="Base class for extraction of signal amplitude and peak position. "];
+}

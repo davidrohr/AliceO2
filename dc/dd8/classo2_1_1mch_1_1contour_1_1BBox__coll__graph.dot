@@ -1,0 +1,8 @@
+digraph "o2::mch::contour::BBox&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::mch::contour::BBox\< T \>\n||+ BBox()\l+ xmin()\l+ xmax()\l+ ymin()\l+ ymax()\l+ xcenter()\l+ ycenter()\l+ width()\l+ height()\l+ contains()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

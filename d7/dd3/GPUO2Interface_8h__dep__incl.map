@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Interface/GPUO2Interface.h" name="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Interface/GPUO2Interface.h">
+<area shape="rect" id="node2" href="$dc/d59/MatchTPCITS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx" alt="" coords="5,117,229,173"/>
+<area shape="rect" id="node3" href="$dc/d1c/ITSMFT_2ITS_2workflow_2include_2ITSWorkflow_2RecoWorkflow_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/include/ITSWorkflow\l/RecoWorkflow.h" alt="" coords="305,109,533,180"/>
+<area shape="rect" id="node4" href="$dc/d64/its-reco-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/its&#45;reco\l&#45;workflow.cxx" alt="" coords="174,228,359,299"/>
+<area shape="rect" id="node6" href="$de/d90/ITSMFT_2ITS_2workflow_2include_2ITSWorkflow_2TrackerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/include/ITSWorkflow\l/TrackerSpec.h" alt="" coords="557,109,785,180"/>
+<area shape="rect" id="node8" href="$d4/d2e/GPUCATracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/GPUCATracking.cxx" alt="" coords="809,117,1066,173"/>
+<area shape="rect" id="node9" href="$df/d6c/convertDigitsToRawZS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/run/convertDigitsTo\lRawZS.cxx" alt="" coords="1091,109,1293,180"/>
+<area shape="rect" id="node10" href="$df/d24/TRDGlobalTrackingSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDGlobalTrackingSpec.h" alt="" coords="1317,109,1528,180"/>
+<area shape="rect" id="node13" href="$d9/dbb/TRDTrackWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrackWriterSpec.cxx" alt="" coords="1553,117,1807,173"/>
+<area shape="rect" id="node14" href="$d0/d48/GPUO2Interface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Interface/GPUO2Interface.cxx" alt="" coords="1832,117,2035,173"/>
+<area shape="rect" id="node5" href="$d5/d99/ITSMFT_2ITS_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/RecoWorkflow.cxx" alt="" coords="384,235,624,291"/>
+<area shape="rect" id="node7" href="$de/d95/ITSMFT_2ITS_2workflow_2src_2TrackerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/workflow/src/TrackerSpec.cxx" alt="" coords="649,235,877,291"/>
+<area shape="rect" id="node11" href="$d5/d34/TRDGlobalTrackingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDGlobalTracking\lSpec.cxx" alt="" coords="1180,228,1399,299"/>
+<area shape="rect" id="node12" href="$de/d40/TRDTrackingWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrackingWorkflow.cxx" alt="" coords="1423,235,1686,291"/>
+</map>

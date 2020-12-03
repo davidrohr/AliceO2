@@ -1,0 +1,5 @@
+<map id="o2::its::VertexReader" name="o2::its::VertexReader">
+<area shape="rect" id="node2" href="$de/dac/classo2_1_1framework_1_1Task.html" title="{o2::framework::Task\n||+ ~Task()\l+ init()\l+ run()\l+ endOfStream()\l}" alt="" coords="5,652,148,773"/>
+<area shape="rect" id="node5" href="$d9/db3/structo2_1_1header_1_1Descriptor.html" title="{o2::header::Descriptor\l\&lt; gSizeDataOriginString,\l printDataOrigin \&gt;\n||+ Descriptor()\l+ Descriptor()\l+ Descriptor()\l+ Descriptor()\l+ operator=()\l+ operator ItgType()\l+ runtimeInit()\l+ operator==()\l+ operator==()\l+ operator\&lt;()\l+ operator!=()\l+ operator!=()\l+ as()\l+ print()\l}" alt="" coords="508,564,675,861"/>
+<area shape="rect" id="node10" href="$d9/db3/structo2_1_1header_1_1Descriptor.html" title="{o2::header::Descriptor\l\&lt; N, PrinterPolicy \&gt;\n||+ Descriptor()\l+ Descriptor()\l+ Descriptor()\l+ operator=()\l+ operator ItgType()\l+ Descriptor()\l+ runtimeInit()\l+ operator==()\l+ operator\&lt;()\l+ operator!=()\l+ operator==()\l+ operator!=()\l+ as()\l+ print()\l}" alt="" coords="319,175,469,457"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Foo" name="Foo">
+<area shape="rect" id="node2" href="$d0/d99/structBar.html" title="{Bar\n|+ foo\l+ bar\l|+ someMethod()\l+ a()\l}" alt="" coords="5,307,123,413"/>
+<area shape="rect" id="node3" href="$df/d5c/structFooBar.html" title="{FooBar\n||}" alt="" coords="147,321,211,399"/>
+</map>

@@ -1,0 +1,8 @@
+digraph "o2::mid::Track"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mid::Track\n||+ getPositionX()\l+ getPositionY()\l+ getPositionZ()\l+ setPosition()\l+ getDirectionX()\l+ getDirectionY()\l+ getDirectionZ()\l+ setDirection()\l+ getCovarianceParameters()\l+ getCovarianceParameter()\l+ setCovarianceParameters()\l+ setCovarianceParameters()\l+ isCovarianceSet()\l+ propagateToZ()\l+ getClusterMatched()\l+ setClusterMatched()\l+ getChi2()\l+ setChi2()\l+ getNDF()\l+ setNDF()\l+ getChi2OverNDF()\l+ isCompatible()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,10 @@
+digraph "o2::rans::LiteralEncoder&lt; coder_T, stream_T, source_T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::rans::LiteralEncoder\l\< coder_T, stream_T, source_T \>\n||+ process()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::rans::Encoder\<\l coder_T, stream_T,\l source_T \>\n|# mSymbolTable\l# mProbabilityBits\l|+ Encoder()\l+ ~Encoder()\l+ Encoder()\l+ Encoder()\l+ operator=()\l+ operator=()\l+ Encoder()\l+ Encoder()\l+ Encoder()\l+ process()\l+ getProbabilityBits()\l+ getAlphabetRangeBits()\l+ getMinSymbol()\l+ getMaxSymbol()\l}",height=0.2,width=0.4,color="black",URL="$dd/d50/classo2_1_1rans_1_1Encoder.html"];
+}

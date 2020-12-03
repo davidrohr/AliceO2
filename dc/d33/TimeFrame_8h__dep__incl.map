@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/TimeFrame/include/TimeFrame/TimeFrame.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/TimeFrame/include/TimeFrame/TimeFrame.h">
+<area shape="rect" id="node2" href="$d5/dfd/TimeFrame_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/TimeFrame\l/src/TimeFrame.cxx" alt="" coords="5,109,228,165"/>
+<area shape="rect" id="node3" href="$df/d0a/TimeFrameTest_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/TimeFrame\l/test/TimeFrameTest.cxx" alt="" coords="252,109,475,165"/>
+<area shape="rect" id="node4" href="$df/d5b/EPNReceiverDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/EPNReceiverDevice.cxx" alt="" coords="499,109,694,165"/>
+<area shape="rect" id="node5" href="$d3/d38/FakeTimeframeBuilder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/FakeTimeframeBuilder.cxx" alt="" coords="719,109,923,165"/>
+<area shape="rect" id="node6" href="$d1/db0/TimeframeParser_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/TimeframeParser.cxx" alt="" coords="947,109,1127,165"/>
+<area shape="rect" id="node7" href="$db/dfa/TimeframeValidatorDevice_8cxx.html" title="Validator device for a full time frame. " alt="" coords="1151,109,1378,165"/>
+<area shape="rect" id="node8" href="$d7/d2f/TimeframeWriterDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataFlow\l/src/TimeframeWriterDevice.cxx" alt="" coords="1402,109,1613,165"/>
+</map>

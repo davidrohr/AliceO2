@@ -1,0 +1,10 @@
+digraph "Defines for data description"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node1 [label="The Data Header",height=0.2,width=0.4,color="black",URL="$da/dbc/group__aliceo2__dataformats__dataheader.html",tooltip="A descriptive information for payload blocks. "];
+  Node0 [label="Defines for data description",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+}

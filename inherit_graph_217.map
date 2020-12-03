@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d6/df4/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstruction.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstruction" alt="" coords="5,71,196,112"/>
+<area shape="rect" id="node2" href="$d2/d24/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionCPUBackend.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionCPUBackend" alt="" coords="244,71,471,112"/>
+<area shape="rect" id="node3" href="$d2/dc7/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionKernels_3_01GPUReconstructionCPUBackend_01_4.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionKernels\l\&lt; GPUReconstructionCPUBackend \&gt;" alt="" coords="519,63,761,119"/>
+<area shape="rect" id="node4" href="$db/d88/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionCPU.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionCPU" alt="" coords="809,71,1000,112"/>
+<area shape="rect" id="node5" href="$d8/dcf/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionDeviceBase.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionDeviceBase" alt="" coords="1048,71,1267,112"/>
+<area shape="rect" id="node6" href="$d3/d58/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionCUDABackend.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionCUDABackend" alt="" coords="1315,5,1552,47"/>
+<area shape="rect" id="node7" href="$df/d9f/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionHIPBackend.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionHIPBackend" alt="" coords="1323,71,1544,112"/>
+<area shape="rect" id="node8" href="$d8/d5e/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionOCL.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionOCL" alt="" coords="1338,136,1529,177"/>
+<area shape="rect" id="node9" href="$db/d98/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionOCL1Backend.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionOCL1Backend" alt="" coords="1600,103,1832,144"/>
+<area shape="rect" id="node10" href="$d5/d9e/classGPUCA__NAMESPACE_1_1gpu_1_1GPUReconstructionOCL2Backend.html" title="GPUCA_NAMESPACE::gpu\l::GPUReconstructionOCL2Backend" alt="" coords="1600,168,1832,209"/>
+</map>

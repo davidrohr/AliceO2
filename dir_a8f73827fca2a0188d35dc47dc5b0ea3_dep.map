@@ -1,0 +1,34 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/TestWorkflows" name="/home/runner/work/AliceO2/AliceO2/Framework/TestWorkflows">
+<area shape="rect" id="node2" href="dir_80c3b7d4c168c9aa75dd1ba81b9fa387.html" title="src" alt="" coords="234,63,306,111"/>
+<area shape="rect" id="node4" href="dir_0b342c6c6b7d2278121a0bb9c4985063.html" title="Generators" alt="" coords="308,159,394,207"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000776_000779.html" title="1" alt="" coords="321,131,329,146"/>
+<area shape="rect" id="node5" href="dir_4ab6b4cc6a7edbff49100e9123df213f.html" title="Common" alt="" coords="160,255,235,303"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000776_000035.html" title="2" alt="" coords="217,233,225,248"/>
+<area shape="rect" id="node6" href="dir_9f165b2481dacfe69aa54d326bd5cd47.html" title="Core" alt="" coords="147,543,219,591"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000776_000761.html" title="92" alt="" coords="138,516,153,531"/>
+<area shape="rect" id="node7" href="dir_051dca18e802f8e9474f2e30d29c04e0.html" title="Detectors" alt="" coords="297,447,376,495"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000776_000048.html" title="4" alt="" coords="367,429,375,443"/>
+<area shape="rect" id="node8" href="dir_ab5a80d4bd40f73f0851d5ff6a022779.html" title="Logger" alt="" coords="223,639,295,687"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000776_000771.html" title="11" alt="" coords="308,645,323,659"/>
+<area shape="rect" id="node9" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="246,351,344,399"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000776_000089.html" title="5" alt="" coords="296,324,304,339"/>
+<area shape="rect" id="node3" href="dir_b6abd220a8a509af9882e60b4042c567.html" title="test" alt="" coords="138,63,210,111"/>
+<area shape="rect" id="edge19-headlabel" href="dir_000777_000761.html" title="4" alt="" coords="128,537,136,552"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000779_000035.html" title="25" alt="" coords="248,245,262,260"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000779_000089.html" title="2" alt="" coords="311,328,319,343"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000035_000771.html" title="2" alt="" coords="205,631,213,646"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000035_000089.html" title="2" alt="" coords="251,325,259,339"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000761_000035.html" title="6" alt="" coords="183,313,191,328"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000761_000771.html" title="43" alt="" coords="227,611,242,626"/>
+<area shape="rect" id="edge13-headlabel" href="dir_000761_000089.html" title="56" alt="" coords="249,401,264,415"/>
+<area shape="rect" id="edge14-headlabel" href="dir_000048_000779.html" title="2" alt="" coords="343,218,351,233"/>
+<area shape="rect" id="edge15-headlabel" href="dir_000048_000035.html" title="330" alt="" coords="184,315,205,329"/>
+<area shape="rect" id="edge16-headlabel" href="dir_000048_000761.html" title="956" alt="" coords="228,534,249,549"/>
+<area shape="rect" id="edge17-headlabel" href="dir_000048_000771.html" title="131" alt="" coords="273,618,294,632"/>
+<area shape="rect" id="edge18-headlabel" href="dir_000048_000089.html" title="1381" alt="" coords="299,412,328,426"/>
+<area shape="rect" id="edge20-headlabel" href="dir_000089_000035.html" title="39" alt="" coords="230,314,245,329"/>
+<area shape="rect" id="edge21-headlabel" href="dir_000089_000048.html" title="18" alt="" coords="310,419,324,433"/>
+<area shape="rect" id="edge22-headlabel" href="dir_000089_000771.html" title="21" alt="" coords="265,614,280,628"/>
+<area shape="rect" id="clust2" href="dir_a8f73827fca2a0188d35dc47dc5b0ea3.html" alt="" coords="127,52,452,121"/>
+<area shape="rect" id="clust1" href="dir_bcbb2cf9a3d3d83e5515c82071a07177.html" title="Framework" alt="" coords="116,16,463,132"/>
+</map>

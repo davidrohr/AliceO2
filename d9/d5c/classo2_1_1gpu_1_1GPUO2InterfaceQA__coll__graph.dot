@@ -1,0 +1,8 @@
+digraph "o2::gpu::GPUO2InterfaceQA"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::gpu::GPUO2InterfaceQA\n||+ GPUO2InterfaceQA()\l+ ~GPUO2InterfaceQA()\l+ initializeForProcessing()\l+ runQA()\l+ postprocess()\l+ postprocessExternal()\l+ getHists()\l+ resetHists()\l+ cleanup()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

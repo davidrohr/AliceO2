@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/include/TPCBase/ParameterGEM.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/include/TPCBase/ParameterGEM.h">
+<area shape="rect" id="node2" href="$dc/d71/CDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/CDBInterface.cxx" alt="" coords="5,117,191,173"/>
+<area shape="rect" id="node3" href="$de/d9b/ParameterGEM_8cxx.html" title="Implementation of the parameter class for the GEM stack. " alt="" coords="215,117,410,173"/>
+<area shape="rect" id="node4" href="$d1/d8a/testTPCCDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/test/testTPCCDBInterface.cxx" alt="" coords="435,117,673,173"/>
+<area shape="rect" id="node5" href="$da/d69/testTPCParameters_8cxx.html" title="This task tests the Parameter handling. " alt="" coords="697,117,923,173"/>
+<area shape="rect" id="node6" href="$d9/d79/GEMAmplification_8h.html" title="Definition of the GEM amplification. " alt="" coords="996,109,1219,180"/>
+<area shape="rect" id="node7" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="651,228,835,284"/>
+<area shape="rect" id="node9" href="$d5/d97/testTPCGEMAmplification_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCGEMAmplification.cxx" alt="" coords="1367,228,1661,284"/>
+<area shape="rect" id="node8" href="$db/d6c/GEMAmplification_8cxx.html" title="Implementation of the GEM amplification. " alt="" coords="860,228,1101,284"/>
+<area shape="rect" id="node10" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1126,228,1342,284"/>
+</map>

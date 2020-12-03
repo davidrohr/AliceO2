@@ -1,0 +1,5 @@
+<map id="o2::emcal::CTFHelper::Iter_bcIncTrig" name="o2::emcal::CTFHelper::Iter_bcIncTrig">
+<area shape="rect" id="node2" href="$d3/d61/classo2_1_1emcal_1_1CTFHelper_1_1__Iter.html" title="{o2::emcal::CTFHelper\l::_Iter\&lt; Iter_bcIncTrig,\l TriggerRecord, uint16_t \&gt;\n||+ _Iter()\l+ _Iter()\l+ operator++()\l+ operator&#45;&#45;()\l+ operator&#45;()\l+ operator&#45;()\l+ operator&#45;()\l+ operator!=()\l+ operator==()\l+ operator\&gt;()\l+ operator\&lt;()\l}" alt="" coords="80,461,255,715"/>
+<area shape="rect" id="node5" href="$d3/d61/classo2_1_1emcal_1_1CTFHelper_1_1__Iter.html" title="{o2::emcal::CTFHelper\l::_Iter\&lt; I, D, T \&gt;\n||+ _Iter()\l+ _Iter()\l+ operator++()\l+ operator&#45;&#45;()\l+ operator&#45;()\l+ operator&#45;()\l+ operator&#45;()\l+ operator!=()\l+ operator==()\l+ operator\&gt;()\l+ operator\&lt;()\l}" alt="" coords="92,145,243,384"/>
+<area shape="rect" id="node4" href="$d2/dae/classgsl_1_1span_3_01const_01TriggerRecord_01_4.html" title="{span\&lt; const TriggerRecord \&gt;\n||}" alt="" coords="267,226,459,303"/>
+</map>

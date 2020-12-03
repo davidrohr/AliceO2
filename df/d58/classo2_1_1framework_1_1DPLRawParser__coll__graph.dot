@@ -1,0 +1,34 @@
+digraph "o2::framework::DPLRawParser"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::DPLRawParser\n||+ DPLRawParser()\l+ DPLRawParser()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +initializer" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{o2::header::RAWDataHeaderV4\n|+ word0\l+ blockLength\l+ zero0\l+ word1\l+ word2\l+ word3\l+ word4\l+ heartbeatBC\l+ zero42\l+ word5\l+ word6\l+ detectorField\l+ stop\l+ pageCnt\l|}",height=0.2,width=0.4,color="black",URL="$d8/d47/structo2_1_1header_1_1RAWDataHeaderV4.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +word7\n+triggerType\n+zero6\n+par\n+feeId\n+priority\n+headerSize\n+version\n+triggerBC\n+zero41\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{uint64_t\n||}",height=0.2,width=0.4,color="black",URL="$d6/d30/classuint64__t.html"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +cruID" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{uint16_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@161" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{anonymous:+@161\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +linkID\n+endPointID\n+packetCounter" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{uint8_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@163" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{anonymous:+@163\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@155" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{anonymous:+@155\n||}",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@165" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{anonymous:+@165\n||}",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +heartbeatOrbit\n+triggerOrbit\n+memorySize\n+offsetToNext" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{uint32_t\n||}",height=0.2,width=0.4,color="black",URL="$d3/d87/classuint32__t.html"];
+  Node11 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@157" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{anonymous:+@157\n||}",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@167" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{anonymous:+@167\n||}",height=0.2,width=0.4,color="grey75"];
+  Node13 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@159" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{anonymous:+@159\n||}",height=0.2,width=0.4,color="grey75"];
+  Node14 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +@169" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{anonymous:+@169\n||}",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/DataCompression/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e739392ef12c0b48c71c218f1fc8a69d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DataCompression" fontname="Helvetica", fontsize="10", URL="dir_e739392ef12c0b48c71c218f1fc8a69d.html"]
+  dir_7048f730ff7148d0bc9b4ba4c4e1741e [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7048f730ff7148d0bc9b4ba4c4e1741e.html"];
+  }
+  dir_18f7c1ee6da6600fad774a08fdb3e7ce [shape=box label="include" color="red" URL="dir_18f7c1ee6da6600fad774a08fdb3e7ce.html"];
+  dir_7048f730ff7148d0bc9b4ba4c4e1741e->dir_18f7c1ee6da6600fad774a08fdb3e7ce [headlabel="5", labeldistance=1.5 headhref="dir_000832_000830.html"];
+}

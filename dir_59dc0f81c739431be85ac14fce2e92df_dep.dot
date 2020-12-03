@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/CCDB/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6af676bf18881990e4083e191d0e63e0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="CCDB" fontname="Helvetica", fontsize="10", URL="dir_6af676bf18881990e4083e191d0e63e0.html"]
+  subgraph clusterdir_59dc0f81c739431be85ac14fce2e92df {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_59dc0f81c739431be85ac14fce2e92df.html"];
+    dir_59dc0f81c739431be85ac14fce2e92df [shape=plaintext label="include"];
+    dir_af5dc0b9e352bc8757aca0dca9cad9ff [shape=box label="CCDB" color="black" fillcolor="white" style="filled" URL="dir_af5dc0b9e352bc8757aca0dca9cad9ff.html"];
+  }
+  }
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_af5dc0b9e352bc8757aca0dca9cad9ff->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="1", labeldistance=1.5 headhref="dir_000030_000062.html"];
+}

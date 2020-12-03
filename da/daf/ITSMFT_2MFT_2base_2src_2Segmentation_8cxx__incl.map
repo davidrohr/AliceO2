@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/src/Segmentation.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/src/Segmentation.cxx">
+<area shape="rect" id="node3" href="$d9/de7/LadderSegmentation_8h.html" title="Description of the virtual segmentation of a ladder. " alt="" coords="99,184,313,211"/>
+<area shape="rect" id="node10" href="$dc/d53/HalfDiskSegmentation_8h.html" title="Class for the description of the structure of a half&#45;disk. " alt="" coords="240,109,465,136"/>
+<area shape="rect" id="node11" href="$d2/d77/HalfSegmentation_8h.html" title="Segmentation class for each half of the ALICE Muon Forward Tracker. " alt="" coords="396,184,595,211"/>
+<area shape="rect" id="node12" href="$dd/d83/ITSMFT_2MFT_2base_2include_2MFTBase_2Segmentation_8h.html" title="MFTBase/Segmentation.h" alt="" coords="544,259,719,285"/>
+<area shape="rect" id="node6" href="$d3/de7/VSegmentation_8h.html" title="Abstract base class for MFT Segmentation description. " alt="" coords="41,333,224,360"/>
+<area shape="rect" id="node9" href="$d3/dbd/ChipSegmentation_8h.html" title="Chip (sensor) segmentation description. " alt="" coords="32,259,233,285"/>
+</map>

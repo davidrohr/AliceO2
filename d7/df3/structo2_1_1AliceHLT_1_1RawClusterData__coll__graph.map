@@ -1,0 +1,5 @@
+<map id="o2::AliceHLT::RawClusterData" name="o2::AliceHLT::RawClusterData">
+<area shape="rect" id="node2" href="$d7/d0a/structo2_1_1AliceHLT_1_1RawCluster.html" title="{o2::AliceHLT::RawCluster\n||+ GetPadRow()\l+ GetPad()\l+ GetTime()\l+ GetSigmaPad2()\l+ GetSigmaTime2()\l+ GetCharge()\l+ GetQMax()\l+ GetFlagSplitPad()\l+ GetFlagSplitTime()\l+ GetFlagSplitAny()\l+ GetFlags()\l}" alt="" coords="37,189,212,413"/>
+<area shape="rect" id="node4" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="101,5,148,83"/>
+<area shape="rect" id="node6" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="236,263,304,340"/>
+</map>

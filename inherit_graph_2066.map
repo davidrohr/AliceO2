@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$dd/dd7/structo2_1_1tpc_1_1CompressedClustersCounters.html" title="o2::tpc::CompressedClusters\lCounters" alt="" coords="280,71,473,113"/>
+<area shape="rect" id="node2" href="$d6/d95/structo2_1_1tpc_1_1CompressedClusters.html" title="o2::tpc::CompressedClusters" alt="" coords="544,24,737,51"/>
+<area shape="rect" id="node4" href="$dd/d43/structo2_1_1tpc_1_1CompressedClustersFlat.html" title="o2::tpc::CompressedClustersFlat" alt="" coords="533,136,748,163"/>
+<area shape="rect" id="node5" href="$d1/ded/structo2_1_1tpc_1_1CTFHeader.html" title="o2::tpc::CTFHeader" alt="" coords="571,79,710,105"/>
+<area shape="rect" id="node3" href="$de/dcb/structo2_1_1tpc_1_1CompressedClustersROOT.html" title="o2::tpc::CompressedClustersROOT" alt="" coords="796,24,1027,51"/>
+<area shape="rect" id="node6" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="o2::tpc::CompressedClusters\lPtrs_x\&lt; size_t, size_t,\l size_t \&gt;" alt="" coords="16,129,209,185"/>
+<area shape="rect" id="node7" href="$dd/d72/structo2_1_1tpc_1_1CompressedClustersOffsets.html" title="o2::tpc::CompressedClusters\lOffsets" alt="" coords="280,137,473,178"/>
+<area shape="rect" id="node8" href="$d7/dea/structo2_1_1tpc_1_1CompressedClustersPtrs__x.html" title="o2::tpc::CompressedClusters\lPtrs_x\&lt; unsigned char *,\l unsigned short *, unsigned int *\&gt;" alt="" coords="5,5,220,61"/>
+<area shape="rect" id="node9" href="$dd/d10/structo2_1_1tpc_1_1CompressedClustersPtrs.html" title="o2::tpc::CompressedClustersPtrs" alt="" coords="268,20,485,47"/>
+</map>

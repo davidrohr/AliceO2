@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/TimeFrame/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_938f0f489a9afdd9521c88acbea7d897 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="TimeFrame" fontname="Helvetica", fontsize="10", URL="dir_938f0f489a9afdd9521c88acbea7d897.html"]
+  dir_a9690881ab3fc03ec461608a2e1f8524 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a9690881ab3fc03ec461608a2e1f8524.html"];
+  }
+  dir_56c29c4c417493ae7f7f0363d2aa76df [shape=box label="include" color="red" URL="dir_56c29c4c417493ae7f7f0363d2aa76df.html"];
+  dir_a9690881ab3fc03ec461608a2e1f8524->dir_56c29c4c417493ae7f7f0363d2aa76df [headlabel="1", labeldistance=1.5 headhref="dir_000294_000292.html"];
+}

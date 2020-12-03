@@ -1,0 +1,8 @@
+digraph "nlohmann::detail::lexer&lt; BasicJsonType &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{nlohmann::detail::lexer\l\< BasicJsonType \>\n||+ lexer()\l+ lexer()\l+ operator=()\l+ get_number_integer()\l+ get_number_unsigned()\l+ get_number_float()\l+ move_string()\l+ get_position()\l+ get_token_string()\l+ get_error_message()\l+ scan()\l+ token_type_name()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

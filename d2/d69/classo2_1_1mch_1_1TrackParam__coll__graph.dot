@@ -1,0 +1,8 @@
+digraph "o2::mch::TrackParam"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::TrackParam\n||+ TrackParam()\l+ TrackParam()\l+ TrackParam()\l+ ~TrackParam()\l+ TrackParam()\l+ operator=()\l+ TrackParam()\l+ operator=()\l+ getZ()\l+ setZ()\l+ getNonBendingCoor()\l+ setNonBendingCoor()\l+ getNonBendingSlope()\l+ setNonBendingSlope()\l+ getBendingCoor()\l+ setBendingCoor()\l+ getBendingSlope()\l+ setBendingSlope()\l+ getInverseBendingMomentum()\l+ setInverseBendingMomentum()\l+ getCharge()\l+ setCharge()\l+ getParameters()\l+ setParameters()\l+ setParameters()\l+ addParameters()\l+ px()\l+ py()\l+ pz()\l+ p()\l+ hasCovariances()\l+ getCovariances()\l+ setCovariances()\l+ setCovariances()\l+ setVariances()\l+ deleteCovariances()\l+ getPropagator()\l+ resetPropagator()\l+ updatePropagator()\l+ getExtrapParameters()\l+ setExtrapParameters()\l+ getExtrapCovariances()\l+ setExtrapCovariances()\l+ getSmoothParameters()\l+ setSmoothParameters()\l+ getSmoothCovariances()\l+ setSmoothCovariances()\l+ getClusterPtr()\l+ setClusterPtr()\l+ isRemovable()\l+ setRemovable()\l+ getTrackChi2()\l+ setTrackChi2()\l+ getLocalChi2()\l+ setLocalChi2()\l+ getTrackParamStruct()\l+ isCompatibleTrackParam()\l+ print()\l+ clear()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

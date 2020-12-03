@@ -1,0 +1,5 @@
+<map id="o2::tpc::RawReader::EventInfo" name="o2::tpc::RawReader::EventInfo">
+<area shape="rect" id="node3" href="$d3/d66/structo2_1_1tpc_1_1RawReader_1_1Header.html" title="Data header struct. " alt="" coords="146,175,285,325"/>
+<area shape="rect" id="node4" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="5,5,73,83"/>
+<area shape="rect" id="node7" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="357,5,425,83"/>
+</map>

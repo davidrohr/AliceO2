@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/reconstruction/run" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_43247e9473992ee8ffdfc874c5267163 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="reconstruction" fontname="Helvetica", fontsize="10", URL="dir_43247e9473992ee8ffdfc874c5267163.html"]
+  dir_648671bc339df01bd1b5df8a7c7828c9 [shape=box, label="run", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_648671bc339df01bd1b5df8a7c7828c9.html"];
+  }
+  dir_14c8cfaaee0dfb1e837e70bcf15bda98 [shape=box label="include" color="red" URL="dir_14c8cfaaee0dfb1e837e70bcf15bda98.html"];
+  dir_26637d1bd82229bc9ed97f7e706be743 [shape=box label="Raw" color="red" URL="dir_26637d1bd82229bc9ed97f7e706be743.html"];
+  dir_648671bc339df01bd1b5df8a7c7828c9->dir_14c8cfaaee0dfb1e837e70bcf15bda98 [headlabel="2", labeldistance=1.5 headhref="dir_000491_000472.html"];
+  dir_648671bc339df01bd1b5df8a7c7828c9->dir_26637d1bd82229bc9ed97f7e706be743 [headlabel="1", labeldistance=1.5 headhref="dir_000491_000665.html"];
+}

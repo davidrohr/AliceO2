@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TOF/include/DataFormatsTOF/RawDataFormat.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TOF/include/DataFormatsTOF/RawDataFormat.h">
+<area shape="rect" id="node2" href="$d4/da7/Compressor_8h.html" title="TOF raw data compressor. " alt="" coords="281,124,533,195"/>
+<area shape="rect" id="node7" href="$d5/d90/Detectors_2TOF_2reconstruction_2include_2TOFReconstruction_2Encoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/include\l/TOFReconstruction/Encoder.h" alt="" coords="557,124,760,195"/>
+<area shape="rect" id="node3" href="$d2/dc6/CompressorTask_8h.html" title="TOF raw data compressor task. " alt="" coords="23,243,275,313"/>
+<area shape="rect" id="node6" href="$d8/d7f/Compressor_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/compression/src/Compressor.cxx" alt="" coords="299,250,522,306"/>
+<area shape="rect" id="node4" href="$d7/d8c/CompressorTask_8cxx.html" title="TOF raw data compressor task. " alt="" coords="5,369,256,425"/>
+<area shape="rect" id="node5" href="$d9/d2d/tof-compressor_8cxx.html" title="Basic DPL workflow for TOF raw data compression. " alt="" coords="281,369,519,425"/>
+<area shape="rect" id="node8" href="$de/d5e/TOF_2reconstruction_2src_2Encoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/reconstruction/src/Encoder.cxx" alt="" coords="553,250,759,306"/>
+<area shape="rect" id="node9" href="$dc/df7/TOFRawWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/workflow/include/TOFWorkflowUtils\l/TOFRawWriterSpec.h" alt="" coords="784,243,1019,313"/>
+<area shape="rect" id="node10" href="$da/dfd/tof-reco-workflow_8cxx.html" title="Basic DPL workflow for TOF reconstruction starting from digits. " alt="" coords="663,361,887,432"/>
+<area shape="rect" id="node11" href="$db/dfb/TOFRawWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/workflow/src/TOFRawWriterSpec.cxx" alt="" coords="910,369,1157,425"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterFinderOriginal.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Clustering/include/MCHClustering/ClusterFinderOriginal.h">
+<area shape="rect" id="node2" href="$d0/dff/ClusterFinderOriginal_8cxx.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="5,124,229,195"/>
+<area shape="rect" id="node3" href="$d1/d4a/ClusterFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to run the original MLEM cluster finder. " alt="" coords="254,124,474,195"/>
+</map>

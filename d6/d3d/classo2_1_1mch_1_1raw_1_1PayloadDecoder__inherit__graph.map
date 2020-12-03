@@ -1,0 +1,6 @@
+<map id="o2::mch::raw::PayloadDecoder&lt; T &gt;" name="o2::mch::raw::PayloadDecoder&lt; T &gt;">
+<area shape="rect" id="node2" href="$d2/d42/classo2_1_1mch_1_1raw_1_1PayloadDecoder.html" title="{o2::mch::raw::PayloadDecoder\l\&lt; UserLogicEndpointDecoder\l\&lt; CHARGESUM \&gt; \&gt;\n||+ PayloadDecoder()\l+ process()\l}" alt="" coords="12,175,215,296"/>
+<area shape="rect" id="node4" href="$d2/d42/classo2_1_1mch_1_1raw_1_1PayloadDecoder.html" title="{o2::mch::raw::PayloadDecoder\l\&lt; BareGBTDecoder\&lt; CHARGESUM \&gt; \&gt;\n||+ PayloadDecoder()\l+ process()\l}" alt="" coords="239,182,500,289"/>
+<area shape="rect" id="node3" href="$df/d74/classo2_1_1mch_1_1raw_1_1UserLogicEndpointDecoder.html" title="A UserLogicEndpointDecoder groups 12 x (40 UserLogicElinkDecoder objects) " alt="" coords="5,345,221,496"/>
+<area shape="rect" id="node5" href="$d5/dd8/classo2_1_1mch_1_1raw_1_1BareGBTDecoder.html" title="A BareGBTDecoder groups 40 ElinkDecoder objects. " alt="" coords="265,345,474,496"/>
+</map>

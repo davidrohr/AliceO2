@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/rANS/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ec14eb73eaee628e81cdf49beb7826f2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="rANS" fontname="Helvetica", fontsize="10", URL="dir_ec14eb73eaee628e81cdf49beb7826f2.html"]
+  subgraph clusterdir_6457007ee79fd0f642811f7d23f262dc {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6457007ee79fd0f642811f7d23f262dc.html"];
+    dir_6457007ee79fd0f642811f7d23f262dc [shape=plaintext label="include"];
+    dir_d1bfd9b661c124b7bc83e2fd638a40c9 [shape=box label="rANS" color="red" fillcolor="white" style="filled" URL="dir_d1bfd9b661c124b7bc83e2fd638a40c9.html"];
+  }
+  }
+}

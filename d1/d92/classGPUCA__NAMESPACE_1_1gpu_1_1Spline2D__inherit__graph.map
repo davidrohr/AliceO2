@@ -1,0 +1,5 @@
+<map id="GPUCA_NAMESPACE::gpu::Spline2D&lt; DataT, YdimT &gt;" name="GPUCA_NAMESPACE::gpu::Spline2D&lt; DataT, YdimT &gt;">
+<area shape="rect" id="node4" href="$d3/dc3/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2D.html" title="{GPUCA_NAMESPACE::gpu\l::Spline2D\&lt; float, 1 \&gt;\n||+ operator=()\l+ ClassDefNV()\l+ readFromFile()\l}" alt="" coords="5,544,196,665"/>
+<area shape="rect" id="node2" href="$d1/d03/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2DSpec.html" title="{GPUCA_NAMESPACE::gpu\l::Spline2DSpec\&lt; DataT,\l YdimT, SplineUtil::getSpec\l(YdimT)\&gt;\n||}" alt="" coords="5,189,196,311"/>
+<area shape="rect" id="node3" href="$d1/d03/classGPUCA__NAMESPACE_1_1gpu_1_1Spline2DSpec.html" title="{GPUCA_NAMESPACE::gpu\l::Spline2DSpec\&lt; DataT,\l YdimT, SpecT \&gt;\n||}" alt="" coords="5,5,196,112"/>
+</map>

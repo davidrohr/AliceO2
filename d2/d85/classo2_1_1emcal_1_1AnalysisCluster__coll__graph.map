@@ -1,0 +1,5 @@
+<map id="o2::emcal::AnalysisCluster" name="o2::emcal::AnalysisCluster">
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="196,167,243,245"/>
+<area shape="rect" id="node4" href="$d5/daf/classROOT_1_1Math_1_1PositionVector3D.html" title="{ROOT::Math::PositionVector3\lD\&lt; float \&gt;\n||}" alt="" coords="267,160,465,252"/>
+<area shape="rect" id="node5" href="$d5/daf/classROOT_1_1Math_1_1PositionVector3D.html" title="{ROOT::Math::PositionVector3\lD\&lt; CoordSystem, Tag \&gt;\n||}" alt="" coords="267,5,465,97"/>
+</map>

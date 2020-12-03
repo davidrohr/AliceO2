@@ -1,0 +1,9 @@
+<map id="o2::tof::compressed::Union_t" name="o2::tof::compressed::Union_t">
+<area shape="rect" id="node2" href="$df/d87/structo2_1_1tof_1_1compressed_1_1PackedHit__t.html" title="{o2::tof::compressed\l::PackedHit_t\n||}" alt="" coords="76,219,215,311"/>
+<area shape="rect" id="node3" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="440,5,508,83"/>
+<area shape="rect" id="node4" href="$dc/d31/structo2_1_1tof_1_1compressed_1_1CrateTrailer__t.html" title="{o2::tof::compressed\l::CrateTrailer_t\n||}" alt="" coords="239,219,378,311"/>
+<area shape="rect" id="node5" href="$d0/df7/structo2_1_1tof_1_1compressed_1_1CrateOrbit__t.html" title="{o2::tof::compressed\l::CrateOrbit_t\n||}" alt="" coords="402,219,540,311"/>
+<area shape="rect" id="node6" href="$d5/d0d/structo2_1_1tof_1_1compressed_1_1Word__t.html" title="{o2::tof::compressed\l::Word_t\n||}" alt="" coords="564,219,703,311"/>
+<area shape="rect" id="node7" href="$df/d7e/structo2_1_1tof_1_1compressed_1_1FrameHeader__t.html" title="{o2::tof::compressed\l::FrameHeader_t\n||}" alt="" coords="727,219,866,311"/>
+<area shape="rect" id="node8" href="$d5/da4/structo2_1_1tof_1_1compressed_1_1CrateHeader__t.html" title="{o2::tof::compressed\l::CrateHeader_t\n||}" alt="" coords="890,219,1028,311"/>
+</map>

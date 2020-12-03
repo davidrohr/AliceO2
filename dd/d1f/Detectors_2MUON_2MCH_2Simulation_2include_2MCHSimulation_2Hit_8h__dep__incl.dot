@@ -1,0 +1,44 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Simulation/include/MCHSimulation/Hit.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node26 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Hit.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Detector.h",height=0.2,width=0.4,color="black",URL="$dc/dab/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Detector_8h.html"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Response.h",height=0.2,width=0.4,color="black",URL="$df/d3f/Response_8h.html"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Digitizer.cxx",height=0.2,width=0.4,color="black",URL="$d7/de0/MUON_2MCH_2Simulation_2src_2Digitizer_8cxx.html"];
+  Node28 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Response.cxx",height=0.2,width=0.4,color="black",URL="$d9/dbf/Response_8cxx.html"];
+  Node28 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testResponse.cxx",height=0.2,width=0.4,color="black",URL="$d5/d7c/testResponse_8cxx.html",tooltip="This task tests of the Response of the MCH digitization. "];
+  Node27 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Detector.cxx",height=0.2,width=0.4,color="black",URL="$da/ddd/MUON_2MCH_2Simulation_2src_2Detector_8cxx.html"];
+  Node27 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testRegular\lGeometry.cxx",height=0.2,width=0.4,color="black",URL="$d8/dbe/testRegularGeometry_8cxx.html"];
+  Node27 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h",height=0.2,width=0.4,color="black",URL="$db/d50/O2HitMerger_8h.html"];
+  Node34 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx",height=0.2,width=0.4,color="black",URL="$d9/d16/O2HitMergerRunner_8cxx.html"];
+  Node27 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$db/d2f/MCHDigitizerSpec_8cxx.html"];
+  Node26 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Digitizer.h",height=0.2,width=0.4,color="black",URL="$da/d5e/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Digitizer_8h.html"];
+  Node37 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testDigitization.cxx",height=0.2,width=0.4,color="black",URL="$dc/dc3/testDigitization_8cxx.html"];
+  Node37 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Stepper.h",height=0.2,width=0.4,color="black",URL="$d1/d9c/MCH_2Simulation_2src_2Stepper_8h.html"];
+  Node39 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Stepper.cxx",height=0.2,width=0.4,color="black",URL="$d6/d21/MCH_2Simulation_2src_2Stepper_8cxx.html"];
+  Node26 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Hit.cxx",height=0.2,width=0.4,color="black",URL="$dd/db5/Detectors_2MUON_2MCH_2Simulation_2src_2Hit_8cxx.html"];
+  Node26 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

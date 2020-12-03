@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Algorithm/include/Algorithm" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b462f90fe076c16030c341e96d9a0ccf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_b462f90fe076c16030c341e96d9a0ccf.html"]
+  dir_41e11c419734b1171969e80bed5b0fa6 [shape=box, label="Algorithm", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_41e11c419734b1171969e80bed5b0fa6.html"];
+  }
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_41e11c419734b1171969e80bed5b0fa6->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000002_000089.html"];
+}

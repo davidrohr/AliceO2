@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Base/include/MCHBase/PreCluster.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Base/include/MCHBase/PreCluster.h">
+<area shape="rect" id="node2" href="$df/df1/MCH_2Base_2src_2PreCluster_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Base/src/PreCluster.cxx" alt="" coords="195,131,399,187"/>
+<area shape="rect" id="node3" href="$db/dad/PreClusterFinder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/PreClustering/include\l/MCHPreClustering/PreClusterFinder.h" alt="" coords="423,124,673,195"/>
+<area shape="rect" id="node6" href="$d1/d4a/ClusterFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to run the original MLEM cluster finder. " alt="" coords="486,361,706,432"/>
+<area shape="rect" id="node8" href="$df/d50/PreClusterFinderSpec_8cxx.html" title="Implementation of a data processor to run the preclusterizer. " alt="" coords="536,243,776,313"/>
+<area shape="rect" id="node9" href="$d0/d5c/PreClusterSinkSpec_8cxx.html" title="Implementation of a data processor to write preclusters. " alt="" coords="851,124,1082,195"/>
+<area shape="rect" id="node4" href="$db/d3a/ClusterFinderOriginal_8h.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="5,243,259,313"/>
+<area shape="rect" id="node7" href="$d8/dfc/PreClusterFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/PreClustering/src/PreCluster\lFinder.cxx" alt="" coords="283,243,511,313"/>
+<area shape="rect" id="node5" href="$d0/dff/ClusterFinderOriginal_8cxx.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="20,361,244,432"/>
+</map>

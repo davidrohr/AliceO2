@@ -1,0 +1,9 @@
+<map id="FairTask" name="FairTask">
+<area shape="rect" id="node2" href="$d1/d1d/classo2_1_1emcal_1_1DigitizerTask.html" title="FairTask running EMCAL digitization. " alt="" coords="5,182,171,362"/>
+<area shape="rect" id="node3" href="$d5/d85/classo2_1_1ft0_1_1DigitizerTask.html" title="{o2::ft0::DigitizerTask\n||+ DigitizerTask()\l+ ~DigitizerTask()\l+ Init()\l+ Exec()\l+ FinishTask()\l+ getDigitizer()\l+ setContinuous()\l+ isContinuous()\l+ setQEDInput()\l}" alt="" coords="195,175,339,369"/>
+<area shape="rect" id="node4" href="$db/db5/classo2_1_1its_1_1HitAnalysis.html" title="{o2::its::HitAnalysis\n||+ HitAnalysis()\l+ ~HitAnalysis()\l+ Init()\l+ Exec()\l+ FinishTask()\l# ProcessHits()\l}" alt="" coords="363,197,496,347"/>
+<area shape="rect" id="node5" href="$df/d23/classo2_1_1mft_1_1DigitizerTask.html" title="{o2::mft::DigitizerTask\n||+ DigitizerTask()\l+ ~DigitizerTask()\l+ Init()\l+ Exec()\l+ FinishTask()\l+ getDigitizer()\l+ getDigiParams()\l+ getDigiParams()\l+ setContinuous()\l+ isContinuous()\l+ setFairTimeUnitInNS()\l+ getFairTimeUnitInNS()\l+ setAlpideROFramLength()\l+ getAlpideROFramLength()\l+ setQEDInput()\l}" alt="" coords="521,131,706,413"/>
+<area shape="rect" id="node6" href="$d0/dc6/classo2_1_1tof_1_1ClustererTask.html" title="{o2::tof::ClustererTask\n||+ ClustererTask()\l+ ~ClustererTask()\l+ Init()\l+ Exec()\l}" alt="" coords="731,211,880,333"/>
+<area shape="rect" id="node7" href="$d0/dad/classo2_1_1tof_1_1DigitizerTask.html" title="{o2::tof::DigitizerTask\n||+ DigitizerTask()\l+ ~DigitizerTask()\l+ Init()\l+ Exec()\l+ FinishTask()\l+ getDigitizer()\l+ setContinuous()\l+ isContinuous()\l}" alt="" coords="904,182,1048,362"/>
+<area shape="rect" id="node8" href="$db/dc7/classo2_1_1tpc_1_1ClustererTask.html" title="{o2::tpc::ClustererTask\n||+ ClustererTask()\l+ ~ClustererTask()\l+ Init()\l+ Exec()\l+ FinishTask()\l+ setContinuousReadout()\l}" alt="" coords="1073,197,1247,347"/>
+</map>

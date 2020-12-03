@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/src/Cluster.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/src/Cluster.cxx">
+<area shape="rect" id="node2" href="$da/d7f/Detectors_2ITSMFT_2ITS_2tracking_2include_2ITStracking_2Cluster_8h.html" title="ITStracking/Cluster.h" alt="" coords="906,109,1053,136"/>
+<area shape="rect" id="node9" href="$dc/d3e/MathUtils_8h.html" title="ITStracking/MathUtils.h" alt="" coords="765,184,925,211"/>
+<area shape="rect" id="node25" href="$dc/ddf/ITS_2tracking_2include_2ITStracking_2IndexTableUtils_8h.html" title="ITStracking/IndexTableUtils.h" alt="" coords="1162,109,1357,136"/>
+<area shape="rect" id="node4" href="$df/d3d/Definitions_8h.html" title="ITStracking/Definitions.h" alt="" coords="1321,333,1488,360"/>
+<area shape="rect" id="node5" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1106,483,1242,509"/>
+<area shape="rect" id="node6" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="983,557,1167,584"/>
+<area shape="rect" id="node7" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1192,557,1351,584"/>
+<area shape="rect" id="node13" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="482,259,602,285"/>
+<area shape="rect" id="node19" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="850,408,994,435"/>
+<area shape="rect" id="node22" href="$d0/d86/Detectors_2ITSMFT_2ITS_2tracking_2include_2ITStracking_2Constants_8h.html" title="ITStracking/Constants.h" alt="" coords="1280,259,1444,285"/>
+<area shape="rect" id="node14" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="147,333,313,360"/>
+<area shape="rect" id="node16" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="337,333,563,360"/>
+<area shape="rect" id="node18" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="587,333,790,360"/>
+<area shape="rect" id="node21" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="536,408,775,435"/>
+<area shape="rect" id="node27" href="$d3/d59/Configuration_8h.html" title="ITStracking/Configuration.h" alt="" coords="1297,184,1478,211"/>
+</map>

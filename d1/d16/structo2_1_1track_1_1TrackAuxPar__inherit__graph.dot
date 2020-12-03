@@ -1,0 +1,10 @@
+digraph "o2::track::TrackAuxPar"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::track::TrackAuxPar\n|+ c\l+ s\l+ cc\l+ ss\l+ cs\l|+ TrackAuxPar()\l+ TrackAuxPar()\l+ cosDif()\l+ sinDif()\l+ set()\l+ ClassDefNV()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::math_utils::CircleXYf_t\n|+ rC\l+ xC\l+ yC\l|+ CircleXY()\l+ getCenterD2()\l+ ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$d5/d10/structo2_1_1math__utils_1_1detail_1_1CircleXY.html"];
+}

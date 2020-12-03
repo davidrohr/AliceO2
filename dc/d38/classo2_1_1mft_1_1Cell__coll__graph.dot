@@ -1,0 +1,8 @@
+digraph "o2::mft::Cell"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mft::Cell\n||+ Cell()\l+ Cell()\l+ getFirstLayerId()\l+ getSecondLayerId()\l+ getFirstClusterIndex()\l+ getSecondClusterIndex()\l+ getLevel()\l+ setLevel()\l+ incrementLevel()\l+ updateLevel()\l+ addRightNeighbour()\l+ addLeftNeighbour()\l+ setUsed()\l+ isUsed()\l+ getCellId()\l+ setCellId()\l+ getLeftNeighbours()\l+ getRightNeighbours()\l+ getNLeftNeighbours()\l+ getNRightNeighbours()\l+ setCoordinates()\l+ getX1()\l+ getY1()\l+ getZ1()\l+ getX2()\l+ getY2()\l+ getZ2()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

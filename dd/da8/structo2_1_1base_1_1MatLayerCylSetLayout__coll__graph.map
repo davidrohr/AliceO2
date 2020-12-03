@@ -1,0 +1,7 @@
+<map id="o2::base::MatLayerCylSetLayout" name="o2::base::MatLayerCylSetLayout">
+<area shape="rect" id="node2" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="61,5,108,83"/>
+<area shape="rect" id="node3" href="$d1/de6/classo2_1_1base_1_1MatLayerCyl.html" title="{o2::base::MatLayerCyl\n||+ MatLayerCyl()\l+ MatLayerCyl()\l+ ~MatLayerCyl()\l+ MatLayerCyl()\l+ initSegmentation()\l+ initSegmentation()\l+ populateFromTGeo()\l+ populateFromTGeo()\l+ print()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ getMeanRMS()\l+ cellsDiffer()\l+ canMergePhiSlices()\l+ optimizePhiSlices()\l+ flatten()\l+ estimateFlatBufferSize()\l+ fixPointers()\l+ setFlatPointer()\l+ estimateFlatBufferSize()\l+ getClassAlignmentBytes()\l+ getBufferAlignmentBytes()\l# GPUd()\l# GPUd()\l# GPUd()\l# GPUd()\l# GPUd()\l# GPUd()\l# GPUd()\l# while()\l# ClassDefNV()\l}" alt="" coords="311,428,498,1268"/>
+<area shape="rect" id="node8" href="$dd/dcd/structo2_1_1base_1_1MatCell.html" title="{o2::base::MatCell\n||+ GPUd()\l+ GPUdDefault()\l+ GPUd()\l+ ClassDefNV()\l}" alt="" coords="181,165,306,287"/>
+<area shape="rect" id="node4" href="$d8/db1/classo2_1_1gpu_1_1FlatObject.html" title="{FlatObject\n||}" alt="" coords="330,187,413,265"/>
+<area shape="rect" id="node6" href="$dc/d10/classshort.html" title="{short\n||}" alt="" coords="517,187,567,265"/>
+</map>

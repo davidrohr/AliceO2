@@ -1,0 +1,21 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Base/include/DetectorsBase/BaseDPLDigitizer.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/Base/include/DetectorsBase/BaseDPLDigitizer.h">
+<area shape="rect" id="node2" href="$df/d11/BaseDPLDigitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/BaseDPLDigitizer.cxx" alt="" coords="5,109,185,165"/>
+<area shape="rect" id="node3" href="$d6/df2/TRDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitizerSpec.cxx" alt="" coords="210,109,445,165"/>
+<area shape="rect" id="node4" href="$d1/d37/CPVDigitizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.h" alt="" coords="520,109,735,165"/>
+<area shape="rect" id="node5" href="$da/dfe/CPVDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.cxx" alt="" coords="375,213,589,269"/>
+<area shape="rect" id="node7" href="$df/d81/EMCALDigitizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/EMCALDigitizerSpec.h" alt="" coords="759,109,973,165"/>
+<area shape="rect" id="node9" href="$d2/d97/FDDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx" alt="" coords="1236,109,1451,165"/>
+<area shape="rect" id="node10" href="$d4/dfd/FT0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitizerSpec.cxx" alt="" coords="1475,109,1689,165"/>
+<area shape="rect" id="node11" href="$d0/d1c/FV0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FV0DigitizerSpec.cxx" alt="" coords="1713,109,1928,165"/>
+<area shape="rect" id="node12" href="$d8/d00/HMPIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/HMPIDDigitizerSpec.cxx" alt="" coords="1952,109,2167,165"/>
+<area shape="rect" id="node13" href="$d3/d43/ITSMFTDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ITSMFTDigitizerSpec.cxx" alt="" coords="2191,109,2405,165"/>
+<area shape="rect" id="node14" href="$db/d2f/MCHDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitizerSpec.cxx" alt="" coords="2429,109,2644,165"/>
+<area shape="rect" id="node15" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="2668,109,2883,165"/>
+<area shape="rect" id="node16" href="$dd/d48/PHOSDigitizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitizerSpec.h" alt="" coords="997,109,1212,165"/>
+<area shape="rect" id="node18" href="$d6/d61/TOFDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TOFDigitizerSpec.cxx" alt="" coords="2907,109,3121,165"/>
+<area shape="rect" id="node19" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="3145,109,3360,165"/>
+<area shape="rect" id="node20" href="$d1/d1a/ZDCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ZDCDigitizerSpec.cxx" alt="" coords="3384,109,3599,165"/>
+<area shape="rect" id="node6" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="614,213,830,269"/>
+<area shape="rect" id="node8" href="$d5/d9b/EMCALDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/EMCALDigitizerSpec.cxx" alt="" coords="855,213,1069,269"/>
+<area shape="rect" id="node17" href="$db/d77/PHOSDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/PHOSDigitizerSpec.cxx" alt="" coords="1093,213,1308,269"/>
+</map>

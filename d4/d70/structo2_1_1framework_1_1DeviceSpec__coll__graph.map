@@ -1,0 +1,7 @@
+<map id="o2::framework::DeviceSpec" name="o2::framework::DeviceSpec">
+<area shape="rect" id="node2" href="$d4/d18/structo2_1_1framework_1_1ComputingResource.html" title="A computing resource which can be offered to run a device. " alt="" coords="217,233,393,340"/>
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="242,13,288,90"/>
+<area shape="rect" id="node6" href="$d0/d80/structo2_1_1framework_1_1DispatchPolicy.html" title="{o2::framework::DispatchPolicy\n||+ createDefaultPolicies()\l}" alt="" coords="1807,248,2008,325"/>
+<area shape="rect" id="node16" href="$d6/d43/structo2_1_1framework_1_1CompletionPolicy.html" title="{o2::framework::Completion\lPolicy\n||+ CompletionPolicy()\l+ CompletionPolicy()\l+ createDefaultPolicies()\l}" alt="" coords="553,226,732,347"/>
+<area shape="rect" id="node18" href="$d4/d5e/structo2_1_1framework_1_1AlgorithmSpec.html" title="{o2::framework::AlgorithmSpec\n||+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ operator=()\l+ AlgorithmSpec()\l+ AlgorithmSpec()\l+ dummyAlgorithm()\l+ emptyErrorCallback()\l}" alt="" coords="2032,189,2231,384"/>
+</map>

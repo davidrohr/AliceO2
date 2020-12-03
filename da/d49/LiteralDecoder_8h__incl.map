@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Utilities/rANS/include/rANS/LiteralDecoder.h" name="/home/runner/work/AliceO2/AliceO2/Utilities/rANS/include/rANS/LiteralDecoder.h">
+<area shape="rect" id="node2" href="$dc/d62/Utilities_2rANS_2include_2rANS_2Decoder_8h.html" title="Decoder.h" alt="" coords="844,109,927,136"/>
+<area shape="rect" id="node3" href="$d6/dfb/Utilities_2rANS_2include_2rANS_2internal_2Decoder_8h.html" title="internal/Decoder.h" alt="" coords="420,273,548,300"/>
+<area shape="rect" id="node9" href="$d7/d99/DecoderSymbol_8h.html" title="Structure containing all relevant information for decoding a rANS encoded symbol. ..." alt="" coords="94,348,221,375"/>
+<area shape="rect" id="node22" href="$dc/d3b/ReverseSymbolLookupTable_8h.html" title="Maps CDF back to source symbol &#45; needed for the decoder. " alt="" coords="1204,184,1407,225"/>
+<area shape="rect" id="node24" href="$d8/dd9/SymbolTable_8h.html" title="Container for information needed to encode/decode a symbol of the alphabet. " alt="" coords="1431,191,1585,218"/>
+<area shape="rect" id="node18" href="$dd/d65/FrequencyTable_8h.html" title="Histogram to depict frequencies of source symbols for rANS compression. " alt="" coords="1230,348,1357,375"/>
+<area shape="rect" id="node23" href="$d0/d51/SymbolStatistics_8h.html" title="Structure to depict the distribution of symbols in the source message. " alt="" coords="1322,273,1454,300"/>
+<area shape="rect" id="node10" href="$d2/d53/EncoderSymbol_8h.html" title="Structure containing all relevant information to encode a symbol. " alt="" coords="472,348,597,375"/>
+<area shape="rect" id="node11" href="$d4/da1/helper_8h.html" title="various helper functions " alt="" coords="1006,423,1074,449"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="o2::tof::WindowFiller" name="o2::tof::WindowFiller">
+<area shape="rect" id="node2" href="$da/db7/classo2_1_1tof_1_1compressed_1_1Decoder.html" title="Decoder class for TOF. " alt="" coords="5,820,163,1352"/>
+<area shape="rect" id="node3" href="$dd/d5c/classo2_1_1tof_1_1Digitizer.html" title="{o2::tof::Digitizer\n||+ Digitizer()\l+ ~Digitizer()\l+ init()\l+ process()\l+ setCalibApi()\l+ setMCTruthContainer()\l+ getMCTruthPerTimeFrame()\l+ fillOutputContainer()\l+ flushOutputContainer()\l+ initParameters()\l+ printParameters()\l+ getShowerTimeSmeared()\l+ getDigitTimeSmeared()\l+ getCharge()\l+ isFired()\l+ getEffX()\l+ getEffZ()\l+ getFractionOfCharge()\l+ getTimeLastHit()\l+ getTotLastHit()\l+ getXshift()\l+ getZshift()\l+ setEventID()\l+ setSrcID()\l+ test()\l+ testFromHits()\l}" alt="" coords="187,864,384,1308"/>
+</map>

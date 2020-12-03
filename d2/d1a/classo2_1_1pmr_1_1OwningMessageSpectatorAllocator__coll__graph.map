@@ -1,0 +1,4 @@
+<map id="o2::pmr::OwningMessageSpectatorAllocator&lt; T &gt;" name="o2::pmr::OwningMessageSpectatorAllocator&lt; T &gt;">
+<area shape="rect" id="node2" href="$da/d1c/classo2_1_1pmr_1_1MessageResource.html" title="{o2::pmr::MessageResource\n||+ MessageResource()\l+ MessageResource()\l+ MessageResource()\l+ operator=()\l+ operator=()\l+ MessageResource()\l+ getMessage()\l+ setMessage()\l+ getTransportFactory()\l+ getNumberOfMessages()\l# do_allocate()\l# do_deallocate()\l# do_is_equal()\l}" alt="" coords="318,145,501,399"/>
+<area shape="rect" id="node3" href="$d0/d9f/classFairMQMemoryResource.html" title="{FairMQMemoryResource\n||}" alt="" coords="5,5,173,83"/>
+</map>

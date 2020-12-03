@@ -1,0 +1,23 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/DCS/testWorkflow" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ca1300042d29623fa0e05e87bb12f4ef {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DCS" fontname="Helvetica", fontsize="10", URL="dir_ca1300042d29623fa0e05e87bb12f4ef.html"]
+  dir_d89695b0df86a35291164b965ae6703a [shape=box, label="testWorkflow", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d89695b0df86a35291164b965ae6703a.html"];
+  }
+  dir_2f1defcce8b8bdfe202c8bfd41228d47 [shape=box label="Calibration" color="red" URL="dir_2f1defcce8b8bdfe202c8bfd41228d47.html"];
+  dir_6af676bf18881990e4083e191d0e63e0 [shape=box label="CCDB" color="red" URL="dir_6af676bf18881990e4083e191d0e63e0.html"];
+  dir_c95f3e1f9928aa536053908b0b0602c6 [shape=box label="include" color="red" URL="dir_c95f3e1f9928aa536053908b0b0602c6.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_d89695b0df86a35291164b965ae6703a->dir_2f1defcce8b8bdfe202c8bfd41228d47 [headlabel="1", labeldistance=1.5 headhref="dir_000463_000049.html"];
+  dir_d89695b0df86a35291164b965ae6703a->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="1", labeldistance=1.5 headhref="dir_000463_000028.html"];
+  dir_d89695b0df86a35291164b965ae6703a->dir_c95f3e1f9928aa536053908b0b0602c6 [headlabel="22", labeldistance=1.5 headhref="dir_000463_000085.html"];
+  dir_d89695b0df86a35291164b965ae6703a->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="45", labeldistance=1.5 headhref="dir_000463_000062.html"];
+  dir_2f1defcce8b8bdfe202c8bfd41228d47->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="9", labeldistance=1.5 headhref="dir_000049_000028.html"];
+  dir_2f1defcce8b8bdfe202c8bfd41228d47->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="19", labeldistance=1.5 headhref="dir_000049_000062.html"];
+  dir_6af676bf18881990e4083e191d0e63e0->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="2", labeldistance=1.5 headhref="dir_000028_000062.html"];
+  dir_c95f3e1f9928aa536053908b0b0602c6->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="2", labeldistance=1.5 headhref="dir_000085_000028.html"];
+  dir_c95f3e1f9928aa536053908b0b0602c6->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="1", labeldistance=1.5 headhref="dir_000085_000062.html"];
+}

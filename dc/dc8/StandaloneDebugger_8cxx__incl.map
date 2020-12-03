@@ -1,0 +1,28 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/src/StandaloneDebugger.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/src/StandaloneDebugger.cxx">
+<area shape="rect" id="node4" href="$da/d7f/Detectors_2ITSMFT_2ITS_2tracking_2include_2ITStracking_2Cluster_8h.html" title="ITStracking/Cluster.h" alt="" coords="1211,266,1358,293"/>
+<area shape="rect" id="node27" href="$d8/db3/ITSMFT_2ITS_2tracking_2include_2ITStracking_2Tracklet_8h.html" title="ITStracking/Tracklet.h" alt="" coords="5,184,156,211"/>
+<area shape="rect" id="node28" href="$df/d50/ClusterLines_8h.html" title="ITStracking/ClusterLines.h" alt="" coords="1148,109,1325,136"/>
+<area shape="rect" id="node29" href="$d1/d22/TreeStreamRedirector_8h.html" title="CommonUtils/TreeStreamRedirector.h" alt="" coords="1647,355,1893,382"/>
+<area shape="rect" id="node35" href="$dc/d8d/ITS_2tracking_2include_2ITStracking_2ROframe_8h.html" title="ITStracking/ROframe.h" alt="" coords="1969,184,2126,211"/>
+<area shape="rect" id="node58" href="$dc/d04/StandaloneDebugger_8h.html" title="ITStracking/StandaloneDebugger.h" alt="" coords="1527,109,1752,136"/>
+<area shape="rect" id="node6" href="$df/d3d/Definitions_8h.html" title="ITStracking/Definitions.h" alt="" coords="1288,527,1455,553"/>
+<area shape="rect" id="node11" href="$dc/d3e/MathUtils_8h.html" title="ITStracking/MathUtils.h" alt="" coords="966,355,1126,382"/>
+<area shape="rect" id="node7" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1263,676,1399,703"/>
+<area shape="rect" id="node8" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1141,751,1325,777"/>
+<area shape="rect" id="node9" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1349,751,1508,777"/>
+<area shape="rect" id="node15" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="966,445,1086,471"/>
+<area shape="rect" id="node21" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="257,601,401,628"/>
+<area shape="rect" id="node24" href="$d0/d86/Detectors_2ITSMFT_2ITS_2tracking_2include_2ITStracking_2Constants_8h.html" title="ITStracking/Constants.h" alt="" coords="1313,445,1477,471"/>
+<area shape="rect" id="node16" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="995,527,1161,553"/>
+<area shape="rect" id="node18" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="644,527,869,553"/>
+<area shape="rect" id="node20" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="417,527,619,553"/>
+<area shape="rect" id="node23" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="527,601,765,628"/>
+<area shape="rect" id="node32" href="$d2/dec/TreeStream_8h.html" title="CommonUtils/TreeStream.h" alt="" coords="1723,445,1908,471"/>
+<area shape="rect" id="node38" href="$d3/d6f/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2Vertex_8h.html" title="ReconstructionDataFormats\l/Vertex.h" alt="" coords="2162,259,2349,300"/>
+<area shape="rect" id="node52" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="3266,259,3418,300"/>
+<area shape="rect" id="node53" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="4430,348,4582,389"/>
+<area shape="rect" id="node39" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="3238,355,3387,382"/>
+<area shape="rect" id="node51" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="4015,355,4242,382"/>
+<area shape="rect" id="node40" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="4201,445,4358,471"/>
+<area shape="rect" id="node50" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="2766,601,2947,628"/>
+</map>

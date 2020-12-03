@@ -1,0 +1,8 @@
+digraph "o2::dcs::DCSProcessor"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::dcs::DCSProcessor\n||+ DCSProcessor()\l+ ~DCSProcessor()\l+ init()\l+ init()\l+ processMap()\l+ processDP()\l+ findAndCheckPid()\l+ processArrayType()\l+ checkFlagsAndFill()\l+ processCharDP()\l+ processIntDP()\l+ processDoubleDP()\l+ processUIntDP()\l+ processBoolDP()\l+ processStringDP()\l+ processTimeDP()\l+ processBinaryDP()\l+ processFlag()\l+ doSimpleMovingAverage()\l+ getVectorForPidChar()\l+ getVectorForPidInt()\l+ getVectorForPidDouble()\l+ getVectorForPidUInt()\l+ getVectorForPidBool()\l+ getVectorForPidString()\l+ getVectorForPidTime()\l+ getVectorForPidBinary()\l+ setNThreads()\l+ getNThreads()\l+ getCCDBSimpleMovingAverage()\l+ getCCDBSimpleMovingAverageInfo()\l+ getCCDBSimpleMovingAverageInfo()\l+ setTF()\l+ setIsDelta()\l+ isDelta()\l+ getIsDelta()\l+ setMaxCyclesNoFullMap()\l+ getMaxCyclesNoFullMap()\l+ getNCyclesNoFullMap()\l+ prepareCCDBobject()\l+ setName()\l+ getName()\l+ checkFlagsAndFill()\l+ checkFlagsAndFill()\l+ checkFlagsAndFill()\l+ checkFlagsAndFill()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

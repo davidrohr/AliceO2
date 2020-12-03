@@ -1,0 +1,6 @@
+<map id="o2::BasicXYZQHit&lt; T, E, V &gt;" name="o2::BasicXYZQHit&lt; T, E, V &gt;">
+<area shape="rect" id="node4" href="$d8/d17/classo2_1_1BasicXYZQHit.html" title="{o2::BasicXYZQHit\&lt; float \&gt;\n||+ GetCharge()\l+ SetCharge()\l+ ClassDefNV()\l}" alt="" coords="5,751,184,857"/>
+<area shape="rect" id="node2" href="$d9/d95/classo2_1_1BasicXYZVHit.html" title="{o2::BasicXYZVHit\&lt; T,\l E, V \&gt;\n||+ BasicXYZVHit()\l+ BasicXYZVHit()\l+ GetX()\l+ GetY()\l+ GetZ()\l+ GetPos()\l+ GetHitValue()\l+ GetTime()\l+ GetDetectorID()\l+ SetTime()\l+ SetHitValue()\l+ SetDetectorID()\l+ SetX()\l+ SetY()\l+ SetZ()\l+ SetXYZ()\l+ SetPos()\l+ ClassDefNV()\l}" alt="" coords="18,176,171,517"/>
+<area shape="rect" id="node3" href="$db/dfe/classo2_1_1BaseHit.html" title="{o2::BaseHit\n||+ BaseHit()\l+ BaseHit()\l+ GetTrackID()\l+ SetTrackID()\l}" alt="" coords="39,5,150,127"/>
+<area shape="rect" id="node5" href="$d1/d5a/classo2_1_1trd_1_1HitType.html" title="{o2::trd::HitType\n||+ HitType()\l+ isFromDriftRegion()\l+ setLocalC()\l+ setLocalR()\l+ setLocalT()\l+ getLocalC()\l+ getLocalR()\l+ getLocalT()\l}" alt="" coords="21,907,169,1087"/>
+</map>

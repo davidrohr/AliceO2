@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Standalone/display/3rdparty/GL" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e4355937d4e504b5ac6a08fd939c1731 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="3rdparty" fontname="Helvetica", fontsize="10", URL="dir_e4355937d4e504b5ac6a08fd939c1731.html"]
+  dir_8eeb44cba3bd5c67dbc1ad9c1f0bdc6f [shape=box, label="GL", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_8eeb44cba3bd5c67dbc1ad9c1f0bdc6f.html"];
+  }
+  dir_7e7bb171bbaf3913b9154d909cb0e0c7 [shape=box label="KHR" URL="dir_7e7bb171bbaf3913b9154d909cb0e0c7.html"];
+  dir_8eeb44cba3bd5c67dbc1ad9c1f0bdc6f->dir_7e7bb171bbaf3913b9154d909cb0e0c7 [headlabel="1", labeldistance=1.5 headhref="dir_000806_000808.html"];
+}

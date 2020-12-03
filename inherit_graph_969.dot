@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::framework::detail\l::ConversionTraits\< T \>",height=0.2,width=0.4,color="black",URL="$d5/d2b/structo2_1_1framework_1_1detail_1_1ConversionTraits.html",tooltip="FIXME: adapt type conversion to arrow 1.0. "];
+}

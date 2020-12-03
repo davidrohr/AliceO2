@@ -1,0 +1,4 @@
+<map id="o2::ft0::FT0DPLDigitizerTask" name="o2::ft0::FT0DPLDigitizerTask">
+<area shape="rect" id="node2" href="$de/de1/classo2_1_1base_1_1BaseDPLDigitizer.html" title="{o2::base::BaseDPLDigitizer\n||+ BaseDPLDigitizer()\l+ ~BaseDPLDigitizer()\l+ BaseDPLDigitizer()\l+ init()\l+ initDigitizerTask()\l}" alt="" coords="5,137,189,273"/>
+<area shape="rect" id="node9" href="$d4/dba/classo2_1_1ft0_1_1Digitizer.html" title="{o2::ft0::Digitizer\n||+ Digitizer()\l+ ~Digitizer()\l+ process()\l+ flush()\l+ flush_all()\l+ initParameters()\l+ printParameters()\l+ setEventID()\l+ setSrcID()\l+ getInteractionRecord()\l+ getInteractionRecord()\l+ setInteractionRecord()\l+ getOrbit()\l+ getBC()\l+ getEvent()\l+ measure_amplitude()\l+ init()\l+ finish()\l+ get_time()\l+ setContinuous()\l+ isContinuous()\l# signalForm()\l# signalFormVc()\l}" alt="" coords="969,5,1132,405"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="EMCAL" name="EMCAL">
+<area shape="rect" id="node1" href="$d6/d60/group__EMCALDataFormat.html" title="Data format for EMCAL. " alt="" coords="129,5,268,32"/>
+<area shape="rect" id="node2" href="$d0/dbe/group__EMCALworkflow.html" title="EMCAL reconstruction workflowEMCAL reconstruction workflow package. See EMCAL reconstruction workflow..." alt="" coords="137,56,261,83"/>
+<area shape="rect" id="node3" href="$dc/d61/group__EMCALcalibration.html" title="EMCAL calibration objectsEMCAL calibration objects for. " alt="" coords="133,107,264,133"/>
+<area shape="rect" id="node4" href="$da/d81/group__EMCALbase.html" title="Main EMCAL componentsMain EMCAL components used in various libraries. " alt="" coords="149,157,249,184"/>
+<area shape="rect" id="node5" href="$d4/d72/group__EMCALsimulation.html" title="EMCAL simulation codeEMCAL simulation package. See EMCAL simulation module for more information..." alt="" coords="133,208,264,235"/>
+<area shape="rect" id="node6" href="$d8/d99/group__EMCALreconstruction.html" title="EMCAL reconstruction codeEMCAL reconstruction package. See EMCAL reconstruction module for more infor..." alt="" coords="121,259,276,285"/>
+</map>

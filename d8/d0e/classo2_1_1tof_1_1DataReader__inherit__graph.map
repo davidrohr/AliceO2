@@ -1,0 +1,4 @@
+<map id="o2::tof::DataReader" name="o2::tof::DataReader">
+<area shape="rect" id="node2" href="$de/df7/classo2_1_1tof_1_1DigitDataReader.html" title="DigitDataReader class for TOF. Feeds the MC digits to the Cluster Finder. " alt="" coords="5,204,169,325"/>
+<area shape="rect" id="node3" href="$d1/d64/classo2_1_1tof_1_1RawDataReader.html" title="RawDataReader class for TOF. Feeds raw data to the Cluster Finder. " alt="" coords="193,226,357,303"/>
+</map>

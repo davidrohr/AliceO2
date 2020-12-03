@@ -1,0 +1,8 @@
+digraph "RecoDecay"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{RecoDecay\n||+ RecoDecay()\l+ ~RecoDecay()\l+ sum()\l+ sq()\l+ sumOfSquares()\l+ sqrtSumOfSquares()\l+ getElement()\l+ sumOfVec()\l+ dotProd()\l+ crossProd()\l+ mag2()\l+ distance()\l+ distanceXY()\l+ Eta()\l+ Y()\l+ Phi()\l+ Phi()\l+ CPA()\l+ CPAXY()\l+ Ct()\l+ CosThetaStar()\l+ PVec()\l+ P2()\l+ P2()\l+ P()\l+ Pt2()\l+ Pt2()\l+ Pt()\l+ E2()\l+ E2()\l+ E()\l+ M2()\l+ M2()\l+ M2()\l+ M()\l+ ImpParXY()\l+ normImpParMeasMinusExpProng()\l+ maxNormalisedDeltaIP()\l+ getMassPDG()\l+ getMother()\l+ getDaughters()\l+ getMatchedMCRec()\l+ isMatchedMCGen()\l+ isMatchedMCGen()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,5 @@
+<map id="o2::pid::Parametrization" name="o2::pid::Parametrization">
+<area shape="rect" id="node3" href="$df/d86/classo2_1_1pid_1_1tof_1_1TOFReso.html" title="{o2::pid::tof::TOFReso\n||+ TOFReso()\l+ ~TOFReso()\l+ operator()()\l+ ClassDef()\l}" alt="" coords="5,388,155,509"/>
+<area shape="rect" id="node4" href="$d1/d03/classo2_1_1pid_1_1tpc_1_1BetheBloch.html" title="{o2::pid::tpc::BetheBloch\n||+ BetheBloch()\l+ ~BetheBloch()\l+ operator()()\l+ ClassDef()\l}" alt="" coords="179,388,341,509"/>
+<area shape="rect" id="node5" href="$d9/d25/classo2_1_1pid_1_1tpc_1_1TPCReso.html" title="{o2::pid::tpc::TPCReso\n||+ TPCReso()\l+ ~TPCReso()\l+ operator()()\l+ ClassDef()\l}" alt="" coords="366,388,519,509"/>
+</map>

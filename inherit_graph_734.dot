@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::detectors::DetIDToHit\lTypes\< o2::detectors::DetID::FV0 \>",height=0.2,width=0.4,color="black",URL="$d8/d50/structo2_1_1detectors_1_1DetIDToHitTypes_3_01o2_1_1detectors_1_1DetID_1_1FV0_01_4.html"];
+}

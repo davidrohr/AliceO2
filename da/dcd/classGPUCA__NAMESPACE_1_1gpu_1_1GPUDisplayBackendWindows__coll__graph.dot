@@ -1,0 +1,20 @@
+digraph "GPUCA_NAMESPACE::gpu::GPUDisplayBackendWindows"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{GPUCA_NAMESPACE::gpu\l::GPUDisplayBackendWindows\n||+ GPUDisplayBackendWindows()\l+ ~GPUDisplayBackendWindows()\l+ StartDisplay()\l+ DisplayExit()\l+ SwitchFullscreen()\l+ ToggleMaximized()\l+ SetVSync()\l+ OpenGLPrint()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{GPUCA_NAMESPACE::gpu\l::GPUDisplayBackend\n|+ GL_MIN_VERSION_MAJOR\l+ GL_MIN_VERSION_MINOR\l# INIT_WIDTH\l# GL_WINDOW_NAME\l# KEY_LEFT\l# KEY_RIGHT\l# KEY_PAGEUP\l# KEY_PAGEDOWN\l# KEY_SHIFT\l# KEY_ALT\l# KEY_CTRL\l# KEY_F1\l# KEY_F2\l# KEY_F3\l# KEY_F10\l# KEY_F11\l# KEY_F12\l# KEY_HOME\l# KEY_END\l# KEY_INSERT\l# KEY_ESCAPE\l# KEY_ENTER\l|+ GPUDisplayBackend()\l+ ~GPUDisplayBackend()\l+ StartDisplay()\l+ DisplayExit()\l+ SwitchFullscreen()\l+ ToggleMaximized()\l+ SetVSync()\l+ EnableSendKey()\l+ OpenGLPrint()\l# OpenGLMain()\l# HandleKeyRelease()\l# DrawGLScene()\l# HandleSendKey()\l# ReSizeGLScene()\l# InitGL()\l# ExitGL()\l# OpenGLWrapper()\l}",height=0.2,width=0.4,color="black",URL="$d6/d42/classGPUCA__NAMESPACE_1_1gpu_1_1GPUDisplayBackend.html"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mMouseDnX\n#mMouseDnY\n#mouseMvX\n#mouseMvY" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{float\n||}",height=0.2,width=0.4,color="black",URL="$d4/dc3/classfloat.html"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mDisplay" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{GPUCA_NAMESPACE::gpu\l::GPUDisplay\n||+ GPUDisplay()\l+ ~GPUDisplay()\l+ GPUDisplay()\l+ StartDisplay()\l+ ShowNextEvent()\l+ WaitForNextEvent()\l+ SetCollisionFirstCluster()\l+ HandleKeyRelease()\l+ DrawGLScene()\l+ HandleSendKey()\l+ InitGL()\l+ ExitGL()\l+ ReSizeGLScene()\l}",height=0.2,width=0.4,color="black",URL="$d9/dda/classGPUCA__NAMESPACE_1_1gpu_1_1GPUDisplay.html"];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mMouseWheel\n#mDisplayHeight\n+mSendKey\n#mMaxFPSRate\n+mNeedUpdate\n+mDisplayControl\n#mDisplayWidth" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mMouseDnR\n#mMouseDn\n#mKeys\n#mKeysShift" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #KEY_F4\n#KEY_DOWN\n#KEY_UP\n#KEY_F5\n#INIT_HEIGHT\n#KEY_F6\n#KEY_F7\n#KEY_SPACE\n#KEY_F8\n#KEY_F9\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+}

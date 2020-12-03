@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="RawReaderCRUSync",height=0.2,width=0.4,color="black",URL="$d0/da4/classRawReaderCRUSync.html",tooltip="Synchronize the events over multiple CRUs An event structure to keep track of packets inside the read..."];
+}

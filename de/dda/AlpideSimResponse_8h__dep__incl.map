@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideSimResponse.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideSimResponse.h">
+<area shape="rect" id="node2" href="$d7/d9c/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/common/simulation/include\l/ITSMFTSimulation/Digitizer.h" alt="" coords="296,124,495,195"/>
+<area shape="rect" id="node7" href="$dd/d75/AlpideSimResponse_8cxx.html" title="Implementation of the ITSMFT Alpide simulated response parametrization. " alt="" coords="518,124,742,195"/>
+<area shape="rect" id="node8" href="$d0/d16/testAlpideSimResponse_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/common/simulation/test/testAlpide\lSimResponse.cxx" alt="" coords="766,124,993,195"/>
+<area shape="rect" id="node3" href="$dc/dbf/ITSMFT_2common_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/common/simulation/src/Digitizer.cxx" alt="" coords="5,250,244,306"/>
+<area shape="rect" id="node4" href="$dd/d11/ITSMFT_2MFT_2simulation_2include_2MFTSimulation_2DigitizerTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/include/MFTSimulation\l/DigitizerTask.h" alt="" coords="269,243,522,313"/>
+<area shape="rect" id="node6" href="$d3/d43/ITSMFTDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ITSMFTDigitizerSpec.cxx" alt="" coords="547,250,761,306"/>
+<area shape="rect" id="node5" href="$d6/d87/ITSMFT_2MFT_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/DigitizerTask.cxx" alt="" coords="273,361,517,417"/>
+</map>

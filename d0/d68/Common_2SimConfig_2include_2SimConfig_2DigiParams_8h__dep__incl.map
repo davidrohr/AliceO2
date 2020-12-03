@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Common/SimConfig/include/SimConfig/DigiParams.h" name="/home/runner/work/AliceO2/AliceO2/Common/SimConfig/include/SimConfig/DigiParams.h">
+<area shape="rect" id="node2" href="$d5/dd7/Common_2SimConfig_2src_2DigiParams_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Common/SimConfig\l/src/DigiParams.cxx" alt="" coords="5,109,200,165"/>
+<area shape="rect" id="node3" href="$df/d11/BaseDPLDigitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/BaseDPLDigitizer.cxx" alt="" coords="225,109,405,165"/>
+<area shape="rect" id="node4" href="$da/dfe/CPVDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.cxx" alt="" coords="429,109,643,165"/>
+<area shape="rect" id="node5" href="$d8/d00/HMPIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/HMPIDDigitizerSpec.cxx" alt="" coords="667,109,882,165"/>
+<area shape="rect" id="node6" href="$d6/d61/TOFDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TOFDigitizerSpec.cxx" alt="" coords="906,109,1121,165"/>
+<area shape="rect" id="node7" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="1145,109,1359,165"/>
+<area shape="rect" id="node8" href="$d1/d1a/ZDCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ZDCDigitizerSpec.cxx" alt="" coords="1383,109,1598,165"/>
+</map>

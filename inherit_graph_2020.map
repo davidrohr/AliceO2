@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d8/de2/classo2_1_1tof_1_1DataReader.html" title="DataReader class for TOF. " alt="" coords="5,31,143,57"/>
+<area shape="rect" id="node2" href="$de/df7/classo2_1_1tof_1_1DigitDataReader.html" title="DigitDataReader class for TOF. Feeds the MC digits to the Cluster Finder. " alt="" coords="191,5,355,32"/>
+<area shape="rect" id="node3" href="$d1/d64/classo2_1_1tof_1_1RawDataReader.html" title="RawDataReader class for TOF. Feeds raw data to the Cluster Finder. " alt="" coords="191,56,355,83"/>
+</map>

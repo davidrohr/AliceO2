@@ -1,0 +1,18 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/GeometryParameters.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Base/include/MIDBase\l/GeometryParameters.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Base/src/GeometryParameters.cxx",height=0.2,width=0.4,color="black",URL="$dd/df8/GeometryParameters_8cxx.html",tooltip="Implementation of the geometrical parameters for MID. "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Base/src/GeometryTransformer.cxx",height=0.2,width=0.4,color="black",URL="$dc/d25/GeometryTransformer_8cxx.html",tooltip="Geometry transformer for MID. "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Base/src/Mapping.cxx",height=0.2,width=0.4,color="black",URL="$d6/d73/MUON_2MID_2Base_2src_2Mapping_8cxx.html",tooltip="Implementation of mapping for MID. "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/src/Geometry.cxx",height=0.2,width=0.4,color="black",URL="$d7/de7/MUON_2MID_2Simulation_2src_2Geometry_8cxx.html",tooltip="Implementation of the trigger-stations geometry. "];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/TestingSimTools/src\l/HitFinder.cxx",height=0.2,width=0.4,color="black",URL="$d4/dc0/HitFinder_8cxx.html",tooltip="Implementation of the hit finder for MID. "];
+}

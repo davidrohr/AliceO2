@@ -1,0 +1,23 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/DataFlow/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_47364d143a6f2085f762c4e9d70a45c1 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DataFlow" fontname="Helvetica", fontsize="10", URL="dir_47364d143a6f2085f762c4e9d70a45c1.html"]
+  dir_61dd9bab78f04367c9fcaf9d1a0ef4be [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_61dd9bab78f04367c9fcaf9d1a0ef4be.html"];
+  }
+  dir_104c97f92a33e380b6a2d699e26fec12 [shape=box label="include" color="red" URL="dir_104c97f92a33e380b6a2d699e26fec12.html"];
+  dir_f35ccb320b67f1c85d228c773db13bda [shape=box label="O2Device" color="red" URL="dir_f35ccb320b67f1c85d228c773db13bda.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_104c97f92a33e380b6a2d699e26fec12->dir_f35ccb320b67f1c85d228c773db13bda [headlabel="6", labeldistance=1.5 headhref="dir_000834_000846.html"];
+  dir_104c97f92a33e380b6a2d699e26fec12->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="6", labeldistance=1.5 headhref="dir_000834_000089.html"];
+  dir_f35ccb320b67f1c85d228c773db13bda->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="4", labeldistance=1.5 headhref="dir_000846_000089.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="73", labeldistance=1.5 headhref="dir_000062_000089.html"];
+  dir_61dd9bab78f04367c9fcaf9d1a0ef4be->dir_104c97f92a33e380b6a2d699e26fec12 [headlabel="24", labeldistance=1.5 headhref="dir_000836_000834.html"];
+  dir_61dd9bab78f04367c9fcaf9d1a0ef4be->dir_f35ccb320b67f1c85d228c773db13bda [headlabel="4", labeldistance=1.5 headhref="dir_000836_000846.html"];
+  dir_61dd9bab78f04367c9fcaf9d1a0ef4be->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="1", labeldistance=1.5 headhref="dir_000836_000062.html"];
+  dir_61dd9bab78f04367c9fcaf9d1a0ef4be->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="24", labeldistance=1.5 headhref="dir_000836_000089.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="22", labeldistance=1.5 headhref="dir_000089_000062.html"];
+}

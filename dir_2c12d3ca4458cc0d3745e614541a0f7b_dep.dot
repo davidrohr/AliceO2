@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/EventVisualisation/Base/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_aefce7a2bfca35990ebbcc105bbcfa2a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Base" fontname="Helvetica", fontsize="10", URL="dir_aefce7a2bfca35990ebbcc105bbcfa2a.html"]
+  dir_2c12d3ca4458cc0d3745e614541a0f7b [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2c12d3ca4458cc0d3745e614541a0f7b.html"];
+  }
+  dir_d8714856331fdb65ff228bdafbd06118 [shape=box label="include" color="red" URL="dir_d8714856331fdb65ff228bdafbd06118.html"];
+  dir_2c12d3ca4458cc0d3745e614541a0f7b->dir_d8714856331fdb65ff228bdafbd06118 [headlabel="5", labeldistance=1.5 headhref="dir_000367_000349.html"];
+}

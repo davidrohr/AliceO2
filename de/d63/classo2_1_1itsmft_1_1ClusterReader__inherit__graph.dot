@@ -1,0 +1,14 @@
+digraph "o2::itsmft::ClusterReader"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::itsmft::ClusterReader\n|# mClusROFRec\l# mClusROFRecPtr\l# mClusterCompArray\l# mClusterCompArrayPtr\l# mPatternsArray\l# mPatternsArrayPtr\l# mClusterMCTruth\l# mClusterMCTruthPtr\l# mClusMC2ROFs\l# mClusMC2ROFsPtr\l# mOrigin\l# mFile\l# mTree\l# mUseMC\l# mUsePatterns\l# mDetName\l# mDetNameLC\l# mFileName\l# mClusTreeName\l# mClusROFBranchName\l# mClusterPattBranchName\l# mClusterCompBranchName\l# mClustMCTruthBranchName\l# mClustMC2ROFBranchName\l|+ ClusterReader()\l+ ClusterReader()\l+ ~ClusterReader()\l+ init()\l+ run()\l# connectTree()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::framework::Task\n||+ ~Task()\l+ init()\l+ run()\l+ endOfStream()\l}",height=0.2,width=0.4,color="black",URL="$de/dac/classo2_1_1framework_1_1Task.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{o2::itsmft::ITSClusterReader\n||+ ITSClusterReader()\l}",height=0.2,width=0.4,color="black",URL="$d9/d77/classo2_1_1itsmft_1_1ITSClusterReader.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{o2::itsmft::MFTClusterReader\n||+ MFTClusterReader()\l}",height=0.2,width=0.4,color="black",URL="$d5/dce/classo2_1_1itsmft_1_1MFTClusterReader.html"];
+}

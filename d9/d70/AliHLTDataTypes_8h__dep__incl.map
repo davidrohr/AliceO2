@@ -1,0 +1,20 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Utilities/aliceHLTwrapper/include/aliceHLTwrapper/AliHLTDataTypes.h" name="/home/runner/work/AliceO2/AliceO2/Utilities/aliceHLTwrapper/include/aliceHLTwrapper/AliHLTDataTypes.h">
+<area shape="rect" id="node2" href="$dd/df9/GPUTPCDefinitions_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/SliceTracker/GPUTPCDefinitions.h" alt="" coords="319,117,551,173"/>
+<area shape="rect" id="node5" href="$db/dd1/GPUTRDTrackerComponent_8cxx.html" title="A TRD tracker processing component for the GPU. " alt="" coords="714,228,1015,284"/>
+<area shape="rect" id="node6" href="$d3/dae/GPUTRDTrackerComponent_8h.html" title="A TRD tracker processing component for the GPU. " alt="" coords="576,117,863,173"/>
+<area shape="rect" id="node7" href="$d1/d64/GPUTRDTrackletReaderComponent_8cxx.html" title="A pre&#45;processing component for TRD tracking/trigger data on FEP&#45;level. " alt="" coords="939,109,1193,180"/>
+<area shape="rect" id="node8" href="$d0/da1/Component_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/include/aliceHLTwrapper/Component.h" alt="" coords="1469,332,1719,388"/>
+<area shape="rect" id="node9" href="$d8/dd8/Component_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/Component.cxx" alt="" coords="1145,436,1368,492"/>
+<area shape="rect" id="node12" href="$d2/dda/MessageFormat_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/include/aliceHLTwrapper/MessageFormat.h" alt="" coords="1675,228,1953,284"/>
+<area shape="rect" id="node15" href="$d2/de6/HOMERFactory_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/include/aliceHLTwrapper/HOMERFactory.h" alt="" coords="1725,117,2004,173"/>
+<area shape="rect" id="node17" href="$d8/d1d/SystemInterface_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/include/aliceHLTwrapper/SystemInterface.h" alt="" coords="1269,117,1549,173"/>
+<area shape="rect" id="node18" href="$d8/dc6/SystemInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/SystemInterface.cxx" alt="" coords="1377,228,1600,284"/>
+<area shape="rect" id="node19" href="$d1/dda/EventSampler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/EventSampler.cxx" alt="" coords="2028,117,2251,173"/>
+<area shape="rect" id="node3" href="$df/d06/GPUTPCGlobalMergerComponent_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Merger/GPUTPCGlobalMergerComponent.cxx" alt="" coords="324,228,619,284"/>
+<area shape="rect" id="node4" href="$da/d1f/GPUTPCTrackerComponent_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/SliceTracker/GPUTPCTrackerComponent.cxx" alt="" coords="5,228,300,284"/>
+<area shape="rect" id="node10" href="$de/d0e/runComponent_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/runComponent.cxx" alt="" coords="1392,436,1615,492"/>
+<area shape="rect" id="node11" href="$dd/d50/WrapperDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/WrapperDevice.cxx" alt="" coords="1639,436,1861,492"/>
+<area shape="rect" id="node13" href="$d6/d62/MessageFormat_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/MessageFormat.cxx" alt="" coords="2079,332,2301,388"/>
+<area shape="rect" id="node14" href="$d5/db0/testMessageFormat_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/test/testMessageFormat.cxx" alt="" coords="1744,332,1967,388"/>
+<area shape="rect" id="node16" href="$df/da5/HOMERFactory_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/HOMERFactory.cxx" alt="" coords="1977,228,2200,284"/>
+</map>

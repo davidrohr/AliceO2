@@ -1,0 +1,4 @@
+<map id="o2::mid::SimBase" name="o2::mid::SimBase">
+<area shape="rect" id="node2" href="$d2/df3/classo2_1_1mid_1_1GeometryTransformer.html" title="{o2::mid::GeometryTransformer\n||+ setMatrix()\l+ getMatrix()\l+ localToGlobal()\l+ globalToLocal()\l+ localToGlobal()\l+ globalToLocal()\l+ localToGlobal()\l+ globalToLocal()\l}" alt="" coords="5,49,205,229"/>
+<area shape="rect" id="node3" href="$d1/d66/classo2_1_1mid_1_1Mapping.html" title="{o2::mid::Mapping\n||+ Mapping()\l+ ~Mapping()\l+ stripByLocation()\l+ stripByLocationInBoard()\l+ stripByPosition()\l+ getStripSize()\l+ getNStripsNBP()\l+ getFirstColumn()\l+ getFirstBoardBP()\l+ getLastBoardBP()\l+ getBoardId()\l+ getNeighbours()\l+ isValid()\l+ nextStrip()\l}" alt="" coords="230,5,407,273"/>
+</map>

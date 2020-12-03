@@ -1,0 +1,4 @@
+<map id="o2::steer::O2MCApplicationBase" name="o2::steer::O2MCApplicationBase">
+<area shape="rect" id="node3" href="$d6/d8a/classo2_1_1steer_1_1O2MCApplication.html" title="{o2::steer::O2MCApplication\n|+ mPrimaries\l+ mSimDataChannel\l+ mSubEventInfo\l+ mActiveO2Detectors\l|+ ~O2MCApplication()\l+ SendData()\l+ initLate()\l+ FinishEvent()\l+ FinishRun()\l+ attachSubEventInfo()\l+ GeneratePrimaries()\l+ setPrimaries()\l+ setSimDataChannel()\l+ setSubEventInfo()\l+ ClassDefOverride()\l}" alt="" coords="21,505,203,773"/>
+<area shape="rect" id="node2" href="$d8/def/classFairMCApplication.html" title="{FairMCApplication\n||}" alt="" coords="47,5,177,83"/>
+</map>

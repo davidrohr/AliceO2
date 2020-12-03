@@ -1,0 +1,5 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DigitWriterSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/workflow/include/ITSMFTWorkflow/DigitWriterSpec.h">
+<area shape="rect" id="node2" href="$d4/db2/digit-writer-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/common/workflow/src/digit\l&#45;writer&#45;workflow.cxx" alt="" coords="5,124,191,195"/>
+<area shape="rect" id="node3" href="$d9/df0/DigitWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/common/workflow/src/DigitWriter\lSpec.cxx" alt="" coords="215,124,435,195"/>
+<area shape="rect" id="node4" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="459,131,675,187"/>
+</map>

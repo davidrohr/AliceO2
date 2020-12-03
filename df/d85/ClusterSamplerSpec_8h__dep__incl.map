@@ -1,0 +1,4 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/ClusterSamplerSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/ClusterSamplerSpec.h">
+<area shape="rect" id="node2" href="$df/d9c/clusters-sampler-workflow_8cxx.html" title="Implementation of a DPL device to send clusters read from a binary file. " alt="" coords="5,124,193,195"/>
+<area shape="rect" id="node3" href="$db/d71/ClusterSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send clusters. " alt="" coords="218,124,450,195"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/DigitContainer.h">
+<area shape="rect" id="node2" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="98,124,321,195"/>
+<area shape="rect" id="node5" href="$df/d53/DigitContainer_8cxx.html" title="Implementation of the Digit Container. " alt="" coords="345,131,564,187"/>
+<area shape="rect" id="node6" href="$dd/d5e/testTPCDigitContainer_8cxx.html" title="This task tests the DigitContainer of the TPC digitization. " alt="" coords="588,131,860,187"/>
+<area shape="rect" id="node3" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="5,243,189,299"/>
+<area shape="rect" id="node4" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="214,243,429,299"/>
+</map>

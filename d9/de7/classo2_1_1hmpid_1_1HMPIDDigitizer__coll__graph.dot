@@ -1,0 +1,8 @@
+digraph "o2::hmpid::HMPIDDigitizer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::hmpid::HMPIDDigitizer\n||+ setEventTime()\l+ setTriggerTime()\l+ setEventID()\l+ setSrcID()\l+ setLabelContainer()\l+ process()\l+ flush()\l+ reset()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

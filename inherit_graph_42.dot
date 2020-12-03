@@ -1,0 +1,23 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3238 [label="AliHLTProcessor",height=0.2,width=0.4,color="black",URL="$d9/d9e/classAliHLTProcessor.html"];
+  Node3238 -> Node3239 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3239 [label="AliHLTGPUDumpComponent",height=0.2,width=0.4,color="black",URL="$d9/d09/classAliHLTGPUDumpComponent.html"];
+  Node3238 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="AliHLTTPCClusterStatComponent",height=0.2,width=0.4,color="black",URL="$db/dc1/classAliHLTTPCClusterStatComponent.html"];
+  Node3238 -> Node3240 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3240 [label="GPUTPCGlobalMergerComponent",height=0.2,width=0.4,color="black",URL="$d1/d77/classGPUTPCGlobalMergerComponent.html"];
+  Node3238 -> Node3241 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3241 [label="GPUTPCTrackerComponent",height=0.2,width=0.4,color="black",URL="$d6/d5b/classGPUTPCTrackerComponent.html"];
+  Node3238 -> Node3242 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3242 [label="GPUTRDTrackerComponent",height=0.2,width=0.4,color="black",URL="$df/d66/classGPUTRDTrackerComponent.html"];
+  Node3238 -> Node3243 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3243 [label="GPUTRDTrackletReaderComponent",height=0.2,width=0.4,color="black",URL="$d2/d96/classGPUTRDTrackletReaderComponent.html"];
+  Node0 [label="AliOptionParser",height=0.2,width=0.4,color="black",URL="$da/d86/classAliOptionParser.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

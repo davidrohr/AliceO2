@@ -1,0 +1,4 @@
+<map id="o2::framework::PollerContext" name="o2::framework::PollerContext">
+<area shape="rect" id="node2" href="$d4/d56/classo2_1_1framework_1_1DataProcessingDevice.html" title="{o2::framework::DataProcessing\lDevice\n||+ DataProcessingDevice()\l+ Init()\l+ InitTask()\l+ PreRun()\l+ PostRun()\l+ Reset()\l+ ResetTask()\l+ ConditionalRun()\l+ SetErrorPolicy()\l+ doRun()\l+ doPrepare()\l+ handleData()\l+ tryDispatchComputation()\l# error()\l# fillContext()\l}" alt="" coords="38,160,245,457"/>
+<area shape="rect" id="node3" href="$db/dfe/classFairMQDevice.html" title="{FairMQDevice\n||}" alt="" coords="5,13,112,90"/>
+</map>

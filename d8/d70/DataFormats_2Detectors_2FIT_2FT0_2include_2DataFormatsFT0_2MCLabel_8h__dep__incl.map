@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/MCLabel.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FT0/include/DataFormatsFT0/MCLabel.h">
+<area shape="rect" id="node2" href="$da/d10/FIT_2FT0_2simulation_2include_2FT0Simulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/include\l/FT0Simulation/Digitizer.h" alt="" coords="186,124,366,195"/>
+<area shape="rect" id="node4" href="$d4/dfd/FT0DigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitizerSpec.cxx" alt="" coords="241,243,455,299"/>
+<area shape="rect" id="node5" href="$dd/d0b/FIT_2FT0_2simulation_2include_2FT0Simulation_2DigitizerTask_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/include\l/FT0Simulation/DigitizerTask.h" alt="" coords="441,124,644,195"/>
+<area shape="rect" id="node7" href="$d8/d84/FIT_2FT0_2workflow_2src_2DigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/src/DigitReaderSpec.cxx" alt="" coords="669,131,923,187"/>
+<area shape="rect" id="node8" href="$d1/d6b/ReconstructionSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/src/Reconstruction\lSpec.cxx" alt="" coords="948,124,1167,195"/>
+<area shape="rect" id="node9" href="$d2/d92/Steer_2DigitizerWorkflow_2src_2FT0DigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FT0DigitWriterSpec.h" alt="" coords="1191,131,1406,187"/>
+<area shape="rect" id="node3" href="$de/dd9/FIT_2FT0_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/src/Digitizer.cxx" alt="" coords="5,243,216,299"/>
+<area shape="rect" id="node6" href="$d8/d59/FIT_2FT0_2simulation_2src_2DigitizerTask_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/simulation/src/DigitizerTask.cxx" alt="" coords="480,243,720,299"/>
+<area shape="rect" id="node10" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1191,243,1407,299"/>
+</map>

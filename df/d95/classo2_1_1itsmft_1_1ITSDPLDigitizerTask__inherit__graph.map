@@ -1,0 +1,4 @@
+<map id="o2::itsmft::ITSDPLDigitizerTask" name="o2::itsmft::ITSDPLDigitizerTask">
+<area shape="rect" id="node2" href="$dd/d3a/classo2_1_1itsmft_1_1ITSMFTDPLDigitizerTask.html" title="{o2::itsmft::ITSMFTDPLDigitizerTask\n|# mWithMCTruth\l# mFinished\l# mDisableQED\l# mID\l# mOrigin\l# mDigitizer\l# mDigits\l# mROFRecords\l# mROFRecordsAccum\l# mHits\l# mHitsP\l# mLabels\l# mLabelsAccum\l# mMC2ROFRecordsAccum\l# mSimChains\l# mFixMC2ROF\l# mROMode\l|+ initDigitizerTask()\l+ setDigitizationOptions()\l+ run()\l# ITSMFTDPLDigitizerTask()\l}" alt="" coords="5,189,241,545"/>
+<area shape="rect" id="node3" href="$de/de1/classo2_1_1base_1_1BaseDPLDigitizer.html" title="{o2::base::BaseDPLDigitizer\n||+ BaseDPLDigitizer()\l+ ~BaseDPLDigitizer()\l+ BaseDPLDigitizer()\l+ init()\l+ initDigitizerTask()\l}" alt="" coords="31,5,215,141"/>
+</map>

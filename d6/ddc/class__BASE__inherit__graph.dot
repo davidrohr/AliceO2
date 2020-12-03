@@ -1,0 +1,20 @@
+digraph "_BASE"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{_BASE\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::data_compression\l::HuffmanModel\< _BASE,\l Rep, orderMSB \>\n|+ OrderMSB\l|+ HuffmanModel()\l+ ~HuffmanModel()\l+ init()\l+ Encode()\l+ Decode()\l+ GenerateHuffmanTree()\l+ assignCode()\l+ write()\l+ write()\l+ read()\l+ read()\l+ print()\l}",height=0.2,width=0.4,color="black",URL="$dc/db1/classo2_1_1data__compression_1_1HuffmanModel.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{o2::framework::MessageContext\l::VectorObject\< T, _BASE \>\n||+ VectorObject()\l}",height=0.2,width=0.4,color="black",URL="$db/d4d/classo2_1_1framework_1_1MessageContext_1_1VectorObject.html"];
+  Node0 -> Node3 [dir="back",color="darkgreen",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{o2::test::Fifo\< T,\l _BASE \>\n||+ Fifo()\l+ push()\l+ empty()\l+ pull()\l}",height=0.2,width=0.4,color="black",URL="$d7/da1/classo2_1_1test_1_1Fifo.html",tooltip="A thread safe FIFO. "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{o2::test::geometric\l_distribution\< IntType,\l _BASE \>\n|+ parameter\l|+ geometric_distribution()\l+ getProbability()\l}",height=0.2,width=0.4,color="black",URL="$d6/da1/classo2_1_1test_1_1geometric__distribution.html",tooltip="specialization of std::geometric_distribution which implements also the analytic formula. "];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{o2::test::normal_distribution\l\< RealType, _BASE \>\n|+ sqrt2pi\l+ mean\l+ stddev\l|+ normal_distribution()\l+ getProbability()\l}",height=0.2,width=0.4,color="black",URL="$db/d37/classo2_1_1test_1_1normal__distribution.html",tooltip="specialization of std::normal_distribution which implements also the analytic formula. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{o2::test::poisson_distribution\l\< IntType, _BASE \>\n|+ mean\l|+ poisson_distribution()\l+ ~poisson_distribution()\l+ factorial()\l+ getProbability()\l}",height=0.2,width=0.4,color="black",URL="$d2/dde/classo2_1_1test_1_1poisson__distribution.html",tooltip="specialization of std::poisson_distribution which implements also the analytic formula. "];
+}

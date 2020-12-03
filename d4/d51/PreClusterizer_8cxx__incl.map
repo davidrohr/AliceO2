@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Clustering/src/PreClusterizer.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Clustering/src/PreClusterizer.cxx">
+<area shape="rect" id="node2" href="$d7/d1a/PreClusterizer_8h.html" title="Pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="400,109,604,136"/>
+<area shape="rect" id="node22" href="$dc/de4/DetectorParameters_8h.html" title="Useful detector parameters for MID. " alt="" coords="5,109,215,136"/>
+<area shape="rect" id="node6" href="$d3/d07/MUON_2MID_2Base_2include_2MIDBase_2Mapping_8h.html" title="Mapping for MID. " alt="" coords="162,184,303,211"/>
+<area shape="rect" id="node9" href="$d3/d53/ColumnData_8h.html" title="Strip pattern (aka digits) " alt="" coords="422,266,633,293"/>
+<area shape="rect" id="node12" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="857,184,1065,211"/>
+<area shape="rect" id="node19" href="$d0/d8d/MID_2Clustering_2include_2MIDClustering_2PreCluster_8h.html" title="Pre&#45;cluster structure for MID. " alt="" coords="649,184,832,211"/>
+<area shape="rect" id="node8" href="$d7/d0a/MpArea_8h.html" title="Mapping area for MID. " alt="" coords="167,266,304,293"/>
+<area shape="rect" id="node13" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="843,259,1052,300"/>
+<area shape="rect" id="node14" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1258,348,1415,375"/>
+<area shape="rect" id="node18" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="997,348,1234,375"/>
+</map>

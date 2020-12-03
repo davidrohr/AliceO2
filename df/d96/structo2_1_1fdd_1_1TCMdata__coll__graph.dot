@@ -1,0 +1,16 @@
+digraph "o2::fdd::TCMdata"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::fdd::TCMdata\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +@17" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{anonymous:+@17\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +orA\n+nChanA\n+sCen\n+orC\n+word\n+nChanC\n+vertex\n+cen" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{uint64_t\n||}",height=0.2,width=0.4,color="black",URL="$d6/d30/classuint64__t.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +timeA\n+timeC\n+reservedField1\n+reservedField2\n+amplA\n+amplC" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{int64_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +PayloadSize" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+}

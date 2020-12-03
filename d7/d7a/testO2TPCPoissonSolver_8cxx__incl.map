@@ -1,0 +1,19 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/test/testO2TPCPoissonSolver.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/test/testO2TPCPoissonSolver.cxx">
+<area shape="rect" id="node3" href="$dc/d2a/PoissonSolver_8h.html" title="This class provides implementation of Poisson equation solver by MultiGrid Method Original version of..." alt="" coords="401,213,627,240"/>
+<area shape="rect" id="node17" href="$d5/d0c/SpaceChargeHelpers_8h.html" title="This file provides all necesseray classes which are used during the calcution of the distortions and ..." alt="" coords="1307,124,1518,165"/>
+<area shape="rect" id="node4" href="$d3/dcd/DataContainer3D_8h.html" title="This class provides a simple method to store values on a large 3&#45;Dim grid with ROOT io functionality..." alt="" coords="519,295,763,322"/>
+<area shape="rect" id="node11" href="$df/d58/PoissonSolverHelpers_8h.html" title="TPCSpaceCharge/PoissonSolver\lHelpers.h" alt="" coords="278,288,494,329"/>
+<area shape="rect" id="node12" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="104,385,343,411"/>
+<area shape="rect" id="node13" href="$d3/dad/RegularGrid3D_8h.html" title="Definition of RegularGrid3D class. " alt="" coords="787,295,1017,322"/>
+<area shape="rect" id="node16" href="$d5/dd9/Vector3D_8h.html" title="this is a simple 3D&#45;matrix class with the possibility to resize the dimensions " alt="" coords="5,295,204,322"/>
+<area shape="rect" id="node8" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="367,385,509,411"/>
+<area shape="rect" id="node14" href="$d3/d54/TPC_2spacecharge_2include_2TPCSpaceCharge_2Vector_8h.html" title="TPCSpaceCharge/Vector.h" alt="" coords="906,385,1087,411"/>
+<area shape="rect" id="node20" href="$dc/d04/TriCubic_8h.html" title="Definition of TriCubic class. " alt="" coords="837,213,1029,240"/>
+<area shape="rect" id="node21" href="$d1/d73/Defs_8h.html" title="DataFormatsTPC/Defs.h" alt="" coords="1767,213,1935,240"/>
+<area shape="rect" id="node22" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="3215,385,3397,411"/>
+<area shape="rect" id="node26" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1937,295,2086,322"/>
+<area shape="rect" id="node23" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2522,467,2658,493"/>
+<area shape="rect" id="node24" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2399,541,2583,568"/>
+<area shape="rect" id="node25" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2608,541,2767,568"/>
+<area shape="rect" id="node27" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1111,385,1269,411"/>
+</map>

@@ -1,0 +1,8 @@
+digraph "o2::ft0::Digitizer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::ft0::Digitizer\n||+ Digitizer()\l+ ~Digitizer()\l+ process()\l+ flush()\l+ flush_all()\l+ initParameters()\l+ printParameters()\l+ setEventID()\l+ setSrcID()\l+ getInteractionRecord()\l+ getInteractionRecord()\l+ setInteractionRecord()\l+ getOrbit()\l+ getBC()\l+ getEvent()\l+ measure_amplitude()\l+ init()\l+ finish()\l+ get_time()\l+ setContinuous()\l+ isContinuous()\l# signalForm()\l# signalFormVc()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

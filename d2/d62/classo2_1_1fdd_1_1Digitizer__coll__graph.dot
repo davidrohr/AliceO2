@@ -1,0 +1,8 @@
+digraph "o2::fdd::Digitizer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::fdd::Digitizer\n||+ process()\l+ flush()\l+ setEventTime()\l+ setEventID()\l+ setSrcID()\l+ setInteractionRecord()\l+ setTriggers()\l+ simulateLightYield()\l+ simulateTimeCFD()\l+ integrateCharge()\l+ init()\l+ finish()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

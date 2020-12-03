@@ -1,0 +1,8 @@
+digraph "o2::calibration::TimeSlotCalibration&lt; Input, Container &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node9 [label="{o2::calibration::TimeSlot\lCalibration\< Input, Container \>\n||+ TimeSlotCalibration()\l+ ~TimeSlotCalibration()\l+ getMaxSlotsDelay()\l+ setMaxSlotsDelay()\l+ getSlotLength()\l+ setSlotLength()\l+ getFirstTF()\l+ setFirstTF()\l+ setUpdateAtTheEndOfRunOnly()\l+ getNSlots()\l+ getSlotForTF()\l+ getSlot()\l+ getSlot()\l+ getLastSlot()\l+ getFirstSlot()\l+ process()\l+ checkSlotsToFinalize()\l+ finalizeOldestSlot()\l+ initOutput()\l+ finalizeSlot()\l+ emplaceNewSlot()\l+ hasEnoughData()\l+ print()\l# getSlots()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

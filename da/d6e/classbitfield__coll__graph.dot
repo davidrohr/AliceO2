@@ -1,0 +1,8 @@
+digraph "bitfield&lt; T, S &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{bitfield\< T, S \>\n||+ bitfield()\l+ bitfield()\l+ bitfield()\l+ operator=()\l+ operator\|()\l+ operator\|()\l+ operator\|=()\l+ operator &()\l+ operator &()\l+ operator &=()\l+ operator~()\l+ operator==()\l+ operator==()\l+ operator!=()\l+ operator!=()\l+ setBits()\l+ clear()\l+ set()\l+ set()\l+ set()\l+ get()\l+ operator bool()\l+ operator S()\l+ isSet()\l+ isSet()\l+ isSetAll()\l+ isSetAny()\l+ isOnlySet()\l+ lor()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

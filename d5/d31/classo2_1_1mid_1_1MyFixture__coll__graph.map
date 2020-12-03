@@ -1,0 +1,5 @@
+<map id="o2::mid::MyFixture" name="o2::mid::MyFixture">
+<area shape="rect" id="node2" href="$d5/dae/classo2_1_1mid_1_1Clusterizer.html" title="Clusterizing algorithm for MID. " alt="" coords="5,71,143,207"/>
+<area shape="rect" id="node3" href="$d1/d66/classo2_1_1mid_1_1Mapping.html" title="{o2::mid::Mapping\n||+ Mapping()\l+ ~Mapping()\l+ stripByLocation()\l+ stripByLocationInBoard()\l+ stripByPosition()\l+ getStripSize()\l+ getNStripsNBP()\l+ getFirstColumn()\l+ getFirstBoardBP()\l+ getLastBoardBP()\l+ getBoardId()\l+ getNeighbours()\l+ isValid()\l+ nextStrip()\l}" alt="" coords="167,5,344,273"/>
+<area shape="rect" id="node4" href="$d6/dde/classo2_1_1mid_1_1PreClusterizer.html" title="Pre&#45;clustering algorithm for MID. " alt="" coords="368,71,524,207"/>
+</map>

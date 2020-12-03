@@ -1,0 +1,8 @@
+digraph "o2::emcal::Cell"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::emcal::Cell\n||+ Cell()\l+ Cell()\l+ ~Cell()\l+ setTower()\l+ getTower()\l+ setTimeStamp()\l+ getTimeStamp()\l+ setEnergy()\l+ getEnergy()\l+ setAmplitude()\l+ getAmplitude()\l+ setType()\l+ getType()\l+ isChannelType()\l+ setLowGain()\l+ getLowGain()\l+ setHighGain()\l+ getHighGain()\l+ setLEDMon()\l+ getLEDMon()\l+ setTRU()\l+ getTRU()\l+ PrintStream()\l+ setPacked()\l+ getPackedTowerID()\l+ getPackedTime()\l+ getPackedEnergy()\l+ getPackedCellStatus()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

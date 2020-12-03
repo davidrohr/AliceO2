@@ -1,0 +1,8 @@
+digraph "o2::emcal::ClusterFactory&lt; InputType &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::emcal::ClusterFactory\l\< InputType \>\n||+ ClusterFactory()\l+ ClusterFactory()\l+ ClusterFactory()\l+ operator=()\l+ ~ClusterFactory()\l+ begin()\l+ end()\l+ rbegin()\l+ rend()\l+ reset()\l+ buildCluster()\l+ SetECALogWeight()\l+ GetECALogWeight()\l+ doEvalLocal2tracking()\l+ evalLocalPosition()\l+ evalGlobalPosition()\l+ evalLocal2TrackingCSTransform()\l+ evalLocalPositionFit()\l+ getMaximalEnergyIndex()\l+ getMultiplicityAtLevel()\l+ getSuperModuleNumber()\l+ sharedCluster()\l+ setSharedCluster()\l+ tMaxInCm()\l+ getCoreRadius()\l+ setCoreRadius()\l+ setClustersContainer()\l+ setCellsContainer()\l+ setCellsIndicesContainer()\l+ getNumberOfClusters()\l+ getDeffW0()\l# evalCoreEnergy()\l# evalDispersion()\l# evalElipsAxis()\l# evalTime()\l# thetaToEta()\l# etaToTheta()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,13 @@
+<map id="pidTOFTaskBeta" name="pidTOFTaskBeta">
+<area shape="rect" id="node2" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; float \&gt;\n||+ Configurable()\l}" alt="" coords="675,888,861,980"/>
+<area shape="rect" id="node3" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; float \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="507,667,693,759"/>
+<area shape="rect" id="node4" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; float \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="405,373,592,465"/>
+<area shape="rect" id="node5" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="217,167,263,245"/>
+<area shape="rect" id="node12" href="$d5/d9c/classo2_1_1pid_1_1tof_1_1Beta.html" title="{o2::pid::tof::Beta\l\&lt; Coll, Trks::iterator,\l PID::Electron \&gt;\n||+ Beta()\l+ ~Beta()\l+ GetBeta()\l+ GetExpectedSigma()\l+ GetExpectedSignal()\l+ GetSeparation()\l+ GetBeta()\l+ GetExpectedSigma()\l+ GetExpectedSignal()\l}" alt="" coords="163,601,317,825"/>
+<area shape="rect" id="node13" href="$d5/d9c/classo2_1_1pid_1_1tof_1_1Beta.html" title="Speed of light in TOF units (cm/ps) " alt="" coords="5,315,160,524"/>
+<area shape="rect" id="node7" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; T \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="568,160,755,252"/>
+<area shape="rect" id="node9" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; T \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="616,373,803,465"/>
+<area shape="rect" id="node10" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; T, IP \&gt;\n||+ Configurable()\l}" alt="" coords="717,667,904,759"/>
+<area shape="rect" id="node14" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::pidRespTOFbeta \&gt;\n||}" alt="" coords="914,888,1089,980"/>
+<area shape="rect" id="node15" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\&lt; T \&gt;\n||}" alt="" coords="928,675,1128,752"/>
+</map>

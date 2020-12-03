@@ -1,0 +1,7 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/workflow/include/TPCWorkflow/RecoWorkflow.h">
+<area shape="rect" id="node2" href="$d3/d55/CATrackerSpec_8h.html" title="Processor spec for running TPC CA tracking. " alt="" coords="112,124,321,195"/>
+<area shape="rect" id="node4" href="$d0/d80/TPC_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/RecoWorkflow.cxx" alt="" coords="252,243,467,299"/>
+<area shape="rect" id="node5" href="$db/d8e/tpc-raw-to-digits-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/tpc&#45;raw&#45;to\l&#45;digits&#45;workflow.cxx" alt="" coords="397,124,577,195"/>
+<area shape="rect" id="node6" href="$d3/dbf/tpc-reco-workflow_8cxx.html" title="Basic DPL workflow for TPC reconstruction starting from digits. " alt="" coords="602,131,834,187"/>
+<area shape="rect" id="node3" href="$da/d78/CATrackerSpec_8cxx.html" title="Processor spec for running TPC CA tracking. " alt="" coords="5,243,228,299"/>
+</map>

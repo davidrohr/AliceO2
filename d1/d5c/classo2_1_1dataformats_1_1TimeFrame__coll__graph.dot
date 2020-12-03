@@ -1,0 +1,8 @@
+digraph "o2::dataformats::TimeFrame"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::dataformats::TimeFrame\n||+ TimeFrame()\l+ TimeFrame()\l+ GetTimeStamp()\l+ GetDuration()\l+ GetNumFlps()\l+ IsComplete()\l+ GetNumParts()\l+ GetPart()\l+ GetPayloadSize()\l+ GetPayloadSize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

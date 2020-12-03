@@ -1,0 +1,8 @@
+digraph "o2::globaltracking::MatchTOF"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::globaltracking\l::MatchTOF\n||+ run()\l+ fill()\l+ init()\l+ initTPConly()\l+ run()\l+ run()\l+ setInputTreeTracks()\l+ setInputTreeTPCTracks()\l+ setInputTreeTOFClusters()\l+ setOutputTree()\l+ setOutputTreeCalib()\l+ setTrackBranchName()\l+ setTPCTrackBranchName()\l+ setTPCMCTruthBranchName()\l+ setITSMCTruthBranchName()\l+ setTOFMCTruthBranchName()\l+ setTOFClusterBranchName()\l+ setOutTOFMCTruthBranchName()\l+ setOutTPCMCTruthBranchName()\l+ setOutITSMCTruthBranchName()\l+ setOutTracksBranchName()\l+ setOutCalibBranchName()\l+ getTracksBranchName()\l+ getTPCTracksBranchName()\l+ getTPCMCTruthBranchName()\l+ getITSMCTruthBranchName()\l+ getTOFMCTruthBranchName()\l+ getTOFClusterBranchName()\l+ getOutTOFMCTruthBranchName()\l+ getOutTPCMCTruthBranchName()\l+ getOutITSMCTruthBranchName()\l+ print()\l+ printCandidatesTOF()\l+ setTimeTolerance()\l+ getTimeTolerance()\l+ setSpaceTolerance()\l+ getSpaceTolerance()\l+ setSigmaTimeCut()\l+ getSigmaTimeCut()\l+ isDebugFlag()\l+ getDebugFlags()\l+ setDebugFlag()\l+ setDebugTreeFileName()\l+ getDebugTreeFileName()\l+ fillTOFmatchTree()\l+ fillTOFmatchTreeWithLabels()\l+ dumpWinnerMatches()\l+ getMatchedTrackVector()\l+ getCalibVector()\l+ getMatchedTOFLabelsVector()\l+ getMatchedTPCLabelsVector()\l+ getMatchedITSLabelsVector()\l+ setFITRecPoints()\l+ setFITRecPoints()\l+ findFITIndex()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

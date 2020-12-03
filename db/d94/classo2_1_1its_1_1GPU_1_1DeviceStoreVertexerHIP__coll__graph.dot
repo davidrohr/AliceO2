@@ -1,0 +1,8 @@
+digraph "o2::its::GPU::DeviceStoreVertexerHIP"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::its::GPU::DeviceStore\lVertexerHIP\n||+ DeviceStoreVertexerHIP()\l+ ~DeviceStoreVertexerHIP()\l+ initialise()\l+ GPUd()\l+ getClusters()\l+ GPUd()\l+ GPUhd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ GPUhd()\l+ getHistogramXYZ()\l+ GPUhd()\l+ GPUhd()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

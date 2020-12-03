@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/CPV/base/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9f065a6c27ad05d142739bd8f4136180 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_9f065a6c27ad05d142739bd8f4136180.html"]
+  dir_419227dfddf133e3e8d8c8338bc8f720 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_419227dfddf133e3e8d8c8338bc8f720.html"];
+  }
+  dir_6e381537ae2bc6d4d6b248b586fd749d [shape=box label="include" color="red" URL="dir_6e381537ae2bc6d4d6b248b586fd749d.html"];
+  dir_419227dfddf133e3e8d8c8338bc8f720->dir_6e381537ae2bc6d4d6b248b586fd749d [headlabel="3", labeldistance=1.5 headhref="dir_000235_000222.html"];
+}

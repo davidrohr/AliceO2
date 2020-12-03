@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FDD/workflow/include/FDDWorkflow" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FDD/workflow/include/FDDWorkflow">
+<area shape="rect" id="node1" href="dir_8a08187fdf5c51bdc9d9d1eb82a8d69b.html" title="FDDWorkflow" alt="" coords="59,52,164,100"/>
+<area shape="rect" id="node2" href="dir_d5c094e363832484c79758a29eb05a6f.html" title="reconstruction" alt="" coords="59,148,163,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000436_000477.html" title="3" alt="" coords="116,122,124,137"/>
+<area shape="rect" id="node3" href="dir_bcbb2cf9a3d3d83e5515c82071a07177.html" title="Framework" alt="" coords="5,244,92,292"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000436_000062.html" title="12" alt="" coords="42,217,56,232"/>
+<area shape="rect" id="node4" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="39,340,138,388"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000436_000089.html" title="5" alt="" coords="119,322,127,337"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000477_000062.html" title="1" alt="" coords="78,226,86,240"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000477_000089.html" title="12" alt="" coords="100,316,115,331"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000062_000089.html" title="73" alt="" coords="63,312,78,327"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000089_000062.html" title="22" alt="" coords="60,305,74,320"/>
+<area shape="rect" id="clust1" href="dir_6c6345ba72c9861e0bc6c84a0b141d36.html" title="include" alt="" coords="49,16,174,111"/>
+</map>

@@ -1,0 +1,8 @@
+digraph "o2::algorithm::TableView&lt; RowDescT, ColumnDescT, ParserT &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>\n||+ TableView()\l+ ~TableView()\l+ addRow()\l+ clear()\l+ getNColumns()\l+ getNRows()\l+ getRowData()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

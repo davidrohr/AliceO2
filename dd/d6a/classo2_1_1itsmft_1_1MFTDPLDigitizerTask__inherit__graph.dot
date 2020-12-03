@@ -1,0 +1,12 @@
+digraph "o2::itsmft::MFTDPLDigitizerTask"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::itsmft::MFTDPLDigitizerTask\n|+ DETID\l+ DETOR\l|+ MFTDPLDigitizerTask()\l+ setDigitizationOptions()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::itsmft::ITSMFTDPLDigitizerTask\n|# mWithMCTruth\l# mFinished\l# mDisableQED\l# mID\l# mOrigin\l# mDigitizer\l# mDigits\l# mROFRecords\l# mROFRecordsAccum\l# mHits\l# mHitsP\l# mLabels\l# mLabelsAccum\l# mMC2ROFRecordsAccum\l# mSimChains\l# mFixMC2ROF\l# mROMode\l|+ initDigitizerTask()\l+ setDigitizationOptions()\l+ run()\l# ITSMFTDPLDigitizerTask()\l}",height=0.2,width=0.4,color="black",URL="$dd/d3a/classo2_1_1itsmft_1_1ITSMFTDPLDigitizerTask.html"];
+  Node2 -> Node1 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{o2::base::BaseDPLDigitizer\n||+ BaseDPLDigitizer()\l+ ~BaseDPLDigitizer()\l+ BaseDPLDigitizer()\l+ init()\l+ initDigitizerTask()\l}",height=0.2,width=0.4,color="black",URL="$de/de1/classo2_1_1base_1_1BaseDPLDigitizer.html"];
+}

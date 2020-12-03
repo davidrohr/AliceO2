@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/GPU/TPCFastTransformation/devtools/RegularSpline1D.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/GPU/TPCFastTransformation\l/devtools/RegularSpline1D.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/GPU/TPCFastTransformation\l/devtools/SemiregularSpline2D3D.h",height=0.2,width=0.4,color="black",URL="$d3/d05/SemiregularSpline2D3D_8h.html",tooltip="Definition of SemiregularSpline2D3D class. "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/GPU/TPCFastTransformation\l/devtools/SemiregularSpline2D3D.cxx",height=0.2,width=0.4,color="black",URL="$db/d8d/SemiregularSpline2D3D_8cxx.html",tooltip="Implementation of SemiregularSpline2D3D class. "];
+}

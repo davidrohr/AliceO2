@@ -1,0 +1,18 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Upgrades/PostLS4/IT4/base/src" name="/home/runner/work/AliceO2/AliceO2/Detectors/Upgrades/PostLS4/IT4/base/src">
+<area shape="rect" id="node1" href="dir_e82509788b6b99cd6602fd0a4538dcf6.html" title="src" alt="" coords="70,52,142,100"/>
+<area shape="rect" id="node2" href="dir_4ab6b4cc6a7edbff49100e9123df213f.html" title="Common" alt="" coords="41,436,116,484"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000565_000035.html" title="1" alt="" coords="60,408,68,423"/>
+<area shape="rect" id="node3" href="dir_37c90836491b695b472bf98d1be8336b.html" title="Base" alt="" coords="93,340,165,388"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000565_000300.html" title="1" alt="" coords="133,314,141,329"/>
+<area shape="rect" id="node4" href="dir_1306292b77b40360479b729ac9ee7efe.html" title="ITSMFT" alt="" coords="181,244,253,292"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000565_000052.html" title="1" alt="" coords="205,216,213,231"/>
+<area shape="rect" id="node5" href="dir_c395b474282ac5b060c3fcfeabf9379b.html" title="include" alt="" coords="34,148,106,196"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000565_000560.html" title="2" alt="" coords="90,126,98,141"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000300_000035.html" title="16" alt="" coords="100,416,115,431"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000052_000035.html" title="75" alt="" coords="129,430,143,445"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000052_000300.html" title="21" alt="" coords="163,324,177,339"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000560_000035.html" title="1" alt="" coords="82,410,90,425"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000560_000300.html" title="1" alt="" coords="121,313,129,327"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000560_000052.html" title="1" alt="" coords="166,220,174,235"/>
+<area shape="rect" id="clust1" href="dir_8822085b544762260cff5f3333f0d35a.html" title="base" alt="" coords="60,16,153,111"/>
+</map>

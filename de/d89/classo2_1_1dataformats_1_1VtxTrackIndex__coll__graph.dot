@@ -1,0 +1,26 @@
+digraph "o2::dataformats::VtxTrackIndex"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="{o2::dataformats::VtxTrack\lIndex\n||+ print()\l+ asString()\l+ operator auto()\l+ isPVContributor()\l+ setPVContributor()\l+ isAmbiguous()\l+ setAmbiguous()\l+ ClassDefNV()\l+ getSourceName()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{o2::dataformats::Abstract\lRef\< 26, 3, 3 \>\n||+ AbstractRef()\l+ AbstractRef()\l+ AbstractRef()\l+ getIndex()\l+ setIndex()\l+ getSource()\l+ setSource()\l+ getFlags()\l+ setFlags()\l+ testBit()\l+ setBit()\l+ resetBit()\l+ set()\l+ getRaw()\l+ operator Base_t()\l+ NBitsIndex()\l+ NBitsSource()\l+ NBitsFlags()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$d2/dd3/classo2_1_1dataformats_1_1AbstractRef.html"];
+  Node5 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +IdxMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{static constexpr Idx_t\n||}",height=0.2,width=0.4,color="black",URL="$d4/d98/classstatic_01constexpr_01Idx__t.html"];
+  Node6 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +BaseMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{static constexpr Base_t\n||}",height=0.2,width=0.4,color="black",URL="$db/d94/classstatic_01constexpr_01Base__t.html"];
+  Node7 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +FlgMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{static constexpr Flg_t\n||}",height=0.2,width=0.4,color="black",URL="$d7/de2/classstatic_01constexpr_01Flg__t.html"];
+  Node8 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mRef" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{MVAR\< NBIdx+NBSrc+NBFlg \>())\n||}",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node4 [color="grey25",fontsize="10",style="solid",label=" +SrcMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{static constexpr Src_t\n||}",height=0.2,width=0.4,color="black",URL="$d3/da2/classstatic_01constexpr_01Src__t.html"];
+  Node10 -> Node4 [dir="back",color="orange",fontsize="10",style="solid",label=" \< 26, 3, 3 \>" ,fontname="Helvetica"];
+  Node10 [label="{o2::dataformats::Abstract\lRef\< NBIdx, NBSrc, NBFlg \>\n||+ AbstractRef()\l+ AbstractRef()\l+ AbstractRef()\l+ getIndex()\l+ setIndex()\l+ getSource()\l+ setSource()\l+ getFlags()\l+ setFlags()\l+ testBit()\l+ setBit()\l+ resetBit()\l+ set()\l+ getRaw()\l+ operator Base_t()\l+ NBitsIndex()\l+ NBitsSource()\l+ NBitsFlags()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$d2/dd3/classo2_1_1dataformats_1_1AbstractRef.html"];
+  Node8 -> Node10 [color="grey25",fontsize="10",style="solid",label=" #mRef" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 -> Node10 [color="grey25",fontsize="10",style="solid",label=" +FlgMask\n+SrcMask\n+BaseMask\n+IdxMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +SourceNames" ,arrowhead="odiamond",fontname="Helvetica"];
+}

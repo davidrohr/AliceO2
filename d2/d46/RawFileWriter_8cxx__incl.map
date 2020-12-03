@@ -1,0 +1,29 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Raw/src/RawFileWriter.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/Raw/src/RawFileWriter.cxx">
+<area shape="rect" id="node7" href="$d7/d61/NameConf_8h.html" title="Definition of the Names Generator class. " alt="" coords="1132,109,1340,151"/>
+<area shape="rect" id="node36" href="$da/d08/RawFileWriter_8h.html" title="Utility class to write detectors data to (multiple) raw data file(s) respecting CRU format..." alt="" coords="1846,117,2050,143"/>
+<area shape="rect" id="node46" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="2637,206,2811,233"/>
+<area shape="rect" id="node59" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="2516,295,2713,322"/>
+<area shape="rect" id="node60" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="3253,117,3395,143"/>
+<area shape="rect" id="node8" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="949,199,1157,240"/>
+<area shape="rect" id="node35" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="197,206,376,233"/>
+<area shape="rect" id="node16" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="769,295,889,322"/>
+<area shape="rect" id="node28" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="1227,474,1383,501"/>
+<area shape="rect" id="node17" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="1142,385,1309,411"/>
+<area shape="rect" id="node18" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="454,385,679,411"/>
+<area shape="rect" id="node20" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="704,385,907,411"/>
+<area shape="rect" id="node22" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="823,556,959,583"/>
+<area shape="rect" id="node25" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="957,474,1101,501"/>
+<area shape="rect" id="node27" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="593,474,831,501"/>
+<area shape="rect" id="node23" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="700,631,884,657"/>
+<area shape="rect" id="node24" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="909,631,1067,657"/>
+<area shape="rect" id="node33" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1082,556,1265,583"/>
+<area shape="rect" id="node44" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="1667,474,1855,501"/>
+<area shape="rect" id="node45" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="1385,385,1514,411"/>
+<area shape="rect" id="node47" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1901,295,2080,322"/>
+<area shape="rect" id="node50" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="2057,377,2266,419"/>
+<area shape="rect" id="node53" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="2712,377,2891,419"/>
+<area shape="rect" id="node56" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="2839,288,3017,329"/>
+<area shape="rect" id="node48" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2032,474,2189,501"/>
+<area shape="rect" id="node49" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="1539,385,1677,411"/>
+<area shape="rect" id="node52" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="2299,474,2536,501"/>
+</map>

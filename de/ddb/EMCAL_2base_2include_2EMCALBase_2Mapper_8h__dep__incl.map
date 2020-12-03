@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/base/include/EMCALBase/Mapper.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/base/include/EMCALBase/Mapper.h">
+<area shape="rect" id="node2" href="$d2/d9e/EMCAL_2base_2src_2Mapper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/base/src/Mapper.cxx" alt="" coords="5,117,188,173"/>
+<area shape="rect" id="node3" href="$d6/d25/testMapper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/base/test/testMapper.cxx" alt="" coords="212,117,395,173"/>
+<area shape="rect" id="node4" href="$d7/dbe/EMCAL_2simulation_2include_2EMCALSimulation_2RawWriter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/simulation/include/EMCALSimulation\l/RawWriter.h" alt="" coords="419,109,660,180"/>
+<area shape="rect" id="node7" href="$dd/d3d/EMCAL_2workflow_2include_2EMCALWorkflow_2RawToCellConverterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/include/EMCALWorkflow\l/RawToCellConverterSpec.h" alt="" coords="736,109,964,180"/>
+<area shape="rect" id="node8" href="$d2/db0/EMCAL_2workflow_2src_2RawToCellConverterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/RawToCellConverter\lSpec.cxx" alt="" coords="663,228,890,299"/>
+<area shape="rect" id="node5" href="$d5/de5/EMCAL_2simulation_2src_2RawCreator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/simulation/src/RawCreator.cxx" alt="" coords="209,235,416,291"/>
+<area shape="rect" id="node6" href="$da/dcc/EMCAL_2simulation_2src_2RawWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/simulation/src/RawWriter.cxx" alt="" coords="440,235,639,291"/>
+<area shape="rect" id="node9" href="$d2/dbf/EMCAL_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/src/RecoWorkflow.cxx" alt="" coords="915,235,1129,291"/>
+</map>

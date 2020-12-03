@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/HMPID/base/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_939a9b59c9e8f57b8b7a2a3b29b6e0eb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="base" fontname="Helvetica", fontsize="10", URL="dir_939a9b59c9e8f57b8b7a2a3b29b6e0eb.html"]
+  dir_b1096337af0e2b9b0a575f8166ae0520 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b1096337af0e2b9b0a575f8166ae0520.html"];
+  }
+  dir_ec106a19cdd70e6bd8d944484cd521c2 [shape=box label="include" color="red" URL="dir_ec106a19cdd70e6bd8d944484cd521c2.html"];
+  dir_b1096337af0e2b9b0a575f8166ae0520->dir_ec106a19cdd70e6bd8d944484cd521c2 [headlabel="3", labeldistance=1.5 headhref="dir_000173_000148.html"];
+}

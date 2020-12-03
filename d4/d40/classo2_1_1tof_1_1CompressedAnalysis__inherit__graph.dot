@@ -1,0 +1,12 @@
+digraph "o2::tof::CompressedAnalysis"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::tof::CompressedAnalysis\n||+ CompressedAnalysis()\l+ ~CompressedAnalysis()\l+ initialize()\l+ finalize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::tof::compressed\l::DecoderBaseT\< o2::\lheader::RAWDataHeaderV6 \>\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}",height=0.2,width=0.4,color="black",URL="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html"];
+  Node2 -> Node1 [dir="back",color="orange",fontsize="10",style="solid",label=" \< o2::header::RAWDataHeaderV6 \>" ,fontname="Helvetica"];
+  Node2 [label="{o2::tof::compressed\l::DecoderBaseT\< RDH \>\n||+ DecoderBaseT()\l+ ~DecoderBaseT()\l+ run()\l+ rewind()\l+ setDecoderVerbose()\l+ setDecoderBuffer()\l+ setDecoderBufferSize()\l+ setDecoderCONET()\l}",height=0.2,width=0.4,color="black",URL="$d7/dd4/classo2_1_1tof_1_1compressed_1_1DecoderBaseT.html"];
+}

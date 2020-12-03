@@ -1,0 +1,40 @@
+digraph "o2::base::BaseDPLDigitizer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::base::BaseDPLDigitizer\n||+ BaseDPLDigitizer()\l+ ~BaseDPLDigitizer()\l+ BaseDPLDigitizer()\l+ init()\l+ initDigitizerTask()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::cpv::DigitizerSpec\n||+ DigitizerSpec()\l+ ~DigitizerSpec()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d2/d9d/classo2_1_1cpv_1_1DigitizerSpec.html",tooltip="Task for CPV digitization in the data processing layer. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{o2::emcal::DigitizerSpec\n||+ DigitizerSpec()\l+ ~DigitizerSpec()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$df/d27/classo2_1_1emcal_1_1DigitizerSpec.html",tooltip="Create new digitizer spec. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{o2::fdd::FDDDPLDigitizerTask\n||+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$db/d20/classo2_1_1fdd_1_1FDDDPLDigitizerTask.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{o2::ft0::FT0DPLDigitizerTask\n|# mFinished\l# mDigitsCh\l# mDigitsBC\l# mContinuous\l# mFairTimeUnitInNS\l# mDigitizer\l# mROMode\l# mDisableQED\l# mSimChains\l|+ FT0DPLDigitizerTask()\l+ FT0DPLDigitizerTask()\l+ ~FT0DPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d8/d99/classo2_1_1ft0_1_1FT0DPLDigitizerTask.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{o2::fv0::FV0DPLDigitizerTask\n||+ FV0DPLDigitizerTask()\l+ ~FV0DPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d1/d36/classo2_1_1fv0_1_1FV0DPLDigitizerTask.html"];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{o2::hmpid::HMPIDDPLDigitizerTask\n||+ HMPIDDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$db/d9c/classo2_1_1hmpid_1_1HMPIDDPLDigitizerTask.html"];
+  Node0 -> Node7 [dir="back",color="firebrick4",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{o2::itsmft::ITSMFTDPLDigitizerTask\n|# mWithMCTruth\l# mFinished\l# mDisableQED\l# mID\l# mOrigin\l# mDigitizer\l# mDigits\l# mROFRecords\l# mROFRecordsAccum\l# mHits\l# mHitsP\l# mLabels\l# mLabelsAccum\l# mMC2ROFRecordsAccum\l# mSimChains\l# mFixMC2ROF\l# mROMode\l|+ initDigitizerTask()\l+ setDigitizationOptions()\l+ run()\l# ITSMFTDPLDigitizerTask()\l}",height=0.2,width=0.4,color="black",URL="$dd/d3a/classo2_1_1itsmft_1_1ITSMFTDPLDigitizerTask.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{o2::itsmft::ITSDPLDigitizerTask\n|+ DETID\l+ DETOR\l|+ ITSDPLDigitizerTask()\l+ setDigitizationOptions()\l}",height=0.2,width=0.4,color="black",URL="$da/d25/classo2_1_1itsmft_1_1ITSDPLDigitizerTask.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{o2::itsmft::MFTDPLDigitizerTask\n|+ DETID\l+ DETOR\l|+ MFTDPLDigitizerTask()\l+ setDigitizationOptions()\l}",height=0.2,width=0.4,color="black",URL="$d2/dc2/classo2_1_1itsmft_1_1MFTDPLDigitizerTask.html"];
+  Node0 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{o2::mch::MCHDPLDigitizerTask\n||+ MCHDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d9/d0d/classo2_1_1mch_1_1MCHDPLDigitizerTask.html"];
+  Node0 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node11 [label="{o2::mid::MIDDPLDigitizerTask\n||+ MIDDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d1/d9e/classo2_1_1mid_1_1MIDDPLDigitizerTask.html"];
+  Node0 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node12 [label="{o2::phos::DigitizerSpec\n||+ DigitizerSpec()\l+ ~DigitizerSpec()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d7/de6/classo2_1_1phos_1_1DigitizerSpec.html",tooltip="Task for PHOS digitization in the data processing layer. "];
+  Node0 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node13 [label="{o2::tof::TOFDPLDigitizerTask\n||+ TOFDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d0/d34/classo2_1_1tof_1_1TOFDPLDigitizerTask.html"];
+  Node0 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node14 [label="{o2::tpc::TPCDPLDigitizerTask\n||+ TPCDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l+ process()\l}",height=0.2,width=0.4,color="black",URL="$dc/d44/classo2_1_1tpc_1_1TPCDPLDigitizerTask.html"];
+  Node0 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node15 [label="{o2::trd::TRDDPLDigitizerTask\n||+ TRDDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$d0/dab/classo2_1_1trd_1_1TRDDPLDigitizerTask.html"];
+  Node0 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node16 [label="{o2::zdc::ZDCDPLDigitizerTask\n||+ ZDCDPLDigitizerTask()\l+ initDigitizerTask()\l+ run()\l}",height=0.2,width=0.4,color="black",URL="$df/d4d/classo2_1_1zdc_1_1ZDCDPLDigitizerTask.html"];
+}

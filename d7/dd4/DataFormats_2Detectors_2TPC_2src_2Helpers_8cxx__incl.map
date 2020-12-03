@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/src/Helpers.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/src/Helpers.cxx">
+<area shape="rect" id="node2" href="$d9/d7c/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Helpers_8h.html" title="DataFormatsTPC/Helpers.h" alt="" coords="256,117,441,143"/>
+<area shape="rect" id="node7" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="759,109,911,151"/>
+<area shape="rect" id="node10" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="583,109,735,151"/>
+<area shape="rect" id="node16" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="935,117,1135,143"/>
+<area shape="rect" id="node5" href="$d3/dc4/ClusterHardware_8h.html" title="Class of a TPC cluster as produced by the hardware cluster finder (needs a postprocessing step to con..." alt="" coords="5,199,244,225"/>
+<area shape="rect" id="node8" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="965,199,1122,225"/>
+</map>

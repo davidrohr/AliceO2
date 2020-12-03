@@ -1,0 +1,10 @@
+digraph "o2::pid::tof::Beta&lt; Coll, Trck, id &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::pid::tof::Beta\l\< Coll, Trck, id \>\n|+ mExpectedResolution\l|+ Beta()\l+ ~Beta()\l+ GetBeta()\l+ GetExpectedSigma()\l+ GetExpectedSignal()\l+ GetSeparation()\l+ GetBeta()\l+ GetExpectedSigma()\l+ GetExpectedSignal()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [dir="back",color="orange",fontsize="10",style="solid",label=" \< Coll, Trks::iterator,\l PID::Electron \>" ,fontname="Helvetica"];
+  Node1 [label="{o2::pid::tof::Beta\l\< Coll, Trks::iterator,\l PID::Electron \>\n|+ mExpectedResolution\l|+ Beta()\l+ ~Beta()\l+ GetBeta()\l+ GetExpectedSigma()\l+ GetExpectedSignal()\l+ GetSeparation()\l+ GetBeta()\l+ GetExpectedSigma()\l+ GetExpectedSignal()\l}",height=0.2,width=0.4,color="black",URL="$d5/d9c/classo2_1_1pid_1_1tof_1_1Beta.html"];
+}

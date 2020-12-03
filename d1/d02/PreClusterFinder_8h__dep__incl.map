@@ -1,0 +1,7 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/PreClustering/include/MCHPreClustering/PreClusterFinder.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/PreClustering/include/MCHPreClustering/PreClusterFinder.h">
+<area shape="rect" id="node2" href="$db/d3a/ClusterFinderOriginal_8h.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="113,124,367,195"/>
+<area shape="rect" id="node5" href="$d8/dfc/PreClusterFinder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/PreClustering/src/PreCluster\lFinder.cxx" alt="" coords="391,124,619,195"/>
+<area shape="rect" id="node6" href="$df/d50/PreClusterFinderSpec_8cxx.html" title="Implementation of a data processor to run the preclusterizer. " alt="" coords="644,124,884,195"/>
+<area shape="rect" id="node3" href="$d0/dff/ClusterFinderOriginal_8cxx.html" title="Definition of a class to reconstruct clusters with the original MLEM algorithm. " alt="" coords="5,243,229,313"/>
+<area shape="rect" id="node4" href="$d1/d4a/ClusterFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to run the original MLEM cluster finder. " alt="" coords="254,243,474,313"/>
+</map>

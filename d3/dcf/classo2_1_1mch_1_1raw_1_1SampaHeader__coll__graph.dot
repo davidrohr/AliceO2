@@ -1,0 +1,8 @@
+digraph "o2::mch::raw::SampaHeader"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::raw::SampaHeader\n||+ SampaHeader()\l+ SampaHeader()\l+ operator==()\l+ operator!=()\l+ operator\<()\l+ operator\<=()\l+ operator\>()\l+ operator\>=()\l+ hasError()\l+ hasHammingError()\l+ hasParityError()\l+ uint64()\l+ uint64()\l+ isHeartbeat()\l* hammingCode()\l* headerParity()\l* packetType()\l* nof10BitWords()\l* chipAddress()\l* channelAddress()\l* bunchCrossingCounter()\l* payloadParity()\l* hammingCode()\l* headerParity()\l* packetType()\l* nof10BitWords()\l* chipAddress()\l* channelAddress()\l* bunchCrossingCounter()\l* payloadParity()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

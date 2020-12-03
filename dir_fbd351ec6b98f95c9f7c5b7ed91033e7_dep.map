@@ -1,0 +1,20 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PID" name="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PID">
+<area shape="rect" id="node1" href="dir_fbd351ec6b98f95c9f7c5b7ed91033e7.html" title="PID" alt="" coords="123,52,195,100"/>
+<area shape="rect" id="node2" href="dir_051dca18e802f8e9474f2e30d29c04e0.html" title="Detectors" alt="" coords="5,148,84,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000012_000048.html" title="1" alt="" coords="89,135,97,150"/>
+<area shape="rect" id="node3" href="dir_7114413358de58e678b3fdba12d7093d.html" title="PIDBase" alt="" coords="159,148,234,196"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000012_000013.html" title="5" alt="" coords="184,120,192,135"/>
+<area shape="rect" id="node4" href="dir_bcbb2cf9a3d3d83e5515c82071a07177.html" title="Framework" alt="" coords="87,244,173,292"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000012_000062.html" title="5" alt="" coords="140,220,148,234"/>
+<area shape="rect" id="node5" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="81,340,179,388"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000012_000089.html" title="4" alt="" coords="179,327,187,342"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000048_000062.html" title="1134" alt="" coords="79,217,108,232"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000048_000089.html" title="1381" alt="" coords="76,313,105,328"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000013_000062.html" title="1" alt="" coords="160,226,168,241"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000013_000089.html" title="1" alt="" coords="168,323,176,338"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000062_000048.html" title="4" alt="" coords="77,208,85,222"/>
+<area shape="rect" id="edge10-headlabel" href="dir_000062_000089.html" title="73" alt="" coords="122,313,137,328"/>
+<area shape="rect" id="edge11-headlabel" href="dir_000089_000048.html" title="18" alt="" coords="45,208,60,223"/>
+<area shape="rect" id="edge12-headlabel" href="dir_000089_000062.html" title="22" alt="" coords="123,304,138,318"/>
+<area shape="rect" id="clust1" href="dir_7683e4c5aa7478ea0e5a46a41c8497b7.html" title="include" alt="" coords="113,16,206,111"/>
+</map>

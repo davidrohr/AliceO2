@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/raw/include/FITRaw/DataBlockBase.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/raw/include/FITRaw/DataBlockBase.h">
+<area shape="rect" id="node2" href="$d7/df9/DataBlockFT0_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/raw/include/FT0Raw\l/DataBlockFT0.h" alt="" coords="321,109,501,180"/>
+<area shape="rect" id="node13" href="$de/d9c/DataBlockBase_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/raw/src/DataBlockBase.cxx" alt="" coords="526,117,715,173"/>
+<area shape="rect" id="node3" href="$da/d89/DigitBlockFT0_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/raw/include/FT0Raw\l/DigitBlockFT0.h" alt="" coords="321,228,501,299"/>
+<area shape="rect" id="node4" href="$d4/d6c/RawReaderFT0Base_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/raw/include/FT0Raw\l/RawReaderFT0Base.h" alt="" coords="125,347,305,417"/>
+<area shape="rect" id="node12" href="$d0/d26/DataBlockFT0_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/raw/src/DataBlockFT0.cxx" alt="" coords="525,235,735,291"/>
+<area shape="rect" id="node9" href="$db/d5f/DigitBlockFT0_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/raw/src/DigitBlockFT0.cxx" alt="" coords="330,354,538,410"/>
+<area shape="rect" id="node10" href="$d5/db7/FT0DataProcessDPLSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/include/FT0Workflow\l/FT0DataProcessDPLSpec.h" alt="" coords="562,347,794,417"/>
+<area shape="rect" id="node5" href="$d5/da3/RawReaderFT0Base_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/raw/src/RawReaderFT0Base.cxx" alt="" coords="5,473,252,529"/>
+<area shape="rect" id="node6" href="$d7/d5a/RawReaderFT0_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/include/FT0Workflow\l/RawReaderFT0.h" alt="" coords="277,465,509,536"/>
+<area shape="rect" id="node7" href="$d6/d99/FT0Workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/src/FT0Workflow.cxx" alt="" coords="485,584,719,640"/>
+<area shape="rect" id="node8" href="$d0/d8d/RawReaderFT0_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/src/RawReaderFT0.cxx" alt="" coords="213,584,461,640"/>
+<area shape="rect" id="node11" href="$d7/d18/FT0DataProcessDPLSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/src/FT0DataProcess\lDPLSpec.cxx" alt="" coords="640,465,871,536"/>
+</map>

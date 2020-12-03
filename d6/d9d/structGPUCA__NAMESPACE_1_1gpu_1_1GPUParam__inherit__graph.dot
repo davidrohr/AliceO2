@@ -1,0 +1,12 @@
+digraph "GPUCA_NAMESPACE::gpu::GPUParam"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{GPUCA_NAMESPACE::gpu\l::GPUParam\n|+ type\l+ z\l+ const\l+ z\l+ sinPhi\l+ DzDs\l+ ErrY2\l+ const\l+ ErrY2\l+ const\l+ x\l+ y\l+ z\l+ X\l+ Y\l+ const\l|+ SetDefaults()\l+ SetDefaults()\l+ UpdateEventSettings()\l+ LoadClusterErrors()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{GPUCA_NAMESPACE::gpu\l::internal::GPUParam\l_t\< GPUSettingsRec, GPUSettings\lParam \>\n|+ rec\l+ par\l+ tpcGeometry\l+ polynomialField\l+ SliceParam\l# ParamRMS0\l# ParamS0Par\l|}",height=0.2,width=0.4,color="black",URL="$dd/dee/structGPUCA__NAMESPACE_1_1gpu_1_1internal_1_1GPUParam__t.html"];
+  Node2 -> Node1 [dir="back",color="orange",fontsize="10",style="solid",label=" \< GPUSettingsRec, GPUSettings\lParam \>" ,fontname="Helvetica"];
+  Node2 [label="{GPUCA_NAMESPACE::gpu\l::internal::GPUParam\l_t\< T, S \>\n|+ rec\l+ par\l+ tpcGeometry\l+ polynomialField\l+ SliceParam\l# ParamRMS0\l# ParamS0Par\l|}",height=0.2,width=0.4,color="black",URL="$dd/dee/structGPUCA__NAMESPACE_1_1gpu_1_1internal_1_1GPUParam__t.html"];
+}

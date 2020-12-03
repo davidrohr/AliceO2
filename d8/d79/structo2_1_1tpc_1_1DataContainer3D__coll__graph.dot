@@ -1,0 +1,8 @@
+digraph "o2::tpc::DataContainer3D&lt; DataT, Nx, Ny, Nz &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::tpc::DataContainer3D\l\< DataT, Nx, Ny, Nz \>\n||+ DataContainer3D()\l+ operator[]()\l+ operator[]()\l+ getData()\l+ getData()\l+ operator()()\l+ operator()()\l+ writeToFile()\l+ initFromFile()\l+ print()\l+ getDataIndex()\l+ getNDataPoints()\l+ getNX()\l+ getNY()\l+ getNZ()\l+ loadFromFile()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

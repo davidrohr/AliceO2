@@ -1,0 +1,4 @@
+<map id="o2::its::VertexerTraits" name="o2::its::VertexerTraits">
+<area shape="rect" id="node2" href="$da/dd6/classo2_1_1its_1_1VertexerTraitsGPU.html" title="{o2::its::VertexerTraitsGPU\n|+ maxdeltaphi\l# mStoreVertexerGPU\l# mStoreVertexerGPUPtr\l|+ VertexerTraitsGPU()\l+ ~VertexerTraitsGPU()\l+ initialise()\l+ computeTracklets()\l+ computeTrackletMatching()\l+ computeVertices()\l+ GPUd()\l}" alt="" coords="5,849,197,1044"/>
+<area shape="rect" id="node3" href="$de/da3/classo2_1_1its_1_1VertexerTraitsHIP.html" title="{o2::its::VertexerTraitsHIP\n|+ maxdeltaphi\l# mStoreVertexerGPU\l# mStoreVertexerGPUPtr\l|+ VertexerTraitsHIP()\l+ ~VertexerTraitsHIP()\l+ initialise()\l+ computeTracklets()\l+ computeTrackletMatching()\l+ computeVertices()\l+ GPUd()\l}" alt="" coords="221,849,413,1044"/>
+</map>

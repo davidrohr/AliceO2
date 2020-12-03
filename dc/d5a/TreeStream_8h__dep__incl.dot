@@ -1,0 +1,48 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Common/Utils/include/CommonUtils/TreeStream.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Common/Utils/include\l/CommonUtils/TreeStream.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Common/Utils/include\l/CommonUtils/TreeStreamRedirector.h",height=0.2,width=0.4,color="black",URL="$d1/d22/TreeStreamRedirector_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Common/Utils/src\l/TreeStreamRedirector.cxx",height=0.2,width=0.4,color="black",URL="$d8/dc3/TreeStreamRedirector_8cxx.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Common/Utils/test\l/testTreeStream.cxx",height=0.2,width=0.4,color="black",URL="$dd/d75/testTreeStream_8cxx.html"];
+  Node5 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/Base\l/src/MatLayerCylSet.cxx",height=0.2,width=0.4,color="black",URL="$d0/daa/MatLayerCylSet_8cxx.html",tooltip="Implementation of the wrapper for the set of cylindrical material layers. "];
+  Node5 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/include/GlobalTracking/MatchTOF.h",height=0.2,width=0.4,color="black",URL="$d0/d74/MatchTOF_8h.html",tooltip="Class to perform TOF matching to global tracks. "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/dc9/AODProducerWorkflowSpec_8cxx.html"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTOF.cxx",height=0.2,width=0.4,color="black",URL="$db/d6a/MatchTOF_8cxx.html"];
+  Node9 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowSpec.cxx",height=0.2,width=0.4,color="black",URL="$d8/d84/RecoWorkflowSpec_8cxx.html"];
+  Node9 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowWith\lTPCSpec.cxx",height=0.2,width=0.4,color="black",URL="$d4/d76/RecoWorkflowWithTPCSpec_8cxx.html"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/include/GlobalTracking/MatchTPCITS.h",height=0.2,width=0.4,color="black",URL="$d3/dac/MatchTPCITS_8h.html",tooltip="Class to perform TPC ITS matching. "];
+  Node14 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx",height=0.2,width=0.4,color="black",URL="$dc/d59/MatchTPCITS_8cxx.html"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/TPCITSMatchingSpec.h",height=0.2,width=0.4,color="black",URL="$da/d20/TPCITSMatchingSpec_8h.html"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$df/de7/AODProducerWorkflow_8cxx.html"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/MatchTPCITSWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d5/db4/MatchTPCITSWorkflow_8cxx.html"];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TPCITSMatchingSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/d73/TPCITSMatchingSpec_8cxx.html"];
+  Node5 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/tracking/src/StandaloneDebugger.cxx",height=0.2,width=0.4,color="black",URL="$d7/dc4/StandaloneDebugger_8cxx.html"];
+  Node5 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/Vertexing\l/test/testDCAFitterN.cxx",height=0.2,width=0.4,color="black",URL="$dd/de2/testDCAFitterN_8cxx.html"];
+  Node4 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="/home/runner/work/AliceO2\l/AliceO2/Common/Utils/src\l/TreeStream.cxx",height=0.2,width=0.4,color="black",URL="$dd/dc1/TreeStream_8cxx.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

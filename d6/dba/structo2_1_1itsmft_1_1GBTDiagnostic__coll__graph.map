@@ -1,0 +1,4 @@
+<map id="o2::itsmft::GBTDiagnostic" name="o2::itsmft::GBTDiagnostic">
+<area shape="rect" id="node2" href="$d5/d5c/structo2_1_1itsmft_1_1GBTWord.html" title="{o2::itsmft::GBTWord\n|+ na0hn\l+ na1hn\l+ id\l+ lanesStops\l+ lanesTimeout\l+ na1t\l+ packetDone\l+ transmissionTimeout\l+ packetOverflow\l+ laneStartsViolation\l+ laneTimeouts\l+ na2t\l+ internal\l+ noData\l+ na0tr\l+ bc\l+ orbit\l+ na0diag\l+ diagnosticData\l+ data64\l|+ GBTWord()\l+ isDataHeader()\l+ isDataTrailer()\l+ isTriggerWord()\l+ isDiagnosticWord()\l+ isCalibrationWord()\l+ isDataIB()\l+ isCableDiagnosticIB()\l+ isDataOB()\l+ isDataMFT()\l+ isCableDiagnosticOB()\l+ isData()\l+ isCableDiagnostic()\l+ isStatus()\l+ getW64()\l+ getW8()\l+ getHeader()\l+ printX()\l+ printB()\l+ ClassDefNV()\l}" alt="" coords="72,292,239,927"/>
+<area shape="rect" id="node3" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="5,5,73,83"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="o2::vertexing::TrackVF" name="o2::vertexing::TrackVF">
+<area shape="rect" id="node3" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="91,505,138,583"/>
+<area shape="rect" id="node4" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="162,505,230,583"/>
+<area shape="rect" id="node6" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; float, float \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="317,476,505,612"/>
+<area shape="rect" id="node7" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\l\&lt; float \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="190,233,378,413"/>
+<area shape="rect" id="node8" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\&lt; T \&gt;\n||+ GPUdDefault()\l+ GPUdDefault()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ GPUdi()\l+ ClassDefNV()\l}" alt="" coords="279,5,499,171"/>
+<area shape="rect" id="node9" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; T, E \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="402,255,590,391"/>
+</map>

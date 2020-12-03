@@ -1,0 +1,3 @@
+<map id="o2::trd::CalPadStatus" name="o2::trd::CalPadStatus">
+<area shape="rect" id="node2" href="$df/d40/classo2_1_1trd_1_1CalSingleChamberStatus.html" title="{o2::trd::CalSingleChamber\lStatus\n||+ CalSingleChamberStatus()\l+ CalSingleChamberStatus()\l+ CalSingleChamberStatus()\l+ ~CalSingleChamberStatus()\l+ operator=()\l+ Copy()\l+ isMasked()\l+ isBridgedLeft()\l+ isBridgedRight()\l+ isNotConnected()\l+ getNrows()\l+ getNcols()\l+ getChannel()\l+ getNchannels()\l+ getStatus()\l+ getStatus()\l+ setStatus()\l+ setStatus()\l# ClassDefNV()\l}" alt="" coords="11,204,208,560"/>
+</map>

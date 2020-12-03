@@ -1,0 +1,10 @@
+digraph "o2::field::MagFieldFast"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::field::MagFieldFast\n||+ MagFieldFast()\l+ MagFieldFast()\l+ MagFieldFast()\l+ ~MagFieldFast()\l+ LoadData()\l+ Field()\l+ Field()\l+ Field()\l+ GetBcomp()\l+ GetBcomp()\l+ GetBcomp()\l+ GetBcomp()\l+ GetBx()\l+ GetBx()\l+ GetBy()\l+ GetBy()\l+ GetBz()\l+ GetBz()\l+ setFactorSol()\l+ getFactorSol()\l# GetSegment()\l# GetQuadrant()\l# CalcPol()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #kSolZMax\n#kSolR2Max" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{const\n||}",height=0.2,width=0.4,color="grey75"];
+}

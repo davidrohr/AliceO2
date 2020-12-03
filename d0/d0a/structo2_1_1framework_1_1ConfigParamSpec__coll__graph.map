@@ -1,0 +1,4 @@
+<map id="o2::framework::ConfigParamSpec" name="o2::framework::ConfigParamSpec">
+<area shape="rect" id="node2" href="$d9/df7/structo2_1_1framework_1_1ConfigParamSpec_1_1HelpString.html" title="{o2::framework::ConfigParam\lSpec::HelpString\n||+ c_str()\l}" alt="" coords="104,248,294,340"/>
+<area shape="rect" id="node5" href="$d8/dff/classo2_1_1framework_1_1Variant.html" title="Variant for configuration parameter storage. Owns stored data. " alt="" coords="435,145,590,443"/>
+</map>

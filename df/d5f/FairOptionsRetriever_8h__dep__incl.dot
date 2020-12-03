@@ -1,0 +1,20 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/FairOptionsRetriever.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node16 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/FairOptionsRetriever.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingDevice.cxx",height=0.2,width=0.4,color="black",URL="$db/dac/DataProcessingDevice_8cxx.html"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/FairOptionsRetriever.cxx",height=0.2,width=0.4,color="black",URL="$da/dcd/FairOptionsRetriever_8cxx.html"];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ConfigParamRegistry.cxx",height=0.2,width=0.4,color="black",URL="$d4/d00/test__ConfigParamRegistry_8cxx.html"];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ConfigParamStore.cxx",height=0.2,width=0.4,color="black",URL="$df/d41/test__ConfigParamStore_8cxx.html"];
+  Node16 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_FairMQOptionsRetriever.cxx",height=0.2,width=0.4,color="black",URL="$d3/db6/test__FairMQOptionsRetriever_8cxx.html"];
+  Node16 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_RootConfigParamHelpers.cxx",height=0.2,width=0.4,color="black",URL="$df/db4/test__RootConfigParamHelpers_8cxx.html"];
+}

@@ -1,0 +1,23 @@
+<map id="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Interface/GPUO2InterfaceConfigurableParam.cxx" name="/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Interface/GPUO2InterfaceConfigurableParam.cxx">
+<area shape="rect" id="node2" href="$d9/d21/GPUO2InterfaceConfigurableParam_8h.html" title="GPUO2InterfaceConfigurable\lParam.h" alt="" coords="405,124,597,165"/>
+<area shape="rect" id="node21" href="$d4/d57/GPUSettingsList_8h.html" title="GPUSettingsList.h" alt="" coords="155,481,285,508"/>
+<area shape="rect" id="node24" href="$d8/de7/GPUO2InterfaceConfiguration_8h.html" title="GPUO2InterfaceConfiguration.h" alt="" coords="1343,131,1550,158"/>
+<area shape="rect" id="node29" href="$d4/dc5/GPUDataTypes_8h.html" title="GPUDataTypes.h" alt="" coords="1086,221,1213,247"/>
+<area shape="rect" id="node3" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="372,303,551,344"/>
+<area shape="rect" id="node10" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="285,213,464,255"/>
+<area shape="rect" id="node14" href="$dd/dc6/GPUSettings_8h.html" title="GPUSettings.h" alt="" coords="791,221,902,247"/>
+<area shape="rect" id="node23" href="$d6/dff/GPUDefMacros_8h.html" title="GPUDefMacros.h" alt="" coords="134,221,261,247"/>
+<area shape="rect" id="node15" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="847,631,983,657"/>
+<area shape="rect" id="node19" href="$da/d08/qconfig_8h.html" title="utils/qconfig.h" alt="" coords="706,310,809,337"/>
+<area shape="rect" id="node16" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="725,705,909,732"/>
+<area shape="rect" id="node17" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="934,705,1093,732"/>
+<area shape="rect" id="node20" href="$d8/de9/qconfigoptions_8h.html" title="qconfigoptions.h" alt="" coords="699,399,816,426"/>
+<area shape="rect" id="node22" href="$d2/d37/GPUDefConstantsAndSettings_8h.html" title="GPUDefConstantsAndSettings.h" alt="" coords="438,556,653,583"/>
+<area shape="rect" id="node31" href="$d6/d20/GPUHostDataTypes_8h.html" title="GPUHostDataTypes.h" alt="" coords="1440,221,1595,247"/>
+<area shape="rect" id="node32" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="1737,310,1937,337"/>
+<area shape="rect" id="node33" href="$d1/da6/ConstMCTruthContainer_8h.html" title="A const (ready only) version of MCTruthContainer. " alt="" coords="1409,303,1588,344"/>
+<area shape="rect" id="node42" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="1761,392,1913,433"/>
+<area shape="rect" id="node34" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="1569,392,1721,433"/>
+<area shape="rect" id="node41" href="$db/d31/Traits_8h.html" title="Framework/Traits.h" alt="" coords="1410,399,1545,426"/>
+<area shape="rect" id="node35" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1783,481,1940,508"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="o2::tpc::ClusterGroupAttribute" name="o2::tpc::ClusterGroupAttribute">
+<area shape="rect" id="node2" href="$d4/dcf/structo2_1_1tpc_1_1ClusterGroupHeader.html" title="{o2::tpc::ClusterGroupHeader\n|+ nClusters\l|+ ClusterGroupHeader()\l}" alt="" coords="5,175,195,252"/>
+<area shape="rect" id="node4" href="$dc/d13/structo2_1_1tpc_1_1ClusterNativeContainer.html" title="{o2::tpc::ClusterNativeContainer\n|+ clusters\l|+ getFlatSize()\l+ data()\l+ data()\l}" alt="" coords="219,160,426,267"/>
+<area shape="rect" id="node3" href="$d0/d1b/structo2_1_1tpc_1_1ClusterNativeBuffer.html" title="{o2::tpc::ClusterNativeBuffer\n|+ clusters\l|+ getFlatSize()\l+ data()\l+ data()\l}" alt="" coords="7,315,193,421"/>
+</map>

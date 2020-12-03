@@ -1,0 +1,22 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/Mergers/include/Mergers/MergerBuilder.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node131 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/include/Mergers/MergerBuilder.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node131 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/src/FullHistoryMerger.cxx",height=0.2,width=0.4,color="black",URL="$db/d51/FullHistoryMerger_8cxx.html",tooltip="Implementation of O2 Mergers, v0.1. "];
+  Node131 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/src/IntegratingMerger.cxx",height=0.2,width=0.4,color="black",URL="$d0/d24/IntegratingMerger_8cxx.html",tooltip="Implementation of O2 Mergers, v0.1. "];
+  Node131 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node134 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/src/MergerBuilder.cxx",height=0.2,width=0.4,color="black",URL="$d8/d56/MergerBuilder_8cxx.html",tooltip="Definition of MergerBuilder for O2 Mergers. "];
+  Node131 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node135 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/src/MergerInfrastructureBuilder.cxx",height=0.2,width=0.4,color="black",URL="$d4/dda/MergerInfrastructureBuilder_8cxx.html",tooltip="Definition of Mergers&#39; Infrastructure Builder. "];
+  Node131 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node136 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/src/mergersTopologyExample.cxx",height=0.2,width=0.4,color="black",URL="$d9/de7/mergersTopologyExample_8cxx.html",tooltip="This is a DPL workflow to see Mergers in action. "];
+  Node131 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node137 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/test/mergersBenchmarkTopology.cxx",height=0.2,width=0.4,color="black",URL="$dc/daf/mergersBenchmarkTopology_8cxx.html",tooltip="This is a DPL workflow to benchmark Mergers. "];
+  Node131 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node138 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/Mergers\l/test/multinodeBenchmarkMergers.cxx",height=0.2,width=0.4,color="black",URL="$dc/dbc/multinodeBenchmarkMergers_8cxx.html",tooltip="This is a DPL workflow to run Mergers and an input proxy for benchmarks. "];
+}

@@ -1,0 +1,18 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/MemoryResources" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_2171f7ec022c5423887b07c69b2f5b48 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="DataFormats" fontname="Helvetica", fontsize="10", URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"]
+  subgraph clusterdir_0b530fc7dcf9a7fe279ee6facafec658 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0b530fc7dcf9a7fe279ee6facafec658.html"];
+    dir_0b530fc7dcf9a7fe279ee6facafec658 [shape=plaintext label="MemoryResources"];
+    dir_aceee2857d20e516da6bd39fe1c74077 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_aceee2857d20e516da6bd39fe1c74077.html"];
+    dir_bc162f4ed4abab1490538d93a4024534 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_bc162f4ed4abab1490538d93a4024534.html"];
+    dir_eb346770100fea11df53378aa9cb351b [shape=box label="test" color="black" fillcolor="white" style="filled" URL="dir_eb346770100fea11df53378aa9cb351b.html"];
+  }
+  }
+  dir_eb346770100fea11df53378aa9cb351b->dir_aceee2857d20e516da6bd39fe1c74077 [headlabel="2", labeldistance=1.5 headhref="dir_000278_000275.html"];
+  dir_bc162f4ed4abab1490538d93a4024534->dir_aceee2857d20e516da6bd39fe1c74077 [headlabel="1", labeldistance=1.5 headhref="dir_000277_000275.html"];
+}

@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/include/TRDSimulation/Digitizer.h">
+<area shape="rect" id="node2" href="$d7/d42/TrapSimulator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/include/TRDSimulation\l/TrapSimulator.h" alt="" coords="365,124,588,195"/>
+<area shape="rect" id="node4" href="$da/deb/TrapSimulator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapSimulator.cxx" alt="" coords="32,250,249,306"/>
+<area shape="rect" id="node6" href="$dd/de7/TRDTrapSimulatorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorSpec.cxx" alt="" coords="285,369,553,425"/>
+<area shape="rect" id="node9" href="$d7/da6/TRDDigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitReaderSpec.cxx" alt="" coords="828,250,1084,306"/>
+<area shape="rect" id="node10" href="$d7/d40/TRD_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/Digitizer.cxx" alt="" coords="662,131,846,187"/>
+<area shape="rect" id="node11" href="$d6/df2/TRDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDDigitizerSpec.cxx" alt="" coords="870,131,1104,187"/>
+<area shape="rect" id="node3" href="$db/dc3/TrapConfigHandler_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/simulation/src/TrapConfigHandler.cxx" alt="" coords="274,250,519,306"/>
+<area shape="rect" id="node5" href="$dc/d96/TRDTrapSimulatorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/include/TRDWorkflow\l/TRDTrapSimulatorSpec.h" alt="" coords="594,243,804,313"/>
+<area shape="rect" id="node7" href="$d2/dc0/TRDTrapSimulatorWorkFlow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrapSimulatorWork\lFlow.cxx" alt="" coords="577,361,821,432"/>
+<area shape="rect" id="node8" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="846,369,1062,425"/>
+</map>

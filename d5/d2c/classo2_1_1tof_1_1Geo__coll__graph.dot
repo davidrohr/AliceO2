@@ -1,0 +1,20 @@
+digraph "o2::tof::Geo"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tof::Geo\n|+ NSTRIPB\l+ NSTRIPC\l+ NMAXNSTRIP\l+ NSTRIPXSECTOR\l+ NPADSXSECTOR\l+ NSECTORS\l+ NPLATES\l+ MAXHZTOF\l+ ZLENA\l+ ZLENB\l+ ZLENC\l+ XTOF\l+ RMIN\l+ RMAX\l+ RMIN2\l+ RMAX2\l+ XPAD\l+ STRIPLENGTH\l+ SIGMAFORTAIL12\l+ PHISEC\l+ TDCBIN\l+ TOTBIN\l+ TOTBIN_NS\l+ NTOTBIN_PER_NS\l+ BUNCHCROSSINGBIN\l+ SLEWTOTMIN\l+ DEADTIMETDC\l+ OVERLAP_IN_BC\l+ ANGLES\l+ DISTANCES\l+ MODULEWALLTHICKNESS\l+ INTERCENTRMODBORDER1\l+ INTERCENTRMODBORDER2\l+ EXTERINTERMODBORDER2\l+ LENGTHINCEMODBORDERU\l+ LENGTHINCEMODBORDERD\l+ LENGTHEXINMODBORDER\l+ MODULECOVERTHICKNESS\l+ FEAWIDTH1\l+ FEAWIDTH2\l+ SAWTHICKNESS\l+ CBLH1\l+ CBLH2\l+ BETWEENLANDMASK\l+ AL1PARAMETERS\l+ AL2PARAMETERS\l+ AL3PARAMETERS\l+ ROOF1PARAMETERS\l+ ROOF2PARAMETERS\l+ FEAPARAMETERS\l+ BAR\l+ BAR1\l+ BAR2\l+ BARS\l+ BARS1\l+ BARS2\l+ HHONY\l+ HPCBY\l+ HRGLY\l+ HFILIY\l+ HGLASSY\l+ WHONZ\l+ WPCBZ1\l+ WPCBZ2\l+ WCPCBZ\l+ WRGLZ\l+ HSENSMY\l|+ translate()\l+ rotate()\l+ rotateToSector()\l+ rotateToStrip()\l+ antiRotateToSector()\l+ antiRotate()\l+ getDetID()\l+ getIndex()\l+ getVolumeIndices()\l+ getPos()\l+ getVolumePath()\l+ getStripNumberPerSM()\l+ getAngles()\l+ getHeights()\l+ getDistances()\l+ getPadDxDyDz()\l+ getCableLength()\l+ getCableTimeShift()\l+ getCableTimeShiftBin()\l+ getPropagationDelay()\l+ getIndexFromEquipment()\l+ getCrateFromECH()\l+ getTRMFromECH()\l+ getChainFromECH()\l+ getTDCFromECH()\l+ getTDCChFromECH()\l+ getECHFromIndexes()\l+ getECHFromCH()\l+ getCHFromECH()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +BC_IN_WINDOW_INV" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{double\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +HEIGHTS\n+SLEWTOTMAX\n+WGLFZ\n+HCPCBY\n+SIGMAFORTAIL1\n+CBLW\n+EXTERINTERMODBORDER1\n+DEADTIME\n+NTDCBIN_PER_PS\n+ZPAD\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{Float_t\n||}",height=0.2,width=0.4,color="black",URL="$d9/d7d/classFloat__t.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +WINDOWOVERLAP\n+BC_TIME\n+READOUTWINDOW\l_INV\n+READOUTWINDOW\n+BC_TIME_INPS\l_INV\n+LATENCYWINDOW\n+BC_TIME_INPS\n+MATCHINGWINDOW\n+BC_TIME_INV" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Double_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +BC_IN_ORBIT\n+NWINDOW_IN_ORBIT\n+BC_IN_WINDOW\n+N_ELECTRONIC_CHANNELS\n+NCHANNELS" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +FEAWITHMASKS" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{Bool_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +NPADS\n+RAW_PAGE_MAX_SIZE\n+MATCHINGWINDOW\l_IN_BC\n+RATIO_TOT_TDC\l_BIN\n+NPADX\n+READOUTWINDOW\l_IN_BC\n+LATENCYWINDOW\l_IN_BC\n+NSTRIPA\n+NPADZ\n+NSTRIPS\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{Int_t\n||}",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,6 @@
+<map id="o2::tpc::PublisherConf" name="o2::tpc::PublisherConf">
+<area shape="rect" id="node2" href="$df/d24/structo2_1_1tpc_1_1PublisherConf_1_1BranchOptionConfig.html" title="{o2::tpc::PublisherConf\l::BranchOptionConfig\n||}" alt="" coords="145,335,297,427"/>
+<area shape="rect" id="node7" href="$de/d1b/structo2_1_1framework_1_1OutputLabel.html" title="{o2::framework::OutputLabel\n||}" alt="" coords="152,204,335,281"/>
+<area shape="rect" id="node5" href="$d8/dc3/structo2_1_1framework_1_1OutputSpec.html" title="{o2::framework::OutputSpec\n||+ OutputSpec()\l+ OutputSpec()\l+ OutputSpec()\l+ OutputSpec()\l+ OutputSpec()\l+ OutputSpec()\l+ OutputSpec()\l+ OutputSpec()\l+ operator==()\l}" alt="" coords="320,451,503,645"/>
+<area shape="rect" id="node9" href="$d4/d82/structo2_1_1framework_1_1GenericRootTreeReader_1_1SpecialPublishHook.html" title="{o2::framework::GenericRoot\lTreeReader\&lt; KeyType \&gt;::\lSpecialPublishHook\n||}" alt="" coords="717,495,903,601"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TOF/include/DataFormatsTOF/CalibInfoTOFshort.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TOF/include/DataFormatsTOF/CalibInfoTOFshort.h">
+<area shape="rect" id="node2" href="$df/de7/CalibInfoTOFshort_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/TOF/src/CalibInfoTOFshort.cxx" alt="" coords="5,131,219,187"/>
+<area shape="rect" id="node3" href="$d5/ded/CalibTOF_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/CalibTOF.h" alt="" coords="243,124,466,195"/>
+<area shape="rect" id="node5" href="$d8/d60/CollectCalibInfoTOF_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/CollectCalibInfoTOF.h" alt="" coords="490,124,713,195"/>
+<area shape="rect" id="node7" href="$dd/d2a/TOFCalibCollector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/include/TOFCalibration\l/TOFCalibCollector.h" alt="" coords="843,124,1066,195"/>
+<area shape="rect" id="node11" href="$d7/d2e/TOFCalibCollectorWriterSpec_8h.html" title="Device to write to tree the information for TOF time slewing calibration. " alt="" coords="1123,243,1333,313"/>
+<area shape="rect" id="node4" href="$de/d89/CalibTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/CalibTOF.cxx" alt="" coords="205,250,397,306"/>
+<area shape="rect" id="node6" href="$d0/dd5/CollectCalibInfoTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/CollectCalibInfo\lTOF.cxx" alt="" coords="422,243,626,313"/>
+<area shape="rect" id="node8" href="$d2/d3f/TOFCalibCollector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/TOFCalibCollector.cxx" alt="" coords="650,250,894,306"/>
+<area shape="rect" id="node9" href="$d1/df4/TOFCalibCollectorSpec_8h.html" title="Device to collect information for TOF time slewing calibration. " alt="" coords="918,243,1098,313"/>
+<area shape="rect" id="node10" href="$d8/d3b/tof-collect-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;collect&#45;calib&#45;workflow.cxx" alt="" coords="1020,361,1215,432"/>
+</map>

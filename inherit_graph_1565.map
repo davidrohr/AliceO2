@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d5/d5c/structo2_1_1itsmft_1_1GBTWord.html" title="o2::itsmft::GBTWord" alt="" coords="5,208,148,235"/>
+<area shape="rect" id="node2" href="$db/d23/structo2_1_1itsmft_1_1GBTCableDiagnostic.html" title="o2::itsmft::GBTCableDiagnostic" alt="" coords="196,5,404,32"/>
+<area shape="rect" id="node3" href="$d4/d50/structo2_1_1itsmft_1_1GBTCableStatus.html" title="o2::itsmft::GBTCableStatus" alt="" coords="208,56,392,83"/>
+<area shape="rect" id="node4" href="$d0/d06/structo2_1_1itsmft_1_1GBTCalibration.html" title="o2::itsmft::GBTCalibration" alt="" coords="213,107,387,133"/>
+<area shape="rect" id="node5" href="$d3/d38/structo2_1_1itsmft_1_1GBTData.html" title="o2::itsmft::GBTData" alt="" coords="230,157,370,184"/>
+<area shape="rect" id="node6" href="$d7/d6f/structo2_1_1itsmft_1_1GBTDataHeader.html" title="o2::itsmft::GBTDataHeader" alt="" coords="209,208,391,235"/>
+<area shape="rect" id="node7" href="$dc/dce/structo2_1_1itsmft_1_1GBTDataHeaderL.html" title="o2::itsmft::GBTDataHeaderL" alt="" coords="205,259,395,285"/>
+<area shape="rect" id="node8" href="$d2/d9e/structo2_1_1itsmft_1_1GBTDataTrailer.html" title="o2::itsmft::GBTDataTrailer" alt="" coords="212,309,388,336"/>
+<area shape="rect" id="node9" href="$d8/ddd/structo2_1_1itsmft_1_1GBTDiagnostic.html" title="o2::itsmft::GBTDiagnostic" alt="" coords="213,360,387,387"/>
+<area shape="rect" id="node10" href="$d9/dd3/structo2_1_1itsmft_1_1GBTTrigger.html" title="o2::itsmft::GBTTrigger" alt="" coords="224,411,376,437"/>
+</map>

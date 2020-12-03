@@ -1,0 +1,10 @@
+<map id="o2::mid::CTF" name="o2::mid::CTF">
+<area shape="rect" id="node2" href="$dc/d08/classo2_1_1ctf_1_1EncodedBlocks.html" title="{o2::ctf::EncodedBlocks\l\&lt; CTFHeader, 7, uint32_t \&gt;\n||+ setHeader()\l+ getHeader()\l+ getHeader()\l+ cloneHeader()\l+ getMetadata()\l+ getMetadata()\l+ getBlock()\l+ setANSHeader()\l+ getANSHeader()\l+ getANSHeader()\l+ empty()\l+ flat()\l+ clear()\l+ compactify()\l+ size()\l+ getFreeSize()\l+ copyToFlat()\l+ copyToFlat()\l+ appendToTree()\l+ readFromTree()\l+ encode()\l+ encode()\l+ decode()\l+ decode()\l+ print()\l+ getNBlocks()\l+ getMinAlignedSize()\l+ get()\l+ get()\l+ getImage()\l+ create()\l+ create()\l+ estimateBlockSize()\l+ expand()\l+ readFromTree()\l+ createDictionaryBlocks()\l# init()\l# estimateSize()\l# estimateSizeFromMetadata()\l# fillFlatCopy()\l# ClassDefNV()\l# relocate()\l# fillTreeBranch()\l# readTreeBranch()\l}" alt="" coords="361,1115,563,1837"/>
+<area shape="rect" id="node3" href="$da/d30/classstd_1_1array_3_01o2_1_1ctf_1_1Block_3_01uint32__t_01_4_00_01N_01_4.html" title="{array\&lt; o2::ctf::Block\l\&lt; uint32_t \&gt;, N \&gt;\n||}" alt="" coords="10,645,151,737"/>
+<area shape="rect" id="node15" href="$dc/d08/classo2_1_1ctf_1_1EncodedBlocks.html" title="&lt;&lt;======================== Auxiliary classes =======================&lt;&lt; " alt="" coords="651,329,852,1052"/>
+<area shape="rect" id="node5" href="$d5/d54/structo2_1_1ctf_1_1CTFHeader.html" title="{o2::ctf::CTFHeader\n||+ describe()\l+ print()\l}" alt="" coords="176,645,311,737"/>
+<area shape="rect" id="node7" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="205,175,273,252"/>
+<area shape="rect" id="node8" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="5,175,73,252"/>
+<area shape="rect" id="node9" href="$dc/dbb/structo2_1_1ctf_1_1ANSHeader.html" title="&gt;&gt;======================== Auxiliary classes =======================&gt;&gt; " alt="" coords="515,167,652,259"/>
+<area shape="rect" id="node11" href="$d0/d1c/structo2_1_1ctf_1_1Registry.html" title="registry struct for the buffer start and offsets of writable space " alt="" coords="677,160,823,267"/>
+</map>

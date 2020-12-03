@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/DataCompression/include/DataCompression" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_18f7c1ee6da6600fad774a08fdb3e7ce {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_18f7c1ee6da6600fad774a08fdb3e7ce.html"]
+  dir_30a9985032ec71d89cf93fcf408ca8cf [shape=box, label="DataCompression", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_30a9985032ec71d89cf93fcf408ca8cf.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_8ba487e25de5ee77e05e9dce7582cb98 [shape=box label="Algorithm" color="red" URL="dir_8ba487e25de5ee77e05e9dce7582cb98.html"];
+  dir_30a9985032ec71d89cf93fcf408ca8cf->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000831_000035.html"];
+  dir_30a9985032ec71d89cf93fcf408ca8cf->dir_8ba487e25de5ee77e05e9dce7582cb98 [headlabel="1", labeldistance=1.5 headhref="dir_000831_000000.html"];
+}

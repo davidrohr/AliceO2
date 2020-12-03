@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/src/ClusterNativeHelper.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/src/ClusterNativeHelper.cxx">
+<area shape="rect" id="node2" href="$d1/d2b/ClusterNativeHelper_8h.html" title="Helper class to read the binary format of TPC ClusterNative. " alt="" coords="943,109,1152,151"/>
+<area shape="rect" id="node32" href="$d6/d0c/Parser_8h.html" title="Utilities for parsing of data sequences. " alt="" coords="57,117,187,143"/>
+<area shape="rect" id="node3" href="$de/dcd/ClusterNative_8h.html" title="Class of a TPC cluster in TPC&#45;native coordinates (row, time) " alt="" coords="1493,206,1713,233"/>
+<area shape="rect" id="node7" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="1695,295,1895,322"/>
+<area shape="rect" id="node11" href="$d8/dc8/ClusterGroupAttribute_8h.html" title="Meta data for a group describing it by sector number and global padrow. " alt="" coords="1035,288,1241,329"/>
+<area shape="rect" id="node12" href="$d6/dae/IOMCTruthContainerView_8h.html" title="A special IO container &#45; splitting a given vector to enable ROOT IO. " alt="" coords="210,288,397,329"/>
+<area shape="rect" id="node17" href="$d1/da6/ConstMCTruthContainer_8h.html" title="A const (ready only) version of MCTruthContainer. " alt="" coords="781,199,959,240"/>
+<area shape="rect" id="node26" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="421,288,573,329"/>
+<area shape="rect" id="node8" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1535,295,1671,322"/>
+<area shape="rect" id="node9" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1413,377,1597,404"/>
+<area shape="rect" id="node10" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1621,377,1780,404"/>
+<area shape="rect" id="node13" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="317,377,474,404"/>
+<area shape="rect" id="node18" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="597,288,749,329"/>
+<area shape="rect" id="node25" href="$db/d31/Traits_8h.html" title="Framework/Traits.h" alt="" coords="824,295,959,322"/>
+</map>

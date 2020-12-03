@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::tpc::Vector3D\<\l DataT \>",height=0.2,width=0.4,color="black",URL="$dc/d2e/classo2_1_1tpc_1_1Vector3D.html",tooltip="this is a simple vector class which is used in the poisson solver class "];
+}

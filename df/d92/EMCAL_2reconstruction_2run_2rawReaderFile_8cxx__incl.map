@@ -1,0 +1,22 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/reconstruction/run/rawReaderFile.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/reconstruction/run/rawReaderFile.cxx">
+<area shape="rect" id="node4" href="$de/da2/Raw_2include_2DetectorsRaw_2RawFileReader_8h.html" title="DetectorsRaw/RawFileReader.h" alt="" coords="1488,117,1699,143"/>
+<area shape="rect" id="node36" href="$d2/d73/EMCAL_2reconstruction_2include_2EMCALReconstruction_2AltroDecoder_8h.html" title="EMCALReconstruction\l/AltroDecoder.h" alt="" coords="2019,109,2175,151"/>
+<area shape="rect" id="node42" href="$da/d6a/EMCAL_2reconstruction_2include_2EMCALReconstruction_2RawReaderMemory_8h.html" title="EMCALReconstruction\l/RawReaderMemory.h" alt="" coords="1962,199,2118,240"/>
+<area shape="rect" id="node13" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="1770,377,1958,404"/>
+<area shape="rect" id="node15" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="514,377,670,404"/>
+<area shape="rect" id="node24" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="1256,206,1435,233"/>
+<area shape="rect" id="node22" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="458,452,641,479"/>
+<area shape="rect" id="node25" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="876,377,1012,404"/>
+<area shape="rect" id="node28" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1588,377,1745,404"/>
+<area shape="rect" id="node29" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="1081,295,1220,322"/>
+<area shape="rect" id="node31" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1347,288,1557,329"/>
+<area shape="rect" id="node35" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="671,295,801,322"/>
+<area shape="rect" id="node26" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="852,452,1036,479"/>
+<area shape="rect" id="node27" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1061,452,1219,479"/>
+<area shape="rect" id="node34" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="1193,377,1431,404"/>
+<area shape="rect" id="node39" href="$d3/d4f/EMCAL_2base_2include_2EMCALBase_2RCUTrailer_8h.html" title="EMCALBase/RCUTrailer.h" alt="" coords="2067,295,2245,322"/>
+<area shape="rect" id="node40" href="$d5/da5/EMCAL_2reconstruction_2include_2EMCALReconstruction_2Bunch_8h.html" title="EMCALReconstruction\l/Bunch.h" alt="" coords="2654,288,2810,329"/>
+<area shape="rect" id="node41" href="$d5/d4a/EMCAL_2reconstruction_2include_2EMCALReconstruction_2Channel_8h.html" title="EMCALReconstruction\l/Channel.h" alt="" coords="2821,199,2977,240"/>
+<area shape="rect" id="node43" href="$dc/ded/EMCAL_2reconstruction_2include_2EMCALReconstruction_2RawBuffer_8h.html" title="EMCALReconstruction\l/RawBuffer.h" alt="" coords="1886,288,2042,329"/>
+<area shape="rect" id="node45" href="$d2/db8/EMCAL_2reconstruction_2include_2EMCALReconstruction_2RawPayload_8h.html" title="EMCALReconstruction\l/RawPayload.h" alt="" coords="2371,288,2527,329"/>
+</map>

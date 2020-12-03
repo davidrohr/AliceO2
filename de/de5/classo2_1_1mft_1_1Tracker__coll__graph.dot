@@ -1,0 +1,8 @@
+digraph "o2::mft::Tracker"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mft::Tracker\n||+ Tracker()\l+ ~Tracker()\l+ Tracker()\l+ operator=()\l+ setBz()\l+ getBz()\l+ getTracks()\l+ getTracksLTF()\l+ getTrackLabels()\l+ clustersToTracks()\l+ computeTracksMClabels()\l+ setROFrame()\l+ getROFrame()\l+ initialize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

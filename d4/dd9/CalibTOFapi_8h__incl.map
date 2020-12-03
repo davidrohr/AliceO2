@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/CalibTOFapi.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/CalibTOFapi.h">
+<area shape="rect" id="node3" href="$d5/df3/BasicCCDBManager_8h.html" title="CCDB/BasicCCDBManager.h" alt="" coords="439,131,637,158"/>
+<area shape="rect" id="node17" href="$d8/de0/CalibLHCphaseTOF_8h.html" title="Class to store the output of the matching to TOF for calibration. " alt="" coords="661,124,881,165"/>
+<area shape="rect" id="node19" href="$d3/d81/CalibTimeSlewingParamTOF_8h.html" title="Class to store the output of the matching to TOF for calibration. " alt="" coords="906,124,1093,165"/>
+<area shape="rect" id="node4" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="132,213,259,240"/>
+<area shape="rect" id="node15" href="$da/d86/CCDBTimeStampUtils_8h.html" title="CCDB/CCDBTimeStampUtils.h" alt="" coords="283,213,492,240"/>
+<area shape="rect" id="node11" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="400,288,567,315"/>
+<area shape="rect" id="node13" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="413,363,554,389"/>
+</map>

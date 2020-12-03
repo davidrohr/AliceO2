@@ -1,0 +1,41 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/src/CompressedClusters.cxx"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/TPC/src/CompressedClusters.cxx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="DataFormatsTPC/Compressed\lClusters.h",height=0.2,width=0.4,color="black",URL="$d2/d7d/CompressedClusters_8h.html",tooltip="Container to store compressed TPC cluster data. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GPUCommonDef.h",height=0.2,width=0.4,color="black",URL="$df/d21/GPUCommonDef_8h.html"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GPUCommonDefSettings.h",height=0.2,width=0.4,color="black",URL="$d5/d93/GPUCommonDefSettings_8h.html"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="GPUCommonDefAPI.h",height=0.2,width=0.4,color="black",URL="$da/d5a/GPUCommonDefAPI_8h.html"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="GPUCommonRtypes.h",height=0.2,width=0.4,color="black",URL="$d2/d45/GPUCommonRtypes_8h.html"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Rtypes.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="cstring",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="DataFormatsTPC/Compressed\lClustersHelpers.h",height=0.2,width=0.4,color="black",URL="$d3/d64/CompressedClustersHelpers_8h.html",tooltip="Helper for the CompressedClusters container. "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="type_traits",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="cassert",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="stdexcept",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="vector",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Algorithm/FlattenRestore.h",height=0.2,width=0.4,color="black",URL="$d4/d4a/FlattenRestore_8h.html",tooltip="Utilities to copy complex objects to flat buffer and restore. "];
+  Node13 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="TBuffer.h",height=0.2,width=0.4,color="grey75"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="gsl/span",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/calib/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_17f5b3462f0641fcb82883c36b9bb9fd {
+    graph [ bgcolor="#ddddee", pencolor="black", label="calib" fontname="Helvetica", fontsize="10", URL="dir_17f5b3462f0641fcb82883c36b9bb9fd.html"]
+  subgraph clusterdir_ec32ba3ed7ed91a592931bafe482258b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ec32ba3ed7ed91a592931bafe482258b.html"];
+    dir_ec32ba3ed7ed91a592931bafe482258b [shape=plaintext label="include"];
+    dir_174b6d253983f333c653ebc3f99e0fc6 [shape=box label="EMCALCalib" color="black" fillcolor="white" style="filled" URL="dir_174b6d253983f333c653ebc3f99e0fc6.html"];
+  }
+  }
+  dir_6af676bf18881990e4083e191d0e63e0 [shape=box label="CCDB" color="red" URL="dir_6af676bf18881990e4083e191d0e63e0.html"];
+  dir_174b6d253983f333c653ebc3f99e0fc6->dir_6af676bf18881990e4083e191d0e63e0 [headlabel="1", labeldistance=1.5 headhref="dir_000393_000028.html"];
+}

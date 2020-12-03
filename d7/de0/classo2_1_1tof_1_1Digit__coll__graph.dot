@@ -1,0 +1,8 @@
+digraph "o2::tof::Digit"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tof::Digit\n||+ Digit()\l+ Digit()\l+ Digit()\l+ ~Digit()\l+ getOrderingKey()\l+ getChannel()\l+ setChannel()\l+ getTDC()\l+ setTDC()\l+ getTOT()\l+ setTOT()\l+ getBC()\l+ setBC()\l+ getLabel()\l+ setLabel()\l+ printStream()\l+ merge()\l+ getPhiAndEtaIndex()\l+ isUsedInCluster()\l+ setIsUsedInCluster()\l+ getElectronicIndex()\l+ setElectronicIndex()\l+ getElCrateIndex()\l+ getElTRMIndex()\l+ getElChainIndex()\l+ getElTDCIndex()\l+ getElChIndex()\l+ setCalibratedTime()\l+ getCalibratedTime()\l+ setIsProblematic()\l+ isProblematic()\l+ setTriggerOrbit()\l+ getTriggerOrbit()\l+ setTriggerBunch()\l+ getTriggerBunch()\l+ getOrderingKey()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

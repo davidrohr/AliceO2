@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/Detector.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/Detector.h">
+<area shape="rect" id="node2" href="$d4/dca/BetheBloch_8h.html" title="Implementation for the TPC PID response of the BB parametrization. " alt="" coords="30,124,223,180"/>
+<area shape="rect" id="node4" href="$d2/d2c/TPC_2simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Detector.cxx" alt="" coords="248,124,435,180"/>
+<area shape="rect" id="node5" href="$d7/d11/o2__sim__tpc_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/o2_sim_tpc.cxx" alt="" coords="459,124,693,180"/>
+<area shape="rect" id="node6" href="$db/d50/O2HitMerger_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h" alt="" coords="717,131,899,173"/>
+<area shape="rect" id="node8" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="947,124,1162,180"/>
+<area shape="rect" id="node3" href="$d1/dc6/handleParamTPCBetheBloch_8cxx.html" title="A simple tool to produce Bethe Bloch parametrization objects for the TPC PID Response. " alt="" coords="5,228,248,284"/>
+<area shape="rect" id="node7" href="$d9/d16/O2HitMergerRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx" alt="" coords="689,235,927,277"/>
+</map>

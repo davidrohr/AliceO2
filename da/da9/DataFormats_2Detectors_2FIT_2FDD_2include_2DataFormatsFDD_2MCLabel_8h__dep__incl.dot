@@ -1,0 +1,29 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/MCLabel.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/FIT/FDD/include/DataFormatsFDD\l/MCLabel.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/include\l/FDDSimulation/Digitizer.h",height=0.2,width=0.4,color="black",URL="$d3/d51/FIT_2FDD_2simulation_2include_2FDDSimulation_2Digitizer_8h.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Digitizer.cxx",height=0.2,width=0.4,color="black",URL="$d0/d8c/FIT_2FDD_2simulation_2src_2Digitizer_8cxx.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d2/d97/FDDDigitizerSpec_8cxx.html"];
+  Node4 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/include/FDDWorkflow\l/DigitReaderSpec.h",height=0.2,width=0.4,color="black",URL="$dd/d24/FIT_2FDD_2workflow_2include_2FDDWorkflow_2DigitReaderSpec_8h.html"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/DigitReaderSpec.cxx",height=0.2,width=0.4,color="black",URL="$dc/d21/FIT_2FDD_2workflow_2src_2DigitReaderSpec_8cxx.html"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/digits\l-reader-workflow.cxx",height=0.2,width=0.4,color="black",URL="$d7/d01/FIT_2FDD_2workflow_2src_2digits-reader-workflow_8cxx.html"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/RecoWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d6/d61/FIT_2FDD_2workflow_2src_2RecoWorkflow_8cxx.html"];
+  Node4 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/Reconstructor\lSpec.cxx",height=0.2,width=0.4,color="black",URL="$d3/db6/ReconstructorSpec_8cxx.html"];
+  Node4 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitWriterSpec.h",height=0.2,width=0.4,color="black",URL="$d8/dcd/FDDDigitWriterSpec_8h.html"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html"];
+}

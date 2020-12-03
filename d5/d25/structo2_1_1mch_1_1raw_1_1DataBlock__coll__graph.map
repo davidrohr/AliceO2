@@ -1,0 +1,5 @@
+<map id="o2::mch::raw::DataBlock" name="o2::mch::raw::DataBlock">
+<area shape="rect" id="node3" href="$dc/d33/structo2_1_1mch_1_1raw_1_1DataBlockHeader.html" title="A lightweight struct to describe a MCH Raw Data Block. " alt="" coords="191,160,400,237"/>
+<area shape="rect" id="node4" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="147,5,215,83"/>
+<area shape="rect" id="node6" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="353,5,421,83"/>
+</map>

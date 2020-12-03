@@ -1,0 +1,30 @@
+digraph "o2::algorithm::TableView&lt; RowDescT, ColumnDescT, ParserT &gt;::outerIterator&lt; Direction &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::outerIterator\l\< Direction \>\n||+ outerIterator()\l+ ~outerIterator()\l+ outerIterator()\l+ operator++()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::iterator\n||+ iterator()\l+ ~iterator()\l+ iterator()\l+ operator++()\l+ operator*()\l+ operator==()\l+ operator!=()\l+ isEnd()\l+ isValid()\l}",height=0.2,width=0.4,color="black",URL="$d3/d50/classo2_1_1algorithm_1_1TableView_1_1iterator.html",tooltip="Iterator class for configurable direction, i.e. either row or column. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mParent" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>\n||+ TableView()\l+ ~TableView()\l+ addRow()\l+ clear()\l+ getNColumns()\l+ getNRows()\l+ getRowData()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black",URL="$da/d64/classo2_1_1algorithm_1_1TableView.html"];
+  Node5 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mDirection" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{IteratorDirections\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mIsCached" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mCache" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::iterator::value_type\n||}",height=0.2,width=0.4,color="black",URL="$d9/dc8/structo2_1_1algorithm_1_1TableView_1_1iterator_1_1value__type.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::FrameData\n||}",height=0.2,width=0.4,color="black",URL="$d9/d66/structo2_1_1algorithm_1_1TableView_1_1FrameData.html",tooltip="descriptor pointing to payload of one frame "];
+  Node9 -> Node8 [color="grey25",fontsize="10",style="solid",label=" +buffer" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{const byte *\n||}",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node8 [color="grey25",fontsize="10",style="solid",label=" +size" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{size_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node7 [color="grey25",fontsize="10",style="solid",label=" +desc" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{RowDescT\n||}",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node3 [color="grey25",fontsize="10",style="solid",label=" #mEnd\n#mColumn\n#mRow" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{unsigned\n||}",height=0.2,width=0.4,color="grey75"];
+  Node13 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +direction" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+}

@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Clustering/test/testClusterizer.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Clustering/test/testClusterizer.cxx">
+<area shape="rect" id="node11" href="$d7/d1a/PreClusterizer_8h.html" title="Pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="905,117,1109,143"/>
+<area shape="rect" id="node26" href="$d5/d51/MUON_2MID_2Clustering_2include_2MIDClustering_2Clusterizer_8h.html" title="Cluster reconstruction algorithm for MID. " alt="" coords="1481,117,1665,143"/>
+<area shape="rect" id="node13" href="$d3/d07/MUON_2MID_2Base_2include_2MIDBase_2Mapping_8h.html" title="Mapping for MID. " alt="" coords="1562,295,1703,322"/>
+<area shape="rect" id="node16" href="$d3/d53/ColumnData_8h.html" title="Strip pattern (aka digits) " alt="" coords="619,206,830,233"/>
+<area shape="rect" id="node17" href="$d2/df9/MUON_2MID_2include_2DataFormatsMID_2ROFRecord_8h.html" title="Definition of the MID event record. " alt="" coords="1277,206,1485,233"/>
+<area shape="rect" id="node24" href="$d0/d8d/MID_2Clustering_2include_2MIDClustering_2PreCluster_8h.html" title="Pre&#45;cluster structure for MID. " alt="" coords="905,295,1088,322"/>
+<area shape="rect" id="node15" href="$d7/d0a/MpArea_8h.html" title="Mapping area for MID. " alt="" coords="1865,377,2003,404"/>
+<area shape="rect" id="node18" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="569,288,779,329"/>
+<area shape="rect" id="node19" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="462,377,619,404"/>
+<area shape="rect" id="node23" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="811,377,1049,404"/>
+<area shape="rect" id="node28" href="$d6/d31/Cluster2D_8h.html" title="Reconstructed cluster per RPC. " alt="" coords="1113,295,1310,322"/>
+<area shape="rect" id="node29" href="$d8/dc8/PreClusterHelper_8h.html" title="Pre&#45;clusters helper for MID. " alt="" coords="1611,199,1783,240"/>
+<area shape="rect" id="node30" href="$d3/dde/PreClustersDE_8h.html" title="Structure with pre&#45;clusters in the MID detection element. " alt="" coords="1829,295,2039,322"/>
+</map>

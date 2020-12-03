@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Tracking/include/MCHTracking/TrackParam.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Tracking/include/MCHTracking/TrackParam.h">
+<area shape="rect" id="node2" href="$df/d7a/Detectors_2MUON_2MCH_2Tracking_2include_2MCHTracking_2Track_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/include/MCHTracking\l/Track.h" alt="" coords="681,124,922,195"/>
+<area shape="rect" id="node5" href="$dd/dea/TrackFinderSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="5,487,272,543"/>
+<area shape="rect" id="node8" href="$d7/d30/TrackFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="851,480,1106,551"/>
+<area shape="rect" id="node9" href="$d2/d6f/MUON_2MCH_2Tracking_2include_2MCHTracking_2TrackFitter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/include/MCHTracking\l/TrackFitter.h" alt="" coords="991,243,1233,313"/>
+<area shape="rect" id="node11" href="$db/d54/TrackFitterSpec_8cxx.html" title="Implementation of a data processor to read, refit and send tracks with attached clusters. " alt="" coords="1114,369,1374,425"/>
+<area shape="rect" id="node13" href="$d2/deb/TrackExtrap_8cxx.html" title="Implementation of tools for track extrapolation. " alt="" coords="1443,131,1677,187"/>
+<area shape="rect" id="node14" href="$dc/d16/TrackParam_8cxx.html" title="Implementation of the MCH track parameters for internal use. " alt="" coords="1701,131,1934,187"/>
+<area shape="rect" id="node15" href="$d1/d96/TrackAtVertexSpec_8cxx.html" title="Implementation of a data processor to extrapolate the tracks to the vertex. " alt="" coords="1959,124,2185,195"/>
+<area shape="rect" id="node3" href="$d5/d91/TrackFinder_8h.html" title="Definition of a class to reconstruct tracks. " alt="" coords="283,361,525,432"/>
+<area shape="rect" id="node6" href="$d7/d7f/TrackFinderOriginal_8h.html" title="Definition of a class to reconstruct tracks with the original algorithm. " alt="" coords="549,361,790,432"/>
+<area shape="rect" id="node12" href="$d9/da9/Detectors_2MUON_2MCH_2Tracking_2src_2Track_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/src/Track.cxx" alt="" coords="772,250,967,306"/>
+<area shape="rect" id="node4" href="$d1/d8b/TrackFinder_8cxx.html" title="Implementation of a class to reconstruct tracks. " alt="" coords="297,487,527,543"/>
+<area shape="rect" id="node7" href="$d6/d6d/TrackFinderOriginal_8cxx.html" title="Implementation of a class to reconstruct tracks with the original algorithm. " alt="" coords="552,487,827,543"/>
+<area shape="rect" id="node10" href="$de/db3/MUON_2MCH_2Tracking_2src_2TrackFitter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/src/TrackFitter.cxx" alt="" coords="865,369,1090,425"/>
+</map>

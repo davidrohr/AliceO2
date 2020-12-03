@@ -1,0 +1,20 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/ITS/tracking/cuda" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_beaad5fa58c175f2fa05fab7e2ac7ba4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tracking" fontname="Helvetica", fontsize="10", URL="dir_beaad5fa58c175f2fa05fab7e2ac7ba4.html"]
+  subgraph clusterdir_137c8287a1d8b04d8ba0df0480706c08 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_137c8287a1d8b04d8ba0df0480706c08.html"];
+    dir_137c8287a1d8b04d8ba0df0480706c08 [shape=plaintext label="cuda"];
+    dir_bccd31a20802342bc472d5c92186a3f8 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_bccd31a20802342bc472d5c92186a3f8.html"];
+  }
+  }
+  dir_6ff49626c189e19df9a205eb87521670 [shape=box label="include" color="red" URL="dir_6ff49626c189e19df9a205eb87521670.html"];
+  dir_f511f1e9c03c071966ae594f00bbc5e0 [shape=box label="GPU" color="red" URL="dir_f511f1e9c03c071966ae594f00bbc5e0.html"];
+  dir_bccd31a20802342bc472d5c92186a3f8->dir_6ff49626c189e19df9a205eb87521670 [headlabel="30", labeldistance=1.5 headhref="dir_000056_000125.html"];
+  dir_bccd31a20802342bc472d5c92186a3f8->dir_f511f1e9c03c071966ae594f00bbc5e0 [headlabel="3", labeldistance=1.5 headhref="dir_000056_000783.html"];
+  dir_6ff49626c189e19df9a205eb87521670->dir_f511f1e9c03c071966ae594f00bbc5e0 [headlabel="14", labeldistance=1.5 headhref="dir_000125_000783.html"];
+  dir_f511f1e9c03c071966ae594f00bbc5e0->dir_6ff49626c189e19df9a205eb87521670 [headlabel="7", labeldistance=1.5 headhref="dir_000783_000125.html"];
+}

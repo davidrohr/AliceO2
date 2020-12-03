@@ -1,0 +1,13 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Raw/include/DetectorsRaw/RawFileReader.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/Raw/include/DetectorsRaw/RawFileReader.h">
+<area shape="rect" id="node2" href="$d3/ddd/EMCAL_2reconstruction_2run_2rawReaderFile_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/reconstruction/run/rawReaderFile.cxx" alt="" coords="5,117,248,173"/>
+<area shape="rect" id="node3" href="$d5/d52/bench__Raw_8cxx.html" title="Benchmark MID raw data decoder. " alt="" coords="273,117,479,173"/>
+<area shape="rect" id="node4" href="$d8/d4c/testRaw_8cxx.html" title="Test MID raw data decoder. " alt="" coords="504,117,691,173"/>
+<area shape="rect" id="node5" href="$d6/dbb/PHOS_2reconstruction_2run_2rawReaderFile_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/PHOS\l/reconstruction/run/rawReaderFile.cxx" alt="" coords="715,117,957,173"/>
+<area shape="rect" id="node6" href="$d6/dad/SimpleRawReader_8h.html" title="Definition of the simple reader for non&#45;DPL tests. " alt="" coords="981,109,1208,180"/>
+<area shape="rect" id="node9" href="$d0/d99/rawfile-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/rawfile&#45;reader&#45;workflow.cxx" alt="" coords="1233,117,1439,173"/>
+<area shape="rect" id="node10" href="$d0/d6f/rawfileCheck_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/rawfileCheck.cxx" alt="" coords="1463,117,1643,173"/>
+<area shape="rect" id="node11" href="$db/de5/Raw_2src_2RawFileReader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/RawFileReader.cxx" alt="" coords="1667,117,1847,173"/>
+<area shape="rect" id="node12" href="$d3/d87/RawFileReaderWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/RawFileReaderWorkflow.cxx" alt="" coords="1872,117,2091,173"/>
+<area shape="rect" id="node7" href="$d5/dfd/SimpleRawReader_8cxx.html" title="Simple reader for non&#45;DPL tests. " alt="" coords="894,228,1077,284"/>
+<area shape="rect" id="node8" href="$d3/d09/testRawReaderWriter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/test/testRawReaderWriter.cxx" alt="" coords="1101,228,1304,284"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/TestingSimTools/include/MIDTestingSimTools/HitFinder.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/TestingSimTools/include/MIDTestingSimTools/HitFinder.h">
+<area shape="rect" id="node2" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1512,199,1661,225"/>
+<area shape="rect" id="node18" href="$d6/d31/Cluster2D_8h.html" title="Reconstructed cluster per RPC. " alt="" coords="2556,124,2753,151"/>
+<area shape="rect" id="node21" href="$d4/d54/DataFormats_2Detectors_2MUON_2MID_2include_2DataFormatsMID_2Track_8h.html" title="Reconstructed MID track. " alt="" coords="2361,124,2532,151"/>
+<area shape="rect" id="node23" href="$de/d0c/GeometryTransformer_8h.html" title="Geometry transformer for MID. " alt="" coords="2119,124,2337,151"/>
+<area shape="rect" id="node3" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2069,363,2205,389"/>
+<area shape="rect" id="node6" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="5,281,163,307"/>
+<area shape="rect" id="node17" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="2111,281,2292,307"/>
+<area shape="rect" id="node4" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1948,437,2132,464"/>
+<area shape="rect" id="node5" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2157,437,2315,464"/>
+<area shape="rect" id="node24" href="$dc/de4/DetectorParameters_8h.html" title="Useful detector parameters for MID. " alt="" coords="2149,199,2358,225"/>
+</map>

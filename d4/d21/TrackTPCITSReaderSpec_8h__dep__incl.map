@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/TrackTPCITSReaderSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/GlobalTrackingWorkflow/include/GlobalTrackingWorkflow/TrackTPCITSReaderSpec.h">
+<area shape="rect" id="node2" href="$df/de7/AODProducerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx" alt="" coords="5,131,215,187"/>
+<area shape="rect" id="node3" href="$d2/dfc/primary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/primary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="239,124,463,195"/>
+<area shape="rect" id="node4" href="$d9/d62/secondary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/secondary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="487,124,711,195"/>
+<area shape="rect" id="node5" href="$dd/d3a/TrackTPCITSReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TrackTPCITSReaderSpec.cxx" alt="" coords="736,131,1017,187"/>
+<area shape="rect" id="node6" href="$d6/d1f/tof-calibinfo-reader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;calibinfo&#45;reader.cxx" alt="" coords="1042,124,1266,195"/>
+<area shape="rect" id="node7" href="$de/d48/tof-matcher-global_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;matcher&#45;global.cxx" alt="" coords="1290,124,1514,195"/>
+<area shape="rect" id="node8" href="$da/dfd/tof-reco-workflow_8cxx.html" title="Basic DPL workflow for TOF reconstruction starting from digits. " alt="" coords="1538,124,1762,195"/>
+<area shape="rect" id="node9" href="$d1/d67/TrackInterpolationWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TrackInterpolationWorkflow.cxx" alt="" coords="1786,124,2018,195"/>
+<area shape="rect" id="node10" href="$de/d40/TRDTrackingWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TRD\l/workflow/src/TRDTrackingWorkflow.cxx" alt="" coords="2043,131,2305,187"/>
+</map>

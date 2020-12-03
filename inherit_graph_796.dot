@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::emcal::RawReaderMemory",height=0.2,width=0.4,color="black",URL="$db/d07/classo2_1_1emcal_1_1RawReaderMemory.html",tooltip="Reader for raw data produced by the Readout application in in-memory format. "];
+}

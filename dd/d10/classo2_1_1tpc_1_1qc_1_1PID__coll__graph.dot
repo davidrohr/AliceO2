@@ -1,0 +1,8 @@
+digraph "o2::tpc::qc::PID"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::qc::PID\n||+ PID()\l+ processTrack()\l+ initializeHistograms()\l+ resetHistograms()\l+ dumpToFile()\l+ getHistograms1D()\l+ getHistograms1D()\l+ getHistograms2D()\l+ getHistograms2D()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

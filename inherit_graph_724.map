@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$dc/d08/classo2_1_1dataformats_1_1VertexBase.html" title="o2::dataformats::VertexBase" alt="" coords="5,50,195,77"/>
+<area shape="rect" id="node2" href="$dd/ded/classo2_1_1dataformats_1_1Vertex.html" title="o2::dataformats::Vertex\l\&lt; Stamp \&gt;" alt="" coords="245,5,404,47"/>
+<area shape="rect" id="node3" href="$dd/ded/classo2_1_1dataformats_1_1Vertex.html" title="o2::dataformats::Vertex\l\&lt; TimeStampWithError\&lt;\l float, float \&gt; \&gt;" alt="" coords="243,71,407,127"/>
+<area shape="rect" id="node4" href="$d1/d87/classo2_1_1dataformats_1_1PrimaryVertex.html" title="o2::dataformats::Primary\lVertex" alt="" coords="455,79,621,120"/>
+<area shape="rect" id="node5" href="$d1/d55/structo2_1_1vertexing_1_1VertexSeed.html" title="o2::vertexing::VertexSeed" alt="" coords="669,86,843,113"/>
+</map>

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GPUCA_NAMESPACE::gpu\l::SplineUtil::Switch\l\< false, ValTrueT \>",height=0.2,width=0.4,color="black",URL="$df/d22/classGPUCA__NAMESPACE_1_1gpu_1_1SplineUtil_1_1Switch_3_01false_00_01ValTrueT_01_4.html"];
+}

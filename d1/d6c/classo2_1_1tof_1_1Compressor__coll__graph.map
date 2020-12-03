@@ -1,0 +1,12 @@
+<map id="o2::tof::Compressor&lt; RDH, verbose &gt;" name="o2::tof::Compressor&lt; RDH, verbose &gt;">
+<area shape="rect" id="node2" href="$d5/d06/structo2_1_1header_1_1RAWDataHeaderV6.html" title="{o2::header::RAWDataHeaderV6\n|+ zero0\l+ word1\l+ word2\l+ word3\l+ word4\l+ pageCnt\l+ stop\l+ zero4\l+ word5\l+ word6\l+ detectorField\l|}" alt="" coords="715,292,925,516"/>
+<area shape="rect" id="node4" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="326,5,394,83"/>
+<area shape="rect" id="node9" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="1755,5,1823,83"/>
+<area shape="rect" id="node14" href="$d1/dc5/structo2_1_1tof_1_1Compressor_1_1CheckerSummary__t.html" title="{o2::tof::Compressor\l\&lt; RDH, verbose \&gt;::CheckerSummary_t\n||}" alt="" coords="1090,358,1345,450"/>
+<area shape="rect" id="node20" href="$d9/d53/structo2_1_1tof_1_1Compressor_1_1TRMChainCounters__t.html" title="{o2::tof::Compressor\l\&lt; RDH, verbose \&gt;::TRMChain\lCounters_t\n||}" alt="" coords="1369,351,1570,457"/>
+<area shape="rect" id="node21" href="$d7/d0a/structo2_1_1tof_1_1Compressor_1_1TRMCounters__t.html" title="{o2::tof::Compressor\l\&lt; RDH, verbose \&gt;::TRMCounters_t\n||}" alt="" coords="1594,358,1825,450"/>
+<area shape="rect" id="node24" href="$de/d81/structo2_1_1tof_1_1Compressor_1_1DRMCounters__t.html" title="{o2::tof::Compressor\l\&lt; RDH, verbose \&gt;::DRMCounters_t\n||}" alt="" coords="1849,358,2082,450"/>
+<area shape="rect" id="node27" href="$d0/d5f/structo2_1_1tof_1_1Compressor_1_1SpiderSummary__t.html" title="{o2::tof::Compressor\l\&lt; RDH, verbose \&gt;::SpiderSummary_t\n||}" alt="" coords="2341,358,2584,450"/>
+<area shape="rect" id="node16" href="$d7/d35/structo2_1_1tof_1_1Compressor_1_1DecoderSummary__t.html" title="{o2::tof::Compressor\l\&lt; RDH, verbose \&gt;::DecoderSummary_t\n|+ tofOrbit\l+ drmHeadW5\l+ drmDataTrailer\l+ ltmDataHeader\l+ trmDataTrailer\l+ trmChainHeader\l+ trmChainTrailer\l|}" alt="" coords="2814,314,3069,494"/>
+<area shape="rect" id="node26" href="$d7/d63/classlong.html" title="{long\n||}" alt="" coords="3762,365,3809,443"/>
+</map>

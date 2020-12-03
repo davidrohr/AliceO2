@@ -1,0 +1,18 @@
+<map id="lambdakzerofinder" name="lambdakzerofinder">
+<area shape="rect" id="node2" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; double \&gt;\n||+ Configurable()\l}" alt="" coords="280,1005,467,1097"/>
+<area shape="rect" id="node3" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; double \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="69,777,256,869"/>
+<area shape="rect" id="node4" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; double \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="5,483,192,575"/>
+<area shape="rect" id="node7" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; T \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="280,233,467,325"/>
+<area shape="rect" id="node14" href="$da/d2f/structo2_1_1framework_1_1ConfigurableBase.html" title="{o2::framework::Configurable\lBase\&lt; float \&gt;\n||+ ConfigurableBase()\l}" alt="" coords="491,483,677,575"/>
+<area shape="rect" id="node16" href="$d4/d79/structo2_1_1framework_1_1OutputObj.html" title="{o2::framework::OutputObj\l\&lt; TH1F \&gt;\n||+ spec()\l+ OutputObj()\l+ OutputObj()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setHash()\l+ operator&#45;\&gt;()\l+ operator*()\l+ ref()\l}" alt="" coords="898,704,1070,943"/>
+<area shape="rect" id="node21" href="$da/d96/structo2_1_1framework_1_1InputSpec.html" title="{o2::framework::InputSpec\n||+ InputSpec()\l+ InputSpec()\l+ InputSpec()\l+ InputSpec()\l+ InputSpec()\l+ operator==()\l}" alt="" coords="1418,204,1590,355"/>
+<area shape="rect" id="node26" href="$d4/d79/structo2_1_1framework_1_1OutputObj.html" title="{o2::framework::OutputObj\&lt; T \&gt;\n||+ OutputObj()\l+ OutputObj()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setObject()\l+ setHash()\l+ spec()\l+ operator&#45;\&gt;()\l+ operator*()\l+ ref()\l}" alt="" coords="982,417,1186,641"/>
+<area shape="rect" id="node9" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; T \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="280,483,467,575"/>
+<area shape="rect" id="node13" href="$da/def/structo2_1_1framework_1_1ConfigurablePolicyConst.html" title="{o2::framework::Configurable\lPolicyConst\&lt; float \&gt;\n||+ ConfigurablePolicyConst()\l}" alt="" coords="491,777,677,869"/>
+<area shape="rect" id="node10" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; T, IP \&gt;\n||+ Configurable()\l}" alt="" coords="280,777,467,869"/>
+<area shape="rect" id="node12" href="$d8/d71/structo2_1_1framework_1_1Configurable.html" title="{o2::framework::Configurable\l\&lt; float \&gt;\n||+ Configurable()\l}" alt="" coords="491,1005,677,1097"/>
+<area shape="rect" id="node15" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="537,241,583,318"/>
+<area shape="rect" id="node19" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="1614,241,1682,318"/>
+<area shape="rect" id="node28" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::V0Data \&gt;\n||}" alt="" coords="1093,1005,1261,1097"/>
+<area shape="rect" id="node29" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\&lt; T \&gt;\n||}" alt="" coords="1095,785,1295,862"/>
+</map>

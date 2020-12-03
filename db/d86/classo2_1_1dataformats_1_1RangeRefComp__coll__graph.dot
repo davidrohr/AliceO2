@@ -1,0 +1,8 @@
+digraph "o2::dataformats::RangeRefComp&lt; NBitsN &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{o2::dataformats::RangeRef\lComp\< NBitsN \>\n||+ RangeRefComp()\l+ RangeRefComp()\l+ RangeRefComp()\l+ set()\l+ getFirstEntry()\l+ getEntries()\l+ setFirstEntry()\l+ setEntries()\l+ changeEntriesBy()\l+ operator==()\l+ ClassDefNV()\l+ getMaxFirstEntry()\l+ getMaxEntries()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

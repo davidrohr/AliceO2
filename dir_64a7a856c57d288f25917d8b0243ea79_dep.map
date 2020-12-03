@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/reconstruction/run" name="/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/reconstruction/run">
+<area shape="rect" id="node1" href="dir_64a7a856c57d288f25917d8b0243ea79.html" title="run" alt="" coords="53,52,125,100"/>
+<area shape="rect" id="node2" href="dir_31b4a6c34d54b2347b970402ffd45e26.html" title="include" alt="" coords="5,148,77,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000492_000407.html" title="2" alt="" coords="65,128,73,142"/>
+<area shape="rect" id="node3" href="dir_26637d1bd82229bc9ed97f7e706be743.html" title="Raw" alt="" coords="101,148,173,196"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000492_000665.html" title="1" alt="" coords="121,120,129,135"/>
+<area shape="rect" id="clust1" href="dir_da16e9ad2b18bb132f2d9a9746692e88.html" title="reconstruction" alt="" coords="37,16,141,111"/>
+</map>

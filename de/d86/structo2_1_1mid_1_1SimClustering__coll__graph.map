@@ -1,0 +1,7 @@
+<map id="o2::mid::SimClustering" name="o2::mid::SimClustering">
+<area shape="rect" id="node2" href="$d4/d78/classo2_1_1mid_1_1ClusterLabeler.html" title="{o2::mid::ClusterLabeler\n||+ process()\l+ getContainer()\l}" alt="" coords="5,27,163,119"/>
+<area shape="rect" id="node3" href="$d6/d6a/classo2_1_1mid_1_1PreClusterHelper.html" title="{o2::mid::PreClusterHelper\n||+ getArea()\l+ getArea()\l}" alt="" coords="187,27,360,119"/>
+<area shape="rect" id="node4" href="$d6/d54/classo2_1_1mid_1_1PreClusterLabeler.html" title="{o2::mid::PreClusterLabeler\n||+ process()\l+ getContainer()\l}" alt="" coords="385,27,562,119"/>
+<area shape="rect" id="node5" href="$d5/dae/classo2_1_1mid_1_1Clusterizer.html" title="Clusterizing algorithm for MID. " alt="" coords="586,5,723,141"/>
+<area shape="rect" id="node7" href="$d6/dde/classo2_1_1mid_1_1PreClusterizer.html" title="Pre&#45;clustering algorithm for MID. " alt="" coords="898,5,1054,141"/>
+</map>

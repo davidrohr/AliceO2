@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::tof::Strip",height=0.2,width=0.4,color="black",URL="$d4/dc1/classo2_1_1tof_1_1Strip.html",tooltip="Container for similated points connected to a given TOF strip This will be used in order to allow a m..."];
+}

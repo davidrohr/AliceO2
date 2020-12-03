@@ -1,0 +1,14 @@
+digraph "The Data Header"
+{
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+  Node0 [label="The Data Header",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="Primitive data format\l definitions for ALICE O2",height=0.2,width=0.4,color="black",URL="$d8/d63/group__aliceo2__dataformat__primitives.html",tooltip="This module collects information about all primitive data formats. "];
+  Node2 [label="Length defines for\l DataHeader members",height=0.2,width=0.4,color="black",URL="$d1/d7a/group__dataheader__defines.html"];
+  Node3 [label="Defines for data description",height=0.2,width=0.4,color="black",URL="$d7/d9b/group__data__description__defines.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+}

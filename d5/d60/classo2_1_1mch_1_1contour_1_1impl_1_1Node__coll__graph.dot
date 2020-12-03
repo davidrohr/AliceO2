@@ -1,0 +1,8 @@
+digraph "o2::mch::contour::impl::Node&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::mch::contour::impl\l::Node\< T \>\n||+ Node()\l+ Node()\l+ ~Node()\l+ left()\l+ right()\l+ cardinality()\l+ setCardinality()\l+ increaseCardinality()\l+ decreaseCardinality()\l+ goLeft()\l+ goRight()\l+ isPotent()\l+ potent()\l+ midpoint()\l+ interval()\l+ insertInterval()\l+ deleteInterval()\l+ setLeft()\l+ setRight()\l+ contribution()\l+ update()\l+ promote()\l+ demote()\l+ isLeaf()\l+ getNodeList()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

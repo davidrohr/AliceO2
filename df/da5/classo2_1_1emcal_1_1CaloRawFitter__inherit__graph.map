@@ -1,0 +1,4 @@
+<map id="o2::emcal::CaloRawFitter" name="o2::emcal::CaloRawFitter">
+<area shape="rect" id="node2" href="$d5/d31/classo2_1_1emcal_1_1CaloRawFitterGamma2.html" title="Raw data fitting: Gamma&#45;2 function. " alt="" coords="5,644,192,809"/>
+<area shape="rect" id="node3" href="$d7/dd6/classo2_1_1emcal_1_1CaloRawFitterStandard.html" title="Raw data fitting: standard TMinuit fit. " alt="" coords="216,651,403,802"/>
+</map>

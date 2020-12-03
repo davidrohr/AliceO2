@@ -1,0 +1,20 @@
+digraph "AliHLTHOMERReader::DataSource"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{AliHLTHOMERReader::\lDataSource\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +fTCPConnection\n+fShmID\n+fShmSize" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +fShmKey" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{key_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +fHostname" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{const\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +fDataSize\n+fDataRead\n+fNdx\n+fTCPPort" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{unsigned\n||}",height=0.2,width=0.4,color="grey75"];
+  Node6 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +fType" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node6 [label="{DataSourceType\n||}",height=0.2,width=0.4,color="grey75"];
+  Node7 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +fData\n+fShmPtr" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{void *\n||}",height=0.2,width=0.4,color="grey75"];
+}

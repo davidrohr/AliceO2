@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TOF/include" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TOF/include">
+<area shape="rect" id="node2" href="dir_91b844c53d7b1788623423e1009a0b53.html" title="DataFormatsTOF" alt="" coords="37,63,161,111"/>
+<area shape="rect" id="node3" href="dir_d269712cc31e133b892a3b3f6424741a.html" title="Reconstruction" alt="" coords="43,159,154,207"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000124_000253.html" title="1" alt="" coords="103,133,111,147"/>
+<area shape="rect" id="node4" href="dir_4ab6b4cc6a7edbff49100e9123df213f.html" title="Common" alt="" coords="29,255,104,303"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000124_000035.html" title="1" alt="" coords="45,227,53,242"/>
+<area shape="rect" id="node5" href="dir_74593c7a91e03746ae2a516888bf9494.html" title="Common" alt="" coords="67,351,141,399"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000124_000104.html" title="1" alt="" coords="134,332,142,347"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000253_000035.html" title="12" alt="" coords="72,231,87,246"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000253_000104.html" title="1" alt="" coords="117,327,125,341"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000035_000253.html" title="1" alt="" coords="82,215,90,230"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000035_000104.html" title="1" alt="" coords="83,323,91,337"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000104_000035.html" title="5" alt="" coords="80,316,88,330"/>
+<area shape="rect" id="clust2" href="dir_52a450538d7572a32cbfb94425157f6b.html" alt="" coords="27,52,268,121"/>
+<area shape="rect" id="clust1" href="dir_b78a6db121207500afab70b350b99369.html" title="TOF" alt="" coords="16,16,279,132"/>
+</map>

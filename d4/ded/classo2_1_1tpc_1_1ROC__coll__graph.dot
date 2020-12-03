@@ -1,0 +1,8 @@
+digraph "o2::tpc::ROC"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::ROC\n||+ ROC()\l+ ROC()\l+ ROC()\l+ operator==()\l+ operator!=()\l+ operator\<()\l+ operator++()\l+ operator int()\l+ getRoc()\l+ side()\l+ rocType()\l+ isIROC()\l+ isOROC()\l+ getSector()\l+ looped()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

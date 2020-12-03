@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_04ece05d7c7fe751e39bd0511b9068fc {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Workflow" fontname="Helvetica", fontsize="10", URL="dir_04ece05d7c7fe751e39bd0511b9068fc.html"]
+  subgraph clusterdir_ade19310a6abca7155cb213ca0a7e06d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ade19310a6abca7155cb213ca0a7e06d.html"];
+    dir_ade19310a6abca7155cb213ca0a7e06d [shape=plaintext label="include"];
+    dir_b532b2383d71dcba275c1d731b7a58cd [shape=box label="MCHWorkflow" color="black" fillcolor="white" style="filled" URL="dir_b532b2383d71dcba275c1d731b7a58cd.html"];
+  }
+  }
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_b532b2383d71dcba275c1d731b7a58cd->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="3", labeldistance=1.5 headhref="dir_000646_000062.html"];
+}

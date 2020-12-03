@@ -1,0 +1,9 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Utilities/Mergers/include/Mergers/MergerBuilder.h" name="/home/runner/work/AliceO2/AliceO2/Utilities/Mergers/include/Mergers/MergerBuilder.h">
+<area shape="rect" id="node2" href="$db/d51/FullHistoryMerger_8cxx.html" title="Implementation of O2 Mergers, v0.1. " alt="" coords="5,109,185,165"/>
+<area shape="rect" id="node3" href="$d0/d24/IntegratingMerger_8cxx.html" title="Implementation of O2 Mergers, v0.1. " alt="" coords="209,109,389,165"/>
+<area shape="rect" id="node4" href="$d8/d56/MergerBuilder_8cxx.html" title="Definition of MergerBuilder for O2 Mergers. " alt="" coords="413,109,593,165"/>
+<area shape="rect" id="node5" href="$d4/dda/MergerInfrastructureBuilder_8cxx.html" title="Definition of Mergers&#39; Infrastructure Builder. " alt="" coords="617,109,848,165"/>
+<area shape="rect" id="node6" href="$d9/de7/mergersTopologyExample_8cxx.html" title="This is a DPL workflow to see Mergers in action. " alt="" coords="873,109,1097,165"/>
+<area shape="rect" id="node7" href="$dc/daf/mergersBenchmarkTopology_8cxx.html" title="This is a DPL workflow to benchmark Mergers. " alt="" coords="1121,109,1363,165"/>
+<area shape="rect" id="node8" href="$dc/dbc/multinodeBenchmarkMergers_8cxx.html" title="This is a DPL workflow to run Mergers and an input proxy for benchmarks. " alt="" coords="1388,109,1635,165"/>
+</map>

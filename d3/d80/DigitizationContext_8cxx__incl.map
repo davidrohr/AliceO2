@@ -1,0 +1,28 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/src/DigitizationContext.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/simulation/src/DigitizationContext.cxx">
+<area shape="rect" id="node2" href="$d1/def/DigitizationContext_8h.html" title="SimulationDataFormat\l/DigitizationContext.h" alt="" coords="1015,109,1167,151"/>
+<area shape="rect" id="node45" href="$d2/d1f/MCEventHeader_8h.html" title="SimulationDataFormat\l/MCEventHeader.h" alt="" coords="1690,199,1842,240"/>
+<area shape="rect" id="node48" href="$d7/d61/NameConf_8h.html" title="Definition of the Names Generator class. " alt="" coords="1959,199,2167,240"/>
+<area shape="rect" id="node53" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="3135,206,3285,233"/>
+<area shape="rect" id="node6" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="1332,199,1541,240"/>
+<area shape="rect" id="node13" href="$d4/d5f/BunchFilling_8h.html" title="CommonDataFormat/BunchFilling.h" alt="" coords="617,206,848,233"/>
+<area shape="rect" id="node16" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="1030,288,1238,329"/>
+<area shape="rect" id="node39" href="$de/d28/GRPObject_8h.html" title="Header of the General Run Parameters object. " alt="" coords="873,199,1038,240"/>
+<area shape="rect" id="node42" href="$df/d5b/GPUCommonLogger_8h.html" title="GPUCommonLogger.h" alt="" coords="438,206,593,233"/>
+<area shape="rect" id="node7" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1525,295,1682,322"/>
+<area shape="rect" id="node12" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="639,295,877,322"/>
+<area shape="rect" id="node21" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1158,377,1278,404"/>
+<area shape="rect" id="node32" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="732,377,888,404"/>
+<area shape="rect" id="node22" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="1459,452,1625,479"/>
+<area shape="rect" id="node23" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="1159,452,1384,479"/>
+<area shape="rect" id="node25" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="931,452,1134,479"/>
+<area shape="rect" id="node26" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2013,601,2149,628"/>
+<area shape="rect" id="node29" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="1270,527,1414,553"/>
+<area shape="rect" id="node31" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1007,527,1245,553"/>
+<area shape="rect" id="node27" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1890,676,2074,703"/>
+<area shape="rect" id="node28" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2099,676,2257,703"/>
+<area shape="rect" id="node37" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="540,452,723,479"/>
+<area shape="rect" id="node41" href="$da/d58/Units_8h.html" title="Header to collect definitions for different units. " alt="" coords="458,295,615,322"/>
+<area shape="rect" id="node47" href="$d6/d9d/MCEventStats_8h.html" title="SimulationDataFormat\l/MCEventStats.h" alt="" coords="1706,288,1858,329"/>
+<area shape="rect" id="node49" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="2194,295,2373,322"/>
+<area shape="rect" id="node62" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="2521,527,2702,553"/>
+</map>

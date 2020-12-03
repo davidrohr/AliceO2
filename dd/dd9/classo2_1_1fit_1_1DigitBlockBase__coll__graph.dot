@@ -1,0 +1,8 @@
+digraph "o2::fit::DigitBlockBase&lt; DigitBlock &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{o2::fit::DigitBlockBase\l\< DigitBlock \>\n||+ DigitBlockBase()\l+ DigitBlockBase()\l+ DigitBlockBase()\l+ ~DigitBlockBase()\l+ process()\l+ pop()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

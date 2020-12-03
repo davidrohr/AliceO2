@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Tracking/include/MCHTracking/Track.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Tracking/include/MCHTracking/Track.h">
+<area shape="rect" id="node2" href="$d5/d91/TrackFinder_8h.html" title="Definition of a class to reconstruct tracks. " alt="" coords="262,243,503,313"/>
+<area shape="rect" id="node4" href="$dd/dea/TrackFinderSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="5,369,272,425"/>
+<area shape="rect" id="node5" href="$d7/d7f/TrackFinderOriginal_8h.html" title="Definition of a class to reconstruct tracks with the original algorithm. " alt="" coords="527,243,769,313"/>
+<area shape="rect" id="node7" href="$d7/d30/TrackFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="1017,361,1271,432"/>
+<area shape="rect" id="node8" href="$d2/d6f/MUON_2MCH_2Tracking_2include_2MCHTracking_2TrackFitter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/include/MCHTracking\l/TrackFitter.h" alt="" coords="759,124,1001,195"/>
+<area shape="rect" id="node10" href="$db/d54/TrackFitterSpec_8cxx.html" title="Implementation of a data processor to read, refit and send tracks with attached clusters. " alt="" coords="1042,250,1302,306"/>
+<area shape="rect" id="node11" href="$d9/da9/Detectors_2MUON_2MCH_2Tracking_2src_2Track_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/src/Track.cxx" alt="" coords="1376,131,1571,187"/>
+<area shape="rect" id="node3" href="$d1/d8b/TrackFinder_8cxx.html" title="Implementation of a class to reconstruct tracks. " alt="" coords="297,369,527,425"/>
+<area shape="rect" id="node6" href="$d6/d6d/TrackFinderOriginal_8cxx.html" title="Implementation of a class to reconstruct tracks with the original algorithm. " alt="" coords="552,369,827,425"/>
+<area shape="rect" id="node9" href="$de/db3/MUON_2MCH_2Tracking_2src_2TrackFitter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Tracking/src/TrackFitter.cxx" alt="" coords="793,250,1018,306"/>
+</map>

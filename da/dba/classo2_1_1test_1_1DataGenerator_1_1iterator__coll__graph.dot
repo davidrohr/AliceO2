@@ -1,0 +1,10 @@
+digraph "o2::test::DataGenerator&lt; ValueT, ModelT &gt;::iterator&lt; ContainerT &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{o2::test::DataGenerator\l\< ValueT, ModelT \>::iterator\l\< ContainerT \>\n||+ iterator()\l+ ~iterator()\l+ operator++()\l+ operator++()\l+ operator+()\l+ operator*()\l+ operator==()\l+ operator!=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{_iterator_base\n||}",height=0.2,width=0.4,color="black",URL="$da/dc7/class__iterator__base.html"];
+}

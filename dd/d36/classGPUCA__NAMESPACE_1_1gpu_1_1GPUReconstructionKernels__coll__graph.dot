@@ -1,0 +1,12 @@
+digraph "GPUCA_NAMESPACE::gpu::GPUReconstructionKernels&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="{GPUCA_NAMESPACE::gpu\l::GPUReconstructionKernels\< T \>\n|# single\l# allSlices\l# REG\l# GPUCA_THREAD_COUNT\l# single\l# mergeAll\l# withinSlice\l# withinSlice\l# withinSlice\l# withinSlice\l|+ ~GPUReconstructionKernels()\l+ GPUReconstructionKernels()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUPtr1()\l# GPUPtr2()\l# GPUCA_KRNL()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL()\l# GPUCA_KRNL()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l# GPUCA_KRNL_LB()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{T\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #step0\n#step1\n#mergeMode\n#step2\n#mode\n#size\n#step4\n#simple\n#useOrigTrack\lParam\n#iSlice\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{unsigned\n||}",height=0.2,width=0.4,color="grey75"];
+}

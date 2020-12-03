@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$de/dac/structo2_1_1soa_1_1CombinationsIndexPolicyBase.html" title="o2::soa::CombinationsIndex\lPolicyBase\&lt; Ts... \&gt;" alt="" coords="5,168,191,209"/>
+<area shape="rect" id="node2" href="$d0/d11/structo2_1_1soa_1_1CombinationsBlockIndexPolicyBase.html" title="o2::soa::CombinationsBlock\lIndexPolicyBase\&lt; T, Ts... \&gt;" alt="" coords="243,37,429,79"/>
+<area shape="rect" id="node5" href="$d0/d11/structo2_1_1soa_1_1CombinationsBlockIndexPolicyBase.html" title="o2::soa::CombinationsBlock\lIndexPolicyBase\&lt; T, Ts \&gt;" alt="" coords="243,103,429,144"/>
+<area shape="rect" id="node6" href="$d0/db2/structo2_1_1soa_1_1CombinationsFullIndexPolicy.html" title="o2::soa::CombinationsFull\lIndexPolicy\&lt; Ts \&gt;" alt="" coords="249,168,423,209"/>
+<area shape="rect" id="node7" href="$de/ddd/structo2_1_1soa_1_1CombinationsStrictlyUpperIndexPolicy.html" title="o2::soa::CombinationsStrictly\lUpperIndexPolicy\&lt; Ts \&gt;" alt="" coords="239,233,433,275"/>
+<area shape="rect" id="node8" href="$d4/d13/structo2_1_1soa_1_1CombinationsUpperIndexPolicy.html" title="o2::soa::CombinationsUpper\lIndexPolicy\&lt; Ts \&gt;" alt="" coords="242,299,430,340"/>
+<area shape="rect" id="node3" href="$d3/d63/structo2_1_1soa_1_1CombinationsBlockFullIndexPolicy.html" title="o2::soa::CombinationsBlock\lFullIndexPolicy\&lt; T, Ts \&gt;" alt="" coords="481,5,668,47"/>
+<area shape="rect" id="node4" href="$d1/d4d/structo2_1_1soa_1_1CombinationsBlockUpperIndexPolicy.html" title="o2::soa::CombinationsBlock\lUpperIndexPolicy\&lt; T, Ts \&gt;" alt="" coords="481,71,668,112"/>
+</map>

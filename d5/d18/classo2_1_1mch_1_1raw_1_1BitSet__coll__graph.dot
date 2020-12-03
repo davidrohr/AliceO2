@@ -1,0 +1,8 @@
+digraph "o2::mch::raw::BitSet"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::raw::BitSet\n||+ BitSet()\l+ BitSet()\l+ operator==()\l+ operator!=()\l+ any()\l+ append()\l+ count()\l+ clear()\l+ isEmpty()\l+ set()\l+ get()\l+ grow()\l+ last()\l+ size()\l+ len()\l+ maxlen()\l+ pruneFirst()\l+ setFast()\l+ setFromBytes()\l+ setRangeFromString()\l+ stringLSBLeft()\l+ stringLSBRight()\l+ subset()\l+ uint8()\l+ uint16()\l+ uint32()\l+ uint64()\l+ BitSet()\l+ BitSet()\l+ BitSet()\l+ BitSet()\l+ append()\l+ append()\l+ append()\l+ append()\l+ setRangeFromUint()\l+ setRangeFromUint()\l+ setRangeFromUint()\l+ setRangeFromUint()\l+ maxSize()\l* BitSet()\l* BitSet()\l* BitSet()\l* BitSet()\l* append()\l* append()\l* append()\l* append()\l* setRangeFromUint()\l* setRangeFromUint()\l* setRangeFromUint()\l* setRangeFromUint()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

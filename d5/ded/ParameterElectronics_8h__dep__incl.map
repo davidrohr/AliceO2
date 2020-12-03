@@ -1,0 +1,27 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/include/TPCBase/ParameterElectronics.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/base/include/TPCBase/ParameterElectronics.h">
+<area shape="rect" id="node2" href="$db/d6a/MatchTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTOF.cxx" alt="" coords="5,131,229,187"/>
+<area shape="rect" id="node3" href="$dc/d59/MatchTPCITS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx" alt="" coords="253,131,477,187"/>
+<area shape="rect" id="node4" href="$dc/d71/CDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/src/CDBInterface.cxx" alt="" coords="502,131,687,187"/>
+<area shape="rect" id="node5" href="$d0/d64/ParameterElectronics_8cxx.html" title="Implementation of the parameter class for the detector electronics. " alt="" coords="711,131,942,187"/>
+<area shape="rect" id="node6" href="$d1/d8a/testTPCCDBInterface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/base/test/testTPCCDBInterface.cxx" alt="" coords="966,131,1205,187"/>
+<area shape="rect" id="node7" href="$da/d69/testTPCParameters_8cxx.html" title="This task tests the Parameter handling. " alt="" coords="1229,131,1454,187"/>
+<area shape="rect" id="node8" href="$d4/d15/TrackInterpolation_8cxx.html" title="Implementation of the TrackInterpolation class. " alt="" coords="1478,124,1658,195"/>
+<area shape="rect" id="node9" href="$d4/d2e/GPUCATracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/GPUCATracking.cxx" alt="" coords="1682,131,1939,187"/>
+<area shape="rect" id="node10" href="$d4/d7c/HardwareClusterDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/HardwareCluster\lDecoder.cxx" alt="" coords="1964,124,2196,195"/>
+<area shape="rect" id="node11" href="$d5/dc0/TPCFastTransformHelperO2_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/TPCFastTransform\lHelperO2.cxx" alt="" coords="2221,124,2467,195"/>
+<area shape="rect" id="node12" href="$d6/d42/testTPCFastTransform_8cxx.html" title="This task tests the TPC Fast Transformation. " alt="" coords="2492,124,2705,195"/>
+<area shape="rect" id="node13" href="$dd/d94/DigitContainer_8h.html" title="Definition of the Digit Container. " alt="" coords="2855,480,3078,551"/>
+<area shape="rect" id="node15" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="2971,717,3155,773"/>
+<area shape="rect" id="node17" href="$df/d53/DigitContainer_8cxx.html" title="Implementation of the Digit Container. " alt="" coords="2708,606,2927,662"/>
+<area shape="rect" id="node19" href="$d5/dcb/DigitGlobalPad_8h.html" title="Definition of the GlobalPad container. " alt="" coords="2881,243,3103,313"/>
+<area shape="rect" id="node23" href="$d0/d45/SAMPAProcessing_8h.html" title="Definition of the SAMPA response. " alt="" coords="3219,124,3442,195"/>
+<area shape="rect" id="node26" href="$d0/de5/VertexTrackMatcher_8cxx.html" title="Class for vertex track association. " alt="" coords="3467,131,3659,187"/>
+<area shape="rect" id="node14" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="2951,599,3174,669"/>
+<area shape="rect" id="node18" href="$dd/d5e/testTPCDigitContainer_8cxx.html" title="This task tests the DigitContainer of the TPC digitization. " alt="" coords="3197,606,3469,662"/>
+<area shape="rect" id="node16" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="3455,717,3670,773"/>
+<area shape="rect" id="node20" href="$d0/d60/DigitTime_8h.html" title="Definition of the Time Bin container. " alt="" coords="2881,361,3103,432"/>
+<area shape="rect" id="node22" href="$d1/ddd/DigitGlobalPad_8cxx.html" title="Implementation of the Pad container. " alt="" coords="3127,369,3350,425"/>
+<area shape="rect" id="node21" href="$dd/dcd/DigitTime_8cxx.html" title="Implementation of the Time Bin container. " alt="" coords="3103,487,3295,543"/>
+<area shape="rect" id="node24" href="$d1/dd8/SAMPAProcessing_8cxx.html" title="Implementation of the SAMPA response. " alt="" coords="3127,250,3375,306"/>
+<area shape="rect" id="node25" href="$d0/d5c/testTPCSAMPAProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/test/testTPCSAMPAProcessing.cxx" alt="" coords="3449,250,3751,306"/>
+</map>

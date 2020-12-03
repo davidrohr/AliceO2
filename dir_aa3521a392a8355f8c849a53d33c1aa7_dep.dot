@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/EMCAL/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ed32e563080284594a91de8f304ad307 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="EMCAL" fontname="Helvetica", fontsize="10", URL="dir_ed32e563080284594a91de8f304ad307.html"]
+  dir_aa3521a392a8355f8c849a53d33c1aa7 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_aa3521a392a8355f8c849a53d33c1aa7.html"];
+  }
+  dir_3e9d4b8f9a8320be9d9c70c9c7d173dc [shape=box label="include" color="red" URL="dir_3e9d4b8f9a8320be9d9c70c9c7d173dc.html"];
+  dir_aa3521a392a8355f8c849a53d33c1aa7->dir_3e9d4b8f9a8320be9d9c70c9c7d173dc [headlabel="10", labeldistance=1.5 headhref="dir_000165_000113.html"];
+}

@@ -1,0 +1,16 @@
+digraph "o2::tpc::ClusterNativeHelper::TreeWriter::BranchData"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::ClusterNativeHelper\l::TreeWriter::BranchData\n||+ operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +qTot\n+qMax" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{uint16_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +flags" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{uint8_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +pad\n+time\n+sigmaTime\n+sigmaPad" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{float\n||}",height=0.2,width=0.4,color="black",URL="$d4/dc3/classfloat.html"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +sector\n+padrow" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+}

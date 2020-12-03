@@ -1,0 +1,7 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/GeometryParameters.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base/include/MIDBase/GeometryParameters.h">
+<area shape="rect" id="node2" href="$dd/df8/GeometryParameters_8cxx.html" title="Implementation of the geometrical parameters for MID. " alt="" coords="5,131,265,187"/>
+<area shape="rect" id="node3" href="$dc/d25/GeometryTransformer_8cxx.html" title="Geometry transformer for MID. " alt="" coords="289,131,552,187"/>
+<area shape="rect" id="node4" href="$d6/d73/MUON_2MID_2Base_2src_2Mapping_8cxx.html" title="Implementation of mapping for MID. " alt="" coords="576,131,761,187"/>
+<area shape="rect" id="node5" href="$d7/de7/MUON_2MID_2Simulation_2src_2Geometry_8cxx.html" title="Implementation of the trigger&#45;stations geometry. " alt="" coords="786,131,1010,187"/>
+<area shape="rect" id="node6" href="$d4/dc0/HitFinder_8cxx.html" title="Implementation of the hit finder for MID. " alt="" coords="1035,124,1215,195"/>
+</map>

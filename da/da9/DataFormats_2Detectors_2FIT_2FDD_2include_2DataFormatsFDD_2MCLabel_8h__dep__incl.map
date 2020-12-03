@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/MCLabel.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/FIT/FDD/include/DataFormatsFDD/MCLabel.h">
+<area shape="rect" id="node2" href="$d3/d51/FIT_2FDD_2simulation_2include_2FDDSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/include\l/FDDSimulation/Digitizer.h" alt="" coords="263,124,443,195"/>
+<area shape="rect" id="node4" href="$d2/d97/FDDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx" alt="" coords="246,250,461,306"/>
+<area shape="rect" id="node5" href="$dd/d24/FIT_2FDD_2workflow_2include_2FDDWorkflow_2DigitReaderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/include/FDDWorkflow\l/DigitReaderSpec.h" alt="" coords="680,124,923,195"/>
+<area shape="rect" id="node9" href="$d3/db6/ReconstructorSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/Reconstructor\lSpec.cxx" alt="" coords="947,124,1165,195"/>
+<area shape="rect" id="node10" href="$d8/dcd/FDDDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitWriterSpec.h" alt="" coords="1217,131,1431,187"/>
+<area shape="rect" id="node3" href="$d0/d8c/FIT_2FDD_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Digitizer.cxx" alt="" coords="5,250,221,306"/>
+<area shape="rect" id="node6" href="$dc/d21/FIT_2FDD_2workflow_2src_2DigitReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/DigitReaderSpec.cxx" alt="" coords="485,250,745,306"/>
+<area shape="rect" id="node7" href="$d7/d01/FIT_2FDD_2workflow_2src_2digits-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/digits\l&#45;reader&#45;workflow.cxx" alt="" coords="769,243,949,313"/>
+<area shape="rect" id="node8" href="$d6/d61/FIT_2FDD_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/workflow/src/RecoWorkflow.cxx" alt="" coords="973,250,1219,306"/>
+<area shape="rect" id="node11" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="1244,250,1460,306"/>
+</map>

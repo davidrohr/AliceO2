@@ -1,0 +1,8 @@
+digraph "o2::framework::DataSpecUtils"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::DataSpecUtils\n||+ match()\l+ match()\l+ match()\l+ match()\l+ match()\l+ match()\l+ match()\l+ find()\l+ partialMatch()\l+ partialMatch()\l+ partialMatch()\l+ partialMatch()\l+ match()\l+ describe()\l+ describe()\l+ label()\l+ label()\l+ restEndpoint()\l+ updateMatchingSubspec()\l+ updateMatchingSubspec()\l+ validate()\l+ validate()\l+ describe()\l+ asConcreteDataMatcher()\l+ asConcreteDataMatcher()\l+ asConcreteDataTypeMatcher()\l+ asConcreteDataTypeMatcher()\l+ asConcreteOrigin()\l+ asConcreteDataDescription()\l+ asOutputSpec()\l+ matchingInput()\l+ getOptionalSubSpec()\l+ getOptionalSubSpec()\l+ dataDescriptorMatcherFrom()\l+ dataDescriptorMatcherFrom()\l+ dataDescriptorMatcherFrom()\l+ includes()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

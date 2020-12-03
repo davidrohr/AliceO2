@@ -1,0 +1,16 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/PartRef.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/PartRef.h">
+<area shape="rect" id="node2" href="$d3/dbf/tpc-reco-workflow_8cxx.html" title="Basic DPL workflow for TPC reconstruction starting from digits. " alt="" coords="287,109,519,165"/>
+<area shape="rect" id="node3" href="$d8/deb/LifetimeHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/LifetimeHelpers.h" alt="" coords="543,109,786,165"/>
+<area shape="rect" id="node6" href="$dc/d3c/MessageSet_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/MessageSet.h" alt="" coords="810,109,1034,165"/>
+<area shape="rect" id="node12" href="$d1/d57/DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataRelayer.cxx" alt="" coords="1256,325,1436,381"/>
+<area shape="rect" id="node4" href="$d1/dd9/DeviceSpecHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DeviceSpecHelpers.cxx" alt="" coords="373,213,562,269"/>
+<area shape="rect" id="node5" href="$d4/d7a/LifetimeHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/LifetimeHelpers.cxx" alt="" coords="587,213,767,269"/>
+<area shape="rect" id="node7" href="$df/d59/DataRelayer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataRelayer.h" alt="" coords="806,213,1030,269"/>
+<area shape="rect" id="node8" href="$d3/d4b/DataProcessingDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataProcessing\lDevice.h" alt="" coords="101,317,335,388"/>
+<area shape="rect" id="node11" href="$dd/d27/CommonServices_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonServices.cxx" alt="" coords="359,325,539,381"/>
+<area shape="rect" id="node13" href="$d8/dd6/benchmark__DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_DataRelayer.cxx" alt="" coords="563,325,785,381"/>
+<area shape="rect" id="node14" href="$df/d93/benchmark__InputRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_InputRecord.cxx" alt="" coords="809,325,1027,381"/>
+<area shape="rect" id="node15" href="$dc/d6d/test__DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataRelayer.cxx" alt="" coords="1052,325,1232,381"/>
+<area shape="rect" id="node9" href="$db/dac/DataProcessingDevice_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingDevice.cxx" alt="" coords="5,436,212,492"/>
+<area shape="rect" id="node10" href="$d7/d54/runDataProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/runDataProcessing.cxx" alt="" coords="237,436,421,492"/>
+</map>

@@ -1,0 +1,47 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/CTF/test/test_ctf_io_fdd.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/CTF/test/test_ctf_io_fdd.cxx">
+<area shape="rect" id="node3" href="$d7/d61/NameConf_8h.html" title="Definition of the Names Generator class. " alt="" coords="2881,348,3089,389"/>
+<area shape="rect" id="node34" href="$d7/d65/FIT_2FDD_2reconstruction_2include_2FDDReconstruction_2CTFCoder_8h.html" title="FDDReconstruction/CTFCoder.h" alt="" coords="2642,109,2857,136"/>
+<area shape="rect" id="node66" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="691,355,832,382"/>
+<area shape="rect" id="node78" href="$d9/d15/Detectors_2FIT_2FDD_2base_2include_2FDDBase_2Constants_8h.html" title="FDDBase/Constants.h" alt="" coords="4177,445,4332,471"/>
+<area shape="rect" id="node4" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="3424,437,3632,479"/>
+<area shape="rect" id="node32" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="2787,445,2965,471"/>
+<area shape="rect" id="node13" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="3703,527,3823,553"/>
+<area shape="rect" id="node25" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="3318,527,3474,553"/>
+<area shape="rect" id="node14" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="3233,691,3399,717"/>
+<area shape="rect" id="node15" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="3657,609,3882,635"/>
+<area shape="rect" id="node17" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="4468,609,4671,635"/>
+<area shape="rect" id="node19" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="4747,765,4883,792"/>
+<area shape="rect" id="node22" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="4587,691,4731,717"/>
+<area shape="rect" id="node24" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="4273,691,4511,717"/>
+<area shape="rect" id="node20" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="4747,840,4931,867"/>
+<area shape="rect" id="node21" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="4955,840,5114,867"/>
+<area shape="rect" id="node30" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="3450,609,3633,635"/>
+<area shape="rect" id="node36" href="$de/d71/FIT_2FDD_2base_2include_2FDDBase_2Geometry_8h.html" title="FDDBase/Geometry.h" alt="" coords="2973,184,3125,211"/>
+<area shape="rect" id="node40" href="$d7/d75/FIT_2FDD_2include_2DataFormatsFDD_2CTF_8h.html" title="DataFormatsFDD/CTF.h" alt="" coords="2363,184,2530,211"/>
+<area shape="rect" id="node42" href="$d4/de7/rans_8h.html" title="header for public api " alt="" coords="1609,355,1703,382"/>
+<area shape="rect" id="node67" href="$d9/dc4/DataFormats_2Detectors_2FIT_2FDD_2include_2DataFormatsFDD_2Digit_8h.html" title="DataFormatsFDD/Digit.h" alt="" coords="3612,266,3780,293"/>
+<area shape="rect" id="node74" href="$d1/d18/FIT_2FDD_2include_2DataFormatsFDD_2ChannelData_8h.html" title="DataFormatsFDD/ChannelData.h" alt="" coords="4178,355,4395,382"/>
+<area shape="rect" id="node76" href="$d4/dbb/CTFCoderBase_8h.html" title="Declarations for CTFCoderBase class (support of external dictionaries) " alt="" coords="2642,266,2857,293"/>
+<area shape="rect" id="node41" href="$da/d91/EncodedBlocks_8h.html" title="DetectorsCommonDataFormats\l/EncodedBlocks.h" alt="" coords="2308,259,2516,300"/>
+<area shape="rect" id="node43" href="$dd/d65/FrequencyTable_8h.html" title="Histogram to depict frequencies of source symbols for rANS compression. " alt="" coords="1817,765,1943,792"/>
+<area shape="rect" id="node47" href="$d4/da1/helper_8h.html" title="various helper functions " alt="" coords="1707,840,1821,867"/>
+<area shape="rect" id="node50" href="$dd/d74/Utilities_2rANS_2include_2rANS_2Encoder_8h.html" title="Encoder.h" alt="" coords="2107,527,2189,553"/>
+<area shape="rect" id="node57" href="$dc/d62/Utilities_2rANS_2include_2rANS_2Decoder_8h.html" title="Decoder.h" alt="" coords="944,527,1027,553"/>
+<area shape="rect" id="node60" href="$d5/ddf/DedupEncoder_8h.html" title="DedupEncoder.h" alt="" coords="2269,445,2387,471"/>
+<area shape="rect" id="node62" href="$da/da6/DedupDecoder_8h.html" title="DedupDecoder.h" alt="" coords="971,445,1091,471"/>
+<area shape="rect" id="node63" href="$d9/de1/LiteralEncoder_8h.html" title="LiteralEncoder.h" alt="" coords="2109,445,2225,471"/>
+<area shape="rect" id="node64" href="$df/dfe/LiteralDecoder_8h.html" title="LiteralDecoder.h" alt="" coords="829,445,947,471"/>
+<area shape="rect" id="node51" href="$de/d8e/Utilities_2rANS_2include_2rANS_2internal_2Encoder_8h.html" title="internal/Encoder.h" alt="" coords="2222,609,2349,635"/>
+<area shape="rect" id="node53" href="$d2/d53/EncoderSymbol_8h.html" title="Structure containing all relevant information to encode a symbol. " alt="" coords="2683,691,2808,717"/>
+<area shape="rect" id="node55" href="$d8/dd9/SymbolTable_8h.html" title="Container for information needed to encode/decode a symbol of the alphabet. " alt="" coords="1536,609,1691,635"/>
+<area shape="rect" id="node52" href="$d7/d99/DecoderSymbol_8h.html" title="Structure containing all relevant information for decoding a rANS encoded symbol. ..." alt="" coords="2126,691,2253,717"/>
+<area shape="rect" id="node56" href="$d0/d51/SymbolStatistics_8h.html" title="Structure to depict the distribution of symbols in the source message. " alt="" coords="1563,691,1695,717"/>
+<area shape="rect" id="node58" href="$d6/dfb/Utilities_2rANS_2include_2rANS_2internal_2Decoder_8h.html" title="internal/Decoder.h" alt="" coords="2069,609,2197,635"/>
+<area shape="rect" id="node59" href="$dc/d3b/ReverseSymbolLookupTable_8h.html" title="Maps CDF back to source symbol &#45; needed for the decoder. " alt="" coords="904,601,1107,643"/>
+<area shape="rect" id="node68" href="$de/d64/RangeReference_8h.html" title="Class to refer to the 1st entry and N elements of some group in the continuous container. " alt="" coords="3215,355,3473,382"/>
+<area shape="rect" id="node70" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="3591,348,3801,389"/>
+<area shape="rect" id="node73" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="3825,355,4052,382"/>
+<area shape="rect" id="node69" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="3141,445,3299,471"/>
+<area shape="rect" id="node72" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="3707,445,3944,471"/>
+<area shape="rect" id="node79" href="$d3/d9d/PhysicsConstants_8h.html" title="Header to collect physics constants. " alt="" coords="4293,527,4550,553"/>
+</map>

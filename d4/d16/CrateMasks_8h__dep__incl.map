@@ -1,0 +1,15 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/CrateMasks.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Raw/include/MIDRaw/CrateMasks.h">
+<area shape="rect" id="node2" href="$d7/de8/raw-checker_8cxx.html" title="Raw data checker for MID. " alt="" coords="261,250,461,306"/>
+<area shape="rect" id="node3" href="$d2/d52/RawDataChecker_8h.html" title="Class to check the raw data. " alt="" coords="217,131,505,187"/>
+<area shape="rect" id="node5" href="$d9/d05/Detectors_2MUON_2MID_2Raw_2include_2MIDRaw_2Decoder_8h.html" title="MID raw data decoder. " alt="" coords="699,124,881,195"/>
+<area shape="rect" id="node11" href="$d2/d8f/CrateMasks_8cxx.html" title="MID crate masks. " alt="" coords="905,131,1109,187"/>
+<area shape="rect" id="node12" href="$d8/dc6/MUON_2MID_2Raw_2src_2Encoder_8cxx.html" title="MID raw data encoder. " alt="" coords="1134,131,1315,187"/>
+<area shape="rect" id="node13" href="$df/d66/RawDecoderSpec_8h.html" title="Data processor spec for MID raw decoder device. " alt="" coords="1361,124,1600,195"/>
+<area shape="rect" id="node4" href="$db/d34/RawDataChecker_8cxx.html" title="Class to check the raw data. " alt="" coords="5,250,236,306"/>
+<area shape="rect" id="node6" href="$d8/d6c/MID_2Raw_2exe_2rawdump_8cxx.html" title="Raw data dumper for MID. " alt="" coords="485,250,674,306"/>
+<area shape="rect" id="node7" href="$dc/d28/MUON_2MID_2Raw_2src_2Decoder_8cxx.html" title="MID raw data decoder. " alt="" coords="699,250,881,306"/>
+<area shape="rect" id="node8" href="$d5/d52/bench__Raw_8cxx.html" title="Benchmark MID raw data decoder. " alt="" coords="905,250,1112,306"/>
+<area shape="rect" id="node9" href="$d8/d4c/testRaw_8cxx.html" title="Test MID raw data decoder. " alt="" coords="1137,250,1323,306"/>
+<area shape="rect" id="node10" href="$d1/dc9/RawDecoderSpec_8cxx.html" title="Data processor spec for MID raw decoder device. " alt="" coords="1347,250,1614,306"/>
+<area shape="rect" id="node14" href="$d9/d38/MID_2Workflow_2src_2raw-to-digits-workflow_8cxx.html" title="MID raw to digits workflow. " alt="" coords="1639,243,1819,313"/>
+</map>

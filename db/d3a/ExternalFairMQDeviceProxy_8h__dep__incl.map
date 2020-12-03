@@ -1,0 +1,19 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/ExternalFairMQDeviceProxy.h">
+<area shape="rect" id="node2" href="$dc/d45/dcs-proxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/dcs&#45;proxy.cxx" alt="" coords="5,243,195,299"/>
+<area shape="rect" id="node3" href="$da/d2a/DCStoDPLconverter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/DCS\l/testWorkflow/DCStoDPLconverter.h" alt="" coords="59,131,298,187"/>
+<area shape="rect" id="node4" href="$de/d43/ReadoutAdapter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/ReadoutAdapter.h" alt="" coords="323,131,568,187"/>
+<area shape="rect" id="node7" href="$df/d93/CommonDataProcessors_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonDataProcessors.cxx" alt="" coords="593,131,813,187"/>
+<area shape="rect" id="node8" href="$dc/df3/ExternalFairMQDeviceProxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ExternalFairMQDeviceProxy.cxx" alt="" coords="837,131,1075,187"/>
+<area shape="rect" id="node9" href="$d1/dd3/test__ExternalFairMQDeviceProxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ExternalFairMQDevice\lProxy.cxx" alt="" coords="1100,124,1313,195"/>
+<area shape="rect" id="node10" href="$d4/d00/test__ExternalFairMQDeviceWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ExternalFairMQDevice\lWorkflow.cxx" alt="" coords="1337,124,1551,195"/>
+<area shape="rect" id="node11" href="$da/d19/test__RawDeviceInjector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/test_RawDeviceInjector.cxx" alt="" coords="1575,131,1809,187"/>
+<area shape="rect" id="node12" href="$d6/d4b/dpl-output-proxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/src/dpl&#45;output&#45;proxy.cxx" alt="" coords="1833,131,2013,187"/>
+<area shape="rect" id="node13" href="$df/de6/raw-proxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/src/raw&#45;proxy.cxx" alt="" coords="2037,131,2217,187"/>
+<area shape="rect" id="node14" href="$dc/dc8/DataSamplingReadoutAdapter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/include/DataSampling/DataSamplingReadout\lAdapter.h" alt="" coords="2241,124,2529,195"/>
+<area shape="rect" id="node16" href="$d1/de8/test__DataSampling_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/test_DataSampling.cxx" alt="" coords="2463,243,2670,299"/>
+<area shape="rect" id="node17" href="$dc/dbc/multinodeBenchmarkMergers_8cxx.html" title="This is a DPL workflow to run Mergers and an input proxy for benchmarks. " alt="" coords="2603,131,2850,187"/>
+<area shape="rect" id="node18" href="$d7/d5a/multinodeBenchmarkProducers_8cxx.html" title="This is a DPL workflow with TH1 producers used to benchmark Mergers. " alt="" coords="2873,131,3132,187"/>
+<area shape="rect" id="node5" href="$da/df2/ReadoutAdapter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ReadoutAdapter.cxx" alt="" coords="287,243,467,299"/>
+<area shape="rect" id="node6" href="$db/d1a/flpQualification_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/TestWorkflows\l/src/flpQualification.cxx" alt="" coords="491,243,725,299"/>
+<area shape="rect" id="node15" href="$dc/da2/DataSamplingReadoutAdapter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/src/DataSamplingReadoutAdapter.cxx" alt="" coords="2190,243,2439,299"/>
+</map>

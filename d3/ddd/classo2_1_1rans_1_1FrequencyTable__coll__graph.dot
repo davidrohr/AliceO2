@@ -1,0 +1,8 @@
+digraph "o2::rans::FrequencyTable"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::rans::FrequencyTable\n||+ FrequencyTable()\l+ FrequencyTable()\l+ FrequencyTable()\l+ addSamples()\l+ addFrequencies()\l+ operator[]()\l+ size()\l+ data()\l+ cbegin()\l+ cend()\l+ begin()\l+ end()\l+ begin()\l+ end()\l+ operator+()\l+ getMinSymbol()\l+ getMaxSymbol()\l+ getAlphabetRangeBits()\l+ getNumSamples()\l+ getUsedAlphabetSize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

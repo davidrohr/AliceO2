@@ -1,0 +1,29 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/src/SpaceCharge.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/src/SpaceCharge.cxx">
+<area shape="rect" id="node2" href="$d3/db6/SpaceCharge_8h.html" title="This class contains the algorithms for calculation the distortions and corrections. " alt="" coords="958,109,1181,136"/>
+<area shape="rect" id="node11" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="5,459,147,486"/>
+<area shape="rect" id="node3" href="$dc/d04/TriCubic_8h.html" title="Definition of TriCubic class. " alt="" coords="801,281,993,307"/>
+<area shape="rect" id="node6" href="$d3/dad/RegularGrid3D_8h.html" title="Definition of RegularGrid3D class. " alt="" coords="965,370,1195,397"/>
+<area shape="rect" id="node8" href="$d3/dcd/DataContainer3D_8h.html" title="This class provides a simple method to store values on a large 3&#45;Dim grid with ROOT io functionality..." alt="" coords="646,370,890,397"/>
+<area shape="rect" id="node14" href="$dc/d2a/PoissonSolver_8h.html" title="This class provides implementation of Poisson equation solver by MultiGrid Method Original version of..." alt="" coords="439,281,665,307"/>
+<area shape="rect" id="node18" href="$d5/d0c/SpaceChargeHelpers_8h.html" title="This file provides all necesseray classes which are used during the calcution of the distortions and ..." alt="" coords="821,184,1032,225"/>
+<area shape="rect" id="node21" href="$d1/d73/Defs_8h.html" title="DataFormatsTPC/Defs.h" alt="" coords="1432,281,1600,307"/>
+<area shape="rect" id="node37" href="$db/d5b/ParameterGas_8h.html" title="Definition of the parameter class for the detector gas. " alt="" coords="1928,191,2107,218"/>
+<area shape="rect" id="node49" href="$db/d4b/MagneticField_8h.html" title="Definition of the MagF class. " alt="" coords="4020,191,4167,218"/>
+<area shape="rect" id="node4" href="$d3/d54/TPC_2spacecharge_2include_2TPCSpaceCharge_2Vector_8h.html" title="TPCSpaceCharge/Vector.h" alt="" coords="824,459,1005,486"/>
+<area shape="rect" id="node15" href="$df/d58/PoissonSolverHelpers_8h.html" title="TPCSpaceCharge/PoissonSolver\lHelpers.h" alt="" coords="183,363,399,404"/>
+<area shape="rect" id="node16" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="171,459,410,486"/>
+<area shape="rect" id="node17" href="$d5/dd9/Vector3D_8h.html" title="this is a simple 3D&#45;matrix class with the possibility to resize the dimensions " alt="" coords="423,370,622,397"/>
+<area shape="rect" id="node22" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="1173,459,1355,486"/>
+<area shape="rect" id="node26" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2251,370,2400,397"/>
+<area shape="rect" id="node23" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1260,541,1396,568"/>
+<area shape="rect" id="node24" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="1137,616,1321,643"/>
+<area shape="rect" id="node25" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1346,616,1505,643"/>
+<area shape="rect" id="node27" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="3301,459,3459,486"/>
+<area shape="rect" id="node39" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="3541,363,3720,404"/>
+<area shape="rect" id="node46" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="1997,273,2176,315"/>
+<area shape="rect" id="node51" href="$d3/d91/MagFieldParam_8h.html" title="Definition of the MagFieldParam: container for ALICE mag. field parameters. " alt="" coords="4925,281,5081,307"/>
+<area shape="rect" id="node54" href="$dd/dfb/MagneticWrapperChebyshev_8h.html" title="Field/MagneticWrapperChebyshev.h" alt="" coords="4174,281,4407,307"/>
+<area shape="rect" id="node61" href="$da/df4/MagFieldFast_8h.html" title="Definition of the fast magnetic field parametrization MagFieldFast. " alt="" coords="3372,281,3516,307"/>
+<area shape="rect" id="node58" href="$d8/d64/Chebyshev3D_8h.html" title="MathUtils/Chebyshev3D.h" alt="" coords="4328,370,4504,397"/>
+<area shape="rect" id="node60" href="$d4/d08/Chebyshev3DCalc_8h.html" title="MathUtils/Chebyshev3DCalc.h" alt="" coords="4440,459,4643,486"/>
+</map>

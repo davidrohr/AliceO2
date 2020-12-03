@@ -1,0 +1,24 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/PHOS/base" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cd3c152a7db0580c86a4c50ad0325149 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="PHOS" fontname="Helvetica", fontsize="10", URL="dir_cd3c152a7db0580c86a4c50ad0325149.html"]
+  subgraph clusterdir_fa21b46838f21636bfdcc60e4853f0ed {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fa21b46838f21636bfdcc60e4853f0ed.html"];
+    dir_fa21b46838f21636bfdcc60e4853f0ed [shape=plaintext label="base"];
+    dir_f058686c474bc52b3556fa4d6d8e7462 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_f058686c474bc52b3556fa4d6d8e7462.html"];
+    dir_2be7415ab8596f8b5a996d56fdf9fd8d [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_2be7415ab8596f8b5a996d56fdf9fd8d.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_4ab6b4cc6a7edbff49100e9123df213f->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="2", labeldistance=1.5 headhref="dir_000035_000089.html"];
+  dir_2be7415ab8596f8b5a996d56fdf9fd8d->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000239_000035.html"];
+  dir_2be7415ab8596f8b5a996d56fdf9fd8d->dir_f058686c474bc52b3556fa4d6d8e7462 [headlabel="6", labeldistance=1.5 headhref="dir_000239_000232.html"];
+  dir_f058686c474bc52b3556fa4d6d8e7462->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="3", labeldistance=1.5 headhref="dir_000232_000035.html"];
+  dir_f058686c474bc52b3556fa4d6d8e7462->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="1", labeldistance=1.5 headhref="dir_000232_000089.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="39", labeldistance=1.5 headhref="dir_000089_000035.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48->dir_f058686c474bc52b3556fa4d6d8e7462 [headlabel="3", labeldistance=1.5 headhref="dir_000089_000232.html"];
+}

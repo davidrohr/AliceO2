@@ -1,0 +1,8 @@
+digraph "o2::ccdb::BasicCCDBManager"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::ccdb::BasicCCDBManager\n||+ setURL()\l+ setTimestamp()\l+ getURL()\l+ getTimestamp()\l+ getForTimeStamp()\l+ get()\l+ isHostReachable()\l+ clearCache()\l+ clearCache()\l+ isCachingEnabled()\l+ setCaching()\l+ isLocalObjectValidityChecking\lEnabled()\l+ setLocalObjectValidityChecking()\l+ setCreatedNotAfter()\l+ getCreatedNotAfter()\l+ resetCreatedNotAfter()\l+ setCreatedNotBefore()\l+ getCreatedNotBefore()\l+ resetCreatedNotBefore()\l+ instance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Workflow/include/MIDWorkflow/ClusterizerSpec.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node130 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/include/MIDWorkflow\l/ClusterizerSpec.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node131 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/ClusterizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/d57/MUON_2MID_2Workflow_2src_2ClusterizerSpec_8cxx.html",tooltip="Data processor spec for MID clustering device. "];
+  Node130 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/reco-workflow.cxx",height=0.2,width=0.4,color="black",URL="$d8/d69/reco-workflow_8cxx.html",tooltip="MID reconstruction workflow from digits. "];
+}

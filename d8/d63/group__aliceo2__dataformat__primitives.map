@@ -1,0 +1,4 @@
+<map id="Primitive data format definitions for ALICE O2" name="Primitive data format definitions for ALICE O2">
+<area shape="rect" id="node1" href="$da/dbc/group__aliceo2__dataformats__dataheader.html" title="A descriptive information for payload blocks. " alt="" coords="235,5,358,32"/>
+<area shape="rect" id="node3" href="$db/dee/group__o2__dataflow__header.html" title="A descriptive information for data blocks handled by O2 Data Processing layer. " alt="" coords="221,56,372,83"/>
+</map>

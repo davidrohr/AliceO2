@@ -1,0 +1,4 @@
+<map id="GPUCA_NAMESPACE::gpu::GPUTPCCFStreamCompaction::GPUSharedMemory" name="GPUCA_NAMESPACE::gpu::GPUTPCCFStreamCompaction::GPUSharedMemory">
+<area shape="rect" id="node2" href="$dd/deb/structGPUCA__NAMESPACE_1_1gpu_1_1GPUKernelTemplate_1_1GPUSharedMemoryScan64.html" title="{GPUCA_NAMESPACE::gpu\l::GPUKernelTemplate::\lGPUSharedMemoryScan64\l\&lt; int, GPUCA_THREAD_COUNT_SCAN \&gt;\n||}" alt="" coords="5,204,284,325"/>
+<area shape="rect" id="node3" href="$dd/deb/structGPUCA__NAMESPACE_1_1gpu_1_1GPUKernelTemplate_1_1GPUSharedMemoryScan64.html" title="{GPUCA_NAMESPACE::gpu\l::GPUKernelTemplate::\lGPUSharedMemoryScan64\l\&lt; T, I \&gt;\n||}" alt="" coords="49,5,240,127"/>
+</map>

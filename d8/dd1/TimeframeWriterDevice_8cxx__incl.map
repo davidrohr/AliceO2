@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Utilities/DataFlow/src/TimeframeWriterDevice.cxx" name="/home/runner/work/AliceO2/AliceO2/Utilities/DataFlow/src/TimeframeWriterDevice.cxx">
+<area shape="rect" id="node4" href="$dd/dcc/TimeframeWriterDevice_8h.html" title="DataFlow/TimeframeWriter\lDevice.h" alt="" coords="796,109,975,151"/>
+<area shape="rect" id="node25" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="701,423,857,449"/>
+<area shape="rect" id="node37" href="$dd/ddb/TimeframeParser_8h.html" title="DataFlow/TimeframeParser.h" alt="" coords="1658,117,1851,143"/>
+<area shape="rect" id="node40" href="$de/dfa/TimeFrame_8h.html" title="TimeFrame/TimeFrame.h" alt="" coords="286,273,455,300"/>
+<area shape="rect" id="node44" href="$d2/d1b/SubframeMetadata_8h.html" title="Headers/SubframeMetadata.h" alt="" coords="2202,423,2398,449"/>
+<area shape="rect" id="node45" href="$da/d51/Compatibility_8h.html" title="O2Device/Compatibility.h" alt="" coords="408,199,579,225"/>
+<area shape="rect" id="node5" href="$d2/dee/O2Device_8h.html" title="O2Device/O2Device.h" alt="" coords="809,199,962,225"/>
+<area shape="rect" id="node8" href="$d7/db2/Utilities_8h.html" title="O2Device/Utilities.h" alt="" coords="931,273,1069,300"/>
+<area shape="rect" id="node9" href="$dc/d03/MemoryResources_8h.html" title="MemoryResources/MemoryResources.h" alt="" coords="1274,423,1531,449"/>
+<area shape="rect" id="node33" href="$d4/d00/Headers_2include_2Headers_2Stack_8h.html" title="Headers/Stack.h" alt="" coords="1016,348,1136,375"/>
+<area shape="rect" id="node24" href="$d7/df8/Types_8h.html" title="Types.h" alt="" coords="833,505,903,531"/>
+<area shape="rect" id="node43" href="$d6/d90/Headers_2include_2Headers_2TimeStamp_8h.html" title="Headers/TimeStamp.h" alt="" coords="139,348,293,375"/>
+</map>

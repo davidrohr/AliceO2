@@ -1,0 +1,31 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Payload/testGBTEncoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Payload/testGBTEncoder.cxx">
+<area shape="rect" id="node3" href="$df/d23/BareElinkEncoder_8h.html" title="BareElinkEncoder.h" alt="" coords="777,199,914,225"/>
+<area shape="rect" id="node22" href="$d8/d97/UserLogicElinkEncoder_8h.html" title="UserLogicElinkEncoder.h" alt="" coords="1154,199,1323,225"/>
+<area shape="rect" id="node24" href="$d8/d2e/BareElinkEncoderMerger_8h.html" title="BareElinkEncoderMerger.h" alt="" coords="2013,273,2190,300"/>
+<area shape="rect" id="node26" href="$d8/dc5/UserLogicElinkEncoderMerger_8h.html" title="UserLogicElinkEncoderMerger.h" alt="" coords="1329,124,1538,151"/>
+<area shape="rect" id="node29" href="$d4/d54/GBTEncoder_8h.html" title="GBTEncoder.h" alt="" coords="1578,199,1686,225"/>
+<area shape="rect" id="node4" href="$dc/d46/Assertions_8h.html" title="Assertions.h" alt="" coords="1149,273,1243,300"/>
+<area shape="rect" id="node6" href="$d8/d8a/BitSet_8h.html" title="BitSet.h" alt="" coords="157,348,227,375"/>
+<area shape="rect" id="node13" href="$df/d0f/ElinkEncoder_8h.html" title="ElinkEncoder.h" alt="" coords="1775,348,1886,375"/>
+<area shape="rect" id="node15" href="$d4/ddc/EncoderImplHelper_8h.html" title="EncoderImplHelper.h" alt="" coords="719,273,863,300"/>
+<area shape="rect" id="node16" href="$d0/d5b/SampaCluster_8h.html" title="MCHRawCommon/SampaCluster.h" alt="" coords="709,348,939,375"/>
+<area shape="rect" id="node17" href="$d0/d64/DataFormats_8h.html" title="MCHRawCommon/DataFormats.h" alt="" coords="2125,430,2349,457"/>
+<area shape="rect" id="node18" href="$d5/d49/SampaHeader_8h.html" title="MCHRawCommon/SampaHeader.h" alt="" coords="454,348,685,375"/>
+<area shape="rect" id="node19" href="$dd/d02/NofBits_8h.html" title="NofBits.h" alt="" coords="5,348,83,375"/>
+<area shape="rect" id="node23" href="$d7/d42/MoveBuffer_8h.html" title="MoveBuffer.h" alt="" coords="1370,348,1470,375"/>
+<area shape="rect" id="node25" href="$da/d93/ElinkEncoderMerger_8h.html" title="ElinkEncoderMerger.h" alt="" coords="1962,348,2113,375"/>
+<area shape="rect" id="node32" href="$d7/dee/MakeArray_8h.html" title="MakeArray.h" alt="" coords="2968,273,3064,300"/>
+<area shape="rect" id="node34" href="$d1/d53/DumpBuffer_8h.html" title="DumpBuffer.h" alt="" coords="1581,273,1683,300"/>
+<area shape="rect" id="node35" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="2647,348,2825,375"/>
+<area shape="rect" id="node41" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="2147,512,2335,539"/>
+<area shape="rect" id="node36" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="2757,512,2893,539"/>
+<area shape="rect" id="node39" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2968,512,3125,539"/>
+<area shape="rect" id="node42" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="2863,430,3001,457"/>
+<area shape="rect" id="node43" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="2578,423,2787,464"/>
+<area shape="rect" id="node46" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="2373,430,2502,457"/>
+<area shape="rect" id="node37" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="2527,587,2711,613"/>
+<area shape="rect" id="node38" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="2735,587,2894,613"/>
+<area shape="rect" id="node45" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="2496,512,2733,539"/>
+<area shape="rect" id="node47" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="1730,512,1886,539"/>
+<area shape="rect" id="node53" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1717,587,1899,613"/>
+</map>

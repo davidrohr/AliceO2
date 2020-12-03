@@ -1,0 +1,4 @@
+<map id="o2::framework::has_root_dictionary&lt; T, _ &gt;" name="o2::framework::has_root_dictionary&lt; T, _ &gt;">
+<area shape="rect" id="node3" href="$d3/de1/structo2_1_1framework_1_1has__root__dictionary.html" title="{o2::framework::has\l_root_dictionary\&lt; T\l::value_type \&gt;\n||}" alt="" coords="19,287,153,393"/>
+<area shape="rect" id="node4" href="$d5/d6d/classo2_1_1framework_1_1has__root__dictionary_3_01T_00_01typename_01std_1_1enable__if_3_01is__co3a14f09bcf42c805e484bfdd1c1dadfb.html" title="{o2::framework::has\l_root_dictionary\&lt; T,\l typename std::enable\l_if\&lt; is_container\&lt; T \&gt;\l::value \&gt;::type \&gt;\n||}" alt="" coords="11,443,161,579"/>
+</map>

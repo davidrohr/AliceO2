@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d0/dc6/classo2_1_1track_1_1TrackParametrization.html" title="o2::track::TrackParametrization\l\&lt; value_T \&gt;" alt="" coords="5,61,211,102"/>
+<area shape="rect" id="node2" href="$d8/d51/classo2_1_1tpc_1_1LaserTrack.html" title="o2::tpc::LaserTrack" alt="" coords="294,39,429,65"/>
+<area shape="rect" id="node3" href="$dc/dbe/classo2_1_1track_1_1TrackParametrizationWithError.html" title="o2::track::TrackParametrization\lWithError\&lt; value_T \&gt;" alt="" coords="259,90,464,131"/>
+<area shape="rect" id="node4" href="$db/d4d/classo2_1_1dataformats_1_1V0.html" title="o2::dataformats::V0" alt="" coords="512,5,649,32"/>
+<area shape="rect" id="node5" href="$d6/da6/structo2_1_1globaltracking_1_1ABTrackLink.html" title="o2::globaltracking\l::ABTrackLink" alt="" coords="519,57,643,98"/>
+<area shape="rect" id="node6" href="$dc/d39/structo2_1_1globaltracking_1_1TrackLocTPCITS.html" title="&lt; original track in the currently loaded TPC&#45;ITS reco output " alt="" coords="515,122,647,163"/>
+<area shape="rect" id="node7" href="$d4/d76/classo2_1_1tpc_1_1TrackTPC.html" title="o2::tpc::TrackTPC" alt="" coords="515,188,646,215"/>
+</map>

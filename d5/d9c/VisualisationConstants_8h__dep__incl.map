@@ -1,0 +1,23 @@
+<map id="/home/runner/work/AliceO2/AliceO2/EventVisualisation/Base/include/EventVisualisationBase/VisualisationConstants.h" name="/home/runner/work/AliceO2/AliceO2/EventVisualisation/Base/include/EventVisualisationBase/VisualisationConstants.h">
+<area shape="rect" id="node2" href="$dd/dbf/DataInterpreter_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/include/EventVisualisationBase\l/DataInterpreter.h" alt="" coords="658,124,901,195"/>
+<area shape="rect" id="node4" href="$d9/d95/DataInterpreterITS_8h.html" title="converting ITS data to Event Visualisation primitives " alt="" coords="811,243,1051,313"/>
+<area shape="rect" id="node6" href="$df/d2a/Initializer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/Initializer.cxx" alt="" coords="1049,480,1233,536"/>
+<area shape="rect" id="node7" href="$dc/df2/DataInterpreterTPC_8h.html" title="converting TPC data to Event Visualisation primitives " alt="" coords="329,243,569,313"/>
+<area shape="rect" id="node9" href="$d2/d21/DataInterpreterVSD_8h.html" title="converting VSD data to Event Visualisation primitives " alt="" coords="14,243,254,313"/>
+<area shape="rect" id="node11" href="$d8/d25/EventManager_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/EventManager.h" alt="" coords="1179,243,1420,313"/>
+<area shape="rect" id="node17" href="$da/d7a/MultiView_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/MultiView.cxx" alt="" coords="1603,369,1787,425"/>
+<area shape="rect" id="node18" href="$dc/d54/DataSource_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/include/EventVisualisationBase\l/DataSource.h" alt="" coords="1773,124,2015,195"/>
+<area shape="rect" id="node21" href="$d3/d28/DataReaderVSD_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Detectors/include/EventVisualisation\lDetectors/DataReaderVSD.h" alt="" coords="2235,243,2475,313"/>
+<area shape="rect" id="node3" href="$d5/d0c/DataInterpreter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/src/DataInterpreter.cxx" alt="" coords="593,250,787,306"/>
+<area shape="rect" id="node15" href="$d5/d40/main_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/main.cxx" alt="" coords="521,480,705,536"/>
+<area shape="rect" id="node16" href="$dd/d21/EventManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/EventManager.cxx" alt="" coords="1812,369,2003,425"/>
+<area shape="rect" id="node5" href="$d2/d8a/DataInterpreterITS_8cxx.html" title="converting ITS data to Event Visualisation primitives " alt="" coords="651,369,894,425"/>
+<area shape="rect" id="node8" href="$d5/df5/DataInterpreterTPC_8cxx.html" title="converting TPC data to Event Visualisation primitives " alt="" coords="329,369,577,425"/>
+<area shape="rect" id="node10" href="$de/df8/DataInterpreterVSD_8cxx.html" title="converting VSD data to Event Visualisation primitives " alt="" coords="5,369,255,425"/>
+<area shape="rect" id="node12" href="$d9/d30/EventManagerFrame_8h.html" title="GUI (bottom buttons) for visualisation. " alt="" coords="1337,361,1579,432"/>
+<area shape="rect" id="node14" href="$d8/df3/Initializer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/include/EventVisualisationView\l/Initializer.h" alt="" coords="1020,361,1261,432"/>
+<area shape="rect" id="node13" href="$d0/dc0/EventManagerFrame_8cxx.html" title="GUI (bottom buttons) for visualisation. " alt="" coords="2218,480,2445,536"/>
+<area shape="rect" id="node19" href="$d1/deb/DataSourceOffline_8h.html" title="Grouping reading from file(s) " alt="" coords="1931,243,2174,313"/>
+<area shape="rect" id="node20" href="$dc/db1/DataSourceOffline_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/src/DataSourceOffline.cxx" alt="" coords="2079,369,2293,425"/>
+<area shape="rect" id="node22" href="$dd/d02/DataReaderVSD_8cxx.html" title="VSD specific reading from file(s) (Visualisation Summary Data) " alt="" coords="2419,369,2651,425"/>
+</map>

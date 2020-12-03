@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/CPV/include/DataFormatsCPV" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_efdbb5e02fd5ee47e8a167396a4aa1aa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_efdbb5e02fd5ee47e8a167396a4aa1aa.html"]
+  dir_856054e935f4ac7177ebeb371cea73db [shape=box, label="DataFormatsCPV", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_856054e935f4ac7177ebeb371cea73db.html"];
+  }
+  dir_183e7c4434404fe9096e1bd8673e1fcf [shape=box label="Headers" color="red" URL="dir_183e7c4434404fe9096e1bd8673e1fcf.html"];
+  dir_7924ba4398ae4560cd37376e44666c6d [shape=box label="common" color="red" URL="dir_7924ba4398ae4560cd37376e44666c6d.html"];
+  dir_856054e935f4ac7177ebeb371cea73db->dir_183e7c4434404fe9096e1bd8673e1fcf [headlabel="1", labeldistance=1.5 headhref="dir_000111_000097.html"];
+  dir_856054e935f4ac7177ebeb371cea73db->dir_7924ba4398ae4560cd37376e44666c6d [headlabel="3", labeldistance=1.5 headhref="dir_000111_000094.html"];
+}

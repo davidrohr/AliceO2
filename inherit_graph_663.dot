@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::data_compression\l::upperbinarybound\< n \>",height=0.2,width=0.4,color="black",URL="$d2/d31/structo2_1_1data__compression_1_1upperbinarybound.html",tooltip="Get the upper binary bound of a number The gives the number of bits required to present a number..."];
+}

@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="FairMCApplication",height=0.2,width=0.4,color="black",URL="$d8/def/classFairMCApplication.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="o2::steer::O2MCApplicationBase",height=0.2,width=0.4,color="black",URL="$d8/d15/classo2_1_1steer_1_1O2MCApplicationBase.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="o2::steer::O2MCApplication",height=0.2,width=0.4,color="black",URL="$d6/d8a/classo2_1_1steer_1_1O2MCApplication.html"];
+}

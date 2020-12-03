@@ -1,0 +1,14 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/ElecMap/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0cfbacb297625179725e3de4f30c0e94 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ElecMap" fontname="Helvetica", fontsize="10", URL="dir_0cfbacb297625179725e3de4f30c0e94.html"]
+  dir_da0705789cf71b74b65806f36a1ba31e [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_da0705789cf71b74b65806f36a1ba31e.html"];
+  }
+  dir_cfadcf1c28477e06298c128044978e91 [shape=box label="ImplHelpers" URL="dir_cfadcf1c28477e06298c128044978e91.html"];
+  dir_0a787f1aa07d41629d31d60b891926e3 [shape=box label="include" color="red" URL="dir_0a787f1aa07d41629d31d60b891926e3.html"];
+  dir_da0705789cf71b74b65806f36a1ba31e->dir_cfadcf1c28477e06298c128044978e91 [headlabel="2", labeldistance=1.5 headhref="dir_000468_000639.html"];
+  dir_da0705789cf71b74b65806f36a1ba31e->dir_0a787f1aa07d41629d31d60b891926e3 [headlabel="27", labeldistance=1.5 headhref="dir_000468_000466.html"];
+}

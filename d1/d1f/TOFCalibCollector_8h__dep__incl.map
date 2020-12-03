@@ -1,0 +1,6 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/TOFCalibCollector.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TOF/calibration/include/TOFCalibration/TOFCalibCollector.h">
+<area shape="rect" id="node2" href="$d2/d3f/TOFCalibCollector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/src/TOFCalibCollector.cxx" alt="" coords="5,131,249,187"/>
+<area shape="rect" id="node3" href="$d1/df4/TOFCalibCollectorSpec_8h.html" title="Device to collect information for TOF time slewing calibration. " alt="" coords="273,124,453,195"/>
+<area shape="rect" id="node5" href="$d7/d2e/TOFCalibCollectorWriterSpec_8h.html" title="Device to write to tree the information for TOF time slewing calibration. " alt="" coords="478,124,689,195"/>
+<area shape="rect" id="node4" href="$d8/d3b/tof-collect-calib-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;collect&#45;calib&#45;workflow.cxx" alt="" coords="375,243,570,313"/>
+</map>

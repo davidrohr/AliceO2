@@ -1,0 +1,8 @@
+digraph "o2::raw::RawFileWriter"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::raw::RawFileWriter\n||+ RawFileWriter()\l+ ~RawFileWriter()\l+ useCaching()\l+ writeConfFile()\l+ close()\l+ registerLink()\l+ registerLink()\l+ setOrigin()\l+ getOrigin()\l+ getLinkWithSubSpec()\l+ getLinkWithSubSpec()\l+ addData()\l+ addData()\l+ setContinuousReadout()\l+ setTriggeredReadout()\l+ setContinuousReadout()\l+ isContinuousReadout()\l+ isTriggeredReadout()\l+ isReadOutModeSet()\l+ isLinkRegistered()\l+ setVerbosity()\l+ getVerbosity()\l+ getNOutputFiles()\l+ getOutputFileName()\l+ getSuperPageSize()\l+ setSuperPageSize()\l+ getIRMax()\l+ getHBFUtils()\l+ setCarryOverCallBack()\l+ setEmptyPageCallBack()\l+ setNewRDHCallBack()\l+ carryOverMethod()\l+ emptyHBFMethod()\l+ newRDHMethod()\l+ getUsedRDHVersion()\l+ useRDHVersion()\l+ getDontFillEmptyHBF()\l+ setDontFillEmptyHBF()\l+ getAddSeparateHBFStopPage()\l+ setAddSeparateHBFStopPage()\l+ setRORCDetector()\l+ setUseRDHStop()\l+ setApplyCarryOverToLastPage()\l+ isRORCDetector()\l+ isCRUDetector()\l+ isRDHStopUsed()\l+ isCarryOverToLastPageApplied()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

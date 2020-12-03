@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/gconfig/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fda58d415f46ed5554e220ec8997f6b0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="gconfig" fontname="Helvetica", fontsize="10", URL="dir_fda58d415f46ed5554e220ec8997f6b0.html"]
+  subgraph clusterdir_b37385ac8c40ffd9e301f70e181b5ea7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b37385ac8c40ffd9e301f70e181b5ea7.html"];
+    dir_b37385ac8c40ffd9e301f70e181b5ea7 [shape=plaintext label="include"];
+    dir_e8137674e62741744f3a0f3deea9df76 [shape=box label="SimSetup" color="black" fillcolor="white" style="filled" URL="dir_e8137674e62741744f3a0f3deea9df76.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_e8137674e62741744f3a0f3deea9df76->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="2", labeldistance=1.5 headhref="dir_000532_000035.html"];
+}

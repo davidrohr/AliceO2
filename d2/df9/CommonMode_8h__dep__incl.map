@@ -1,0 +1,12 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/CommonMode.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/simulation/include/TPCSimulation/CommonMode.h">
+<area shape="rect" id="node2" href="$d0/d60/DigitTime_8h.html" title="Definition of the Time Bin container. " alt="" coords="459,124,682,195"/>
+<area shape="rect" id="node10" href="$d5/de6/CommonMode_8cxx.html" title="Implementation of the common mode output object. " alt="" coords="707,131,928,187"/>
+<area shape="rect" id="node11" href="$d8/dd2/TPCDigitRootWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitRootWriterSpec.cxx" alt="" coords="953,131,1173,187"/>
+<area shape="rect" id="node3" href="$dd/d94/DigitContainer_8h.html" title="Definition of the Digit Container. " alt="" coords="343,243,566,313"/>
+<area shape="rect" id="node9" href="$dd/dcd/DigitTime_8cxx.html" title="Implementation of the Time Bin container. " alt="" coords="591,250,783,306"/>
+<area shape="rect" id="node4" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="98,361,321,432"/>
+<area shape="rect" id="node7" href="$df/d53/DigitContainer_8cxx.html" title="Implementation of the Digit Container. " alt="" coords="345,369,564,425"/>
+<area shape="rect" id="node8" href="$dd/d5e/testTPCDigitContainer_8cxx.html" title="This task tests the DigitContainer of the TPC digitization. " alt="" coords="588,369,860,425"/>
+<area shape="rect" id="node5" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="5,480,189,536"/>
+<area shape="rect" id="node6" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="214,480,429,536"/>
+</map>

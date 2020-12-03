@@ -1,0 +1,3 @@
+<map id="AliOptionParser" name="AliOptionParser">
+<area shape="rect" id="node2" href="$db/dc1/classAliHLTTPCClusterStatComponent.html" title="{AliHLTTPCClusterStatComponent\n|+ NSLICES\l+ NPATCHES\l|+ AliHLTTPCClusterStatComponent()\l+ ~AliHLTTPCClusterStatComponent()\l+ GetComponentID()\l+ GetInputDataTypes()\l+ GetOutputDataType()\l+ GetOutputDataSize()\l+ Spawn()\l+ PrintDumpClustersScaled()\l+ TransformReverse()\l+ TransformForward()\l# DoInit()\l# DoDeinit()\l# DoEvent()\l# ProcessOption()\l# ClassDef()\l}" alt="" coords="5,131,256,428"/>
+</map>

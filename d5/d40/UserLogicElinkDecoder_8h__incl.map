@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Decoder/src/UserLogicElinkDecoder.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Decoder/src/UserLogicElinkDecoder.h">
+<area shape="rect" id="node2" href="$d4/deb/Debug_8h.html" title="Debug.h" alt="" coords="5,131,76,158"/>
+<area shape="rect" id="node3" href="$d0/d64/DataFormats_8h.html" title="MCHRawCommon/DataFormats.h" alt="" coords="91,288,315,315"/>
+<area shape="rect" id="node5" href="$d5/d49/SampaHeader_8h.html" title="MCHRawCommon/SampaHeader.h" alt="" coords="203,213,433,240"/>
+<area shape="rect" id="node8" href="$dd/d58/SampaChannelHandler_8h.html" title="MCHRawDecoder/SampaChannel\lHandler.h" alt="" coords="567,124,789,165"/>
+<area shape="rect" id="node13" href="$d4/d09/DsElecId_8h.html" title="MCHRawElecMap/DsElecId.h" alt="" coords="917,213,1117,240"/>
+<area shape="rect" id="node10" href="$d0/d5b/SampaCluster_8h.html" title="MCHRawCommon/SampaCluster.h" alt="" coords="560,213,791,240"/>
+</map>

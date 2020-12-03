@@ -1,0 +1,3 @@
+<map id="o2::emcal::EventHandler&lt; CellInputType &gt;" name="o2::emcal::EventHandler&lt; CellInputType &gt;">
+<area shape="rect" id="node2" href="$d6/d23/classo2_1_1emcal_1_1EventHandler.html" title="{o2::emcal::EventHandler\l\&lt; InputType \&gt;\n||+ EventHandler()\l+ EventHandler()\l+ EventHandler()\l+ EventHandler()\l+ ~EventHandler()\l+ begin()\l+ end()\l+ rbegin()\l+ rend()\l+ getNumberOfEvents()\l+ getInteractionRecordForEvent()\l+ getClustersForEvent()\l+ getCellsForEvent()\l+ getClusterCellIndicesFor\lEvent()\l+ hasClusters()\l+ hasClusterIndices()\l+ hasCells()\l+ setClusterData()\l+ setCellData()\l+ reset()\l+ buildEvent()\l}" alt="" coords="5,468,221,868"/>
+</map>

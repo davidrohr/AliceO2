@@ -1,0 +1,8 @@
+digraph "o2::framework::AnalysisDataProcessorBuilder"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::framework::AnalysisData\lProcessorBuilder\n||+ getSpec()\l+ getInputSpecs()\l+ getIndexSources()\l+ doAppendInputWithMetadata()\l+ doAppendInputWithMetadata()\l+ appendSomethingWithMetadata()\l+ inputsFromArgs()\l+ signatures()\l+ bindGroupingTable()\l+ bindGroupingTable()\l+ extractTableFromRecord()\l+ extractFromRecord()\l+ extractFilteredFromRecord()\l+ extractSomethingFromRecord()\l+ bindAssociatedTables()\l+ bindAssociatedTables()\l+ invokeProcess()\l+ invokeProcessWithArgs()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,4 @@
+<map id="o2::framework::data_matcher::OriginValueMatcher" name="o2::framework::data_matcher::OriginValueMatcher">
+<area shape="rect" id="node2" href="$dc/d72/classo2_1_1framework_1_1data__matcher_1_1ValueHolder.html" title="{o2::framework::data\l_matcher::ValueHolder\l\&lt; std::string \&gt;\n|# mValue\l|+ ValueHolder()\l+ ValueHolder()\l+ operator==()\l+ visit()\l}" alt="" coords="27,204,182,355"/>
+<area shape="rect" id="node3" href="$dc/d72/classo2_1_1framework_1_1data__matcher_1_1ValueHolder.html" title="{o2::framework::data\l_matcher::ValueHolder\&lt; T \&gt;\n|# mValue\l|+ ValueHolder()\l+ ValueHolder()\l+ operator==()\l+ visit()\l}" alt="" coords="11,5,198,141"/>
+</map>

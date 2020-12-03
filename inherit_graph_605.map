@@ -1,0 +1,98 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d6/d14/classo2_1_1conf_1_1ConfigurableParam.html" title="o2::conf::ConfigurableParam" alt="" coords="5,1549,193,1575"/>
+<area shape="rect" id="node2" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; BazParam \&gt;" alt="" coords="273,5,461,47"/>
+<area shape="rect" id="node4" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; BoxGunParam \&gt;" alt="" coords="273,71,461,112"/>
+<area shape="rect" id="node6" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; CalibPedestalParam \&gt;" alt="" coords="265,136,468,177"/>
+<area shape="rect" id="node8" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; CalibPulserParam \&gt;" alt="" coords="272,201,461,243"/>
+<area shape="rect" id="node10" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; ClustererParam\&lt; N \&gt; \&gt;" alt="" coords="262,267,471,308"/>
+<area shape="rect" id="node12" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; CPVSimParams \&gt;" alt="" coords="273,332,461,373"/>
+<area shape="rect" id="node14" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; DecayerPythia8Param \&gt;" alt="" coords="259,397,474,439"/>
+<area shape="rect" id="node16" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; DigiParams \&gt;" alt="" coords="273,463,461,504"/>
+<area shape="rect" id="node18" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; DigitDumpParam \&gt;" alt="" coords="273,528,461,569"/>
+<area shape="rect" id="node20" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; DPLAlpideParam\&lt; N \&gt; \&gt;" alt="" coords="257,593,476,635"/>
+<area shape="rect" id="node22" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; DPLDigitizerParam\&lt; N \&gt; \&gt;" alt="" coords="251,659,482,700"/>
+<area shape="rect" id="node24" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; FastMultEstConfig \&gt;" alt="" coords="270,724,463,765"/>
+<area shape="rect" id="node26" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; FV0DigParam \&gt;" alt="" coords="273,789,461,831"/>
+<area shape="rect" id="node28" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; G4Params \&gt;" alt="" coords="273,855,461,896"/>
+<area shape="rect" id="node30" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; GenCosmicsParam \&gt;" alt="" coords="267,920,466,961"/>
+<area shape="rect" id="node32" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; GeneratorExternalParam \&gt;" alt="" coords="253,985,480,1027"/>
+<area shape="rect" id="node34" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; GeneratorHepMCParam \&gt;" alt="" coords="255,1051,479,1092"/>
+<area shape="rect" id="node36" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; GeneratorPythia6Param \&gt;" alt="" coords="255,1116,478,1157"/>
+<area shape="rect" id="node38" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; GeneratorPythia8Param \&gt;" alt="" coords="255,1181,478,1223"/>
+<area shape="rect" id="node40" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; GlobalProcessCutSimParam \&gt;" alt="" coords="241,1247,492,1288"/>
+<area shape="rect" id="node42" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; HallSimParam \&gt;" alt="" coords="273,1312,461,1353"/>
+<area shape="rect" id="node44" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; HBFUtils \&gt;" alt="" coords="273,1377,461,1419"/>
+<area shape="rect" id="node46" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; HwClustererParam \&gt;" alt="" coords="269,1443,464,1484"/>
+<area shape="rect" id="node48" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; InteractionDiamondParam \&gt;" alt="" coords="249,1508,484,1549"/>
+<area shape="rect" id="node50" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; InteractionTag \&gt;" alt="" coords="273,1573,461,1615"/>
+<area shape="rect" id="node52" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; MatchTPCITSParams \&gt;" alt="" coords="260,1639,473,1680"/>
+<area shape="rect" id="node54" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; MeanVertexParams \&gt;" alt="" coords="267,1704,466,1745"/>
+<area shape="rect" id="node56" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; MFTBaseParam \&gt;" alt="" coords="273,1769,461,1811"/>
+<area shape="rect" id="node58" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; MFTTrackingParam \&gt;" alt="" coords="267,1835,466,1876"/>
+<area shape="rect" id="node60" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; ParameterDetector \&gt;" alt="" coords="269,1900,464,1941"/>
+<area shape="rect" id="node62" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; ParameterElectronics \&gt;" alt="" coords="262,1965,471,2007"/>
+<area shape="rect" id="node64" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; ParameterGas \&gt;" alt="" coords="273,2031,461,2072"/>
+<area shape="rect" id="node66" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; ParameterGEM \&gt;" alt="" coords="273,2096,461,2137"/>
+<area shape="rect" id="node68" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; PHOSSimParams \&gt;" alt="" coords="271,2161,462,2203"/>
+<area shape="rect" id="node70" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; PVertexerParams \&gt;" alt="" coords="273,2227,461,2268"/>
+<area shape="rect" id="node72" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; QEDGenParam \&gt;" alt="" coords="273,2292,461,2333"/>
+<area shape="rect" id="node74" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; SimCutParams \&gt;" alt="" coords="273,2357,461,2399"/>
+<area shape="rect" id="node76" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; SimParam \&gt;" alt="" coords="273,2423,461,2464"/>
+<area shape="rect" id="node78" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; SimUserDecay \&gt;" alt="" coords="273,2488,461,2529"/>
+<area shape="rect" id="node80" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; StackParam \&gt;" alt="" coords="273,2553,461,2595"/>
+<area shape="rect" id="node82" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; SVertexerParams \&gt;" alt="" coords="273,2619,461,2660"/>
+<area shape="rect" id="node84" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; TOFSimParams \&gt;" alt="" coords="273,2684,461,2725"/>
+<area shape="rect" id="node86" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; TRDSimParams \&gt;" alt="" coords="273,2749,461,2791"/>
+<area shape="rect" id="node88" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; TriggerExternalParam \&gt;" alt="" coords="261,2815,472,2856"/>
+<area shape="rect" id="node90" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; TriggerParticleParam \&gt;" alt="" coords="263,2880,470,2921"/>
+<area shape="rect" id="node92" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; VertexerParamConfig \&gt;" alt="" coords="262,2945,471,2987"/>
+<area shape="rect" id="node94" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; ZDCSimParam \&gt;" alt="" coords="273,3011,461,3052"/>
+<area shape="rect" id="node96" href="$d7/d50/classo2_1_1conf_1_1ConfigurableParamHelper.html" title="o2::conf::ConfigurableParam\lHelper\&lt; P \&gt;" alt="" coords="273,3076,461,3117"/>
+<area shape="rect" id="node3" href="$df/d57/classBazParam.html" title="BazParam" alt="" coords="608,13,691,39"/>
+<area shape="rect" id="node5" href="$d4/dae/structo2_1_1eventgen_1_1BoxGunParam.html" title="o2::eventgen::BoxGunParam" alt="" coords="554,78,745,105"/>
+<area shape="rect" id="node7" href="$dc/da3/structo2_1_1tpc_1_1CalibPedestalParam.html" title="o2::tpc::CalibPedestalParam" alt="" coords="555,143,744,170"/>
+<area shape="rect" id="node9" href="$d6/d3e/structo2_1_1tpc_1_1CalibPulserParam.html" title="o2::tpc::CalibPulserParam" alt="" coords="562,209,737,235"/>
+<area shape="rect" id="node11" href="$d4/d5a/structo2_1_1itsmft_1_1ClustererParam.html" title="o2::itsmft::ClustererParam\&lt; N \&gt;" alt="" coords="544,274,755,301"/>
+<area shape="rect" id="node13" href="$df/ddb/structo2_1_1cpv_1_1CPVSimParams.html" title="o2::cpv::CPVSimParams" alt="" coords="565,339,734,366"/>
+<area shape="rect" id="node15" href="$de/d4c/structo2_1_1eventgen_1_1DecayerPythia8Param.html" title="o2::eventgen::DecayerPythia8\lParam" alt="" coords="550,397,749,439"/>
+<area shape="rect" id="node17" href="$db/d97/structo2_1_1conf_1_1DigiParams.html" title="o2::conf::DigiParams" alt="" coords="577,470,722,497"/>
+<area shape="rect" id="node19" href="$dc/d52/structo2_1_1tpc_1_1DigitDumpParam.html" title="o2::tpc::DigitDumpParam" alt="" coords="564,535,735,562"/>
+<area shape="rect" id="node21" href="$d0/de2/structo2_1_1itsmft_1_1DPLAlpideParam.html" title="o2::itsmft::DPLAlpideParam\&lt; N \&gt;" alt="" coords="540,601,759,627"/>
+<area shape="rect" id="node23" href="$d9/d44/structo2_1_1itsmft_1_1DPLDigitizerParam.html" title="o2::itsmft::DPLDigitizer\lParam\&lt; N \&gt;" alt="" coords="570,659,729,700"/>
+<area shape="rect" id="node25" href="$df/d2d/structo2_1_1its_1_1FastMultEstConfig.html" title="o2::its::FastMultEstConfig" alt="" coords="562,731,737,758"/>
+<area shape="rect" id="node27" href="$d6/d82/structo2_1_1fv0_1_1FV0DigParam.html" title="o2::fv0::FV0DigParam" alt="" coords="573,797,725,823"/>
+<area shape="rect" id="node29" href="$dc/da3/structo2_1_1conf_1_1G4Params.html" title="o2::conf::G4Params" alt="" coords="580,862,719,889"/>
+<area shape="rect" id="node31" href="$da/de2/structo2_1_1eventgen_1_1GenCosmicsParam.html" title="o2::eventgen::GenCosmics\lParam" alt="" coords="559,920,740,961"/>
+<area shape="rect" id="node33" href="$d9/d3e/structo2_1_1eventgen_1_1GeneratorExternalParam.html" title="o2::eventgen::GeneratorExternal\lParam" alt="" coords="544,985,755,1027"/>
+<area shape="rect" id="node35" href="$dd/d08/structo2_1_1eventgen_1_1GeneratorHepMCParam.html" title="o2::eventgen::GeneratorHep\lMCParam" alt="" coords="556,1051,743,1092"/>
+<area shape="rect" id="node37" href="$df/d07/structo2_1_1eventgen_1_1GeneratorPythia6Param.html" title="o2::eventgen::GeneratorPythia6\lParam" alt="" coords="546,1116,753,1157"/>
+<area shape="rect" id="node39" href="$d4/d29/structo2_1_1eventgen_1_1GeneratorPythia8Param.html" title="o2::eventgen::GeneratorPythia8\lParam" alt="" coords="546,1181,753,1223"/>
+<area shape="rect" id="node41" href="$d6/dff/structo2_1_1GlobalProcessCutSimParam.html" title="o2::GlobalProcessCutSimParam" alt="" coords="544,1254,755,1281"/>
+<area shape="rect" id="node43" href="$da/d14/structo2_1_1passive_1_1HallSimParam.html" title="o2::passive::HallSimParam" alt="" coords="559,1319,740,1346"/>
+<area shape="rect" id="node45" href="$db/df3/structo2_1_1raw_1_1HBFUtils.html" title="o2::raw::HBFUtils" alt="" coords="586,1385,713,1411"/>
+<area shape="rect" id="node47" href="$d3/dbf/structo2_1_1tpc_1_1HwClustererParam.html" title="o2::tpc::HwClustererParam" alt="" coords="559,1450,740,1477"/>
+<area shape="rect" id="node49" href="$d4/dcf/structo2_1_1eventgen_1_1InteractionDiamondParam.html" title="o2::eventgen::Interaction\lDiamondParam" alt="" coords="566,1508,733,1549"/>
+<area shape="rect" id="node51" href="$d9/da5/structo2_1_1ft0_1_1InteractionTag.html" title="o2::ft0::InteractionTag" alt="" coords="574,1581,725,1607"/>
+<area shape="rect" id="node53" href="$d8/d6e/structo2_1_1globaltracking_1_1MatchTPCITSParams.html" title="o2::globaltracking\l::MatchTPCITSParams" alt="" coords="570,1639,729,1680"/>
+<area shape="rect" id="node55" href="$d8/d31/structo2_1_1calibration_1_1MeanVertexParams.html" title="o2::calibration::MeanVertex\lParams" alt="" coords="559,1704,740,1745"/>
+<area shape="rect" id="node57" href="$d2/dfc/structo2_1_1mft_1_1MFTBaseParam.html" title="o2::mft::MFTBaseParam" alt="" coords="566,1777,733,1803"/>
+<area shape="rect" id="node59" href="$df/d74/structo2_1_1mft_1_1MFTTrackingParam.html" title="o2::mft::MFTTrackingParam" alt="" coords="556,1842,743,1869"/>
+<area shape="rect" id="node61" href="$d1/dee/structo2_1_1tpc_1_1ParameterDetector.html" title="o2::tpc::ParameterDetector" alt="" coords="559,1907,739,1934"/>
+<area shape="rect" id="node63" href="$df/d41/structo2_1_1tpc_1_1ParameterElectronics.html" title="o2::tpc::ParameterElectronics" alt="" coords="552,1973,747,1999"/>
+<area shape="rect" id="node65" href="$d8/d0f/structo2_1_1tpc_1_1ParameterGas.html" title="o2::tpc::ParameterGas" alt="" coords="572,2038,727,2065"/>
+<area shape="rect" id="node67" href="$d2/d3e/structo2_1_1tpc_1_1ParameterGEM.html" title="o2::tpc::ParameterGEM" alt="" coords="569,2103,729,2130"/>
+<area shape="rect" id="node69" href="$d1/d8d/structo2_1_1phos_1_1PHOSSimParams.html" title="o2::phos::PHOSSimParams" alt="" coords="556,2169,743,2195"/>
+<area shape="rect" id="node71" href="$d4/dee/structo2_1_1vertexing_1_1PVertexerParams.html" title="o2::vertexing::PVertexer\lParams" alt="" coords="568,2227,731,2268"/>
+<area shape="rect" id="node73" href="$dc/d36/structo2_1_1eventgen_1_1QEDGenParam.html" title="o2::eventgen::QEDGenParam" alt="" coords="551,2299,747,2326"/>
+<area shape="rect" id="node75" href="$d7/d2f/structo2_1_1conf_1_1SimCutParams.html" title="o2::conf::SimCutParams" alt="" coords="566,2365,733,2391"/>
+<area shape="rect" id="node77" href="$d0/d9a/classo2_1_1emcal_1_1SimParam.html" title="EMCal simulation parameters. " alt="" coords="575,2430,723,2457"/>
+<area shape="rect" id="node79" href="$d6/db4/structo2_1_1conf_1_1SimUserDecay.html" title="o2::conf::SimUserDecay" alt="" coords="566,2495,733,2522"/>
+<area shape="rect" id="node81" href="$da/d0d/structo2_1_1sim_1_1StackParam.html" title="o2::sim::StackParam" alt="" coords="577,2561,722,2587"/>
+<area shape="rect" id="node83" href="$d5/d2d/structo2_1_1vertexing_1_1SVertexerParams.html" title="o2::vertexing::SVertexer\lParams" alt="" coords="568,2619,731,2660"/>
+<area shape="rect" id="node85" href="$d9/da1/structo2_1_1tof_1_1TOFSimParams.html" title="o2::tof::TOFSimParams" alt="" coords="569,2691,730,2718"/>
+<area shape="rect" id="node87" href="$d2/d2a/structo2_1_1trd_1_1TRDSimParams.html" title="o2::trd::TRDSimParams" alt="" coords="568,2757,731,2783"/>
+<area shape="rect" id="node89" href="$d5/d32/structo2_1_1eventgen_1_1TriggerExternalParam.html" title="o2::eventgen::TriggerExternal\lParam" alt="" coords="553,2815,746,2856"/>
+<area shape="rect" id="node91" href="$de/d64/structo2_1_1eventgen_1_1TriggerParticleParam.html" title="o2::eventgen::TriggerParticle\lParam" alt="" coords="555,2880,744,2921"/>
+<area shape="rect" id="node93" href="$d0/de8/structo2_1_1its_1_1VertexerParamConfig.html" title="o2::its::VertexerParamConfig" alt="" coords="554,2953,745,2979"/>
+<area shape="rect" id="node95" href="$d1/d11/structo2_1_1zdc_1_1ZDCSimParam.html" title="o2::zdc::ZDCSimParam" alt="" coords="568,3018,731,3045"/>
+</map>

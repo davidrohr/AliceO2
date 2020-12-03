@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::test::TrivialStruct",height=0.2,width=0.4,color="black",URL="$d3/db3/structo2_1_1test_1_1TrivialStruct.html",tooltip="test struct without ROOT dictionary, used to provoke raising of runtime_error "];
+}

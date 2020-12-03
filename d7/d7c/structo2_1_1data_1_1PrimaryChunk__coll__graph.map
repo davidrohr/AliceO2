@@ -1,0 +1,8 @@
+<map id="o2::data::PrimaryChunk" name="o2::data::PrimaryChunk">
+<area shape="rect" id="node3" href="$d5/dbc/structo2_1_1data_1_1SubEventInfo.html" title="{o2::data::SubEventInfo\n||+ ClassDefNV()\l}" alt="" coords="431,608,587,685"/>
+<area shape="rect" id="node4" href="$d4/db1/classo2_1_1dataformats_1_1MCEventHeader.html" title="{o2::dataformats::MCEvent\lHeader\n||+ MCEventHeader()\l+ MCEventHeader()\l+ operator=()\l+ ~MCEventHeader()\l+ setEmbeddingFileName()\l+ setEmbeddingEventIndex()\l+ getEmbeddedIndex()\l+ Reset()\l+ getMCEventStats()\l# ClassDefOverride()\l}" alt="" coords="182,277,373,501"/>
+<area shape="rect" id="node5" href="$dd/d8f/classFairMCEventHeader.html" title="{FairMCEventHeader\n||}" alt="" coords="5,71,147,149"/>
+<area shape="rect" id="node8" href="$d9/ddb/classo2_1_1dataformats_1_1MCEventStats.html" title="{o2::dataformats::MCEvent\lStats\n||+ setNHits()\l+ getNHits()\l+ setNTransportedTracks()\l+ getNTransportedTracks()\l+ setNKeptTracks()\l+ getNKeptTracks()\l+ setNSteps()\l+ getNSteps()\l+ add()\l}" alt="" coords="460,5,639,215"/>
+<area shape="rect" id="node10" href="$d4/dc3/classfloat.html" title="{float\n||}" alt="" coords="489,351,535,428"/>
+<area shape="rect" id="node12" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="715,351,783,428"/>
+</map>

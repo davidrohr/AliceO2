@@ -1,0 +1,6 @@
+<map id="o2::framework::MessageContext::ContextObject" name="o2::framework::MessageContext::ContextObject">
+<area shape="rect" id="node2" href="$db/d7e/classo2_1_1framework_1_1MessageContext_1_1ContainerRefObject.html" title="{o2::framework::MessageContext\l::ContainerRefObject\&lt; T \&gt;\n||+ ContainerRefObject()\l+ ContainerRefObject()\l+ ~ContainerRefObject()\l+ finalize()\l+ operator return_type &amp;()\l+ get()\l+ data()\l}" alt="" coords="5,263,217,443"/>
+<area shape="rect" id="node3" href="$d4/db0/classo2_1_1framework_1_1MessageContext_1_1RootSerializedObject.html" title="{o2::framework::MessageContext\l::RootSerializedObject\&lt; T \&gt;\n||+ RootSerializedObject()\l+ RootSerializedObject()\l+ ~RootSerializedObject()\l+ finalize()\l+ operator value_type &amp;()\l+ get()\l}" alt="" coords="241,270,453,435"/>
+<area shape="rect" id="node4" href="$d7/df1/classo2_1_1framework_1_1MessageContext_1_1SpanObject.html" title="{o2::framework::MessageContext\l::SpanObject\&lt; T \&gt;\n||+ SpanObject()\l+ SpanObject()\l+ ~SpanObject()\l+ operator value_type &amp;()\l+ get()\l}" alt="" coords="477,277,689,428"/>
+<area shape="rect" id="node5" href="$d3/dfd/classo2_1_1framework_1_1MessageContext_1_1TrivialObject.html" title="TrivialObject handles a message object. " alt="" coords="713,277,925,428"/>
+</map>

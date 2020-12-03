@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/CPV/include/DataFormatsCPV/TriggerRecord.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/CPV/include/DataFormatsCPV/TriggerRecord.h">
+<area shape="rect" id="node2" href="$d9/dd8/CPV_2src_2TriggerRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/CPV/src/TriggerRecord.cxx" alt="" coords="5,131,219,187"/>
+<area shape="rect" id="node3" href="$d5/d1e/CPV_2reconstruction_2include_2CPVReconstruction_2Clusterer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/reconstruction/include\l/CPVReconstruction/Clusterer.h" alt="" coords="243,124,453,195"/>
+<area shape="rect" id="node5" href="$d9/dcc/CPV_2workflow_2include_2CPVWorkflow_2ClusterizerSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/workflow/include/CPVWorkflow\l/ClusterizerSpec.h" alt="" coords="293,243,504,313"/>
+<area shape="rect" id="node7" href="$dd/d16/CPV_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/workflow/src/RecoWorkflow.cxx" alt="" coords="434,361,649,417"/>
+<area shape="rect" id="node8" href="$da/dfe/CPVDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitizerSpec.cxx" alt="" coords="579,131,794,187"/>
+<area shape="rect" id="node9" href="$d1/dc0/CPVDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/CPVDigitWriterSpec.h" alt="" coords="818,131,1033,187"/>
+<area shape="rect" id="node4" href="$d2/dd9/CPV_2reconstruction_2src_2Clusterer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/reconstruction/src/Clusterer.cxx" alt="" coords="58,250,270,306"/>
+<area shape="rect" id="node6" href="$da/d39/CPV_2workflow_2src_2ClusterizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CPV\l/workflow/src/ClusterizerSpec.cxx" alt="" coords="187,361,410,417"/>
+<area shape="rect" id="node10" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="817,250,1033,306"/>
+</map>

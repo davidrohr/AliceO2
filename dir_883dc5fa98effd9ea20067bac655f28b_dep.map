@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Vertexing/src" name="/home/runner/work/AliceO2/AliceO2/Detectors/Vertexing/src">
+<area shape="rect" id="node1" href="dir_883dc5fa98effd9ea20067bac655f28b.html" title="src" alt="" coords="81,52,153,100"/>
+<area shape="rect" id="node2" href="dir_a597e8e061b11201a1dff411feb10d0b.html" title="TPC" alt="" coords="33,148,105,196"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000723_000058.html" title="3" alt="" coords="93,128,101,142"/>
+<area shape="rect" id="node3" href="dir_37c90836491b695b472bf98d1be8336b.html" title="Base" alt="" coords="5,244,77,292"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000723_000300.html" title="2" alt="" coords="26,216,34,231"/>
+<area shape="rect" id="node4" href="dir_685195b2337b28da095e36f150390e16.html" title="include" alt="" coords="129,148,201,196"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000723_000721.html" title="8" alt="" coords="149,120,157,135"/>
+<area shape="rect" id="node5" href="dir_2171f7ec022c5423887b07c69b2f5b48.html" title="DataFormats" alt="" coords="65,340,164,388"/>
+<area shape="rect" id="edge4-headlabel" href="dir_000723_000089.html" title="1" alt="" coords="148,323,156,338"/>
+<area shape="rect" id="edge5-headlabel" href="dir_000058_000300.html" title="4" alt="" coords="58,221,66,236"/>
+<area shape="rect" id="edge6-headlabel" href="dir_000058_000089.html" title="187" alt="" coords="104,313,125,328"/>
+<area shape="rect" id="edge7-headlabel" href="dir_000300_000089.html" title="15" alt="" coords="75,313,90,327"/>
+<area shape="rect" id="edge8-headlabel" href="dir_000721_000089.html" title="32" alt="" coords="126,317,141,332"/>
+<area shape="rect" id="edge9-headlabel" href="dir_000089_000300.html" title="1" alt="" coords="69,304,77,319"/>
+<area shape="rect" id="clust1" href="dir_411c6bed3d84b00fddab3a93c8a3b5fb.html" title="Vertexing" alt="" coords="71,16,164,111"/>
+</map>

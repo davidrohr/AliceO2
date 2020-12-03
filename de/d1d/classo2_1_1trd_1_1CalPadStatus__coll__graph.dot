@@ -1,0 +1,14 @@
+digraph "o2::trd::CalPadStatus"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::trd::CalPadStatus\n||+ CalPadStatus()\l+ CalPadStatus()\l+ CalPadStatus()\l+ ~CalPadStatus()\l+ operator=()\l+ Copy()\l+ isMasked()\l+ isBridgedLeft()\l+ isBridgedRight()\l+ isReadSecond()\l+ isNotConnected()\l+ checkStatus()\l+ getCalROC()\l+ getCalROC()\l+ makeHisto1D()\l+ makeHisto2DSmPl()\l+ plotHistos2DSm()\l+ getTitle()\l+ getName()\l+ setTitle()\l+ setName()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #mROC" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{o2::trd::CalSingleChamber\lStatus\n||+ CalSingleChamberStatus()\l+ CalSingleChamberStatus()\l+ CalSingleChamberStatus()\l+ ~CalSingleChamberStatus()\l+ operator=()\l+ Copy()\l+ isMasked()\l+ isBridgedLeft()\l+ isBridgedRight()\l+ isNotConnected()\l+ getNrows()\l+ getNcols()\l+ getChannel()\l+ getNchannels()\l+ getStatus()\l+ getStatus()\l+ setStatus()\l+ setStatus()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$df/d40/classo2_1_1trd_1_1CalSingleChamberStatus.html"];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #mData" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{vector\< char \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #mNrows\n#mCha\n#mNchannels\n#mNcols\n#mPla" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{Int_t\n||}",height=0.2,width=0.4,color="grey75"];
+}

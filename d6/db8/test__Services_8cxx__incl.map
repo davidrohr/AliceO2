@@ -1,0 +1,21 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Framework/Core/test/test_Services.cxx" name="/home/runner/work/AliceO2/AliceO2/Framework/Core/test/test_Services.cxx">
+<area shape="rect" id="node2" href="$d3/d28/ServiceHandle_8h.html" title="Framework/ServiceHandle.h" alt="" coords="2158,281,2345,307"/>
+<area shape="rect" id="node4" href="$d8/d17/ServiceRegistry_8h.html" title="Framework/ServiceRegistry.h" alt="" coords="1610,109,1805,136"/>
+<area shape="rect" id="node17" href="$d9/de0/DeviceState_8h.html" title="Framework/DeviceState.h" alt="" coords="1602,370,1776,397"/>
+<area shape="rect" id="node35" href="$d9/d7f/CallbackService_8h.html" title="Framework/CallbackService.h" alt="" coords="2537,109,2734,136"/>
+<area shape="rect" id="node44" href="$d8/d02/CommonServices_8h.html" title="Framework/CommonServices.h" alt="" coords="1116,109,1323,136"/>
+<area shape="rect" id="node5" href="$d4/d61/ServiceSpec_8h.html" title="Framework/ServiceSpec.h" alt="" coords="266,191,442,218"/>
+<area shape="rect" id="node7" href="$d1/d76/RuntimeError_8h.html" title="Framework/RuntimeError.h" alt="" coords="2108,370,2286,397"/>
+<area shape="rect" id="node24" href="$d0/d6d/ServiceRegistryHelpers_8h.html" title="Framework/ServiceRegistry\lHelpers.h" alt="" coords="1681,184,1865,225"/>
+<area shape="rect" id="node25" href="$d2/d9a/TypeIdHelpers_8h.html" title="Framework/TypeIdHelpers.h" alt="" coords="1470,281,1657,307"/>
+<area shape="rect" id="node32" href="$d9/de8/CompilerBuiltins_8h.html" title="Framework/CompilerBuiltins.h" alt="" coords="1358,191,1556,218"/>
+<area shape="rect" id="node6" href="$dc/df0/DeviceMetricsInfo_8h.html" title="Framework/DeviceMetricsInfo.h" alt="" coords="234,281,442,307"/>
+<area shape="rect" id="node14" href="$d7/d58/DeviceInfo_8h.html" title="Framework/DeviceInfo.h" alt="" coords="856,281,1021,307"/>
+<area shape="rect" id="node15" href="$d8/d4a/LogParsingHelpers_8h.html" title="Framework/LogParsingHelpers.h" alt="" coords="1264,370,1476,397"/>
+<area shape="rect" id="node16" href="$d0/d2c/Metric2DViewIndex_8h.html" title="Framework/Metric2DViewIndex.h" alt="" coords="394,370,610,397"/>
+<area shape="rect" id="node18" href="$dd/de5/ChannelInfo_8h.html" title="Framework/ChannelInfo.h" alt="" coords="1647,452,1819,479"/>
+<area shape="rect" id="node26" href="$db/dff/StringHelpers_8h.html" title="Framework/StringHelpers.h" alt="" coords="1801,370,1982,397"/>
+<area shape="rect" id="node36" href="$d7/d3e/CallbackRegistry_8h.html" title="A generic registry for callbacks. " alt="" coords="2569,191,2702,218"/>
+<area shape="rect" id="node37" href="$d0/d95/TypeTraits_8h.html" title="Framework/TypeTraits.h" alt="" coords="2572,281,2736,307"/>
+<area shape="rect" id="node39" href="$db/d31/Traits_8h.html" title="Framework/Traits.h" alt="" coords="2931,370,3066,397"/>
+</map>

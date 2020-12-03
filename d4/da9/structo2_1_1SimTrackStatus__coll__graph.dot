@@ -1,0 +1,8 @@
+digraph "o2::SimTrackStatus"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::SimTrackStatus\n||+ SimTrackStatus()\l+ SimTrackStatus()\l+ isEntering()\l+ isInside()\l+ isExiting()\l+ isOut()\l+ isStopped()\l+ isAlive()\l+ isNew()\l+ getStatusWord()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

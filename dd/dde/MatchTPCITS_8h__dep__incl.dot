@@ -1,0 +1,29 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/GlobalTracking/include/GlobalTracking/MatchTPCITS.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node130 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/include/GlobalTracking/MatchTPCITS.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node131 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/include/GlobalTracking/MatchTOF.h",height=0.2,width=0.4,color="black",URL="$d0/d74/MatchTOF_8h.html",tooltip="Class to perform TOF matching to global tracks. "];
+  Node131 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/dc9/AODProducerWorkflowSpec_8cxx.html"];
+  Node131 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTOF.cxx",height=0.2,width=0.4,color="black",URL="$db/d6a/MatchTOF_8cxx.html"];
+  Node131 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node134 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowSpec.cxx",height=0.2,width=0.4,color="black",URL="$d8/d84/RecoWorkflowSpec_8cxx.html"];
+  Node131 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node135 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowWith\lTPCSpec.cxx",height=0.2,width=0.4,color="black",URL="$d4/d76/RecoWorkflowWithTPCSpec_8cxx.html"];
+  Node130 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node130 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node136 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx",height=0.2,width=0.4,color="black",URL="$dc/d59/MatchTPCITS_8cxx.html"];
+  Node130 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node137 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/TPCITSMatchingSpec.h",height=0.2,width=0.4,color="black",URL="$da/d20/TPCITSMatchingSpec_8h.html"];
+  Node137 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node138 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$df/de7/AODProducerWorkflow_8cxx.html"];
+  Node137 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node139 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/MatchTPCITSWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d5/db4/MatchTPCITSWorkflow_8cxx.html"];
+  Node137 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node140 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TPCITSMatchingSpec.cxx",height=0.2,width=0.4,color="black",URL="$d6/d73/TPCITSMatchingSpec_8cxx.html"];
+}

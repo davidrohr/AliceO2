@@ -1,0 +1,21 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Encoder/Payload/include/MCHRawEncoderPayload/PayloadEncoder.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node20 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Payload\l/include/MCHRawEncoderPayload\l/PayloadEncoder.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Decoder/src/testUserLogic\lEndpointDecoder.cxx",height=0.2,width=0.4,color="black",URL="$d8/dcb/testUserLogicEndpointDecoder_8cxx.html"];
+  Node20 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Digit/DigitEncoder.cxx",height=0.2,width=0.4,color="black",URL="$d9/d30/DigitEncoder_8cxx.html"];
+  Node20 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Payload\l/PayloadEncoderImpl.h",height=0.2,width=0.4,color="black",URL="$d7/d38/PayloadEncoderImpl_8h.html"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Payload\l/PayloadEncoder.cxx",height=0.2,width=0.4,color="black",URL="$d6/d9e/PayloadEncoder_8cxx.html"];
+  Node20 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/Encoder/Payload\l/testPayloadEncoder.cxx",height=0.2,width=0.4,color="black",URL="$d2/ded/testPayloadEncoder_8cxx.html"];
+  Node20 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Raw/test/testClosureCoDec.cxx",height=0.2,width=0.4,color="black",URL="$d2/ddb/testClosureCoDec_8cxx.html"];
+}

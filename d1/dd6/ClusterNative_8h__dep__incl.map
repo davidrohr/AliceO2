@@ -1,0 +1,63 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/TPC/include/DataFormatsTPC/ClusterNative.h">
+<area shape="rect" id="node2" href="$d1/d2b/ClusterNativeHelper_8h.html" title="Helper class to read the binary format of TPC ClusterNative. " alt="" coords="908,131,1122,202"/>
+<area shape="rect" id="node14" href="$d6/d73/TPCITSMatchingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/TPCITSMatchingSpec.cxx" alt="" coords="1100,531,1359,587"/>
+<area shape="rect" id="node15" href="$d8/d85/TPCInterpolationSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TPCInterpolationSpec.cxx" alt="" coords="1820,524,2044,595"/>
+<area shape="rect" id="node16" href="$d2/d41/HardwareClusterDecoder_8h.html" title="Decoder to convert TPC ClusterHardware to ClusterNative. " alt="" coords="287,257,530,343"/>
+<area shape="rect" id="node17" href="$d4/d7c/HardwareClusterDecoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/HardwareCluster\lDecoder.cxx" alt="" coords="95,398,327,469"/>
+<area shape="rect" id="node20" href="$d1/df6/testGPUCATracking_8cxx.html" title="This task tests the TPC CA Tracking library. " alt="" coords="1486,405,1768,461"/>
+<area shape="rect" id="node21" href="$da/d78/CATrackerSpec_8cxx.html" title="Processor spec for running TPC CA tracking. " alt="" coords="702,405,925,461"/>
+<area shape="rect" id="node22" href="$d5/df5/DataInterpreterTPC_8cxx.html" title="converting TPC data to Event Visualisation primitives " alt="" coords="1103,272,1351,328"/>
+<area shape="rect" id="node23" href="$d5/dc9/TrackTPC_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/TPC/include/DataFormatsTPC\l/TrackTPC.h" alt="" coords="3018,131,3231,202"/>
+<area shape="rect" id="node26" href="$dc/d42/CalibPadGainTracks_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/include/TPCCalibration\l/CalibPadGainTracks.h" alt="" coords="1860,265,2082,335"/>
+<area shape="rect" id="node39" href="$d3/d64/GPUCATracking_8h.html" title="Wrapper class for TPC CA Tracker algorithm. " alt="" coords="1376,265,1630,335"/>
+<area shape="rect" id="node56" href="$d6/dcd/GPUO2InterfaceRefit_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Interface/GPUO2InterfaceRefit.cxx" alt="" coords="5421,272,5652,328"/>
+<area shape="rect" id="node58" href="$d1/d42/testClusterNative_8cxx.html" title="Unit test for the TPC ClusterNative data struct. " alt="" coords="3255,139,3468,195"/>
+<area shape="rect" id="node59" href="$d2/df2/Clusters_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/src/Clusters.cxx" alt="" coords="3493,139,3673,195"/>
+<area shape="rect" id="node60" href="$db/d19/DigitalCurrentClusterIntegrator_8h.html" title="Decoder to convert TPC ClusterHardware to ClusterNative. " alt="" coords="296,124,521,209"/>
+<area shape="rect" id="node62" href="$d0/d48/GPUO2Interface_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Interface/GPUO2Interface.cxx" alt="" coords="3748,139,3951,195"/>
+<area shape="rect" id="node3" href="$d5/d1e/ClusterNativeHelper_8cxx.html" title="Helper class to read the binary format of TPC ClusterNative. " alt="" coords="705,272,928,328"/>
+<area shape="rect" id="node4" href="$d3/dac/MatchTPCITS_8h.html" title="Class to perform TPC ITS matching. " alt="" coords="2208,272,2465,328"/>
+<area shape="rect" id="node19" href="$d4/d2e/GPUCATracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/GPUCATracking.cxx" alt="" coords="1000,405,1257,461"/>
+<area shape="rect" id="node5" href="$d0/d74/MatchTOF_8h.html" title="Class to perform TOF matching to global tracks. " alt="" coords="2683,405,2918,461"/>
+<area shape="rect" id="node7" href="$db/d6a/MatchTOF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTOF.cxx" alt="" coords="2212,531,2436,587"/>
+<area shape="rect" id="node10" href="$dc/d59/MatchTPCITS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\l/src/MatchTPCITS.cxx" alt="" coords="2224,405,2448,461"/>
+<area shape="rect" id="node11" href="$da/d20/TPCITSMatchingSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/TPCITSMatchingSpec.h" alt="" coords="3268,398,3536,469"/>
+<area shape="rect" id="node6" href="$d6/dc9/AODProducerWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflowSpec.cxx" alt="" coords="3110,531,3349,587"/>
+<area shape="rect" id="node8" href="$d8/d84/RecoWorkflowSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowSpec.cxx" alt="" coords="2460,531,2775,587"/>
+<area shape="rect" id="node9" href="$d4/d76/RecoWorkflowWithTPCSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/RecoWorkflowWith\lTPCSpec.cxx" alt="" coords="2800,524,3086,595"/>
+<area shape="rect" id="node12" href="$df/de7/AODProducerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/AODProducerWorkflow.cxx" alt="" coords="3373,531,3582,587"/>
+<area shape="rect" id="node13" href="$d5/db4/MatchTPCITSWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/MatchTPCITSWorkflow.cxx" alt="" coords="3811,531,4078,587"/>
+<area shape="rect" id="node18" href="$d9/d7b/ClusterDecoderRawSpec_8cxx.html" title="Processor spec for decoder of TPC raw cluster data. " alt="" coords="352,398,574,469"/>
+<area shape="rect" id="node24" href="$d6/da8/TrackTPC_8cxx.html" title="Implementation of the TPC track. " alt="" coords="2704,272,2918,328"/>
+<area shape="rect" id="node25" href="$d7/d23/StandaloneAODProducer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/AOD\l/src/StandaloneAODProducer.cxx" alt="" coords="2942,272,3160,328"/>
+<area shape="rect" id="node28" href="$d3/d0c/TrackInterpolation_8h.html" title="Definition of the TrackInterpolation class. " alt="" coords="4103,265,4367,335"/>
+<area shape="rect" id="node34" href="$d4/d15/TrackInterpolation_8cxx.html" title="Implementation of the TrackInterpolation class. " alt="" coords="4332,398,4512,469"/>
+<area shape="rect" id="node35" href="$d2/d14/Detectors_2TPC_2qc_2src_2PID_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/src/PID.cxx" alt="" coords="3286,272,3466,328"/>
+<area shape="rect" id="node36" href="$d2/d68/TrackCuts_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/src/TrackCuts.cxx" alt="" coords="3490,272,3670,328"/>
+<area shape="rect" id="node37" href="$d8/dab/Tracking_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/src/Tracking.cxx" alt="" coords="3694,272,3874,328"/>
+<area shape="rect" id="node38" href="$db/d71/Tracks_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/qc/src/Tracks.cxx" alt="" coords="3898,272,4078,328"/>
+<area shape="rect" id="node41" href="$d5/daf/TPC_2workflow_2include_2TPCWorkflow_2TrackReaderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/include/TPCWorkflow\l/TrackReaderSpec.h" alt="" coords="4536,398,4745,469"/>
+<area shape="rect" id="node46" href="$d0/d80/TPC_2workflow_2src_2RecoWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/RecoWorkflow.cxx" alt="" coords="4442,272,4657,328"/>
+<area shape="rect" id="node47" href="$db/dbe/SVertexer_8h.html" title="Secondary vertex finder. " alt="" coords="4732,265,4924,335"/>
+<area shape="rect" id="node51" href="$d7/d99/VertexTrackMatcher_8h.html" title="Class for vertex track association. " alt="" coords="5204,265,5396,335"/>
+<area shape="rect" id="node55" href="$df/d85/DataReaderTPC_8cxx.html" title="TPC Detector&#45;specific reading from file(s) " alt="" coords="4949,272,5180,328"/>
+<area shape="rect" id="node57" href="$df/d2b/GPUTrackingRefit_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/GPU/GPUTracking\l/Refit/GPUTrackingRefit.cxx" alt="" coords="2489,272,2680,328"/>
+<area shape="rect" id="node27" href="$d9/da6/CalibPadGainTracks_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/calibration/src/CalibPadGainTracks.cxx" alt="" coords="1843,405,2099,461"/>
+<area shape="rect" id="node29" href="$dc/d50/TPCInterpolationSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/include/TPCInterpolationWorkflow\l/TPCInterpolationSpec.h" alt="" coords="3560,391,3784,476"/>
+<area shape="rect" id="node31" href="$d2/d27/TPCResidualWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TPCResidualWriterSpec.cxx" alt="" coords="3808,398,4032,469"/>
+<area shape="rect" id="node32" href="$da/ddb/TrackResiduals_8h.html" title="Definition of the TrackResiduals class. " alt="" coords="4056,398,4307,469"/>
+<area shape="rect" id="node30" href="$d1/d67/TrackInterpolationWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tpcinterpolationworkflow\l/src/TrackInterpolationWorkflow.cxx" alt="" coords="4102,524,4334,595"/>
+<area shape="rect" id="node33" href="$d9/df0/TrackResiduals_8cxx.html" title="Implementation of the TrackResiduals class. " alt="" coords="3606,524,3786,595"/>
+<area shape="rect" id="node40" href="$d2/dbc/ZSSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/ZSSpec.cxx" alt="" coords="1281,405,1461,461"/>
+<area shape="rect" id="node42" href="$d2/dfc/primary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/primary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="5112,524,5336,595"/>
+<area shape="rect" id="node43" href="$d9/d62/secondary-vertexing-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/secondary&#45;vertexing\l&#45;workflow.cxx" alt="" coords="4864,524,5088,595"/>
+<area shape="rect" id="node44" href="$da/d65/tof-matcher-tpc_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/tofworkflow/src/tof\l&#45;matcher&#45;tpc.cxx" alt="" coords="4358,524,4582,595"/>
+<area shape="rect" id="node45" href="$d4/d3e/TPC_2workflow_2src_2TrackReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/src/TrackReaderSpec.cxx" alt="" coords="4606,531,4840,587"/>
+<area shape="rect" id="node48" href="$de/d21/SecondaryVertexingSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/include/GlobalTrackingWorkflow\l/SecondaryVertexingSpec.h" alt="" coords="4986,398,5254,469"/>
+<area shape="rect" id="node50" href="$d4/d3b/SVertexer_8cxx.html" title="Secondary vertex finder. " alt="" coords="4770,405,4962,461"/>
+<area shape="rect" id="node49" href="$d9/dfc/SecondaryVertexingSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/GlobalTracking\lWorkflow/src/SecondaryVertexingSpec.cxx" alt="" coords="5360,531,5635,587"/>
+<area shape="rect" id="node52" href="$d9/d8e/VertexTrackMatcherSpec_8h.html" title="Specs for vertex track association device. " alt="" coords="5496,398,5764,469"/>
+<area shape="rect" id="node54" href="$d0/de5/VertexTrackMatcher_8cxx.html" title="Class for vertex track association. " alt="" coords="5279,405,5471,461"/>
+<area shape="rect" id="node53" href="$de/d73/VertexTrackMatcherSpec_8cxx.html" title="Specs for vertex track association device. " alt="" coords="5660,531,5936,587"/>
+<area shape="rect" id="node61" href="$d1/d81/DigitalCurrentClusterIntegrator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/reconstruction/src/DigitalCurrent\lClusterIntegrator.cxx" alt="" coords="48,265,262,335"/>
+</map>

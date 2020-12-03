@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Contour" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_061f7088060f41729027f6c2fce0273e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MCH" fontname="Helvetica", fontsize="10", URL="dir_061f7088060f41729027f6c2fce0273e.html"]
+  subgraph clusterdir_f53aaea7b1f4a3d2e21e52645ea2576d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f53aaea7b1f4a3d2e21e52645ea2576d.html"];
+    dir_f53aaea7b1f4a3d2e21e52645ea2576d [shape=plaintext label="Contour"];
+    dir_9f2188374d0b116536386373a4be906b [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_9f2188374d0b116536386373a4be906b.html"];
+    dir_377ebcd56c89d769a577f1ce63b27ddd [shape=box label="test" color="black" fillcolor="white" style="filled" URL="dir_377ebcd56c89d769a577f1ce63b27ddd.html"];
+  }
+  }
+  dir_377ebcd56c89d769a577f1ce63b27ddd->dir_9f2188374d0b116536386373a4be906b [headlabel="9", labeldistance=1.5 headhref="dir_000287_000284.html"];
+}

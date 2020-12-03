@@ -1,0 +1,8 @@
+digraph "o2::vertexing::PVertexer"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::vertexing::PVertexer\n||+ init()\l+ process()\l+ process()\l+ findVertex()\l+ setStartIR()\l+ setTukey()\l+ getTukey()\l+ finalizeVertex()\l+ setCompatibleIR()\l+ setBunchFilling()\l+ setBz()\l+ setValidateWithFT0()\l+ getValidateWithFT0()\l+ getTracksPool()\l+ getTimeClusters()\l+ getSortedTrackIndices()\l+ getMeanVertex()\l+ setMeanVertex()\l+ estimateScale2()\l+ createMCLabels()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

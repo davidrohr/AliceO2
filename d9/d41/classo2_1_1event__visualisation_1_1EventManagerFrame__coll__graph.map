@@ -1,0 +1,6 @@
+<map id="o2::event_visualisation::EventManagerFrame" name="o2::event_visualisation::EventManagerFrame">
+<area shape="rect" id="node2" href="$d4/dd1/classTGMainFrame.html" title="{TGMainFrame\n||}" alt="" coords="5,264,111,341"/>
+<area shape="rect" id="node4" href="$d2/db5/classo2_1_1event__visualisation_1_1EventManager.html" title="{o2::event_visualisation\l::EventManager\n||+ setDataSourceType()\l+ setDataSourcePath()\l+ setCdbPath()\l+ getCurrentEvent()\l+ getDataSource()\l+ setDataSource()\l+ Open()\l+ GotoEvent()\l+ NextEvent()\l+ PrevEvent()\l+ Close()\l+ AfterNewEventLoaded()\l+ AddNewEventCommand()\l+ RemoveNewEventCommand()\l+ ClearNewEventCommands()\l+ registerDetector()\l+ DropEvent()\l+ getInstance()\l}" alt="" coords="285,132,497,473"/>
+<area shape="rect" id="node5" href="$d4/dd7/classTEveEventManager.html" title="{TEveEventManager\n||}" alt="" coords="256,5,393,83"/>
+<area shape="rect" id="node6" href="$d7/d8b/classTQObject.html" title="{TQObject\n||}" alt="" coords="417,5,496,83"/>
+</map>

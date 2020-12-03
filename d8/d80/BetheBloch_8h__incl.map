@@ -1,0 +1,19 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PID/BetheBloch.h" name="/home/runner/work/AliceO2/AliceO2/Analysis/DataModel/include/PID/BetheBloch.h">
+<area shape="rect" id="node2" href="$da/d96/TPC_2simulation_2include_2TPCSimulation_2Detector_8h.html" title="TPCSimulation/Detector.h" alt="" coords="995,109,1170,136"/>
+<area shape="rect" id="node51" href="$d0/ded/ParamBase_8h.html" title="Set of utilities to handle the parametrization of the PID response for each detector These are the ba..." alt="" coords="1589,109,1747,136"/>
+<area shape="rect" id="node3" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="995,184,1170,211"/>
+<area shape="rect" id="node31" href="$d4/de5/Point_8h.html" title="Class for TPC Point. " alt="" coords="1677,184,1832,211"/>
+<area shape="rect" id="node47" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="2038,184,2170,211"/>
+<area shape="rect" id="node10" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="1074,266,1294,293"/>
+<area shape="rect" id="node19" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="1247,348,1441,375"/>
+<area shape="rect" id="node25" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="1567,266,1761,293"/>
+<area shape="rect" id="node32" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1919,259,2071,300"/>
+<area shape="rect" id="node33" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2572,348,2721,375"/>
+<area shape="rect" id="node34" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="3629,512,3765,539"/>
+<area shape="rect" id="node37" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1652,430,1809,457"/>
+<area shape="rect" id="node46" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="3671,430,3852,457"/>
+<area shape="rect" id="node35" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="3508,587,3692,613"/>
+<area shape="rect" id="node36" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="3717,587,3875,613"/>
+<area shape="rect" id="node48" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="2095,266,2295,293"/>
+<area shape="rect" id="node49" href="$d1/d73/Defs_8h.html" title="DataFormatsTPC/Defs.h" alt="" coords="2627,266,2795,293"/>
+</map>

@@ -1,0 +1,101 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/MemoryResources/include/MemoryResources/MemoryResources.h">
+<area shape="rect" id="node2" href="$d4/d00/Headers_2include_2Headers_2Stack_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Headers\l/include/Headers/Stack.h" alt="" coords="8473,109,8679,165"/>
+<area shape="rect" id="node46" href="$d5/da9/Framework_2Utils_2include_2DPLUtils_2Utils_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/include/DPLUtils/Utils.h" alt="" coords="4505,577,4685,633"/>
+<area shape="rect" id="node60" href="$d4/d7a/LifetimeHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/LifetimeHelpers.cxx" alt="" coords="6897,458,7077,514"/>
+<area shape="rect" id="node85" href="$da/d65/DataProcessingHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingHelpers.cxx" alt="" coords="10235,221,10445,277"/>
+<area shape="rect" id="node94" href="$d7/db2/Utilities_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/O2Device\l/include/O2Device/Utilities.h" alt="" coords="10470,221,10658,277"/>
+<area shape="rect" id="node96" href="$d3/dba/MemoryResources_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/MemoryResources\l/src/MemoryResources.cxx" alt="" coords="8804,109,9071,165"/>
+<area shape="rect" id="node97" href="$d1/d71/testMemoryResources_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/MemoryResources\l/test/testMemoryResources.cxx" alt="" coords="9095,109,9361,165"/>
+<area shape="rect" id="node98" href="$d7/d31/DataChunk_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataChunk.h" alt="" coords="2357,109,2574,165"/>
+<area shape="rect" id="node99" href="$dc/dc4/MessageContext_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/MessageContext.h" alt="" coords="119,221,369,277"/>
+<area shape="rect" id="node3" href="$d7/d68/headerstack_8cxx.html" title="Unit test for O2 header stack utilities. " alt="" coords="9598,221,9778,277"/>
+<area shape="rect" id="node4" href="$da/d5c/testDataHeader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Headers\l/test/testDataHeader.cxx" alt="" coords="9803,221,10008,277"/>
+<area shape="rect" id="node5" href="$d3/d87/RawFileReaderWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/RawFileReaderWorkflow.cxx" alt="" coords="6867,577,7085,633"/>
+<area shape="rect" id="node6" href="$d3/da3/DataDescriptorMatcher_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataDescriptor\lMatcher.h" alt="" coords="7427,213,7655,284"/>
+<area shape="rect" id="node15" href="$d8/dd6/benchmark__DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_DataRelayer.cxx" alt="" coords="9425,577,9647,633"/>
+<area shape="rect" id="node16" href="$df/d93/benchmark__InputRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_InputRecord.cxx" alt="" coords="9708,577,9927,633"/>
+<area shape="rect" id="node17" href="$dc/d6d/test__DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataRelayer.cxx" alt="" coords="9970,577,10150,633"/>
+<area shape="rect" id="node40" href="$dc/df3/ExternalFairMQDeviceProxy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ExternalFairMQDeviceProxy.cxx" alt="" coords="7339,695,7578,751"/>
+<area shape="rect" id="node56" href="$db/d9d/DataAllocator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataAllocator.cxx" alt="" coords="290,577,470,633"/>
+<area shape="rect" id="node65" href="$d3/ddf/Output_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/Output.h" alt="" coords="4141,221,4331,277"/>
+<area shape="rect" id="node83" href="$d6/d5a/OutputRef_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/OutputRef.h" alt="" coords="7192,221,7403,277"/>
+<area shape="rect" id="node86" href="$d3/dcf/test__CompletionPolicy_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_CompletionPolicy.cxx" alt="" coords="7680,221,7888,277"/>
+<area shape="rect" id="node87" href="$df/dc1/test__InputRecord_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_InputRecord.cxx" alt="" coords="7913,221,8093,277"/>
+<area shape="rect" id="node88" href="$dc/d05/test__InputRecordWalker_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_InputRecordWalker.cxx" alt="" coords="8117,221,8336,277"/>
+<area shape="rect" id="node89" href="$d0/d6f/test__DPLRawParser_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/test_DPLRawParser.cxx" alt="" coords="8360,221,8557,277"/>
+<area shape="rect" id="node90" href="$d6/d62/MessageFormat_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/src/MessageFormat.cxx" alt="" coords="8582,221,8805,277"/>
+<area shape="rect" id="node91" href="$d5/db0/testMessageFormat_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/aliceHLTwrapper\l/test/testMessageFormat.cxx" alt="" coords="8829,221,9051,277"/>
+<area shape="rect" id="node92" href="$dd/d70/test__DataSamplingCondition_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/test_DataSamplingCondition.cxx" alt="" coords="9076,221,9319,277"/>
+<area shape="rect" id="node93" href="$de/df7/test__DataSamplingHeader_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/test_DataSamplingHeader.cxx" alt="" coords="9343,221,9574,277"/>
+<area shape="rect" id="node7" href="$d0/d9c/DataInputDirector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataInputDirector.h" alt="" coords="8101,458,8355,514"/>
+<area shape="rect" id="node8" href="$d4/d61/DataOutputDirector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataOutputDirector.h" alt="" coords="7895,577,8159,633"/>
+<area shape="rect" id="node9" href="$d7/dc7/DataMatcherWalker_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataMatcherWalker.h" alt="" coords="8769,339,9036,395"/>
+<area shape="rect" id="node10" href="$d0/d2b/DataDescriptorMatcher_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataDescriptorMatcher.cxx" alt="" coords="8719,458,8927,514"/>
+<area shape="rect" id="node11" href="$d4/dab/DataSpecUtils_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataSpecUtils.cxx" alt="" coords="8874,577,9054,633"/>
+<area shape="rect" id="node12" href="$df/d59/DataRelayer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataRelayer.h" alt="" coords="9111,458,9335,514"/>
+<area shape="rect" id="node14" href="$d1/d57/DataRelayer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataRelayer.cxx" alt="" coords="8539,577,8719,633"/>
+<area shape="rect" id="node18" href="$d5/d3f/InputSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/InputSpec.h" alt="" coords="7009,339,7220,395"/>
+<area shape="rect" id="node39" href="$df/d93/CommonDataProcessors_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonDataProcessors.cxx" alt="" coords="7079,695,7299,751"/>
+<area shape="rect" id="node59" href="$d3/d17/DataDescriptorQueryBuilder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataDescriptorQueryBuilder.cxx" alt="" coords="7523,458,7759,514"/>
+<area shape="rect" id="node61" href="$dd/d1e/test__DataDescriptorMatcher_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataDescriptorMatcher.cxx" alt="" coords="7783,458,8025,514"/>
+<area shape="rect" id="node62" href="$d4/def/TimesliceIndex_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/TimesliceIndex.h" alt="" coords="8405,339,8643,395"/>
+<area shape="rect" id="node63" href="$df/d68/DataRelayerHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataRelayerHelpers.cxx" alt="" coords="7882,339,8073,395"/>
+<area shape="rect" id="node64" href="$d5/de4/benchmark__DataDescriptorMatcher_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/benchmark_DataDescriptorMatcher.cxx" alt="" coords="8097,339,8380,395"/>
+<area shape="rect" id="node13" href="$d3/d4b/DataProcessingDevice_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataProcessing\lDevice.h" alt="" coords="9091,569,9325,640"/>
+<area shape="rect" id="node19" href="$db/d34/AnalysisHelpers_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/AnalysisHelpers.h" alt="" coords="7253,458,7499,514"/>
+<area shape="rect" id="node20" href="$d0/df4/DataProcessorSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataProcessor\lSpec.h" alt="" coords="3651,451,3877,521"/>
+<area shape="rect" id="node43" href="$d2/da2/test__DataAllocator_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataAllocator.cxx" alt="" coords="941,695,1126,751"/>
+<area shape="rect" id="node45" href="$dd/d16/test__StaggeringWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_StaggeringWorkflow.cxx" alt="" coords="1361,695,1583,751"/>
+<area shape="rect" id="node54" href="$d6/d68/DataSpecUtils_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataSpecUtils.h" alt="" coords="6485,458,6721,514"/>
+<area shape="rect" id="node58" href="$d2/d1b/DataSamplingPolicy_8h.html" title="A declaration of O2 Data Sampling Policy. " alt="" coords="7497,577,7783,633"/>
+<area shape="rect" id="node21" href="$d2/d55/EMCAL_2workflow_2include_2EMCALWorkflow_2PublisherSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/EMCAL\l/workflow/include/EMCALWorkflow\l/PublisherSpec.h" alt="" coords="5977,569,6205,640"/>
+<area shape="rect" id="node22" href="$d5/db7/FT0DataProcessDPLSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/include/FT0Workflow\l/FT0DataProcessDPLSpec.h" alt="" coords="4963,569,5195,640"/>
+<area shape="rect" id="node23" href="$d4/dfa/FT0DataReaderDPLSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/include/FT0Workflow\l/FT0DataReaderDPLSpec.h" alt="" coords="5219,569,5451,640"/>
+<area shape="rect" id="node24" href="$d1/d4a/ClusterFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to run the original MLEM cluster finder. " alt="" coords="5475,569,5695,640"/>
+<area shape="rect" id="node25" href="$db/d71/ClusterSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send clusters. " alt="" coords="5720,569,5952,640"/>
+<area shape="rect" id="node26" href="$db/dc9/cru-page-reader-workflow_8cxx.html" title="This is an executable that reads a data file from disk and sends the individual CRU pages via DPL..." alt="" coords="4931,688,5123,759"/>
+<area shape="rect" id="node27" href="$d0/d75/DataDecoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Workflow/src/DataDecoderSpec.cxx" alt="" coords="1392,577,1667,633"/>
+<area shape="rect" id="node28" href="$dd/da0/digits-sink-workflow_8cxx.html" title="This is an executable that dumps to a file on disk the digits received via DPL. " alt="" coords="1157,688,1337,759"/>
+<area shape="rect" id="node29" href="$d2/d75/DigitSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send digits. " alt="" coords="1691,577,1963,633"/>
+<area shape="rect" id="node30" href="$df/d50/PreClusterFinderSpec_8cxx.html" title="Implementation of a data processor to run the preclusterizer. " alt="" coords="1987,569,2227,640"/>
+<area shape="rect" id="node31" href="$d1/d96/TrackAtVertexSpec_8cxx.html" title="Implementation of a data processor to extrapolate the tracks to the vertex. " alt="" coords="2251,569,2477,640"/>
+<area shape="rect" id="node32" href="$d7/d30/TrackFinderOriginalSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="2502,569,2757,640"/>
+<area shape="rect" id="node33" href="$dd/dea/TrackFinderSpec_8cxx.html" title="Implementation of a data processor to read clusters, reconstruct tracks and send them. " alt="" coords="2832,577,3099,633"/>
+<area shape="rect" id="node34" href="$db/d54/TrackFitterSpec_8cxx.html" title="Implementation of a data processor to read, refit and send tracks with attached clusters. " alt="" coords="3123,577,3383,633"/>
+<area shape="rect" id="node35" href="$d5/d93/TrackSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send tracks. " alt="" coords="6229,577,6507,633"/>
+<area shape="rect" id="node36" href="$d0/d9f/VertexSamplerSpec_8cxx.html" title="Implementation of a data processor to read and send vertices. " alt="" coords="3407,569,3635,640"/>
+<area shape="rect" id="node37" href="$d9/d4e/TPC_2workflow_2include_2TPCWorkflow_2PublisherSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/workflow/include/TPCWorkflow\l/PublisherSpec.h" alt="" coords="4015,569,4225,640"/>
+<area shape="rect" id="node38" href="$d6/d03/ExternalFairMQDeviceProxy_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/ExternalFair\lMQDeviceProxy.h" alt="" coords="7211,569,7421,640"/>
+<area shape="rect" id="node41" href="$db/dd0/runDataProcessing_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/runDataProcessing.h" alt="" coords="902,577,1165,633"/>
+<area shape="rect" id="node47" href="$d5/d63/DPLBroadcaster_8cxx.html" title="Implementation of generic DPL broadcaster, v0.1. " alt="" coords="3671,695,3851,751"/>
+<area shape="rect" id="node48" href="$d2/d37/DPLGatherer_8cxx.html" title="Implementation of generic DPL gatherer, v0.1. " alt="" coords="3875,695,4055,751"/>
+<area shape="rect" id="node49" href="$de/d40/DPLMerger_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/src/DPLMerger.cxx" alt="" coords="4079,695,4259,751"/>
+<area shape="rect" id="node50" href="$d9/d0e/DPLRouter_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/src/DPLRouter.cxx" alt="" coords="4283,695,4463,751"/>
+<area shape="rect" id="node52" href="$d1/d35/DPLBroadcasterMerger_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/DPLBroadcasterMerger.cxx" alt="" coords="4488,695,4701,751"/>
+<area shape="rect" id="node53" href="$da/d34/DPLOutputTest_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/test/DPLOutputTest.cxx" alt="" coords="4726,695,4906,751"/>
+<area shape="rect" id="node42" href="$d0/d31/tof-dummy-ccdb-for-calib_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/calibration/testWorkflow\l/tof&#45;dummy&#45;ccdb&#45;for&#45;calib.cxx" alt="" coords="411,688,605,759"/>
+<area shape="rect" id="node44" href="$da/d97/test__SimpleRDataFrameProcessing_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_SimpleRDataFrameProcessing.cxx" alt="" coords="630,695,917,751"/>
+<area shape="rect" id="node51" href="$d7/d79/Framework_2Utils_2src_2Utils_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Utils\l/src/Utils.cxx" alt="" coords="6019,695,6199,751"/>
+<area shape="rect" id="node55" href="$d6/d1b/MUON_2MID_2Workflow_2src_2DigitReaderSpec_8cxx.html" title="Data processor spec for MID digits reader device. " alt="" coords="6582,577,6842,633"/>
+<area shape="rect" id="node57" href="$dc/da7/WorkflowHelpers_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.cxx" alt="" coords="4249,577,4429,633"/>
+<area shape="rect" id="node66" href="$d3/d1e/ClusterizerMCSpec_8cxx.html" title="Data processor spec for MID MC clustering device. " alt="" coords="3544,339,3819,395"/>
+<area shape="rect" id="node67" href="$d6/d57/MUON_2MID_2Workflow_2src_2ClusterizerSpec_8cxx.html" title="Data processor spec for MID clustering device. " alt="" coords="3843,339,4098,395"/>
+<area shape="rect" id="node68" href="$db/de7/RawAggregatorSpec_8cxx.html" title="Data processor spec for MID raw data aggregator device. " alt="" coords="4123,332,4349,403"/>
+<area shape="rect" id="node69" href="$d1/dc9/RawDecoderSpec_8cxx.html" title="Data processor spec for MID raw decoder device. " alt="" coords="4373,339,4640,395"/>
+<area shape="rect" id="node70" href="$d3/d67/MUON_2MID_2Workflow_2src_2RawWriterSpec_8cxx.html" title="Digits to raw converter spec for MID. " alt="" coords="4664,339,4917,395"/>
+<area shape="rect" id="node71" href="$da/d28/TrackerMCSpec_8cxx.html" title="Data processor spec for MID MC tracker device. " alt="" coords="4941,339,5197,395"/>
+<area shape="rect" id="node72" href="$db/da5/MUON_2MID_2Workflow_2src_2TrackerSpec_8cxx.html" title="Data processor spec for MID tracker device. " alt="" coords="5221,339,5456,395"/>
+<area shape="rect" id="node73" href="$de/d2b/ZeroSuppressionSpec_8cxx.html" title="MID zero suppression spec. " alt="" coords="5480,332,5715,403"/>
+<area shape="rect" id="node74" href="$d1/d28/DataAllocator_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/DataAllocator.h" alt="" coords="1311,339,1542,395"/>
+<area shape="rect" id="node80" href="$df/db5/RootTreeReader_8h.html" title="A generic reader for ROOT TTrees. " alt="" coords="4003,458,4237,514"/>
+<area shape="rect" id="node81" href="$dc/d55/DPLBoostSerializer_8h.html" title="DPL wrapper of common utils BoostSeralizer. " alt="" coords="5739,339,6005,395"/>
+<area shape="rect" id="node82" href="$d4/ddd/MessageContext_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/MessageContext.cxx" alt="" coords="777,339,957,395"/>
+<area shape="rect" id="node75" href="$d7/d5a/RawReaderFT0_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FT0/workflow/include/FT0Workflow\l/RawReaderFT0.h" alt="" coords="647,451,879,521"/>
+<area shape="rect" id="node76" href="$d0/d77/EndOfStreamContext_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/EndOfStreamContext.h" alt="" coords="1617,458,1893,514"/>
+<area shape="rect" id="node78" href="$df/d66/test__AlgorithmSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_AlgorithmSpec.cxx" alt="" coords="903,458,1094,514"/>
+<area shape="rect" id="node79" href="$d6/d53/test__FrameworkDataFlowToDDS_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_FrameworkDataFlowToDDS.cxx" alt="" coords="1118,458,1389,514"/>
+<area shape="rect" id="node77" href="$d9/d10/CommonMessageBackends_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonMessageBackends.cxx" alt="" coords="5,577,243,633"/>
+<area shape="rect" id="node84" href="$da/dd6/HistogramRegistry_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/HistogramRegistry.h" alt="" coords="7345,339,7605,395"/>
+<area shape="rect" id="node95" href="$d2/dee/O2Device_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Utilities/O2Device\l/include/O2Device/O2Device.h" alt="" coords="10463,339,10665,395"/>
+<area shape="rect" id="node100" href="$dd/dd9/DataProcessor_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessor.cxx" alt="" coords="138,339,318,395"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="ROOT::RDF::RCombinedDSIndex" name="ROOT::RDF::RCombinedDSIndex">
+<area shape="rect" id="node2" href="$d3/d75/classROOT_1_1RDF_1_1RCombinedDSBlockJoinIndex.html" title="{ROOT::RDF::RCombinedDSBlock\lJoinIndex\&lt; INDEX_TYPE \&gt;\n||+ RCombinedDSBlockJoinIndex()\l+ GetAssociatedEntries()\l+ BuildIndex()\l}" alt="" coords="5,160,231,281"/>
+<area shape="rect" id="node3" href="$dc/df9/classROOT_1_1RDF_1_1RCombinedDSColumnJoinIndex.html" title="{ROOT::RDF::RCombinedDSColumn\lJoinIndex\&lt; INDEX_TYPE \&gt;\n||+ RCombinedDSColumnJoinIndex()\l+ GetAssociatedEntries()\l+ BuildIndex()\l}" alt="" coords="254,160,491,281"/>
+<area shape="rect" id="node4" href="$df/d02/classROOT_1_1RDF_1_1RCombinedDSCrossJoinIndex.html" title="{ROOT::RDF::RCombinedDSCross\lJoinIndex\n||+ GetAssociatedEntries()\l+ BuildIndex()\l}" alt="" coords="515,167,742,274"/>
+<area shape="rect" id="node5" href="$df/dc7/classROOT_1_1RDF_1_1RCombinedDSFriendIndex.html" title="{ROOT::RDF::RCombinedDSFriend\lIndex\n||+ GetAssociatedEntries()\l+ BuildIndex()\l}" alt="" coords="767,167,995,274"/>
+</map>

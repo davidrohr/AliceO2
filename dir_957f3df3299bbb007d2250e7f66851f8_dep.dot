@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Geometry/Transformer/include/MCHGeometryTransformer" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9252e86a203b499c7a9308f17a81c134 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_9252e86a203b499c7a9308f17a81c134.html"]
+  dir_957f3df3299bbb007d2250e7f66851f8 [shape=box, label="MCHGeometryTransformer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_957f3df3299bbb007d2250e7f66851f8.html"];
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_957f3df3299bbb007d2250e7f66851f8->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000612_000035.html"];
+}

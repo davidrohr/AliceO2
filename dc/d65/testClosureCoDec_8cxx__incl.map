@@ -1,0 +1,28 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/test/testClosureCoDec.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/test/testClosureCoDec.cxx">
+<area shape="rect" id="node3" href="$d0/d64/DataFormats_8h.html" title="MCHRawCommon/DataFormats.h" alt="" coords="1535,370,1759,397"/>
+<area shape="rect" id="node5" href="$dc/d36/PageDecoder_8h.html" title="MCHRawDecoder/PageDecoder.h" alt="" coords="1067,109,1290,136"/>
+<area shape="rect" id="node24" href="$d1/d2e/PayloadEncoder_8h.html" title="MCHRawEncoderPayload\l/PayloadEncoder.h" alt="" coords="709,184,883,225"/>
+<area shape="rect" id="node26" href="$d7/dca/PayloadPaginator_8h.html" title="MCHRawEncoderPayload\l/PayloadPaginator.h" alt="" coords="305,184,479,225"/>
+<area shape="rect" id="node29" href="$d1/dec/HBFUtils_8h.html" title="DetectorsRaw/HBFUtils.h" alt="" coords="2065,109,2239,136"/>
+<area shape="rect" id="node9" href="$dd/d58/SampaChannelHandler_8h.html" title="MCHRawDecoder/SampaChannel\lHandler.h" alt="" coords="966,184,1189,225"/>
+<area shape="rect" id="node18" href="$d2/d71/MUON_2MCH_2Raw_2ElecMap_2include_2MCHRawElecMap_2Mapper_8h.html" title="MCHRawElecMap/Mapper.h" alt="" coords="700,281,889,307"/>
+<area shape="rect" id="node10" href="$d0/d5b/SampaCluster_8h.html" title="MCHRawCommon/SampaCluster.h" alt="" coords="1365,281,1595,307"/>
+<area shape="rect" id="node15" href="$d4/d09/DsElecId_8h.html" title="MCHRawElecMap/DsElecId.h" alt="" coords="249,370,449,397"/>
+<area shape="rect" id="node21" href="$d5/dcd/DsDetId_8h.html" title="MCHRawElecMap/DsDetId.h" alt="" coords="473,370,668,397"/>
+<area shape="rect" id="node22" href="$d8/d97/FeeLinkId_8h.html" title="MCHRawElecMap/FeeLinkId.h" alt="" coords="692,370,895,397"/>
+<area shape="rect" id="node31" href="$d6/dec/Raw_2include_2DetectorsRaw_2RDHUtils_8h.html" title="DetectorsRaw/RDHUtils.h" alt="" coords="3092,191,3271,218"/>
+<area shape="rect" id="node39" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="2413,273,2622,315"/>
+<area shape="rect" id="node50" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="1953,273,2132,315"/>
+<area shape="rect" id="node54" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="2151,184,2329,225"/>
+<area shape="rect" id="node57" href="$de/da4/Triggers_8h.html" title="Definition of the 32 Central Trigger System (CTS) Trigger Types defined in https://twiki.cern.ch/twiki/pub/ALICE/NoteForFEDevelopers/CTS_CRU_FE_interface.pdf. " alt="" coords="1805,191,2003,218"/>
+<area shape="rect" id="node32" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="3720,370,3856,397"/>
+<area shape="rect" id="node35" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="2883,370,3040,397"/>
+<area shape="rect" id="node36" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="3171,370,3359,397"/>
+<area shape="rect" id="node37" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="3219,281,3357,307"/>
+<area shape="rect" id="node42" href="$d7/d34/DAQID_8h.html" title="Headers/DAQID.h" alt="" coords="3426,281,3555,307"/>
+<area shape="rect" id="node33" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="3753,452,3937,479"/>
+<area shape="rect" id="node34" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="3962,452,4121,479"/>
+<area shape="rect" id="node41" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="2571,370,2808,397"/>
+<area shape="rect" id="node43" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="3435,370,3591,397"/>
+<area shape="rect" id="node48" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="3287,452,3470,479"/>
+</map>

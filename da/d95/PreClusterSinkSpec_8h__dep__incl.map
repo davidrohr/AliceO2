@@ -1,0 +1,4 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/PreClusterSinkSpec.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Workflow/src/PreClusterSinkSpec.h">
+<area shape="rect" id="node2" href="$df/d49/preclusters-sink-workflow_8cxx.html" title="This is an executable that dumps to a file on disk the preclusters received via DPL. " alt="" coords="5,124,212,195"/>
+<area shape="rect" id="node3" href="$d0/d5c/PreClusterSinkSpec_8cxx.html" title="Implementation of a data processor to write preclusters. " alt="" coords="236,124,467,195"/>
+</map>

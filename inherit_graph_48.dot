@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="array\< o2::trd::PadParameters\l\< float \>, constants::MAXCHAMBER \>",height=0.2,width=0.4,color="black",URL="$dd/d6d/classstd_1_1array_3_01o2_1_1trd_1_1PadParameters_3_01float_01_4_00_01constants_1_1MAXCHAMBER_01_4.html"];
+}

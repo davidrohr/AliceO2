@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h" name="/home/runner/work/AliceO2/AliceO2/EventVisualisation/Base/include/EventVisualisationBase/ConfigurationManager.h">
+<area shape="rect" id="node2" href="$d6/d94/ConfigurationManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/src/ConfigurationManager.cxx" alt="" coords="5,124,240,180"/>
+<area shape="rect" id="node3" href="$d5/d90/EventVisualisation_2Base_2src_2GeometryManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/Base/src/GeometryManager.cxx" alt="" coords="265,124,479,180"/>
+<area shape="rect" id="node4" href="$d2/d8a/DataInterpreterITS_8cxx.html" title="converting ITS data to Event Visualisation primitives " alt="" coords="504,124,747,180"/>
+<area shape="rect" id="node5" href="$d5/df5/DataInterpreterTPC_8cxx.html" title="converting TPC data to Event Visualisation primitives " alt="" coords="771,124,1019,180"/>
+<area shape="rect" id="node6" href="$de/df8/DataInterpreterVSD_8cxx.html" title="converting VSD data to Event Visualisation primitives " alt="" coords="1042,124,1291,180"/>
+<area shape="rect" id="node7" href="$dd/d21/EventManager_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/EventManager.cxx" alt="" coords="1315,124,1506,180"/>
+<area shape="rect" id="node8" href="$df/d2a/Initializer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/Initializer.cxx" alt="" coords="1531,124,1715,180"/>
+<area shape="rect" id="node9" href="$d5/d40/main_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/main.cxx" alt="" coords="1739,124,1923,180"/>
+<area shape="rect" id="node10" href="$da/d7a/MultiView_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/EventVisualisation\l/View/src/MultiView.cxx" alt="" coords="1947,124,2131,180"/>
+</map>

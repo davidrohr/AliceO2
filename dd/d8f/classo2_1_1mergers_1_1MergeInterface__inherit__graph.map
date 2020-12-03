@@ -1,0 +1,4 @@
+<map id="o2::mergers::MergeInterface" name="o2::mergers::MergeInterface">
+<area shape="rect" id="node2" href="$d8/ddf/classo2_1_1mergers_1_1CustomMergeableObject.html" title="{o2::mergers::CustomMergeable\lObject\n||+ CustomMergeableObject()\l+ ~CustomMergeableObject()\l+ merge()\l+ getSecret()\l}" alt="" coords="5,175,211,311"/>
+<area shape="rect" id="node3" href="$dc/dcc/classo2_1_1mergers_1_1CustomMergeableTObject.html" title="{o2::mergers::CustomMergeable\lTObject\n||+ CustomMergeableTObject()\l+ CustomMergeableTObject()\l+ ~CustomMergeableTObject()\l+ merge()\l+ getSecret()\l+ GetName()\l}" alt="" coords="235,160,440,325"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="o2::itsmft::ClusterReader" name="o2::itsmft::ClusterReader">
+<area shape="rect" id="node3" href="$d9/d77/classo2_1_1itsmft_1_1ITSClusterReader.html" title="{o2::itsmft::ITSClusterReader\n||+ ITSClusterReader()\l}" alt="" coords="5,711,196,788"/>
+<area shape="rect" id="node4" href="$d5/dce/classo2_1_1itsmft_1_1MFTClusterReader.html" title="{o2::itsmft::MFTClusterReader\n||+ MFTClusterReader()\l}" alt="" coords="220,711,416,788"/>
+<area shape="rect" id="node2" href="$de/dac/classo2_1_1framework_1_1Task.html" title="{o2::framework::Task\n||+ ~Task()\l+ init()\l+ run()\l+ endOfStream()\l}" alt="" coords="137,5,280,127"/>
+</map>

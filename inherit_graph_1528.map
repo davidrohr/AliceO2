@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d5/dde/classo2_1_1its_1_1TrackerTraits.html" title="o2::its::TrackerTraits" alt="" coords="5,56,148,83"/>
+<area shape="rect" id="node2" href="$dc/d36/classo2_1_1its_1_1TrackerTraitsCPU.html" title="o2::its::TrackerTraitsCPU" alt="" coords="196,5,368,32"/>
+<area shape="rect" id="node3" href="$de/de2/classo2_1_1its_1_1TrackerTraitsHIP.html" title="o2::its::TrackerTraitsHIP" alt="" coords="199,56,365,83"/>
+<area shape="rect" id="node4" href="$d8/dcb/classo2_1_1its_1_1TrackerTraitsNV.html" title="o2::its::TrackerTraitsNV" alt="" coords="201,107,363,133"/>
+</map>

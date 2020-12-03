@@ -1,0 +1,8 @@
+digraph "o2::tpc::TrackInterpolation"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::TrackInterpolation\n||+ TrackInterpolation()\l+ init()\l+ process()\l+ extrapolateTrackITS()\l+ interpolateTrackITSTOF()\l+ trackPassesQualityCuts()\l+ reset()\l+ setMaxSnp()\l+ setMaxStep()\l+ setMatCorr()\l+ setDoITSOnlyTracks()\l+ setITSTracksInp()\l+ setITSTPCTrackMatchesInp()\l+ setTPCTracksInp()\l+ setTPCTrackClusIdxInp()\l+ setTPCClustersInp()\l+ setTOFMatchesInp()\l+ setTOFClustersInp()\l+ getClusterResiduals()\l+ getReferenceTracks()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

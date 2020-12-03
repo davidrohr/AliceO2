@@ -1,0 +1,8 @@
+digraph "o2::emcal::TriggerSTUDCS"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::emcal::TriggerSTUDCS\n||+ TriggerSTUDCS()\l+ TriggerSTUDCS()\l+ operator=()\l+ TriggerSTUDCS()\l+ ~TriggerSTUDCS()\l+ operator==()\l+ toJSON()\l+ setGammaHigh()\l+ setJetHigh()\l+ setGammaLow()\l+ setJetLow()\l+ setRawData()\l+ setRegion()\l+ setFw()\l+ setPHOSScale()\l+ setPatchSize()\l+ setMedianMode()\l+ getGammaHigh()\l+ getJetHigh()\l+ getGammaLow()\l+ getJetLow()\l+ getRawData()\l+ getRegion()\l+ getFw()\l+ getPHOSScale()\l+ getPatchSize()\l+ getMedianMode()\l+ PrintStream()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

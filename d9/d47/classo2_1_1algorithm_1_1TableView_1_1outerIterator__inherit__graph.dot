@@ -1,0 +1,10 @@
+digraph "o2::algorithm::TableView&lt; RowDescT, ColumnDescT, ParserT &gt;::outerIterator&lt; Direction &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::outerIterator\l\< Direction \>\n|+ direction\l|+ outerIterator()\l+ ~outerIterator()\l+ outerIterator()\l+ operator++()\l+ begin()\l+ end()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{o2::algorithm::TableView\l\< RowDescT, ColumnDescT,\l ParserT \>::iterator\n|# mDirection\l# mRow\l# mColumn\l# mEnd\l# mParent\l# mCache\l# mIsCached\l|+ iterator()\l+ ~iterator()\l+ iterator()\l+ operator++()\l+ operator*()\l+ operator==()\l+ operator!=()\l+ isEnd()\l+ isValid()\l}",height=0.2,width=0.4,color="black",URL="$d3/d50/classo2_1_1algorithm_1_1TableView_1_1iterator.html",tooltip="Iterator class for configurable direction, i.e. either row or column. "];
+}

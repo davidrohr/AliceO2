@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::data_compression\l::HuffmanModel\< _BASE,\l Rep, orderMSB \>::isless\l\< std::shared_ptr\< T \> \>",height=0.2,width=0.4,color="black",URL="$d3/d97/classo2_1_1data__compression_1_1HuffmanModel_1_1isless_3_01std_1_1shared__ptr_3_01T_01_4_01_4.html",tooltip="specialization for shared pointer "];
+}

@@ -1,0 +1,22 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Utilities/rANS" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b05a5fa85f84bfc9013183c9d87f9a36 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Utilities" fontname="Helvetica", fontsize="10", URL="dir_b05a5fa85f84bfc9013183c9d87f9a36.html"]
+  subgraph clusterdir_ec14eb73eaee628e81cdf49beb7826f2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ec14eb73eaee628e81cdf49beb7826f2.html"];
+    dir_ec14eb73eaee628e81cdf49beb7826f2 [shape=plaintext label="rANS"];
+    dir_2be4b700535cd8a09a18133597e1fbfe [shape=box label="benchmarks" color="black" fillcolor="white" style="filled" URL="dir_2be4b700535cd8a09a18133597e1fbfe.html"];
+    dir_6457007ee79fd0f642811f7d23f262dc [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_6457007ee79fd0f642811f7d23f262dc.html"];
+    dir_c29fc68110a5626e939ee6440153352a [shape=box label="run" color="black" fillcolor="white" style="filled" URL="dir_c29fc68110a5626e939ee6440153352a.html"];
+    dir_12fc5fb9b6677ca97660119050eaa228 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_12fc5fb9b6677ca97660119050eaa228.html"];
+    dir_7ae2f7280dac741b38633004aac6bc98 [shape=box label="test" color="black" fillcolor="white" style="filled" URL="dir_7ae2f7280dac741b38633004aac6bc98.html"];
+  }
+  }
+  dir_c29fc68110a5626e939ee6440153352a->dir_6457007ee79fd0f642811f7d23f262dc [headlabel="1", labeldistance=1.5 headhref="dir_000862_000662.html"];
+  dir_7ae2f7280dac741b38633004aac6bc98->dir_6457007ee79fd0f642811f7d23f262dc [headlabel="3", labeldistance=1.5 headhref="dir_000864_000662.html"];
+  dir_12fc5fb9b6677ca97660119050eaa228->dir_6457007ee79fd0f642811f7d23f262dc [headlabel="3", labeldistance=1.5 headhref="dir_000863_000662.html"];
+  dir_2be4b700535cd8a09a18133597e1fbfe->dir_6457007ee79fd0f642811f7d23f262dc [headlabel="1", labeldistance=1.5 headhref="dir_000860_000662.html"];
+}

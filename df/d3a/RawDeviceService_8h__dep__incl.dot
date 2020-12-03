@@ -1,0 +1,45 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Framework/Core/include/Framework/RawDeviceService.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/RawDeviceService.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/Raw\l/src/RawFileReaderWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$d3/d87/RawFileReaderWorkflow_8cxx.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/compression/src/CompressorTask.cxx",height=0.2,width=0.4,color="black",URL="$d7/d8c/CompressorTask_8cxx.html",tooltip="TOF raw data compressor task. "];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/TOF\l/workflow/src/CompressedAnalysis\lTask.cxx",height=0.2,width=0.4,color="black",URL="$d6/dc7/CompressedAnalysisTask_8cxx.html",tooltip="TOF compressed data analysis task. "];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/include/Framework/SimpleRawDevice\lService.h",height=0.2,width=0.4,color="black",URL="$de/d88/SimpleRawDeviceService_8h.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/runDataProcessing.cxx",height=0.2,width=0.4,color="black",URL="$d7/d54/runDataProcessing_8cxx.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/SimpleRawDeviceService.cxx",height=0.2,width=0.4,color="black",URL="$d8/de1/SimpleRawDeviceService_8cxx.html"];
+  Node3 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/AODReaderHelpers.cxx",height=0.2,width=0.4,color="black",URL="$d4/dc5/AODReaderHelpers_8cxx.html"];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonMessageBackends.cxx",height=0.2,width=0.4,color="black",URL="$d9/d10/CommonMessageBackends_8cxx.html"];
+  Node3 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/ExternalFairMQDeviceProxy.cxx",height=0.2,width=0.4,color="black",URL="$dc/df3/ExternalFairMQDeviceProxy_8cxx.html"];
+  Node3 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/LifetimeHelpers.cxx",height=0.2,width=0.4,color="black",URL="$d4/d7a/LifetimeHelpers_8cxx.html"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/TextControlService.cxx",height=0.2,width=0.4,color="black",URL="$d3/dac/TextControlService_8cxx.html"];
+  Node3 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/WorkflowHelpers.cxx",height=0.2,width=0.4,color="black",URL="$dc/da7/WorkflowHelpers_8cxx.html"];
+  Node3 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_DataAllocator.cxx",height=0.2,width=0.4,color="black",URL="$d2/da2/test__DataAllocator_8cxx.html"];
+  Node3 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_ParallelPipeline.cxx",height=0.2,width=0.4,color="black",URL="$d8/d7e/test__ParallelPipeline_8cxx.html"];
+  Node3 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_SimpleDataProcessing\lDevice01.cxx",height=0.2,width=0.4,color="black",URL="$d5/d24/test__SimpleDataProcessingDevice01_8cxx.html"];
+  Node3 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/test/test_StaggeringWorkflow.cxx",height=0.2,width=0.4,color="black",URL="$dd/d16/test__StaggeringWorkflow_8cxx.html"];
+  Node3 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/src/Dispatcher.cxx",height=0.2,width=0.4,color="black",URL="$d1/dca/Dispatcher_8cxx.html",tooltip="Implementation of Dispatcher for O2 Data Sampling. "];
+  Node3 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="/home/runner/work/AliceO2\l/AliceO2/Utilities/DataSampling\l/test/dataSamplingBenchmark.cxx",height=0.2,width=0.4,color="black",URL="$d2/d23/dataSamplingBenchmark_8cxx.html"];
+}

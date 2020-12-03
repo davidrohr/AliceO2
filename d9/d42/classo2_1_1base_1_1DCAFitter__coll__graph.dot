@@ -1,0 +1,8 @@
+digraph "o2::base::DCAFitter"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::base::DCAFitter\n||+ DCAFitter()\l+ getMaxIter()\l+ getMaxR()\l+ getMaxChi2()\l+ getMinParamChange()\l+ getBz()\l+ getUseAbsDCA()\l+ setMaxIter()\l+ setMaxR()\l+ setMaxChi2()\l+ setBz()\l+ setMinParamChange()\l+ setMinRelChi2Change()\l+ setUseAbsDCA()\l+ clear()\l+ DCAFitter()\l+ getNCandidates()\l+ getPCACandidate()\l+ getChi2AtPCACandidate()\l+ getTrack0()\l+ getTrack1()\l+ process()\l+ process()\l+ processCandidateDCA()\l+ processCandidateChi2()\l+ processAsIs()\l+ getDistance2()\l+ getDistance2()\l# calcPCACoefs()\l# calcPCA()\l# calcPCA()\l# calcChi2()\l# calcDCA()\l# calcDCA()\l# calcResid()\l# chi2Deriv()\l# DCADeriv()\l# closerToAlternative()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

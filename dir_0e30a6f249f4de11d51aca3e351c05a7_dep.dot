@@ -1,0 +1,18 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Geometry/Transformer" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_99c402c28a3097630798569c9f7e3c70 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Geometry" fontname="Helvetica", fontsize="10", URL="dir_99c402c28a3097630798569c9f7e3c70.html"]
+  subgraph clusterdir_0e30a6f249f4de11d51aca3e351c05a7 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0e30a6f249f4de11d51aca3e351c05a7.html"];
+    dir_0e30a6f249f4de11d51aca3e351c05a7 [shape=plaintext label="Transformer"];
+    dir_9252e86a203b499c7a9308f17a81c134 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_9252e86a203b499c7a9308f17a81c134.html"];
+    dir_9ca055c83c62bdee2fef171adcce9dbd [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_9ca055c83c62bdee2fef171adcce9dbd.html"];
+  }
+  }
+  dir_4ab6b4cc6a7edbff49100e9123df213f [shape=box label="Common" color="red" URL="dir_4ab6b4cc6a7edbff49100e9123df213f.html"];
+  dir_9252e86a203b499c7a9308f17a81c134->dir_4ab6b4cc6a7edbff49100e9123df213f [headlabel="1", labeldistance=1.5 headhref="dir_000611_000035.html"];
+  dir_9ca055c83c62bdee2fef171adcce9dbd->dir_9252e86a203b499c7a9308f17a81c134 [headlabel="4", labeldistance=1.5 headhref="dir_000613_000611.html"];
+}

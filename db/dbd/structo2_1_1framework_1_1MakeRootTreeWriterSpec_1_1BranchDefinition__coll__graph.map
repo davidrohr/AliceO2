@@ -1,0 +1,4 @@
+<map id="o2::framework::MakeRootTreeWriterSpec::BranchDefinition&lt; T &gt;" name="o2::framework::MakeRootTreeWriterSpec::BranchDefinition&lt; T &gt;">
+<area shape="rect" id="node2" href="$d6/d72/structo2_1_1framework_1_1RootTreeWriter_1_1BranchDef.html" title="{o2::framework::RootTreeWriter\l::BranchDef\&lt; T, InputSpec,\l KeyExtractor \&gt;\n||+ BranchDef()\l+ BranchDef()\l+ BranchDef()\l+ init()\l+ assertNoMatchingType()\l}" alt="" coords="433,403,635,568"/>
+<area shape="rect" id="node9" href="$d6/d72/structo2_1_1framework_1_1RootTreeWriter_1_1BranchDef.html" title="BranchDef is used to define the mapping between inputs and branches. " alt="" coords="387,175,590,340"/>
+</map>

@@ -1,0 +1,8 @@
+digraph "o2::tpc::TriCubicInterpolator&lt; DataT, Nz, Nr, Nphi &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::TriCubicInterpolator\l\< DataT, Nz, Nr, Nphi \>\n||+ TriCubicInterpolator()\l+ operator()()\l+ operator()()\l+ setExtrapolationType()\l+ getExtrapolationType()\l+ getThreadNum()\l+ checkThreadSafety()\l+ getNThreads()\l+ setNThreads()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,15 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Tracking/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c6781640d5720511e35c6e7f87460ee7 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Tracking" fontname="Helvetica", fontsize="10", URL="dir_c6781640d5720511e35c6e7f87460ee7.html"]
+  dir_ade668871a579e1e483b7ab12ac7b461 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ade668871a579e1e483b7ab12ac7b461.html"];
+  }
+  dir_b5547b1068d53f0f904ee5a2a84992af [shape=box label="Base" color="red" URL="dir_b5547b1068d53f0f904ee5a2a84992af.html"];
+  dir_18cf3fa9b8986f52d2a3bcd7e098843d [shape=box label="include" color="red" URL="dir_18cf3fa9b8986f52d2a3bcd7e098843d.html"];
+  dir_ade668871a579e1e483b7ab12ac7b461->dir_b5547b1068d53f0f904ee5a2a84992af [headlabel="1", labeldistance=1.5 headhref="dir_000590_000647.html"];
+  dir_ade668871a579e1e483b7ab12ac7b461->dir_18cf3fa9b8986f52d2a3bcd7e098843d [headlabel="1", labeldistance=1.5 headhref="dir_000590_000588.html"];
+  dir_18cf3fa9b8986f52d2a3bcd7e098843d->dir_b5547b1068d53f0f904ee5a2a84992af [headlabel="1", labeldistance=1.5 headhref="dir_000588_000647.html"];
+}

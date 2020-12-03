@@ -1,0 +1,3 @@
+<map id="AliHLTMonitoringWriter" name="AliHLTMonitoringWriter">
+<area shape="rect" id="node2" href="$dd/d46/classAliHLTHOMERWriter.html" title="{AliHLTHOMERWriter\n|# fDataOffset\l# fBlocks\l|+ AliHLTHOMERWriter()\l+ ~AliHLTHOMERWriter()\l+ Clear()\l+ AddBlock()\l+ AddBlock()\l+ AddBlock()\l+ GetTotalMemorySize()\l+ Copy()\l+ DetermineUInt64Alignment()\l+ DetermineUInt32Alignment()\l+ DetermineUInt16Alignment()\l+ DetermineUInt8Alignment()\l+ DetermineDoubleAlignment()\l+ DetermineFloatAlignment()\l}" alt="" coords="5,204,207,487"/>
+</map>

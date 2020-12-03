@@ -1,0 +1,8 @@
+digraph "o2::mch::mapping::Segmentation"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::mapping::Segmentation\n||+ Segmentation()\l+ forEachDualSampa()\l+ operator==()\l+ operator!=()\l+ Segmentation()\l+ Segmentation()\l+ operator=()\l+ detElemId()\l+ nofPads()\l+ nofDualSampas()\l+ findPadPairByPosition()\l+ findPadByFEE()\l+ padPositionX()\l+ padPositionY()\l+ padSizeX()\l+ padSizeY()\l+ padDualSampaId()\l+ padDualSampaChannel()\l+ isValid()\l+ isBendingPad()\l+ padAsString()\l+ forEachPad()\l+ forEachNeighbouringPad()\l+ forEachPadInArea()\l+ bending()\l+ nonBending()\l* detElemId()\l* nofPads()\l* nofDualSampas()\l* findPadPairByPosition()\l* findPadByFEE()\l* padPositionX()\l* padPositionY()\l* padSizeX()\l* padSizeY()\l* padDualSampaId()\l* padDualSampaChannel()\l* isValid()\l* isBendingPad()\l* padAsString()\l* forEachPad()\l* forEachNeighbouringPad()\l* forEachPadInArea()\l* bending()\l* nonBending()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

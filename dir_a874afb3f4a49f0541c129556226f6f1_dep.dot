@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/FIT/raw/src" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9742c4beffa63bb41af6c796ac2f5cf0 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="raw" fontname="Helvetica", fontsize="10", URL="dir_9742c4beffa63bb41af6c796ac2f5cf0.html"]
+  dir_a874afb3f4a49f0541c129556226f6f1 [shape=box, label="src", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a874afb3f4a49f0541c129556226f6f1.html"];
+  }
+  dir_a01dc9ea16fa90b6737f6e7211a1f7cd [shape=box label="include" color="red" URL="dir_a01dc9ea16fa90b6737f6e7211a1f7cd.html"];
+  dir_a874afb3f4a49f0541c129556226f6f1->dir_a01dc9ea16fa90b6737f6e7211a1f7cd [headlabel="3", labeldistance=1.5 headhref="dir_000529_000527.html"];
+}

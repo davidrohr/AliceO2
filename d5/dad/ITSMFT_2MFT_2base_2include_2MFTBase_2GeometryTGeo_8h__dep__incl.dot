@@ -1,0 +1,32 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/MFT/base/include/MFTBase/GeometryTGeo.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node58 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/include/MFTBase\l/GeometryTGeo.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node58 -> Node59 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/ChipSegmentation.cxx",height=0.2,width=0.4,color="black",URL="$d5/d24/ChipSegmentation_8cxx.html",tooltip="Description of the virtual segmentation of the chips. "];
+  Node58 -> Node60 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/GeometryBuilder.cxx",height=0.2,width=0.4,color="black",URL="$df/d83/GeometryBuilder_8cxx.html",tooltip="Class describing MFT Geometry Builder. "];
+  Node58 -> Node61 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/GeometryTGeo.cxx",height=0.2,width=0.4,color="black",URL="$d0/dc4/ITSMFT_2MFT_2base_2src_2GeometryTGeo_8cxx.html"];
+  Node58 -> Node62 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/HalfDiskSegmentation.cxx",height=0.2,width=0.4,color="black",URL="$d1/d8f/HalfDiskSegmentation_8cxx.html",tooltip="Class for the description of the structure of a half-disk. "];
+  Node58 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/HalfSegmentation.cxx",height=0.2,width=0.4,color="black",URL="$d1/d7f/HalfSegmentation_8cxx.html",tooltip="Segmentation class for each half of the ALICE Muon Forward Tracker. "];
+  Node58 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/base/src/LadderSegmentation.cxx",height=0.2,width=0.4,color="black",URL="$d6/dc0/LadderSegmentation_8cxx.html",tooltip="Description of the virtual segmentation of a ladder. "];
+  Node58 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/Detector.cxx",height=0.2,width=0.4,color="black",URL="$d0/d6b/ITSMFT_2MFT_2simulation_2src_2Detector_8cxx.html"];
+  Node58 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/simulation/src/DigitizerTask.cxx",height=0.2,width=0.4,color="black",URL="$d6/d87/ITSMFT_2MFT_2simulation_2src_2DigitizerTask_8cxx.html"];
+  Node58 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/tracking/src/IOUtils.cxx",height=0.2,width=0.4,color="black",URL="$dd/d79/MFT_2tracking_2src_2IOUtils_8cxx.html"];
+  Node58 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/workflow/src/ClustererSpec.cxx",height=0.2,width=0.4,color="black",URL="$d4/d8b/ITSMFT_2MFT_2workflow_2src_2ClustererSpec_8cxx.html"];
+  Node58 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/MFT/workflow/src/TrackerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d1/dd0/ITSMFT_2MFT_2workflow_2src_2TrackerSpec_8cxx.html"];
+  Node58 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/ITSMFTDigitizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d3/d43/ITSMFTDigitizerSpec_8cxx.html"];
+}

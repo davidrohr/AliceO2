@@ -1,0 +1,11 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/Base">
+<area shape="rect" id="node2" href="dir_489f40b36f28d316deaebf4fe902d76f.html" title="include" alt="" coords="85,159,157,207"/>
+<area shape="rect" id="node5" href="dir_4ab6b4cc6a7edbff49100e9123df213f.html" title="Common" alt="" coords="84,255,159,303"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000648_000035.html" title="1" alt="" coords="126,229,134,243"/>
+<area shape="rect" id="node3" href="dir_554d48a72df50006a7ae70f74df1311e.html" title="src" alt="" coords="133,63,205,111"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000650_000648.html" title="11" alt="" coords="142,138,157,153"/>
+<area shape="rect" id="node4" href="dir_32e49f0791d191b7d3ff38f062842c3d.html" title="test" alt="" coords="37,63,109,111"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000651_000648.html" title="3" alt="" coords="105,131,113,145"/>
+<area shape="rect" id="clust2" href="dir_b5547b1068d53f0f904ee5a2a84992af.html" alt="" coords="27,52,312,217"/>
+<area shape="rect" id="clust1" href="dir_9e24c537087392bd208449d0b48c466c.html" title="MID" alt="" coords="16,16,323,228"/>
+</map>

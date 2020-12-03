@@ -1,0 +1,17 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Simulation/include/MCHSimulation/Hit.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Simulation/include/MCHSimulation/Hit.h">
+<area shape="rect" id="node2" href="$dc/dab/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Detector_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Detector.h" alt="" coords="793,124,975,195"/>
+<area shape="rect" id="node3" href="$df/d3f/Response_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Response.h" alt="" coords="584,243,776,313"/>
+<area shape="rect" id="node12" href="$da/d5e/MUON_2MCH_2Simulation_2include_2MCHSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/include\l/MCHSimulation/Digitizer.h" alt="" coords="315,124,496,195"/>
+<area shape="rect" id="node13" href="$dc/dc3/testDigitization_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testDigitization.cxx" alt="" coords="5,250,269,306"/>
+<area shape="rect" id="node14" href="$d1/d9c/MCH_2Simulation_2src_2Stepper_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Stepper.h" alt="" coords="1154,131,1358,187"/>
+<area shape="rect" id="node16" href="$dd/db5/Detectors_2MUON_2MCH_2Simulation_2src_2Hit_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Hit.cxx" alt="" coords="1382,131,1573,187"/>
+<area shape="rect" id="node7" href="$da/ddd/MUON_2MCH_2Simulation_2src_2Detector_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Detector.cxx" alt="" coords="1274,250,1497,306"/>
+<area shape="rect" id="node8" href="$d8/dbe/testRegularGeometry_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/test/testRegular\lGeometry.cxx" alt="" coords="800,243,1019,313"/>
+<area shape="rect" id="node9" href="$db/d50/O2HitMerger_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMerger.h" alt="" coords="1043,257,1226,299"/>
+<area shape="rect" id="node11" href="$db/d2f/MCHDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MCHDigitizerSpec.cxx" alt="" coords="345,250,559,306"/>
+<area shape="rect" id="node4" href="$d7/de0/MUON_2MCH_2Simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Digitizer.cxx" alt="" coords="205,361,427,417"/>
+<area shape="rect" id="node5" href="$d9/dbf/Response_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Response.cxx" alt="" coords="468,361,700,417"/>
+<area shape="rect" id="node6" href="$d5/d7c/testResponse_8cxx.html" title="This task tests of the Response of the MCH digitization. " alt="" coords="724,361,983,417"/>
+<area shape="rect" id="node10" href="$d9/d16/O2HitMergerRunner_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/run/O2HitMergerRunner.cxx" alt="" coords="1015,369,1254,410"/>
+<area shape="rect" id="node15" href="$d6/d21/MCH_2Simulation_2src_2Stepper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MCH/Simulation/src/Stepper.cxx" alt="" coords="1521,250,1740,306"/>
+</map>

@@ -1,0 +1,33 @@
+digraph "GPUCA_NAMESPACE::gpu::SplineSpec&lt; DataT, XdimT, YdimT, 0 &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="{GPUCA_NAMESPACE::gpu\l::SplineSpec\< DataT,\l XdimT, YdimT, 0 \>\n||+ GPUd()\l+ GPUgeneric()\l+ GPUd()\l+ GPUgeneric()\l+ GPUgeneric()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{GPUCA_NAMESPACE::gpu\l::SplineContainer\< DataT \>\n||+ GPUd()\l+ SplineContainer()\l+ SplineContainer()\l+ ~SplineContainer()\l+ approximateFunction()\l+ writeToFile()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ setXrange()\l+ print()\l+ GPUd()\l+ GPUd()\l+ cloneFromObject()\l+ moveBufferTo()\l+ destroy()\l+ setActualBufferAddress()\l+ setFutureBufferAddress()\l+ readFromFile()\l+ test()\l# recreate()\l# recreate()\l# ClassDefNV()\l}",height=0.2,width=0.4,color="black",URL="$d1/dc2/classGPUCA__NAMESPACE_1_1gpu_1_1SplineContainer.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{GPUCA_NAMESPACE::gpu\l::FlatObject\n||+ FlatObject()\l+ ~FlatObject()\l+ FlatObject()\l+ operator=()\l+ destroy()\l+ getFlatBufferSize()\l+ getFlatBufferPtr()\l+ isConstructed()\l+ isBufferInternal()\l+ adoptInternalBuffer()\l+ clearInternalBufferPtr()\l+ printC()\l+ alignSize()\l+ relocatePointer()\l+ writeToFile()\l+ readFromFile()\l+ stressTest()\l# startConstruction()\l# finishConstruction()\l# cloneFromObject()\l# releaseInternalBuffer()\l# moveBufferTo()\l# setActualBufferAddress()\l# setFutureBufferAddress()\l# ClassDefNV()\l# getClassAlignmentBytes()\l# getBufferAlignmentBytes()\l}",height=0.2,width=0.4,color="black",URL="$dc/d5e/classGPUCA__NAMESPACE_1_1gpu_1_1FlatObject.html",tooltip="GPUCA_GPUCODE. "];
+  Node8 -> Node7 [color="grey25",fontsize="10",style="solid",label=" #mFlatBufferPtr\n#mFlatBufferContainer" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{char\n||}",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node7 [color="grey25",fontsize="10",style="solid",label=" #mFlatBufferSize" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node7 [color="grey25",fontsize="10",style="solid",label=" #mConstructionMask" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{unsigned\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #mParameters" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{DataT\n||}",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #mGrid" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{GPUCA_NAMESPACE::gpu\l::Spline1D\< DataT \>\n||+ operator=()\l+ ClassDefNV()\l+ readFromFile()\l}",height=0.2,width=0.4,color="black",URL="$d0/d36/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1D.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node13 [label="{GPUCA_NAMESPACE::gpu\l::Spline1DSpec\< DataT,\l 0, SplineUtil::getSpec(0)\>\n||}",height=0.2,width=0.4,color="black",URL="$db/d2c/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DSpec.html"];
+  Node14 -> Node13 [dir="back",color="orange",fontsize="10",style="solid",label=" \< DataT, 0, SplineUtil\l::getSpec(0)\>" ,fontname="Helvetica"];
+  Node14 [label="{GPUCA_NAMESPACE::gpu\l::Spline1DSpec\< DataT,\l YdimT, SpecT \>\n||}",height=0.2,width=0.4,color="black",URL="$db/d2c/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DSpec.html"];
+  Node15 -> Node12 [dir="back",color="orange",fontsize="10",style="solid",label=" \< DataT \>" ,fontname="Helvetica"];
+  Node15 [label="{GPUCA_NAMESPACE::gpu\l::Spline1D\< DataT, YdimT \>\n||+ operator=()\l+ ClassDefNV()\l+ readFromFile()\l}",height=0.2,width=0.4,color="black",URL="$d0/d36/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1D.html"];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node16 [label="{GPUCA_NAMESPACE::gpu\l::Spline1DSpec\< DataT,\l YdimT, SplineUtil::getSpec\l(YdimT)\>\n||}",height=0.2,width=0.4,color="black",URL="$db/d2c/classGPUCA__NAMESPACE_1_1gpu_1_1Spline1DSpec.html"];
+  Node14 -> Node16 [dir="back",color="orange",fontsize="10",style="solid",label=" \< DataT, YdimT, SplineUtil\l::getSpec(YdimT)\>" ,fontname="Helvetica"];
+  Node9 -> Node6 [color="grey25",fontsize="10",style="solid",label=" #mNknots\n#mYdim\n#mXdim\n+const" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 -> Node5 [color="grey25",fontsize="10",style="solid",label=" +u\n+inpYdim" ,arrowhead="odiamond",fontname="Helvetica"];
+}

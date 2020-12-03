@@ -1,0 +1,4 @@
+<map id="o2::tpc::ClusterIndexBuffer" name="o2::tpc::ClusterIndexBuffer">
+<area shape="rect" id="node2" href="$dc/dbc/structo2_1_1tpc_1_1ClusterNative.html" title="{o2::tpc::ClusterNative\n||+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUdDefault()\l+ GPUd()\l+ sigmaTimePacked()\l+ sigmaPadPacked()\l+ qMax()\l+ qTot()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l}" alt="" coords="141,248,292,736"/>
+<area shape="rect" id="node5" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="257,5,325,83"/>
+</map>

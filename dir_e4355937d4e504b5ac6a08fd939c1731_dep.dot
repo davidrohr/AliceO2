@@ -1,0 +1,17 @@
+digraph "/home/runner/work/AliceO2/AliceO2/GPU/GPUTracking/Standalone/display/3rdparty" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f75a703c2555322f99f9e21899df4536 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="display" fontname="Helvetica", fontsize="10", URL="dir_f75a703c2555322f99f9e21899df4536.html"]
+  subgraph clusterdir_e4355937d4e504b5ac6a08fd939c1731 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e4355937d4e504b5ac6a08fd939c1731.html"];
+    dir_e4355937d4e504b5ac6a08fd939c1731 [shape=plaintext label="3rdparty"];
+    dir_8eeb44cba3bd5c67dbc1ad9c1f0bdc6f [shape=box label="GL" color="black" fillcolor="white" style="filled" URL="dir_8eeb44cba3bd5c67dbc1ad9c1f0bdc6f.html"];
+    dir_dba1b837d246cb29a549fa467fc973ce [shape=box label="HandMadeMath" color="black" fillcolor="white" style="filled" URL="dir_dba1b837d246cb29a549fa467fc973ce.html"];
+    dir_7e7bb171bbaf3913b9154d909cb0e0c7 [shape=box label="KHR" color="black" fillcolor="white" style="filled" URL="dir_7e7bb171bbaf3913b9154d909cb0e0c7.html"];
+  }
+  }
+  dir_8eeb44cba3bd5c67dbc1ad9c1f0bdc6f->dir_7e7bb171bbaf3913b9154d909cb0e0c7 [headlabel="1", labeldistance=1.5 headhref="dir_000806_000808.html"];
+}

@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/EMCAL/reconstruction/src/AltroDecoder.cxx">
+<area shape="rect" id="node5" href="$d2/d73/EMCAL_2reconstruction_2include_2EMCALReconstruction_2AltroDecoder_8h.html" title="EMCALReconstruction\l/AltroDecoder.h" alt="" coords="1081,109,1237,151"/>
+<area shape="rect" id="node16" href="$da/d6a/EMCAL_2reconstruction_2include_2EMCALReconstruction_2RawReaderMemory_8h.html" title="EMCALReconstruction\l/RawReaderMemory.h" alt="" coords="556,199,712,240"/>
+<area shape="rect" id="node10" href="$d3/d4f/EMCAL_2base_2include_2EMCALBase_2RCUTrailer_8h.html" title="EMCALBase/RCUTrailer.h" alt="" coords="1070,295,1249,322"/>
+<area shape="rect" id="node13" href="$d5/da5/EMCAL_2reconstruction_2include_2EMCALReconstruction_2Bunch_8h.html" title="EMCALReconstruction\l/Bunch.h" alt="" coords="1273,288,1429,329"/>
+<area shape="rect" id="node15" href="$d5/d4a/EMCAL_2reconstruction_2include_2EMCALReconstruction_2Channel_8h.html" title="EMCALReconstruction\l/Channel.h" alt="" coords="1415,199,1571,240"/>
+<area shape="rect" id="node17" href="$dc/ded/EMCAL_2reconstruction_2include_2EMCALReconstruction_2RawBuffer_8h.html" title="EMCALReconstruction\l/RawBuffer.h" alt="" coords="505,288,661,329"/>
+<area shape="rect" id="node19" href="$d2/db8/EMCAL_2reconstruction_2include_2EMCALReconstruction_2RawPayload_8h.html" title="EMCALReconstruction\l/RawPayload.h" alt="" coords="839,288,995,329"/>
+<area shape="rect" id="node20" href="$d4/dee/RAWDataHeader_8h.html" title="Definition of the RAW Data Header. " alt="" coords="376,377,564,404"/>
+<area shape="rect" id="node21" href="$d6/d89/RDHAny_8h.html" title="Headers/RDHAny.h" alt="" coords="214,295,353,322"/>
+<area shape="rect" id="node22" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="215,377,351,404"/>
+<area shape="rect" id="node23" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="94,452,278,479"/>
+<area shape="rect" id="node24" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="303,452,461,479"/>
+</map>

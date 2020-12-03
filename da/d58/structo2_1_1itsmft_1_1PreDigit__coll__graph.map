@@ -1,0 +1,4 @@
+<map id="o2::itsmft::PreDigit" name="o2::itsmft::PreDigit">
+<area shape="rect" id="node4" href="$d8/d6c/structo2_1_1itsmft_1_1PreDigitLabelRef.html" title="{o2::itsmft::PreDigitLabelRef\n||+ PreDigitLabelRef()\l+ ClassDefNV()\l}" alt="" coords="84,725,268,817"/>
+<area shape="rect" id="node5" href="$de/def/classo2_1_1MCCompLabel.html" title="{o2::MCCompLabel\n||+ MCCompLabel()\l+ MCCompLabel()\l+ ~MCCompLabel()\l+ isSet()\l+ isEmpty()\l+ isNoise()\l+ isValid()\l+ isFake()\l+ isCorrect()\l+ compare()\l+ operator ULong64_t()\l+ getRawValue()\l+ operator==()\l+ unset()\l+ setNoise()\l+ setFakeFlag()\l+ set()\l+ getTrackID()\l+ getTrackIDSigned()\l+ getEventID()\l+ getSourceID()\l+ getTrackEventSourceID()\l+ get()\l+ print()\l+ ClassDefNV()\l+ maxSourceID()\l+ maxEventID()\l+ maxTrackID()\l}" alt="" coords="180,189,363,663"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/include/TPCSpaceCharge/Vector.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/TPC/spacecharge/include/TPCSpaceCharge/Vector.h">
+<area shape="rect" id="node2" href="$d3/dad/RegularGrid3D_8h.html" title="Definition of RegularGrid3D class. " alt="" coords="366,124,621,195"/>
+<area shape="rect" id="node11" href="$dc/d04/TriCubic_8h.html" title="Definition of TriCubic class. " alt="" coords="531,243,786,313"/>
+<area shape="rect" id="node3" href="$dc/d2a/PoissonSolver_8h.html" title="This class provides implementation of Poisson equation solver by MultiGrid Method Original version of..." alt="" coords="201,361,455,432"/>
+<area shape="rect" id="node4" href="$d3/db6/SpaceCharge_8h.html" title="This class contains the algorithms for calculation the distortions and corrections. " alt="" coords="531,480,786,551"/>
+<area shape="rect" id="node9" href="$d6/ddc/PoissonSolver_8cxx.html" title="This class provides implementation of Poisson Eq solver by MultiGrid Method. " alt="" coords="5,487,240,543"/>
+<area shape="rect" id="node10" href="$d2/d8c/testO2TPCPoissonSolver_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/spacecharge/test/testO2TPCPoisson\lSolver.cxx" alt="" coords="264,480,507,551"/>
+<area shape="rect" id="node5" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/include/TPCSimulation\l/Digitizer.h" alt="" coords="422,599,645,669"/>
+<area shape="rect" id="node8" href="$da/d8e/SpaceCharge_8cxx.html" title="Definition of SpaceCharge class. " alt="" coords="669,606,899,662"/>
+<area shape="rect" id="node6" href="$d7/d0a/TPC_2simulation_2src_2Digitizer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/TPC\l/simulation/src/Digitizer.cxx" alt="" coords="329,717,513,773"/>
+<area shape="rect" id="node7" href="$d2/d0b/TPCDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/TPCDigitizerSpec.cxx" alt="" coords="538,717,753,773"/>
+<area shape="rect" id="node12" href="$d5/d0c/SpaceChargeHelpers_8h.html" title="This file provides all necesseray classes which are used during the calcution of the distortions and ..." alt="" coords="531,361,786,432"/>
+</map>

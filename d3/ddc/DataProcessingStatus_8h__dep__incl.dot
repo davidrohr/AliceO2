@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Framework/Core/src/DataProcessingStatus.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingStatus.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/CommonServices.cxx",height=0.2,width=0.4,color="black",URL="$dd/d27/CommonServices_8cxx.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataProcessingDevice.cxx",height=0.2,width=0.4,color="black",URL="$db/dac/DataProcessingDevice_8cxx.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/DataRelayer.cxx",height=0.2,width=0.4,color="black",URL="$d1/d57/DataRelayer_8cxx.html"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="/home/runner/work/AliceO2\l/AliceO2/Framework/Core\l/src/runDataProcessing.cxx",height=0.2,width=0.4,color="black",URL="$d7/d54/runDataProcessing_8cxx.html"];
+}

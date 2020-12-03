@@ -1,0 +1,9 @@
+<map id="o2::framework::data_matcher::ValueHolder&lt; T &gt;" name="o2::framework::data_matcher::ValueHolder&lt; T &gt;">
+<area shape="rect" id="node2" href="$dc/d72/classo2_1_1framework_1_1data__matcher_1_1ValueHolder.html" title="{o2::framework::data\l_matcher::ValueHolder\l\&lt; std::string \&gt;\n|# mValue\l|+ ValueHolder()\l+ ValueHolder()\l+ operator==()\l+ visit()\l}" alt="" coords="239,226,394,377"/>
+<area shape="rect" id="node5" href="$dc/d72/classo2_1_1framework_1_1data__matcher_1_1ValueHolder.html" title="{o2::framework::data\l_matcher::ValueHolder\l\&lt; header::DataHeader::\lSubSpecificationType \&gt;\n|# mValue\l|+ ValueHolder()\l+ ValueHolder()\l+ operator==()\l+ visit()\l}" alt="" coords="457,219,619,384"/>
+<area shape="rect" id="node7" href="$dc/d72/classo2_1_1framework_1_1data__matcher_1_1ValueHolder.html" title="{o2::framework::data\l_matcher::ValueHolder\l\&lt; uint64_t \&gt;\n|# mValue\l|+ ValueHolder()\l+ ValueHolder()\l+ operator==()\l+ visit()\l}" alt="" coords="679,226,834,377"/>
+<area shape="rect" id="node3" href="$d8/db4/classo2_1_1framework_1_1data__matcher_1_1DescriptionValueMatcher.html" title="Something which can be matched against a header::DataDescription. " alt="" coords="5,455,193,606"/>
+<area shape="rect" id="node4" href="$d4/d3e/classo2_1_1framework_1_1data__matcher_1_1OriginValueMatcher.html" title="Something which can be matched against a header::DataOrigin. " alt="" coords="217,463,416,599"/>
+<area shape="rect" id="node6" href="$d4/d9f/classo2_1_1framework_1_1data__matcher_1_1SubSpecificationTypeValueMatcher.html" title="Something which can be matched against a header::SubSpecificationType. " alt="" coords="441,433,635,628"/>
+<area shape="rect" id="node8" href="$d7/d4b/classo2_1_1framework_1_1data__matcher_1_1StartTimeValueMatcher.html" title="Matcher on actual time, as reported in the DataProcessingHeader. " alt="" coords="659,463,881,599"/>
+</map>

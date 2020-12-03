@@ -1,0 +1,29 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/Calibration/src/MeanVertexCalibrator.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/Calibration/src/MeanVertexCalibrator.cxx">
+<area shape="rect" id="node2" href="$de/d56/MeanVertexCalibrator_8h.html" title="DetectorsCalibration\l/MeanVertexCalibrator.h" alt="" coords="935,109,1097,151"/>
+<area shape="rect" id="node7" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="2939,385,3080,411"/>
+<area shape="rect" id="node39" href="$d5/d71/fit_8h.html" title="MathUtils/fit.h" alt="" coords="2013,295,2117,322"/>
+<area shape="rect" id="node54" href="$da/db7/MemFileHelper_8h.html" title="CommonUtils/MemFileHelper.h" alt="" coords="3156,206,3361,233"/>
+<area shape="rect" id="node60" href="$dd/d3e/CcdbApi_8h.html" title="CCDB/CcdbApi.h" alt="" coords="2647,206,2774,233"/>
+<area shape="rect" id="node66" href="$d3/de0/Detectors_2Calibration_2include_2DetectorsCalibration_2Utils_8h.html" title="DetectorsCalibration\l/Utils.h" alt="" coords="3404,199,3545,240"/>
+<area shape="rect" id="node3" href="$dc/df2/TimeSlotCalibration_8h.html" title="DetectorsCalibration\l/TimeSlotCalibration.h" alt="" coords="589,199,739,240"/>
+<area shape="rect" id="node4" href="$dd/d77/TimeSlot_8h.html" title="DetectorsCalibration\l/TimeSlot.h" alt="" coords="2141,288,2283,329"/>
+<area shape="rect" id="node11" href="$d5/db6/MeanVertexData_8h.html" title="DetectorsCalibration\l/MeanVertexData.h" alt="" coords="945,199,1087,240"/>
+<area shape="rect" id="node36" href="$de/dfb/MeanVertexObject_8h.html" title="DataFormatsCalibration\l/MeanVertexObject.h" alt="" coords="447,377,607,419"/>
+<area shape="rect" id="node37" href="$d4/dab/CcdbObjectInfo_8h.html" title="CCDB/CcdbObjectInfo.h" alt="" coords="2307,295,2474,322"/>
+<area shape="rect" id="node38" href="$d4/d5d/Bracket_8h.html" title="Class to represent an interval and some operations over it. " alt="" coords="129,206,303,233"/>
+<area shape="rect" id="node12" href="$d7/d82/PrimaryVertex_8h.html" title="ReconstructionDataFormats\l/PrimaryVertex.h" alt="" coords="769,288,956,329"/>
+<area shape="rect" id="node13" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="842,377,1051,419"/>
+<area shape="rect" id="node19" href="$d3/d6f/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2Vertex_8h.html" title="ReconstructionDataFormats\l/Vertex.h" alt="" coords="631,377,817,419"/>
+<area shape="rect" id="node14" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="44,549,201,575"/>
+<area shape="rect" id="node18" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="904,467,1141,493"/>
+<area shape="rect" id="node20" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="629,467,779,493"/>
+<area shape="rect" id="node33" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="160,467,387,493"/>
+<area shape="rect" id="node21" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="171,631,307,657"/>
+<area shape="rect" id="node32" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="276,549,457,575"/>
+<area shape="rect" id="node22" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="49,705,233,732"/>
+<area shape="rect" id="node23" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="258,705,417,732"/>
+<area shape="rect" id="node58" href="$d1/d1e/Common_2Utils_2include_2CommonUtils_2StringUtils_8h.html" title="CommonUtils/StringUtils.h" alt="" coords="3097,295,3276,322"/>
+<area shape="rect" id="node68" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="3910,295,4066,322"/>
+<area shape="rect" id="node75" href="$da/d86/CCDBTimeStampUtils_8h.html" title="CCDB/CCDBTimeStampUtils.h" alt="" coords="3585,295,3794,322"/>
+<area shape="rect" id="node73" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="4089,385,4271,411"/>
+</map>

@@ -1,0 +1,8 @@
+digraph "o2::tpc::RawReader"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::tpc::RawReader\n||+ RawReader()\l+ RawReader()\l+ ~RawReader()\l+ loadNextEvent()\l+ loadNextEventNoWrap()\l+ loadPreviousEvent()\l+ loadPreviousEventNoWrap()\l+ loadEvent()\l+ addInputFile()\l+ addInputFile()\l+ addInputFile()\l+ getFirstEvent()\l+ getLastEvent()\l+ getNumberOfEvents()\l+ getTimeStamp()\l+ getData()\l+ getNextData()\l+ getRegion()\l+ getLink()\l+ getEventNumber()\l+ getRunNumber()\l+ getSyncPos()\l+ setUseRawInMode3()\l+ setApplyChannelMask()\l+ setChannelMask()\l+ setCheckAdcClock()\l+ setSampaVersion()\l+ getEventInfo()\l+ addEventSynchronizer()\l+ getAdcError()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

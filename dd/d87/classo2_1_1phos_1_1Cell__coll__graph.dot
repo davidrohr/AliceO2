@@ -1,0 +1,8 @@
+digraph "o2::phos::Cell"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::phos::Cell\n||+ Cell()\l+ Cell()\l+ ~Cell()\l+ setAbsId()\l+ getAbsId()\l+ setTRUId()\l+ getTRUId()\l+ setTime()\l+ getTime()\l+ setEnergy()\l+ getEnergy()\l+ setType()\l+ getType()\l+ setLowGain()\l+ getLowGain()\l+ setHighGain()\l+ getHighGain()\l+ getTRU()\l+ setLong()\l+ getLong()\l+ PrintStream()\l+ getPackedID()\l+ setPackedID()\l+ getPackedTime()\l+ setPackedTime()\l+ getPackedEnergy()\l+ setPackedEnergy()\l+ getPackedCellStatus()\l+ setPackedCellStatus()\l+ setPacked()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

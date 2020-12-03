@@ -1,0 +1,29 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/simulation/include/FT0Simulation/Detector.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/simulation/include/FT0Simulation/Detector.h">
+<area shape="rect" id="node2" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2466,199,2618,240"/>
+<area shape="rect" id="node19" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="923,295,1097,322"/>
+<area shape="rect" id="node43" href="$db/df4/FIT_2FT0_2base_2include_2FT0Base_2Geometry_8h.html" title="FT0Base/Geometry.h" alt="" coords="4437,295,4583,322"/>
+<area shape="rect" id="node45" href="$d1/d23/HitType_8h.html" title="Definition of the FIT hits class. " alt="" coords="2385,124,2568,151"/>
+<area shape="rect" id="node3" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2467,295,2617,322"/>
+<area shape="rect" id="node4" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="3613,705,3749,732"/>
+<area shape="rect" id="node7" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1963,385,2121,411"/>
+<area shape="rect" id="node18" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="1741,631,1922,657"/>
+<area shape="rect" id="node5" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="3491,780,3675,807"/>
+<area shape="rect" id="node6" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="3700,780,3859,807"/>
+<area shape="rect" id="node26" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="485,385,705,411"/>
+<area shape="rect" id="node33" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="238,467,433,493"/>
+<area shape="rect" id="node39" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="1289,385,1483,411"/>
+<area shape="rect" id="node46" href="$d4/d03/simulation_2include_2SimulationDataFormat_2Stack_8h.html" title="SimulationDataFormat\l/Stack.h" alt="" coords="4014,199,4166,240"/>
+<area shape="rect" id="node47" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="5183,377,5391,419"/>
+<area shape="rect" id="node68" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="4727,288,4879,329"/>
+<area shape="rect" id="node69" href="$d9/d26/ParticleStatus_8h.html" title="SimulationDataFormat\l/ParticleStatus.h" alt="" coords="5517,377,5669,419"/>
+<area shape="rect" id="node76" href="$d5/dbe/TrackReference_8h.html" title="SimulationDataFormat\l/TrackReference.h" alt="" coords="4261,288,4413,329"/>
+<area shape="rect" id="node79" href="$d6/d9d/MCEventStats_8h.html" title="SimulationDataFormat\l/MCEventStats.h" alt="" coords="4085,288,4237,329"/>
+<area shape="rect" id="node52" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="5339,467,5459,493"/>
+<area shape="rect" id="node61" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="4739,467,4895,493"/>
+<area shape="rect" id="node53" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="5080,549,5247,575"/>
+<area shape="rect" id="node54" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="5271,549,5496,575"/>
+<area shape="rect" id="node56" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="5521,549,5723,575"/>
+<area shape="rect" id="node58" href="$d6/da2/GPUCommonMath_8h.html" title="GPUCommonMath.h" alt="" coords="5517,631,5661,657"/>
+<area shape="rect" id="node60" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="5253,631,5492,657"/>
+<area shape="rect" id="node65" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="4653,549,4836,575"/>
+</map>

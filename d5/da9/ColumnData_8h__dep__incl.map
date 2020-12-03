@@ -1,0 +1,46 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/MUON/MID/include/DataFormatsMID/ColumnData.h" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/MUON/MID/include/DataFormatsMID/ColumnData.h">
+<area shape="rect" id="node2" href="$df/d9b/MUON_2MID_2include_2DataFormatsMID_2CTF_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/MUON/MID/include/DataFormatsMID/CTF.h" alt="" coords="391,131,677,187"/>
+<area shape="rect" id="node7" href="$d4/d7f/MUON_2MID_2CTF_2include_2MIDCTF_2CTFCoder_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/CTF/include/MIDCTF\l/CTFCoder.h" alt="" coords="293,361,474,432"/>
+<area shape="rect" id="node15" href="$d9/d0e/MUON_2MID_2CTF_2include_2MIDCTF_2CTFHelper_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/CTF/include/MIDCTF\l/CTFHelper.h" alt="" coords="917,243,1098,313"/>
+<area shape="rect" id="node17" href="$dc/d7c/ColumnData_8cxx.html" title="Strip pattern (aka digits) " alt="" coords="1581,131,1801,187"/>
+<area shape="rect" id="node18" href="$d7/d1a/PreClusterizer_8h.html" title="Pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="1877,124,2085,195"/>
+<area shape="rect" id="node20" href="$d2/d12/bench__Clusterizer_8cxx.html" title="Benchmark clustering device for MID. " alt="" coords="1123,243,1303,313"/>
+<area shape="rect" id="node22" href="$d6/d45/testSimulation_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Simulation/test/testSimulation.cxx" alt="" coords="2216,369,2471,425"/>
+<area shape="rect" id="node23" href="$d3/d1e/ClusterizerMCSpec_8cxx.html" title="Data processor spec for MID MC clustering device. " alt="" coords="1930,250,2205,306"/>
+<area shape="rect" id="node24" href="$d6/d57/MUON_2MID_2Workflow_2src_2ClusterizerSpec_8cxx.html" title="Data processor spec for MID clustering device. " alt="" coords="2229,250,2484,306"/>
+<area shape="rect" id="node25" href="$d2/db5/ColumnDataToLocalBoard_8h.html" title="Converter from ColumnData to raw local boards. " alt="" coords="3924,124,4115,195"/>
+<area shape="rect" id="node26" href="$d1/dcf/Detectors_2MUON_2MID_2Raw_2include_2MIDRaw_2Encoder_8h.html" title="MID raw data encoder. " alt="" coords="3665,243,3848,313"/>
+<area shape="rect" id="node28" href="$d5/d52/bench__Raw_8cxx.html" title="Benchmark MID raw data decoder. " alt="" coords="3479,369,3685,425"/>
+<area shape="rect" id="node29" href="$d8/d4c/testRaw_8cxx.html" title="Test MID raw data decoder. " alt="" coords="3915,369,4102,425"/>
+<area shape="rect" id="node30" href="$d3/d67/MUON_2MID_2Workflow_2src_2RawWriterSpec_8cxx.html" title="Digits to raw converter spec for MID. " alt="" coords="4602,369,4855,425"/>
+<area shape="rect" id="node32" href="$de/d2b/ZeroSuppressionSpec_8cxx.html" title="MID zero suppression spec. " alt="" coords="4286,243,4521,313"/>
+<area shape="rect" id="node33" href="$d7/d48/DecodedDataAggregator_8h.html" title="MID decoded raw data aggregator. " alt="" coords="4467,124,4649,195"/>
+<area shape="rect" id="node35" href="$db/de7/RawAggregatorSpec_8cxx.html" title="Data processor spec for MID raw data aggregator device. " alt="" coords="4897,243,5123,313"/>
+<area shape="rect" id="node36" href="$d0/d00/ColumnDataMC_8h.html" title="Strip pattern (aka digits) for simulations. " alt="" coords="2943,124,3165,195"/>
+<area shape="rect" id="node42" href="$d6/d1b/MUON_2MID_2Workflow_2src_2DigitReaderSpec_8cxx.html" title="Data processor spec for MID digits reader device. " alt="" coords="3331,250,3591,306"/>
+<area shape="rect" id="node45" href="$dc/dac/MUON_2MID_2Workflow_2src_2digits-reader-workflow_8cxx.html" title="MID digits reader workflow. " alt="" coords="5199,124,5379,195"/>
+<area shape="rect" id="node3" href="$d7/d7e/MUON_2MID_2src_2CTF_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/DataFormats/Detectors\l/MUON/MID/src/CTF.cxx" alt="" coords="133,250,346,306"/>
+<area shape="rect" id="node4" href="$df/dcb/test__ctf__io__mid_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/test/test_ctf_io_mid.cxx" alt="" coords="5,487,185,543"/>
+<area shape="rect" id="node5" href="$d8/d12/CTFReaderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/CTFReaderSpec.cxx" alt="" coords="421,250,647,306"/>
+<area shape="rect" id="node6" href="$d4/dd7/CTFWriterSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/CTFWriterSpec.cxx" alt="" coords="672,250,892,306"/>
+<area shape="rect" id="node8" href="$d7/d6c/MUON_2MID_2CTF_2src_2CTFCoder_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/CTF/src/CTFCoder.cxx" alt="" coords="209,487,403,543"/>
+<area shape="rect" id="node9" href="$d5/d5f/MUON_2MID_2Workflow_2include_2MIDWorkflow_2EntropyDecoderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/include/MIDWorkflow\l/EntropyDecoderSpec.h" alt="" coords="427,480,665,551"/>
+<area shape="rect" id="node12" href="$d8/dd3/MUON_2MID_2Workflow_2include_2MIDWorkflow_2EntropyEncoderSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/include/MIDWorkflow\l/EntropyEncoderSpec.h" alt="" coords="689,480,928,551"/>
+<area shape="rect" id="node10" href="$dc/d55/ctf-reader-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/ctf&#45;reader\l&#45;workflow.cxx" alt="" coords="235,599,415,669"/>
+<area shape="rect" id="node11" href="$df/dd9/MUON_2MID_2Workflow_2src_2EntropyDecoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/EntropyDecoder\lSpec.cxx" alt="" coords="439,599,669,669"/>
+<area shape="rect" id="node13" href="$da/db9/MUON_2MID_2Workflow_2src_2entropy-encoder-workflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/entropy\l&#45;encoder&#45;workflow.cxx" alt="" coords="709,599,889,669"/>
+<area shape="rect" id="node14" href="$d0/d34/MUON_2MID_2Workflow_2src_2EntropyEncoderSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/EntropyEncoder\lSpec.cxx" alt="" coords="914,599,1143,669"/>
+<area shape="rect" id="node16" href="$df/da1/MUON_2MID_2CTF_2src_2CTFHelper_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/CTF/src/CTFHelper.cxx" alt="" coords="909,369,1105,425"/>
+<area shape="rect" id="node19" href="$db/d2e/PreClusterizer_8cxx.html" title="Implementation of the pre&#45;cluster reconstruction algorithm for MID. " alt="" coords="1327,250,1575,306"/>
+<area shape="rect" id="node21" href="$d6/dee/testClusterizer_8cxx.html" title="Test clustering device for MID. " alt="" coords="1600,250,1855,306"/>
+<area shape="rect" id="node31" href="$d6/db2/ColumnDataToLocalBoard_8cxx.html" title="Converter from ColumnData to raw local boards. " alt="" coords="3975,250,4261,306"/>
+<area shape="rect" id="node27" href="$d8/dc6/MUON_2MID_2Raw_2src_2Encoder_8cxx.html" title="MID raw data encoder. " alt="" coords="3710,369,3891,425"/>
+<area shape="rect" id="node34" href="$d1/d9a/DecodedDataAggregator_8cxx.html" title="MID decoded raw data aggregator. " alt="" coords="4596,250,4872,306"/>
+<area shape="rect" id="node37" href="$da/de1/MUON_2MID_2Simulation_2include_2MIDSimulation_2Digitizer_8h.html" title="Digitizer for MID. " alt="" coords="2611,243,2791,313"/>
+<area shape="rect" id="node39" href="$d4/dd3/MIDDigitizerSpec_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitizerSpec.cxx" alt="" coords="2999,369,3213,425"/>
+<area shape="rect" id="node40" href="$dc/d92/DigitsMerger_8h.html" title="Digits merger for MID. " alt="" coords="2815,243,3016,313"/>
+<area shape="rect" id="node43" href="$d9/d65/MIDDigitWriterSpec_8h.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/MIDDigitWriterSpec.h" alt="" coords="3092,250,3307,306"/>
+<area shape="rect" id="node38" href="$d6/df9/MUON_2MID_2Simulation_2src_2Digitizer_8cxx.html" title="Implementation of the digitizer for MID. " alt="" coords="2495,369,2709,425"/>
+<area shape="rect" id="node41" href="$db/d63/DigitsMerger_8cxx.html" title="Implementation of the digits merger for MID. " alt="" coords="2733,369,2975,425"/>
+<area shape="rect" id="node44" href="$d2/dd7/SimpleDigitizerWorkflow_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/SimpleDigitizerWorkflow.cxx" alt="" coords="3238,369,3454,425"/>
+</map>

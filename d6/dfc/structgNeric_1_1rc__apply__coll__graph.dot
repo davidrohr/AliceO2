@@ -1,0 +1,8 @@
+digraph "gNeric::rc_apply&lt; _ContainerT, _StageT, _IndexT, F &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{gNeric::rc_apply\< \l_ContainerT, _StageT,\l _IndexT, F \>\n||+ apply()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

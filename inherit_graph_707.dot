@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="o2::dataformats::MCTruth\lHeaderElement",height=0.2,width=0.4,color="black",URL="$d3/de9/structo2_1_1dataformats_1_1MCTruthHeaderElement.html",tooltip="Simple struct having information about truth elements for particular indices: how many associations w..."];
+}

@@ -1,0 +1,8 @@
+digraph "o2::track::TrackLTIntegral"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::track::TrackLTIntegral\n||+ TrackLTIntegral()\l+ TrackLTIntegral()\l+ ~TrackLTIntegral()\l+ getL()\l+ getX2X0()\l+ getTOF()\l+ clear()\l+ addStep()\l+ addX2X0()\l+ setL()\l+ setX2X0()\l+ setTOF()\l+ print()\l+ getNTOFs()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

@@ -1,0 +1,24 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MID/CTF/include/MIDCTF/CTFCoder.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node71 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/CTF/include/MIDCTF\l/CTFCoder.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node71 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/test/test_ctf_io_mid.cxx",height=0.2,width=0.4,color="black",URL="$df/dcb/test__ctf__io__mid_8cxx.html"];
+  Node71 -> Node73 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/CTF/src/CTFCoder.cxx",height=0.2,width=0.4,color="black",URL="$d7/d6c/MUON_2MID_2CTF_2src_2CTFCoder_8cxx.html"];
+  Node71 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/include/MIDWorkflow\l/EntropyDecoderSpec.h",height=0.2,width=0.4,color="black",URL="$d5/d5f/MUON_2MID_2Workflow_2include_2MIDWorkflow_2EntropyDecoderSpec_8h.html"];
+  Node74 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/CTF\l/workflow/src/ctf-reader\l-workflow.cxx",height=0.2,width=0.4,color="black",URL="$dc/d55/ctf-reader-workflow_8cxx.html"];
+  Node74 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/EntropyDecoder\lSpec.cxx",height=0.2,width=0.4,color="black",URL="$df/dd9/MUON_2MID_2Workflow_2src_2EntropyDecoderSpec_8cxx.html"];
+  Node71 -> Node77 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node77 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/include/MIDWorkflow\l/EntropyEncoderSpec.h",height=0.2,width=0.4,color="black",URL="$d8/dd3/MUON_2MID_2Workflow_2include_2MIDWorkflow_2EntropyEncoderSpec_8h.html"];
+  Node77 -> Node78 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/entropy\l-encoder-workflow.cxx",height=0.2,width=0.4,color="black",URL="$da/db9/MUON_2MID_2Workflow_2src_2entropy-encoder-workflow_8cxx.html"];
+  Node77 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/MUON\l/MID/Workflow/src/EntropyEncoder\lSpec.cxx",height=0.2,width=0.4,color="black",URL="$d0/d34/MUON_2MID_2Workflow_2src_2EntropyEncoderSpec_8cxx.html"];
+}

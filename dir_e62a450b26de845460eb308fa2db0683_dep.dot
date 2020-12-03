@@ -1,0 +1,21 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FT0/raw" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_732f729910dd598014f768fa2866f334 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="FT0" fontname="Helvetica", fontsize="10", URL="dir_732f729910dd598014f768fa2866f334.html"]
+  subgraph clusterdir_e62a450b26de845460eb308fa2db0683 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e62a450b26de845460eb308fa2db0683.html"];
+    dir_e62a450b26de845460eb308fa2db0683 [shape=plaintext label="raw"];
+    dir_7642c41b5eca933b9cefb7401403fa46 [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_7642c41b5eca933b9cefb7401403fa46.html"];
+    dir_f6648badfaa93a2ebbead76f1273e760 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_f6648badfaa93a2ebbead76f1273e760.html"];
+  }
+  }
+  dir_9742c4beffa63bb41af6c796ac2f5cf0 [shape=box label="raw" color="red" URL="dir_9742c4beffa63bb41af6c796ac2f5cf0.html"];
+  dir_2171f7ec022c5423887b07c69b2f5b48 [shape=box label="DataFormats" color="red" URL="dir_2171f7ec022c5423887b07c69b2f5b48.html"];
+  dir_9742c4beffa63bb41af6c796ac2f5cf0->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="4", labeldistance=1.5 headhref="dir_000526_000089.html"];
+  dir_7642c41b5eca933b9cefb7401403fa46->dir_9742c4beffa63bb41af6c796ac2f5cf0 [headlabel="3", labeldistance=1.5 headhref="dir_000520_000526.html"];
+  dir_7642c41b5eca933b9cefb7401403fa46->dir_2171f7ec022c5423887b07c69b2f5b48 [headlabel="7", labeldistance=1.5 headhref="dir_000520_000089.html"];
+  dir_f6648badfaa93a2ebbead76f1273e760->dir_7642c41b5eca933b9cefb7401403fa46 [headlabel="3", labeldistance=1.5 headhref="dir_000522_000520.html"];
+}

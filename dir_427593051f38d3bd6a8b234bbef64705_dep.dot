@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/ITSMFT/common/test" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_a24d6d0829ce59989bf769e9c553cbcc {
+    graph [ bgcolor="#ddddee", pencolor="black", label="common" fontname="Helvetica", fontsize="10", URL="dir_a24d6d0829ce59989bf769e9c553cbcc.html"]
+  dir_427593051f38d3bd6a8b234bbef64705 [shape=box, label="test", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_427593051f38d3bd6a8b234bbef64705.html"];
+  }
+  dir_90228e13d7e50ca0627558c8e3e745e2 [shape=box label="include" color="red" URL="dir_90228e13d7e50ca0627558c8e3e745e2.html"];
+  dir_427593051f38d3bd6a8b234bbef64705->dir_90228e13d7e50ca0627558c8e3e745e2 [headlabel="1", labeldistance=1.5 headhref="dir_000240_000117.html"];
+}

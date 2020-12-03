@@ -1,0 +1,4 @@
+<map id="o2::BasicXYZEHit&lt; T, E, V &gt;" name="o2::BasicXYZEHit&lt; T, E, V &gt;">
+<area shape="rect" id="node2" href="$d9/d95/classo2_1_1BasicXYZVHit.html" title="{o2::BasicXYZVHit\&lt; T,\l E, V \&gt;\n||+ BasicXYZVHit()\l+ BasicXYZVHit()\l+ GetX()\l+ GetY()\l+ GetZ()\l+ GetPos()\l+ GetHitValue()\l+ GetTime()\l+ GetDetectorID()\l+ SetTime()\l+ SetHitValue()\l+ SetDetectorID()\l+ SetX()\l+ SetY()\l+ SetZ()\l+ SetXYZ()\l+ SetPos()\l+ ClassDefNV()\l}" alt="" coords="5,175,159,516"/>
+<area shape="rect" id="node3" href="$db/dfe/classo2_1_1BaseHit.html" title="{o2::BaseHit\n||+ BaseHit()\l+ BaseHit()\l+ GetTrackID()\l+ SetTrackID()\l}" alt="" coords="27,5,137,127"/>
+</map>

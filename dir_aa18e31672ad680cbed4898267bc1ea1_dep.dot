@@ -1,0 +1,19 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/TPC/monitor/include" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c8aedc994017b243e124cedd663b3bbb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="monitor" fontname="Helvetica", fontsize="10", URL="dir_c8aedc994017b243e124cedd663b3bbb.html"]
+  subgraph clusterdir_aa18e31672ad680cbed4898267bc1ea1 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_aa18e31672ad680cbed4898267bc1ea1.html"];
+    dir_aa18e31672ad680cbed4898267bc1ea1 [shape=plaintext label="include"];
+    dir_de0bc0babb7c6332010c29d5a76c2c52 [shape=box label="TPCMonitor" color="black" fillcolor="white" style="filled" URL="dir_de0bc0babb7c6332010c29d5a76c2c52.html"];
+  }
+  }
+  dir_4995562033b321477cfe3c34a14a5189 [shape=box label="calibration" color="red" URL="dir_4995562033b321477cfe3c34a14a5189.html"];
+  dir_677b030cc750909e4cd27413873678d8 [shape=box label="base" color="red" URL="dir_677b030cc750909e4cd27413873678d8.html"];
+  dir_4995562033b321477cfe3c34a14a5189->dir_677b030cc750909e4cd27413873678d8 [headlabel="25", labeldistance=1.5 headhref="dir_000693_000059.html"];
+  dir_de0bc0babb7c6332010c29d5a76c2c52->dir_4995562033b321477cfe3c34a14a5189 [headlabel="1", labeldistance=1.5 headhref="dir_000704_000693.html"];
+  dir_de0bc0babb7c6332010c29d5a76c2c52->dir_677b030cc750909e4cd27413873678d8 [headlabel="2", labeldistance=1.5 headhref="dir_000704_000059.html"];
+}

@@ -1,0 +1,12 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/FIT/FDD/simulation/include/FDDSimulation/Digitizer.h"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node74 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/include\l/FDDSimulation/Digitizer.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node74 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="/home/runner/work/AliceO2\l/AliceO2/Detectors/FIT\l/FDD/simulation/src/Digitizer.cxx",height=0.2,width=0.4,color="black",URL="$d0/d8c/FIT_2FDD_2simulation_2src_2Digitizer_8cxx.html"];
+  Node74 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="/home/runner/work/AliceO2\l/AliceO2/Steer/DigitizerWorkflow\l/src/FDDDigitizerSpec.cxx",height=0.2,width=0.4,color="black",URL="$d2/d97/FDDDigitizerSpec_8cxx.html"];
+}

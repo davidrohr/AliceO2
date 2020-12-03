@@ -1,0 +1,10 @@
+digraph "FooMax"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{FooMax\n|+ foo2\l+ foo3\l+ foo4\l+ foo5\l+ foo6\l+ foo7\l+ foo8\l+ foo9\l+ foo12\l+ foo13\l+ foo14\l+ foo15\l+ foo16\l+ foo17\l+ foo18\l+ foo19\l+ foo23\l+ foo24\l+ foo25\l+ foo26\l+ foo27\l+ foo28\l+ foo29\l+ foo34\l+ foo35\l+ foo36\l+ foo37\l+ foo38\l+ foo39\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +foo30\n+foo31\n+foo20\n+foo32\n+foo21\n+foo10\n+foo1\n+foo33\n+foo22\n+foo11\n..." ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+}

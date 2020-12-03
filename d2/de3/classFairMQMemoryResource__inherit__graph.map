@@ -1,0 +1,3 @@
+<map id="FairMQMemoryResource" name="FairMQMemoryResource">
+<area shape="rect" id="node2" href="$da/d1c/classo2_1_1pmr_1_1MessageResource.html" title="{o2::pmr::MessageResource\n|# mUpstream\l# mMessageSize\l# mMessageData\l# initialImport\l|+ MessageResource()\l+ MessageResource()\l+ MessageResource()\l+ operator=()\l+ operator=()\l+ MessageResource()\l+ getMessage()\l+ setMessage()\l+ getTransportFactory()\l+ getNumberOfMessages()\l# do_allocate()\l# do_deallocate()\l# do_is_equal()\l}" alt="" coords="5,131,188,428"/>
+</map>

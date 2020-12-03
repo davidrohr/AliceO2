@@ -1,0 +1,8 @@
+digraph "o2::mch::raw::BareElinkDecoder&lt; CHARGESUM &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mch::raw::BareElinkDecoder\l\< CHARGESUM \>\n||+ BareElinkDecoder()\l* mNofSync\l* mNofBitSeen\l* mNofHeaderSeen\l* mNofHammingErrors\l* mNofHeaderParityErrors\l* append()\l* len()\l* reset()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

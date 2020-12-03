@@ -1,0 +1,14 @@
+<map id="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/ITSMFT/common/src/TopologyDictionary.cxx" name="/home/runner/work/AliceO2/AliceO2/DataFormats/Detectors/ITSMFT/common/src/TopologyDictionary.cxx">
+<area shape="rect" id="node2" href="$d1/d08/TopologyDictionary_8h.html" title="Definition of the ClusterTopology class. " alt="" coords="400,109,603,151"/>
+<area shape="rect" id="node30" href="$d8/ddb/ClusterTopology_8h.html" title="Definition of the ClusterTopology class. " alt="" coords="772,109,964,151"/>
+<area shape="rect" id="node33" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="1085,117,1315,143"/>
+<area shape="rect" id="node3" href="$de/dc1/ClusterPattern_8h.html" title="DataFormatsITSMFT/Cluster\lPattern.h" alt="" coords="700,199,892,240"/>
+<area shape="rect" id="node8" href="$df/de4/CompCluster_8h.html" title="Definition of the ITSMFT compact cluster. " alt="" coords="479,295,718,322"/>
+<area shape="rect" id="node9" href="$dd/da4/Logger_8h.html" title="Framework/Logger.h" alt="" coords="5,206,147,233"/>
+<area shape="rect" id="node15" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="1785,206,1935,233"/>
+<area shape="rect" id="node16" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="3145,377,3281,404"/>
+<area shape="rect" id="node19" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1089,295,1247,322"/>
+<area shape="rect" id="node28" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="3059,295,3240,322"/>
+<area shape="rect" id="node17" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="3024,452,3208,479"/>
+<area shape="rect" id="node18" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="3233,452,3391,479"/>
+</map>

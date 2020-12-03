@@ -1,0 +1,16 @@
+digraph "o2::fit::DataBlockWrapper&lt; T &gt;"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::fit::DataBlockWrapper\< T \>\n||+ DataBlockWrapper()\l+ DataBlockWrapper()\l+ serialize()\l+ deserialize()\l+ print()\l+ getNsteps()\l+ GetByteLookupTable()\l+ GetReadingLookupTable()\l+ printLUT()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mIsIncorrect" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{bool\n||}",height=0.2,width=0.4,color="grey75"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mNwords\n+mNelements" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{unsigned\n||}",height=0.2,width=0.4,color="grey75"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +sizeWord\n+sReadingLookupTable\n+MinNwords\n+MaxNbytes\n+MaxNwords\n+sByteLookupTable\n+MinNbytes" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{static\n||}",height=0.2,width=0.4,color="grey75"];
+  Node5 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +mData" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node5 [label="{T\n||}",height=0.2,width=0.4,color="grey75"];
+}

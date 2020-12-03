@@ -1,0 +1,10 @@
+digraph "o2::detectors::AlignParam"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="{o2::detectors::AlignParam\n||+ AlignParam()\l+ ~AlignParam()\l+ AlignParam()\l+ getSymName()\l+ getPhi()\l+ getPsi()\l+ getTheta()\l+ getX()\l+ getY()\l+ getZ()\l+ applyToGeometry()\l+ createMatrix()\l+ createLocalMatrix()\l+ setSymName()\l+ getAlignableID()\l+ setAlignableID()\l+ setParams()\l+ setRotation()\l+ setTranslation()\l+ setParams()\l+ setTranslation()\l+ setRotation()\l+ setLocalParams()\l+ setLocalTranslation()\l+ setLocalRotation()\l+ setLocalParams()\l+ setLocalTranslation()\l+ setLocalRotation()\l+ IsSortable()\l+ Compare()\l+ getLevel()\l+ Print()\l# matrixToAngles()\l# setMatrixRotation()\l# setMatrixTranslation()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node1 [label="{TNamed\n||}",height=0.2,width=0.4,color="grey75"];
+}

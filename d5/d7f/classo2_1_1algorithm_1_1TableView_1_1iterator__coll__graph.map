@@ -1,0 +1,5 @@
+<map id="o2::algorithm::TableView&lt; RowDescT, ColumnDescT, ParserT &gt;::iterator" name="o2::algorithm::TableView&lt; RowDescT, ColumnDescT, ParserT &gt;::iterator">
+<area shape="rect" id="node2" href="$da/d64/classo2_1_1algorithm_1_1TableView.html" title="{o2::algorithm::TableView\l\&lt; RowDescT, ColumnDescT,\l ParserT \&gt;\n||+ TableView()\l+ ~TableView()\l+ addRow()\l+ clear()\l+ getNColumns()\l+ getNRows()\l+ getRowData()\l+ begin()\l+ end()\l}" alt="" coords="5,315,201,539"/>
+<area shape="rect" id="node5" href="$d9/dc8/structo2_1_1algorithm_1_1TableView_1_1iterator_1_1value__type.html" title="{o2::algorithm::TableView\l\&lt; RowDescT, ColumnDescT,\l ParserT \&gt;::iterator::value_type\n||}" alt="" coords="445,373,647,480"/>
+<area shape="rect" id="node6" href="$d9/d66/structo2_1_1algorithm_1_1TableView_1_1FrameData.html" title="descriptor pointing to payload of one frame " alt="" coords="333,145,529,252"/>
+</map>

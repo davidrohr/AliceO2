@@ -1,0 +1,16 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Mapping/Impl4" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b098e3604916eca5f90f2bb1c75b7880 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Mapping" fontname="Helvetica", fontsize="10", URL="dir_b098e3604916eca5f90f2bb1c75b7880.html"]
+  subgraph clusterdir_36764c87fef99b027eb6f2b8f190bcd4 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_36764c87fef99b027eb6f2b8f190bcd4.html"];
+    dir_36764c87fef99b027eb6f2b8f190bcd4 [shape=plaintext label="Impl4"];
+    dir_bdd0605cabab0d69b5da099407eca6e8 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_bdd0605cabab0d69b5da099407eca6e8.html"];
+  }
+  }
+  dir_bb33a65c2c121b6655a8db1556a9cb2b [shape=box label="Interface" color="red" URL="dir_bb33a65c2c121b6655a8db1556a9cb2b.html"];
+  dir_bdd0605cabab0d69b5da099407eca6e8->dir_bb33a65c2c121b6655a8db1556a9cb2b [headlabel="3", labeldistance=1.5 headhref="dir_000618_000592.html"];
+}

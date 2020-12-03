@@ -1,0 +1,10 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideChip.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/ITSMFT/common/simulation/include/ITSMFTSimulation/AlpideChip.h">
+<area shape="rect" id="node2" href="$d5/d6b/AlpideChip_8cxx.html" title="Creates an ALPIDE chip in simulation. " alt="" coords="5,131,259,187"/>
+<area shape="rect" id="node3" href="$de/d82/ITSMFT_2ITS_2simulation_2src_2V3Layer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/simulation/src/V3Layer.cxx" alt="" coords="283,131,493,187"/>
+<area shape="rect" id="node4" href="$d9/d6c/ITSMFT_2ITS_2simulation_2src_2V3Services_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/ITSMFT\l/ITS/simulation/src/V3Services.cxx" alt="" coords="517,131,745,187"/>
+<area shape="rect" id="node5" href="$dc/d80/Ladder_8cxx.html" title="Ladder builder. " alt="" coords="769,131,954,187"/>
+<area shape="rect" id="node6" href="$d4/dd1/Upgrades_2IT3_2simulation_2src_2V3Layer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Upgrades\l/IT3/simulation/src/V3Layer.cxx" alt="" coords="978,131,1185,187"/>
+<area shape="rect" id="node7" href="$d7/da9/Upgrades_2IT3_2simulation_2src_2V3Services_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Upgrades\l/IT3/simulation/src/V3Services.cxx" alt="" coords="1209,131,1436,187"/>
+<area shape="rect" id="node8" href="$d1/d7a/Upgrades_2PostLS4_2IT4_2simulation_2src_2V3Layer_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Upgrades\l/PostLS4/IT4/simulation/src\l/V3Layer.cxx" alt="" coords="1461,124,1654,195"/>
+<area shape="rect" id="node9" href="$dc/d80/Upgrades_2PostLS4_2IT4_2simulation_2src_2V3Services_8cxx.html" title="/home/runner/work/AliceO2\l/AliceO2/Detectors/Upgrades\l/PostLS4/IT4/simulation/src\l/V3Services.cxx" alt="" coords="1678,124,1871,195"/>
+</map>

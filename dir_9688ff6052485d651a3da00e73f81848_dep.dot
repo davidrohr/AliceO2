@@ -1,0 +1,22 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Mapping/SegContour" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b098e3604916eca5f90f2bb1c75b7880 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Mapping" fontname="Helvetica", fontsize="10", URL="dir_b098e3604916eca5f90f2bb1c75b7880.html"]
+  subgraph clusterdir_9688ff6052485d651a3da00e73f81848 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_9688ff6052485d651a3da00e73f81848.html"];
+    dir_9688ff6052485d651a3da00e73f81848 [shape=plaintext label="SegContour"];
+    dir_aa08e53bf10e46bc061669876836df7d [shape=box label="include" color="red" fillcolor="white" style="filled" URL="dir_aa08e53bf10e46bc061669876836df7d.html"];
+    dir_2bc8d19beeb0d8d7068b25a900b62e4b [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_2bc8d19beeb0d8d7068b25a900b62e4b.html"];
+  }
+  }
+  dir_bb33a65c2c121b6655a8db1556a9cb2b [shape=box label="Interface" color="red" URL="dir_bb33a65c2c121b6655a8db1556a9cb2b.html"];
+  dir_f53aaea7b1f4a3d2e21e52645ea2576d [shape=box label="Contour" color="red" URL="dir_f53aaea7b1f4a3d2e21e52645ea2576d.html"];
+  dir_2bc8d19beeb0d8d7068b25a900b62e4b->dir_bb33a65c2c121b6655a8db1556a9cb2b [headlabel="3", labeldistance=1.5 headhref="dir_000622_000592.html"];
+  dir_2bc8d19beeb0d8d7068b25a900b62e4b->dir_f53aaea7b1f4a3d2e21e52645ea2576d [headlabel="5", labeldistance=1.5 headhref="dir_000622_000283.html"];
+  dir_2bc8d19beeb0d8d7068b25a900b62e4b->dir_aa08e53bf10e46bc061669876836df7d [headlabel="9", labeldistance=1.5 headhref="dir_000622_000620.html"];
+  dir_aa08e53bf10e46bc061669876836df7d->dir_bb33a65c2c121b6655a8db1556a9cb2b [headlabel="2", labeldistance=1.5 headhref="dir_000620_000592.html"];
+  dir_aa08e53bf10e46bc061669876836df7d->dir_f53aaea7b1f4a3d2e21e52645ea2576d [headlabel="6", labeldistance=1.5 headhref="dir_000620_000283.html"];
+}

@@ -1,0 +1,51 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/src/Digitizer.cxx" name="/home/runner/work/AliceO2/AliceO2/Detectors/TRD/simulation/src/Digitizer.cxx">
+<area shape="rect" id="node5" href="$db/dcc/Detectors_2Base_2include_2DetectorsBase_2GeometryManager_8h.html" title="DetectorsBase/GeometryManager.h" alt="" coords="718,445,949,471"/>
+<area shape="rect" id="node50" href="$de/de8/TRD_2base_2include_2TRDBase_2Geometry_8h.html" title="TRDBase/Geometry.h" alt="" coords="4684,355,4836,382"/>
+<area shape="rect" id="node54" href="$da/de4/PadPlane_8h.html" title="TRDBase/PadPlane.h" alt="" coords="1259,534,1410,561"/>
+<area shape="rect" id="node60" href="$d7/dfd/TRD_2base_2include_2TRDBase_2SimParam_8h.html" title="TRDBase/SimParam.h" alt="" coords="3514,355,3670,382"/>
+<area shape="rect" id="node61" href="$db/d66/TRD_2base_2include_2TRDBase_2PadResponse_8h.html" title="TRDBase/PadResponse.h" alt="" coords="5834,445,6011,471"/>
+<area shape="rect" id="node62" href="$d4/dae/TRD_2simulation_2include_2TRDSimulation_2Digitizer_8h.html" title="TRDSimulation/Digitizer.h" alt="" coords="3450,109,3625,136"/>
+<area shape="rect" id="node95" href="$d5/dad/TRDSimParams_8h.html" title="TRDSimulation/TRDSimParams.h" alt="" coords="6069,355,6291,382"/>
+<area shape="rect" id="node12" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="4701,527,4909,568"/>
+<area shape="rect" id="node36" href="$dc/d73/Cartesian_8h.html" title="MathUtils/Cartesian.h" alt="" coords="2344,534,2493,561"/>
+<area shape="rect" id="node48" href="$db/dba/MatCell_8h.html" title="Declarations for material properties of the cell (voxel) " alt="" coords="1014,534,1183,561"/>
+<area shape="rect" id="node20" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="4896,623,5016,650"/>
+<area shape="rect" id="node28" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="5041,623,5197,650"/>
+<area shape="rect" id="node21" href="$de/def/bitOps_8h.html" title="MathUtils/detail/bitOps.h" alt="" coords="4453,705,4619,732"/>
+<area shape="rect" id="node22" href="$d3/dfc/StatAccumulator_8h.html" title="MathUtils/detail/StatAccumulator.h" alt="" coords="4643,705,4869,732"/>
+<area shape="rect" id="node23" href="$dd/d7d/trigonometric_8h.html" title="MathUtils/detail/trigonometric.h" alt="" coords="4225,705,4428,732"/>
+<area shape="rect" id="node25" href="$df/d21/GPUCommonDef_8h.html" title="GPUCommonDef.h" alt="" coords="1020,780,1156,807"/>
+<area shape="rect" id="node26" href="$d5/d93/GPUCommonDefSettings_8h.html" title="GPUCommonDefSettings.h" alt="" coords="899,855,1083,881"/>
+<area shape="rect" id="node27" href="$da/d5a/GPUCommonDefAPI_8h.html" title="GPUCommonDefAPI.h" alt="" coords="1107,855,1266,881"/>
+<area shape="rect" id="node34" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="5126,705,5309,732"/>
+<area shape="rect" id="node37" href="$d2/d45/GPUCommonRtypes_8h.html" title="GPUCommonRtypes.h" alt="" coords="1125,623,1283,650"/>
+<area shape="rect" id="node47" href="$d1/da8/GPUROOTCartesianFwd_8h.html" title="GPUROOTCartesianFwd.h" alt="" coords="1145,705,1327,732"/>
+<area shape="rect" id="node51" href="$d8/d06/TRD_2base_2include_2TRDBase_2GeometryBase_8h.html" title="TRDBase/GeometryBase.h" alt="" coords="1766,445,1949,471"/>
+<area shape="rect" id="node55" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="4651,437,4859,479"/>
+<area shape="rect" id="node52" href="$d5/d17/CommonParam_8h.html" title="TRDBase/CommonParam.h" alt="" coords="1536,534,1723,561"/>
+<area shape="rect" id="node53" href="$d6/dc2/DataFormats_2Detectors_2TRD_2include_2DataFormatsTRD_2Constants_8h.html" title="DataFormatsTRD/Constants.h" alt="" coords="3867,534,4069,561"/>
+<area shape="rect" id="node56" href="$df/d5b/GPUCommonLogger_8h.html" title="GPUCommonLogger.h" alt="" coords="5605,534,5760,561"/>
+<area shape="rect" id="node63" href="$df/df0/TRD_2simulation_2include_2TRDSimulation_2Detector_8h.html" title="TRDSimulation/Detector.h" alt="" coords="3695,355,3871,382"/>
+<area shape="rect" id="node71" href="$d4/d17/Calibrations_8h.html" title="TRDBase/Calibrations.h" alt="" coords="4734,191,4898,218"/>
+<area shape="rect" id="node81" href="$d7/da5/Detectors_2TRD_2base_2include_2TRDBase_2Digit_8h.html" title="TRDBase/Digit.h" alt="" coords="2072,445,2195,471"/>
+<area shape="rect" id="node85" href="$dc/d25/Detectors_2TRD_2base_2include_2TRDBase_2MCLabel_8h.html" title="TRDBase/MCLabel.h" alt="" coords="1544,191,1691,218"/>
+<area shape="rect" id="node87" href="$d5/db8/DiffAndTimeStructEstimator_8h.html" title="TRDBase/DiffAndTimeStruct\lEstimator.h" alt="" coords="6165,184,6357,225"/>
+<area shape="rect" id="node88" href="$db/dac/RandomRing_8h.html" title="MathUtils/RandomRing.h" alt="" coords="3514,191,3683,218"/>
+<area shape="rect" id="node92" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="3403,527,3555,568"/>
+<area shape="rect" id="node64" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="4209,534,4383,561"/>
+<area shape="rect" id="node69" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="3801,623,3996,650"/>
+<area shape="rect" id="node70" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="3547,437,3699,479"/>
+<area shape="rect" id="node72" href="$d9/d6e/ChamberCalibrations_8h.html" title="TRDBase/ChamberCalibrations.h" alt="" coords="4147,273,4365,300"/>
+<area shape="rect" id="node73" href="$d9/d59/LocalVDrift_8h.html" title="TRDBase/LocalVDrift.h" alt="" coords="4853,273,5013,300"/>
+<area shape="rect" id="node74" href="$d8/d53/LocalT0_8h.html" title="TRDBase/LocalT0.h" alt="" coords="5037,273,5179,300"/>
+<area shape="rect" id="node75" href="$d2/d8d/LocalGainFactor_8h.html" title="TRDBase/LocalGainFactor.h" alt="" coords="5203,273,5394,300"/>
+<area shape="rect" id="node76" href="$dc/d5d/ChamberStatus_8h.html" title="TRDBase/ChamberStatus.h" alt="" coords="4389,273,4576,300"/>
+<area shape="rect" id="node77" href="$d4/df6/ChamberNoise_8h.html" title="TRDBase/ChamberNoise.h" alt="" coords="3941,273,4123,300"/>
+<area shape="rect" id="node78" href="$d7/dbd/PadNoise_8h.html" title="TRDBase/PadNoise.h" alt="" coords="5419,273,5571,300"/>
+<area shape="rect" id="node79" href="$df/df7/PadStatus_8h.html" title="TRDBase/PadStatus.h" alt="" coords="5595,273,5751,300"/>
+<area shape="rect" id="node80" href="$d5/da9/CalOnlineGainTables_8h.html" title="TRDBase/CalOnlineGainTables.h" alt="" coords="5776,273,5995,300"/>
+<area shape="rect" id="node84" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1797,534,2024,561"/>
+<area shape="rect" id="node86" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="1441,348,1593,389"/>
+<area shape="rect" id="node96" href="$db/d2c/ConfigurableParam_8h.html" title="CommonUtils/Configurable\lParam.h" alt="" coords="5784,527,5963,568"/>
+<area shape="rect" id="node98" href="$da/d6b/ConfigurableParamHelper_8h.html" title="CommonUtils/Configurable\lParamHelper.h" alt="" coords="6087,437,6265,479"/>
+</map>

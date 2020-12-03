@@ -1,0 +1,5 @@
+<map id="TrackSelectionTask" name="TrackSelectionTask">
+<area shape="rect" id="node2" href="$d7/d2d/classTrackSelection.html" title="{TrackSelection\n||+ TrackSelection()\l+ IsSelected()\l+ IsSelected()\l+ SetTrackType()\l+ SetPtRange()\l+ SetEtaRange()\l+ SetRequireITSRefit()\l+ SetRequireTPCRefit()\l+ SetRequireGoldenChi2()\l+ SetMinNClustersTPC()\l+ SetMinNCrossedRowsTPC()\l+ SetMinNCrossedRowsOverFindable\lClustersTPC()\l+ SetMinNClustersITS()\l+ SetMaxChi2PerClusterTPC()\l+ SetMaxChi2PerClusterITS()\l+ SetMaxDcaXY()\l+ SetMaxDcaZ()\l+ SetMaxDcaXYPtDep()\l+ SetRequireHitsInITSLayers()\l+ SetRequireNoHitsInITSLayers()\l+ ResetITSRequirements()\l}" alt="" coords="5,145,251,531"/>
+<area shape="rect" id="node4" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\l\&lt; aod::TrackSelection \&gt;\n||}" alt="" coords="275,292,443,384"/>
+<area shape="rect" id="node5" href="$d6/d86/structo2_1_1framework_1_1Produces.html" title="{o2::framework::Produces\&lt; T \&gt;\n||}" alt="" coords="259,5,459,83"/>
+</map>

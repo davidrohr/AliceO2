@@ -1,0 +1,4 @@
+<map id="GPUCA_NAMESPACE::gpu::GPUTPCGMTrackParam" name="GPUCA_NAMESPACE::gpu::GPUTPCGMTrackParam">
+<area shape="rect" id="node2" href="$dc/d9a/classGPUCA__NAMESPACE_1_1gpu_1_1GPUITSTrack.html" title="{GPUCA_NAMESPACE::gpu\l::GPUITSTrack\n|+ mOuterParam\l+ mAlpha\l+ mClusters\l|}" alt="" coords="5,2030,196,2151"/>
+<area shape="rect" id="node3" href="$d9/da8/classGPUCA__NAMESPACE_1_1gpu_1_1trackInterface_3_01GPUTPCGMTrackParam_01_4.html" title="{GPUCA_NAMESPACE::gpu\l::trackInterface\&lt; GPUTPCGMTrack\lParam \&gt;\n|+ alpha\l+ param\l+ cov\l|+ GPUdDefault()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ GPUd()\l+ for()\l+ for()\l+ setAlpha()\l}" alt="" coords="221,1861,453,2320"/>
+</map>

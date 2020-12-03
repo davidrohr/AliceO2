@@ -1,0 +1,19 @@
+digraph "/home/runner/work/AliceO2/AliceO2/Analysis/Tasks/ALICE3" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_eff7324435ca3301414fec6c28c4adf5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Tasks" fontname="Helvetica", fontsize="10", URL="dir_eff7324435ca3301414fec6c28c4adf5.html"]
+  dir_2f40e9aa4d3358d94bd9e1c8e2d49ec5 [shape=box, label="ALICE3", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2f40e9aa4d3358d94bd9e1c8e2d49ec5.html"];
+  }
+  dir_f41dd59f861c855ea21b0dc3111cb7b0 [shape=box label="DataModel" color="red" URL="dir_f41dd59f861c855ea21b0dc3111cb7b0.html"];
+  dir_8d04f135a1eb0fdc4d561ef87bbea216 [shape=box label="Core" color="red" URL="dir_8d04f135a1eb0fdc4d561ef87bbea216.html"];
+  dir_bcbb2cf9a3d3d83e5515c82071a07177 [shape=box label="Framework" color="red" URL="dir_bcbb2cf9a3d3d83e5515c82071a07177.html"];
+  dir_2f40e9aa4d3358d94bd9e1c8e2d49ec5->dir_f41dd59f861c855ea21b0dc3111cb7b0 [headlabel="1", labeldistance=1.5 headhref="dir_000016_000009.html"];
+  dir_2f40e9aa4d3358d94bd9e1c8e2d49ec5->dir_8d04f135a1eb0fdc4d561ef87bbea216 [headlabel="2", labeldistance=1.5 headhref="dir_000016_000005.html"];
+  dir_2f40e9aa4d3358d94bd9e1c8e2d49ec5->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="3", labeldistance=1.5 headhref="dir_000016_000062.html"];
+  dir_f41dd59f861c855ea21b0dc3111cb7b0->dir_8d04f135a1eb0fdc4d561ef87bbea216 [headlabel="3", labeldistance=1.5 headhref="dir_000009_000005.html"];
+  dir_f41dd59f861c855ea21b0dc3111cb7b0->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="19", labeldistance=1.5 headhref="dir_000009_000062.html"];
+  dir_8d04f135a1eb0fdc4d561ef87bbea216->dir_bcbb2cf9a3d3d83e5515c82071a07177 [headlabel="12", labeldistance=1.5 headhref="dir_000005_000062.html"];
+}

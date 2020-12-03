@@ -1,0 +1,8 @@
+<map id="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Decoder/src/BareElinkDecoder.h" name="/home/runner/work/AliceO2/AliceO2/Detectors/MUON/MCH/Raw/Decoder/src/BareElinkDecoder.h">
+<area shape="rect" id="node2" href="$dc/d46/Assertions_8h.html" title="Assertions.h" alt="" coords="5,199,100,225"/>
+<area shape="rect" id="node4" href="$d0/d64/DataFormats_8h.html" title="MCHRawCommon/DataFormats.h" alt="" coords="427,273,651,300"/>
+<area shape="rect" id="node6" href="$d5/d49/SampaHeader_8h.html" title="MCHRawCommon/SampaHeader.h" alt="" coords="808,199,1039,225"/>
+<area shape="rect" id="node9" href="$dd/d58/SampaChannelHandler_8h.html" title="MCHRawDecoder/SampaChannel\lHandler.h" alt="" coords="533,109,756,151"/>
+<area shape="rect" id="node11" href="$d0/d5b/SampaCluster_8h.html" title="MCHRawCommon/SampaCluster.h" alt="" coords="451,199,681,225"/>
+<area shape="rect" id="node13" href="$d4/d09/DsElecId_8h.html" title="MCHRawElecMap/DsElecId.h" alt="" coords="175,199,375,225"/>
+</map>

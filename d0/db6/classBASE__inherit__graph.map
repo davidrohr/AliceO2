@@ -1,0 +1,5 @@
+<map id="BASE" name="BASE">
+<area shape="rect" id="node2" href="$d6/dcc/classgNeric_1_1rc__mixin.html" title="Mixin component is used with different data types. " alt="" coords="5,131,199,355"/>
+<area shape="rect" id="node3" href="$dc/d78/classo2_1_1framework_1_1GenericRootTreeReader_1_1BranchConfigurationElement.html" title="{o2::framework::GenericRoot\lTreeReader\&lt; KeyType \&gt;::\lBranchConfigurationElement\l\&lt; DataT, BASE \&gt;\n|+ STAGE\l|+ BranchConfigurationElement()\l+ BranchConfigurationElement()\l+ ~BranchConfigurationElement()\l+ exec()\l+ setup()\l+ setupInstance()\l+ process()\l}" alt="" coords="223,138,439,347"/>
+<area shape="rect" id="node4" href="$d0/dc9/classo2_1_1framework_1_1MessageContext_1_1ScopeHook.html" title="{o2::framework::MessageContext\l::ScopeHook\&lt; T, BASE \&gt;\n||+ ScopeHook()\l+ ScopeHook()\l+ ~ScopeHook()\l+ operator=()\l+ operator()()\l}" alt="" coords="464,167,676,318"/>
+</map>

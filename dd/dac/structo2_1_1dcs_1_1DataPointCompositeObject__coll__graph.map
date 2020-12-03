@@ -1,0 +1,6 @@
+<map id="o2::dcs::DataPointCompositeObject" name="o2::dcs::DataPointCompositeObject">
+<area shape="rect" id="node2" href="$d7/df8/structo2_1_1dcs_1_1DataPointValue.html" title="{o2::dcs::DataPointValue\n|+ END_FLAG\l+ FBI_FLAG\l+ TURN_FLAG\l+ WRITE_FLAG\l+ OVERWRITE_FLAG\l+ VICTIM_FLAG\l+ BAD_TIMESTAMP_FLAG\l+ CONTROL_MASK\l+ ERROR_MASK\l|+ DataPointValue()\l+ DataPointValue()\l+ DataPointValue()\l+ DataPointValue()\l+ set_payload()\l+ get_flags()\l+ update_timestamp()\l+ get_timestamp()\l+ get_epoch_time()\l+ operator=()\l+ operator==()\l+ operator!=()\l+ set()\l+ set()\l+ set()\l+ acquire_write_lock()\l+ release_write_lock()\l+ acquire_read_lock()\l+ release_read_lock()\l+ ClassDefNV()\l}" alt="" coords="99,292,287,765"/>
+<area shape="rect" id="node3" href="$d6/d30/classuint64__t.html" title="{uint64_t\n||}" alt="" coords="5,5,73,83"/>
+<area shape="rect" id="node5" href="$d3/d87/classuint32__t.html" title="{uint32_t\n||}" alt="" coords="200,5,268,83"/>
+<area shape="rect" id="node7" href="$da/dfd/classo2_1_1dcs_1_1DataPointIdentifier.html" title="{o2::dcs::DataPointIdentifier\n||+ DataPointIdentifier()\l+ DataPointIdentifier()\l+ operator==()\l+ operator!=()\l+ get_alias()\l+ get_type()\l+ hash_code()\l+ ~DataPointIdentifier()\l+ ClassDefNV()\l+ FILL()\l+ FILL()\l}" alt="" coords="311,417,493,641"/>
+</map>

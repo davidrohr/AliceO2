@@ -1,0 +1,32 @@
+digraph "o2::eventgen::GeneratorTGenerator"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="{o2::eventgen::GeneratorTGenerator\n||+ GeneratorTGenerator()\l+ GeneratorTGenerator()\l+ ~GeneratorTGenerator()\l+ setTGenerator()\l+ getTGenerator()\l+ Init()\l# GeneratorTGenerator()\l# operator=()\l# generateEvent()\l# importParticles()\l# ClassDefOverride()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{o2::eventgen::Generator\n||+ Generator()\l+ Generator()\l+ ~Generator()\l+ Init()\l+ ReadEvent()\l+ setMomentumUnit()\l+ setEnergyUnit()\l+ setPositionUnit()\l+ setTimeUnit()\l+ setBoost()\l+ setTriggerMode()\l+ addTrigger()\l+ addDeepTrigger()\l+ notifyEmbedding()\l# Generator()\l# operator=()\l# generateEvent()\l# importParticles()\l# updateHeader()\l# addTracks()\l# boostEvent()\l# triggerEvent()\l# ClassDefOverride()\l}",height=0.2,width=0.4,color="black",URL="$d3/da7/classo2_1_1eventgen_1_1Generator.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{FairGenerator\n||}",height=0.2,width=0.4,color="black",URL="$df/d40/classFairGenerator.html"];
+  Node7 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mParticles" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node7 [label="{vector\< TParticle \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node8 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mTimeUnit\n#mEnergyUnit\n#mPositionUnit\n#mMomentumUnit" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node8 [label="{double\n||}",height=0.2,width=0.4,color="grey75"];
+  Node9 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mDeepTriggers" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node9 [label="{vector\< DeepTrigger \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node10 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mTriggers" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node10 [label="{vector\< Trigger \>\n||}",height=0.2,width=0.4,color="grey75"];
+  Node11 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mBoost" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node11 [label="{Double_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node12 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mInterfaceName" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node12 [label="{int\n||}",height=0.2,width=0.4,color="grey75"];
+  Node13 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mTriggerMode" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node13 [label="{ETriggerMode_t\n||}",height=0.2,width=0.4,color="grey75"];
+  Node14 -> Node5 [color="grey25",fontsize="10",style="solid",label=" #mInterface" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node14 [label="{void *\n||}",height=0.2,width=0.4,color="grey75"];
+  Node15 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mTGenerator" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node15 [label="{TGenerator *\n||}",height=0.2,width=0.4,color="grey75"];
+  Node16 -> Node4 [color="grey25",fontsize="10",style="solid",label=" #mCloneParticles" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node16 [label="{TClonesArray *\n||}",height=0.2,width=0.4,color="grey75"];
+}
