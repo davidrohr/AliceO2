@@ -82,7 +82,10 @@ GPUChainTracking *chainTracking, *chainTrackingAsync, *chainTrackingPipeline;
 #ifdef HAVE_O2HEADERS
 GPUChainITS *chainITS, *chainITSAsync, *chainITSPipeline;
 #endif
-void unique_ptr_aligned_delete(char* v) { operator delete(v GPUCA_OPERATOR_NEW_ALIGNMENT); }
+void unique_ptr_aligned_delete(char* v)
+{
+  operator delete(v GPUCA_OPERATOR_NEW_ALIGNMENT);
+}
 std::unique_ptr<char, void (*)(char*)> outputmemory(nullptr, unique_ptr_aligned_delete), outputmemoryPipeline(nullptr, unique_ptr_aligned_delete), inputmemory(nullptr, unique_ptr_aligned_delete);
 std::unique_ptr<GPUDisplayBackend> eventDisplay;
 std::unique_ptr<GPUReconstructionTimeframe> tf;
