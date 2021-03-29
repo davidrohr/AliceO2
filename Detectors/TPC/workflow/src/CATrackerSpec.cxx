@@ -396,6 +396,10 @@ DataProcessorSpec getCATrackerSpec(CompletionPolicyData* policyData, ca::Config 
         std::vector<InputSpec> filter = {{"check", ConcreteDataTypeMatcher{gDataOriginTPC, "RAWDATA"}, Lifetime::Timeframe}};
         for (auto const& ref : InputRecordWalker(pc.inputs(), filter)) {
           const DataHeader* dh = DataRefUtils::getHeader<DataHeader*>(ref);
+          if (dh->payloadSize == 0 && dh->subSpecification == 0xDEADBEEF) {
+            LOG(INFO) << "Received 0xDEADBEEF message with no RAW input, performing dummy processing on emtpry input data";
+            continue; // Dummy message inserted if there is no input, just ignore
+          }
           const gsl::span<const char> raw = pc.inputs().get<gsl::span<char>>(ref);
           o2::framework::RawParser parser(raw.data(), raw.size());
 
@@ -523,22 +527,22 @@ DataProcessorSpec getCATrackerSpec(CompletionPolicyData* policyData, ca::Config 
         if (condition) {
           auto& buffer = outputBuffers[outputRegions.getIndex(region)];
           if (processAttributes->allocateOutputOnTheFly) {
-            region.allocator = [name, &buffer, &pc, outputSpec = std::move(outputSpec), debug = processAttributes->debugLevel, verbosity, offset](size_t size) -> void* {
+            region.allocator = [name, &buffer, &pc, outputSpec = std::move(outputSpec), debug = processAttributes->config->configProcessing.debugLevel, verbosity, offset](size_t size) -> void* {
               size += offset;
               if (verbosity) {
                 LOG(INFO) << "ALLOCATING " << size << " bytes for " << std::get<DataOrigin>(outputSpec).template as<std::string>() << "/" << std::get<DataDescription>(outputSpec).template as<std::string>() << "/" << std::get<2>(outputSpec);
               }
-              std::chrono::time_point start, end;
+              std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
               if (debug) {
                 start = std::chrono::high_resolution_clock::now();
               }
               buffer.first.emplace(pc.outputs().make<std::vector<char>>(std::make_from_tuple<Output>(outputSpec), size));
               if (debug) {
-                std::chrono::time_point end = std::chrono::high_resolution_clock::now();
+                end = std::chrono::high_resolution_clock::now();
                 std::chrono::duration<double> elapsed_seconds = end - start;
                 LOG(INFO) << "Allocation time for " << name << " (" << size << "bytes)" << ": " << elapsed_seconds.count() << "s";
               }
-              return (buffer.second = buffer.first.value().data()) + offset;
+              return (buffer.second = buffer.first->get().data()) + offset;
             };
           } else {
             buffer.first.emplace(pc.outputs().make<std::vector<char>>(std::make_from_tuple<Output>(outputSpec), processAttributes->outputBufferSize));
@@ -730,7 +734,10 @@ DataProcessorSpec getCATrackerSpec(CompletionPolicyData* policyData, ca::Config 
     if (specconfig.zsDecoder) {
       // All ZS raw data is published with subspec 0 by the o2-raw-file-reader-workflow and DataDistribution
       // creates subspec fom CRU and endpoint id, we create one single input route subscribing to all TPC/RAWDATA
-      inputs.emplace_back(InputSpec{"zsraw", ConcreteDataTypeMatcher{"TPC", "RAWDATA"}, Lifetime::Timeframe});
+      inputs.emplace_back(InputSpec{"zsraw", ConcreteDataTypeMatcher{"TPC", "RAWDATA"}, Lifetime::Optional});
+      if (specconfig.askDISTSTF) {
+        inputs.emplace_back("stdDist", "FLP", "DISTSUBTIMEFRAME", 0, Lifetime::Timeframe);
+      }
     }
     if (specconfig.zsOnTheFly) {
       inputs.emplace_back(InputSpec{"zsinput", ConcreteDataTypeMatcher{"TPC", "TPCZS"}, Lifetime::Timeframe});
