@@ -227,10 +227,10 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
       }
     }
     tOffset = trkX.GetParam().GetTZOffset();
-} else if constexpr (std::is_same_v<T, TrackTPC>) {
+  } else if constexpr (std::is_same_v<T, TrackTPC>) {
     count = trkX.getNClusters();
     tOffset = trkX.getTime0();
-} else if constexpr (std::is_same_v<T, TrackParCovWithArgs>) {
+  } else if constexpr (std::is_same_v<T, TrackParCovWithArgs>) {
     count = trkX.clusRef.getEntries();
     tOffset = trkX.time0;
   } else {
@@ -263,10 +263,10 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
           row = hit.row;
           sector = hit.slice;
           nextState = mPclusterState[hit.num];
-      } else if constexpr (std::is_same_v<T, TrackTPC>) {
+        } else if constexpr (std::is_same_v<T, TrackTPC>) {
           cl = &trkX.getCluster(mPtrackHitReferences, i, *mPclusterNative, sector, row);
           nextState = mPclusterState[cl - mPclusterNative->clustersLinear];
-      } else if constexpr (std::is_same_v<T, TrackParCovWithArgs>) {
+        } else if constexpr (std::is_same_v<T, TrackParCovWithArgs>) {
           cl = &TrackTPC::getCluster(mPtrackHitReferences, i, *mPclusterNative, sector, row, trkX.clusRef);
           nextState = mPclusterState[cl - mPclusterNative->clustersLinear];
         } else {
@@ -328,7 +328,7 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
         return -3;
       }
       CADEBUG(printf("\t%21sFit     Alpha %8.3f    , X %8.3f - Y %8.3f, Z %8.3f   -   QPt %7.2f (%7.2f), SP %5.2f (%5.2f), DzDs %5.2f %16s    ---   Cov sY %8.3f sZ %8.3f sSP %8.3f sPt %8.3f   -   YPt %8.3f\n", "", prop.GetAlpha(), x, trk.Par()[0], trk.Par()[1], trk.Par()[4], prop.GetQPt0(), trk.Par()[2], prop.GetSinPhi0(), trk.Par()[3], "", sqrtf(trk.Cov()[0]), sqrtf(trk.Cov()[2]), sqrtf(trk.Cov()[5]), sqrtf(trk.Cov()[14]), trk.Cov()[10]));
-  } else if constexpr (std::is_same_v<S, TrackParCov>) {
+    } else if constexpr (std::is_same_v<S, TrackParCov>) {
       if (!trk.rotate(mPparam->Alpha(currentSector))) {
         IgnoreErrors(trk.getSnp());
         return -1;
@@ -363,7 +363,7 @@ GPUd() int GPUTrackingRefit::RefitTrack(T& trkX, bool outward, bool resetCov)
     trk.MoveToReference(prop, *mPparam, alpha);
     trk.NormalizeAlpha(alpha);
     prop.SetAlpha(alpha);
-} else if constexpr (std::is_same_v<S, TrackParCov>) {
+  } else if constexpr (std::is_same_v<S, TrackParCov>) {
     static constexpr float kDeg2Rad = M_PI / 180.f;
     static constexpr float kSectAngle = 2 * M_PI / 18.f;
     if (mPparam->rec.TrackReferenceX <= 500) {

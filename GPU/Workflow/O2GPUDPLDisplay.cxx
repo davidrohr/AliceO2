@@ -82,7 +82,7 @@ void O2GPUDPLDisplaySpec::run(ProcessingContext& pc)
       throw std::runtime_error("Error starting event display");
     }
   }
-  
+
   GPUTrackingInOutPointers ptrs;
   recoData.addTPCClusters(pc, false);
   recoData.addTPCTracks(pc, mUseMC);
@@ -97,7 +97,7 @@ void O2GPUDPLDisplaySpec::run(ProcessingContext& pc)
     const auto& tpcTracksMC = recoData.getTPCTracksMCLabels();
     ptrs.outputTracksTPCO2MC = tpcTracksMC.data();
   }
- 
+
   display->show(&ptrs);
 }
 
