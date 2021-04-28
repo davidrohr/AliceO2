@@ -15,7 +15,8 @@
 #ifndef ALICEO2_ABSTRACT_REF_H
 #define ALICEO2_ABSTRACT_REF_H
 
-#include <Rtypes.h>
+#include <GPUCommonRtypes.h>
+#include <GPUCommonTypeTraits.h>
 
 namespace o2
 {
@@ -28,6 +29,7 @@ class AbstractRef
   template <int NBIT>
   static constexpr auto MVAR()
   {
+    static_assert(NBIT <= 64, "> 64 bits not supported");
     typename std::conditional<(NBIT > 32), uint64_t, typename std::conditional<(NBIT > 16), uint32_t, typename std::conditional<(NBIT > 8), uint16_t, uint8_t>::type>::type>::type tp = 0;
     return tp;
   }
@@ -65,7 +67,7 @@ class AbstractRef
   bool testBit(int i) const { return (mRef >> (NBIdx + NBSrc)) & ((0x1U << i) & FlgMask); }
   void setBit(int i) { mRef = (mRef & (BaseMask & ~(0x1U << (i + NBIdx + NBSrc)))) | (((0x1U << i) & FlgMask) << (NBIdx + NBSrc)); }
   void resetBit(int i) { mRef = (mRef & (BaseMask & ~(0x1U << (i + NBIdx + NBSrc)))); }
-  void set(Idx_t idx, Src_t src) { mRef = (mRef & (FlgMask << (NBIdx + NBSrc))) | ((SrcMask & Src_t(src)) << NBIdx) | (IdxMask & Idx_t(idx)); }
+  void set(Idx_t idx, Src_t src) { mRef = (mRef & ((Base_t)FlgMask << (NBIdx + NBSrc))) | ((SrcMask & Src_t(src)) << NBIdx) | (IdxMask & Idx_t(idx)); }
 
   Base_t getRaw() const { return mRef; }
   void setRaw(Base_t v) { mRef = v; }
