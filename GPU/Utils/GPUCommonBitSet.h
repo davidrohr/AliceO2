@@ -28,21 +28,22 @@ template <unsigned int N>
 class bitset
 {
   static_assert(N <= 32, "> 32 bits not supported");
+
  public:
   GPUdDefault() bitset() = default;
-  GPUd() bitset(unsigned int vv) : v(vv) {};
+  GPUd() bitset(unsigned int vv) : v(vv){};
   static constexpr unsigned int full_set = ((1u << N) - 1);
-  
+
   GPUd() bool all() const { return (v & full_set) == full_set; }
   GPUd() bool any() const { return v & full_set; }
   GPUd() bool none() const { return !any(); }
-  
+
   GPUd() void set() { v = full_set; }
   GPUd() void set(unsigned int i) { v |= (1u << i) & full_set; }
   GPUd() void reset() { v = 0; }
   GPUd() void reset(unsigned int i) { v &= ~(1u << i); }
   GPUd() void flip() { v = (~v) & full_set; }
-  
+
   GPUd() bitset& operator=(const bitset&) = default;
   GPUd() bitset operator|(const bitset b) const { return v | b.v; }
   GPUd() bitset& operator|=(const bitset b)
@@ -59,14 +60,14 @@ class bitset
   GPUd() bitset operator~() const { return (~v) & full_set; }
   GPUd() bool operator==(const bitset b) { return v == b.v; }
   GPUd() bool operator!=(const bitset b) { return v != b.v; }
-  
+
   GPUd() bool operator[](unsigned int i) { return (v >> i) & 1u; }
-  
+
   GPUd() unsigned int to_ulong() const { return v; }
-  
+
  private:
   unsigned int v = 0;
-  
+
   ClassDefNV(bitset, 1);
 };
 } // namespace o2::gpu::gpustd
