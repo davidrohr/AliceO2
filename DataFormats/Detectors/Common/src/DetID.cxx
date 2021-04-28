@@ -53,7 +53,7 @@ DetID::mask_t DetID::getMask(const std::string_view detList)
   while (getline(sss, sname, ',')) {
     for (auto id = DetID::First; id <= DetID::Last; id++) {
       if (sname == getName(id)) {
-        mask.set(id);
+        mask |= getMask(id);
         sname = "";
         break;
       }
