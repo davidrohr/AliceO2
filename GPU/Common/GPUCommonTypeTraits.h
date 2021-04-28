@@ -20,19 +20,25 @@
 // We just reimplement some type traits in std for the GPU
 namespace std
 {
-template<bool B, class T, class F>
-struct conditional { typedef T type; };
-template<class T, class F>
-struct conditional<false, T, F> { typedef F type; };
+template <bool B, class T, class F>
+struct conditional {
+  typedef T type;
+};
+template <class T, class F>
+struct conditional<false, T, F> {
+  typedef F type;
+};
 template <bool B, class T, class F>
 using contitional_t = conditional<B, T, F>::type;
-template<class T, class U>
-struct is_same : std::false_type {};
-template<class T>
-struct is_same<T, T> : std::true_type {};
-template<class T, class U>
+template <class T, class U>
+struct is_same : std::false_type {
+};
+template <class T>
+struct is_same<T, T> : std::true_type {
+};
+template <class T, class U>
 using is_same_v<T, U> = is_same<T, U>::value;
-}
+} // namespace std
 #endif
 
 #endif
