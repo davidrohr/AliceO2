@@ -6,8 +6,8 @@ LLVM_SPIRV=llvm-spirv
 #COMPILER=/usr/lib/llvm/roc-2.1.0/bin/clang++
 #COMPILER=/usr/lib/llvm/9/bin/clang++
 
-#COMPILER=/home/qon/alice/llvm-project/build/bin/clang++
-#LLVM_SPIRV=/home/qon/alice/llvm-project/build/bin/llvm-spirv
+COMPILER=/home/qon/alice/llvm-project/build/bin/clang++
+LLVM_SPIRV=/home/qon/alice/llvm-project/build/bin/llvm-spirv
 
 INCLUDES="-I../. -I../DataTypes -I../Definitions -I../Base -I../SliceTracker -I../Common -I../Merger -I../Refit -I../TRDTracking -I../ITS -I../dEdx -I../TPCConvert -I../TPCFastTransformation -I../DataCompression -I../TPCClusterFinder -I../Global -I ../GPUUtils \
           -I$HOME/alice/O2/DataFormats/Detectors/TPC/include -I$HOME/alice/O2/Detectors/Base/include -I$HOME/alice/O2/Detectors/Base/src -I$HOME/alice/O2/Common/MathUtils/include -I$HOME/alice/O2/DataFormats/Headers/include \
@@ -25,12 +25,12 @@ if [ $? != 0 ]; then exit 1; fi
 #     $COMPILER -cl-std=clc++ -x cl -emit-llvm --target=spir64-unknown-unknown $FLAGS -c test.cl -o test.bc
 #exit
 
-echo
-echo Test2 - Clang OCL
-echo clang-ocl -O3 -cl-std=clc++ -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -o test-clang-ocl.o ../Base/opencl-common/GPUReconstructionOCL.cl
-     clang-ocl -O3 -cl-std=clc++ -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -o test-clang-ocl.o ../Base/opencl-common/GPUReconstructionOCL.cl
-rm -f test-clang-ocl.o.*
-if [ $? != 0 ]; then exit 1; fi
+#echo
+#echo Test2 - Clang OCL
+#echo clang-ocl -O3 -cl-std=clc++ -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -o test-clang-ocl.o ../Base/opencl-common/GPUReconstructionOCL.cl
+#     clang-ocl -O3 -cl-std=clc++ -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -o test-clang-ocl.o ../Base/opencl-common/GPUReconstructionOCL.cl
+#rm -f test-clang-ocl.o.*
+#if [ $? != 0 ]; then exit 1; fi
 
 echo
 echo Test3 - SPIR-V
@@ -41,8 +41,8 @@ echo $LLVM_SPIRV test.bc -o test.spirv
      $LLVM_SPIRV test.bc -o test.spirv
 if [ $? != 0 ]; then exit 1; fi
 
-echo
-echo Test4 - amdgcn
-echo $COMPILER -O3 -cl-std=clc++ -x cl --target=amdgcn-amd-amdhsa -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -c ../Base/opencl-common/GPUReconstructionOCL.cl -o test.o
-     $COMPILER -O3 -cl-std=clc++ -x cl --target=amdgcn-amd-amdhsa -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -c ../Base/opencl-common/GPUReconstructionOCL.cl -o test.o
-if [ $? != 0 ]; then exit 1; fi
+#echo
+#echo Test4 - amdgcn
+#echo $COMPILER -O3 -cl-std=clc++ -x cl --target=amdgcn-amd-amdhsa -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -c ../Base/opencl-common/GPUReconstructionOCL.cl -o test.o
+#     $COMPILER -O3 -cl-std=clc++ -x cl --target=amdgcn-amd-amdhsa -mcpu=gfx906 $FLAGS $INCLUDES $DEFINES -c ../Base/opencl-common/GPUReconstructionOCL.cl -o test.o
+#if [ $? != 0 ]; then exit 1; fi
