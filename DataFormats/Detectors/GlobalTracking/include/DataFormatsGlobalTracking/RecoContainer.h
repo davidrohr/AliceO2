@@ -47,7 +47,7 @@ namespace o2::framework
 {
 class ProcessingContext;
 struct InputSpec;
-} // namespace framework
+} // namespace o2::framework
 
 namespace o2
 {
