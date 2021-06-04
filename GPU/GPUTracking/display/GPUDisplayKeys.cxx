@@ -173,7 +173,12 @@ void GPUDisplay::HandleKey(unsigned char key)
       mCfgH.markClusters <<= 1;
     }
     SetInfo("Cluster flag highlight mask set to %d (%s)", mCfgH.markClusters,
-            mCfgH.markClusters == 0 ? "off" : mCfgH.markClusters == 1 ? "split pad" : mCfgH.markClusters == 2 ? "split time" : mCfgH.markClusters == 4 ? "edge" : mCfgH.markClusters == 8 ? "singlePad" : mCfgH.markClusters == 0x10 ? "reject distance" : "reject error");
+            mCfgH.markClusters == 0 ? "off" : mCfgH.markClusters == 1    ? "split pad"
+                                            : mCfgH.markClusters == 2    ? "split time"
+                                            : mCfgH.markClusters == 4    ? "edge"
+                                            : mCfgH.markClusters == 8    ? "singlePad"
+                                            : mCfgH.markClusters == 0x10 ? "reject distance"
+                                                                         : "reject error");
   } else if (key == 'z') {
     mCfgH.markFakeClusters ^= 1;
     SetInfo("Marking fake clusters: %s", mCfgH.markFakeClusters ? "on" : "off");
@@ -391,7 +396,8 @@ void GPUDisplay::HandleKey(unsigned char key)
     }
   } else if (key == 'u') {
     mCfgH.trackFilter = (mCfgH.trackFilter + 1) % 3;
-    SetInfo("Track filter: %s", mCfgH.trackFilter == 2 ? "TRD Track candidates" : mCfgH.trackFilter ? "TRD Tracks only" : "None");
+    SetInfo("Track filter: %s", mCfgH.trackFilter == 2 ? "TRD Track candidates" : mCfgH.trackFilter ? "TRD Tracks only"
+                                                                                                    : "None");
   } else if (key == 'o') {
     FILE* ftmp = fopen("glpos.tmp", "w+b");
     if (ftmp) {
