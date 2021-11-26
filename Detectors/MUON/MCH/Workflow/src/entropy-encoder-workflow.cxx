@@ -70,7 +70,7 @@ void EntropyEncoderSpec::run(ProcessingContext& pc)
   buffer.resize(eeb->size());         // shrink buffer to strictly necessary size
   //  eeb->print();
   mTimer.Stop();
-  LOG(INFO) << fmt::format("Created encoded data ({} digits and {} rofs) of size {} ({:5.1f} MB) for MCH in {:5.1f} s ",
+  LOG(info) << fmt::format("Created encoded data ({} digits and {} rofs) of size {} ({:5.1f} MB) for MCH in {:5.1f} s ",
                            digits.size(), rofs.size(), eeb->size(), eeb->size() / 1024.0 / 1024, mTimer.CpuTime() - cput);
 }
 

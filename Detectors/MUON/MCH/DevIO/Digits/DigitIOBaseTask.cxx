@@ -47,7 +47,7 @@ void DigitIOBaseTask::printFull(gsl::span<const Digit> digits,
     o2::mch::io::DigitWriter dw(str);
     dw.write(digits, rofs);
     for (std::string line; std::getline(str, line);) {
-      LOG(INFO) << line;
+      LOG(info) << line;
     }
   }
 }

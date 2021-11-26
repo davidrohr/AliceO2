@@ -108,7 +108,7 @@ class DataDecoderTask
     mDecoder->setFirstOrbitInTF(mFirstTForbit);
 
     if (mDebug) {
-      LOG(INFO) << "[DataDecoderSpec::run] first TF orbit is " << mFirstTForbit;
+      LOG(info) << "[DataDecoderSpec::run] first TF orbit is " << mFirstTForbit;
     }
 
     // get the input buffer
