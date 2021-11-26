@@ -879,7 +879,7 @@ void EncodedBlocks<H, N, W>::encode(const input_IT srcBegin,      // iterator be
     //store dictionary first
     if (frequencyTable.size()) {
       thisBlock->storeDict(frequencyTable.size(), frequencyTable.data());
-      LOGP(DEBUG, "StoreDict {} bytes, offs: {}:{}", frequencyTable.size() * sizeof(W), thisBlock->getOffsDict(), thisBlock->getOffsDict() + frequencyTable.size() * sizeof(W));
+      LOGP(debug, "StoreDict {} bytes, offs: {}:{}", frequencyTable.size() * sizeof(W), thisBlock->getOffsDict(), thisBlock->getOffsDict() + frequencyTable.size() * sizeof(W));
     }
     // vector of incompressible literal symbols
     std::vector<input_t> literals;
@@ -891,7 +891,7 @@ void EncodedBlocks<H, N, W>::encode(const input_IT srcBegin,      // iterator be
     dataSize = encodedMessageEnd - thisBlock->getDataPointer();
     thisBlock->setNData(dataSize);
     thisBlock->realignBlock();
-    LOGP(DEBUG, "StoreData {} bytes, offs: {}:{}", dataSize * sizeof(W), thisBlock->getOffsData(), thisBlock->getOffsData() + dataSize * sizeof(W));
+    LOGP(debug, "StoreData {} bytes, offs: {}:{}", dataSize * sizeof(W), thisBlock->getOffsData(), thisBlock->getOffsData() + dataSize * sizeof(W));
     // update the size claimed by encode message directly inside the block
 
     // store incompressible symbols if any
@@ -906,7 +906,7 @@ void EncodedBlocks<H, N, W>::encode(const input_IT srcBegin,      // iterator be
         const size_t nLiteralStorageElems = calculateNDestTElements<input_t, storageBuffer_t>(nSymbols);
         expandStorage(nLiteralStorageElems);
         thisBlock->storeLiterals(nLiteralStorageElems, reinterpret_cast<const storageBuffer_t*>(literals.data()));
-        LOGP(DEBUG, "StoreLiterals {} bytes, offs: {}:{}", nLiteralStorageElems * sizeof(W), thisBlock->getOffsLiterals(), thisBlock->getOffsLiterals() + nLiteralStorageElems * sizeof(W));
+        LOGP(debug, "StoreLiterals {} bytes, offs: {}:{}", nLiteralStorageElems * sizeof(W), thisBlock->getOffsLiterals(), thisBlock->getOffsLiterals() + nLiteralStorageElems * sizeof(W));
         return nLiteralStorageElems;
       }
       return size_t(0);
@@ -976,7 +976,7 @@ void EncodedBlocks<H, N, W>::dump(const std::string& prefix, int ncol) const
   for (int ibl = 0; ibl < getNBlocks(); ibl++) {
     const auto& blc = getBlock(ibl);
     std::string ss;
-    LOGP(INFO, "{} Bloc:{} Dict: {} words", prefix, ibl, blc.getNDict());
+    LOGP(info, "{} Bloc:{} Dict: {} words", prefix, ibl, blc.getNDict());
     const auto* ptr = blc.getDict();
     for (int i = 0; i < blc.getNDict(); i++) {
       if (i && (i % ncol) == 0) {
@@ -990,7 +990,7 @@ void EncodedBlocks<H, N, W>::dump(const std::string& prefix, int ncol) const
       ss.clear();
     }
     LOG(info) << "\n";
-    LOGP(INFO, "{} Bloc:{} Data: {} words", prefix, ibl, blc.getNData());
+    LOGP(info, "{} Bloc:{} Data: {} words", prefix, ibl, blc.getNData());
     ptr = blc.getData();
     for (int i = 0; i < blc.getNData(); i++) {
       if (i && (i % ncol) == 0) {
@@ -1004,7 +1004,7 @@ void EncodedBlocks<H, N, W>::dump(const std::string& prefix, int ncol) const
       ss.clear();
     }
     LOG(info) << "\n";
-    LOGP(INFO, "{} Bloc:{} Literals: {} words", prefix, ibl, blc.getNLiterals());
+    LOGP(info, "{} Bloc:{} Literals: {} words", prefix, ibl, blc.getNLiterals());
     ptr = blc.getData();
     for (int i = 0; i < blc.getNLiterals(); i++) {
       if (i && (i % 20) == 0) {
