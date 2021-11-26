@@ -57,7 +57,7 @@ void DigitIOBaseTask::printSummary(gsl::span<const Digit> digits,
                                    const char* suffix) const
 {
   if (mPrintTFs) {
-    LOGP(INFO, "TF {:5d} {:4d} rofs - {:6d} digits - {}", mTFid, rofs.size(), digits.size(), suffix);
+    LOGP(info, "TF {:5d} {:4d} rofs - {:6d} digits - {}", mTFid, rofs.size(), digits.size(), suffix);
   }
 }
 
