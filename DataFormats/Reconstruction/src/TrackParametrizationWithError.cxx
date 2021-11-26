@@ -755,16 +755,16 @@ auto TrackParametrizationWithError<value_T>::getPredictedChi2(const TrackParamet
   // Supplied non-initialized covToSet matrix is filled by inverse combined matrix for further use
 
   if (gpu::CAMath::Abs(this->getAlpha() - rhs.getAlpha()) > FLT_EPSILON) {
-    LOG(ERROR) << "The reference Alpha of the tracks differ: " << this->getAlpha() << " : " << rhs.getAlpha();
+    LOG(error) << "The reference Alpha of the tracks differ: " << this->getAlpha() << " : " << rhs.getAlpha();
     return 2.f * HugeF;
   }
   if (gpu::CAMath::Abs(this->getX() - rhs.getX()) > FLT_EPSILON) {
-    LOG(ERROR) << "The reference X of the tracks differ: " << this->getX() << " : " << rhs.getX();
+    LOG(error) << "The reference X of the tracks differ: " << this->getX() << " : " << rhs.getX();
     return 2.f * HugeF;
   }
   buildCombinedCovMatrix(rhs, covToSet);
   if (!covToSet.Invert()) {
-    LOG(WARNING) << "Cov.matrix inversion failed: " << covToSet;
+    LOG(warning) << "Cov.matrix inversion failed: " << covToSet;
     return 2.f * HugeF;
   }
   double chi2diag = 0., chi2ndiag = 0., diff[kNParams];
@@ -788,11 +788,11 @@ bool TrackParametrizationWithError<value_T>::update(const TrackParametrizationWi
 
   // consider skipping this check, since it is usually already done upstream
   if (gpu::CAMath::Abs(this->getAlpha() - rhs.getAlpha()) > FLT_EPSILON) {
-    LOG(ERROR) << "The reference Alpha of the tracks differ: " << this->getAlpha() << " : " << rhs.getAlpha();
+    LOG(error) << "The reference Alpha of the tracks differ: " << this->getAlpha() << " : " << rhs.getAlpha();
     return false;
   }
   if (gpu::CAMath::Abs(this->getX() - rhs.getX()) > FLT_EPSILON) {
-    LOG(ERROR) << "The reference X of the tracks differ: " << this->getX() << " : " << rhs.getX();
+    LOG(error) << "The reference X of the tracks differ: " << this->getX() << " : " << rhs.getX();
     return false;
   }
 
@@ -856,7 +856,7 @@ bool TrackParametrizationWithError<value_T>::update(const TrackParametrizationWi
   MatrixDSym5 covI; // perform matrix operations in double!
   buildCombinedCovMatrix(rhs, covI);
   if (!covI.Invert()) {
-    LOG(WARNING) << "Cov.matrix inversion failed: " << covI;
+    LOG(warning) << "Cov.matrix inversion failed: " << covI;
     return false;
   }
   return update(rhs, covI);
