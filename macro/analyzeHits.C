@@ -16,7 +16,7 @@
 #include "MIDSimulation/Hit.h"
 #include "DataFormatsCPV/Hit.h"
 #include "DataFormatsZDC/Hit.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "DataFormatsParameters/GRPObject.h"
 #endif
 

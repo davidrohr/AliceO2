@@ -1,7 +1,7 @@
 #if !defined(__CLING__) || defined(__ROOTCLING__)
 //#define ENABLE_UPGRADES
 #include "DetectorsCommonDataFormats/DetID.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "DetectorsCommonDataFormats/AlignParam.h"
 #include "CCDB/CcdbApi.h"
 #include "Framework/Logger.h"

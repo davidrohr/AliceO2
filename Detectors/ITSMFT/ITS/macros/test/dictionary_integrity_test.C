@@ -8,7 +8,7 @@
 #include "DataFormatsITSMFT/ClusterPattern.h"
 #include "DataFormatsITSMFT/TopologyDictionary.h"
 #include "ITSMFTReconstruction/LookUp.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #endif
 
 using o2::itsmft::ClusterPattern;

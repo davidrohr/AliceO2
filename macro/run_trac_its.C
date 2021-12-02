@@ -28,7 +28,7 @@
 #include "SimulationDataFormat/MCCompLabel.h"
 #include "SimulationDataFormat/MCTruthContainer.h"
 #include "ReconstructionDataFormats/Vertex.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #endif
 
 #include "ReconstructionDataFormats/PrimaryVertex.h" // hack to silence JIT compiler

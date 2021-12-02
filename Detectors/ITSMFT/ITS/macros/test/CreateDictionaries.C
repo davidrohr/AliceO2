@@ -26,7 +26,7 @@
 #include "MathUtils/Cartesian.h"
 #include "SimulationDataFormat/MCCompLabel.h"
 #include "SimulationDataFormat/MCTruthContainer.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "SimulationDataFormat/DigitizationContext.h"
 #include "Framework/Logger.h"
 #include <unordered_map>

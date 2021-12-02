@@ -1,6 +1,6 @@
 #if !defined(__CLING__) || defined(__ROOTCLING__)
 #include "DetectorsCommonDataFormats/DetID.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "DetectorsCommonDataFormats/AlignParam.h"
 #include "DetectorsBase/GeometryManager.h"
 #include "CCDB/CcdbApi.h"

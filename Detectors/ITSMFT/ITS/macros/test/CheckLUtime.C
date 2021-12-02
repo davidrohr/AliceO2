@@ -19,7 +19,7 @@
 #include "DataFormatsITSMFT/ClusterPattern.h"
 #include "DataFormatsITSMFT/CompCluster.h"
 #include "DataFormatsITSMFT/ROFRecord.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 
 #endif
 

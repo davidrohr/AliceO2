@@ -18,7 +18,7 @@
 #include "DataFormatsZDC/Hit.h"
 #include "SimulationDataFormat/MCEventHeader.h"
 #include "DataFormatsParameters/GRPObject.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "DetectorsCommonDataFormats/SimTraits.h"
 
 #ifdef ENABLE_UPGRADES

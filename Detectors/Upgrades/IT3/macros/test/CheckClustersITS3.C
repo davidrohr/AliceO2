@@ -23,7 +23,7 @@
 #include "MathUtils/Utils.h"
 #include "SimulationDataFormat/MCCompLabel.h"
 #include "SimulationDataFormat/MCTruthContainer.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #endif
 
 void CheckClustersITS3(std::string clusfile = "o2clus_it3.root", std::string hitfile = "o2sim_HitsIT3.root",

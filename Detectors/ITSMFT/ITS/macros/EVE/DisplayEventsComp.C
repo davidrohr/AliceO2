@@ -37,7 +37,7 @@
 #include "DataFormatsITSMFT/TopologyDictionary.h"
 #include "DataFormatsITSMFT/ROFRecord.h"
 #include "DataFormatsITS/TrackITS.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #endif
 
 using namespace o2::itsmft;

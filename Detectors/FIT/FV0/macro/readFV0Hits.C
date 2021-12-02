@@ -19,7 +19,7 @@
 #include <sstream>
 #include "DataFormatsFV0/Hit.h"
 #include "FairLogger.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "DetectorsCommonDataFormats/DetID.h"
 
 void AdjustStatBox(TH1* h, float x1ndc, float x2ndc, float y1ndc, float y2ndc)

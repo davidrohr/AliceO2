@@ -5,7 +5,7 @@
 #include "ITSMFTReconstruction/Clusterer.h"
 #include "ITSMFTBase/DPLAlpideParam.h"
 #include "CommonConstants/LHCConstants.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "FairLogger.h"
 #endif
 

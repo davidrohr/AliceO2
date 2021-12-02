@@ -8,7 +8,7 @@
 
 #include "DataFormatsITSMFT/CompCluster.h"
 #include "DataFormatsITSMFT/TopologyDictionary.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 
 #include <string>
 #include <vector>

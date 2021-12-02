@@ -14,7 +14,7 @@
 #include "SimulationDataFormat/MCCompLabel.h"
 #include "CPVBase/Geometry.h"
 #include "DataFormatsCPV/Hit.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "DetectorsCommonDataFormats/DetID.h"
 #endif
 

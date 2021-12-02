@@ -6,7 +6,7 @@
 #include <TH2F.h>
 #include <TTree.h>
 #include "DetectorsCommonDataFormats/DetID.h"
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 
 void readFT0hits()
 {

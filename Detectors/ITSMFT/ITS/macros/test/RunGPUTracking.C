@@ -11,7 +11,7 @@
 #include <FairEventHeader.h>
 #include <FairGeoParSet.h>
 #include <FairLogger.h>
-#include "DetectorsCommonDataFormats/NameConf.h"
+#include "CommonUtils/NameConf.h"
 #include "SimulationDataFormat/MCEventHeader.h"
 
 #include "DataFormatsITSMFT/TopologyDictionary.h"
