@@ -27,7 +27,6 @@ namespace base
 class NameConf : public o2::conf::ConfigurableParamHelper<NameConf>
 {
  public:
-
   // Filename of collision context
   static std::string getCollisionContextFileName(const std::string_view prefix = "");
 
@@ -108,14 +107,14 @@ class NameConf : public o2::conf::ConfigurableParamHelper<NameConf>
 
   // unmodifiable constants used to construct filenames etc
   static constexpr std::string_view STANDARDSIMPREFIX = "o2sim";
-  static constexpr std::string_view HITS_STRING = "Hits";     // hardcoded
-  static constexpr std::string_view DIGITS_STRING = "Digits"; // hardcoded
-  static constexpr std::string_view GRP_STRING = "grp";       // hardcoded
-  static constexpr std::string_view GRPECS_STRING = "grpecs"; // hardcoded
+  static constexpr std::string_view HITS_STRING = "Hits";               // hardcoded
+  static constexpr std::string_view DIGITS_STRING = "Digits";           // hardcoded
+  static constexpr std::string_view GRP_STRING = "grp";                 // hardcoded
+  static constexpr std::string_view GRPECS_STRING = "grpecs";           // hardcoded
   static constexpr std::string_view GRPLHCIF_STRING = "grplhcif";       // hardcoded
   static constexpr std::string_view GRPMAGFIELD_STRING = "grpMagField"; // hardcoded
-  static constexpr std::string_view KINE_STRING = "Kine";     // hardcoded
-  static constexpr std::string_view MCHEADER_STRING = "MCHeader"; // hardcoded
+  static constexpr std::string_view KINE_STRING = "Kine";               // hardcoded
+  static constexpr std::string_view MCHEADER_STRING = "MCHeader";       // hardcoded
   static constexpr std::string_view GEOM_FILE_STRING = "geometry";
   static constexpr std::string_view CUT_FILE_STRING = "proc-cut";
   static constexpr std::string_view CONFIG_STRING = "configuration";
@@ -129,14 +128,14 @@ class NameConf : public o2::conf::ConfigurableParamHelper<NameConf>
   static constexpr std::string_view TFIDINFO = "tfidinfo";
 
   // these are configurable paths for some commonly used files
-  std::string mDirGRP = "none";    // directory for GRP file ("none" == "")
-  std::string mDirGRPECS = "none"; // directory for GRPECS file ("none" == "")
-  std::string mDirGRPLHCIF = "none";    // directory for GRPLHCIF file ("none" == "")
-  std::string mDirGRPMagField = "none"; // directory for GRPMagField file ("none" == "")
-  std::string mDirGeom = "none";   // directory for geometry file
-  std::string mDirMatLUT = "none"; // directory for material LUT
-  std::string mDirCollContext = "none"; // directory for collision context
-  std::string mDirTFIDINFO = "none";    // directory for TFIDInfo vector
+  std::string mDirGRP = "none";                           // directory for GRP file ("none" == "")
+  std::string mDirGRPECS = "none";                        // directory for GRPECS file ("none" == "")
+  std::string mDirGRPLHCIF = "none";                      // directory for GRPLHCIF file ("none" == "")
+  std::string mDirGRPMagField = "none";                   // directory for GRPMagField file ("none" == "")
+  std::string mDirGeom = "none";                          // directory for geometry file
+  std::string mDirMatLUT = "none";                        // directory for material LUT
+  std::string mDirCollContext = "none";                   // directory for collision context
+  std::string mDirTFIDINFO = "none";                      // directory for TFIDInfo vector
   std::string mCCDBServer = "http://alice-ccdb.cern.ch/"; // default CCDB server
 
   O2ParamDef(NameConf, "NameConf");
