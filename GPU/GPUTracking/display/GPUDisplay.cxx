@@ -564,6 +564,7 @@ int GPUDisplay::InitDisplay_internal()
   if (mBackend->InitBackend()) {
     return 1;
   }
+  mDrawTextInCompatMode = !mBackend->mFreetypeInitialized && mFrontend->mCanDrawText == 1;
   ReSizeGLScene(GPUDisplayFrontend::INIT_WIDTH, GPUDisplayFrontend::INIT_HEIGHT, true);
   return 0;
 }
@@ -2355,12 +2356,12 @@ void GPUDisplay::showInfo(const char* info)
 {
   mBackend->prepareText();
   float colorValue = mCfgL.invertColors ? 0.f : 1.f;
-  mFrontend->OpenGLPrint(info, 40.f, 40.f, colorValue, colorValue, colorValue, 1);
+  OpenGLPrint(info, 40.f, 20.f + (mDrawTextFontSize + 8), colorValue, colorValue, colorValue, 1);
   if (mInfoText2Timer.IsRunning()) {
     if (mInfoText2Timer.GetCurrentElapsedTime() >= 6) {
       mInfoText2Timer.Reset();
     } else {
-      mFrontend->OpenGLPrint(mInfoText2, 40.f, 20.f, colorValue, colorValue, colorValue, 6 - mInfoText2Timer.GetCurrentElapsedTime());
+      OpenGLPrint(mInfoText2, 40.f, 20.f, colorValue, colorValue, colorValue, 6 - mInfoText2Timer.GetCurrentElapsedTime());
     }
   }
   if (mInfoHelpTimer.IsRunning()) {
@@ -2370,6 +2371,7 @@ void GPUDisplay::showInfo(const char* info)
       PrintGLHelpText(colorValue);
     }
   }
+  mBackend->finishText();
 }
 
 void GPUDisplay::ShowNextEvent(const GPUTrackingInOutPointers* ptrs)
@@ -2396,6 +2398,19 @@ int GPUDisplay::StartDisplay()
     Sleep(10);
   }
   return (mInitResult != 1);
+}
+
+void GPUDisplay::OpenGLPrint(const char* s, float x, float y, float r, float g, float b, float a, bool fromBotton)
+{
+  if (mBackend->mFreetypeInitialized) {
+    if (!fromBotton) {
+      y = mRenderheight - y;
+    }
+    float color[4] = {r, g, b, a};
+    mBackend->OpenGLPrint(s, x, y, color, 1.0f);
+  } else if (mFrontend->mCanDrawText) {
+    mFrontend->OpenGLPrint(s, x, y, r, g, b, a, fromBotton);
+  }
 }
 
 #endif

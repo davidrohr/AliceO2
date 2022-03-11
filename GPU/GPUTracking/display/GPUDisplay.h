@@ -44,7 +44,8 @@ class GPUDisplay
   void ExitDisplay() {}
   void ReSizeGLScene(int width, int height, bool init = false) {}
 
-  const GPUDisplayBackend* backend() const { return nullptr; }
+  GPUDisplayBackend* backend() const { return nullptr; }
+  int& drawTextFontSize() { static int foo = 0; return foo; }
 };
 } // namespace gpu
 } // namespace GPUCA_NAMESPACE
@@ -89,13 +90,15 @@ class GPUDisplay
 
   const GPUSettingsDisplayRenderer& cfgR() const { return mCfgR; }
   const GPUSettingsDisplayLight& cfgL() const { return mCfgL; }
+  const GPUSettingsDisplayHeavy& cfgH() const { return mCfgH; }
+  const GPUSettingsDisplay& cfg() const { return mConfig; }
   int renderWidth() const { return mRenderwidth; }
   int renderHeight() const { return mRenderheight; }
   int screenWidth() const { return mScreenwidth; }
   int screenHeight() const { return mScreenheight; }
   bool useMultiVBO() const { return mUseMultiVBO; }
   int updateDrawCommands() const { return mUpdateDrawCommands; }
-  const GPUDisplayBackend* backend() const { return mBackend.get(); }
+  GPUDisplayBackend* backend() const { return mBackend.get(); }
   vecpod<int>* vertexBufferStart() { return mVertexBufferStart; }
   const vecpod<unsigned int>* vertexBufferCount() const { return mVertexBufferCount; }
   struct vtx {
@@ -105,6 +108,8 @@ class GPUDisplay
   vecpod<vtx>* vertexBuffer() { return mVertexBuffer; }
   const GPUParam* param() { return mParam; }
   GPUDisplayFrontend* frontend() { return mFrontend; }
+  bool drawTextInCompatMode() const { return mDrawTextInCompatMode; }
+  int& drawTextFontSize() { return mDrawTextFontSize; }
 
  private:
   static constexpr int NSLICES = GPUChainTracking::NSLICES;
@@ -237,6 +242,7 @@ class GPUDisplay
   void PrintHelp();
   void createQuaternionFromMatrix(float* v, const float* mat);
   void drawVertices(const vboList& v, const GPUDisplayBackend::drawType t);
+  void OpenGLPrint(const char* s, float x, float y, float r, float g, float b, float a, bool fromBotton = true);
 
   GPUDisplayFrontend* mFrontend = nullptr;
   std::unique_ptr<GPUDisplayBackend> mBackend;
@@ -249,6 +255,9 @@ class GPUDisplay
   GPUSettingsDisplayRenderer mCfgR;
   GPUQA* mQA;
   qSem mSemLockDisplay;
+
+  bool mDrawTextInCompatMode = false;
+  int mDrawTextFontSize = 0;
 
   int mNDrawCalls = 0;
 

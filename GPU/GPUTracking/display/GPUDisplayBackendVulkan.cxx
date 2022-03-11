@@ -16,7 +16,6 @@
 
 #include "GPUCommonDef.h"
 #include "GPUDisplayBackendVulkan.h"
-#include "GPUDisplayShaders.h"
 #include "GPUDisplay.h"
 
 using namespace GPUCA_NAMESPACE::gpu;
@@ -856,7 +855,7 @@ void GPUDisplayBackendVulkan::clearUniformLayouts()
   vkDestroyDescriptorPool(mDevice, mDescriptorPool, nullptr);
 }
 
-int GPUDisplayBackendVulkan::InitBackend()
+int GPUDisplayBackendVulkan::InitBackendA()
 {
   std::cout << "Initializing Vulkan\n";
 
@@ -873,7 +872,7 @@ int GPUDisplayBackendVulkan::InitBackend()
   return (0);
 }
 
-void GPUDisplayBackendVulkan::ExitBackend()
+void GPUDisplayBackendVulkan::ExitBackendA()
 {
   std::cout << "Exiting Vulkan\n";
   vkDeviceWaitIdle(mDevice);
@@ -1082,6 +1081,10 @@ void GPUDisplayBackendVulkan::prepareText()
 {
 }
 
+void GPUDisplayBackendVulkan::finishText()
+{
+}
+
 void GPUDisplayBackendVulkan::renderOffscreenBuffer(GLfb& buffer, GLfb& bufferNoMSAA, int mainBuffer)
 {
 }
@@ -1114,4 +1117,16 @@ void GPUDisplayBackendVulkan::lineWidthFactor(float factor)
 void GPUDisplayBackendVulkan::needRecordCommandBuffers()
 {
   std::fill(mCommandBufferUpToDate.begin(), mCommandBufferUpToDate.end(), false);
+}
+
+void GPUDisplayBackendVulkan::addFontSymbol(int symbol, int sizex, int sizey, int offsetx, int offsety, int advance, void* data)
+{
+}
+
+void GPUDisplayBackendVulkan::initializeTextDrawing()
+{
+}
+
+void GPUDisplayBackendVulkan::OpenGLPrint(const char* s, float x, float y, float* color, float scale)
+{
 }

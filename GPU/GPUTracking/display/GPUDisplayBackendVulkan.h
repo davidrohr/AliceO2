@@ -48,14 +48,15 @@ class GPUDisplayBackendVulkan : public GPUDisplayBackend
   void setQuality() override;
   void setDepthBuffer() override;
   void setFrameBuffer(int updateCurrent, unsigned int newID) override;
-  int InitBackend() override;
-  void ExitBackend() override;
+  int InitBackendA() override;
+  void ExitBackendA() override;
   void clearScreen(bool colorOnly = false) override;
   void updateSettings() override;
   void loadDataToGPU(size_t totalVertizes) override;
   void prepareDraw() override;
   void finishDraw() override;
   void prepareText() override;
+  void finishText() override;
   void setMatrices(const hmm_mat4& proj, const hmm_mat4& view) override;
   void mixImages(GLfb& mixBuffer, float mixSlaveImage) override;
   void renderOffscreenBuffer(GLfb& buffer, GLfb& bufferNoMSAA, int mainBuffer) override;
@@ -85,6 +86,10 @@ class GPUDisplayBackendVulkan : public GPUDisplayBackend
   void clearUniformLayouts();
   void recreateSwapChain();
   void needRecordCommandBuffers();
+
+  void addFontSymbol(int symbol, int sizex, int sizey, int offsetx, int offsety, int advance, void* data) override;
+  void initializeTextDrawing() override;
+  void OpenGLPrint(const char* s, float x, float y, float* color, float scale) override;
 
   unsigned int mIndirectId;
   std::vector<unsigned int> mVBOId;
