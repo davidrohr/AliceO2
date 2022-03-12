@@ -45,7 +45,11 @@ class GPUDisplay
   void ReSizeGLScene(int width, int height, bool init = false) {}
 
   GPUDisplayBackend* backend() const { return nullptr; }
-  int& drawTextFontSize() { static int foo = 0; return foo; }
+  int& drawTextFontSize()
+  {
+    static int foo = 0;
+    return foo;
+  }
 };
 } // namespace gpu
 } // namespace GPUCA_NAMESPACE

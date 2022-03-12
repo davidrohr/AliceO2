@@ -134,7 +134,7 @@ int GPUDisplayBackend::InitBackend()
   mFreetypeInitialized = true;
 #endif // GPUCA_BUILD_EVENT_DISPLAY_FREETYPE
   return retVal;
-#else // GPUCA_BUILD_EVENT_DISPLAY
+#else  // GPUCA_BUILD_EVENT_DISPLAY
   return 0;
 #endif // GPUCA_BUILD_EVENT_DISPLAY
 }
