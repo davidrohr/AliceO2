@@ -123,7 +123,7 @@ CompletionPolicy CompletionPolicyHelpers::consumeWhenAllOrdered(const char* name
       }
     }
     (*nextTfCounter)++;
-    return CompletionPolicy::CompletionOp::Consume;
+    return CompletionPolicy::CompletionOp::ConsumeAndRescan;
   };
   return CompletionPolicy{name, matcher, callback};
 }
