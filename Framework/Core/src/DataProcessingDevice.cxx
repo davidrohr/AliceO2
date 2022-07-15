@@ -1019,7 +1019,7 @@ void DataProcessingDevice::Run()
       // - we can guarantee this is the last thing we do in the loop (
       //   assuming no one else is adding to the queue before this point).
       auto onDrop = [&registry = mServiceRegistry](TimesliceSlot slot, std::vector<MessageSet>& dropped, TimesliceIndex::OldestOutputInfo oldestOutputInfo) {
-         LOGP(info, "Dropping message from slot {}. Forwarding as needed.", slot.index);
+         LOGP(debug, "Dropping message from slot {}. Forwarding as needed.", slot.index);
          auto& asyncQueue = registry.get<AsyncQueue>();
          auto& decongestion = registry.get<DecongestionService>();
          auto& relayer = registry.get<DataRelayer>();
@@ -1530,7 +1530,7 @@ void DataProcessingDevice::handleData(DataProcessorContext& context, InputChanne
             ii += (nMessages / 2) - 1;
           }
           auto onDrop = [&registry = *context.registry](TimesliceSlot slot, std::vector<MessageSet>& dropped, TimesliceIndex::OldestOutputInfo oldestOutputInfo) {
-            LOGP(info, "Dropping message from slot {}. Forwarding as needed. Timeslice {}", slot.index, oldestOutputInfo.timeslice.value);
+            LOGP(debug, "Dropping message from slot {}. Forwarding as needed. Timeslice {}", slot.index, oldestOutputInfo.timeslice.value);
             auto& asyncQueue = registry.get<AsyncQueue>();
             auto& decongestion = registry.get<DecongestionService>();
             auto& relayer = registry.get<DataRelayer>();
