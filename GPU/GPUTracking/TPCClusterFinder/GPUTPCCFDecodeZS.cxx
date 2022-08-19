@@ -299,7 +299,7 @@ GPUdii() void GPUTPCCFDecodeZSLink::Thread<0>(int nBlocks, int nThreads, int iBl
 #ifdef GPUCA_CHECK_TPCZS_CORRUPTION
       if (iThread == 0 && nDecoded != decHdr->nADCsamples) {
         clusterer.raiseError(GPUErrors::ERROR_TPCZS_INVALID_NADC, clusterer.mISlice, decHdr->nADCsamples, nDecoded);
-/*#ifndef GPUCA_GPUCODE
+        /*#ifndef GPUCA_GPUCODE
         FILE* foo = fopen("dump.bin", "w+b");
         fwrite(pageSrc, 1, o2::raw::RDHUtils::getMemorySize(*rdHdr), foo);
         fclose(foo);
