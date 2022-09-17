@@ -143,7 +143,9 @@ void convertDigitsToZSfinal(std::string_view digitsFile, std::string_view output
     for (unsigned int j = 0; j < NEndpoints; j++) {
       const unsigned int cruInSector = j / 2;
       const unsigned int cruID = i * 10 + cruInSector;
-      const unsigned int defaultLink = i == NSectors ? rdh_utils::SACLinkID : zsV <= 2 ? rdh_utils::UserLogicLinkID : zsV == 3 ? rdh_utils::ILBZSLinkID : rdh_utils::DLBZSLinkID;
+      const unsigned int defaultLink = i == NSectors ? rdh_utils::SACLinkID : zsV <= 2 ? rdh_utils::UserLogicLinkID
+                                                                            : zsV == 3 ? rdh_utils::ILBZSLinkID
+                                                                                       : rdh_utils::DLBZSLinkID;
       const rdh_utils::FEEIDType feeid = i == NSectors ? 46208 : rdh_utils::getFEEID(cruID, j & 1, defaultLink);
       std::string outfname;
       if (fileFor == "all") { // single file for all links
