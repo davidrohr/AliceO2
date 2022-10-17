@@ -91,7 +91,7 @@ int TPCClusterDecompressor::decompress(const CompressedClusters* clustersCompres
         pad = clustersCompressed->padResA[offset - i - 1] + ClusterNative::packPad(tmpPad);
         if (pad < 0) {
           pad = 0;
-      } else if (pad >= param.tpcGeometry.NPads(row)) {
+        } else if (pad >= param.tpcGeometry.NPads(row)) {
           pad = param.tpcGeometry.NPads(row) - 1.f / ClusterNative::scalePadPacked;
         }
         if (time < 0) {
