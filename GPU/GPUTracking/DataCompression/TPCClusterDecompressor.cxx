@@ -56,7 +56,7 @@ int TPCClusterDecompressor::decompress(const CompressedClusters* clustersCompres
     GPUTPCCompressionTrackModel track;
     unsigned int j;
     for (j = 0; j < clustersCompressed->nTrackClusters[i]; j++) {
-      unsigned int pad = 0, time = 0;
+      int pad = 0, time = 0;
       if (j) {
         unsigned char tmpSlice = clustersCompressed->sliceLegDiffA[offset - i - 1];
         bool changeLeg = (tmpSlice >= NSLICES);
@@ -89,6 +89,16 @@ int TPCClusterDecompressor::decompress(const CompressedClusters* clustersCompres
         time = timeTmp + ClusterNative::packTime(CAMath::Max(0.f, param.tpcGeometry.LinearZ2Time(slice, track.Z() + zOffset)));
         float tmpPad = CAMath::Max(0.f, CAMath::Min((float)param.tpcGeometry.NPads(GPUCA_ROW_COUNT - 1), param.tpcGeometry.LinearY2Pad(slice, row, track.Y())));
         pad = clustersCompressed->padResA[offset - i - 1] + ClusterNative::packPad(tmpPad);
+        if (pad < 0) {
+          pad = 0;
+      } else if (pad >= param.tpcGeometry.NPads(row)) {
+          pad = param.tpcGeometry.NPads(row) - 1.f / ClusterNative::scalePadPacked;
+        }
+        if (time < 0) {
+          time = 0;
+        } else if (param.par.continuousMaxTimeBin > 0 && time > param.par.continuousMaxTimeBin) {
+          time = param.par.continuousMaxTimeBin;
+        }
       } else {
         time = clustersCompressed->timeA[i];
         pad = clustersCompressed->padA[i];
@@ -97,7 +107,7 @@ int TPCClusterDecompressor::decompress(const CompressedClusters* clustersCompres
       auto& lock = locks[slice][row];
       while (lock.test_and_set(std::memory_order_acquire)) {
       }
-      clusterVector.emplace_back(time, clustersCompressed->flagsA[offset], pad, clustersCompressed->sigmaTimeA[offset], clustersCompressed->sigmaPadA[offset], clustersCompressed->qMaxA[offset], clustersCompressed->qTotA[offset]);
+      clusterVector.emplace_back((unsigned int)time, clustersCompressed->flagsA[offset], (unsigned int)pad, clustersCompressed->sigmaTimeA[offset], clustersCompressed->sigmaPadA[offset], clustersCompressed->qMaxA[offset], clustersCompressed->qTotA[offset]);
       auto& cluster = clusterVector.back();
       float y = param.tpcGeometry.LinearPad2Y(slice, row, cluster.getPad());
       float z = param.tpcGeometry.LinearTime2Z(slice, cluster.getTime());
