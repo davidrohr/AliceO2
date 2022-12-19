@@ -377,7 +377,14 @@ int SetupReconstruction()
     steps.steps.setBits(GPUDataTypes::RecoStep::TRDTracking, false);
   }
   steps.inputs.set(GPUDataTypes::InOutType::TPCClusters, GPUDataTypes::InOutType::TRDTracklets);
-  if (grp.needsClusterer) {
+  if (grp.doCompClusterDecode) {
+    steps.inputs.setBits(GPUDataTypes::InOutType::TPCCompressedClusters, true);
+    steps.inputs.setBits(GPUDataTypes::InOutType::TPCClusters, false);
+    steps.steps.setBits(GPUDataTypes::RecoStep::TPCCompression, false);
+    steps.steps.setBits(GPUDataTypes::RecoStep::TPCClusterFinding, false);
+    steps.steps.setBits(GPUDataTypes::RecoStep::TPCDecompression, true);
+    steps.outputs.setBits(GPUDataTypes::InOutType::TPCCompressedClusters, false);
+  } else if (grp.needsClusterer) {
     steps.inputs.setBits(GPUDataTypes::InOutType::TPCRaw, true);
     steps.inputs.setBits(GPUDataTypes::InOutType::TPCClusters, false);
   } else {
