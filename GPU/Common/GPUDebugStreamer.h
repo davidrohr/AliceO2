@@ -17,13 +17,13 @@
 #include "GPUCommonDef.h"
 #if defined(GPUCA_HAVE_O2HEADERS)
 #include "CommonUtils/DebugStreamer.h"
-#else // GPUCA_HAVE_O2HEADERS
+#else  // GPUCA_HAVE_O2HEADERS
 
 namespace o2
 {
 namespace utils
 {
-    
+
 /// struct defining the flags which can be used to check if a certain debug streamer is used
 enum StreamFlags {
   streamdEdx = 1 << 0,          ///< stream corrections and cluster properties used for the dE/dx
@@ -36,39 +36,39 @@ enum StreamFlags {
 
 class DebugStreamer
 {
-public:
- /// empty for GPU
- template <typename... Args>
- GPUd() void setStreamer(Args... args){};
+ public:
+  /// empty for GPU
+  template <typename... Args>
+  GPUd() void setStreamer(Args... args){};
 
- /// always false for GPU
- GPUd() static bool checkStream(const StreamFlags) { return false; }
+  /// always false for GPU
+  GPUd() static bool checkStream(const StreamFlags) { return false; }
 
- class StreamerDummy
- {
-  public:
-   GPUd() int data() const { return 0; };
+  class StreamerDummy
+  {
+   public:
+    GPUd() int data() const { return 0; };
 
-   template <typename Type>
-   GPUd() StreamerDummy& operator<<(Type)
-   {
-     return *this;
-   }
- };
+    template <typename Type>
+    GPUd() StreamerDummy& operator<<(Type)
+    {
+      return *this;
+    }
+  };
 
- GPUd() StreamerDummy getStreamer(const int id = 0) const { return StreamerDummy{}; };
+  GPUd() StreamerDummy getStreamer(const int id = 0) const { return StreamerDummy{}; };
 
- template <typename Type>
- GPUd() StreamerDummy getUniqueTreeName(Type, const int id = 0) const
- {
-   return StreamerDummy{};
- }
+  template <typename Type>
+  GPUd() StreamerDummy getUniqueTreeName(Type, const int id = 0) const
+  {
+    return StreamerDummy{};
+  }
 
- GPUd() void flush() const {};
+  GPUd() void flush() const {};
 };
 
-}
-}
+} // namespace utils
+} // namespace o2
 #endif // !GPUCA_HAVE_O2HEADERS
 
 #endif
