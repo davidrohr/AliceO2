@@ -256,7 +256,7 @@ class GPUReconstruction
   InOutTypeField GetRecoStepsOutputs() const { return mRecoStepsOutputs; }
   int getRecoStepNum(RecoStep step, bool validCheck = true);
   int getGeneralStepNum(GeneralStep step, bool validCheck = true);
-  
+
   void setErrorCodeOutput(std::vector<std::array<unsigned int, 4>>* v) { mOutputErrorCodes = v; }
   std::vector<std::array<unsigned int, 4>>* getErrorCodeOutput() { return mOutputErrorCodes; }
 
