@@ -1055,7 +1055,7 @@ void* CcdbApi::retrieveFromTFile(std::type_info const& tinfo, std::string const&
     auto res = extractFromLocalFile(fullUrl, tinfo, headers);
     if (res) {
       logReading(path, timestamp, headers, "retrieve from snapshot");
-     }
+    }
     return res;
   }
 
