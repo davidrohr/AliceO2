@@ -34,7 +34,19 @@ using namespace o2::gpu;
 
 #include "DataFormatsTPC/ClusterNative.h"
 
-GPUO2Interface::GPUO2Interface() = default;
+namespace o2::gpu {
+struct GPUO2Interface_processingContext {
+  std::unique_ptr<GPUReconstruction> mRec;
+  GPUChainTracking* mChain = nullptr;
+  std::unique_ptr<GPUTrackingOutputs> mOutputRegions;
+};
+
+struct GPUO2Interface_Context {
+  std::unique_ptr<std::thread> pipelineThread;
+};
+} // namespace o2::gpu
+
+GPUO2Interface::GPUO2Interface() : mContext(new GPUO2Interface_Context) {};
 
 GPUO2Interface::~GPUO2Interface() { Deinitialize(); }
 
@@ -45,7 +57,7 @@ int GPUO2Interface::Initialize(const GPUO2InterfaceConfiguration& config)
   }
   mConfig.reset(new GPUO2InterfaceConfiguration(config));
   mNContexts = mConfig->configProcessing.doublePipeline ? 2 : 1;
-  mCtx.reset(new GPUO2Interface::processingContext[mNContexts]);
+  mCtx.reset(new GPUO2Interface_processingContext[mNContexts]);
   if (mConfig->configWorkflow.inputs.isSet(GPUDataTypes::InOutType::TPCRaw)) {
     mConfig->configGRP.needsClusterer = 1;
   }
@@ -94,7 +106,7 @@ int GPUO2Interface::Initialize(const GPUO2InterfaceConfiguration& config)
     }
   }
   if (mConfig->configProcessing.doublePipeline) {
-    mPipelineThread.reset(new std::thread([this]() { mCtx[0].mRec->RunPipelineWorker(); }));
+    mContext->pipelineThread.reset(new std::thread([this]() { mCtx[0].mRec->RunPipelineWorker(); }));
   }
   return (0);
 }
@@ -104,7 +116,7 @@ void GPUO2Interface::Deinitialize()
   if (mNContexts) {
     if (mConfig->configProcessing.doublePipeline) {
       mCtx[0].mRec->TerminatePipelineWorker();
-      mPipelineThread->join();
+      mContext->pipelineThread->join();
     }
     for (unsigned int i = 0; i < mNContexts; i++) {
       mCtx[i].mRec->Finalize();
@@ -211,7 +223,9 @@ std::unique_ptr<o2::tpc::CalibdEdxContainer> GPUO2Interface::getCalibdEdxContain
 
 int GPUO2Interface::UpdateCalibration(const GPUCalibObjectsConst& newCalib, const GPUNewCalibValues& newVals, unsigned int iThread)
 {
-  mCtx[iThread].mChain->SetUpdateCalibObjects(newCalib, newVals);
+  for (unsigned int i = 0; i < mNContexts; i++) {
+    mCtx[i].mChain->SetUpdateCalibObjects(newCalib, newVals);
+  }
   return 0;
 }
 
