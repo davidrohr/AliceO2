@@ -34,7 +34,8 @@ using namespace o2::gpu;
 
 #include "DataFormatsTPC/ClusterNative.h"
 
-namespace o2::gpu {
+namespace o2::gpu
+{
 struct GPUO2Interface_processingContext {
   std::unique_ptr<GPUReconstruction> mRec;
   GPUChainTracking* mChain = nullptr;
@@ -46,7 +47,7 @@ struct GPUO2Interface_Context {
 };
 } // namespace o2::gpu
 
-GPUO2Interface::GPUO2Interface() : mContext(new GPUO2Interface_Context) {};
+GPUO2Interface::GPUO2Interface() : mContext(new GPUO2Interface_Context){};
 
 GPUO2Interface::~GPUO2Interface() { Deinitialize(); }
 
