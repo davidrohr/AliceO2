@@ -357,7 +357,7 @@ void RawReaderSpecs::run(o2f::ProcessingContext& ctx)
   if (sentSomething) {
     ctx.services().get<o2f::MessageContext>().fakeDispatch();
   }
-  
+
   mTimer.Stop();
 
   LOGP(info, "Sent payload of {} bytes in {} parts in {} messages for TF#{} firstTForbit={} timeStamp={} | Timing: {}", tfSize, tfNParts,
