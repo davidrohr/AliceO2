@@ -243,7 +243,10 @@ GPUdi() bool GPUCommonMath::Finite(float x) { return CHOICE(std::isfinite(x), tr
 GPUdi() float GPUCommonMath::Modf(float x, float y) { return CHOICE(fmodf(x, y), fmodf(x, y), fmod(x, y)); }
 GPUhdi() float GPUCommonMath::Sqrt(float x) { return CHOICE(sqrtf(x), sqrtf(x), sqrt(x)); }
 #ifdef GPUCA_NO_FAST_MATH
-GPUdi() float GPUCommonMath::ATan(float x) { return CHOICE((float)atan((double)x), (float)atan((double)x), atan(x)); }
+GPUdi() float GPUCommonMath::ATan(float x)
+{
+  return CHOICE((float)atan((double)x), (float)atan((double)x), atan(x));
+}
 GPUhdi() float GPUCommonMath::ATan2(float y, float x) { return CHOICE((float)atan2((double)y, (double)x), (float)atan2((double)y, (double)x), atan2(y, x)); }
 GPUdi() float GPUCommonMath::Sin(float x) { return CHOICE((float)sin((double)x), (float)sin((double)x), sin(x)); }
 GPUdi() float GPUCommonMath::Cos(float x) { return CHOICE((float)cos((double)x), (float)cos((double)x), cos(x)); }
@@ -254,7 +257,10 @@ GPUdi() float GPUCommonMath::ACos(float x) { return CHOICE((float)acos((double)x
 GPUdi() float GPUCommonMath::Log(float x) { return CHOICE((float)log((double)x), (float)log((double)x), log(x)); }
 GPUdi() float GPUCommonMath::Exp(float x) { return CHOICE((float)exp((double)x), (float)exp((double)x), exp(x)); }
 #else
-GPUdi() float GPUCommonMath::ATan(float x) { return CHOICE(atanf(x), atanf(x), atan(x)); }
+GPUdi() float GPUCommonMath::ATan(float x)
+{
+  return CHOICE(atanf(x), atanf(x), atan(x));
+}
 GPUhdi() float GPUCommonMath::ATan2(float y, float x) { return CHOICE(atan2f(y, x), atan2f(y, x), atan2(y, x)); }
 GPUdi() float GPUCommonMath::Sin(float x) { return CHOICE(sinf(x), sinf(x), sin(x)); }
 GPUdi() float GPUCommonMath::Cos(float x) { return CHOICE(cosf(x), cosf(x), cos(x)); }
