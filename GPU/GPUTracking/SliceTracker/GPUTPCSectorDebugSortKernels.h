@@ -33,7 +33,7 @@ class GPUTPCSectorDebugSortKernels : public GPUKernelTemplate
   GPUhdi() static processorType* Processor(GPUConstantMem& processors) { return processors.tpcTrackers; }
 
   template <int iKernel = defaultKernel>
-  GPUd() static void Thread(int nBlocks, int nThreads, int iBlock, int iThread, GPUsharedref() GPUSharedMemory & smem, processorType& tracker);
+  GPUd() static void Thread(int nBlocks, int nThreads, int iBlock, int iThread, GPUsharedref() GPUSharedMemory& smem, processorType& tracker);
 };
 
 } // namespace GPUCA_NAMESPACE::gpu
