@@ -107,7 +107,9 @@ GPUdii() void GPUTPCGlobalDebugSortKernels::Thread<GPUTPCGlobalDebugSortKernels:
   GPUCommonAlgorithm::sort(tmp, tmp + n, [&merger](const int& aa, const int& bb) {
     const GPUTPCGMMergedTrack& a = merger.OutputTracks()[aa];
     const GPUTPCGMMergedTrack& b = merger.OutputTracks()[bb];
-    return (a.GetAlpha() != b.GetAlpha()) ? (a.GetAlpha() < b.GetAlpha()) : (a.GetParam().GetX() != b.GetParam().GetX()) ? (a.GetParam().GetX() < b.GetParam().GetX()) : (a.GetParam().GetY() != b.GetParam().GetY()) ? (a.GetParam().GetY() < b.GetParam().GetY()) : (a.GetParam().GetZ() < b.GetParam().GetZ());
+    return (a.GetAlpha() != b.GetAlpha()) ? (a.GetAlpha() < b.GetAlpha()) : (a.GetParam().GetX() != b.GetParam().GetX()) ? (a.GetParam().GetX() < b.GetParam().GetX())
+                                                                          : (a.GetParam().GetY() != b.GetParam().GetY()) ? (a.GetParam().GetY() < b.GetParam().GetY())
+                                                                                                                         : (a.GetParam().GetZ() < b.GetParam().GetZ());
   });
   auto updateRef = [&merger](int from, int to) {
     for (int i = 0; i < 2; i++) {
