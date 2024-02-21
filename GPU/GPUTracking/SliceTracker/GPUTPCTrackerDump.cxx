@@ -181,7 +181,8 @@ void GPUTPCTracker::DumpTrackletHits(std::ostream& out)
         out << i << "-" << mTrackletRowHits[tracklet.FirstHit() + (i - tracklet.FirstRow())] << ", ";
       }
       if (nHits != tracklet.NHits()) {
-        std::cout << std::endl << "Wrong NHits!: Expected " << tracklet.NHits() << ", found " << nHits;
+        std::cout << std::endl
+                  << "Wrong NHits!: Expected " << tracklet.NHits() << ", found " << nHits;
       }
     }
     out << std::endl;
