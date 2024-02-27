@@ -1621,7 +1621,7 @@ GPUd() void GPUTPCGMMerger::CollectMergedTracks(int nBlocks, int nThreads, int i
         }
         return a->QPt() > b->QPt();
 #else
-        return (a->X() > b->X());
+          return (a->X() > b->X());
 #endif
       });
     }
