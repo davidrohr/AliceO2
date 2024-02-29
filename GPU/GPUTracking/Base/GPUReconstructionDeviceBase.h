@@ -86,7 +86,8 @@ class GPUReconstructionDeviceBase : public GPUReconstructionCPU
   DebugEvents* mDebugEvents = nullptr;
 
   std::vector<void*> mDeviceConstantMemList;
-  static std::vector<void* (*)()>& getDeviceConstantMemRegistratorsVector() {
+  static std::vector<void* (*)()>& getDeviceConstantMemRegistratorsVector()
+  {
     static std::vector<void* (*)()> deviceConstantMemRegistrators{};
     return deviceConstantMemRegistrators;
   }
