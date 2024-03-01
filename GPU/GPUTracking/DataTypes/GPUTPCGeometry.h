@@ -100,7 +100,8 @@ class GPUTPCGeometry // TODO: Make values constexpr
 #endif
 
  public:
-  GPUd() int GetRegion(int row) const { return (row < 63 ? 0 : row < 63 + 64 ? 1 : 2); }
+  GPUd() int GetRegion(int row) const { return (row < 63 ? 0 : row < 63 + 64 ? 1
+                                                                             : 2); }
   GPUd() int GetRegionRows(int region) const { return 0; }  // dummy
   GPUd() int GetRegionStart(int region) const { return 0; } // dummy
   GPUd() int GetROC(int row) const { return GetRegion(row); }
