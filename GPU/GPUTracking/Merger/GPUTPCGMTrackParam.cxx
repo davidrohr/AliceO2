@@ -322,15 +322,15 @@ GPUd() bool GPUTPCGMTrackParam::Fit(GPUTPCGMMerger* GPUrestrict() merger, int iT
           tup.Fill((float)cluster.row, xx, yy, zz, clAlpha, mX, ImP0, ImP1, mP[2], mP[3], mP[4], ImC0, ImC2, mC[14]);
         }
 #endif
+        float time = merger->Param().par.earlyTpcTransform ? -1.f : merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[cluster.num].getTime();
+        float tmpCharge = merger->GetConstantMem()->ioPtrs.clustersNative ? CAMath::InvSqrt(merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[cluster.num].qMax) : 0.f;
         if (merger->Param().rec.tpc.rejectEdgeClustersInTrackFit && uncorrectedY > -1e6f && GPUTPCTracker::rejectEdgeClusterByY(uncorrectedY, cluster.row)) {
           retVal = GPUTPCGMPropagator::updateErrorEdgeCluster;
         } else {
-          float time = merger->Param().par.earlyTpcTransform ? -1.f : merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[cluster.num].getTime();
-          float tmpCharge = merger->GetConstantMem()->ioPtrs.clustersNative ? CAMath::InvSqrt(merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[cluster.num].qMax) : 0.f;
           retVal = prop.Update(yy, zz, cluster.row, param, clusterState, rejectChi2, &interpolation.hit[ihit], refit, cluster.slice, time, (avgCharge += tmpCharge) / ++nAvgCharge, tmpCharge GPUCA_DEBUG_STREAMER_CHECK(, iTrk)); // TODO: Use avgCharge
         }
         GPUCA_DEBUG_STREAMER_CHECK(if (o2::utils::DebugStreamer::checkStream(o2::utils::StreamFlags::streamUpdateTrack, iTrk)) {
-          merger->DebugStreamerUpdate(iTrk, ihit, xx, yy, zz, cluster, merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[cluster.num], *this, prop, interpolation.hit[ihit], rejectChi2, refit, retVal);
+          merger->DebugStreamerUpdate(iTrk, ihit, xx, yy, zz, cluster, merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[cluster.num], *this, prop, interpolation.hit[ihit], rejectChi2, refit, retVal, avgCharge / nAvgCharge, tmpCharge);
         });
       }
       // clang-format off
