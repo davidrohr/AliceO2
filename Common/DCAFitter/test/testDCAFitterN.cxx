@@ -160,7 +160,7 @@ BOOST_AUTO_TEST_CASE(DCAFitterNProngs)
   std::vector<double> dchdec = {pion, kch, pion};
   std::vector<o2::track::TrackParCov> vctracks;
   Vec3D vtxGen;
-  
+
   double bz = 5.0;
   // 2 prongs vertices
   {
