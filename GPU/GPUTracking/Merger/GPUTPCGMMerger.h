@@ -214,7 +214,10 @@ class GPUTPCGMMerger : public GPUProcessor
   static void DebugStreamerReject(float mAlpha, int iRow, float posY, float posZ, short clusterState, char rejectChi2, const gputpcgmmergertypes::InterpolationErrorHit& inter, bool refit, int retVal, float err2Y, float err2Z, const GPUTPCGMTrackParam& track, const GPUParam& param, float time, float avgInvCharge, float invCharge);
 #endif
 
-  GPUdi() int SliceTrackInfoFirst(int iSlice) const { return mSliceTrackInfoIndex[iSlice]; }
+  GPUdi() int SliceTrackInfoFirst(int iSlice) const
+  {
+    return mSliceTrackInfoIndex[iSlice];
+  }
   GPUdi() int SliceTrackInfoLast(int iSlice) const { return mSliceTrackInfoIndex[iSlice + 1]; }
   GPUdi() int SliceTrackInfoGlobalFirst(int iSlice) const { return mSliceTrackInfoIndex[NSLICES + iSlice]; }
   GPUdi() int SliceTrackInfoGlobalLast(int iSlice) const { return mSliceTrackInfoIndex[NSLICES + iSlice + 1]; }
@@ -237,7 +240,10 @@ class GPUTPCGMMerger : public GPUProcessor
   long int GetTrackLabel(const S& trk) const;
 #endif
 
-  GPUdi() int SliceTrackInfoFirst(int iSlice) { return mSliceTrackInfoIndex[iSlice]; }
+  GPUdi() int SliceTrackInfoFirst(int iSlice)
+  {
+    return mSliceTrackInfoIndex[iSlice];
+  }
   GPUdi() int SliceTrackInfoLast(int iSlice) { return mSliceTrackInfoIndex[iSlice + 1]; }
   GPUdi() int SliceTrackInfoGlobalFirst(int iSlice) { return mSliceTrackInfoIndex[NSLICES + iSlice]; }
   GPUdi() int SliceTrackInfoGlobalLast(int iSlice) { return mSliceTrackInfoIndex[NSLICES + iSlice + 1]; }
