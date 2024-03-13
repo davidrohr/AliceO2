@@ -29,7 +29,10 @@ texture<calink, cudaTextureType1D, cudaReadModeElementType> gAliTexRefu;
 #include "GPUReconstructionIncludesDeviceAll.h"
 
 #if defined(__HIPCC__) && defined(GPUCA_HAS_GLOBAL_SYMBOL_CONSTANT_MEM)
-__global__ void gGPUConstantMemBuffer_dummy(int* p) { *p = *(int*)&gGPUConstantMemBuffer; }
+__global__ void gGPUConstantMemBuffer_dummy(int* p)
+{
+  *p = *(int*)&gGPUConstantMemBuffer;
+}
 #endif
 
 template <>
