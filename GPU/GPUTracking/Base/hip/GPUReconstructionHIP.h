@@ -83,7 +83,10 @@ class GPUReconstructionHIP : public GPUReconstructionKernels<GPUReconstructionHI
   void GetITSTraits(std::unique_ptr<o2::its::TrackerTraits>* trackerTraits, std::unique_ptr<o2::its::VertexerTraits>* vertexerTraits, std::unique_ptr<o2::its::TimeFrame>* timeFrame) override;
 
 #ifndef __HIPCC__ // HIP
-  bool CanQueryMaxMemory() override { return true; }
+  bool CanQueryMaxMemory() override
+  {
+    return true;
+  }
   int PrepareTextures() override;
   void startGPUProfiling() override;
   void endGPUProfiling() override;

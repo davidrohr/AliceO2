@@ -83,7 +83,10 @@ class GPUReconstructionCUDA : public GPUReconstructionKernels<GPUReconstructionC
   void GetITSTraits(std::unique_ptr<o2::its::TrackerTraits>* trackerTraits, std::unique_ptr<o2::its::VertexerTraits>* vertexerTraits, std::unique_ptr<o2::its::TimeFrame>* timeFrame) override;
 
 #ifndef __HIPCC__ // CUDA
-  bool CanQueryMaxMemory() override { return true; }
+  bool CanQueryMaxMemory() override
+  {
+    return true;
+  }
   int PrepareTextures() override;
   void startGPUProfiling() override;
   void endGPUProfiling() override;
