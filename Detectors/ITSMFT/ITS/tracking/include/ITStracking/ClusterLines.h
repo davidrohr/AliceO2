@@ -78,7 +78,7 @@ GPUhdi() Line::Line(const float firstPoint[3], const float secondPoint[3])
   }
 
   float inverseNorm{1.f / o2::gpu::CAMath::Sqrt(cosinesDirector[0] * cosinesDirector[0] + cosinesDirector[1] * cosinesDirector[1] +
-                                                       cosinesDirector[2] * cosinesDirector[2])};
+                                                cosinesDirector[2] * cosinesDirector[2])};
 
   for (int index{0}; index < 3; ++index) {
     cosinesDirector[index] *= inverseNorm;
@@ -96,7 +96,7 @@ GPUhdi() Line::Line(const Tracklet& tracklet, const Cluster* innerClusters, cons
   cosinesDirector[2] = outerClusters[tracklet.secondClusterIndex].zCoordinate - innerClusters[tracklet.firstClusterIndex].zCoordinate;
 
   float inverseNorm{1.f / o2::gpu::CAMath::Sqrt(cosinesDirector[0] * cosinesDirector[0] + cosinesDirector[1] * cosinesDirector[1] +
-                                                       cosinesDirector[2] * cosinesDirector[2])};
+                                                cosinesDirector[2] * cosinesDirector[2])};
 
   for (int index{0}; index < 3; ++index) {
     cosinesDirector[index] *= inverseNorm;
