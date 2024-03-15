@@ -78,7 +78,7 @@ GPUhdi() Line::Line(const float firstPoint[3], const float secondPoint[3])
   }
 
   float inverseNorm{1.f / o2::gpu::CAMath::Sqrt(cosinesDirector[0] * cosinesDirector[0] + cosinesDirector[1] * cosinesDirector[1] +
-                                                cosinesDirector[2] * cosinesDirector[2])};
+                                                       cosinesDirector[2] * cosinesDirector[2])};
 
   for (int index{0}; index < 3; ++index) {
     cosinesDirector[index] *= inverseNorm;
@@ -96,7 +96,7 @@ GPUhdi() Line::Line(const Tracklet& tracklet, const Cluster* innerClusters, cons
   cosinesDirector[2] = outerClusters[tracklet.secondClusterIndex].zCoordinate - innerClusters[tracklet.firstClusterIndex].zCoordinate;
 
   float inverseNorm{1.f / o2::gpu::CAMath::Sqrt(cosinesDirector[0] * cosinesDirector[0] + cosinesDirector[1] * cosinesDirector[1] +
-                                                cosinesDirector[2] * cosinesDirector[2])};
+                                                       cosinesDirector[2] * cosinesDirector[2])};
 
   for (int index{0}; index < 3; ++index) {
     cosinesDirector[index] *= inverseNorm;
@@ -173,9 +173,9 @@ GPUhdi() void Line::getDCAComponents(const Line& line, const float point[3], flo
   destArray[0] = line.originPoint[0] - point[0] + line.cosinesDirector[0] * cdelta;
   destArray[3] = line.originPoint[1] - point[1] + line.cosinesDirector[1] * cdelta;
   destArray[5] = line.originPoint[2] - point[2] + line.cosinesDirector[2] * cdelta;
-  destArray[1] = std::sqrt(destArray[0] * destArray[0] + destArray[3] * destArray[3]);
-  destArray[2] = std::sqrt(destArray[0] * destArray[0] + destArray[5] * destArray[5]);
-  destArray[4] = std::sqrt(destArray[3] * destArray[3] + destArray[5] * destArray[5]);
+  destArray[1] = o2::gpu::CAMath::Sqrt(destArray[0] * destArray[0] + destArray[3] * destArray[3]);
+  destArray[2] = o2::gpu::CAMath::Sqrt(destArray[0] * destArray[0] + destArray[5] * destArray[5]);
+  destArray[4] = o2::gpu::CAMath::Sqrt(destArray[3] * destArray[3] + destArray[5] * destArray[5]);
 }
 
 inline bool Line::operator==(const Line& rhs) const
