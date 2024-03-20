@@ -28,11 +28,20 @@ struct deviceEvent {
   constexpr deviceEvent() = default;
   constexpr deviceEvent(std::nullptr_t p) : v(nullptr){};
   template <class T>
-  void set(T val) { v = reinterpret_cast<void*&>(val); }
+  void set(T val)
+  {
+    v = reinterpret_cast<void*&>(val);
+  }
   template <class T>
-  T& get() { return reinterpret_cast<T&>(v); }
+  T& get()
+  {
+    return reinterpret_cast<T&>(v);
+  }
   template <class T>
-  T* getEventList() { return reinterpret_cast<T*>(this); }
+  T* getEventList()
+  {
+    return reinterpret_cast<T*>(this);
+  }
   bool isSet() const { return v; }
 
  private:
