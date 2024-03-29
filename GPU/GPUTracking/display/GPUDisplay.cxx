@@ -2215,7 +2215,7 @@ void GPUDisplay::DrawGLScene_internal(float animateTime, bool renderToMixBuffer)
     double fpstime = mTimerFPS.GetCurrentElapsedTime();
     char info[1024];
     float fps = (double)mFramesDoneFPS / fpstime;
-    sprintf(info,
+    snprintf(info, 1024,
             "FPS: %6.2f (Slice: %d, 1:Clusters %d, 2:Prelinks %d, 3:Links %d, 4:Seeds %d, 5:Tracklets %d, 6:Tracks %d, 7:GTracks %d, 8:Merger %d) (%d frames, %d draw calls) "
             "(X %1.2f Y %1.2f Z %1.2f / R %1.2f Phi %1.1f Theta %1.1f) / Yaw %1.1f Pitch %1.1f Roll %1.1f)",
             fps, mCfgL.drawSlice, mCfgL.drawClusters, mCfgL.drawInitLinks, mCfgL.drawLinks, mCfgL.drawSeeds, mCfgL.drawTracklets, mCfgL.drawTracks, mCfgL.drawGlobalTracks, mCfgL.drawFinal, mFramesDone, mNDrawCalls, mXYZ[0], mXYZ[1], mXYZ[2], mRPhiTheta[0], mRPhiTheta[1] * 180 / CAMath::Pi(),
@@ -2242,7 +2242,7 @@ void GPUDisplay::DrawGLScene_internal(float animateTime, bool renderToMixBuffer)
     std::vector<char> pixels = mBackend->getPixels();
     char tmpFileName[48];
     if (mAnimateScreenshot) {
-      sprintf(tmpFileName, "mAnimation%d_%05d.bmp", mAnimationExport, mAnimationFrame);
+      snprintf(tmpFileName, 48, "mAnimation%d_%05d.bmp", mAnimationExport, mAnimationFrame);
     }
     DoScreenshot(mAnimateScreenshot ? tmpFileName : mScreenshotFile.c_str(), pixels);
   }
