@@ -380,9 +380,9 @@ int GPUReconstructionCUDA::InitDevice_Runtime()
     runConstantRegistrators();
     devPtrConstantMem = mDeviceConstantMemList[0];
     for (unsigned int i = 0; i < mInternals->kernelModules.size(); i++) {
-#ifndef __HIPCC__ // CUDA
+#ifndef __HIPCC__      // CUDA
       CUdeviceptr tmp; // CUDA has a custom type, that initializes to zero and cannot be initialized with nullptr
-#else // HIP
+#else                  // HIP
       CUdeviceptr tmp = nullptr; // HIP just uses void*
 #endif
       size_t tmpSize = 0;
