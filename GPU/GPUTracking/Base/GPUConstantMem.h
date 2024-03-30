@@ -21,11 +21,9 @@
 #include "GPUErrors.h"
 
 // Dummies for stuff not supported in legacy code (ROOT 5 / OPENCL1.2)
-#if defined(GPUCA_NOCOMPAT_ALLCINT) && (!defined(GPUCA_GPUCODE) || !defined(GPUCA_ALIROOT_LIB))
+#if defined(GPUCA_NOCOMPAT_ALLCINT)
 #include "GPUTPCGMMerger.h"
-#include "GPUTRDTracker.h"
 #else
-#include "GPUTRDDef.h"
 namespace GPUCA_NAMESPACE
 {
 namespace gpu
@@ -33,6 +31,17 @@ namespace gpu
 class GPUTPCGMMerger
 {
 };
+} // namespace gpu
+} // namespace GPUCA_NAMESPACE
+#endif
+#if defined(GPUCA_NOCOMPAT_ALLCINT) && (!defined(GPUCA_GPUCODE) || !defined(GPUCA_ALIROOT_LIB))
+#include "GPUTRDTracker.h"
+#else
+#include "GPUTRDDef.h"
+namespace GPUCA_NAMESPACE
+{
+namespace gpu
+{
 template <class T, class P>
 class GPUTRDTracker_t
 {
@@ -41,6 +50,7 @@ class GPUTRDTracker_t
 } // namespace gpu
 } // namespace GPUCA_NAMESPACE
 #endif
+
 
 // Dummies for stuff not suppored in legacy code, or for what requires O2 headers while not available
 #if defined(GPUCA_NOCOMPAT_ALLCINT) && (!defined(GPUCA_GPUCODE) || !defined(GPUCA_ALIROOT_LIB)) && defined(GPUCA_HAVE_O2HEADERS)
