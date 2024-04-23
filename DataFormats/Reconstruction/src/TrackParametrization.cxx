@@ -612,8 +612,7 @@ GPUd() void TrackParametrization<value_T>::printParamHexadecimal()
          gpu::CAMath::Float2UIntReint(getTgl()),
          gpu::CAMath::Float2UIntReint(getQ2Pt()),
          gpu::CAMath::Float2UIntReint(getAbsCharge()),
-         getPID().getName()
-  );
+         getPID().getName());
 #endif
 }
 
