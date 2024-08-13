@@ -104,7 +104,7 @@ GPUSettingsO2 GPUO2InterfaceConfiguration::ReadConfigurableParam(GPUO2InterfaceC
   obj.configDisplay = display;
   obj.configQA = QA;
   if (obj.configGRP.continuousMaxTimeBin == 0 || obj.configGRP.continuousMaxTimeBin == -1) {
-   if (global.continuousMaxTimeBin) {
+    if (global.continuousMaxTimeBin) {
       obj.configGRP.continuousMaxTimeBin = global.continuousMaxTimeBin;
     } else {
       obj.configGRP.continuousMaxTimeBin = global.tpcTriggeredMode ? 0 : -1;
