@@ -52,6 +52,9 @@ void Tracking::initialize(outputModes outputMode, bool postprocessOnly)
   if (grp) {
     mQAConfig->configGRP.solenoidBzNominalGPU = GPUO2InterfaceUtils::getNominalGPUBz(*grp);
     mQAConfig->configGRP.continuousMaxTimeBin = grp->isDetContinuousReadOut(o2::detectors::DetID::TPC) ? -1 : 0;
+    if (!grp->isDetContinuousReadOut(o2::detectors::DetID::TPC)) {
+      mQAConfig->tpcTriggeredMode = 1;
+    }
   } else {
     throw std::runtime_error("Failed to initialize run parameters from GRP");
   }
