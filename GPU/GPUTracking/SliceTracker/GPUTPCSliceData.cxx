@@ -382,7 +382,7 @@ GPUdii() int GPUTPCSliceData::InitFromClusterData(int nBlocks, int nThreads, int
       row.mHstepYi = stepYi;
       row.mHstepZi = stepZi;
     }
-    
+
     GPUbarrier();
 
     for (int hitIndex = iThread; hitIndex < row.mNHits; hitIndex += nThreads) {
