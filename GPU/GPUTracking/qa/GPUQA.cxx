@@ -209,7 +209,10 @@ static constexpr Color_t defaultColorNums[COLORCOUNT] = {kRed, kBlue, kGreen, kM
 
 #define TRACK_EXPECTED_REFERENCE_X_DEFAULT 81
 #ifdef GPUCA_TPC_GEOMETRY_O2
-static inline int GPUQA_O2_ConvertFakeLabel(int label) { return label >= 0x7FFFFFFE ? -1 : label; }
+static inline int GPUQA_O2_ConvertFakeLabel(int label)
+{
+  return label >= 0x7FFFFFFE ? -1 : label;
+}
 inline unsigned int GPUQA::GetNMCCollissions() const { return mMCInfosCol.size(); }
 inline unsigned int GPUQA::GetNMCTracks(int iCol) const { return mMCInfosCol[iCol].num; }
 inline unsigned int GPUQA::GetNMCLabels() const { return mClNative->clustersMCTruth ? mClNative->clustersMCTruth->getIndexedSize() : 0; }
@@ -230,7 +233,9 @@ inline float GPUQA::GetMCLabelWeight(const mcLabel_t& label) { return 1; }
 inline bool GPUQA::mcPresent() { return !mConfig.noMC && mTracking && mClNative && mClNative->clustersMCTruth && mMCInfos.size(); }
 #define TRACK_EXPECTED_REFERENCE_X 78
 #else
-inline GPUQA::mcLabelI_t::mcLabelI_t(const GPUQA::mcLabel_t& l) : track(l.fMCID) {}
+inline GPUQA::mcLabelI_t::mcLabelI_t(const GPUQA::mcLabel_t& l) : track(l.fMCID)
+{
+}
 inline bool GPUQA::mcLabelI_t::operator==(const GPUQA::mcLabel_t& l) { return AbsLabelID(track) == l.fMCID; }
 inline unsigned int GPUQA::GetNMCCollissions() const { return 1; }
 inline unsigned int GPUQA::GetNMCTracks(int iCol) const { return mTracking->mIOPtrs.nMCInfosTPC; }
