@@ -127,7 +127,8 @@ GPUDisplay::vboList GPUDisplay::DrawClusters(int32_t iSlice, int32_t select, uin
   size_t startCountInner = mVertexBuffer[iSlice].size();
   if (mOverlayTFClusters.size() > 0 || iCol == 0 || mNCollissions) {
     const int32_t firstCluster = (mOverlayTFClusters.size() > 1 && iCol > 0) ? mOverlayTFClusters[iCol - 1][iSlice] : 0;
-    const int32_t lastCluster = (mOverlayTFClusters.size() > 1 && iCol + 1 < mOverlayTFClusters.size()) ? mOverlayTFClusters[iCol][iSlice] : (mParam->par.earlyTpcTransform ? mIOPtrs->nClusterData[iSlice] : mIOPtrs->clustersNative ? mIOPtrs->clustersNative->nClustersSector[iSlice] : 0);
+    const int32_t lastCluster = (mOverlayTFClusters.size() > 1 && iCol + 1 < mOverlayTFClusters.size()) ? mOverlayTFClusters[iCol][iSlice] : (mParam->par.earlyTpcTransform ? mIOPtrs->nClusterData[iSlice] : mIOPtrs->clustersNative ? mIOPtrs->clustersNative->nClustersSector[iSlice]
+                                                                                                                                                                                                                                      : 0);
     const bool checkClusterCollision = mQA && mNCollissions && mOverlayTFClusters.size() == 0 && mIOPtrs->clustersNative && mIOPtrs->clustersNative->clustersMCTruth;
     for (int32_t cidInSlice = firstCluster; cidInSlice < lastCluster; cidInSlice++) {
       const int32_t cid = GET_CID(iSlice, cidInSlice);

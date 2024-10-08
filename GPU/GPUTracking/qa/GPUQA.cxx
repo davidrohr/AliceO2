@@ -515,8 +515,10 @@ int32_t GPUQA::InitQACreateHistograms()
   // Create Cluster Histograms
   if (mQATasks & taskClusterAttach) {
     for (int32_t i = 0; i < N_CLS_TYPE * N_CLS_HIST - 1; i++) {
-      int32_t ioffset = i >= (2 * N_CLS_HIST - 1) ? (2 * N_CLS_HIST - 1) : i >= N_CLS_HIST ? N_CLS_HIST : 0;
-      int32_t itype = i >= (2 * N_CLS_HIST - 1) ? 2 : i >= N_CLS_HIST ? 1 : 0;
+      int32_t ioffset = i >= (2 * N_CLS_HIST - 1) ? (2 * N_CLS_HIST - 1) : i >= N_CLS_HIST ? N_CLS_HIST
+                                                                                           : 0;
+      int32_t itype = i >= (2 * N_CLS_HIST - 1) ? 2 : i >= N_CLS_HIST ? 1
+                                                                      : 0;
       snprintf(name, 2048, "clusters%s%s", CLUSTER_NAMES_SHORT[i - ioffset], CLUSTER_TYPES[itype]);
       std::unique_ptr<double[]> binsPt{CreateLogAxis(AXIS_BINS[4], PT_MIN_CLUST, PT_MAX)};
       createHist(mClusters[i], name, name, AXIS_BINS[4], binsPt.get());
@@ -1228,7 +1230,9 @@ void GPUQA::RunQA(bool matchOnly, const std::vector<o2::tpc::TrackTPC>* tracksEx
                 continue;
               }
 
-              int32_t val = (j == 0) ? (mRecTracks[iCol][i] ? 1 : 0) : (j == 1) ? (mRecTracks[iCol][i] ? mRecTracks[iCol][i] - 1 : 0) : (j == 2) ? mFakeTracks[iCol][i] : 1;
+              int32_t val = (j == 0) ? (mRecTracks[iCol][i] ? 1 : 0) : (j == 1) ? (mRecTracks[iCol][i] ? mRecTracks[iCol][i] - 1 : 0)
+                                                                     : (j == 2) ? mFakeTracks[iCol][i]
+                                                                                : 1;
               if (val == 0) {
                 continue;
               }
@@ -2568,8 +2572,10 @@ int32_t GPUQA::DrawQAHistograms(TObjArray* qcout)
         mPClust[i]->cd();
         mPClust[i]->SetLogx();
       }
-      int32_t begin = i == 2 ? (2 * N_CLS_HIST - 1) : i == 1 ? N_CLS_HIST : 0;
-      int32_t end = i == 2 ? (3 * N_CLS_HIST - 1) : i == 1 ? (2 * N_CLS_HIST - 1) : N_CLS_HIST;
+      int32_t begin = i == 2 ? (2 * N_CLS_HIST - 1) : i == 1 ? N_CLS_HIST
+                                                             : 0;
+      int32_t end = i == 2 ? (3 * N_CLS_HIST - 1) : i == 1 ? (2 * N_CLS_HIST - 1)
+                                                           : N_CLS_HIST;
       int32_t numColor = 0;
       for (int32_t k = 0; k < ConfigNumInputs; k++) {
         for (int32_t j = end - 1; j >= begin; j--) {
