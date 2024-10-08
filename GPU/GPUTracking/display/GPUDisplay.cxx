@@ -414,8 +414,15 @@ void GPUDisplay::DrawGLScene_cameraAndAnimation(float animateTime, float& mixSla
 
 void GPUDisplay::DrawGLScene_drawCommands()
 {
-#define LOOP_SLICE for (int32_t iSlice = (mCfgL.drawSlice == -1 ? 0 : mCfgL.drawRelatedSlices ? (mCfgL.drawSlice % (NSLICES / 4)) : mCfgL.drawSlice); iSlice < NSLICES; iSlice += (mCfgL.drawSlice == -1 ? 1 : mCfgL.drawRelatedSlices ? (NSLICES / 4) : NSLICES))
-#define LOOP_SLICE2 for (int32_t iSlice = (mCfgL.drawSlice == -1 ? 0 : mCfgL.drawRelatedSlices ? (mCfgL.drawSlice % (NSLICES / 4)) : mCfgL.drawSlice) % (NSLICES / 2); iSlice < NSLICES / 2; iSlice += (mCfgL.drawSlice == -1 ? 1 : mCfgL.drawRelatedSlices ? (NSLICES / 4) : NSLICES))
+#define LOOP_SLICE for (int32_t iSlice = (mCfgL.drawSlice == -1 ? 0 : mCfgL.drawRelatedSlices ? (mCfgL.drawSlice % (NSLICES / 4)) \
+                                                                                              : mCfgL.drawSlice);                 \
+                        iSlice < NSLICES; iSlice += (mCfgL.drawSlice == -1 ? 1 : mCfgL.drawRelatedSlices ? (NSLICES / 4)          \
+                                                                                                         : NSLICES))
+#define LOOP_SLICE2 for (int32_t iSlice = (mCfgL.drawSlice == -1 ? 0 : mCfgL.drawRelatedSlices ? (mCfgL.drawSlice % (NSLICES / 4)) \
+                                                                                               : mCfgL.drawSlice) %                \
+                                          (NSLICES / 2);                                                                           \
+                         iSlice < NSLICES / 2; iSlice += (mCfgL.drawSlice == -1 ? 1 : mCfgL.drawRelatedSlices ? (NSLICES / 4)      \
+                                                                                                              : NSLICES))
 #define LOOP_COLLISION for (int32_t iCol = (mCfgL.showCollision == -1 ? 0 : mCfgL.showCollision); iCol < mNCollissions; iCol += (mCfgL.showCollision == -1 ? 1 : mNCollissions))
 #define LOOP_COLLISION_COL(cmd)  \
   LOOP_COLLISION                 \
