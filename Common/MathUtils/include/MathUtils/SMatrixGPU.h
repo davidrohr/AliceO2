@@ -469,7 +469,10 @@ class SMatrixGPU
   GPUd() T& operator()(unsigned int i, unsigned int j);
 
   template <typename X>
-  friend X& operator<<(X& x, const SMatrixGPU&) { return x; }
+  friend X& operator<<(X& x, const SMatrixGPU&)
+  {
+    return x;
+  }
 
   class SMatrixRowGPU
   {
