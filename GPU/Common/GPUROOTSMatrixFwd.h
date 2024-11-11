@@ -52,7 +52,7 @@ template <class T, uint32_t D1, uint32_t D2>
 class MatRepStdGPU;
 } // namespace detail
 
-#if !defined(GPUCA_STANDALONE) && !defined(GPUCA_GPUCODE)
+#if !defined(GPUCA_STANDALONE) && !defined(GPUCA_GPUCODE) && !defined(GPUCOMMONRTYPES_H_ACTIVE)
 template <typename T, uint32_t N>
 using SVector = ROOT::Math::SVector<T, N>;
 template <class T, uint32_t D1, uint32_t D2, class R>

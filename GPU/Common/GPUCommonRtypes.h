@@ -20,14 +20,13 @@
 #if defined(GPUCA_STANDALONE) || (defined(GPUCA_O2_LIB) && !defined(GPUCA_O2_INTERFACE)) || defined(GPUCA_GPUCODE) // clang-format off
   #if !defined(ROOT_Rtypes) && !defined(__CLING__)
     #define GPUCOMMONRTYPES_H_ACTIVE
+    #define ROOT_Rtypes GPUCommonRtypes_ALREADY_INCLUDED // If you want to use GPUCommonRtypes.h and Rtypes.h in the same file, make sure Rtypes.h is included first!
     #define ClassDef(name,id)
     #define ClassDefNV(name, id)
     #define ClassDefOverride(name, id)
     #define ClassImp(name)
     #define templateClassImp(name)
     #ifndef GPUCA_GPUCODE_DEVICE
-//      typedef uint64_t ULong64_t;
-//      typedef uint32_t UInt_t;
       #include <iostream>
     #endif
   #endif
