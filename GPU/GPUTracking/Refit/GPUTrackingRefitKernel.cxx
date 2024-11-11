@@ -12,9 +12,9 @@
 /// \file GPUTrackingRefitKernel.cxx
 /// \author David Rohr
 
+#include "GPUROOTDump.h"
 #include "GPUTrackingRefitKernel.h"
 #include "GPUTrackingRefit.h"
-#include "GPUROOTDump.h"
 
 using namespace GPUCA_NAMESPACE::gpu;
 
