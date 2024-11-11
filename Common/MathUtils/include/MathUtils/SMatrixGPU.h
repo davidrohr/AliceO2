@@ -468,6 +468,9 @@ class SMatrixGPU
   GPUd() const T& operator()(unsigned int i, unsigned int j) const;
   GPUd() T& operator()(unsigned int i, unsigned int j);
 
+  template <typename X>
+  friend X& operator<<(X& x, const SMatrixGPU&) { return x; }
+
   class SMatrixRowGPU
   {
    public:
@@ -511,6 +514,12 @@ class SMatrixGPU
  public:
   R mRep;
 };
+
+template <class T, unsigned int D1, unsigned int D2, class R, typename X>
+X& operator<<(X& x, const SMatrixGPU<T, D1, D2, R>&)
+{
+  return x;
+}
 
 template <class T, unsigned int D1, unsigned int D2, class R>
 GPUdi() SMatrixGPU<T, D1, D2, R>::SMatrixGPU(SMatrixIdentity)
