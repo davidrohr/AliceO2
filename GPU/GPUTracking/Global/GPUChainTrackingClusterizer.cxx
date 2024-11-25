@@ -18,6 +18,7 @@
 #include "GPUO2DataTypes.h"
 #include "GPUMemorySizeScalers.h"
 #include "GPUTrackingInputProvider.h"
+#include "GPUNewCalibValues.h"
 #include <fstream>
 
 #ifdef GPUCA_O2_LIB

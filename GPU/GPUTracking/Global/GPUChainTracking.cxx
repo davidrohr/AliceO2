@@ -641,6 +641,9 @@ int32_t GPUChainTracking::DoQueuedUpdates(int32_t stream, bool updateSlave)
       if (mNewCalibValues->newContinuousMaxTimeBin) {
         grp->grpContinuousMaxTimeBin = mNewCalibValues->continuousMaxTimeBin;
       }
+      if (mNewCalibValues->newTPCTimeBinCut) {
+        grp->tpcCutTimeBin = mNewCalibValues->tpcTimeBinCut;
+      }
     }
   }
   if (GetProcessingSettings().tpcDownscaledEdx != 0) {

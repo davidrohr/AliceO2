@@ -24,4 +24,7 @@ void GPUNewCalibValues::updateFrom(const GPUNewCalibValues* from)
   if (from->newContinuousMaxTimeBin) {
     continuousMaxTimeBin = from->continuousMaxTimeBin;
   }
+  if (from->newTPCTimeBinCut) {
+    tpcTimeBinCut = from->tpcTimeBinCut;
+  }
 }

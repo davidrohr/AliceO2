@@ -1013,9 +1013,8 @@ void GPURecoWorkflowSpec::doCalibUpdates(o2::framework::ProcessingContext& pc, c
       LOG(info) << "Updating solenoid field " << newCalibValues.solenoidField;
     }
     if (mAutoContinuousMaxTimeBin) {
-      mConfig->configGRP.grpContinuousMaxTimeBin = GPUO2InterfaceUtils::getTpcMaxTimeBinFromNHbf(mTFSettings->nHBFPerTF);
       newCalibValues.newContinuousMaxTimeBin = true;
-      newCalibValues.continuousMaxTimeBin = mConfig->configGRP.grpContinuousMaxTimeBin;
+      newCalibValues.continuousMaxTimeBin = mConfig->configGRP.grpContinuousMaxTimeBin = GPUO2InterfaceUtils::getTpcMaxTimeBinFromNHbf(mTFSettings->nHBFPerTF);
       LOG(info) << "Updating max time bin " << newCalibValues.continuousMaxTimeBin << " (" << mTFSettings->nHBFPerTF << " orbits)";
     }
 
@@ -1049,6 +1048,11 @@ void GPURecoWorkflowSpec::doCalibUpdates(o2::framework::ProcessingContext& pc, c
   needCalibUpdate = fetchCalibsCCDBTPC(pc, newCalibObjects, oldCalibObjects) || needCalibUpdate;
   if (mSpecConfig.runITSTracking) {
     needCalibUpdate = fetchCalibsCCDBITS(pc) || needCalibUpdate;
+  }
+  if (mTPCCutAtTimeBin != mConfig->configGRP.tpcCutTimeBin) {
+    newCalibValues.newTPCTimeBinCut = true;
+    newCalibValues.tpcTimeBinCut = mConfig->configGRP.tpcCutTimeBin = mTPCCutAtTimeBin;
+    needCalibUpdate = true;
   }
   if (needCalibUpdate) {
     LOG(info) << "Updating GPUReconstruction calibration objects";
@@ -1098,6 +1102,7 @@ Inputs GPURecoWorkflowSpec::inputs()
   if (mSpecConfig.outputTracks || mSpecConfig.caClusterer) {
     // calibration objects for TPC clusterization
     inputs.emplace_back("tpcgain", gDataOriginTPC, "PADGAINFULL", 0, Lifetime::Condition, ccdbParamSpec(o2::tpc::CDBTypeMap.at(o2::tpc::CDBType::CalPadGainFull)));
+    inputs.emplace_back("tpcaltrosync", gDataOriginTPC, "ALTROSYNCSIGNAL", 0, Lifetime::Condition, ccdbParamSpec(o2::tpc::CDBTypeMap.at(o2::tpc::CDBType::AltroSyncSignal)));
   }
   if (mSpecConfig.outputTracks) {
     // calibration objects for TPC tracking

@@ -225,8 +225,8 @@ int32_t GPUChainTracking::RunTPCDecompression()
       GPUError("Error decompressing clusters");
       return 1;
     }
-    if (GetProcessingSettings().tpcApplyCFCutsAtDecoding) {
-      RunTPCClusterFilter(mClusterNativeAccess.get(), allocatorFinal, true);
+    if (GetProcessingSettings().tpcApplyCFCutsAtDecoding || param().tpcCutTimeBin > 0) {
+      RunTPCClusterFilter(mClusterNativeAccess.get(), allocatorFinal, GetProcessingSettings().tpcApplyCFCutsAtDecoding);
     }
     decompressTimer.Stop();
     mIOPtrs.clustersNative = mClusterNativeAccess.get();
