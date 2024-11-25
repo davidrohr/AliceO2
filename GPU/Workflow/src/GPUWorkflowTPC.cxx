@@ -308,6 +308,10 @@ bool GPURecoWorkflowSpec::fetchCalibsCCDBTPC<GPUCalibObjectsConst>(ProcessingCon
       pc.inputs().get<o2::tpc::CalDet<float>*>("tpcgain");
     }
 
+    if (mSpecConfig.outputTracks || mSpecConfig.caClusterer) {
+      mTPCCutAtTimeBin = pc.inputs().get<o2::tpc::CalDet<o2::tpc::AltroSyncSignal>*>("tpcaltrosync")->getTB2Cut(pc.services().get<o2::framework::TimingInfo>().tfCounter);
+    }
+
     // these calibrations are only defined for the tracking
     if (mSpecConfig.outputTracks) {
       // update the calibration objects in case they changed in the CCDB

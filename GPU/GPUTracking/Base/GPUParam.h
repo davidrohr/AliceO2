@@ -59,6 +59,7 @@ struct GPUParam_t {
 
   int8_t dodEdxDownscaled;
   int32_t continuousMaxTimeBin;
+  int32_t tpcCutTimeBin;
 
   GPUTPCGeometry tpcGeometry;                       // TPC Geometry
   GPUTPCGMPolynomialField polynomialField;          // Polynomial approx. of magnetic field for TPC GM
