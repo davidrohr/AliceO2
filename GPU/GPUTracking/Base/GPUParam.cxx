@@ -124,7 +124,7 @@ void GPUParam::SetDefaults(float solenoidBz)
   par.earlyTpcTransform = false;
 }
 
-void GPUParam::UpdateSettings(const GPUSettingsGRP* g, const GPUSettingsProcessing* p, const GPURecoStepConfiguration* w)
+void GPUParam::UpdateSettings(const GPUSettingsGRP* g, const GPUSettingsProcessing* p, const GPURecoStepConfiguration* w, const GPUSettingsRecDynamic* d)
 {
   if (g) {
     UpdateBzOnly(g->solenoidBzNominalGPU);
@@ -144,6 +144,9 @@ void GPUParam::UpdateSettings(const GPUSettingsGRP* g, const GPUSettingsProcessi
     if (par.dodEdx && p && p->tpcDownscaledEdx != 0) {
       dodEdxDownscaled = (rand() % 100) < p->tpcDownscaledEdx;
     }
+  }
+  if (d) {
+    rec.dyn = *d;
   }
 }
 
