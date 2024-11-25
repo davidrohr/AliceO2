@@ -181,6 +181,11 @@ AddOptionRTC(pileupBwdNBC, uint8_t, 80, "", 0, "Pre-trigger Pile-up integration 
 AddHelp("help", 'h')
 EndConfig()
 
+// Dynamic settings, must NOT use AddOptionRTC(...) !!!
+BeginSubConfig(GPUSettingsRecDynamic, dyn, configStandalone.rec, "RECDYN", 0, "Reconstruction settings", rec_dyn)
+AddHelp("help", 'h')
+EndConfig()
+
 BeginSubConfig(GPUSettingsRec, rec, configStandalone, "REC", 0, "Reconstruction settings", rec)
 AddOptionRTC(maxTrackQPtB5, float, 1.f / GPUCA_MIN_TRACK_PTB5_DEFAULT, "", 0, "required max Q/Pt (==min Pt) of tracks")
 AddOptionRTC(nonConsecutiveIDs, int8_t, false, "", 0, "Non-consecutive cluster IDs as in HLT, disables features that need access to slice data in TPC merger")
@@ -193,6 +198,7 @@ AddOptionRTC(trackingRefitGPUModel, int8_t, 1, "", 0, "Use GPU track model for t
 AddCustomCPP(void SetMinTrackPtB5(float v) { maxTrackQPtB5 = v > 0.001f ? (1.f / v) : (1.f / 0.001f); })
 AddSubConfig(GPUSettingsRecTPC, tpc)
 AddSubConfig(GPUSettingsRecTRD, trd)
+AddSubConfig(GPUSettingsRecDynamic, dyn)
 AddHelp("help", 'h')
 EndConfig()
 
