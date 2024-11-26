@@ -370,7 +370,7 @@ GPUd() bool GPUTPCGMTrackParam::Fit(GPUTPCGMMerger* GPUrestrict() merger, int32_
           CADEBUG(printf("Reinit linearization\n"));
           prop.SetTrack(this, prop.GetAlpha());
         }
-        if (param.par.dodEdx && param.dodEdxDownscaled && iWay == nWays - 1 && cluster.leg == clusters[maxN - 1].leg && !(clusterState & GPUTPCGMMergedTrackHit::flagEdge)) {
+        if (param.par.dodEdx && param.dodEdxDownscaled && iWay == nWays - 1 && cluster.leg == clusters[maxN - 1].leg && !(clusterState & GPUTPCGMMergedTrackHit::flagEdge)) { // TODO: Costimize flag to remove, and option to remove double-clusters
           float qtot = 0, qmax = 0, pad = 0, relTime = 0;
           const int32_t clusterCount = (ihit - ihitMergeFirst) * wayDirection + 1;
           for (int32_t iTmp = ihitMergeFirst; iTmp != ihit + wayDirection; iTmp += wayDirection) {
@@ -384,7 +384,7 @@ GPUd() bool GPUTPCGMTrackParam::Fit(GPUTPCGMMerger* GPUrestrict() merger, int32_
               relTime += cl.getTime();
             }
           }
-          qtot /= clusterCount;
+          qtot /= clusterCount; // TODO: Weighted Average
           pad /= clusterCount;
           relTime /= clusterCount;
           relTime = relTime - CAMath::Round(relTime);
@@ -528,7 +528,7 @@ GPUd() int32_t GPUTPCGMTrackParam::MergeDoubleRowClusters(int32_t& ihit, int32_t
         }
       } else {
         CADEBUG(printf("\t\tMerging hit row %d X %f Y %f Z %f (dy %f, dz %f, chiY %f, chiZ %f)\n", clusters[ihit].row, clx, cly, clz, dy, dz, sqrtf(maxDistY), sqrtf(maxDistZ)));
-        xx += clx * clamp;
+        xx += clx * clamp; // TODO: Weight in pad/time instead of XYZ
         yy += cly * clamp;
         zz += clz * clamp;
         clusterState |= clusters[ihit].state;
