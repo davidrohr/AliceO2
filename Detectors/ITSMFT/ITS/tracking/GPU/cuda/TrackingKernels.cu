@@ -1215,14 +1215,14 @@ void processNeighboursHandler(const int startLayer,
                                               thrust::raw_pointer_cast(&foundSeedsTable[0]), // d_in
                                               thrust::raw_pointer_cast(&foundSeedsTable[0]), // d_out
                                               nCurrentCells + 1,                             // num_items
-                                              0));
+                                              0)); // NOLINT: failure in clang-tidy
   discardResult(cudaMalloc(&d_temp_storage, temp_storage_bytes));
   gpuCheckError(cub::DeviceScan::ExclusiveSum(d_temp_storage,                                // d_temp_storage
                                               temp_storage_bytes,                            // temp_storage_bytes
                                               thrust::raw_pointer_cast(&foundSeedsTable[0]), // d_in
                                               thrust::raw_pointer_cast(&foundSeedsTable[0]), // d_out
                                               nCurrentCells + 1,                             // num_items
-                                              0));
+                                              0)); // NOLINT: failure in clang-tidy
 
   thrust::device_vector<int> updatedCellIds(foundSeedsTable.back()) /*, lastCellIds(foundSeedsTable.back())*/;
   thrust::device_vector<CellSeed> updatedCellSeeds(foundSeedsTable.back()) /*, lastCellSeeds(foundSeedsTable.back())*/;
