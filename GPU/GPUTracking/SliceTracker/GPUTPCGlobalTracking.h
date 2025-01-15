@@ -25,7 +25,6 @@ namespace gpu
 MEM_CLASS_PRE()
 class GPUTPCTracker;
 
-#if !defined(__OPENCL1__)
 class GPUTPCGlobalTracking : public GPUKernelTemplate
 {
  public:
@@ -49,7 +48,6 @@ class GPUTPCGlobalTracking : public GPUKernelTemplate
   GPUd() static int32_t PerformGlobalTrackingRun(GPUTPCTracker& tracker, GPUsharedref() MEM_LOCAL(GPUSharedMemory) & smem, const GPUTPCTracker& sliceSource, int32_t iTrack, int32_t rowIndex, float angle, int32_t direction);
   GPUd() static void PerformGlobalTracking(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread, const GPUTPCTracker& tracker, GPUsharedref() MEM_LOCAL(GPUSharedMemory) & smem, GPUTPCTracker& sliceTarget, bool right);
 };
-#endif
 
 class GPUTPCGlobalTrackingCopyNumbers : public GPUKernelTemplate
 {

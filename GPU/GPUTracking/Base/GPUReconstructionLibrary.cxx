@@ -102,10 +102,6 @@ std::shared_ptr<GPUReconstruction::LibraryLoader>* GPUReconstruction::GetLibrary
 #ifdef HIP_ENABLED
     return &sLibHIP;
 #endif
-  } else if (type == DeviceType::OCL) {
-#ifdef OPENCL1_ENABLED
-    return &sLibOCL;
-#endif
   } else if (type == DeviceType::OCL2) {
 #ifdef OPENCL2_ENABLED
     return &sLibOCL2;

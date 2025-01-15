@@ -29,7 +29,6 @@ namespace gpu
 class GPUTPCGMPolynomialField
 {
  public:
-#if !defined(__OPENCL1__)
   GPUTPCGMPolynomialField() : mNominalBz(0.f)
   {
     Reset();
@@ -75,11 +74,6 @@ class GPUTPCGMPolynomialField
   const float* GetCoefmItsBx() const { return mItsBx; }
   const float* GetCoefmItsBy() const { return mItsBy; }
   const float* GetCoefmItsBz() const { return mItsBz; }
-#else
-#define NTPCM 10
-#define NTRDM 20
-#define NITSM 10
-#endif
 
  private:
   float mNominalBz;    // nominal constant field value in [kG * 2.99792458E-4 GeV/c/cm]
@@ -93,8 +87,6 @@ class GPUTPCGMPolynomialField
   float mItsBy[NITSM];
   float mItsBz[NITSM];
 };
-
-#if !defined(__OPENCL1__)
 
 inline void GPUTPCGMPolynomialField::Reset()
 {
@@ -297,7 +289,6 @@ GPUdi() float GPUTPCGMPolynomialField::GetFieldItsBz(float x, float y, float z) 
   return bz;
 }
 
-#endif // __OPENCL__
 } // namespace gpu
 } // namespace GPUCA_NAMESPACE
 

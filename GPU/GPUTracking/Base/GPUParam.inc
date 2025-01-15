@@ -17,9 +17,7 @@
 
 #include "GPUParam.h"
 #include "GPUTPCGMMergedTrackHit.h"
-#if !defined(__OPENCL1__)
 #include "GPUTPCClusterOccupancyMap.h"
-#endif
 
 namespace GPUCA_NAMESPACE
 {
@@ -228,15 +226,11 @@ GPUdi() void MEM_LG(GPUParam)::UpdateClusterError2ByState(int16_t clusterState, 
 MEM_CLASS_PRE()
 GPUdi() float MEM_LG(GPUParam)::GetUnscaledMult(float time) const
 {
-#if !defined(__OPENCL1__)
   if (!occupancyMap) {
     return 0.f;
   }
   const uint32_t bin = CAMath::Max(0.f, time / rec.tpc.occupancyMapTimeBins);
   return occupancyMap[bin];
-#else
-  return 0.f;
-#endif
 }
 
 MEM_CLASS_PRE()

@@ -45,9 +45,7 @@ class GPUSettings
                               RejectionStrategyA = 1,
                               RejectionStrategyB = 2 };
 
-#if !defined(__OPENCL1__)
   static CONSTEXPR const uint32_t TPC_MAX_TF_TIME_BIN = ((256 * 3564 + 2 * 8 - 2) / 8);
-#endif
 };
 
 #ifdef GPUCA_NOCOMPAT

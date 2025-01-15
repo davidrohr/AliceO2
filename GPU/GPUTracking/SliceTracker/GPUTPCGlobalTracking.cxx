@@ -22,8 +22,6 @@
 
 using namespace GPUCA_NAMESPACE::gpu;
 
-#if !defined(__OPENCL1__)
-
 GPUd() int32_t GPUTPCGlobalTracking::PerformGlobalTrackingRun(GPUTPCTracker& tracker, GPUsharedref() MEM_LOCAL(GPUSharedMemory) & smem, const GPUTPCTracker& GPUrestrict() sliceSource, int32_t iTrack, int32_t rowIndex, float angle, int32_t direction)
 {
   /*for (int32_t j = 0;j < Tracks()[j].NHits();j++)
@@ -200,7 +198,6 @@ GPUd() void GPUTPCGlobalTracking::GlobalTrackingSliceLeftRight(uint32_t iSlice, 
     right += GPUDataTypes::NSLICES / 2;
   }
 }
-#endif // !__OPENCL1__
 
 template <>
 GPUdii() void GPUTPCGlobalTrackingCopyNumbers::Thread<0>(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread, GPUsharedref() MEM_LOCAL(GPUSharedMemory) & smem, processorType& GPUrestrict() tracker, int32_t n)

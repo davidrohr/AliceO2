@@ -31,12 +31,10 @@
 #include <cstdint>
 #endif
 
-#if !defined(__OPENCL1__)
 namespace GPUCA_NAMESPACE
 {
 namespace gpu
 {
-#endif
 
 class GPUCommonMath
 {
@@ -289,7 +287,7 @@ GPUhdi() void GPUCommonMath::SinCosd(double x, double& s, double& c)
 
 GPUdi() uint32_t GPUCommonMath::Clz(uint32_t x)
 {
-#if (defined(__GNUC__) || defined(__clang__) || defined(__CUDACC__) || defined(__HIPCC__)) && !defined(__OPENCL1__)
+#if (defined(__GNUC__) || defined(__clang__) || defined(__CUDACC__) || defined(__HIPCC__))
   return x == 0 ? 32 : CHOICE(__builtin_clz(x), __clz(x), __builtin_clz(x)); // use builtin if available
 #else
   for (int32_t i = 31; i >= 0; i--) {
@@ -303,7 +301,7 @@ GPUdi() uint32_t GPUCommonMath::Clz(uint32_t x)
 
 GPUdi() uint32_t GPUCommonMath::Popcount(uint32_t x)
 {
-#if (defined(__GNUC__) || defined(__clang__) || defined(__CUDACC__) || defined(__HIPCC__)) && (!defined(__OPENCL__) /* !defined(__OPENCL1__)*/) // TODO: exclude only OPENCLC (not CPP) when reported SPIR-V bug is fixed
+#if (defined(__GNUC__) || defined(__clang__) || defined(__CUDACC__) || defined(__HIPCC__)) && !defined(__OPENCL__) // TODO: remove OPENCL when reported SPIR-V bug is fixed
   // use builtin if available
   return CHOICE(__builtin_popcount(x), __popc(x), __builtin_popcount(x));
 #else
@@ -563,9 +561,7 @@ GPUdii() void GPUCommonMath::AtomicMinInternal(GPUglobalref() GPUgeneric() GPUAt
 
 #undef CHOICE
 
-#if !defined(__OPENCL1__)
-}
-}
-#endif
+} // namespace gpu
+} // namespace GPUCA_NAMESPACE
 
 #endif // GPUCOMMONMATH_H

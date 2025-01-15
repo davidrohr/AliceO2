@@ -20,7 +20,7 @@
 #include "GPUDataTypes.h"
 #include "GPUErrors.h"
 
-// Dummies for stuff not supported in legacy code (ROOT 5 / OPENCL1.2)
+// Dummies for stuff not supported in legacy code (ROOT 5)
 #if defined(GPUCA_NOCOMPAT_ALLCINT)
 #include "GPUTPCGMMerger.h"
 #else

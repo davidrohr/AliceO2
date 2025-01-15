@@ -26,7 +26,6 @@
 
 //#define GPUCA_CUDA_NO_CONSTANT_MEMORY          // Do not use constant memory for CUDA
 //#define GPUCA_HIP_NO_CONSTANT_MEMORY           // Do not use constant memory for HIP
-//#define GPUCA_OPENCL_NO_CONSTANT_MEMORY        // Do not use constant memory for OpenCL 1.2
 #define GPUCA_OPENCLCPP_NO_CONSTANT_MEMORY       // Do not use constant memory for OpenCL C++ - MANDATORY as OpenCL cannot cast between __constant and __generic yet!
 
 // clang-format on

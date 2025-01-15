@@ -94,14 +94,12 @@ class GPUTPCTracker : public GPUProcessor
     StructGPUParameters gpuParameters;  // GPU parameters
   };
 
-#if !defined(__OPENCL1__)
   GPUhdi() GPUglobalref() const GPUTPCClusterData* ClusterData() const
   {
     return mData.ClusterData();
   }
   GPUhdi() MakeType(const MEM_LG(GPUTPCRow) &) Row(const GPUTPCHitId& HitId) const { return mData.Row(HitId.RowIndex()); }
   GPUhdi() GPUglobalref() GPUTPCSliceOutput* Output() const { return mOutput; }
-#endif
   GPUhdni() GPUglobalref() commonMemoryStruct* CommonMemory() const
   {
     return (mCommonMem);
