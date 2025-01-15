@@ -81,7 +81,7 @@ typedef signed char int8_t;
 #define GPUCA_KRNL(...) GPUCA_KRNL_WRAP(GPUCA_KRNL_LOAD_, __VA_ARGS__)
 #define GPUCA_KRNL_LOAD_single(...) GPUCA_KRNLGPU_SINGLE(__VA_ARGS__)
 #define GPUCA_KRNL_LOAD_multi(...) GPUCA_KRNLGPU_MULTI(__VA_ARGS__)
-#define GPUCA_CONSMEM_PTR GPUglobal() char *gpu_mem, GPUconstant() MEM_CONSTANT(GPUConstantMem) * pConstant,
+#define GPUCA_CONSMEM_PTR GPUglobal() char *gpu_mem, GPUconstant() GPUConstantMem* pConstant,
 #define GPUCA_CONSMEM (*pConstant)
 #include "GPUReconstructionKernelList.h"
 #undef GPUCA_KRNL

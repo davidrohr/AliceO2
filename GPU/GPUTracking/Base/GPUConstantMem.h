@@ -71,12 +71,10 @@ namespace GPUCA_NAMESPACE
 {
 namespace gpu
 {
-MEM_CLASS_PRE()
 struct GPUConstantMem {
-  MEM_CONSTANT(GPUParam)
-  param;
-  MEM_GLOBAL(GPUTPCTracker)
-  tpcTrackers[GPUCA_NSLICES];
+  GPUParam param;
+  GPUTPCTracker
+    tpcTrackers[GPUCA_NSLICES];
   GPUTPCConvert tpcConverter;
   GPUTPCCompression tpcCompressor;
   GPUTPCDecompression tpcDecompressor;
@@ -150,7 +148,7 @@ namespace gpu
 {
 
 // Must be placed here, to avoid circular header dependency
-GPUdi() GPUconstantref() const MEM_CONSTANT(GPUConstantMem) * GPUProcessor::GetConstantMem() const
+GPUdi() GPUconstantref() const GPUConstantMem* GPUProcessor::GetConstantMem() const
 {
 #if defined(GPUCA_GPUCODE_DEVICE) && defined(GPUCA_HAS_GLOBAL_SYMBOL_CONSTANT_MEM) && !defined(GPUCA_GPUCODE_HOSTONLY)
   return &GPUCA_CONSMEM;
@@ -159,7 +157,7 @@ GPUdi() GPUconstantref() const MEM_CONSTANT(GPUConstantMem) * GPUProcessor::GetC
 #endif
 }
 
-GPUdi() GPUconstantref() const MEM_CONSTANT(GPUParam) & GPUProcessor::Param() const
+GPUdi() GPUconstantref() const GPUParam& GPUProcessor::Param() const
 {
   return GetConstantMem()->param;
 }

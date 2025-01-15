@@ -137,7 +137,6 @@ set(HDRS_INSTALL
     Definitions/GPUDefGPUParameters.h
     Definitions/GPUDef.h
     Definitions/GPUDefMacros.h
-    Definitions/GPUDefOpenCL12Templates.h
     Definitions/GPULogging.h
     Definitions/GPUSettingsList.h
     Global/GPUChainTrackingDefs.h

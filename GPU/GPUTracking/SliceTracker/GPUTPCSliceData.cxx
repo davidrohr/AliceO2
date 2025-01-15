@@ -32,7 +32,7 @@ using namespace GPUCA_NAMESPACE::gpu;
 
 #ifndef GPUCA_GPUCODE
 
-void GPUTPCSliceData::InitializeRows(const MEM_CONSTANT(GPUParam) & p)
+void GPUTPCSliceData::InitializeRows(const GPUParam& p)
 {
   // initialisation of rows
   for (int32_t i = 0; i < GPUCA_ROW_COUNT + 1; ++i) {
@@ -109,7 +109,7 @@ void* GPUTPCSliceData::SetPointersRows(void* mem)
 
 #endif
 
-GPUd() void GPUTPCSliceData::GetMaxNBins(GPUconstantref() const MEM_CONSTANT(GPUConstantMem) * mem, GPUTPCRow* GPUrestrict() row, int32_t& maxY, int32_t& maxZ)
+GPUd() void GPUTPCSliceData::GetMaxNBins(GPUconstantref() const GPUConstantMem* mem, GPUTPCRow* GPUrestrict() row, int32_t& maxY, int32_t& maxZ)
 {
   maxY = row->mMaxY * 2.f / GPUCA_MIN_BIN_SIZE + 1;
   maxZ = (mem->param.continuousMaxTimeBin > 0 ? (mem->calibObjects.fastTransformHelper->getCorrMap()->convTimeToZinTimeFrame(0, 0, mem->param.continuousMaxTimeBin)) : mem->param.tpcGeometry.TPCLength()) + 50;
@@ -121,7 +121,7 @@ GPUd() uint32_t GPUTPCSliceData::GetGridSize(uint32_t nHits, uint32_t nRows)
   return 128 * nRows + 4 * nHits;
 }
 
-GPUdi() void GPUTPCSliceData::CreateGrid(GPUconstantref() const MEM_CONSTANT(GPUConstantMem) * mem, GPUTPCRow* GPUrestrict() row, float yMin, float yMax, float zMin, float zMax)
+GPUdi() void GPUTPCSliceData::CreateGrid(GPUconstantref() const GPUConstantMem* mem, GPUTPCRow* GPUrestrict() row, float yMin, float yMax, float zMin, float zMax)
 {
   float dz = zMax - zMin;
   float tfFactor = 1.f;
@@ -172,7 +172,7 @@ GPUdii() void GPUTPCSliceData::SetRowGridEmpty(GPUTPCRow& GPUrestrict() row)
   }
 }
 
-GPUdii() int32_t GPUTPCSliceData::InitFromClusterData(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread, GPUconstantref() const MEM_CONSTANT(GPUConstantMem) * GPUrestrict() mem, int32_t iSlice, float* tmpMinMax)
+GPUdii() int32_t GPUTPCSliceData::InitFromClusterData(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread, GPUconstantref() const GPUConstantMem* GPUrestrict() mem, int32_t iSlice, float* tmpMinMax)
 {
 #ifdef GPUCA_GPUCODE
   constexpr bool EarlyTransformWithoutClusterNative = false;
