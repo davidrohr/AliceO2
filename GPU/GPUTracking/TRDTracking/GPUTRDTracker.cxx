@@ -442,8 +442,8 @@ GPUd() bool GPUTRDTracker_t<TRDTRK, PROP>::CalculateSpacePoints(int32_t iCollisi
     int32_t trkltIdxStart = trkltIdxOffset + iFirstTrackletInDet;
     for (int32_t trkltIdx = trkltIdxStart; trkltIdx < trkltIdxStart + nTrackletsInDet; ++trkltIdx) {
       int32_t trkltZbin = tracklets[trkltIdx].GetZbin();
-      float xTrkltDet[3] = {0.f};                                            // trklt position in chamber coordinates
-      float xTrkltSec[3] = {0.f};                                            // trklt position in sector coordinates
+      float xTrkltDet[3] = {0.f}; // trklt position in chamber coordinates
+      float xTrkltSec[3] = {0.f}; // trklt position in sector coordinates
       xTrkltDet[0] = mGeo->AnodePos() + sRadialOffset;
       xTrkltDet[1] = tracklets[trkltIdx].GetY();
       xTrkltDet[2] = pp->GetRowPos(trkltZbin) - pp->GetRowSize(trkltZbin) / 2.f - pp->GetRowPos(pp->GetNrows() / 2);

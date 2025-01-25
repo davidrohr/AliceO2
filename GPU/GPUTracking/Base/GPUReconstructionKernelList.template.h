@@ -17,4 +17,4 @@
 
 // clang-format off
 $<JOIN:$<TARGET_PROPERTY:O2_GPU_KERNELS,O2_GPU_KERNELS>,>
-// clang-format on
+  // clang-format on
