@@ -136,12 +136,7 @@ set_target_cuda_arch(${targetName})
 #target_link_options(${targetName} PRIVATE "LINKER:--version-script=${CMAKE_CURRENT_SOURCE_DIR}/version_script.ld")
 #set_target_properties(${targetName} PROPERTIES LINK_DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/version_script.ld)
 
-if(OpenMP_CXX_FOUND)
-  # Must be private, depending libraries might be compiled by compiler not understanding -fopenmp
-  target_compile_definitions(${targetName} PRIVATE WITH_OPENMP)
-  target_link_libraries(${targetName} PRIVATE OpenMP::OpenMP_CXX)
-  set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -Xcompiler -fopenmp")
-endif()
+target_link_libraries(${targetName} PRIVATE TBB::tbb)
 
 # Special handling of GPU kernels in case of per-kernel compilation / RDC
 if(NOT DEFINED GPUCA_CUDA_COMPILE_MODE)

@@ -40,6 +40,8 @@
 #include "TPCBase/CRU.h"
 #include "DetectorsRaw/RDHUtils.h"
 
+#include <oneapi/tbb.h>
+
 using namespace o2::gpu;
 using namespace o2::tpc;
 using namespace o2::tpc::constants;
@@ -1306,6 +1308,17 @@ size_t zsEncoderRun<T>::compare(std::vector<zsPage>* buffer, std::vector<o2::tpc
 } // anonymous namespace
 #endif // GPUCA_TPC_GEOMETRY_O2
 
+namespace o2::gpu::internal
+{
+struct tmpReductionResult {
+  uint32_t totalPages = 0;
+  size_t totalSize = 0;
+  size_t nErrors = 0;
+  size_t digitsInput = 0;
+  size_t digitsEncoded = 0;
+};
+} // namespace o2::gpu::internal
+
 template <class S>
 void GPUReconstructionConvert::RunZSEncoder(const S& in, std::unique_ptr<uint64_t[]>* outBuffer, uint32_t* outSizes, o2::raw::RawFileWriter* raw, const o2::InteractionRecord* ir, const GPUParam& param, int32_t version, bool verify, float threshold, bool padding, std::function<void(std::vector<o2::tpc::Digit>&)> digitsFilter)
 {
@@ -1316,64 +1329,65 @@ void GPUReconstructionConvert::RunZSEncoder(const S& in, std::unique_ptr<uint64_
   }
 #ifdef GPUCA_TPC_GEOMETRY_O2
   std::vector<zsPage> buffer[NSLICES][GPUTrackingInOutZS::NENDPOINTS];
-  uint32_t totalPages = 0;
-  size_t totalSize = 0;
-  size_t nErrors = 0;
-  size_t digitsInput = 0;
-  size_t digitsEncoded = 0;
-  // clang-format off
-  GPUCA_OPENMP(parallel for reduction(+ : totalPages, nErrors, totalSize, digitsInput, digitsEncoded))
-  // clang-format on
-  for (uint32_t i = 0; i < NSLICES; i++) {
-    std::vector<o2::tpc::Digit> tmpBuffer;
-    digitsInput += ZSEncoderGetNDigits(in, i);
-    tmpBuffer.resize(ZSEncoderGetNDigits(in, i));
-    if (threshold > 0.f && !digitsFilter) {
-      auto it = std::copy_if(ZSEncoderGetDigits(in, i), ZSEncoderGetDigits(in, i) + ZSEncoderGetNDigits(in, i), tmpBuffer.begin(), [threshold](auto& v) { return v.getChargeFloat() >= threshold; });
-      tmpBuffer.resize(std::distance(tmpBuffer.begin(), it));
-    } else {
-      std::copy(ZSEncoderGetDigits(in, i), ZSEncoderGetDigits(in, i) + ZSEncoderGetNDigits(in, i), tmpBuffer.begin());
-    }
-
-    if (digitsFilter) {
-      digitsFilter(tmpBuffer);
-      if (threshold > 0.f) {
-        std::vector<o2::tpc::Digit> tmpBuffer2 = std::move(tmpBuffer);
-        tmpBuffer = std::vector<o2::tpc::Digit>(tmpBuffer2.size());
-        auto it = std::copy_if(tmpBuffer2.begin(), tmpBuffer2.end(), tmpBuffer.begin(), [threshold](auto& v) { return v.getChargeFloat() >= threshold; });
+  tbb::parallel_reduce(tbb::blocked_range<uint32_t>(0, NSLICES), o2::gpu::internal::tmpReductionResult(), [&](const auto range, const auto red) {
+    for (uint32_t i = r.begin(); i < r.end(); ++i) {
+      std::vector<o2::tpc::Digit> tmpBuffer;
+      red.digitsInput += ZSEncoderGetNDigits(in, i);
+      tmpBuffer.resize(ZSEncoderGetNDigits(in, i));
+      if (threshold > 0.f && !digitsFilter) {
+        auto it = std::copy_if(ZSEncoderGetDigits(in, i), ZSEncoderGetDigits(in, i) + ZSEncoderGetNDigits(in, i), tmpBuffer.begin(), [threshold](auto& v) { return v.getChargeFloat() >= threshold; });
         tmpBuffer.resize(std::distance(tmpBuffer.begin(), it));
+      } else {
+        std::copy(ZSEncoderGetDigits(in, i), ZSEncoderGetDigits(in, i) + ZSEncoderGetNDigits(in, i), tmpBuffer.begin());
       }
-    }
-    digitsEncoded += tmpBuffer.size();
 
-    auto runZS = [&](auto& encoder) {
-      encoder.zsVersion = version;
-      encoder.init();
-      totalPages += encoder.run(buffer[i], tmpBuffer, &totalSize);
-      if (verify) {
-        nErrors += encoder.compare(buffer[i], tmpBuffer); // Verification
+      if (digitsFilter) {
+        digitsFilter(tmpBuffer);
+        if (threshold > 0.f) {
+          std::vector<o2::tpc::Digit> tmpBuffer2 = std::move(tmpBuffer);
+          tmpBuffer = std::vector<o2::tpc::Digit>(tmpBuffer2.size());
+          auto it = std::copy_if(tmpBuffer2.begin(), tmpBuffer2.end(), tmpBuffer.begin(), [threshold](auto& v) { return v.getChargeFloat() >= threshold; });
+          tmpBuffer.resize(std::distance(tmpBuffer.begin(), it));
+        }
       }
-    };
+      red.digitsEncoded += tmpBuffer.size();
 
-    if (version >= ZSVersion::ZSVersionRowBased10BitADC && version <= ZSVersion::ZSVersionRowBased12BitADC) {
-      zsEncoderRun<zsEncoderRow> enc{{{.iSector = i, .raw = raw, .ir = ir, .param = &param, .padding = padding}}};
-      runZS(enc);
-    } else if (version >= ZSVersion::ZSVersionLinkBasedWithMeta && version <= ZSVersion::ZSVersionDenseLinkBasedV2) {
+      auto runZS = [&](auto& encoder) {
+        encoder.zsVersion = version;
+        encoder.init();
+        red.totalPages += encoder.run(buffer[i], tmpBuffer, &red.totalSize);
+        if (verify) {
+          red.nErrors += encoder.compare(buffer[i], tmpBuffer); // Verification
+        }
+      };
+
+      if (version >= ZSVersion::ZSVersionRowBased10BitADC && version <= ZSVersion::ZSVersionRowBased12BitADC) {
+        zsEncoderRun<zsEncoderRow> enc{{{.iSector = i, .raw = raw, .ir = ir, .param = &param, .padding = padding}}};
+        runZS(enc);
+      } else if (version >= ZSVersion::ZSVersionLinkBasedWithMeta && version <= ZSVersion::ZSVersionDenseLinkBasedV2) {
 #ifdef GPUCA_O2_LIB
-      if (version == ZSVersion::ZSVersionLinkBasedWithMeta) {
-        zsEncoderRun<zsEncoderImprovedLinkBased> enc{{{{.iSector = i, .raw = raw, .ir = ir, .param = &param, .padding = padding}}}};
-        runZS(enc);
-      } else if (version >= ZSVersion::ZSVersionDenseLinkBased && version <= ZSVersion::ZSVersionDenseLinkBasedV2) {
-        zsEncoderRun<zsEncoderDenseLinkBased> enc{{{{.iSector = i, .raw = raw, .ir = ir, .param = &param, .padding = padding}}}};
-        runZS(enc);
-      }
+        if (version == ZSVersion::ZSVersionLinkBasedWithMeta) {
+          zsEncoderRun<zsEncoderImprovedLinkBased> enc{{{{.iSector = i, .raw = raw, .ir = ir, .param = &param, .padding = padding}}}};
+          runZS(enc);
+        } else if (version >= ZSVersion::ZSVersionDenseLinkBased && version <= ZSVersion::ZSVersionDenseLinkBasedV2) {
+          zsEncoderRun<zsEncoderDenseLinkBased> enc{{{{.iSector = i, .raw = raw, .ir = ir, .param = &param, .padding = padding}}}};
+          runZS(enc);
+        }
 #else
-      throw std::runtime_error("Link based ZS encoding not supported in standalone build");
+        throw std::runtime_error("Link based ZS encoding not supported in standalone build");
 #endif
-    } else {
-      throw std::runtime_error("Invalid ZS version "s + std::to_string(version) + ", cannot decode"s);
+      } else {
+        throw std::runtime_error("Invalid ZS version "s + std::to_string(version) + ", cannot decode"s);
+      }
     }
-  }
+    return red; }, [&](const auto& red1, const auto& red2) {
+    auto red = red1;
+    red.totalPages += red2.totalPages;
+    red.totalSize += red2.totalSize;
+    red.nErrors += red2.nErrors;
+    red.digitsInput += red2.digitsInput;
+    red.digitsEncoded += red2.digitsEncoded;
+    return red; });
 
   if (outBuffer) {
     outBuffer->reset(new uint64_t[totalPages * TPCZSHDR::TPC_ZS_PAGE_SIZE / sizeof(uint64_t)]);

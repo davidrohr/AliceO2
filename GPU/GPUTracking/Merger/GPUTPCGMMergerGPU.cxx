@@ -14,9 +14,7 @@
 
 #include "GPUTPCGMMergerGPU.h"
 #include "GPUCommonAlgorithm.h"
-#if defined(WITH_OPENMP) && !defined(GPUCA_GPUCODE)
-#include "GPUReconstruction.h"
-#endif
+#include "GPUReconstructionThreading.h"
 
 using namespace o2::gpu;
 
@@ -24,20 +22,18 @@ template <>
 GPUdii() void GPUTPCGMMergerTrackFit::Thread<0>(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread, GPUsharedref() GPUSharedMemory& smem, processorType& GPUrestrict() merger, int32_t mode)
 {
   const int32_t iEnd = mode == -1 ? merger.Memory()->nRetryRefit : merger.NOutputTracks();
-  GPUCA_OPENMP(parallel for if(!merger.GetRec().GetProcessingSettings().ompKernels) num_threads(merger.GetRec().GetProcessingSettings().ompThreads))
-  for (int32_t ii = get_global_id(0); ii < iEnd; ii += get_global_size(0)) {
+  GPUCA_TBB_KERNEL_LOOP(merger.GetRec(), int32_t, ii, iEnd, {
     const int32_t i = mode == -1 ? merger.RetryRefitIds()[ii] : mode ? merger.TrackOrderProcess()[ii] : ii;
     GPUTPCGMTrackParam::RefitTrack(merger.OutputTracks()[i], i, &merger, mode == -1);
-  }
+  });
 }
 
 template <>
 GPUdii() void GPUTPCGMMergerFollowLoopers::Thread<0>(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread, GPUsharedref() GPUSharedMemory& smem, processorType& GPUrestrict() merger)
 {
-  GPUCA_OPENMP(parallel for if(!merger.GetRec().GetProcessingSettings().ompKernels) num_threads(merger.GetRec().GetProcessingSettings().ompThreads))
-  for (uint32_t i = get_global_id(0); i < merger.Memory()->nLoopData; i += get_global_size(0)) {
+  GPUCA_TBB_KERNEL_LOOP(merger.GetRec(), uint32_t, i, merger.Memory()->nLoopData, {
     GPUTPCGMTrackParam::RefitLoop(&merger, i);
-  }
+  });
 }
 
 template <>

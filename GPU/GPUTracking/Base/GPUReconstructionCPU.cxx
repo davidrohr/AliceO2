@@ -14,6 +14,7 @@
 
 #include "GPUReconstructionCPU.h"
 #include "GPUReconstructionIncludes.h"
+#include "GPUReconstructionThreading.h"
 #include "GPUChain.h"
 
 #include "GPUTPCClusterData.h"
@@ -38,13 +39,6 @@
 
 #ifndef _WIN32
 #include <unistd.h>
-#endif
-
-#if defined(WITH_OPENMP) || defined(_OPENMP)
-#include <omp.h>
-#else
-static inline int32_t omp_get_thread_num() { return 0; }
-static inline int32_t omp_get_max_threads() { return 1; }
 #endif
 
 using namespace o2::gpu;
@@ -111,24 +105,20 @@ inline int32_t GPUReconstructionCPUBackend::runKernelBackendInternal(const krnlS
 template <>
 inline int32_t GPUReconstructionCPUBackend::runKernelBackendInternal<GPUMemClean16, 0>(const krnlSetupTime& _xyz, void* const& ptr, uint64_t const& size)
 {
-#ifdef WITH_OPENMP
   int32_t nOMPThreads = std::max<int32_t>(1, std::min<int32_t>(size / (16 * 1024 * 1024), getNOMPThreads()));
   if (nOMPThreads > 1) {
-    GPUCA_OPENMP(parallel num_threads(nOMPThreads))
-    {
-      size_t threadSize = size / omp_get_num_threads();
+    tbb::parallel_for(0, nOMPThreads, [&](int iThread) {
+      size_t threadSize = size / nOMPThreads;
       if (threadSize % 4096) {
         threadSize += 4096 - threadSize % 4096;
       }
-      size_t offset = threadSize * omp_get_thread_num();
+      size_t offset = threadSize * iThread;
       size_t mySize = std::min<size_t>(threadSize, size - offset);
       if (mySize) {
         memset((char*)ptr + offset, 0, mySize);
-      }
-    }
-  } else
-#endif
-  {
+      }// clang-format off
+    }, tbb::static_partitioner());// clang-format on
+  } else {
     memset(ptr, 0, size);
   }
   return 0;
@@ -353,7 +343,7 @@ void GPUReconstructionCPU::ResetDeviceProcessorTypes()
 
 int32_t GPUReconstructionCPUBackend::getOMPThreadNum()
 {
-  return omp_get_thread_num();
+  return tbb::this_task_arena::current_thread_index();
 }
 
 int32_t GPUReconstructionCPUBackend::getOMPMaxThreads()

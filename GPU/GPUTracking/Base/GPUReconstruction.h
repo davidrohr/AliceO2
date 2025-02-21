@@ -51,6 +51,7 @@ namespace gpu
 class GPUChain;
 struct GPUMemorySizeScalers;
 struct GPUReconstructionPipelineContext;
+struct GPUReconstructionThreading;
 class GPUROOTDumpCore;
 
 namespace gpu_reconstruction_kernels
@@ -207,7 +208,7 @@ class GPUReconstruction
   void SetInputControl(void* ptr, size_t size);
   GPUOutputControl& OutputControl() { return mOutputControl; }
   int32_t GetMaxThreads() const { return mMaxThreads; }
-  int32_t SetNOMPThreads(int32_t n);
+  void SetNOMPThreads(int32_t n);
   int32_t NStreams() const { return mNStreams; }
   const void* DeviceMemoryBase() const { return mDeviceMemoryBase; }
 
@@ -233,6 +234,8 @@ class GPUReconstruction
   virtual void PrintKernelOccupancies() {}
   double GetStatKernelTime() { return mStatKernelTime; }
   double GetStatWallTime() { return mStatWallTime; }
+
+  std::unique_ptr<GPUReconstructionThreading> mThreading;
 
  protected:
   void AllocateRegisteredMemoryInternal(GPUMemoryResource* res, GPUOutputControl* control, GPUReconstruction* recPool);

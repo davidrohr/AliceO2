@@ -23,12 +23,9 @@
 #include <condition_variable>
 #include <array>
 
-#ifdef WITH_OPENMP
-#include <omp.h>
-#endif
-
 #include "GPUReconstruction.h"
 #include "GPUReconstructionIncludes.h"
+#include "GPUReconstructionThreading.h"
 #include "GPUROOTDumpCore.h"
 #include "GPUConfigDump.h"
 #include "GPUChainTracking.h"
@@ -121,17 +118,12 @@ void GPUReconstruction::GetITSTraits(std::unique_ptr<o2::its::TrackerTraits>* tr
   }
 }
 
-int32_t GPUReconstruction::SetNOMPThreads(int32_t n)
+void GPUReconstruction::SetNOMPThreads(int32_t n)
 {
-#ifdef WITH_OPENMP
-  omp_set_num_threads(mProcessingSettings.ompThreads = std::max(1, n < 0 ? mMaxOMPThreads : std::min(n, mMaxOMPThreads)));
+  mProcessingSettings.ompThreads = std::max(1, n < 0 ? mMaxOMPThreads : std::min(n, mMaxOMPThreads));
   if (mProcessingSettings.debugLevel >= 3) {
-    GPUInfo("Set number of OpenMP threads to %d (%d requested)", mProcessingSettings.ompThreads, n);
+    GPUInfo("Set number of parallel threads to %d (%d requested)", mProcessingSettings.ompThreads, n);
   }
-  return n > mMaxOMPThreads;
-#else
-  return 1;
-#endif
 }
 
 int32_t GPUReconstruction::Init()
@@ -299,23 +291,15 @@ int32_t GPUReconstruction::InitPhaseBeforeDevice()
     mMemoryScalers->rescaleMaxMem(mProcessingSettings.forceMaxMemScalers);
   }
 
-#ifdef WITH_OPENMP
   if (mProcessingSettings.ompThreads <= 0) {
-    mProcessingSettings.ompThreads = omp_get_max_threads();
+    mProcessingSettings.ompThreads = tbb::info::default_concurrency();
   } else {
     mProcessingSettings.ompAutoNThreads = false;
-    omp_set_num_threads(mProcessingSettings.ompThreads);
   }
-  if (mProcessingSettings.ompKernels) {
-    if (omp_get_max_active_levels() < 2) {
-      omp_set_max_active_levels(2);
-    }
-  }
-#else
-  mProcessingSettings.ompThreads = 1;
-#endif
   mMaxOMPThreads = mProcessingSettings.ompThreads;
-  mMaxThreads = std::max(mMaxThreads, mProcessingSettings.ompThreads);
+  mThreading->control = std::make_unique<tbb::global_control>(tbb::global_control::max_allowed_parallelism, mMaxOMPThreads);
+  mThreading->allThreads = std::make_unique<tbb::task_arena>(mMaxOMPThreads);
+  mMaxThreads = std::max(mMaxThreads, mMaxOMPThreads);
   if (IsGPU()) {
     mNStreams = std::max<int32_t>(mProcessingSettings.nStreams, 3);
   }

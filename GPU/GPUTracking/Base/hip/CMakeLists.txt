@@ -189,11 +189,7 @@ endif()
 target_link_libraries(${targetName} PRIVATE hip::host hip::device hip::hipcub roc::rocthrust)
 set_target_hip_arch(${targetName})
 
-if(OpenMP_CXX_FOUND)
-  # Must be private, depending libraries might be compiled by compiler not understanding -fopenmp
-  target_compile_definitions(${MODULE}_CXX PRIVATE WITH_OPENMP)
-  target_link_libraries(${MODULE}_CXX PRIVATE OpenMP::OpenMP_CXX)
-endif()
+target_link_libraries(${MODULE}_CXX PRIVATE TBB::tbb)
 
 # Special handling of GPU kernels in case of per-kernel compilation / RDC
 if(NOT DEFINED GPUCA_HIP_COMPILE_MODE)

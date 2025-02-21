@@ -76,6 +76,8 @@
 #include "utils/qconfig.h"
 #include "utils/timer.h"
 
+#include <oneapi/tbb.h>
+
 using namespace o2::gpu;
 
 #ifdef GPUCA_MERGER_BY_MC_LABEL
@@ -1135,8 +1137,7 @@ void GPUQA::RunQA(bool matchOnly, const std::vector<o2::tpc::TrackTPC>* tracksEx
     }
 
     // Compute MC Track Parameters for MC Tracks
-    GPUCA_OPENMP(parallel for)
-    for (uint32_t iCol = 0; iCol < GetNMCCollissions(); iCol++) {
+    tbb::parallel_for(0, GetNMCCollissions(), [&](uint32_t iCol) {
       for (uint32_t i = 0; i < GetNMCTracks(iCol); i++) {
         const mcInfo_t& info = GetMCTrack(i, iCol);
         additionalMCParameters& mc2 = mMCParam[iCol][i];
@@ -1153,8 +1154,8 @@ void GPUQA::RunQA(bool matchOnly, const std::vector<o2::tpc::TrackTPC>* tracksEx
           std::vector<int32_t>& effBuffer = mcEffBuffer[mNEvents - 1];
           effBuffer[i] = mRecTracks[iCol][i] * 1000 + mFakeTracks[iCol][i];
         }
-      }
-    }
+      }// clang-format off
+    }, tbb::simple_partitioner());// clang-format on
     if (QA_TIMING || (mTracking && mTracking->GetProcessingSettings().debugLevel >= 3)) {
       GPUInfo("QA Time: Compute track mc parameters:\t%6.0f us", timer.GetCurrentElapsedTime(true) * 1e6);
     }

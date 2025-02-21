@@ -105,6 +105,7 @@ set(HDRS_INSTALL
     Base/GPUParam.inc
     Base/GPUParamRTC.h
     Base/GPUReconstructionIncludes.h
+    Base/GPUReconstructionThreading.h
     Base/GPUReconstructionIncludesITS.h
     Base/GPUReconstructionKernelMacros.h
     Base/GPUReconstructionKernels.h
@@ -378,12 +379,7 @@ if(GPUCA_QA)
   target_compile_definitions(${targetName} PRIVATE GPUCA_BUILD_QA)
 endif()
 
-if(OpenMP_CXX_FOUND)
-  message(STATUS "GPU: Using OpenMP: ${OpenMP_CXX_SPEC_DATE}")
-  # Must be private, depending libraries might be compiled by compiler not understanding -fopenmp
-  target_compile_definitions(${targetName} PRIVATE WITH_OPENMP)
-  target_link_libraries(${targetName} PRIVATE OpenMP::OpenMP_CXX)
-endif()
+target_link_libraries(${targetName} PRIVATE TBB::tbb)
 
 target_compile_options(${targetName} PRIVATE -Wno-instantiation-after-specialization)
 

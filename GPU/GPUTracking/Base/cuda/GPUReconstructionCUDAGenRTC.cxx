@@ -13,9 +13,6 @@
 /// \author David Rohr
 
 #define GPUCA_GPUCODE_HOSTONLY
-#ifdef WITH_OPENMP
-#include <omp.h>
-#endif
 #include "GPUReconstructionCUDA.h"
 #include "GPUParamRTC.h"
 #include "GPUDefMacros.h"
@@ -25,6 +22,7 @@
 #include <fcntl.h>
 #include <filesystem>
 
+#include <oneapi/tbb.h>
 using namespace o2::gpu;
 
 #include "utils/qGetLdBinarySymbols.h"
@@ -153,10 +151,7 @@ int32_t GPUReconstructionCUDA::genRTC(std::string& filename, uint32_t& nCompile)
     }
     HighResTimer rtcTimer;
     rtcTimer.ResetStart();
-#ifdef WITH_OPENMP
-#pragma omp parallel for schedule(dynamic, 1)
-#endif
-    for (uint32_t i = 0; i < nCompile; i++) {
+    tbb::parallel_for<uint32_t>(0, nCompile, [&](auto i) {
       if (mProcessingSettings.debugLevel >= 3) {
         printf("Compiling %s\n", (filename + "_" + std::to_string(i) + mRtcSrcExtension).c_str());
       }
@@ -190,8 +185,8 @@ int32_t GPUReconstructionCUDA::genRTC(std::string& filename, uint32_t& nCompile)
           printf("Source code file: %s", filename.c_str());
         }
         throw std::runtime_error("Error during CUDA compilation");
-      }
-    }
+      }// clang-format off
+    }, tbb::simple_partitioner());// clang-format on
     if (mProcessingSettings.debugLevel >= 0) {
       GPUInfo("RTC Compilation finished (%f seconds)", rtcTimer.GetCurrentElapsedTime());
     }

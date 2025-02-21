@@ -24,9 +24,6 @@
 #ifndef _WIN32
 #include "../utils/linux_helpers.h"
 #endif
-#ifdef WITH_OPENMP
-#include <omp.h>
-#endif
 
 #include "GPUChainTracking.h"
 #include "GPUQA.h"

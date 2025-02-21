@@ -36,9 +36,7 @@
 #include "SimulationDataFormat/ConstMCTruthContainer.h"
 #include "GPUTrackParamConvert.h"
 
-#ifdef WITH_OPENMP
-#include <omp.h>
-#endif
+#include <oneapi/tbb.h>
 
 using namespace o2::gpu;
 
@@ -776,26 +774,18 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
       mGlDLFinal[iSlice].resize(mNCollissions);
     }
   }
-  GPUCA_OPENMP(parallel num_threads(getNumThreads()))
-  {
-#ifdef WITH_OPENMP
+  tbb::task_arena(getNumThreads()).execute([&] {
     int32_t numThread = omp_get_thread_num();
     int32_t numThreads = omp_get_num_threads();
-#else
-    int32_t numThread = 0, numThreads = 1;
-#endif
     if (mChain && (mChain->GetRecoSteps() & GPUDataTypes::RecoStep::TPCSliceTracking)) {
-      GPUCA_OPENMP(for)
-      for (int32_t iSlice = 0; iSlice < NSLICES; iSlice++) {
+      tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
         GPUTPCTracker& tracker = (GPUTPCTracker&)sliceTracker(iSlice);
         tracker.SetPointersDataLinks(tracker.LinkTmpMemory());
         mGlDLLines[iSlice][tINITLINK] = DrawLinks(tracker, tINITLINK, true);
-        tracker.SetPointersDataLinks(mChain->rec()->Res(tracker.MemoryResLinks()).Ptr());
-      }
-      GPUCA_OPENMP(barrier)
+        tracker.SetPointersDataLinks(mChain->rec()->Res(tracker.MemoryResLinks()).Ptr()); // clang-format off
+      }, tbb::simple_partitioner()); // clang-format on
 
-      GPUCA_OPENMP(for)
-      for (int32_t iSlice = 0; iSlice < NSLICES; iSlice++) {
+      tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
         const GPUTPCTracker& tracker = sliceTracker(iSlice);
 
         mGlDLLines[iSlice][tLINK] = DrawLinks(tracker, tLINK);
@@ -805,16 +795,13 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
         mGlDLGrid[iSlice] = DrawGrid(tracker);
         if (iSlice < NSLICES / 2) {
           mGlDLGridTRD[iSlice] = DrawGridTRD(iSlice);
-        }
-      }
-      GPUCA_OPENMP(barrier)
+        } // clang-format off
+      }, tbb::simple_partitioner()); // clang-format on
 
-      GPUCA_OPENMP(for)
-      for (int32_t iSlice = 0; iSlice < NSLICES; iSlice++) {
+      tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
         const GPUTPCTracker& tracker = sliceTracker(iSlice);
-        mGlDLLines[iSlice][tEXTRAPOLATEDTRACK] = DrawTracks(tracker, 1);
-      }
-      GPUCA_OPENMP(barrier)
+        mGlDLLines[iSlice][tEXTRAPOLATEDTRACK] = DrawTracks(tracker, 1);// clang-format off
+      }, tbb::simple_partitioner()); // clang-format on
     }
     mThreadTracks[numThread].resize(mNCollissions);
     for (int32_t i = 0; i < mNCollissions; i++) {
@@ -827,8 +814,7 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
     if (mConfig.showTPCTracksFromO2Format) {
 #ifdef GPUCA_TPC_GEOMETRY_O2
       uint32_t col = 0;
-      GPUCA_OPENMP(for)
-      for (uint32_t i = 0; i < mIOPtrs->nOutputTracksTPCO2; i++) {
+      tbb::parallel_for(0, mIOPtrs->nOutputTracksTPCO2, [&](uint32_t i) {
         uint8_t sector, row;
         if (mIOPtrs->clustersNative) {
           mIOPtrs->outputTracksTPCO2[i].getCluster(mIOPtrs->outputClusRefsTPCO2, 0, *mIOPtrs->clustersNative, sector, row);
@@ -839,11 +825,10 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
           col = mQA->GetMCLabelCol(mIOPtrs->outputTracksTPCO2MC[i]);
         }
         mThreadTracks[numThread][col][sector][0].emplace_back(i);
-      }
+      });
 #endif
     } else {
-      GPUCA_OPENMP(for)
-      for (uint32_t i = 0; i < mIOPtrs->nMergedTracks; i++) {
+      tbb::parallel_for(0, mIOPtrs->nMergedTracks, [&](uint32_t i) {
         const GPUTPCGMMergedTrack* track = &mIOPtrs->mergedTracks[i];
         if (track->NClusters() == 0) {
           continue;
@@ -864,11 +849,10 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
 #endif
         }
         mThreadTracks[numThread][col][slice][0].emplace_back(i);
-      }
+      });
     }
     for (uint32_t col = 0; col < mIOPtrs->nMCInfosTPCCol; col++) {
-      GPUCA_OPENMP(for)
-      for (uint32_t i = mIOPtrs->mcInfosTPCCol[col].first; i < mIOPtrs->mcInfosTPCCol[col].first + mIOPtrs->mcInfosTPCCol[col].num; i++) {
+      tbb::parallel_for(mIOPtrs->mcInfosTPCCol[col].first, mIOPtrs->mcInfosTPCCol[col].first + mIOPtrs->mcInfosTPCCol[col].num, [&](uint32_t i) {
         const GPUTPCMCInfo& mc = mIOPtrs->mcInfosTPC[i];
         if (mc.charge == 0.f) {
           continue;
@@ -886,17 +870,15 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
           slice += 18;
         }
         mThreadTracks[numThread][col][slice][1].emplace_back(i);
-      }
+      });
     }
-    GPUCA_OPENMP(barrier)
 
     GPUTPCGMPropagator prop;
     prop.SetMaxSinPhi(.999);
     prop.SetMaterialTPC();
     prop.SetPolynomialField(&mParam->polynomialField);
 
-    GPUCA_OPENMP(for)
-    for (int32_t iSlice = 0; iSlice < NSLICES; iSlice++) {
+    tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
       for (int32_t iCol = 0; iCol < mNCollissions; iCol++) {
         mThreadBuffers[numThread].clear();
         for (int32_t iSet = 0; iSet < numThreads; iSet++) {
@@ -915,18 +897,16 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
           }
           list[i] = vboList(startCount, mVertexBufferStart[iSlice].size() - startCount, iSlice);
         }
-      }
-    }
+      }// clang-format off
+    }, tbb::simple_partitioner());// clang-format on
 
-    GPUCA_OPENMP(barrier)
-    GPUCA_OPENMP(for)
-    for (int32_t iSlice = 0; iSlice < NSLICES; iSlice++) {
+    tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
       for (int32_t i = 0; i < N_POINTS_TYPE_TPC; i++) {
         for (int32_t iCol = 0; iCol < mNCollissions; iCol++) {
           mGlDLPoints[iSlice][i][iCol] = DrawClusters(iSlice, i, iCol);
         }
-      }
-    }
+      } // clang-format off
+    }, tbb::simple_partitioner());// clang-format on
   }
   // End omp parallel
 

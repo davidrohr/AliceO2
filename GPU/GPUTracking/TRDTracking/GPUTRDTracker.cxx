@@ -30,9 +30,6 @@ class GPUTPCGMPolynomialField;
 #ifndef GPUCA_GPUCODE
 #include "GPUMemoryResource.h"
 #include "GPUReconstruction.h"
-#ifdef WITH_OPENMP
-#include <omp.h>
-#endif // WITH_OPENMP
 #include <chrono>
 #include <vector>
 
