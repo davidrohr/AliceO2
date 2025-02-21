@@ -109,7 +109,7 @@ int32_t TPCClusterDecompressor::decompress(const CompressedClusters* clustersCom
       if (deterministicRec) {
         std::sort(buffer, buffer + clustersNative.nClusters[i][j]);
       }
-    }// clang-format off
-  }, tbb::simple_partitioner());// clang-format on
+    } // clang-format off
+  }, tbb::simple_partitioner()); // clang-format on
   return 0;
 }

@@ -1154,8 +1154,8 @@ void GPUQA::RunQA(bool matchOnly, const std::vector<o2::tpc::TrackTPC>* tracksEx
           std::vector<int32_t>& effBuffer = mcEffBuffer[mNEvents - 1];
           effBuffer[i] = mRecTracks[iCol][i] * 1000 + mFakeTracks[iCol][i];
         }
-      }// clang-format off
-    }, tbb::simple_partitioner());// clang-format on
+      } // clang-format off
+    }, tbb::simple_partitioner()); // clang-format on
     if (QA_TIMING || (mTracking && mTracking->GetProcessingSettings().debugLevel >= 3)) {
       GPUInfo("QA Time: Compute track mc parameters:\t%6.0f us", timer.GetCurrentElapsedTime(true) * 1e6);
     }

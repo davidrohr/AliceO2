@@ -800,7 +800,7 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
 
       tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
         const GPUTPCTracker& tracker = sliceTracker(iSlice);
-        mGlDLLines[iSlice][tEXTRAPOLATEDTRACK] = DrawTracks(tracker, 1);// clang-format off
+        mGlDLLines[iSlice][tEXTRAPOLATEDTRACK] = DrawTracks(tracker, 1); // clang-format off
       }, tbb::simple_partitioner()); // clang-format on
     }
     mThreadTracks[numThread].resize(mNCollissions);
@@ -897,8 +897,8 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
           }
           list[i] = vboList(startCount, mVertexBufferStart[iSlice].size() - startCount, iSlice);
         }
-      }// clang-format off
-    }, tbb::simple_partitioner());// clang-format on
+      } // clang-format off
+    }, tbb::simple_partitioner()); // clang-format on
 
     tbb::parallel_for(0, NSLICES, [&](int32_t iSlice) {
       for (int32_t i = 0; i < N_POINTS_TYPE_TPC; i++) {
@@ -906,7 +906,7 @@ size_t GPUDisplay::DrawGLScene_updateVertexList()
           mGlDLPoints[iSlice][i][iCol] = DrawClusters(iSlice, i, iCol);
         }
       } // clang-format off
-    }, tbb::simple_partitioner());// clang-format on
+    }, tbb::simple_partitioner()); // clang-format on
   }
   // End omp parallel
 

@@ -185,8 +185,8 @@ int32_t GPUReconstructionCUDA::genRTC(std::string& filename, uint32_t& nCompile)
           printf("Source code file: %s", filename.c_str());
         }
         throw std::runtime_error("Error during CUDA compilation");
-      }// clang-format off
-    }, tbb::simple_partitioner());// clang-format on
+      } // clang-format off
+    }, tbb::simple_partitioner()); // clang-format on
     if (mProcessingSettings.debugLevel >= 0) {
       GPUInfo("RTC Compilation finished (%f seconds)", rtcTimer.GetCurrentElapsedTime());
     }

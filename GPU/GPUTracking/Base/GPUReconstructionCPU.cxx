@@ -116,8 +116,8 @@ inline int32_t GPUReconstructionCPUBackend::runKernelBackendInternal<GPUMemClean
       size_t mySize = std::min<size_t>(threadSize, size - offset);
       if (mySize) {
         memset((char*)ptr + offset, 0, mySize);
-      }// clang-format off
-    }, tbb::static_partitioner());// clang-format on
+      } // clang-format off
+    }, tbb::static_partitioner()); // clang-format on
   } else {
     memset(ptr, 0, size);
   }
