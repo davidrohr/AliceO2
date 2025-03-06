@@ -502,7 +502,7 @@ GPUd() float GPUTPCGMTrackParam::AttachClusters(const GPUTPCGMMerger* GPUrestric
     return -1e6f;
   }
 
-  const float zOffset = param.par.continuousTracking ? Merger->GetConstantMem()->calibObjects.fastTransformHelper->getCorrMap()->convVertexTimeToZOffset(sector, mTOffset, param.continuousMaxTimeBin) : 0; // TODO: do some validatiomns for the transform conv functions...
+  const float zOffset = param.par.continuousTracking ? Merger->GetConstantMem()->calibObjects.fastTransformHelper->getCorrMap()->convVertexTimeToZOffset(mTOffset, param.continuousMaxTimeBin) : 0; // TODO: do some validatiomns for the transform conv functions...
   const float y0 = row.Grid().YMin();
   const float stepY = row.HstepY();
   const float z0 = row.Grid().ZMin() - zOffset; // We can use our own ZOffset, since this is only used temporarily anyway
@@ -522,7 +522,7 @@ GPUd() float GPUTPCGMTrackParam::AttachClusters(const GPUTPCGMMerger* GPUrestric
   const float tubeMinSize2 = protect ? param.rec.tpc.tubeProtectMinSize2 : 0.f;
   float tubeSigma2 = protect ? param.rec.tpc.tubeProtectSigma2 : param.rec.tpc.tubeRemoveSigma2;
   uint32_t pad = CAMath::Float2UIntRn(GPUTPCGeometry::LinearY2Pad(sector, iRow, uncorrectedY));
-  float time = Merger->GetConstantMem()->calibObjects.fastTransformHelper->getCorrMap()->InverseTransformInTimeFrame(sector, uncorrectedZ + (param.par.continuousTracking ? Merger->GetConstantMem()->calibObjects.fastTransformHelper->getCorrMap()->convVertexTimeToZOffset(sector, mTOffset, param.continuousMaxTimeBin) : 0), param.continuousMaxTimeBin); // TODO: Simplify this call in TPCFastTransform
+  float time = Merger->GetConstantMem()->calibObjects.fastTransformHelper->getCorrMap()->InverseTransformInTimeFrame(sector, uncorrectedZ + (param.par.continuousTracking ? Merger->GetConstantMem()->calibObjects.fastTransformHelper->getCorrMap()->convVertexTimeToZOffset(mTOffset, param.continuousMaxTimeBin) : 0), param.continuousMaxTimeBin); // TODO: Simplify this call in TPCFastTransform
   if (iRow < param.rec.tpc.tubeExtraProtectMinRow ||
       pad < param.rec.tpc.tubeExtraProtectEdgePads || pad >= (uint32_t)(GPUTPCGeometry::NPads(iRow) - param.rec.tpc.tubeExtraProtectEdgePads) ||
       param.GetUnscaledMult(time) / GPUTPCGeometry::Row2X(iRow) > param.rec.tpc.tubeExtraProtectMinOccupancy) {
