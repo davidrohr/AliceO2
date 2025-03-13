@@ -97,7 +97,8 @@ class GPUTPCGeometry // TODO: Make values constexpr
   GPUd() static constexpr int32_t EndOROC1() { return 97; }
   GPUd() static constexpr int32_t EndOROC2() { return 127; }
 #else
-  GPUd() static constexpr int32_t GetRegion(int32_t row) { return (row < 63 ? 0 : row < 63 + 64 ? 1 : 2); }
+  GPUd() static constexpr int32_t GetRegion(int32_t row) { return (row < 63 ? 0 : row < 63 + 64 ? 1
+                                                                                                : 2); }
   GPUd() static constexpr int32_t GetRegionRows(int32_t region) { return 0; }  // dummy
   GPUd() static constexpr int32_t GetRegionStart(int32_t region) { return 0; } // dummy
   GPUd() static constexpr int32_t GetROC(int32_t row) { return GetRegion(row); }

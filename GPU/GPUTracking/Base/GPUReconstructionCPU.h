@@ -161,7 +161,8 @@ inline void GPUReconstructionCPU::runKernel(krnlSetup&& setup, Args&&... args)
     throw std::runtime_error("GPUCA_MAX_THREADS exceeded");
   }
   if (mProcessingSettings.debugLevel >= 3) {
-    GPUInfo("Running kernel %s (Stream %d, Index %d, Grid %d/%d) on %s", GetKernelName<S, I>(), stream, setup.y.index, nBlocks, nThreads, cpuFallback == 2 ? "CPU (forced)" : cpuFallback ? "CPU (fallback)" : mDeviceName.c_str());
+    GPUInfo("Running kernel %s (Stream %d, Index %d, Grid %d/%d) on %s", GetKernelName<S, I>(), stream, setup.y.index, nBlocks, nThreads, cpuFallback == 2 ? "CPU (forced)" : cpuFallback ? "CPU (fallback)"
+                                                                                                                                                                                          : mDeviceName.c_str());
   }
   if (nThreads == 0 || nBlocks == 0) {
     return;
