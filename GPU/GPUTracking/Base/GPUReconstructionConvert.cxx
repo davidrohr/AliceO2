@@ -923,7 +923,7 @@ void zsEncoderDenseLinkBased::decodePage(std::vector<o2::tpc::Digit>& outputBuff
       if (decLinkX & 0b00100000) {
         bitmaskL2.set();
       } else {
-        bitmaskL2 = std::bitset<10>(((((uint16_t)decLinkX) & 0b11000000) << 2) | (uint16_t)*((const uint8_t*)decPagePtr));
+        bitmaskL2 = std::bitset<10>(((((uint16_t)decLinkX) & 0b11000000) << 2) | (uint16_t) * ((const uint8_t*)decPagePtr));
         decPagePtr += sizeof(uint8_t);
       }
 

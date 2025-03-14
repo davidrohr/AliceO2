@@ -45,7 +45,7 @@ class propagatorInterface<o2::base::Propagator>
 {
  public:
   typedef o2::base::Propagator propagatorParam;
-  GPUd() propagatorInterface(const propagatorParam* prop) : mProp(prop) {};
+  GPUd() propagatorInterface(const propagatorParam* prop) : mProp(prop){};
   GPUd() propagatorInterface(const propagatorInterface<o2::base::Propagator>&) = delete;
   GPUd() propagatorInterface& operator=(const propagatorInterface<o2::base::Propagator>&) = delete;
 

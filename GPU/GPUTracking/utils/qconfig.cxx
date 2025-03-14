@@ -32,7 +32,8 @@
 namespace qConfig
 {
 #define QCONFIG_SETTING(name, type)                     \
-  struct qon_mxcat3(q, name, _t) {                      \
+  struct qon_mxcat3(q, name, _t)                        \
+  {                                                     \
     type v;                                             \
     constexpr qon_mxcat3(q, name, _t)(type s) : v(s) {} \
   };                                                    \
@@ -40,7 +41,8 @@ namespace qConfig
 
 #define QCONFIG_SETTING_TEMPLATE(name)                      \
   template <typename T>                                     \
-  struct qon_mxcat3(q, name, _t) {                          \
+  struct qon_mxcat3(q, name, _t)                            \
+  {                                                         \
     T v;                                                    \
     constexpr qon_mxcat3(q, name, _t)(const T& s) : v(s) {} \
   };                                                        \
@@ -66,7 +68,7 @@ static inline const char* getOptName(const char** argv, int32_t i)
 
 template <typename T>
 struct qConfigSettings {
-  qConfigSettings() : checkMin(false), checkMax(false), doSet(false), doDefault(false), min(), max(), set(), message(nullptr), allowEmpty(false) {};
+  qConfigSettings() : checkMin(false), checkMax(false), doSet(false), doDefault(false), min(), max(), set(), message(nullptr), allowEmpty(false){};
   template <typename S>
   qConfigSettings(const qConfigSettings<S> v) : checkMin(false), checkMax(false), doSet(false), doDefault(false), min(), max(), set(), message(v.message), allowEmpty(v.allowEmpty){};
   bool checkMin, checkMax;

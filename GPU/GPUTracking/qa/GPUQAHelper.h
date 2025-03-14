@@ -133,10 +133,10 @@ struct GPUTPCTrkLbl_ret {
   template <class T>
   GPUTPCTrkLbl_ret(T){};
 #ifdef GPUCA_TPC_GEOMETRY_O2
-  GPUTPCTrkLbl_ret(const MCCompLabel& a) : id(a.getTrackEventSourceID()) {};
+  GPUTPCTrkLbl_ret(const MCCompLabel& a) : id(a.getTrackEventSourceID()){};
 #endif
 #ifdef GPUCA_STANDALONE
-  GPUTPCTrkLbl_ret(const AliHLTTPCClusterMCWeight& a) : id(a.fMCID) {};
+  GPUTPCTrkLbl_ret(const AliHLTTPCClusterMCWeight& a) : id(a.fMCID){};
 #endif
   void setFakeFlag()
   {
