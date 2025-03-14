@@ -79,14 +79,19 @@ GPUd() bool ClusterAccumulator::toNative(const ChargePos& pos, const Charge q, t
 {
   Pad pad = pos.pad();
 
-  bool isEdgeCluster = pad < 2 || pad >= param.tpcGeometry.NPads(pos.row()) - 2; // Geometrical edge check, peak within 2 pads of sector edge
-  if (isEdgeCluster) {
-    bool leftEdge = (pad < 2);
-    if (leftEdge ? (pad == 1 && chargeMap[pos.delta({-1, 0})].unpack() < 1) : (pad == (param.tpcGeometry.NPads(pos.row()) - 2) && chargeMap[pos.delta({1, 0})].unpack() < 1)) {
-      isEdgeCluster = false; // No edge cluster if peak is close to edge but no charge at the edge.
-    } else if (leftEdge ? (pad < mPadMean) : (pad > mPadMean)) {
-      mPadMean = pad; // Correct to peak position if COG is close to middle of pad than peak
+  bool isEdgeCluster;
+  if (param.rec.tpc.cfEdgeTwoPads) {
+    isEdgeCluster= pad < 2 || pad >= param.tpcGeometry.NPads(pos.row()) - 2; // Geometrical edge check, peak within 2 pads of sector edge
+    if (isEdgeCluster) {
+      bool leftEdge = (pad < 2);
+      if (leftEdge ? (pad == 1 && chargeMap[pos.delta({-1, 0})].unpack() < 1) : (pad == (param.tpcGeometry.NPads(pos.row()) - 2) && chargeMap[pos.delta({1, 0})].unpack() < 1)) {
+        isEdgeCluster = false; // No edge cluster if peak is close to edge but no charge at the edge.
+      } else if (leftEdge ? (pad < mPadMean) : (pad > mPadMean)) {
+        mPadMean = pad; // Correct to peak position if COG is close to middle of pad than peak
+      }
     }
+  } else {
+    isEdgeCluster = pad == 0 || pad == param.tpcGeometry.NPads(pos.row()) - 1;
   }
 
   cn.qTot = CAMath::Float2UIntRn(mQtot);
