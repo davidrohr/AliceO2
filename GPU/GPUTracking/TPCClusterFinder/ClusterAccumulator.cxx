@@ -81,7 +81,7 @@ GPUd() bool ClusterAccumulator::toNative(const ChargePos& pos, const Charge q, t
 
   bool isEdgeCluster;
   if (param.rec.tpc.cfEdgeTwoPads) {
-    isEdgeCluster= pad < 2 || pad >= param.tpcGeometry.NPads(pos.row()) - 2; // Geometrical edge check, peak within 2 pads of sector edge
+    isEdgeCluster = pad < 2 || pad >= param.tpcGeometry.NPads(pos.row()) - 2; // Geometrical edge check, peak within 2 pads of sector edge
     if (isEdgeCluster) {
       bool leftEdge = (pad < 2);
       if (leftEdge ? (pad == 1 && chargeMap[pos.delta({-1, 0})].unpack() < 1) : (pad == (param.tpcGeometry.NPads(pos.row()) - 2) && chargeMap[pos.delta({1, 0})].unpack() < 1)) {
