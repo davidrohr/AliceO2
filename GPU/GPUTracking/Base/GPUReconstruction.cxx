@@ -1197,7 +1197,7 @@ void GPUReconstruction::SetInputControl(void* ptr, size_t size)
 
 ThrustVolatileAllocator::ThrustVolatileAllocator(GPUReconstruction* r)
 {
-  mAlloc = [&r](size_t n){ return (char*)r->AllocateVolatileDeviceMemory(n); };
+  mAlloc = [&r](size_t n) { return (char*)r->AllocateVolatileDeviceMemory(n); };
 }
 ThrustVolatileAllocator GPUReconstruction::getThrustVolatileDeviceAllocator()
 {
