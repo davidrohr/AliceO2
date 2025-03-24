@@ -772,12 +772,10 @@ struct MergeBorderTracks_compMin {
 template <>
 inline void GPUCA_M_CAT3(GPUReconstruction, GPUCA_GPUTYPE, Backend)::runKernelBackendInternal<GPUTPCGMMergerMergeBorders, 3>(const krnlSetupTime& _xyz, GPUTPCGMBorderRange* const& range, int32_t const& N, int32_t const& cmpMax)
 {
-  thrust::device_ptr<GPUTPCGMBorderRange> p(range);
-  ThrustVolatileAllocator alloc = getThrustVolatileDeviceAllocator();
   if (cmpMax) {
-    thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(mInternals->Streams[_xyz.x.stream]), p, p + N, MergeBorderTracks_compMax());
+    GPUCommonAlgorithm::sortOnDevice(this, _xyz.x.stream, range, N, MergeBorderTracks_compMax());
   } else {
-    thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(mInternals->Streams[_xyz.x.stream]), p, p + N, MergeBorderTracks_compMin());
+    GPUCommonAlgorithm::sortOnDevice(this, _xyz.x.stream, range, N, MergeBorderTracks_compMin());
   }
 }
 #endif // GPUCA_SPECIALIZE_THRUST_SORTS - Specialize MergeBorderTracks<3>
@@ -1877,17 +1875,13 @@ struct GPUTPCGMMergerSortTracksQPt_comp {
 template <>
 inline void GPUCA_M_CAT3(GPUReconstruction, GPUCA_GPUTYPE, Backend)::runKernelBackendInternal<GPUTPCGMMergerSortTracks, 0>(const krnlSetupTime& _xyz)
 {
-  thrust::device_ptr<uint32_t> trackSort((uint32_t*)mProcessorsShadow->tpcMerger.TrackOrderProcess());
-  ThrustVolatileAllocator alloc = getThrustVolatileDeviceAllocator();
-  thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(mInternals->Streams[_xyz.x.stream]), trackSort, trackSort + processors()->tpcMerger.NOutputTracks(), GPUTPCGMMergerSortTracks_comp(mProcessorsShadow->tpcMerger.OutputTracks()));
+  GPUCommonAlgorithm::sortOnDevice(this, _xyz.x.stream, mProcessorsShadow->tpcMerger.TrackOrderProcess(), processors()->tpcMerger.NOutputTracks(), GPUTPCGMMergerSortTracks_comp(mProcessorsShadow->tpcMerger.OutputTracks()));
 }
 
 template <>
 inline void GPUCA_M_CAT3(GPUReconstruction, GPUCA_GPUTYPE, Backend)::runKernelBackendInternal<GPUTPCGMMergerSortTracksQPt, 0>(const krnlSetupTime& _xyz)
 {
-  thrust::device_ptr<uint32_t> trackSort((uint32_t*)mProcessorsShadow->tpcMerger.TrackSort());
-  ThrustVolatileAllocator alloc = getThrustVolatileDeviceAllocator();
-  thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(mInternals->Streams[_xyz.x.stream]), trackSort, trackSort + processors()->tpcMerger.NOutputTracks(), GPUTPCGMMergerSortTracksQPt_comp(mProcessorsShadow->tpcMerger.OutputTracks()));
+  GPUCommonAlgorithm::sortOnDevice(this, _xyz.x.stream, mProcessorsShadow->tpcMerger.TrackSort(), processors()->tpcMerger.NOutputTracks(), GPUTPCGMMergerSortTracksQPt_comp(mProcessorsShadow->tpcMerger.OutputTracks()));
 }
 #endif // GPUCA_SPECIALIZE_THRUST_SORTS - Specialize GPUTPCGMMergerSortTracks and GPUTPCGMMergerSortTracksQPt
 
@@ -2110,9 +2104,7 @@ struct GPUTPCGMMergerMergeLoopers_comp {
 template <>
 inline void GPUCA_M_CAT3(GPUReconstruction, GPUCA_GPUTYPE, Backend)::runKernelBackendInternal<GPUTPCGMMergerMergeLoopers, 1>(const krnlSetupTime& _xyz)
 {
-  thrust::device_ptr<MergeLooperParam> params(mProcessorsShadow->tpcMerger.LooperCandidates());
-  ThrustVolatileAllocator alloc = getThrustVolatileDeviceAllocator();
-  thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(mInternals->Streams[_xyz.x.stream]), params, params + processors()->tpcMerger.Memory()->nLooperMatchCandidates, GPUTPCGMMergerMergeLoopers_comp());
+  GPUCommonAlgorithm::sortOnDevice(this, _xyz.x.stream, mProcessorsShadow->tpcMerger.LooperCandidates(), processors()->tpcMerger.Memory()->nLooperMatchCandidates, GPUTPCGMMergerMergeLoopers_comp());
 }
 #endif // GPUCA_SPECIALIZE_THRUST_SORTS - Specialize GPUTPCGMMergerSortTracks and GPUTPCGMMergerSortTracksQPt
 

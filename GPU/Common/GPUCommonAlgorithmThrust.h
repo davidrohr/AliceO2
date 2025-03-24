@@ -87,6 +87,14 @@ GPUdi() void GPUCommonAlgorithm::sortDeviceDynamic(T* begin, T* end, const S& co
   thrust::sort(GPUCA_THRUST_NAMESPACE::par, thrustBegin, thrustEnd, comp);
 }
 
+template <class T, class S>
+GPUhi() void GPUCommonAlgorithm::sortOnDevice(auto* rec, int32_t stream, T* begin, size_t N, const S& comp)
+{
+  thrust::device_ptr<T> p(begin);
+  auto alloc = rec->getThrustVolatileDeviceAllocator();
+  thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(rec->mInternals->Streams[stream]), p, p + N, comp);
+}
+
 } // namespace gpu
 } // namespace o2
 

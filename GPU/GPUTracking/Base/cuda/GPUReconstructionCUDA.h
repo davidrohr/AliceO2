@@ -54,6 +54,8 @@ class GPUReconstructionCUDABackend : public GPUReconstructionDeviceBase
 
   void getRTCKernelCalls(std::vector<std::string>& kernels);
 
+  template <class T, class S>
+  friend GPUh() void GPUCommonAlgorithm::sortOnDevice(auto* rec, int32_t stream, T* begin, size_t N, const S& comp);
   GPUReconstructionCUDAInternals* mInternals;
 };
 

@@ -121,7 +121,7 @@ int32_t GPUChainTracking::RunTPCTrackingMerger(bool synchronizeOutput)
   for (uint32_t i = 0; i < NSECTORS; i++) {
     runKernel<GPUTPCGMMergerUnpackSaveNumber>({{1, -WarpSize(), 0, deviceType}}, i);
     runKernel<GPUTPCGMMergerUnpackResetIds>(GetGridAuto(0, deviceType), i);
-    runKernel<GPUTPCGMMergerSectorRefit>(GetGridAuto(0, deviceType), i);
+    runKernel<GPUTPCGMMergerSectorRefit>(GetGridAuto(0, deviceType), i); // TODO: Why all in stream 0?
   }
   if (GetProcessingSettings().deterministicGPUReconstruction) {
     runKernel<GPUTPCGMMergerUnpackSaveNumber>({{1, -WarpSize(), 0, deviceType}}, NSECTORS);
