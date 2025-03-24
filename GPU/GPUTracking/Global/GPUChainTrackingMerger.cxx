@@ -50,19 +50,13 @@ void GPUChainTracking::RunTPCTrackingMerger_MergeBorderTracks(int8_t withinSecto
       gputpcgmmergertypes::GPUTPCGMBorderRange* range2 = MergerShadow.BorderRange(jSector) + *processors()->tpcTrackers[jSector].NTracks();
       runKernel<GPUTPCGMMergerMergeBorders, 3>({{1, -WarpSize(), stream, deviceType}}, range1, n1, 0);
       runKernel<GPUTPCGMMergerMergeBorders, 3>({{1, -WarpSize(), stream, deviceType}}, range2, n2, 1);
-      deviceEvent* e = nullptr;
-      int32_t ne = 0;
-      if (i == n - 1) { // Synchronize all execution on stream 0 with the last kernel
-        ne = std::min<int32_t>(n, mRec->NStreams());
-        for (int32_t j = 1; j < ne; j++) {
-          RecordMarker(&mEvents->sector[j], j);
-        }
-        e = &mEvents->sector[1];
-        ne--;
-        stream = 0;
-      }
-      runKernel<GPUTPCGMMergerMergeBorders, 2>({GetGridAuto(stream, deviceType), krnlRunRangeNone, {nullptr, e, ne}}, i, withinSector, mergeMode);
+      runKernel<GPUTPCGMMergerMergeBorders, 2>({GetGridAuto(stream, deviceType)}, i, withinSector, mergeMode);
     }
+    int32_t ne = std::min<int32_t>(n, mRec->NStreams()) - 1; // Stream 0 must wait for all streams, Note n > 1
+    for (int32_t j = 0; j < ne; j++) {
+      RecordMarker(&mEvents->sector[j], j + 1);
+    }
+    StreamWaitForEvents(0, &mEvents->sector[0], ne);
   } else {
     for (uint32_t i = 0; i < n; i++) {
       runKernel<GPUTPCGMMergerMergeBorders, 0>(GetGridAuto(0, deviceType), i, withinSector, mergeMode);
