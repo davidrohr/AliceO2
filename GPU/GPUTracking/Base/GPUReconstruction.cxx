@@ -30,6 +30,7 @@
 #include "GPUROOTDumpCore.h"
 #include "GPUConfigDump.h"
 #include "GPUChainTracking.h"
+#include "GPUCommonHelpers.h"
 
 #include "GPUMemoryResource.h"
 #include "GPUChain.h"
@@ -1192,4 +1193,13 @@ void GPUReconstruction::SetOutputControl(void* ptr, size_t size)
 void GPUReconstruction::SetInputControl(void* ptr, size_t size)
 {
   mInputControl.set(ptr, size);
+}
+
+ThrustVolatileAllocator::ThrustVolatileAllocator(GPUReconstruction* r)
+{
+  mAlloc = [&r](size_t n){ return (char*)r->AllocateVolatileDeviceMemory(n); };
+}
+ThrustVolatileAllocator GPUReconstruction::getThrustVolatileDeviceAllocator()
+{
+  return ThrustVolatileAllocator(this);
 }

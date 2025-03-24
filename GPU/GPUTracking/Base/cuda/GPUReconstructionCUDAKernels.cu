@@ -16,7 +16,6 @@
 
 #include "GPUReconstructionCUDA.h"
 #include "GPUReconstructionCUDAInternals.h"
-#include "CUDAThrustHelpers.h"
 
 using namespace o2::gpu;
 

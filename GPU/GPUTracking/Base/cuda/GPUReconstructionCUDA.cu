@@ -19,7 +19,6 @@
 
 #include "GPUReconstructionCUDA.h"
 #include "GPUReconstructionCUDAInternals.h"
-#include "CUDAThrustHelpers.h"
 #include "GPUReconstructionIncludes.h"
 #include "GPUParamRTC.h"
 #include "GPUReconstructionCUDAHelpers.inc"
