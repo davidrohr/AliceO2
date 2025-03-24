@@ -30,9 +30,7 @@
 #define GPUCA_THRUST_NAMESPACE thrust::hip
 #endif
 
-namespace o2
-{
-namespace gpu
+namespace o2::gpu
 {
 
 // - Our quicksort and bubble sort implementations are faster
@@ -94,8 +92,6 @@ GPUhi() void GPUCommonAlgorithm::sortOnDevice(auto* rec, int32_t stream, T* begi
   auto alloc = rec->getThrustVolatileDeviceAllocator();
   thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(rec->mInternals->Streams[stream]), p, p + N, comp);
 }
-
-} // namespace gpu
-} // namespace o2
+} // namespace o2::gpu
 
 #endif

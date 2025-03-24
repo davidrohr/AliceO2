@@ -24,9 +24,7 @@
 
 // ----------------------------- SORTING -----------------------------
 
-namespace o2
-{
-namespace gpu
+namespace o2::gpu
 {
 class GPUCommonAlgorithm
 {
@@ -75,13 +73,6 @@ class GPUCommonAlgorithm
   template <typename I>
   GPUd() static void IterSwap(I a, I b) noexcept;
 };
-} // namespace gpu
-} // namespace o2
-
-namespace o2
-{
-namespace gpu
-{
 
 #ifndef GPUCA_ALGORITHM_STD
 template <typename I>
@@ -221,8 +212,7 @@ GPUdi() void GPUCommonAlgorithm::QuickSort(I f, I l) noexcept
 
 typedef GPUCommonAlgorithm CAAlgo;
 
-} // namespace gpu
-} // namespace o2
+} // namespace o2::gpu
 
 #if (((defined(__CUDACC__) && !defined(__clang__)) || defined(__HIPCC__))) && !defined(GPUCA_GPUCODE_GENRTC) && !defined(GPUCA_GPUCODE_HOSTONLY)
 
@@ -230,9 +220,7 @@ typedef GPUCommonAlgorithm CAAlgo;
 
 #else
 
-namespace o2
-{
-namespace gpu
+namespace o2::gpu
 {
 
 template <class T>
@@ -251,15 +239,12 @@ GPUdi() void GPUCommonAlgorithm::sortDeviceDynamic(T* begin, T* end, const S& co
   GPUCommonAlgorithm::sort(begin, end, comp);
 }
 
-} // namespace gpu
-} // namespace o2
+} // namespace o2::gpu
 
 #endif // THRUST
 // sort and sortInBlock below are not taken from Thrust, since our implementations are faster
 
-namespace o2
-{
-namespace gpu
+namespace o2::gpu
 {
 
 template <class T>
@@ -332,8 +317,7 @@ GPUdi() void GPUCommonAlgorithm::swap(T& a, T& b)
 }
 #endif
 
-} // namespace gpu
-} // namespace o2
+} // namespace o2::gpu
 
 // ----------------------------- WORK GROUP FUNCTIONS -----------------------------
 

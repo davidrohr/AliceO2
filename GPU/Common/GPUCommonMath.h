@@ -42,9 +42,7 @@
     #define GPUCA_CHOICE(c1, c2, c3) (c1) // Select first option for Host
 #endif // clang-format on
 
-namespace o2
-{
-namespace gpu
+namespace o2::gpu
 {
 
 class GPUCommonMath
@@ -540,7 +538,6 @@ GPUdii() void GPUCommonMath::AtomicMinInternal(GPUglobalref() GPUgeneric() GPUAt
 
 #undef GPUCA_CHOICE
 
-} // namespace gpu
-} // namespace o2
+} // namespace o2::gpu
 
 #endif // GPUCOMMONMATH_H
