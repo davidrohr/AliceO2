@@ -446,4 +446,8 @@ GPUdi() T warp_broadcast(T v, int32_t i)
 
 #endif
 
+#ifdef GPUCA_ALGORITHM_STD
+#undef GPUCA_ALGORITHM_STD
+#endif
+
 #endif

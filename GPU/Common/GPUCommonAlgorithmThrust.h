@@ -52,7 +52,7 @@ GPUdi() void GPUCommonAlgorithm::sort(T* begin, T* end, const S& comp)
 }
 
 template <class T>
-GPUdi() void GPUCommonAlgorithm::sortInBlock(T* begin, T* end)
+GPUdi() void GPUCommonAlgorithm::sortInBlock(T* begin, T* end) // TODO: Try cub::BlockMergeSort
 {
   if (get_local_id(0) == 0) {
     sortDeviceDynamic(begin, end);
@@ -93,5 +93,7 @@ GPUhi() void GPUCommonAlgorithm::sortOnDevice(auto* rec, int32_t stream, T* begi
   thrust::sort(GPUCA_THRUST_NAMESPACE::par(alloc).on(rec->mInternals->Streams[stream]), p, p + N, comp);
 }
 } // namespace o2::gpu
+
+#undef GPUCA_THRUST_NAMESPACE
 
 #endif
