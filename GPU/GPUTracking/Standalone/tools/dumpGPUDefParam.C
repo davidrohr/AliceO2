@@ -28,10 +28,11 @@
 #include "testParam.h"
 
 #include "GPUDefParametersLoad.inc"
-void dumpGPUDefParam() {
-    auto param = o2::gpu::internal::GPUDefParametersLoad();
-    printf("Loaded params:\n%s", o2::gpu::internal::GPUDefParametersExport(param, false).c_str());
-    FILE* fp = fopen("parameters.out", "w+b");
-    fwrite(&param, 1, sizeof(param), fp);
-    fclose(fp);
+void dumpGPUDefParam()
+{
+  auto param = o2::gpu::internal::GPUDefParametersLoad();
+  printf("Loaded params:\n%s", o2::gpu::internal::GPUDefParametersExport(param, false).c_str());
+  FILE* fp = fopen("parameters.out", "w+b");
+  fwrite(&param, 1, sizeof(param), fp);
+  fclose(fp);
 }
