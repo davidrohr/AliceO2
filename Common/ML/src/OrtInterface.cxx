@@ -59,29 +59,23 @@ void OrtModel::reset(std::unordered_map<std::string, std::string> optionsMap)
 
     std::string dev_mem_str = "Hip";
 #if defined(ORT_ROCM_BUILD)
-#if ORT_ROCM_BUILD == 1
   if (device == "ROCM") {
     Ort::ThrowOnError(OrtSessionOptionsAppendExecutionProvider_ROCM(pImplOrt->sessionOptions, deviceId));
     LOG(info) << "(ORT) ROCM execution provider set";
   }
 #endif
-#endif
 #if defined(ORT_MIGRAPHX_BUILD)
-#if ORT_MIGRAPHX_BUILD == 1
   if (device == "MIGRAPHX") {
     Ort::ThrowOnError(OrtSessionOptionsAppendExecutionProvider_MIGraphX(pImplOrt->sessionOptions, deviceId));
     LOG(info) << "(ORT) MIGraphX execution provider set";
   }
 #endif
-#endif
 #if defined(ORT_CUDA_BUILD)
-#if ORT_CUDA_BUILD == 1
   if (device == "CUDA") {
     Ort::ThrowOnError(OrtSessionOptionsAppendExecutionProvider_CUDA(pImplOrt->sessionOptions, deviceId));
     LOG(info) << "(ORT) CUDA execution provider set";
     dev_mem_str = "Cuda";
   }
-#endif
 #endif
 
   if (allocateDeviceMemory) {
