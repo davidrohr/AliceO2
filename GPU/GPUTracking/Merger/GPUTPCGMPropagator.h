@@ -53,8 +53,7 @@ class GPUTPCGMPropagator
     updateErrorFitFailed = -1,
     updateErrorClusterRejected = 2,
     updateErrorClusterRejectedDistance = 2,
-    updateErrorEdgeCluster = 3
-    updateErrorClusterRejectedInInterpolation = 4,
+    updateErrorEdgeCluster = 3 updateErrorClusterRejectedInInterpolation = 4,
     updateErrorClusterRejectedInUpdate = 5
   };
   enum RejectChi2Mode {
