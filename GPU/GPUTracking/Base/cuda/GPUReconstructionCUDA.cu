@@ -621,21 +621,10 @@ void GPUReconstructionCUDA::loadKernelModules(bool perKernel)
   }
 }
 
-#ifndef __HIPCC__ // CUDA
-void GPUReconstructionCUDA::startGPUProfiling()
-{
-  GPUChkErr(cudaProfilerStart());
-}
-
-void GPUReconstructionCUDA::endGPUProfiling()
-{
-  GPUChkErr(cudaProfilerStop());
-}
-
 void GPUReconstructionCUDA::SetONNXGPUStream(Ort::SessionOptions& session_options, int32_t stream, int32_t* deviceId)
 {
-#ifdef ORT_CUDA_BUILD
-  cudaGetDevice(deviceId);
+  GPUChkErr(cudaGetDevice(deviceId));
+#if !defined(__HIPCC__) && defined(ORT_CUDA_BUILD)
   OrtCUDAProviderOptionsV2* cuda_options = nullptr;
   CreateCUDAProviderOptions(&cuda_options);
 
@@ -649,23 +638,8 @@ void GPUReconstructionCUDA::SetONNXGPUStream(Ort::SessionOptions& session_option
   session_options.AppendExecutionProvider_CUDA_V2(cuda_options);
 
   // Finally, don't forget to release the provider options
-  ReleaseCUDAProviderOptions(cuda_options);
-#endif // ORT_CUDA_BUILD
-}
-
-#else  // HIP
-void* GPUReconstructionHIP::getGPUPointer(void* ptr)
-{
-  void* retVal = nullptr;
-  GPUChkErr(hipHostGetDevicePointer(&retVal, ptr, 0));
-  return retVal;
-}
-
-void GPUReconstructionHIP::SetONNXGPUStream(Ort::SessionOptions& session_options, int32_t stream, int32_t* deviceId)
-{
-#ifdef ORT_ROCM_BUILD
-  // Create ROCm provider options
-  cudaGetDevice(deviceId);
+ReleaseCUDAProviderOptions(cuda_options);
+#elif defined(ORT_ROCM_BUILD)
   // const auto& api = Ort::GetApi();
   // api.GetCurrentGpuDeviceId(deviceId);
   OrtROCMProviderOptions rocm_options;
@@ -676,4 +650,25 @@ void GPUReconstructionHIP::SetONNXGPUStream(Ort::SessionOptions& session_options
   session_options.AppendExecutionProvider_ROCM(rocm_options);
 #endif // ORT_ROCM_BUILD
 }
+
+#ifndef __HIPCC__ // CUDA
+
+void GPUReconstructionCUDA::startGPUProfiling()
+{
+  GPUChkErr(cudaProfilerStart());
+}
+
+void GPUReconstructionCUDA::endGPUProfiling()
+{
+  GPUChkErr(cudaProfilerStop());
+}
+
+#else  // HIP
+void* GPUReconstructionHIP::getGPUPointer(void* ptr)
+{
+  void* retVal = nullptr;
+  GPUChkErr(hipHostGetDevicePointer(&retVal, ptr, 0));
+  return retVal;
+}
+
 #endif // __HIPCC__
