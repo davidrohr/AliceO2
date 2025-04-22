@@ -621,24 +621,34 @@ void GPUReconstructionCUDA::loadKernelModules(bool perKernel)
   }
 }
 
+#define ORTCHK(command) \
+  {                                                   \
+    OrtStatus* status = command;                      \
+    if (status != nullptr) {                          \
+      const char* msg = api->GetErrorMessage(status); \
+      GPUFatal("ONNXRuntime Error: %s", msg);         \
+    }                                                 \
+  }
+
 void GPUReconstructionCUDA::SetONNXGPUStream(Ort::SessionOptions& session_options, int32_t stream, int32_t* deviceId)
 {
   GPUChkErr(cudaGetDevice(deviceId));
 #if !defined(__HIPCC__) && defined(ORT_CUDA_BUILD)
+  const OrtApi* api = OrtGetApiBase()->GetApi(ORT_API_VERSION);
   OrtCUDAProviderOptionsV2* cuda_options = nullptr;
-  CreateCUDAProviderOptions(&cuda_options);
+  ORTCHK(api->CreateCUDAProviderOptions(&cuda_options));
 
   // std::vector<const char*> keys{"device_id", "gpu_mem_limit", "arena_extend_strategy", "cudnn_conv_algo_search", "do_copy_in_default_stream", "cudnn_conv_use_max_workspace", "cudnn_conv1d_pad_to_nc1d"};
   // std::vector<const char*> values{"0", "2147483648", "kSameAsRequested", "DEFAULT", "1", "1", "1"};
   // UpdateCUDAProviderOptions(cuda_options, keys.data(), values.data(), keys.size());
 
   // this implicitly sets "has_user_compute_stream"
-  cuda_options.has_user_compute_stream = 1;
-  UpdateCUDAProviderOptionsWithValue(cuda_options, "user_compute_stream", mInternals->Streams[stream]);
+  cuda_options->has_user_compute_stream = 1;
+  ORTCHK(api->UpdateCUDAProviderOptionsWithValue(cuda_options, "user_compute_stream", mInternals->Streams[stream]));
   session_options.AppendExecutionProvider_CUDA_V2(cuda_options);
 
   // Finally, don't forget to release the provider options
-  ReleaseCUDAProviderOptions(cuda_options);
+  api->ReleaseCUDAProviderOptions(cuda_options);
 #elif defined(ORT_ROCM_BUILD)
   // const auto& api = Ort::GetApi();
   // api.GetCurrentGpuDeviceId(deviceId);
