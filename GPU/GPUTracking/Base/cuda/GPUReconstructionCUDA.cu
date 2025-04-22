@@ -621,7 +621,7 @@ void GPUReconstructionCUDA::loadKernelModules(bool perKernel)
   }
 }
 
-#define ORTCHK(command) \
+#define ORTCHK(command)                               \
   {                                                   \
     OrtStatus* status = command;                      \
     if (status != nullptr) {                          \
