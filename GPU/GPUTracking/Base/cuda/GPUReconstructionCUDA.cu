@@ -638,7 +638,7 @@ void GPUReconstructionCUDA::SetONNXGPUStream(Ort::SessionOptions& session_option
   session_options.AppendExecutionProvider_CUDA_V2(cuda_options);
 
   // Finally, don't forget to release the provider options
-ReleaseCUDAProviderOptions(cuda_options);
+  ReleaseCUDAProviderOptions(cuda_options);
 #elif defined(ORT_ROCM_BUILD)
   // const auto& api = Ort::GetApi();
   // api.GetCurrentGpuDeviceId(deviceId);
@@ -663,7 +663,7 @@ void GPUReconstructionCUDA::endGPUProfiling()
   GPUChkErr(cudaProfilerStop());
 }
 
-#else  // HIP
+#else // HIP
 void* GPUReconstructionHIP::getGPUPointer(void* ptr)
 {
   void* retVal = nullptr;
