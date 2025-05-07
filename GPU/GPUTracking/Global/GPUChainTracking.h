@@ -234,6 +234,7 @@ class GPUChainTracking : public GPUChain
   void PrepareDebugOutput();
   void PrintDebugOutput();
   void PrintOutputStat();
+  static void DumpClusters(std::ostream& out, const o2::tpc::ClusterNativeAccess* clusters);
 
   bool ValidateSteps();
   bool ValidateSettings();

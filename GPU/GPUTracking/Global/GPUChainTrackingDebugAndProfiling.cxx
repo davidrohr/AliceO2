@@ -333,3 +333,18 @@ void GPUChainTracking::RunTPCClusterFilter(o2::tpc::ClusterNativeAccess* cluster
     }
   }
 }
+
+void GPUChainTracking::DumpClusters(std::ostream& out, const o2::tpc::ClusterNativeAccess* clusters)
+{
+  out << "\nTPC Clusters:\n";
+  for (uint32_t iSec = 0; iSec < GPUCA_NSECTORS; iSec++) {
+    out << "TPCClusters - Sector " << iSec << "\n";
+    for (uint32_t i = 0; i < GPUCA_ROW_COUNT; i++) {
+      out << "  Row: " << i << ": " << clusters->nClusters[iSec][i] << " clusters:\n";
+      for (uint32_t j = 0; j < clusters->nClusters[iSec][i]; j++) {
+        const auto& cl = clusters->clusters[iSec][i][j];
+        out << "    " << std::hex << cl.timeFlagsPacked << std::dec << " " << cl.padPacked << " " << int32_t{cl.sigmaTimePacked} << " " << int32_t{cl.sigmaPadPacked} << " " << cl.qMax << " " << cl.qTot << "\n";
+      }
+    }
+  }
+}

@@ -36,6 +36,7 @@ class ConstMCTruthContainerView;
 namespace tpc
 {
 struct ClusterNative;
+struct ClusterNativeAccess;
 class Digit;
 } // namespace tpc
 

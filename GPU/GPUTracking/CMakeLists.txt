@@ -138,6 +138,7 @@ set(HDRS_INSTALL
     Definitions/GPULogging.h
     Definitions/GPUSettingsList.h
     Global/GPUChainTrackingDefs.h
+    Global/GPUChainTrackingDebug.h
     Global/GPUChainTrackingGetters.inc
     Global/GPUErrorCodes.h
     Merger/GPUTPCGMBorderTrack.h
