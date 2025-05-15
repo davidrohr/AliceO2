@@ -251,12 +251,12 @@ GPUd() bool TrackParametrization<value_T>::propagateParamTo(value_t xk, const di
     sintet = bt / bb;
   }
   std::array<value_t, 7> vect{costet * cosphi * vecLab[0] + costet * sinphi * vecLab[1] - sintet * vecLab[2],
-                                      -sinphi * vecLab[0] + cosphi * vecLab[1],
-                                      sintet * cosphi * vecLab[0] + sintet * sinphi * vecLab[1] + costet * vecLab[2],
-                                      costet * cosphi * vecLab[3] + costet * sinphi * vecLab[4] - sintet * vecLab[5],
-                                      -sinphi * vecLab[3] + cosphi * vecLab[4],
-                                      sintet * cosphi * vecLab[3] + sintet * sinphi * vecLab[4] + costet * vecLab[5],
-                                      vecLab[6]};
+                              -sinphi * vecLab[0] + cosphi * vecLab[1],
+                              sintet * cosphi * vecLab[0] + sintet * sinphi * vecLab[1] + costet * vecLab[2],
+                              costet * cosphi * vecLab[3] + costet * sinphi * vecLab[4] - sintet * vecLab[5],
+                              -sinphi * vecLab[3] + cosphi * vecLab[4],
+                              sintet * cosphi * vecLab[3] + sintet * sinphi * vecLab[4] + costet * vecLab[5],
+                              vecLab[6]};
 
   // Do the helix step
   value_t q = getCharge();

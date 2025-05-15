@@ -52,6 +52,6 @@ namespace o2::gpu::gpustd
 {
 template <class T, size_t I>
 using array = ::std::array<T, I>; // temporary alias, to remove dependent types
-} // o2::gpu::gpustd
+} // namespace o2::gpu::gpustd
 
 #endif // GPUCOMMONARRAY_H

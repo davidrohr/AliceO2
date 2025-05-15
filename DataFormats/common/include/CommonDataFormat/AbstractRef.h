@@ -22,7 +22,6 @@
 #include <type_traits>
 #endif
 
-
 namespace o2::dataformats
 {
 
