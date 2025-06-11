@@ -226,12 +226,11 @@ int32_t ReadConfiguration(int argc, char** argv)
     configStandalone.proc.clearO2OutputFromGPU = 1;
     configStandalone.QA.clusterRejectionHistograms = 1;
     configStandalone.proc.tpcIncreasedMinClustersPerRow = 500000;
-    configStandalone.proc.ignoreNonFatalGPUErrors=1;
+    configStandalone.proc.ignoreNonFatalGPUErrors = 1;
     // TODO: rundEdx=1
     // GPU_proc.qcRunFraction=$TPC_TRACKING_QC_RUN_FRACTION;"
     // [[ $CTFINPUT == 1 ]] && GPU_CONFIG_KEY+="GPU_proc.tpcInputWithClusterRejection=1;"
     // double pipeline / rtc
-
   }
 
   if (configStandalone.outputcontrolmem) {
