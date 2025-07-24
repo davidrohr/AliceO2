@@ -17,7 +17,11 @@
 
 #ifdef _WIN32
 #include "GPUDisplayFrontendWindows.h"
-#elif defined(GPUCA_BUILD_EVENT_DISPLAY_X11)
+#else
+#include <pthread.h>
+#endif
+
+#ifdef GPUCA_BUILD_EVENT_DISPLAY_X11
 #include "GPUDisplayFrontendX11.h"
 #endif
 #ifdef GPUCA_BUILD_EVENT_DISPLAY_GLFW
@@ -29,6 +33,7 @@
 #ifdef GPUCA_BUILD_EVENT_DISPLAY_WAYLAND
 #include "GPUDisplayFrontendWayland.h"
 #endif
+#include "GPUDisplayFrontendNone.h"
 
 #include "GPULogging.h"
 #include <cstring>
@@ -148,7 +153,9 @@ GPUDisplayFrontend* GPUDisplayFrontend::getFrontend(const char* type)
     return new GPUDisplayFrontendGlut;
   } else
 #endif
-  {
+  if (strcmp(type, "none") == 0) {
+    return new GPUDisplayFrontendNone;
+  } else {
     GPUError("Requested frontend not available");
   }
   return nullptr;
@@ -162,4 +169,22 @@ GPUDisplayBackend* GPUDisplayFrontend::backend()
 int32_t& GPUDisplayFrontend::drawTextFontSize()
 {
   return mDisplay->drawTextFontSize();
+}
+
+int32_t GPUDisplayFrontend::StartDisplay()
+{
+#ifndef _WIN32
+  static pthread_t hThread;
+  if (pthread_create(&hThread, nullptr, FrontendThreadWrapper, this)) {
+    GPUError("Coult not Create frontend Thread...");
+    return (1);
+  }
+#else
+  HANDLE hThread;
+  if ((hThread = CreateThread(nullptr, nullptr, &OpenGLWrapper, this, nullptr, nullptr)) == nullptr) {
+    GPUError("Coult not Create GL Thread...");
+    return (1);
+  }
+#endif
+  return (0);
 }
