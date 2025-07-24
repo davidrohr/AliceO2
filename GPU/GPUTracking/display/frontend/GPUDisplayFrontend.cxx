@@ -153,7 +153,7 @@ GPUDisplayFrontend* GPUDisplayFrontend::getFrontend(const char* type)
     return new GPUDisplayFrontendGlut;
   } else
 #endif
-  if (strcmp(type, "none") == 0) {
+    if (strcmp(type, "none") == 0) {
     return new GPUDisplayFrontendNone;
   } else {
     GPUError("Requested frontend not available");
