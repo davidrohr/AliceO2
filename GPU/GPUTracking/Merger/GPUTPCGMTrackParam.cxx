@@ -446,7 +446,7 @@ GPUd() int32_t GPUTPCGMTrackParam::MergeDoubleRowClusters(int32_t& ihit, int32_t
     xx = yy = zz = 0.f;
     clusterState = 0;
     while (true) {
-      const ClusterNative& GPUrestrict() cl = merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear[clusters[ihit].num];
+      const ClusterNative& GPUrestrict() cl = merger -> GetConstantMem()->ioPtrs.clustersNative->clustersLinear[clusters[ihit].num];
       float clamp = cl.qTot;
       float clx, cly, clz;
       merger->GetConstantMem()->calibObjects.fastTransformHelper->Transform(clusters[ihit].sector, clusters[ihit].row, cl.getPad(), cl.getTime(), clx, cly, clz, mTOffset);
@@ -498,7 +498,7 @@ GPUd() float GPUTPCGMTrackParam::AttachClusters(const GPUTPCGMMerger* GPUrestric
   if (Merger->Param().rec.tpc.disableRefitAttachment & 1) {
     return -1e6f;
   }
-  const GPUTPCTracker& GPUrestrict() tracker = *(Merger->GetConstantMem()->tpcTrackers + sector);
+  const GPUTPCTracker& GPUrestrict() tracker = *(Merger -> GetConstantMem()->tpcTrackers + sector);
   const GPUTPCRow& GPUrestrict() row = tracker.Row(iRow);
   GPUglobalref() const cahit2* hits = tracker.HitData(row);
   GPUglobalref() const calink* firsthit = tracker.FirstHitInBin(row);
@@ -793,7 +793,7 @@ GPUd() float GPUTPCGMTrackParam::ShiftZ(const GPUTPCGMMergedTrackHit* clusters, 
   if (N == 0) {
     N = 1;
   }
-  const auto& GPUrestrict() cls = merger->GetConstantMem()->ioPtrs.clustersNative->clustersLinear;
+  const auto& GPUrestrict() cls = merger -> GetConstantMem()->ioPtrs.clustersNative->clustersLinear;
   float z0 = cls[clusters[0].num].getTime(), zn = cls[clusters[N - 1].num].getTime();
   const auto tmp = zn > z0 ? std::array<float, 3>{zn, z0, GPUTPCGeometry::Row2X(clusters[N - 1].row)} : std::array<float, 3>{z0, zn, GPUTPCGeometry::Row2X(clusters[0].row)};
   return ShiftZ(merger, clusters[0].sector, tmp[0], tmp[1], tmp[2]);

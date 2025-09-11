@@ -1851,7 +1851,7 @@ GPUd() void GPUTPCGMMerger::PrepareForFit1(int32_t nBlocks, int32_t nThreads, in
       if (!trk.CCE() && !trk.MergedLooper()) {
         GPUTPCGMMergedTrack* updTrk = trk.GetFirstSegment(mMergedTracks, Param().rec.enableCyclicGraphWorkarounds);
         const auto &cl0 = mClusters[trk.FirstClusterRef()], &cln = mClusters[updTrk->FirstClusterRef() + updTrk->NClusters() - 1];
-        const auto& GPUrestrict() cls = GetConstantMem()->ioPtrs.clustersNative->clustersLinear;
+        const auto& GPUrestrict() cls = GetConstantMem() -> ioPtrs.clustersNative->clustersLinear;
         float z0 = cls[cl0.num].getTime(), zn = cls[cln.num].getTime();
         const auto tmp = zn > z0 ? std::array<float, 3>{zn, z0, GPUTPCGeometry::Row2X(cln.row)} : std::array<float, 3>{z0, zn, GPUTPCGeometry::Row2X(cl0.row)};
         trk.Param().ShiftZ(this, cl0.sector, tmp[0], tmp[1], tmp[2]);
