@@ -134,9 +134,14 @@ void GPUTPCGMMerger::DumpMergedBetweenSectors(std::ostream& out) const
 
 void GPUTPCGMMerger::DumpCollected(std::ostream& out) const
 {
+  out << "\nTPC Merger Collected Tracks\n";
+  DumpTrackParam(out);
+}
+
+void GPUTPCGMMerger::DumpTrackParam(std::ostream& out) const
+{
   std::streamsize ss = out.precision();
   out << std::setprecision(6);
-  out << "\nTPC Merger Collected Tracks\n";
   for (uint32_t i = 0; i < mMemory->nMergedTracks; i++) {
     const auto& trk = mMergedTracks[i];
     const auto& p = trk.GetParam();
@@ -157,6 +162,26 @@ void GPUTPCGMMerger::DumpMergeCE(std::ostream& out) const
   }
 }
 
+void GPUTPCGMMerger::DumpTrackClusters(std::ostream& out, bool non0StateOnly, bool noNDF0) const
+{
+  for (uint32_t j = 0; j < mMemory->nMergedTracks; j++) {
+    const auto& trk = mMergedTracks[j];
+    if (trk.NClusters() == 0) {
+      continue;
+    }
+    if (noNDF0 && (!trk.OK() || trk.GetParam().GetNDF() < 0)) {
+      continue;
+    }
+    out << "  Track " << j << ": (" << trk.NClusters() << "): ";
+    for (uint32_t i = trk.FirstClusterRef(); i < trk.FirstClusterRef() + trk.NClusters(); i++) {
+      if (!non0StateOnly || mClusters[i].state != 0) {
+        out << j << "/" << (i - trk.FirstClusterRef()) << ": " << (int32_t)mClusters[i].row << "/" << mClusters[i].num << "/" << (int32_t)mClusters[i].state << ", ";
+      }
+    }
+    out << "\n";
+  }
+}
+
 void GPUTPCGMMerger::DumpFitPrepare(std::ostream& out) const
 {
   out << "\nTPC Merger Refit Prepare\n";
@@ -165,14 +190,7 @@ void GPUTPCGMMerger::DumpFitPrepare(std::ostream& out) const
     out << "    " << i << ": " << mTrackOrderAttach[i] << "\n";
   }
   out << "  Clusters\n";
-  for (uint32_t j = 0; j < mMemory->nMergedTracks; j++) {
-    const auto& trk = mMergedTracks[j];
-    out << "  Track " << j << ": ";
-    for (uint32_t i = trk.FirstClusterRef(); i < trk.FirstClusterRef() + trk.NClusters(); i++) {
-      out << j << "/" << (i - trk.FirstClusterRef()) << ": " << mClusters[i].num << "/" << (int32_t)mClusters[i].state << ", ";
-    }
-    out << "\n";
-  }
+  DumpTrackClusters(out);
   uint32_t j = 0;
   for (uint32_t i = 0; i < mNClusters; i++) {
     if ((mClusterAttachment[i] & attachFlagMask) != 0) {
@@ -223,19 +241,7 @@ void GPUTPCGMMerger::DumpLoopers(std::ostream& out) const
 void GPUTPCGMMerger::DumpFinal(std::ostream& out) const
 {
   out << "\nTPC Merger Finalized\n";
-  for (uint32_t j = 0; j < mMemory->nMergedTracks; j++) {
-    const auto& trk = mMergedTracks[j];
-    if (trk.NClusters() == 0) {
-      continue;
-    }
-    out << "  Track " << j << ": ";
-    for (uint32_t i = trk.FirstClusterRef(); i < trk.FirstClusterRef() + trk.NClusters(); i++) {
-      if (mClusters[i].state != 0) {
-        out << j << "/" << (i - trk.FirstClusterRef()) << ": " << mClusters[i].num << "/" << (int32_t)mClusters[i].state << ", ";
-      }
-    }
-    out << "\n";
-  }
+  DumpTrackClusters(out, true);
   uint32_t j = 0;
   for (uint32_t i = 0; i < mNClusters; i++) {
     if ((mClusterAttachment[i] & attachFlagMask) != 0) {
