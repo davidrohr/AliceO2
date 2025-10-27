@@ -164,10 +164,6 @@ WorkflowSpec defineDataProcessing(ConfigContext const& cfgc)
 
   GPURecoWorkflowSpec::Config cfg;
   cfg.runTPCTracking = true;
-  cfg.lumiScaleType = sclOpt.lumiType;
-  cfg.lumiScaleMode = sclOpt.lumiMode;
-  cfg.enableMShape = sclOpt.enableMShapeCorrection;
-  cfg.enableCTPLumi = sclOpt.requestCTPLumi;
   cfg.decompressTPCFromROOT = isEnabled(inputTypes, ioType::CompClustROOT);
   cfg.decompressTPC = isEnabled(inputTypes, ioType::CompClustFlat) || cfg.decompressTPCFromROOT;
   cfg.zsDecoder = isEnabled(inputTypes, ioType::ZSRaw);
