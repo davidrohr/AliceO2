@@ -225,6 +225,9 @@ int32_t GPUChainTracking::RunTPCTrackingMerger(bool synchronizeOutput)
     runKernel<GPUMemClean16>({{numBlocks, -ThreadCount(), 0, deviceType, RecoStep::TPCMerging}}, MergerShadow.ClusterCandidates(), Merger.NMergedTracks() * GPUCA_ROW_COUNT * param().rec.tpc.rebuildTrackInFitClusterCandidates * sizeof(*MergerShadow.ClusterCandidates()));
   }
   runKernel<GPUTPCGMMergerTrackFit>(doGPU ? GetGrid(Merger.NMergedTracks(), 0) : GetGridAuto(0), mergerSortTracks ? 1 : 0, 0);
+  if (param().rec.tpc.retryRefit) {
+    runKernel<GPUTPCGMMergerTrackFit>(GetGridAuto(0), -1, 0);
+  }
   if (param().rec.tpc.rebuildTrackInFit) {
     runKernel<GPUMemClean16>({{numBlocks, -ThreadCount(), 0, deviceType, RecoStep::TPCMerging}}, MergerShadow.HitWeights(), Merger.NClusters() * sizeof(*MergerShadow.HitWeights()));
     runKernel<GPUTPCGMMergerHitWeights, GPUTPCGMMergerHitWeights::prepare>(doGPU ? GetGrid(Merger.NMergedTracks(), 0) : GetGridAuto(0), 0);
