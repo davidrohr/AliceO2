@@ -2931,7 +2931,7 @@ int32_t GPUQA::DrawQAHistograms(TObjArray* qcout)
         e->SetLineColor(colorNums[k % COLORCOUNT]);
         e->Draw(k == 0 ? "" : "same");
         GetName(fname, k, mConfig.inputHistogramsOnly);
-        snprintf(name, 2048, mConfig.inputHistogramsOnly ? "%s" : (i ? "%sN_{Clusters}"  : "%sN_{Rows with Clusters}"), fname);
+        snprintf(name, 2048, mConfig.inputHistogramsOnly ? "%s" : (i ? "%sN_{Clusters}" : "%sN_{Rows with Clusters}"), fname);
         mLNCl[i]->AddEntry(e, name, "l");
       }
       mLNCl[i]->Draw();
