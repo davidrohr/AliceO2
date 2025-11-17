@@ -23,7 +23,7 @@
 #define GPUO2INTERFACECONFIGURABLEPARAM_H
 
 #if !defined(GPUCA_STANDALONE) && !defined(GPUCA_O2_LIB)
-  #include "GPUO2ExternalUser.h"
+#include "GPUO2ExternalUser.h"
 #endif
 
 #include "CommonUtils/ConfigurableParam.h"
