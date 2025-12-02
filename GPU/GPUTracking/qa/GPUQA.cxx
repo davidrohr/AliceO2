@@ -2836,9 +2836,13 @@ int32_t GPUQA::DrawQAHistograms(TObjArray* qcout)
       }
       doPerfFigure(i == 0 ? 0.37 : (i == 1 ? 0.34 : 0.6), 0.295, 0.030);
       mCClust[i]->cd();
-      mCClust[i]->Print(Form(i == 2 ? "%s/clusters_integral.pdf" : i == 1 ? "%s/clusters_relative.pdf" : "%s/clusters.pdf", mConfig.plotsDir.c_str()));
+      mCClust[i]->Print(Form(i == 2 ? "%s/clusters_integral.pdf" : i == 1 ? "%s/clusters_relative.pdf"
+                                                                          : "%s/clusters.pdf",
+                             mConfig.plotsDir.c_str()));
       if (mConfig.writeFileExt != "") {
-        mCClust[i]->Print(Form(i == 2 ? "%s/clusters_integral.%s" : i == 1 ? "%s/clusters_relative.%s" : "%s/clusters.%s", mConfig.plotsDir.c_str(), mConfig.writeFileExt.c_str()));
+        mCClust[i]->Print(Form(i == 2 ? "%s/clusters_integral.%s" : i == 1 ? "%s/clusters_relative.%s"
+                                                                           : "%s/clusters.%s",
+                               mConfig.plotsDir.c_str(), mConfig.writeFileExt.c_str()));
       }
     }
 
