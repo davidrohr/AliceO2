@@ -553,7 +553,7 @@ int32_t GPUTPCGMMerger::CheckSectors()
 
 void GPUTPCGMMerger::CreateMCLabels(int32_t nBlocks, int32_t nThreads, int32_t iBlock, int32_t iThread)
 {
-  const o2::tpc::ClusterNativeAccess* GPUrestrict() clusters = GetConstantMem()->ioPtrs.clustersNative;
+  const o2::tpc::ClusterNativeAccess* GPUrestrict() clusters = GetConstantMem() -> ioPtrs.clustersNative;
   if (clusters == nullptr || clusters->clustersMCTruth == nullptr) {
     return;
   }
@@ -2313,7 +2313,7 @@ GPUd() void GPUTPCGMMerger::ResolveHitWeights2(int32_t nBlocks, int32_t nThreads
           continue;
         }
         const auto& best = candidates[candidates[0].best - 1];
-        const ClusterNative& GPUrestrict() cl = GetConstantMem()->ioPtrs.clustersNative->clustersLinear[best.id - 2];
+        const ClusterNative& GPUrestrict() cl = GetConstantMem() -> ioPtrs.clustersNative->clustersLinear[best.id - 2];
         uint8_t flags = (uint8_t)(cl.getFlags() & GPUTPCGMMergedTrackHit::clustererAndSharedFlags);
         if ((mTrackRebuildHelper[i].highInclRowLow != 255 && j <= mTrackRebuildHelper[i].highInclRowLow) || (mTrackRebuildHelper[i].highInclRowHigh != 255 && j >= mTrackRebuildHelper[i].highInclRowHigh)) {
           flags |= GPUTPCGMMergedTrackHit::flagHighIncl;
