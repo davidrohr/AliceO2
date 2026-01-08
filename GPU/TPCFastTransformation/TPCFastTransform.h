@@ -194,7 +194,7 @@ class TPCFastTransform : public FlatObject
 
   /// Inverse transformation
   GPUd() void InverseTransformInTimeFrame(int32_t sector, int32_t row, float /*x*/, float y, float z, float& pad, float& time, float maxTimeBin) const;
-  GPUd() float InverseTransformInTimeFrame(int32_t roc, float z, float maxTimeBin) const;
+  GPUd() float InverseTransformInTimeFrame(int32_t sector, float z, float maxTimeBin) const;
 
   /// Inverse transformation: Transformed Y and Z -> transformed X
   GPUd() void InverseTransformYZtoX(int32_t sector, int32_t row, float y, float z, float& x, const TPCFastTransform* ref = nullptr, const TPCFastTransform* ref2 = nullptr, float scale = 0.f, float scale2 = 0.f, int32_t scaleMode = 0) const;
@@ -220,8 +220,8 @@ class TPCFastTransform : public FlatObject
   GPUd() float convDeltaTimeToDeltaZinTimeFrame(int32_t sector, float deltaTime) const;
   GPUd() float convDeltaZtoDeltaTimeInTimeFrame(int32_t sector, float deltaZ) const;
   GPUd() float convDeltaZtoDeltaTimeInTimeFrameAbs(float deltaZ) const;
-  GPUd() float convZOffsetToVertexTime(float zOffset, float maxTimeBin) const;
-  GPUd() float convVertexTimeToZOffset(float vertexTime, float maxTimeBin) const;
+  GPUd() float convZOffsetToVertexTime(int32_t sector, float zOffset, float maxTimeBin) const;
+  GPUd() float convVertexTimeToZOffset(int32_t sector, float vertexTime, float maxTimeBin) const;
 
   void setApplyCorrectionOn() { mApplyCorrection = 1; }
   void setApplyCorrectionOff() { mApplyCorrection = 0; }
@@ -364,14 +364,22 @@ GPUdi() void TPCFastTransform::convPadTimeToLocalInTimeFrame(int32_t sector, int
 
 // ----------------------------------------------------------------------
 
-GPUdi() float TPCFastTransform::convZOffsetToVertexTime(float zOffset, float maxTimeBin) const
+GPUdi() float TPCFastTransform::convZOffsetToVertexTime(int32_t sector, float zOffset, float maxTimeBin) const
 {
-  return maxTimeBin - (getGeometry().getTPCzLength() + zOffset) / mVdrift;
+  if (sector < getGeometry().getNumberOfSectorsA()) {
+    return maxTimeBin - (getGeometry().getTPCzLength() + zOffset) / mVdrift;
+  } else {
+    return maxTimeBin - (getGeometry().getTPCzLength() - zOffset) / mVdrift;
+  }
 }
 
-GPUdi() float TPCFastTransform::convVertexTimeToZOffset(float vertexTime, float maxTimeBin) const
+GPUdi() float TPCFastTransform::convVertexTimeToZOffset(int32_t sector, float vertexTime, float maxTimeBin) const
 {
-  return (maxTimeBin - vertexTime) * mVdrift - getGeometry().getTPCzLength();
+  if (sector < getGeometry().getNumberOfSectorsA()) {
+    return (maxTimeBin - vertexTime) * mVdrift - getGeometry().getTPCzLength();
+  } else {
+    return -((maxTimeBin - vertexTime) * mVdrift - getGeometry().getTPCzLength());
+  }
 }
 
 GPUdi() float TPCFastTransform::convDriftLengthToTime(float driftLength, float vertexTime) const
