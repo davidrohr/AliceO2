@@ -495,7 +495,6 @@ GPUdi() std::array<float, 3> TPCFastSpaceChargeCorrection::getCorrectionLocal(in
     val[2] = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
   }
 
-
   float dx = val[2] * GPUCommonMath::Clamp(dxyz[0], info.minCorr[0], info.maxCorr[0]);
   float dy = val[2] * GPUCommonMath::Clamp(dxyz[1], info.minCorr[1], info.maxCorr[1]);
   float dz = val[2] * GPUCommonMath::Clamp(dxyz[2], info.minCorr[2], info.maxCorr[2]);
