@@ -464,7 +464,7 @@ GPUdi() void TPCFastTransform::getTOFcorrection(int32_t sector, int32_t /*row*/,
 
 GPUdi() void TPCFastTransform::TransformInternal(int32_t sector, int32_t row, float& u, float& v, float& x, const TPCFastTransform* ref, const TPCFastTransform* ref2, float scale, float scale2, int32_t scaleMode) const
 {
-  GPUCA_RTC_SPECIAL_CODE(ref2 = nullptr; scale2 = 0.f;);
+  ref2 = nullptr; scale2 = 0.f;
   if (mApplyCorrection) {
     float dx = 0.f, du = 0.f, dv = 0.f;
     if ((scale >= 0.f) || (scaleMode == 1) || (scaleMode == 2)) {
@@ -802,7 +802,7 @@ GPUdi() float TPCFastTransform::getMaxDriftTime(int32_t sector) const
 
 GPUdi() void TPCFastTransform::InverseTransformYZtoX(int32_t sector, int32_t row, float y, float z, float& x, const TPCFastTransform* ref, const TPCFastTransform* ref2, float scale, float scale2, int32_t scaleMode) const
 {
-  GPUCA_RTC_SPECIAL_CODE(ref2 = nullptr; scale2 = 0.f;);
+  ref2 = nullptr; scale2 = 0.f;
   /// Transformation y,z -> x
   float u = 0, v = 0;
   getGeometry().convLocalToUV(sector, y, z, u, v);
@@ -843,7 +843,7 @@ GPUdi() void TPCFastTransform::InverseTransformYZtoX(int32_t sector, int32_t row
 
 GPUdi() void TPCFastTransform::InverseTransformYZtoNominalYZ(int32_t sector, int32_t row, float y, float z, float& ny, float& nz, const TPCFastTransform* ref, const TPCFastTransform* ref2, float scale, float scale2, int32_t scaleMode) const
 {
-  GPUCA_RTC_SPECIAL_CODE(ref2 = nullptr; scale2 = 0.f;);
+  ref2 = nullptr; scale2 = 0.f;
   /// Transformation y,z -> x
   float u = 0, v = 0, un = 0, vn = 0;
   getGeometry().convLocalToUV(sector, y, z, u, v);
