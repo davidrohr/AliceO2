@@ -34,11 +34,11 @@ namespace gpu
 class TPCFastTransformGeo
 {
  public:
-  /// The struct contains necessary info for TPC slice
-  struct SliceInfo {
+  /// The struct contains necessary info for TPC sector
+  struct SectorInfo {
     float sinAlpha;
     float cosAlpha;
-    ClassDefNV(SliceInfo, 1);
+    ClassDefNV(SectorInfo, 1);
   };
 
   /// The struct contains necessary info about TPC padrow
@@ -101,17 +101,17 @@ class TPCFastTransformGeo
 
   /// _______________  Getters _________________________________
 
-  /// Gives number of TPC slices
-  GPUd() static constexpr int32_t getNumberOfSlices() { return NumberOfSlices; }
+  /// Gives number of TPC sectors
+  GPUd() static constexpr int32_t getNumberOfSectors() { return NumberOfSectors; }
 
-  /// Gives number of TPC slices in A side
-  GPUd() static constexpr int32_t getNumberOfSlicesA() { return NumberOfSlicesA; }
+  /// Gives number of TPC sectors in A side
+  GPUd() static constexpr int32_t getNumberOfSectorsA() { return NumberOfSectorsA; }
 
   /// Gives number of TPC rows
   GPUd() int32_t getNumberOfRows() const { return mNumberOfRows; }
 
-  /// Gives slice info
-  GPUd() const SliceInfo& getSliceInfo(int32_t slice) const;
+  /// Gives sector info
+  GPUd() const SectorInfo& getSectorInfo(int32_t sector) const;
 
   /// Gives TPC row info
   GPUd() const RowInfo& getRowInfo(int32_t row) const;
@@ -122,10 +122,10 @@ class TPCFastTransformGeo
   /// Gives Z length of the TPC, side C
   GPUd() float getTPCzLengthC() const { return mTPCzLengthC; }
 
-  /// Gives Z length of the TPC, depending on the slice
-  GPUd() float getTPCzLength(int32_t slice) const
+  /// Gives Z length of the TPC, depending on the sector
+  GPUd() float getTPCzLength(int32_t sector) const
   {
-    return (slice < NumberOfSlicesA) ? mTPCzLengthA
+    return (sector < NumberOfSectorsA) ? mTPCzLengthA
                                      : mTPCzLengthC;
   }
 
@@ -135,26 +135,26 @@ class TPCFastTransformGeo
   /// _______________  Conversion of coordinate systems __________
 
   /// convert Local -> Global c.s.
-  GPUd() void convLocalToGlobal(int32_t slice, float lx, float ly, float lz, float& gx, float& gy, float& gz) const;
+  GPUd() void convLocalToGlobal(int32_t sector, float lx, float ly, float lz, float& gx, float& gy, float& gz) const;
 
   /// convert Global->Local c.s.
-  GPUd() void convGlobalToLocal(int32_t slice, float gx, float gy, float gz, float& lx, float& ly, float& lz) const;
+  GPUd() void convGlobalToLocal(int32_t sector, float gx, float gy, float gz, float& lx, float& ly, float& lz) const;
 
   /// convert UV -> Local c.s.
-  GPUd() void convUVtoLocal(int32_t slice, float u, float v, float& y, float& z) const;
-  GPUd() void convVtoLocal(int32_t slice, float v, float& z) const;
+  GPUd() void convUVtoLocal(int32_t sector, float u, float v, float& y, float& z) const;
+  GPUd() void convVtoLocal(int32_t sector, float v, float& z) const;
 
   /// convert Local-> UV c.s.
-  GPUd() void convLocalToUV(int32_t slice, float y, float z, float& u, float& v) const;
+  GPUd() void convLocalToUV(int32_t sector, float y, float z, float& u, float& v) const;
 
   /// convert UV -> Scaled UV
-  GPUd() void convUVtoScaledUV(int32_t slice, int32_t row, float u, float v, float& su, float& sv) const;
+  GPUd() void convUVtoScaledUV(int32_t sector, int32_t row, float u, float v, float& su, float& sv) const;
 
   /// convert Scaled UV -> UV
-  GPUd() void convScaledUVtoUV(int32_t slice, int32_t row, float su, float sv, float& u, float& v) const;
+  GPUd() void convScaledUVtoUV(int32_t sector, int32_t row, float su, float sv, float& u, float& v) const;
 
   /// convert Scaled UV -> Local c.s.
-  GPUd() void convScaledUVtoLocal(int32_t slice, int32_t row, float su, float sv, float& ly, float& lz) const;
+  GPUd() void convScaledUVtoLocal(int32_t sector, int32_t row, float su, float sv, float& ly, float& lz) const;
 
   /// convert Pad coordinate -> U
   GPUd() float convPadToU(int32_t row, float pad) const;
@@ -166,7 +166,7 @@ class TPCFastTransformGeo
   void print() const;
 
   /// Method for testing consistency
-  int32_t test(int32_t slice, int32_t row, float ly, float lz) const;
+  int32_t test(int32_t sector, int32_t row, float ly, float lz) const;
 
   /// Method for testing consistency
   int32_t test() const;
@@ -174,9 +174,9 @@ class TPCFastTransformGeo
  private:
   /// _______________  Data members  _______________________________________________
 
-  static constexpr int32_t NumberOfSlices = 36;                  ///< Number of TPC slices ( slice = inner + outer sector )
-  static constexpr int32_t NumberOfSlicesA = NumberOfSlices / 2; ///< Number of TPC slices side A
-  static constexpr int32_t MaxNumberOfRows = 160;                ///< Max Number of TPC rows in a slice
+  static constexpr int32_t NumberOfSectors = 36;                  ///< Number of TPC sectors ( sector = inner + outer sector )
+  static constexpr int32_t NumberOfSectorsA = NumberOfSectors / 2; ///< Number of TPC sectors side A
+  static constexpr int32_t MaxNumberOfRows = 160;                ///< Max Number of TPC rows in a sector
 
   /// _______________  Construction control  _______________________________________________
 
@@ -202,7 +202,7 @@ class TPCFastTransformGeo
   float mScaleSVtoVsideA = 0.f; ///< scale for sv->v for TPC side A
   float mScaleSVtoVsideC = 0.f; ///< scale for sv->v for TPC side C
 
-  SliceInfo mSliceInfos[NumberOfSlices + 1]; ///< array of slice information [fixed size]
+  SectorInfo mSectorInfos[NumberOfSectors + 1]; ///< array of sector information [fixed size]
   RowInfo mRowInfos[MaxNumberOfRows + 1];    ///< array of row information [fixed size]
 
   ClassDefNV(TPCFastTransformGeo, 1);
@@ -212,13 +212,13 @@ class TPCFastTransformGeo
 //              Inline implementations of some methods
 // =======================================================================
 
-GPUdi() const TPCFastTransformGeo::SliceInfo& TPCFastTransformGeo::getSliceInfo(int32_t slice) const
+GPUdi() const TPCFastTransformGeo::SectorInfo& TPCFastTransformGeo::getSectorInfo(int32_t sector) const
 {
-  /// Gives slice info
-  if (slice < 0 || slice >= NumberOfSlices) { // return zero object
-    slice = NumberOfSlices;
+  /// Gives sector info
+  if (sector < 0 || sector >= NumberOfSectors) { // return zero object
+    sector = NumberOfSectors;
   }
-  return mSliceInfos[slice];
+  return mSectorInfos[sector];
 }
 
 GPUdi() const TPCFastTransformGeo::RowInfo& TPCFastTransformGeo::getRowInfo(int32_t row) const
@@ -230,28 +230,28 @@ GPUdi() const TPCFastTransformGeo::RowInfo& TPCFastTransformGeo::getRowInfo(int3
   return mRowInfos[row];
 }
 
-GPUdi() void TPCFastTransformGeo::convLocalToGlobal(int32_t slice, float lx, float ly, float lz, float& gx, float& gy, float& gz) const
+GPUdi() void TPCFastTransformGeo::convLocalToGlobal(int32_t sector, float lx, float ly, float lz, float& gx, float& gy, float& gz) const
 {
   /// convert Local -> Global c.s.
-  const SliceInfo& sliceInfo = getSliceInfo(slice);
-  gx = lx * sliceInfo.cosAlpha - ly * sliceInfo.sinAlpha;
-  gy = lx * sliceInfo.sinAlpha + ly * sliceInfo.cosAlpha;
+  const SectorInfo& sectorInfo = getSectorInfo(sector);
+  gx = lx * sectorInfo.cosAlpha - ly * sectorInfo.sinAlpha;
+  gy = lx * sectorInfo.sinAlpha + ly * sectorInfo.cosAlpha;
   gz = lz;
 }
 
-GPUdi() void TPCFastTransformGeo::convGlobalToLocal(int32_t slice, float gx, float gy, float gz, float& lx, float& ly, float& lz) const
+GPUdi() void TPCFastTransformGeo::convGlobalToLocal(int32_t sector, float gx, float gy, float gz, float& lx, float& ly, float& lz) const
 {
   /// convert Global -> Local c.s.
-  const SliceInfo& sliceInfo = getSliceInfo(slice);
-  lx = gx * sliceInfo.cosAlpha + gy * sliceInfo.sinAlpha;
-  ly = -gx * sliceInfo.sinAlpha + gy * sliceInfo.cosAlpha;
+  const SectorInfo& sectorInfo = getSectorInfo(sector);
+  lx = gx * sectorInfo.cosAlpha + gy * sectorInfo.sinAlpha;
+  ly = -gx * sectorInfo.sinAlpha + gy * sectorInfo.cosAlpha;
   lz = gz;
 }
 
-GPUdi() void TPCFastTransformGeo::convVtoLocal(int32_t slice, float v, float& lz) const
+GPUdi() void TPCFastTransformGeo::convVtoLocal(int32_t sector, float v, float& lz) const
 {
   /// convert UV -> Local c.s.
-  if (slice < NumberOfSlicesA) { // TPC side A
+  if (sector < NumberOfSectorsA) { // TPC side A
     lz = mTPCzLengthA - v;
   } else {                 // TPC side C
     lz = v - mTPCzLengthC; // drift direction is mirrored on C-side
@@ -259,10 +259,10 @@ GPUdi() void TPCFastTransformGeo::convVtoLocal(int32_t slice, float v, float& lz
   lz += mTPCalignmentZ; // global TPC alignment
 }
 
-GPUdi() void TPCFastTransformGeo::convUVtoLocal(int32_t slice, float u, float v, float& ly, float& lz) const
+GPUdi() void TPCFastTransformGeo::convUVtoLocal(int32_t sector, float u, float v, float& ly, float& lz) const
 {
   /// convert UV -> Local c.s.
-  if (slice < NumberOfSlicesA) { // TPC side A
+  if (sector < NumberOfSectorsA) { // TPC side A
     ly = u;
     lz = mTPCzLengthA - v;
   } else {                 // TPC side C
@@ -272,11 +272,11 @@ GPUdi() void TPCFastTransformGeo::convUVtoLocal(int32_t slice, float u, float v,
   lz += mTPCalignmentZ; // global TPC alignment
 }
 
-GPUdi() void TPCFastTransformGeo::convLocalToUV(int32_t slice, float ly, float lz, float& u, float& v) const
+GPUdi() void TPCFastTransformGeo::convLocalToUV(int32_t sector, float ly, float lz, float& u, float& v) const
 {
   /// convert Local-> UV c.s.
   lz = lz - mTPCalignmentZ;      // global TPC alignment
-  if (slice < NumberOfSlicesA) { // TPC side A
+  if (sector < NumberOfSectorsA) { // TPC side A
     u = ly;
     v = mTPCzLengthA - lz;
   } else {                 // TPC side C
@@ -285,36 +285,36 @@ GPUdi() void TPCFastTransformGeo::convLocalToUV(int32_t slice, float ly, float l
   }
 }
 
-GPUdi() void TPCFastTransformGeo::convUVtoScaledUV(int32_t slice, int32_t row, float u, float v, float& su, float& sv) const
+GPUdi() void TPCFastTransformGeo::convUVtoScaledUV(int32_t sector, int32_t row, float u, float v, float& su, float& sv) const
 {
   /// convert UV -> Scaled UV
   const RowInfo& rowInfo = getRowInfo(row);
   su = (u - rowInfo.u0) * rowInfo.scaleUtoSU;
-  if (slice < NumberOfSlicesA) {
+  if (sector < NumberOfSectorsA) {
     sv = v * mScaleVtoSVsideA;
   } else {
     sv = v * mScaleVtoSVsideC;
   }
 }
 
-GPUdi() void TPCFastTransformGeo::convScaledUVtoUV(int32_t slice, int32_t row, float su, float sv, float& u, float& v) const
+GPUdi() void TPCFastTransformGeo::convScaledUVtoUV(int32_t sector, int32_t row, float su, float sv, float& u, float& v) const
 {
   /// convert Scaled UV -> UV
   const RowInfo& rowInfo = getRowInfo(row);
   u = rowInfo.u0 + su * rowInfo.scaleSUtoU;
-  if (slice < NumberOfSlicesA) {
+  if (sector < NumberOfSectorsA) {
     v = sv * mScaleSVtoVsideA;
   } else {
     v = sv * mScaleSVtoVsideC;
   }
 }
 
-GPUdi() void TPCFastTransformGeo::convScaledUVtoLocal(int32_t slice, int32_t row, float su, float sv, float& ly, float& lz) const
+GPUdi() void TPCFastTransformGeo::convScaledUVtoLocal(int32_t sector, int32_t row, float su, float sv, float& ly, float& lz) const
 {
   /// convert Scaled UV -> Local c.s.
   float u, v;
-  convScaledUVtoUV(slice, row, su, sv, u, v);
-  convUVtoLocal(slice, u, v, ly, lz);
+  convScaledUVtoUV(sector, row, su, sv, u, v);
+  convUVtoLocal(sector, u, v, ly, lz);
 }
 
 GPUdi() float TPCFastTransformGeo::convPadToU(int32_t row, float pad) const
