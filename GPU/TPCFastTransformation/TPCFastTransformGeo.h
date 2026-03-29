@@ -18,6 +18,8 @@
 #define ALICEO2_GPUCOMMON_TPCFASTTRANSFORMATION_TPCFASTTRANSFORMGEO_H
 
 #include "GPUCommonDef.h"
+#include "GPUCommonMath.h"
+
 #ifndef GPUCA_GPUCODE_DEVICE
 #include <memory>
 #include "GPUCommonRtypes.h"
@@ -33,24 +35,29 @@ namespace gpu
 ///
 class TPCFastTransformGeo
 {
+
  public:
   /// The struct contains necessary info for TPC sector
   struct SectorInfo {
-    float sinAlpha;
-    float cosAlpha;
+    float sinAlpha{0.f}; ///< sin of the angle between the local x and the global x
+    float cosAlpha{0.f}; ///< cos of the angle between the local x and the global x
   };
 
   /// The struct contains necessary info about TPC padrow
   struct RowInfo {
-    float x;          ///< nominal X coordinate of the row [cm]
-    int32_t maxPad;   ///< maximal pad number = n pads - 1
-    float padWidth;   ///< width of pads [cm]
-    float u0;         ///< min. u coordinate
-    float scaleUtoSU; ///< scale for su (scaled u ) coordinate
-    float scaleSUtoU; ///< scale for u coordinate
+    float x{0.f};        ///< nominal X coordinate of the padrow [cm]
+    int32_t maxPad{0};   ///< maximal pad number = n pads - 1
+    float padWidth{0.f}; ///< width of pads [cm]
+    float yMin{0.f};     ///< min. y coordinate
 
-    /// get width in U
-    GPUd() float getUwidth() const { return -2.f * u0; }
+    /// get Y min
+    GPUd() float getYmin() const { return yMin; }
+
+    /// get Y max
+    GPUd() float getYmax() const { return -yMin; }
+
+    /// get width in Y
+    GPUd() float getYwidth() const { return -2.f * yMin; }
   };
 
   /// _____________  Constructors / destructors __________________________
@@ -83,13 +90,7 @@ class TPCFastTransformGeo
   /// Sets TPC geometry
   ///
   /// It must be called once during initialization
-  void setTPCzLength(float tpcZlengthSideA, float tpcZlengthSideC);
-
-  /// Sets all drift calibration parameters and the time stamp
-  ///
-  /// It must be called once during construction,
-  /// but also may be called afterwards to reset these parameters.
-  void setTPCalignmentZ(float tpcAlignmentZ);
+  void setTPCzLength(float tpcZlength);
 
   /// Finishes initialization: puts everything to the flat buffer, releases temporary memory
   void finishConstruction();
@@ -102,11 +103,14 @@ class TPCFastTransformGeo
   /// Gives number of TPC sectors
   GPUd() static constexpr int32_t getNumberOfSectors() { return NumberOfSectors; }
 
-  /// Gives number of TPC sectors in A side
+  /// Gives number of TPC sectors on the A side
   GPUd() static constexpr int32_t getNumberOfSectorsA() { return NumberOfSectorsA; }
 
   /// Gives number of TPC rows
   GPUd() int32_t getNumberOfRows() const { return mNumberOfRows; }
+
+  /// Gives number of TPC rows
+  GPUd() static constexpr int getMaxNumberOfRows() { return MaxNumberOfRows; }
 
   /// Gives sector info
   GPUd() const SectorInfo& getSectorInfo(int32_t sector) const;
@@ -114,21 +118,13 @@ class TPCFastTransformGeo
   /// Gives TPC row info
   GPUd() const RowInfo& getRowInfo(int32_t row) const;
 
-  /// Gives Z length of the TPC, side A
-  GPUd() float getTPCzLengthA() const { return mTPCzLengthA; }
+  /// Gives Z length of the TPC, one Z side
+  GPUd() float getTPCzLength() const { return mTPCzLength; }
 
-  /// Gives Z length of the TPC, side C
-  GPUd() float getTPCzLengthC() const { return mTPCzLengthC; }
-
-  /// Gives Z length of the TPC, depending on the sector
-  GPUd() float getTPCzLength(int32_t sector) const
-  {
-    return (sector < NumberOfSectorsA) ? mTPCzLengthA
-                                     : mTPCzLengthC;
-  }
-
-  /// Gives TPC alignment in Z
-  GPUd() float getTPCalignmentZ() const { return mTPCalignmentZ; }
+  /// Gives Z range for the corresponding TPC side
+  GPUd() float getZmin(int32_t sector) const;
+  GPUd() float getZmax(int32_t sector) const;
+  GPUd() float getZreadout(int32_t sector) const;
 
   /// _______________  Conversion of coordinate systems __________
 
@@ -138,27 +134,17 @@ class TPCFastTransformGeo
   /// convert Global->Local c.s.
   GPUd() void convGlobalToLocal(int32_t sector, float gx, float gy, float gz, float& lx, float& ly, float& lz) const;
 
-  /// convert UV -> Local c.s.
-  GPUd() void convUVtoLocal(int32_t sector, float u, float v, float& y, float& z) const;
-  GPUd() void convVtoLocal(int32_t sector, float v, float& z) const;
+  /// convert Pad, DriftLength -> Local c.s.
+  GPUd() void convPadDriftLengthToLocal(int32_t sector, int32_t row, float pad, float driftLength, float& y, float& z) const;
 
-  /// convert Local-> UV c.s.
-  GPUd() void convLocalToUV(int32_t sector, float y, float z, float& u, float& v) const;
+  /// convert DriftLength -> Local c.s.
+  GPUd() float convDriftLengthToZ1(int32_t sector, float driftLength) const;
 
-  /// convert UV -> Scaled UV
-  GPUd() void convUVtoScaledUV(int32_t sector, int32_t row, float u, float v, float& su, float& sv) const;
+  /// convert Z to DriftLength
+  GPUd() float convZtoDriftLength1(int32_t sector, float z) const;
 
-  /// convert Scaled UV -> UV
-  GPUd() void convScaledUVtoUV(int32_t sector, int32_t row, float su, float sv, float& u, float& v) const;
-
-  /// convert Scaled UV -> Local c.s.
-  GPUd() void convScaledUVtoLocal(int32_t sector, int32_t row, float su, float sv, float& ly, float& lz) const;
-
-  /// convert Pad coordinate -> U
-  GPUd() float convPadToU(int32_t row, float pad) const;
-
-  /// convert U -> Pad coordinate
-  GPUd() float convUtoPad(int32_t row, float u) const;
+  /// convert Local c.s. -> Pad, DriftLength
+  GPUd() void convLocalToPadDriftLength(int32_t sector, int32_t row, float y, float z, float& pad, float& l) const;
 
   /// Print method
   void print() const;
@@ -172,9 +158,9 @@ class TPCFastTransformGeo
  private:
   /// _______________  Data members  _______________________________________________
 
-  static constexpr int32_t NumberOfSectors = 36;                  ///< Number of TPC sectors ( sector = inner + outer sector )
+  static constexpr int32_t NumberOfSectors = 36;                   ///< Number of TPC sectors ( sector = inner + outer sector )
   static constexpr int32_t NumberOfSectorsA = NumberOfSectors / 2; ///< Number of TPC sectors side A
-  static constexpr int32_t MaxNumberOfRows = 160;                ///< Max Number of TPC rows in a sector
+  static constexpr int32_t MaxNumberOfRows = 160;                  ///< Max Number of TPC rows in a sector
 
   /// _______________  Construction control  _______________________________________________
 
@@ -184,24 +170,19 @@ class TPCFastTransformGeo
     Constructed = 0x1,    ///< the object is constructed, temporary memory is released
     InProgress = 0x2,     ///< construction started: temporary  memory is reserved
     GeometryIsSet = 0x4,  ///< the TPC geometry is set
-    AlignmentIsSet = 0x8  ///< the TPC alignment is set
   };
 
   uint32_t mConstructionMask = ConstructionState::NotConstructed; ///< mask for constructed object members, first two bytes are used by this class
 
   /// _______________  Geometry  _______________________________________________
 
-  int32_t mNumberOfRows = 0;    ///< Number of TPC rows. It is different for the Run2 and the Run3 setups
-  float mTPCzLengthA = 0.f;     ///< Z length of the TPC, side A
-  float mTPCzLengthC = 0.f;     ///< Z length of the TPC, side C
-  float mTPCalignmentZ = 0.f;   ///< Global Z shift of the TPC detector. It is applied at the end of the transformation.
-  float mScaleVtoSVsideA = 0.f; ///< scale for v->sv for TPC side A
-  float mScaleVtoSVsideC = 0.f; ///< scale for v->sv for TPC side C
-  float mScaleSVtoVsideA = 0.f; ///< scale for sv->v for TPC side A
-  float mScaleSVtoVsideC = 0.f; ///< scale for sv->v for TPC side C
+  int32_t mNumberOfRows = 0; ///< Number of TPC rows. It is different for the Run2 and the Run3 setups
+  float mTPCzLength = 0.f;   ///< Z length of one TPC side (A or C)
 
   SectorInfo mSectorInfos[NumberOfSectors + 1]; ///< array of sector information [fixed size]
-  RowInfo mRowInfos[MaxNumberOfRows + 1];    ///< array of row information [fixed size]
+  RowInfo mRowInfos[MaxNumberOfRows + 1];       ///< array of row information [fixed size]
+
+ public:
 };
 
 // =======================================================================
@@ -244,87 +225,75 @@ GPUdi() void TPCFastTransformGeo::convGlobalToLocal(int32_t sector, float gx, fl
   lz = gz;
 }
 
-GPUdi() void TPCFastTransformGeo::convVtoLocal(int32_t sector, float v, float& lz) const
+GPUdi() void TPCFastTransformGeo::convPadDriftLengthToLocal(int32_t sector, int32_t row, float pad, float driftLength, float& y, float& z) const
 {
-  /// convert UV -> Local c.s.
+  /// convert Pad, DriftLength -> Local c.s.
+  const RowInfo& rowInfo = getRowInfo(row);
+  float u = (pad - 0.5f * rowInfo.maxPad) * rowInfo.padWidth;
   if (sector < NumberOfSectorsA) { // TPC side A
-    lz = mTPCzLengthA - v;
-  } else {                 // TPC side C
-    lz = v - mTPCzLengthC; // drift direction is mirrored on C-side
+    y = u;
+    z = mTPCzLength - driftLength;
+  } else {                         // TPC side C
+    y = -u;                        // pads are mirrorred on C-side
+    z = driftLength - mTPCzLength; // drift direction is mirrored on C-side
   }
-  lz += mTPCalignmentZ; // global TPC alignment
 }
 
-GPUdi() void TPCFastTransformGeo::convUVtoLocal(int32_t sector, float u, float v, float& ly, float& lz) const
+GPUdi() float TPCFastTransformGeo::convDriftLengthToZ1(int32_t sector, float driftLength) const
 {
-  /// convert UV -> Local c.s.
+  /// convert DriftLength -> Local c.s.
+  return (sector < NumberOfSectorsA) ? (mTPCzLength - driftLength) : (driftLength - mTPCzLength);
+}
+
+GPUdi() float TPCFastTransformGeo::convZtoDriftLength1(int32_t sector, float z) const
+{
+  /// convert Z to DriftLength
+  return (sector < NumberOfSectorsA) ? (mTPCzLength - z) : (z + mTPCzLength);
+}
+
+GPUdi() float TPCFastTransformGeo::getZmin(int32_t sector) const
+{
+  /// z min for the sector
   if (sector < NumberOfSectorsA) { // TPC side A
-    ly = u;
-    lz = mTPCzLengthA - v;
-  } else {                 // TPC side C
-    ly = -u;               // pads are mirrorred on C-side
-    lz = v - mTPCzLengthC; // drift direction is mirrored on C-side
+    return 0.f;
+  } else { // TPC side C
+    return -mTPCzLength;
   }
-  lz += mTPCalignmentZ; // global TPC alignment
 }
 
-GPUdi() void TPCFastTransformGeo::convLocalToUV(int32_t sector, float ly, float lz, float& u, float& v) const
+GPUdi() float TPCFastTransformGeo::getZmax(int32_t sector) const
 {
-  /// convert Local-> UV c.s.
-  lz = lz - mTPCalignmentZ;      // global TPC alignment
+  /// z max for the sector
   if (sector < NumberOfSectorsA) { // TPC side A
-    u = ly;
-    v = mTPCzLengthA - lz;
-  } else {                 // TPC side C
-    u = -ly;               // pads are mirrorred on C-side
-    v = lz + mTPCzLengthC; // drift direction is mirrored on C-side
+    return mTPCzLength;
+  } else { // TPC side C
+    return 0.f;
   }
 }
 
-GPUdi() void TPCFastTransformGeo::convUVtoScaledUV(int32_t sector, int32_t row, float u, float v, float& su, float& sv) const
+GPUdi() float TPCFastTransformGeo::getZreadout(int32_t sector) const
 {
-  /// convert UV -> Scaled UV
-  const RowInfo& rowInfo = getRowInfo(row);
-  su = (u - rowInfo.u0) * rowInfo.scaleUtoSU;
-  if (sector < NumberOfSectorsA) {
-    sv = v * mScaleVtoSVsideA;
-  } else {
-    sv = v * mScaleVtoSVsideC;
+  /// z readout for the sector
+  if (sector < NumberOfSectorsA) { // TPC side A
+    return mTPCzLength;
+  } else { // TPC side C
+    return -mTPCzLength;
   }
 }
 
-GPUdi() void TPCFastTransformGeo::convScaledUVtoUV(int32_t sector, int32_t row, float su, float sv, float& u, float& v) const
+GPUdi() void TPCFastTransformGeo::convLocalToPadDriftLength(int32_t sector, int32_t row, float y, float z, float& pad, float& l) const
 {
-  /// convert Scaled UV -> UV
-  const RowInfo& rowInfo = getRowInfo(row);
-  u = rowInfo.u0 + su * rowInfo.scaleSUtoU;
-  if (sector < NumberOfSectorsA) {
-    v = sv * mScaleSVtoVsideA;
-  } else {
-    v = sv * mScaleSVtoVsideC;
+  /// convert Local c.s. -> Pad, DriftLength
+  float u;
+  if (sector < NumberOfSectorsA) { // TPC side A
+    u = y;
+    l = mTPCzLength - z;
+  } else {               // TPC side C
+    u = -y;              // pads are mirrorred on C-side
+    l = z + mTPCzLength; // drift direction is mirrored on C-side
   }
-}
-
-GPUdi() void TPCFastTransformGeo::convScaledUVtoLocal(int32_t sector, int32_t row, float su, float sv, float& ly, float& lz) const
-{
-  /// convert Scaled UV -> Local c.s.
-  float u, v;
-  convScaledUVtoUV(sector, row, su, sv, u, v);
-  convUVtoLocal(sector, u, v, ly, lz);
-}
-
-GPUdi() float TPCFastTransformGeo::convPadToU(int32_t row, float pad) const
-{
-  /// convert Pad coordinate -> U
-  const RowInfo& rowInfo = getRowInfo(row);
-  return (pad - 0.5f * rowInfo.maxPad) * rowInfo.padWidth;
-}
-
-GPUdi() float TPCFastTransformGeo::convUtoPad(int32_t row, float u) const
-{
-  /// convert U -> Pad coordinate
-  const RowInfo& rowInfo = getRowInfo(row);
-  return u / rowInfo.padWidth + 0.5f * rowInfo.maxPad;
+  const TPCFastTransformGeo::RowInfo& rowInfo = getRowInfo(row);
+  pad = u / rowInfo.padWidth + 0.5f * rowInfo.maxPad;
 }
 
 } // namespace gpu
