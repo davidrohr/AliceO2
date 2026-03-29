@@ -182,8 +182,6 @@ class SemiregularSpline2D3D : public FlatObject
   int32_t mNumberOfRows;
   int32_t mNumberOfKnots;
   int32_t mDataIndexMapOffset;
-
-  ClassDefNV(SemiregularSpline2D3D, 1);
 };
 
 /// ====================================================

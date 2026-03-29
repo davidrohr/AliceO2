@@ -74,8 +74,6 @@ class SymMatrixSolver
   int32_t mM = 0;
   int32_t mShift = 0;
   std::vector<double> mA;
-
-  ClassDefNV(SymMatrixSolver, 0);
 };
 
 } // namespace gpu

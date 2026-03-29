@@ -112,8 +112,6 @@ class BandMatrixSolver
   int32_t mBdim = 0;
   std::vector<double> mA;
   std::vector<double> mB;
-
-  ClassDefNV(BandMatrixSolver, 0);
 };
 
 template <>

@@ -167,8 +167,6 @@ class Spline1DHelperOld
   std::vector<double> mLSMmatrixFull;   ///< a matrix to convert the measurements into the spline parameters with the LSM method
   std::vector<double> mLSMmatrixSderivatives;
   std::vector<double> mLSMmatrixSvalues;
-
-  ClassDefNV(Spline1DHelperOld, 0);
 };
 
 } // namespace gpu

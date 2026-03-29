@@ -118,8 +118,6 @@ class Spline1DHelper
   /// helpers for the construction of 1D spline
 
   Spline1D<double> mSpline; ///< copy of the spline grid
-
-  ClassDefNV(Spline1DHelper, 0);
 };
 
 } // namespace gpu

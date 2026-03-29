@@ -104,7 +104,6 @@ class Spline2D
   }
 #endif
 
-  ClassDefNV(Spline2D, 0);
 };
 
 } // namespace gpu

@@ -38,7 +38,6 @@ class TPCFastTransformGeo
   struct SectorInfo {
     float sinAlpha;
     float cosAlpha;
-    ClassDefNV(SectorInfo, 1);
   };
 
   /// The struct contains necessary info about TPC padrow
@@ -52,7 +51,6 @@ class TPCFastTransformGeo
 
     /// get width in U
     GPUd() float getUwidth() const { return -2.f * u0; }
-    ClassDefNV(RowInfo, 1);
   };
 
   /// _____________  Constructors / destructors __________________________
@@ -204,8 +202,6 @@ class TPCFastTransformGeo
 
   SectorInfo mSectorInfos[NumberOfSectors + 1]; ///< array of sector information [fixed size]
   RowInfo mRowInfos[MaxNumberOfRows + 1];    ///< array of row information [fixed size]
-
-  ClassDefNV(TPCFastTransformGeo, 1);
 };
 
 // =======================================================================

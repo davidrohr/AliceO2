@@ -218,8 +218,6 @@ class Spline1DContainer : public FlatObject
   DataT mXtoUscale = 0;           ///< a scaling factor to convert X to U
   int32_t* mUtoKnotMap = nullptr; //! (transient!!) pointer to (integer U -> knot index) map inside the mFlatBufferPtr array
   DataT* mParameters = nullptr;   //! (transient!!) pointer to F-dependent parameters inside the mFlatBufferPtr array
-
-  ClassDefNV(Spline1DContainer, 1);
 };
 
 template <typename DataT>
@@ -363,7 +361,6 @@ class Spline1DSpec<DataT, YdimT, 0> : public Spline1DContainer<DataT>
   using TBase::mParameters;
   using TBase::mYdim;
   using TBase::TBase; // inherit constructors and hide them
-  ClassDefNV(Spline1DSpec, 0);
 };
 
 /// ==================================================================================================
@@ -503,7 +500,6 @@ class Spline1DSpec<DataT, YdimT, 2>
   ///  _______  Expert tools: interpolation with given nYdim and external Parameters _______
 
   using TBase::interpolateU;
-  ClassDefNV(Spline1DSpec, 0);
 };
 
 /// ==================================================================================================

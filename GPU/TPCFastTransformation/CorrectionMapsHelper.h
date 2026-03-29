@@ -188,7 +188,6 @@ class CorrectionMapsHelper
   o2::gpu::TPCFastTransform* mCorrMap{nullptr};       // current transform
   o2::gpu::TPCFastTransform* mCorrMapRef{nullptr};    // reference transform
   o2::gpu::TPCFastTransform* mCorrMapMShape{nullptr}; // correction map for v-shape distortions on A-side
-  ClassDefNV(CorrectionMapsHelper, 6);
 };
 
 } // namespace gpu

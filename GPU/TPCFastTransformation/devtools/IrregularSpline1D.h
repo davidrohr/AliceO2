@@ -265,8 +265,6 @@ class IrregularSpline1D : public FlatObject
   int32_t mNumberOfKnots;      ///< n knots on the grid
   int32_t mNumberOfAxisBins;   ///< number of axis bins
   uint32_t mBin2KnotMapOffset; ///< pointer to (axis bin) -> (knot) map in mFlatBufferPtr array
-
-  ClassDefNV(IrregularSpline1D, 1);
 };
 
 /// ====================================================

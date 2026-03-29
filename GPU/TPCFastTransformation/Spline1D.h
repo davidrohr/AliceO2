@@ -172,8 +172,6 @@ class Spline1D
     return (Spline1D*)TVeryBase::readFromFile(inpf, name);
   }
 #endif
-
-  ClassDefNV(Spline1D, 0);
 };
 
 } // namespace gpu

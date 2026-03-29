@@ -305,8 +305,6 @@ class NDPiecewisePolynomials : public FlatObject
 
   // construct the object (flatbuffer)
   void construct();
-
-  ClassDefNV(NDPiecewisePolynomials, 1);
 };
 
 //=================================================================================

@@ -195,8 +195,6 @@ class Spline2DContainer : public FlatObject
   Spline1D<DataT> mGridX1;      ///< grid for U axis
   Spline1D<DataT> mGridX2;      ///< grid for V axis
   DataT* mParameters = nullptr; //! (transient!!) F-dependent parameters of the spline
-
-  ClassDefNV(Spline2DContainer, 1);
 };
 
 /// ==================================================================================================

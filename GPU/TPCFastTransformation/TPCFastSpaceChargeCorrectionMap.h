@@ -96,8 +96,6 @@ class TPCFastSpaceChargeCorrectionMap
   int32_t mNrocs{0};
   int32_t mNrows{0};
   std::vector<std::vector<CorrectionPoint>> fDataPoints; //! (transient!!) points with space charge correction
-
-  ClassDefNV(TPCFastSpaceChargeCorrectionMap, 0);
 };
 
 } // namespace gpu

@@ -129,8 +129,6 @@ class Spline2DHelper
   Spline1DHelperOld<DataT> mHelperU2;
   Spline1D<double, 0> fGridU;
   Spline1D<double, 0> fGridV;
-
-  ClassDefNV(Spline2DHelper, 0);
 };
 
 template <typename DataT>

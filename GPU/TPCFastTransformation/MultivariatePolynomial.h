@@ -157,8 +157,6 @@ class MultivariatePolynomial : public FlatObject, public MultivariatePolynomialH
   // construct the object (flatbuffer)
   void construct();
 #endif
-
-  ClassDefNV(MultivariatePolynomial, 1);
 };
 
 //=================================================================================

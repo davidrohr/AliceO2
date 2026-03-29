@@ -188,8 +188,6 @@ class SplineContainer : public FlatObject
 
   Spline1D<DataT>* mGrid; //! (transient!!) mXdim grids
   DataT* mParameters;     //! (transient!!) F-dependent parameters of the spline
-
-  ClassDefNV(SplineContainer, 1);
 };
 
 template <typename DataT>

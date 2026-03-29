@@ -45,7 +45,6 @@ class TPCFastSpaceChargeCorrection : public FlatObject
   struct RowInfo {
     int32_t splineScenarioID{0};  ///< scenario index (which of Spline2D splines to use)
     size_t dataOffsetBytes[3]{0}; ///< offset for the spline data withing a TPC sector
-    ClassDefNV(RowInfo, 1);
   };
 
   struct RowActiveArea {
@@ -54,7 +53,6 @@ class TPCFastSpaceChargeCorrection : public FlatObject
     float cuMin{0.f};
     float cuMax{0.f};
     float cvMax{0.f};
-    ClassDefNV(RowActiveArea, 1);
   };
 
   struct SectorRowInfo {
@@ -64,12 +62,10 @@ class TPCFastSpaceChargeCorrection : public FlatObject
     float scaleCorrUtoGrid{0.f}; ///< scale corrected U to U-grid coordinate
     float scaleCorrVtoGrid{0.f}; ///< scale corrected V to V-grid coordinate
     RowActiveArea activeArea;
-    ClassDefNV(SectorRowInfo, 1);
   };
 
   struct SectorInfo {
     float vMax{0.f}; ///< Max value of V coordinate
-    ClassDefNV(SectorInfo, 1);
   };
 
   typedef Spline2D<float, 3> SplineType;
@@ -268,8 +264,6 @@ class TPCFastSpaceChargeCorrection : public FlatObject
   size_t mSectorDataSizeBytes[3]; ///< size of the data for one sector in the flat buffer
 
   float fInterpolationSafetyMargin{0.1f}; // 10% area around the TPC row. Outside of this area the interpolation returns the boundary values.
-
-  ClassDefNV(TPCFastSpaceChargeCorrection, 3);
 };
 
 /// ====================================================
