@@ -29,7 +29,7 @@
 #include "Framework/ConfigParamSpec.h"
 #include "Framework/CompletionPolicyHelpers.h"
 #include "DetectorsBase/DPLWorkflowUtils.h"
-#include "TPCCalibration/CorrectionMapsLoader.h"
+#include "TPCCalibration/CorrectionMapsOptions.h"
 
 using namespace o2::framework;
 using GID = o2::dataformats::GlobalTrackID;
@@ -62,7 +62,7 @@ void customize(std::vector<ConfigParamSpec>& workflowOptions)
     {"use-full-geometry", o2::framework::VariantType::Bool, false, {"use full geometry instead of the light-weight ITS part"}},
     {"configKeyValues", VariantType::String, "", {"Semicolon separated key=value strings ..."}},
     {"combine-source-devices", o2::framework::VariantType::Bool, false, {"merge DPL source devices"}}};
-  o2::tpc::CorrectionMapsLoader::addGlobalOptions(options);
+  o2::tpc::CorrectionMapsOptions::addGlobalOptions(options);
   o2::raw::HBFUtilsInitializer::addConfigOption(options);
   std::swap(workflowOptions, options);
 }
@@ -86,7 +86,7 @@ WorkflowSpec defineDataProcessing(ConfigContext const& configcontext)
   auto enable3body = !configcontext.options().get<bool>("disable-3body-finder");
   auto enableStrTr = !configcontext.options().get<bool>("disable-strangeness-tracker");
   auto useGeom = configcontext.options().get<bool>("use-full-geometry");
-  auto sclOpt = o2::tpc::CorrectionMapsLoader::parseGlobalOptions(configcontext.options());
+  auto sclOpt = o2::tpc::CorrectionMapsOptions::parseGlobalOptions(configcontext.options());
   GID::mask_t src = allowedSources & GID::getSourcesMask(configcontext.options().get<std::string>("vertexing-sources"));
   GID::mask_t dummy, srcClus = GID::includesDet(DetID::TOF, src) ? GID::getSourceMask(GID::TOF) : dummy; // eventually, TPC clusters will be needed for refit
   if (enableStrTr) {
