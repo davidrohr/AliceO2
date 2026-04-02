@@ -17,6 +17,7 @@
 #ifndef ALICEO2_GPU_TPCFastTransformPOD_H
 #define ALICEO2_GPU_TPCFastTransformPOD_H
 
+#include "GPUCommonRtypes.h"
 #include "TPCFastTransform.h"
 
 /*
@@ -178,13 +179,13 @@ class TPCFastTransformPOD
   GPUd() const float* getCorrectionDataInvYZ(int32_t sector, int32_t row) const { return getCorrectionData(sector, row, 2); }
 
   /// _______________ The main method: cluster correction  _______________________
-  GPUdi() std::array<float, 3> getCorrectionLocal(int32_t sector, int32_t row, float y, float z) const;
+  GPUdi() void getCorrectionLocal(int32_t sector, int32_t row, float y, float z, float& dx, float& dy, float& dz) const;
 
   /// inverse correction: Real Y and Z -> Real X
   GPUd() float getCorrectionXatRealYZ(int32_t sector, int32_t row, float realY, float realZ) const;
 
   /// inverse correction: Real Y and Z -> measred Y and Z
-  GPUd() std::array<float, 2> getCorrectionYZatRealYZ(int32_t sector, int32_t row, float realY, float realZ) const;
+  GPUd() void getCorrectionYZatRealYZ(int32_t sector, int32_t row, float realY, float realZ, float& measuredY, float& measuredZ) const;
 
   /// transformation in the sector local frame
   GPUd() void TransformLocal(int32_t sector, int32_t row, float& x, float& y, float& z, const TPCFastTransformPOD* ref, const TPCFastTransformPOD* ref2, float scale, float scale2, int32_t scaleMode) const;
@@ -194,19 +195,19 @@ class TPCFastTransformPOD
 
   /// convert local y, z to internal grid coordinates u,v
   /// return values: u, v, scaling factor
-  GPUd() std::array<float, 3> convLocalToGrid(int32_t sector, int32_t row, float y, float z) const;
+  GPUd() void convLocalToGrid(int32_t sector, int32_t row, float y, float z, float& u, float& v, float& s) const;
 
   /// convert internal grid coordinates u,v to local y, z
   /// return values: y, z, scaling factor
-  GPUd() std::array<float, 2> convGridToLocal(int32_t sector, int32_t row, float u, float v) const;
+  GPUd() void convGridToLocal(int32_t sector, int32_t row, float u, float v, float& y, float& z) const;
 
   /// convert real Y, Z to the internal grid coordinates
   /// return values: u, v, scaling factor
-  GPUd() std::array<float, 3> convRealLocalToGrid(int32_t sector, int32_t row, float y, float z) const;
+  GPUd() void convRealLocalToGrid(int32_t sector, int32_t row, float y, float z, float& u, float& v, float& s) const;
 
   /// convert internal grid coordinates to the real Y, Z
   /// return values: y, z
-  GPUd() std::array<float, 2> convGridToRealLocal(int32_t sector, int32_t row, float u, float v) const;
+  GPUd() void convGridToRealLocal(int32_t sector, int32_t row, float u, float v, float& y, float& z) const;
 
   GPUd() bool isLocalInsideGrid(int32_t sector, int32_t row, float y, float z) const;
   GPUd() bool isRealLocalInsideGrid(int32_t sector, int32_t row, float y, float z) const;
@@ -251,7 +252,7 @@ class TPCFastTransformPOD
 #endif
 
   ///< return offset of the spline object start (equivalent of mScenarioPtr in the TPCFastSpaceChargeCorrection)
-  GPUd() const size_t getScenarioOffset(int s) const { return (reinterpret_cast<const size_t*>(getThis() + mOffsScenariosOffsets))[s]; }
+  GPUd() size_t getScenarioOffset(int s) const { return (reinterpret_cast<const size_t*>(getThis() + mOffsScenariosOffsets))[s]; }
 
   bool mApplyCorrection{};                                                          ///< flag to apply corrections
   int mNumberOfScenarios{};                                                         ///< Number of approximation spline scenarios
@@ -270,98 +271,97 @@ class TPCFastTransformPOD
   ClassDefNV(TPCFastTransformPOD, 0);
 };
 
-GPUdi() std::array<float, 3> TPCFastTransformPOD::getCorrectionLocal(int32_t sector, int32_t row, float y, float z) const
+GPUdi() void TPCFastTransformPOD::getCorrectionLocal(int32_t sector, int32_t row, float y, float z, float& dx, float& dy, float& dz) const
 {
   const auto& info = getSectorRowInfo(sector, row);
   const SplineType& spline = getSpline(sector, row);
   const float* splineData = getCorrectionData(sector, row);
 
-  auto val = convLocalToGrid(sector, row, y, z);
+  float u, v, s;
+  convLocalToGrid(sector, row, y, z, u, v, s);
 
   float dxyz[3];
-  spline.interpolateAtU(splineData, val[0], val[1], dxyz);
+  spline.interpolateAtU(splineData, u, v, dxyz);
 
   if (CAMath::Abs(dxyz[0]) > 100.f || CAMath::Abs(dxyz[1]) > 100.f || CAMath::Abs(dxyz[2]) > 100.f) {
-    val[2] = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
+    s = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
   }
 
-  float dx = val[2] * GPUCommonMath::Clamp(dxyz[0], info.minCorr[0], info.maxCorr[0]);
-  float dy = val[2] * GPUCommonMath::Clamp(dxyz[1], info.minCorr[1], info.maxCorr[1]);
-  float dz = val[2] * GPUCommonMath::Clamp(dxyz[2], info.minCorr[2], info.maxCorr[2]);
-
-  return {dx, dy, dz};
+  dx = s * GPUCommonMath::Clamp(dxyz[0], info.minCorr[0], info.maxCorr[0]);
+  dy = s * GPUCommonMath::Clamp(dxyz[1], info.minCorr[1], info.maxCorr[1]);
+  dz = s * GPUCommonMath::Clamp(dxyz[2], info.minCorr[2], info.maxCorr[2]);
 }
 
 GPUdi() float TPCFastTransformPOD::getCorrectionXatRealYZ(int32_t sector, int32_t row, float realY, float realZ) const
 {
   const auto& info = getSectorRowInfo(sector, row);
-  auto val = convRealLocalToGrid(sector, row, realY, realZ);
+  float u, v, s;
+  convRealLocalToGrid(sector, row, realY, realZ, u, v, s);
   float dx = 0;
-  getSplineInvX(sector, row).interpolateAtU(getCorrectionDataInvX(sector, row), val[0], val[1], &dx);
+  getSplineInvX(sector, row).interpolateAtU(getCorrectionDataInvX(sector, row), u, v, &dx);
   if (CAMath::Abs(dx) > 100.f) {
-    val[2] = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
+    s = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
   }
-  dx = val[2] * GPUCommonMath::Clamp(dx, info.minCorr[0], info.maxCorr[0]);
+  dx = s * GPUCommonMath::Clamp(dx, info.minCorr[0], info.maxCorr[0]);
   return dx;
 }
 
-GPUdi() std::array<float, 2> TPCFastTransformPOD::getCorrectionYZatRealYZ(int32_t sector, int32_t row, float realY, float realZ) const
+GPUdi() void TPCFastTransformPOD::getCorrectionYZatRealYZ(int32_t sector, int32_t row, float realY, float realZ, float& y, float& z) const
 {
-  auto val = convRealLocalToGrid(sector, row, realY, realZ);
+  float u, v, s;
+  convRealLocalToGrid(sector, row, realY, realZ, u, v, s);
   const auto& info = getSectorRowInfo(sector, row);
   float dyz[2];
-  getSplineInvYZ(sector, row).interpolateAtU(getCorrectionDataInvYZ(sector, row), val[0], val[1], dyz);
+  getSplineInvYZ(sector, row).interpolateAtU(getCorrectionDataInvYZ(sector, row), u, v, dyz);
   if (CAMath::Abs(dyz[0]) > 100.f || CAMath::Abs(dyz[1]) > 100.f) {
-    val[2] = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
+    s = 0.f; // TODO: DR: Protect from FPEs, fix upstream and remove once guaranteed that it is fixed
   }
-  dyz[0] = val[2] * GPUCommonMath::Clamp(dyz[0], info.minCorr[1], info.maxCorr[1]);
-  dyz[1] = val[2] * GPUCommonMath::Clamp(dyz[1], info.minCorr[2], info.maxCorr[2]);
-  return {dyz[0], dyz[1]};
+  y = s * GPUCommonMath::Clamp(dyz[0], info.minCorr[1], info.maxCorr[1]);
+  z = s * GPUCommonMath::Clamp(dyz[1], info.minCorr[2], info.maxCorr[2]);
 }
 
-GPUdi() std::array<float, 3> TPCFastTransformPOD::convLocalToGrid(int32_t sector, int32_t row, float y, float z) const
+GPUdi() void TPCFastTransformPOD::convLocalToGrid(int32_t sector, int32_t row, float y, float z, float& u, float& v, float& s) const
 {
   /// convert local y, z to internal grid coordinates u,v
   /// return values: u, v, scaling factor
   const SplineType& spline = getSpline(sector, row);
-  auto val = getSectorRowInfo(sector, row).gridMeasured.convLocalToGridUntruncated(y, z);
+  getSectorRowInfo(sector, row).gridMeasured.convLocalToGridUntruncated(y, z, u, v, s);
   // shrink to the grid
-  val[0] = GPUCommonMath::Clamp(val[0], 0.f, (float)spline.getGridX1().getUmax());
-  val[1] = GPUCommonMath::Clamp(val[1], 0.f, (float)spline.getGridX2().getUmax());
-  return val;
+  u = GPUCommonMath::Clamp(u, 0.f, (float)spline.getGridX1().getUmax());
+  v = GPUCommonMath::Clamp(v, 0.f, (float)spline.getGridX2().getUmax());
 }
 
-GPUdi() std::array<float, 2> TPCFastTransformPOD::convGridToLocal(int32_t sector, int32_t row, float gridU, float gridV) const
+GPUdi() void TPCFastTransformPOD::convGridToLocal(int32_t sector, int32_t row, float gridU, float gridV, float& y, float& z) const
 {
   /// convert internal grid coordinates u,v to local y, z
-  return getSectorRowInfo(sector, row).gridMeasured.convGridToLocal(gridU, gridV);
+  getSectorRowInfo(sector, row).gridMeasured.convGridToLocal(gridU, gridV, y, z);
 }
 
-GPUdi() std::array<float, 3> TPCFastTransformPOD::convRealLocalToGrid(int32_t sector, int32_t row, float y, float z) const
+GPUdi() void TPCFastTransformPOD::convRealLocalToGrid(int32_t sector, int32_t row, float y, float z, float& u, float& v, float& s) const
 {
   /// convert real y, z to the internal grid coordinates + scale
   const SplineType& spline = getSpline(sector, row);
-  auto val = getSectorRowInfo(sector, row).gridReal.convLocalToGridUntruncated(y, z);
+  getSectorRowInfo(sector, row).gridReal.convLocalToGridUntruncated(y, z, u, v, s);
   // shrink to the grid
-  val[0] = GPUCommonMath::Clamp(val[0], 0.f, (float)spline.getGridX1().getUmax());
-  val[1] = GPUCommonMath::Clamp(val[1], 0.f, (float)spline.getGridX2().getUmax());
-  return val;
+  u = GPUCommonMath::Clamp(u, 0.f, (float)spline.getGridX1().getUmax());
+  v = GPUCommonMath::Clamp(v, 0.f, (float)spline.getGridX2().getUmax());
 }
 
-GPUdi() std::array<float, 2> TPCFastTransformPOD::convGridToRealLocal(int32_t sector, int32_t row, float gridU, float gridV) const
+GPUdi() void TPCFastTransformPOD::convGridToRealLocal(int32_t sector, int32_t row, float gridU, float gridV, float& y, float& z) const
 {
   /// convert internal grid coordinates u,v to the real y, z
-  return getSectorRowInfo(sector, row).gridReal.convGridToLocal(gridU, gridV);
+  getSectorRowInfo(sector, row).gridReal.convGridToLocal(gridU, gridV, y, z);
 }
 
 GPUdi() bool TPCFastTransformPOD::isLocalInsideGrid(int32_t sector, int32_t row, float y, float z) const
 {
   /// check if local y, z are inside the grid
-  auto val = getSectorRowInfo(sector, row).gridMeasured.convLocalToGridUntruncated(y, z);
+  float u, v, s;
+  getSectorRowInfo(sector, row).gridMeasured.convLocalToGridUntruncated(y, z, u, v, s);
   const auto& spline = getSpline(sector, row);
   // shrink to the grid
-  if (val[0] < 0.f || val[0] > (float)spline.getGridX1().getUmax() || //
-      val[1] < 0.f || val[1] > (float)spline.getGridX2().getUmax()) {
+  if (u < 0.f || u > (float)spline.getGridX1().getUmax() || //
+      v < 0.f || v > (float)spline.getGridX2().getUmax()) {
     return false;
   }
   return true;
@@ -370,11 +370,12 @@ GPUdi() bool TPCFastTransformPOD::isLocalInsideGrid(int32_t sector, int32_t row,
 GPUdi() bool TPCFastTransformPOD::isRealLocalInsideGrid(int32_t sector, int32_t row, float y, float z) const
 {
   /// check if local y, z are inside the grid
-  auto val = getSectorRowInfo(sector, row).gridReal.convLocalToGridUntruncated(y, z);
+  float u, v, s;
+  getSectorRowInfo(sector, row).gridReal.convLocalToGridUntruncated(y, z, u, v, s);
   const auto& spline = getSpline(sector, row);
   // shrink to the grid
-  if (val[0] < 0.f || val[0] > (float)spline.getGridX1().getUmax() || //
-      val[1] < 0.f || val[1] > (float)spline.getGridX2().getUmax()) {
+  if (u < 0.f || u > (float)spline.getGridX1().getUmax() || //
+      v < 0.f || v > (float)spline.getGridX2().getUmax()) {
     return false;
   }
   return true;
@@ -422,25 +423,25 @@ GPUdi() void TPCFastTransformPOD::TransformLocal(int32_t sector, int32_t row, fl
   float dx = 0.f, dy = 0.f, dz = 0.f;
 
   if ((scale >= 0.f) || (scaleMode == 1) || (scaleMode == 2)) {
-    const auto corrLocal = getCorrectionLocal(sector, row, y, z);
-    dx = corrLocal[0];
-    dy = corrLocal[1];
-    dz = corrLocal[2];
+    getCorrectionLocal(sector, row, y, z, dx, dy, dz);
     if (ref) {
       if ((scale > 0.f) && (scaleMode == 0)) { // scaling was requested
-        auto val = ref->getCorrectionLocal(sector, row, y, z);
+        float val[3];
+        ref->getCorrectionLocal(sector, row, y, z, val[0], val[1], val[2]);
         dx = (dx - val[0]) * scale + val[0];
         dy = (dy - val[1]) * scale + val[1];
         dz = (dz - val[2]) * scale + val[2];
       } else if ((scale != 0.f) && ((scaleMode == 1) || (scaleMode == 2))) {
-        auto val = ref->getCorrectionLocal(sector, row, y, z);
+        float val[3];
+        ref->getCorrectionLocal(sector, row, y, z, val[0], val[1], val[2]);
         dx = val[0] * scale + dx;
         dy = val[1] * scale + dy;
         dz = val[2] * scale + dz;
       }
     }
     if (ref2 && (scale2 != 0)) {
-      auto val = ref2->getCorrectionLocal(sector, row, y, z);
+      float val[3];
+      ref2->getCorrectionLocal(sector, row, y, z, val[0], val[1], val[2]);
       dx = val[0] * scale2 + dx;
       dy = val[1] * scale2 + dy;
       dz = val[2] * scale2 + dz;
@@ -473,21 +474,16 @@ GPUdi() void TPCFastTransformPOD::TransformLocal(int32_t sector, int32_t row, fl
 
     float dxRef = 0.f, dyRef = 0.f, dzRef = 0.f;
     if (ref) {
-      const auto corr = ref->getCorrectionLocal(sector, row, y, z);
-      dxRef = corr[0];
-      dyRef = corr[1];
-      dzRef = corr[2];
+      ref->getCorrectionLocal(sector, row, y, z, dxRef, dyRef, dzRef);
     }
 
     float dxRef2 = 0.f, dyRef2 = 0.f, dzRef2 = 0.f;
     if (ref2) {
-      const auto corr = ref2->getCorrectionLocal(sector, row, y, z);
-      dxRef2 = corr[0];
-      dyRef2 = corr[1];
-      dzRef2 = corr[2];
+      ref2->getCorrectionLocal(sector, row, y, z, dxRef2, dyRef2, dzRef2);
     }
 
-    auto [dxOrig, dyOrig, dzOrig] = getCorrectionLocal(sector, row, y, z);
+    float dxOrig, dyOrig, dzOrig;
+    getCorrectionLocal(sector, row, y, z, dyOrig, dyOrig, dzOrig);
 
     o2::utils::DebugStreamer::instance()->getStreamer("debug_fasttransform", "UPDATE") << o2::utils::DebugStreamer::instance()->getUniqueTreeName("tree_Transform").data()
                                                                                        // corrections in x, u, v
@@ -540,15 +536,13 @@ GPUdi() void TPCFastTransformPOD::TransformLocal(int32_t sector, int32_t row, fl
   if (!mApplyCorrection) {
     return;
   }
-  const auto corrLocal = getCorrectionLocal(sector, row, y, z);
+  float dx, dy, dz;
+  getCorrectionLocal(sector, row, y, z, dx, dy, dz);
 
   GPUCA_DEBUG_STREAMER_CHECK(if (o2::utils::DebugStreamer::checkStream(o2::utils::StreamFlags::streamFastTransform)) {
     float lx = x, ly = y, lz = z;
     float gx, gy, gz;
     getGeometry().convLocalToGlobal(sector, lx, ly, lz, gx, gy, gz);
-    dx = corrLocal[0];
-    dy = corrLocal[1];
-    dz = corrLocal[2];
     float lxT = lx + dx;
     float lyT = ly + dy;
     float lzT = lz + dz;
@@ -585,9 +579,9 @@ GPUdi() void TPCFastTransformPOD::TransformLocal(int32_t sector, int32_t row, fl
                                                                                        << "\n";
   })
 
-  x += corrLocal[0];
-  y += corrLocal[1];
-  z += corrLocal[2];
+  x += dx;
+  y += dy;
+  z += dz;
 }
 
 GPUdi() void TPCFastTransformPOD::Transform(int32_t sector, int32_t row, float pad, float time, float& x, float& y, float& z, float vertexTime, const TPCFastTransformPOD* ref, const TPCFastTransformPOD* ref2, float scale, float scale2, int32_t scaleMode) const
@@ -688,9 +682,7 @@ GPUdi() void TPCFastTransformPOD::TransformIdeal(int32_t sector, int32_t row, fl
 
   x = getGeometry().getRowInfo(row).x;
   float driftLength = (time - mT0 - vertexTime) * mVdrift; // drift length cm
-  const auto localval = getGeometry().convPadDriftLengthToLocal(sector, row, pad, driftLength);
-  y = localval[0];
-  z = localval[1];
+  getGeometry().convPadDriftLengthToLocal(sector, row, pad, driftLength, y, z);
 }
 
 GPUdi() float TPCFastTransformPOD::convTimeToZinTimeFrame(int32_t sector, float time, float maxTimeBin) const
@@ -817,22 +809,23 @@ GPUdi() void TPCFastTransformPOD::InverseTransformYZtoNominalYZ(int32_t sector, 
   float dz = 0;
 
   if ((scale >= 0.f) || (scaleMode == 1) || (scaleMode == 2)) {
-    const auto corrYZ = getCorrectionYZatRealYZ(sector, row, realY, realZ);
-    dy = corrYZ[0];
-    dz = corrYZ[1];
+    getCorrectionYZatRealYZ(sector, row, realY, realZ, dy, dz);
 
     if (ref) { // scaling was requested
       if (scaleMode == 0 && scale > 0.f) {
-        const auto val = ref->getCorrectionYZatRealYZ(sector, row, realY, realZ);
+        float val[2];
+        ref->getCorrectionYZatRealYZ(sector, row, realY, realZ, val[0], val[1]);
         dy = (dy - val[0]) * scale + val[0];
         dz = (dz - val[1]) * scale + val[1];
       } else if ((scale != 0) && ((scaleMode == 1) || (scaleMode == 2))) {
-        const auto val = ref->getCorrectionYZatRealYZ(sector, row, realY, realZ);
+        float val[2];
+        ref->getCorrectionYZatRealYZ(sector, row, realY, realZ, val[0], val[1]);
         dy = val[0] * scale + dy;
         dz = val[1] * scale + dz;
       }
       if (ref2 && (scale2 != 0)) {
-        const auto val = ref2->getCorrectionYZatRealYZ(sector, row, realY, realZ);
+        float val[2];
+        ref2->getCorrectionYZatRealYZ(sector, row, realY, realZ, val[0], val[1]);
         dy = val[0] * scale2 + dy;
         dz = val[1] * scale2 + dz;
       }
@@ -858,9 +851,10 @@ GPUdi() void TPCFastTransformPOD::InverseTransformYZtoNominalYZ(int32_t sector, 
 GPUdi() void TPCFastTransformPOD::InverseTransformYZtoNominalYZ_new(int32_t sector, int32_t row, float realY, float realZ, float& measuredY, float& measuredZ) const
 {
   /// Transformation real y,z -> measured y,z
-  const auto corrYZ = getCorrectionYZatRealYZ(sector, row, realY, realZ);
-  measuredY = realY - corrYZ[0];
-  measuredZ = realZ - corrYZ[1];
+  float corrY, corrZ;
+  getCorrectionYZatRealYZ(sector, row, realY, realZ, corrY, corrZ);
+  measuredY = realY - corrY;
+  measuredZ = realZ - corrZ;
 
   GPUCA_DEBUG_STREAMER_CHECK(if (o2::utils::DebugStreamer::checkStream(o2::utils::StreamFlags::streamFastTransform)) {
     o2::utils::DebugStreamer::instance()->getStreamer("debug_fasttransform", "UPDATE") << o2::utils::DebugStreamer::instance()->getUniqueTreeName("tree_InverseTransformYZtoNominalYZ").data()

@@ -14,23 +14,22 @@
 ///
 /// \author  ruben.shahoayn@cern.ch
 
-#include "TPCFastTransformPOD.h"
 /// \brief Implementation of POD correction map
 ///
 /// \author  ruben.shahoayn@cern.ch
 
-#include "TPCFastTransformPOD.h"
-#include "GPUDebugStreamer.h"
-#if !defined(GPUCA_GPUCODE)
+#if !defined(GPUCA_NO_ROOT) && !defined(GPUCA_NO_FMT) && !defined(GPUCA_STANDALONE)
 #include <TRandom.h>
 #endif
+#include "TPCFastTransformPOD.h"
+#include "GPUDebugStreamer.h"
 
 namespace o2
 {
 namespace gpu
 {
 
-#if !defined(GPUCA_GPUCODE)
+#if !defined(GPUCA_NO_ROOT) && !defined(GPUCA_NO_FMT) && !defined(GPUCA_STANDALONE)
 
 size_t TPCFastTransformPOD::estimateSize(const TPCFastSpaceChargeCorrection& origCorr)
 {
@@ -184,12 +183,16 @@ bool TPCFastTransformPOD::test(const TPCFastSpaceChargeCorrection& origCorr, int
   long origStart[3], origEnd[3], thisStart[3], thisEnd[3];
   origStart[0] = std::chrono::time_point_cast<std::chrono::microseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
   for (int i = 0; i < npoints; i++) {
-    corr0.push_back(origCorr.getCorrectionLocal(sector[i], row[i], y[i], z[i]));
+    std::array<float, 3> val;
+    origCorr.getCorrectionLocal(sector[i], row[i], y[i], z[i], val[0], val[1], val[2]);
+    corr0.push_back(val);
   }
 
   origEnd[0] = origStart[1] = std::chrono::time_point_cast<std::chrono::microseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
   for (int i = 0; i < npoints; i++) {
-    corrInv0.push_back(origCorr.getCorrectionYZatRealYZ(sector[i], row[i], y[i], z[i]));
+    std::array<float, 2> val;
+    origCorr.getCorrectionYZatRealYZ(sector[i], row[i], y[i], z[i], val[0], val[1]);
+    corrInv0.push_back(val);
   }
 
   origEnd[1] = origStart[2] = std::chrono::time_point_cast<std::chrono::microseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
@@ -199,11 +202,15 @@ bool TPCFastTransformPOD::test(const TPCFastSpaceChargeCorrection& origCorr, int
   //
   origEnd[2] = thisStart[0] = std::chrono::time_point_cast<std::chrono::microseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
   for (int i = 0; i < npoints; i++) {
-    corr1.push_back(this->getCorrectionLocal(sector[i], row[i], y[i], z[i]));
+    std::array<float, 3> val;
+    this->getCorrectionLocal(sector[i], row[i], y[i], z[i], val[0], val[1], val[2]);
+    corr1.push_back(val);
   }
   thisEnd[0] = thisStart[1] = std::chrono::time_point_cast<std::chrono::microseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
   for (int i = 0; i < npoints; i++) {
-    corrInv1.push_back(this->getCorrectionYZatRealYZ(sector[i], row[i], y[i], z[i]));
+    std::array<float, 2> val;
+    this->getCorrectionYZatRealYZ(sector[i], row[i], y[i], z[i], val[0], val[1]);
+    corrInv1.push_back(val);
   }
 
   thisEnd[1] = thisStart[2] = std::chrono::time_point_cast<std::chrono::microseconds>(std::chrono::system_clock::now()).time_since_epoch().count();
