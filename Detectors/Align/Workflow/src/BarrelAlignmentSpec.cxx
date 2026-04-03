@@ -118,7 +118,7 @@ class BarrelAlignmentSpec : public Task
 
   o2::tpc::VDriftHelper mTPCVDriftHelper{};
 
-  std::vector<char> mCorrMapBuffer; // buffer to hold the raw map data from CCDB, needed to keep the pointer valid in the CorrectionMapsHelper
+  o2::gpu::aligned_unique_buffer_ptr<o2::gpu::TPCFastTransformPOD> mCorrMapBuffer; // buffer to hold the raw map data from CCDB, needed to keep the pointer valid in the CorrectionMapsHelper
   const o2::gpu::TPCFastTransformPOD* mTPCCorrMaps{};
 
   //
