@@ -210,6 +210,14 @@ void TPCFastTransformInit(const char* fileName = "debugVoxRes.root", const char*
 
   o2::gpu::TPCFastSpaceChargeCorrection& corr = fastTransform->getCorrection();
 
+  aligned_unique_buffer_ptr<TPCFastTransformPOD> podBuffer;
+  TPCFastTransformPOD* corrPODptr = TPCFastTransformPOD::create(podBuffer, *fastTransform);
+
+  if (!corrPODptr) {
+    throw std::runtime_error("Failed to create TPCFastTransformPOD");
+  }
+  const TPCFastTransformPOD& corrPOD = *corrPODptr;
+
   // a debug file with some NTuples
 
   TDirectory* currDir = gDirectory;
@@ -302,19 +310,35 @@ void TPCFastTransformInit(const char* fileName = "debugVoxRes.root", const char*
 
   const o2::gpu::TPCFastTransformGeo& geo = helper->getGeometry();
 
+  float maxPodDiff[6] = {0., 0., 0., 0., 0., 0.};
+
   auto getInvCorrections = [&](int iSector, int iRow, float realY, float realZ, float& ix, float& iy, float& iz) {
     // get the inverse corrections ix, iy, iz at x,y,z
     ix = corr.getCorrectionXatRealYZ(iSector, iRow, realY, realZ);
     corr.getCorrectionYZatRealYZ(iSector, iRow, realY, realZ, iy, iz);
+
+    float ixPod = corrPOD.getCorrectionXatRealYZ(iSector, iRow, realY, realZ);
+    float iyPod, izPod;
+    corrPOD.getCorrectionYZatRealYZ(iSector, iRow, realY, realZ, iyPod, izPod);
+
+    maxPodDiff[3] = std::max(maxPodDiff[3], fabs(ix - ixPod));
+    maxPodDiff[4] = std::max(maxPodDiff[4], fabs(iy - iyPod));
+    maxPodDiff[5] = std::max(maxPodDiff[5], fabs(iz - izPod));
   };
 
   auto getAllCorrections = [&](int iSector, int iRow, float y, float z, float& cx, float& cy, float& cz, float& ix, float& iy, float& iz) {
     // get the corrections cx,cy,cz at x,y,z
     corr.getCorrectionLocal(iSector, iRow, y, z, cx, cy, cz);
     getInvCorrections(iSector, iRow, y + cy, z + cz, ix, iy, iz);
+
+    float cxPod, cyPod, czPod;
+    corrPOD.getCorrectionLocal(iSector, iRow, y, z, cxPod, cyPod, czPod);
+    maxPodDiff[0] = std::max(maxPodDiff[0], fabs(cx - cxPod));
+    maxPodDiff[1] = std::max(maxPodDiff[1], fabs(cy - cyPod));
+    maxPodDiff[2] = std::max(maxPodDiff[2], fabs(cz - czPod));
   };
 
-  for (int direction = 0; direction < 2; direction++) { // 0 - normal, 1 - inverse
+  for (int direction = 0; direction < 2; direction++) { // 0 - direct, 1 - inverse
 
     std::string directionName = (direction == 0) ? "direct" : "inverse";
 
@@ -594,7 +618,9 @@ void TPCFastTransformInit(const char* fileName = "debugVoxRes.root", const char*
     for (int32_t i = 0; i < 3; i++) {
       sumDiff[i] = sqrt(sumDiff[i]) / nDiff;
     }
+
     LOG(info) << directionName << " correction: max and mean differences between spline and voxel corrections:";
+
     LOG(info) << "Max difference in x :  " << maxDiff[0] << " at Sector "
               << maxDiffSector[0] << " row " << maxDiffRow[0];
 
@@ -605,8 +631,21 @@ void TPCFastTransformInit(const char* fileName = "debugVoxRes.root", const char*
               << maxDiffSector[2] << " row " << maxDiffRow[2];
 
     LOG(info) << "Mean difference in x,y,z : " << sumDiff[0] << " " << sumDiff[1]
-              << " " << sumDiff[2] << std::endl;
+              << " " << sumDiff[2];
+
+    LOG(info) << std::endl;
+
   } // direction
+
+  LOG(info) << " max difference between POD and original corrections: ";
+  LOG(info) << " x " << maxPodDiff[0];
+  LOG(info) << " y " << maxPodDiff[1];
+  LOG(info) << " z " << maxPodDiff[2];
+  LOG(info) << " inverse x " << maxPodDiff[3];
+  LOG(info) << " inverse y " << maxPodDiff[4];
+  LOG(info) << " inverse z " << maxPodDiff[5];
+
+  LOG(info) << std::endl;
 
   corr.testInverse(true);
 
