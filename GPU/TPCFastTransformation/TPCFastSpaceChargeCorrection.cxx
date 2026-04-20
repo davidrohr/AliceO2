@@ -512,9 +512,18 @@ void TPCFastSpaceChargeCorrection::finishConstruction()
     mSectorDataSizeBytes[is] = 0;
     for (int32_t j = 0; j < mGeo.getNumberOfRows(); j++) {
       RowInfo& row = getRowInfo(j);
-      SplineType& spline = mConstructionScenarios[row.splineScenarioID];
       row.dataOffsetBytes[is] = mSectorDataSizeBytes[is];
-      mSectorDataSizeBytes[is] += spline.getSizeOfParameters();
+      const SplineType& spline = mConstructionScenarios[row.splineScenarioID];
+      if (is == 0) {
+        const SplineTypeXYZ& splineXYZ = reinterpret_cast<const SplineTypeXYZ&>(spline);
+        mSectorDataSizeBytes[is] += splineXYZ.getSizeOfParameters();
+      } else if (is == 1) {
+        const SplineTypeInvX& splineInvX = reinterpret_cast<const SplineTypeInvX&>(spline);
+        mSectorDataSizeBytes[is] += splineInvX.getSizeOfParameters();
+      } else if (is == 2) {
+        const SplineTypeInvYZ& splineInvYZ = reinterpret_cast<const SplineTypeInvYZ&>(spline);
+        mSectorDataSizeBytes[is] += splineInvYZ.getSizeOfParameters();
+      }
     }
     bufferSize += mSectorDataSizeBytes[is] * mGeo.getNumberOfSectors();
   }
@@ -556,24 +565,23 @@ GPUd() void TPCFastSpaceChargeCorrection::setNoCorrection()
   } // row
 
   for (int32_t sector = 0; sector < mGeo.getNumberOfSectors(); sector++) {
-
     for (int32_t row = 0; row < mGeo.getNumberOfRows(); row++) {
-      const SplineType& spline = getSplineForRow(row);
       for (int32_t is = 0; is < 3; is++) {
         float* data = getCorrectionData(sector, row, is);
-        int32_t nPar = spline.getNumberOfParameters();
-        if (is == 1) {
-          nPar = nPar / 3;
-        }
-        if (is == 2) {
-          nPar = nPar * 2 / 3;
+        int32_t nPar = 0;
+        if (is == 0) {
+          nPar = getSplineForRow(row).getNumberOfParameters();
+        } else if (is == 1) {
+          nPar = getSplineInvXforRow(row).getNumberOfParameters();
+        } else if (is == 2) {
+          nPar = getSplineInvYZforRow(row).getNumberOfParameters();
         }
         for (int32_t i = 0; i < nPar; i++) {
           data[i] = 0.f;
         }
       }
     } // row
-  } // sector
+  }   // sector
 }
 
 void TPCFastSpaceChargeCorrection::constructWithNoCorrection(const TPCFastTransformGeo& geo)

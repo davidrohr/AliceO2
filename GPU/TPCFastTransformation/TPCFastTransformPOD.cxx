@@ -31,7 +31,7 @@ TPCFastTransformPOD* TPCFastTransformPOD::create(aligned_unique_buffer_ptr<TPCFa
 {
   size_t size = estimateSize(src);
   destVector.alloc(size); // allocate exact size
-  LOGP(debug, "OrigCorrSize:{} SelfSize: {} Estimated POS size: {}", src.getCorrection().getFlatBufferSize(), sizeof(TPCFastTransformPOD), size);
+  LOGP(debug, "OrigCorrSize:{} SelfSize: {} Estimated POD size: {}", src.getCorrection().getFlatBufferSize(), sizeof(TPCFastTransformPOD), size);
   auto res = create(destVector.getraw(), size, src);
   res->setTimeStamp(src.getTimeStamp());
   res->setVDrift(src.getVDrift());
@@ -48,7 +48,7 @@ TPCFastTransformPOD* TPCFastTransformPOD::create(aligned_unique_buffer_ptr<TPCFa
   // create filling only part corresponding to TPCFastSpaceChargeCorrection. Data members coming from TPCFastTransform (e.g. VDrift, T0..) are not set
   size_t size = estimateSize(origCorr);
   destVector.alloc(size);
-  LOGP(debug, "OrigCorrSize:{} SelfSize: {} Estimated POS size: {}", origCorr.getFlatBufferSize(), sizeof(TPCFastTransformPOD), size);
+  LOGP(debug, "OrigCorrSize:{} SelfSize: {} Estimated POD size: {}", origCorr.getFlatBufferSize(), sizeof(TPCFastTransformPOD), size);
   return create(destVector.getraw(), size, origCorr);
 }
 
@@ -67,19 +67,7 @@ size_t TPCFastTransformPOD::estimateSize(const TPCFastSpaceChargeCorrection& ori
   }
   // space for splines data
   for (int is = 0; is < 3; is++) {
-    for (int sector = 0; sector < origCorr.mGeo.getNumberOfSectors(); sector++) {
-      for (int row = 0; row < NROWS; row++) {
-        const auto& spline = origCorr.getSplineForRow(row);
-        int nPar = spline.getNumberOfParameters();
-        if (is == 1) {
-          nPar = nPar / 3;
-        }
-        if (is == 2) {
-          nPar = nPar * 2 / 3;
-        }
-        nextDynOffs += nPar * sizeof(float);
-      }
-    }
+    nextDynOffs += origCorr.mSectorDataSizeBytes[is] * TPCFastTransformGeo::getNumberOfSectors();
   }
   nextDynOffs = alignOffset(nextDynOffs);
   return nextDynOffs;
@@ -177,18 +165,18 @@ TPCFastTransformPOD* TPCFastTransformPOD::create(char* buff, size_t buffSize, co
     // metadata
     size_t sectorDataSizeBytes = origCorr.mSectorDataSizeBytes[is];
 
-    for (int sector = 0; sector < origCorr.mGeo.getNumberOfSectors(); sector++) {
-      podMap.mSplineDataOffsets[sector][is] = sectorDataSizeBytes * sector;
+    for (int sector = 0; sector < TPCFastTransformGeo::getNumberOfSectors(); sector++) {
+      podMap.mSplineDataOffsets[sector][is] = nextDynOffs + sectorDataSizeBytes * sector;
     }
-    if (buffSize < nextDynOffs + sectorDataSizeBytes * origCorr.mGeo.getNumberOfSectors()) {
+    size_t dataSize = TPCFastTransformGeo::getNumberOfSectors() * sectorDataSizeBytes;
+    if (buffSize < nextDynOffs + dataSize) {
       throw std::runtime_error(fmt::format("attempt to copy {} bytes of data for spline{} to {}, overflowing the buffer of size {}", sectorDataSizeBytes, is, nextDynOffs, buffSize));
     }
     const char* dataOr = origCorr.mCorrectionData[is];
-    size_t dataSize = origCorr.mGeo.getNumberOfSectors() * sectorDataSizeBytes;
     std::memcpy(data, dataOr, dataSize);
     nextDynOffs += dataSize;
   }
-
+  nextDynOffs = alignOffset(nextDynOffs);
   podMap.mTotalSize = nextDynOffs;
   if (buffSize != podMap.mTotalSize) {
     throw std::runtime_error(fmt::format("Estimated buffer size {} differs from filled one {}", buffSize, podMap.mTotalSize));
