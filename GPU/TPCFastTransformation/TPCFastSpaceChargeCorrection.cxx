@@ -581,7 +581,7 @@ GPUd() void TPCFastSpaceChargeCorrection::setNoCorrection()
         }
       }
     } // row
-  }   // sector
+  } // sector
 }
 
 void TPCFastSpaceChargeCorrection::constructWithNoCorrection(const TPCFastTransformGeo& geo)
