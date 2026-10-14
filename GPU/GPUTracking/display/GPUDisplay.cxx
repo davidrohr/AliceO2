@@ -734,7 +734,8 @@ void GPUDisplay::ShowNextEvent(const GPUTrackingInOutPointers* ptrs)
 
 void GPUDisplay::BlockTillNextEvent() { mSemLockDisplay.Lock(); }
 
-void GPUDisplay::UnblockDisplay() {
+void GPUDisplay::UnblockDisplay()
+{
   mSemLockDisplay.Trylock();
   mSemLockDisplay.Unlock();
 }
