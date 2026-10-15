@@ -9,7 +9,7 @@
 // granted to it by virtue of its status as an Intergovernmental Organization
 // or submit itself to any jurisdiction.
 
-/// \file qconfigrtc.h
+/// \file qconfig_rtc.h
 /// \author David Rohr
 
 #ifndef QCONFIG_RTC_H
