@@ -21,7 +21,6 @@
     __VA_ARGS__               \
   }
 
-
 #if defined(QCONFIG_HEADER_GUARD) && !defined(QCONFIG_GENRTC)
 #define QCONFIG_HEADER_GUARD_NO_INCLUDE
 #else

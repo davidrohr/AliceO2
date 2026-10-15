@@ -91,11 +91,14 @@
     if (0) {                              \
     }
 
-#define EndConfig()          \
-  else { tmpfound = false; } \
-  if (tmpfound) {            \
-    found = true;            \
-  }                          \
+#define EndConfig()   \
+  else                \
+  {                   \
+    tmpfound = false; \
+  }                   \
+  if (tmpfound) {     \
+    found = true;     \
+  }                   \
   }
 
 #define AddHelp(cmd, cmdshort)                 \
