@@ -654,8 +654,8 @@ GPUd() void GPUTPCGMPropagator::InterpolateFill(gputpcgmmergertypes::Interpolati
 
 GPUd() int32_t GPUTPCGMPropagator::InterpolateReject(const GPUParam& GPUrestrict() param, float posY, float posZ, int16_t clusterState, gputpcgmmergertypes::InterpolationErrorHit* inter, float err2Y, float err2Z, float deltaZ)
 {
-  float* GPUrestrict() mC = mT->Cov();
-  float* GPUrestrict() mP = mT->Par();
+  float* GPUrestrict() mC = mT -> Cov();
+  float* GPUrestrict() mP = mT -> Par();
   float chi2Y, chi2Z;
   if (mT->NDF() <= 0) {
     chi2Y = CAMath::Square((float)inter->posY - posY) / ((float)inter->errorY + err2Y);
