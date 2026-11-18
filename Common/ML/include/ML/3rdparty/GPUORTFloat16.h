@@ -22,9 +22,9 @@
 namespace o2::OrtDataType
 {
 #elif __cplusplus >= 202302L && defined(__STDCPP_FLOAT16_T__)
-  using Float16_t = std::float16_t;
+using Float16_t = std::float16_t;
 #else
-  using Float16_t = _Float16;
+using Float16_t = _Float16;
 #endif
 }
 
