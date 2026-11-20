@@ -51,7 +51,7 @@ struct InterpolationErrorHit {
 };
 
 struct InterpolationErrors {
-  static constexpr size_t size = constants::MERGER_MAX_TRACK_CLUSTERS;
+  enum : uint32_t { size = constants::MERGER_MAX_TRACK_CLUSTERS }; // Not a static data member: Metal and OpenCL allow program-scope variables only in the constant address space
   InterpolationErrorHit hit[size];
 };
 
