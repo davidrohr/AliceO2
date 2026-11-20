@@ -19,6 +19,13 @@
 #include "GPUCommonMath.h"
 #include "GPUGeneralKernels.h"
 
+namespace o2::gpu
+{
+template <int32_t tmpMode>
+struct GPUTPCGMMergerRebuildTmpRows;                                                                                             // Defined in GPUTPCGMMergerRebuildInternal.h
+using GPUTPCGMMergerRebuildTmp = GPUTPCGMMergerRebuildTmpRows<GPUCA_PAR_TPC_MERGER_REBUILD_CONSTRAINED_ROW_MEMORY == 2 ? 2 : 0>; // Temporary rows of a track in the fit, empty unless the parameter is 2
+} // namespace o2::gpu
+
 namespace o2::gpu::gputpcgmmergertypes
 {
 
