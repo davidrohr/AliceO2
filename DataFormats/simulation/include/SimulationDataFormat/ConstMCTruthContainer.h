@@ -133,7 +133,7 @@ template <typename TruthElement>
 class ConstMCTruthContainerView
 {
  public:
-  ConstMCTruthContainerView(std::span<const char> const bufferview) : mStorage(bufferview.data(), bufferview.size()){};
+  ConstMCTruthContainerView(std::span<const char> const bufferview) : mStorage(bufferview.data(), bufferview.size()) {};
   ConstMCTruthContainerView(ConstMCTruthContainer<TruthElement> const& cont) : mStorage(gsl::span<const char>(cont)){};
   // be explicit that we want nullptr / 0 for an uninitialized container (needs (void)0 to avoid false codechecker warning)
   ConstMCTruthContainerView() : mStorage{nullptr, static_cast<gsl::span<const char>::size_type>(0)}
