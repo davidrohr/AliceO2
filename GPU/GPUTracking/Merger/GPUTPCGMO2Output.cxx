@@ -226,7 +226,7 @@ GPUdii() void GPUTPCGMO2Output::Thread<GPUTPCGMO2Output::output>(int32_t nBlocks
     float time0 = 0.f, tFwd = 0.f, tBwd = 0.f;
     if (merger.Param().par.continuousTracking) {
       time0 = track.GetParam().GetTOffset();
-      if (cce) {
+      if (cce || (track.CCE() && track.Looper())) {
         bool lastSide = trackClusters[track.FirstClusterRef()].sector < MAXSECTOR / 2;
         float delta = 0.f;
         for (uint32_t iCl = 1; iCl < track.NClusters(); iCl++) {

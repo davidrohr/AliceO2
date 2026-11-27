@@ -93,7 +93,7 @@ GPUd() bool GPUTPCGMTrackParam::Fit(GPUTPCGMMerger& GPUrestrict() merger, GPUTPC
 
   const int8_t nWays = param.rec.tpc.nWays;
   const int32_t maxN = N;
-  if (rebuilt && maxN > 0 && param.par.continuousTracking && !track.CCE() && !track.Looper()) { // The rebuilt track can have other first / last clusters than the track the Z shift was computed for
+  if (rebuilt && param.par.continuousTracking && !track.CCE() && !track.Looper()) { // The rebuilt track can have other first / last clusters than the track the Z shift was computed for
     const float t0 = merger.GetConstantMem()->ioPtrs.clustersNative->clustersLinear[clusters[0].num].getTime(), tN = merger.GetConstantMem()->ioPtrs.clustersNative->clustersLinear[clusters[maxN - 1].num].getTime();
     ConstrainZ(merger, clusters[0].sector, CAMath::Max(t0, tN), CAMath::Min(t0, tN));
   }
@@ -1629,7 +1629,7 @@ GPUd() bool GPUTPCGMTrackParam::CheckNumericalQuality(float overrideCovYY) const
 template <bool rebuiltKernel, bool retryAttempt>
 GPUdii() void GPUTPCGMTrackParam::RefitTrack(GPUTPCGMMergedTrack& GPUrestrict() track, int32_t iTrk, GPUTPCGMMerger& GPUrestrict() merger)
 {
-  if (!track.OK()) {
+  if (!track.OK() || track.NClusters() == 0) {
     return;
   }
   const bool rebuilt = retryAttempt ? merger.Param().rec.tpc.rebuildTrackInFit : rebuiltKernel;
