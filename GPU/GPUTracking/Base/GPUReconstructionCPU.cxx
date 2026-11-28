@@ -288,7 +288,7 @@ int32_t GPUReconstructionCPU::RunChains()
   mStatNEvents++;
   mNEventsProcessed++;
 
-  if (GetProcessingSettings().debugLevel >= 3 || GetProcessingSettings().allocDebugLevel) {
+  if ((GetProcessingSettings().debugLevel >= 3 || GetProcessingSettings().allocDebugLevel) && !GetProcessingSettings().debugSilent) {
     GPUInfo("Allocated memory when starting processing %34s", "");
     PrintMemoryOverview();
   }
@@ -314,7 +314,7 @@ int32_t GPUReconstructionCPU::RunChains()
     ClearAllocatedMemory();
   }
   mStatCPUTime += (double)(std::clock() - cpuTimerStart) / CLOCKS_PER_SEC;
-  if (GetProcessingSettings().debugLevel >= 3 || GetProcessingSettings().allocDebugLevel) {
+  if ((GetProcessingSettings().debugLevel >= 3 || GetProcessingSettings().allocDebugLevel) && !GetProcessingSettings().debugSilent) {
     GPUInfo("Allocated memory when ending processing %36s", "");
     PrintMemoryOverview();
   }
@@ -327,7 +327,7 @@ int32_t GPUReconstructionCPU::RunChains()
   double kernelTotal = 0;
   std::vector<double> kernelStepTimes(gpudatatypes::N_RECO_STEPS, 0.);
 
-  debugWriter writer(GetProcessingSettings().debugCSV, GetProcessingSettings().debugMarkdown, mStatNEvents);
+  debugWriter writer(GetProcessingSettings().debugCSV, GetProcessingSettings().debugMarkdown, mStatNEvents, GetProcessingSettings().debugSilent);
 
   if (GetProcessingSettings().debugLevel >= 1) {
     writer.header();
@@ -385,7 +385,7 @@ int32_t GPUReconstructionCPU::RunChains()
     }
     double gpu_time = GetProcessingSettings().debugLevel >= 1 ? kernelTotal : -1.0;
     writer.row(' ', 0, "Wall", gpu_time, mStatCPUTime, mTimerTotal.GetElapsedTime(), 0, nEventReport);
-  } else if (GetProcessingSettings().debugLevel >= 0) {
+  } else if (GetProcessingSettings().debugLevel >= 0 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Total Wall Time: %10.0f us%s", mStatWallTime, nEventReport.c_str());
   }
   if (GetProcessingSettings().resetTimers) {
@@ -399,7 +399,7 @@ int32_t GPUReconstructionCPU::RunChains()
   }
   if (GetProcessingSettings().memoryStat) {
     PrintMemoryStatistics();
-  } else if (GetProcessingSettings().debugLevel >= 2) {
+  } else if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     PrintMemoryOverview();
   }
 

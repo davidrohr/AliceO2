@@ -73,7 +73,7 @@ inline uint32_t GPUReconstruction::DumpData(FILE* fp, const T* const* entries, c
       fwrite(entries[i], sizeof(*entries[i]), num[i], fp);
     }
   }
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Dumped %u %s", numTotal, IOTYPENAMES[type]);
   }
   return numTotal;
@@ -107,7 +107,7 @@ inline size_t GPUReconstruction::ReadData(FILE* fp, const T** entries, S* num, s
     }
     numTotal += num[i];
   }
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Read %zu %s", numTotal, IOTYPENAMES[type]);
   }
   return numTotal;
@@ -147,7 +147,7 @@ inline std::unique_ptr<T> GPUReconstruction::ReadFlatObjectFromFile(const char* 
   r = fread((void*)retVal.get(), 1, size[0], fp);
   r = fread(buf, 1, size[1], fp);
   fclose(fp);
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Read %zu bytes from %s", r, file);
   }
   retVal->clearInternalBufferPtr();
@@ -197,7 +197,7 @@ inline std::unique_ptr<T> GPUReconstruction::ReadStructFromFile(const char* file
     GPUError("ERROR reading %s, read %zu (%zu expected)", file, r, size);
     throw std::runtime_error("invalid size");
   }
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Read %zu bytes from %s", r, file);
   }
   if (errorOnMissing) {
@@ -255,7 +255,7 @@ inline aligned_unique_buffer_ptr<T> GPUReconstruction::ReadDynamicStructFromFile
     GPUError("ERROR in %s: File Read error: %zu (%zu expected)", file, r, dynsize - sizeof(T));
     throw std::runtime_error("invalid size");
   }
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Read %zu bytes from %s", r + dynsize, file);
   }
   return newObj;

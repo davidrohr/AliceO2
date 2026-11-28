@@ -147,7 +147,7 @@ int32_t GPUReconstructionOCL::InitDevice_Runtime()
         }
       }
 
-      if (GetProcessingSettings().backend.platformNum >= 0 || GetProcessingSettings().debugLevel >= 2) {
+      if (GetProcessingSettings().backend.platformNum >= 0 || (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent)) {
         GPUInfo("%s Platform %d: (%s %s) %s %s (Compatible: %s)%s", GetProcessingSettings().backend.platformNum >= 0 ? "Enforced" : "Available", iPlatform, platform_profile.c_str(), platform_version.c_str(), platform_vendor.c_str(), platform_name.c_str(), platformCompatible ? "yes" : "no", GetProcessingSettings().debugLevel >= 2 ? platformUsageInfo.c_str() : "");
       }
 
@@ -201,7 +201,7 @@ int32_t GPUReconstructionOCL::InitDevice_Runtime()
           }
 
           double bestDeviceSpeed = -1, deviceSpeed = (double)device_freq * (double)device_shaders;
-          if (GetProcessingSettings().debugLevel >= 2) {
+          if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
             GPUInfo("  Device %s%2d: %s %s (Frequency %d, Shaders %d, %d bit) (Speed Value: %ld)%s %s", deviceOK ? " " : "[", i, device_vendor.c_str(), device_name.c_str(), (int32_t)device_freq, (int32_t)device_shaders, (int32_t)device_nbits, (int64_t)deviceSpeed, deviceOK ? " " : " ]", deviceOK ? "" : deviceFailure.c_str());
           }
           if (!deviceOK) {
@@ -511,7 +511,7 @@ int32_t GPUReconstructionOCL::GPUDebug(const char* state, int32_t stream, bool f
       GPUError("OpenCL Error while synchronizing (%s) (Stream %d/%d)", state, stream, i);
     }
   }
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("GPU Sync Done");
   }
   return (0);

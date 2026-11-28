@@ -104,7 +104,7 @@ static void loadLaunchBounds(const GPUSettingsProcessing& proc, GPUDefParameters
 static std::string launchBoundsCode(const GPUSettingsProcessing& proc, const GPUDefParameters& par, int32_t minBlockFactor, uint32_t warpSize) // Prints the launch bounds if requested
 {
   std::string retVal = GPUDefParametersExport(par, true, minBlockFactor) + "#define GPUCA_WARP_SIZE " + std::to_string(warpSize) + "\n";
-  if (proc.rtctech.printLaunchBounds || proc.debugLevel >= 3) {
+  if (proc.rtctech.printLaunchBounds || (proc.debugLevel >= 3 && !proc.debugSilent)) {
     GPUInfo("RTC Launch Bounds:\n%s", retVal.c_str());
     fflush(stdout); // printLaunchBounds == 2 ends the process via an exception, which would lose buffered output
   }
@@ -138,7 +138,7 @@ static void runCommand(const GPUSettingsProcessing& proc, std::string command, c
   } else if (proc.debugLevel < 2) {
     command += " > /dev/null";
   }
-  if (proc.debugLevel >= 3) {
+  if (proc.debugLevel >= 3 && !proc.debugSilent) {
     printf("Running command %s\n", command.c_str());
   }
   if (system(command.c_str())) {

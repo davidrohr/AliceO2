@@ -107,13 +107,14 @@ class GPUReconstructionCPU : public GPUReconstructionProcessing::KernelInterface
   void runKernelInterface(krnlSetup&& setup, Args const&... args);
 
   struct debugWriter {
-    debugWriter(std::string filenameCSV, bool markdown, uint32_t statNEvents);
+    debugWriter(std::string filenameCSV, bool markdown, uint32_t statNEvents, bool silent);
     void header();
     void row(char type, uint32_t count, std::string name, double gpu_time, double cpu_time, double total_time, std::size_t memSize, std::string nEventReport = "");
 
    private:
     std::ofstream streamCSV;
     bool mMarkdown;
+    bool mSilent;
     uint32_t mStatNEvents;
   };
 };

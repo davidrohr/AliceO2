@@ -112,7 +112,7 @@ int32_t GPUReconstructionMetal::InitDevice_Runtime()
     // On Apple Silicon, treat recommended working set as an upper bound
     deviceGlobalMem = mInternals->device.recommendedMaxWorkingSetSize;
     deviceLocalMem = mInternals->device.maxThreadgroupMemoryLength;
-    if (GetProcessingSettings().debugLevel >= 2) {
+    if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
       GPUInfo("Using Metal device %s with properties:", device_name.c_str());
       GPUInfo("\tUnified Memory Architecture = %ld ", mInternals->device.hasUnifiedMemory);
       GPUInfo("\tRecommended Max Working Set = %ld bytes", deviceGlobalMem);
@@ -556,7 +556,7 @@ int32_t GPUReconstructionMetal::GPUDebug(const char* state, int32_t stream, bool
   for (int32_t si = 0; si < mNStreams; si++) {
     DrainStream(si);
   }
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("GPU Sync Done");
   }
   return (0);

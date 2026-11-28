@@ -189,7 +189,7 @@ int32_t GPUChainTracking::DoTRDGPUTracking(T* externalInstance)
   TransferMemoryResourcesToHost(RecoStep::TRDTracking, Tracker, useStream);
   SynchronizeStream(useStream);
 
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("GPU TRD tracker Finished");
   }
   return (0);

@@ -216,8 +216,8 @@ class GPUReconstruction
   bool IsInitialized() const { return mInitialized; }
   void SetSettings(float solenoidBzNominalGPU, const GPURecoStepConfiguration* workflow = nullptr);
   void SetSettings(const GPUSettingsGRP* grp, const GPUSettingsRec* rec = nullptr, const GPUSettingsProcessing* proc = nullptr, const GPURecoStepConfiguration* workflow = nullptr);
-  void SetResetTimers(bool reset);      // May update also after Init()
-  void SetDebugLevelTmp(int32_t level); // Temporarily, before calling SetSettings()
+  void SetResetTimers(bool reset);                                    // May update also after Init()
+  void SetDebugLevelTmp(int32_t level = -100, int32_t silent = -100); // Temporarily, before calling SetSettings()
   void UpdateSettings(const GPUSettingsGRP* g, const GPUSettingsProcessing* p = nullptr, const GPUSettingsRecDynamic* d = nullptr);
   void UpdateDynamicSettings(const GPUSettingsRecDynamic* d);
   void SetOutputControl(const GPUOutputControl& v) { mOutputControl = v; }

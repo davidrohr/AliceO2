@@ -67,7 +67,7 @@ int32_t GPUReconstructionCUDA::genRTC(std::string& filename, uint32_t& nCompile)
   if (!cache.load(filename, mRtcBinExtension, nCompile)) {
     rtchelpers::compile(proc, nCompile, "CUDA", [&](uint32_t i) {
       const std::string fileBase = filename + "_" + std::to_string(i);
-      if (proc.debugLevel >= 3) {
+      if (proc.debugLevel >= 3 && !proc.debugSilent) {
         printf("Compiling %s\n", (fileBase + mRtcSrcExtension).c_str());
       }
       const bool deterministic = rtchelpers::deterministic(proc, GetKernelName(i));

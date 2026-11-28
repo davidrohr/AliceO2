@@ -52,7 +52,7 @@ inline void GPUReconstructionCPU::runKernelInterface(krnlSetup&& setup, Args con
   if (nThreads > constants::GPU_MAX_THREADS) {
     throw std::runtime_error("GPU_MAX_THREADS exceeded");
   }
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Running kernel %s (Stream %d, Index %d, Grid %d/%d) on %s", GetKernelName<S, I>(), stream, setup.y.index, nBlocks, nThreads, cpuFallback == 2 ? "CPU (forced)" : (cpuFallback ? "CPU (fallback)" : mDeviceName.c_str()));
   }
   if (nThreads == 0 || nBlocks == 0) {

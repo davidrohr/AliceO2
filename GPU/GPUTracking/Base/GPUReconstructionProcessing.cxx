@@ -62,7 +62,7 @@ void GPUReconstructionProcessing::SetNActiveThreads(int32_t n)
 {
   mActiveHostKernelThreads = std::max(1, n < 0 ? mMaxHostThreads : std::min(n, mMaxHostThreads));
   mThreading->activeThreads = std::make_unique<tbb::task_arena>(mActiveHostKernelThreads);
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Set number of active parallel kernels threads on host to %d (%d requested)", mActiveHostKernelThreads, n);
   }
 }

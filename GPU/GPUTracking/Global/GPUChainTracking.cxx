@@ -760,7 +760,7 @@ int32_t GPUChainTracking::RunChain()
     if (GetProcessingSettings().doublePipeline) {
       GPUChainTracking* foreignChain = (GPUChainTracking*)GetNextChainInQueue();
       if (foreignChain && foreignChain->mIOPtrs.tpcZS) {
-        if (GetProcessingSettings().debugLevel >= 3) {
+        if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
           GPUInfo("Preempting tpcZS input of foreign chain");
         }
         mPipelineFinalizationCtx.reset(new GPUChainTrackingFinalContext);

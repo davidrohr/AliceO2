@@ -339,7 +339,7 @@ int32_t GPUReconstructionCPUDevice::GPUDebug(const char* state, int32_t stream, 
     GPUError("CPUDevice Error while synchronizing (%s) (Stream %d)", state, stream);
     return 1;
   }
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("GPU Sync Done");
   }
   return 0;

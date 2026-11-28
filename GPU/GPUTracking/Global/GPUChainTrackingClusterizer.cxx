@@ -998,7 +998,7 @@ int32_t GPUChainTracking::RunTPCClusterizer(bool synchronizeOutput)
     static_assert(NSECTORS <= constants::GPU_MAX_STREAMS, "Stream events must be able to hold all sectors");
     const int32_t maxLane = std::min<int32_t>(GetProcessingSettings().nTPCClustererLanes, NSECTORS - iSectorBase);
     for (CfFragment frag = mCFContext->fragmentFirst; !frag.isEnd(); frag = frag.next()) {
-      if (GetProcessingSettings().debugLevel >= 3) {
+      if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
         GPUInfo("Processing time bins [%d, %d) for sectors %d to %d", frag.start, frag.last(), iSectorBase, iSectorBase + GetProcessingSettings().nTPCClustererLanes - 1);
       }
       mRec->runParallelOuterLoop(doGPU, maxLane, [&](uint32_t lane) {
@@ -1406,7 +1406,7 @@ int32_t GPUChainTracking::RunTPCClusterizer(bool synchronizeOutput)
           return;
         }
 
-        if (GetProcessingSettings().debugLevel >= 3) {
+        if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
           GPUInfo("Sector %02d Fragment %02d Lane %d: Found clusters: digits %u peaks %u clusters %u", iSector, frag.index, lane, (int32_t)clusterer.mPmemory->counters.nPositions, (int32_t)clusterer.mPmemory->counters.nPeaks, (int32_t)clusterer.mPmemory->counters.nClusters);
         }
 
@@ -1507,7 +1507,7 @@ int32_t GPUChainTracking::RunTPCClusterizer(bool synchronizeOutput)
   if (GetRecoSteps() & RecoStep::TPCTriggerHandling) {
     GPUOutputControl* triggerOutput = mSubOutputControls[GPUTrackingOutputs::getIndex(&GPUTrackingOutputs::tpcTriggerWords)];
     const bool storeTriggers = triggerOutput && triggerOutput->allocator;
-    if (GetProcessingSettings().debugLevel >= 3) {
+    if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
       GPUInfo("%zu trigger words found%s", mTriggerBuffer->triggers.size(), storeTriggers ? ", storing" : "");
     }
     if (GetProcessingSettings().debugLevel >= 6 || (GetProcessingSettings().debugDumpFinal && storeTriggers)) {

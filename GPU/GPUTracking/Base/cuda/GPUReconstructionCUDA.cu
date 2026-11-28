@@ -126,7 +126,7 @@ int32_t GPUReconstructionCUDA::InitDevice_Runtime()
       GPUError("Error getting CUDA Device Count");
       return (1);
     }
-    if (GetProcessingSettings().debugLevel >= 2) {
+    if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
       GPUInfo("Available CUDA devices:");
     }
     std::vector<bool> devicesOK(count, false);
@@ -175,7 +175,7 @@ int32_t GPUReconstructionCUDA::InitDevice_Runtime()
       }
 
       deviceSpeed = (double)deviceProp.multiProcessorCount * (double)deviceClockRate * (double)deviceProp.warpSize * (double)free * (double)deviceProp.major * (double)deviceProp.major;
-      if (GetProcessingSettings().debugLevel >= 2) {
+      if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
         GPUImportant("Device %s%2d: %s (Rev: %d.%d - Mem Avail %lu / %lu)%s %s", deviceOK ? " " : "[", i, deviceProp.name, deviceProp.major, deviceProp.minor, free, (size_t)deviceProp.totalGlobalMem, deviceOK ? " " : " ]", deviceOK ? "" : deviceFailure);
       }
       if (!deviceOK) {
@@ -187,7 +187,7 @@ int32_t GPUReconstructionCUDA::InitDevice_Runtime()
         bestDevice = i;
         bestDeviceSpeed = deviceSpeed;
       } else {
-        if (GetProcessingSettings().debugLevel >= 2 && GetProcessingSettings().deviceNum < 0) {
+        if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent && GetProcessingSettings().deviceNum < 0) {
           GPUInfo("Skipping: Speed %f <= %f\n", deviceSpeed, bestDeviceSpeed);
         }
       }
@@ -228,7 +228,7 @@ int32_t GPUReconstructionCUDA::InitDevice_Runtime()
 
     GPUChkErrI(cudaGetDeviceProperties(&deviceProp, mDeviceId));
 
-    if (GetProcessingSettings().debugLevel >= 2) {
+    if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
       GPUInfo("Using CUDA Device %d: %s with Properties:", bestDevice, deviceProp.name);
       GPUInfo("\ttotalGlobalMem = %ld", (uint64_t)deviceProp.totalGlobalMem);
       GPUInfo("\tsharedMemPerBlock = %ld", (uint64_t)deviceProp.sharedMemPerBlock);
@@ -572,7 +572,7 @@ int32_t GPUReconstructionCUDA::GPUDebug(const char* state, int32_t stream, bool 
     GPUError("CUDA Error while synchronizing (%s) (Stream %d)", state, stream);
     return (1);
   }
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("GPU Sync Done");
   }
   return (0);
@@ -616,7 +616,7 @@ void GPUReconstructionCUDA::loadKernelModules(bool perKernel)
     GPUFatal("kernel numbers out of sync");                                                                                                                                             \
   }                                                                                                                                                                                     \
   mInternals->kernelFunctions.emplace_back(new CUfunction);                                                                                                                             \
-  if (GetProcessingSettings().debugLevel >= 3) {                                                                                                                                        \
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {                                                                                                \
     GPUInfo("Loading kernel %s (j = %u)", GPUCA_M_STR(GPUCA_M_CAT(krnl_, GPUCA_M_KRNL_NAME(x_class))), j);                                                                              \
   }                                                                                                                                                                                     \
   GPUChkErr(cuModuleGetFunction(mInternals->kernelFunctions.back().get(), *mInternals->kernelModules[perKernel ? j : 0], GPUCA_M_STR(GPUCA_M_CAT(krnl_, GPUCA_M_KRNL_NAME(x_class))))); \

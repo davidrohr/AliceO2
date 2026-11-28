@@ -73,7 +73,7 @@ int32_t GPUReconstructionCPUDevice::genRTC(std::string& filename, uint32_t& nCom
   if (!cache.load(filename, RTC_BIN_EXTENSION, nCompile)) {
     rtchelpers::compile(proc, nCompile, "CPUDevice", [&](uint32_t i) {
       const std::string fileBase = filename + "_" + std::to_string(i);
-      if (proc.debugLevel >= 3) {
+      if (proc.debugLevel >= 3 && !proc.debugSilent) {
         printf("Compiling %s\n", (fileBase + RTC_SRC_EXTENSION).c_str());
       }
       const bool deterministic = rtchelpers::deterministic(proc, GetKernelName(i));

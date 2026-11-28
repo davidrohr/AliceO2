@@ -53,7 +53,7 @@ int32_t GPUChainTracking::ConvertNativeToClusterData()
     TransferMemoryResourceLinkToGPU(RecoStep::TPCConversion, mInputsHost->mResourceClusterNativeAccess, 0);
     transferClusters = true;
   }
-  if (GetProcessingSettings().debugLevel >= 3) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Early transform inactive, skipping TPC Early transformation kernel, transformed on the fly during sector data creation / refit");
   }
   if (transferClusters) {

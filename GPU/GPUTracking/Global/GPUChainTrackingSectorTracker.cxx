@@ -69,7 +69,7 @@ int32_t GPUChainTracking::RunTPCTrackingSectors()
 
 int32_t GPUChainTracking::RunTPCTrackingSectors_internal()
 {
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Running TPC Sector Tracker");
   }
   bool doGPU = GetRecoStepsGPU() & RecoStep::TPCSectorTracking;
@@ -100,7 +100,7 @@ int32_t GPUChainTracking::RunTPCTrackingSectors_internal()
   bool initializeOccMap = param().rec.tpc.occupancyMapTimeBins || param().rec.tpc.sysClusErrorC12Norm;
   if (doGPU) {
     // Copy Tracker Object to GPU Memory
-    if (GetProcessingSettings().debugLevel >= 3) {
+    if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
       GPUInfo("Copying Tracker objects to GPU");
     }
     if (PrepareProfile()) {
@@ -147,7 +147,7 @@ int32_t GPUChainTracking::RunTPCTrackingSectors_internal()
     GPUTPCTracker& trkShadow = doGPU ? processorsShadow()->tpcTrackers[iSector] : trk;
     int32_t useStream = StreamForSector(iSector);
 
-    if (GetProcessingSettings().debugLevel >= 3) {
+    if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
       GPUInfo("Creating Sector Data (Sector %d)", iSector);
     }
     TransferMemoryResourcesToGPU(RecoStep::TPCSectorTracking, &trk, useStream);
@@ -215,7 +215,7 @@ int32_t GPUChainTracking::RunTPCTrackingSectors_internal()
     }
     TransferMemoryResourceLinkToHost(RecoStep::TPCSectorTracking, trk.MemoryResCommon(), useStream, &mEvents->sector[iSector]);
     streamMap[iSector] = useStream;
-    if (GetProcessingSettings().debugLevel >= 3) {
+    if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
       GPUInfo("Sector %u, Number of tracks: %d", iSector, *trk.NTracks());
     }
     DoDebugAndDump(RecoStep::TPCSectorTracking, GPUChainTrackingDebugFlags::TPCSectorTracks, trk, &GPUTPCTracker::DumpTrackHits, *mDebugFile);
@@ -266,7 +266,7 @@ int32_t GPUChainTracking::RunTPCTrackingSectors_internal()
     mRec->SetNActiveThreadsOuterLoop(1);
   }
 
-  if (param().rec.tpc.extrapolationTracking && GetProcessingSettings().debugLevel >= 3) {
+  if (param().rec.tpc.extrapolationTracking && GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent) {
     for (uint32_t iSector = 0; iSector < NSECTORS; iSector++) {
       GPUInfo("Sector %d - Tracks: Local %d Extrapolated %d - Hits: Local %d Extrapolated %d", iSector,
               processors()->tpcTrackers[iSector].CommonMemory()->nLocalTracks, processors()->tpcTrackers[iSector].CommonMemory()->nTracks, processors()->tpcTrackers[iSector].CommonMemory()->nLocalTrackHits, processors()->tpcTrackers[iSector].CommonMemory()->nTrackHits);
@@ -285,7 +285,7 @@ int32_t GPUChainTracking::RunTPCTrackingSectors_internal()
       TransferMemoryResourcesToHost(RecoStep::TPCSectorTracking, &processors()->tpcTrackers[i], -1, true);
     }
   }
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("TPC Sector Tracker finished");
   }
   mRec->PopNonPersistentMemory(RecoStep::TPCSectorTracking, qStr2Tag("TPCSLTRK"));

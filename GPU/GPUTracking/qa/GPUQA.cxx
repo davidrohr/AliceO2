@@ -895,7 +895,7 @@ void GPUQA::RunQA(bool matchOnly, const std::vector<o2::tpc::TrackTPC>* tracksEx
   if (!mQAInitialized) {
     throw std::runtime_error("QA not initialized");
   }
-  if (mTracking && mTracking->GetProcessingSettings().debugLevel >= 2) {
+  if (mTracking && mTracking->GetProcessingSettings().debugLevel >= 2 && !mTracking->GetProcessingSettings().debugSilent) {
     GPUInfo("Running QA - Mask %d, Efficiency %d, Resolution %d, Pulls %d, Cluster Attachment %d, Track Statistics %d, Cluster Counts %d", mQATasks, (int32_t)(mQATasks & taskTrackingEff), (int32_t)(mQATasks & taskTrackingRes), (int32_t)(mQATasks & taskTrackingResPull), (int32_t)(mQATasks & taskClusterAttach), (int32_t)(mQATasks & taskTrackStatistics), (int32_t)(mQATasks & taskClusterCounts));
   }
   if (!clNative && mTracking) {

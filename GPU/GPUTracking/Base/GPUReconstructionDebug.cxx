@@ -190,7 +190,7 @@ bool GPUReconstruction::triggerDebugDump()
   return false;
 }
 
-GPUReconstructionCPU::debugWriter::debugWriter(std::string filenameCSV, bool markdown, uint32_t statNEvents) : mMarkdown{markdown}, mStatNEvents{statNEvents}
+GPUReconstructionCPU::debugWriter::debugWriter(std::string filenameCSV, bool markdown, uint32_t statNEvents, bool silent) : mMarkdown{markdown}, mSilent{silent}, mStatNEvents{statNEvents}
 {
   if (!filenameCSV.empty()) {
     streamCSV.open(filenameCSV, std::ios::out | std::ios::app);
@@ -277,7 +277,7 @@ void GPUReconstructionCPU::debugWriter::row(char type, uint32_t count, std::stri
       std::cout << "           |               |               |";
     }
     std::cout << std::endl;
-  } else {
+  } else if (!mSilent) {
     if (name.substr(0, 3) == "GPU") {
       char bandwidth[256] = "";
       if (memSize && mStatNEvents && gpu_time != 0.0) {

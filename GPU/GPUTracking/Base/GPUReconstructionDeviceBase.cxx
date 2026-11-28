@@ -192,7 +192,7 @@ size_t GPUReconstructionDeviceBase::TransferMemoryInternal(GPUMemoryResource* re
     }
     return 0;
   }
-  if (GetProcessingSettings().debugLevel >= 3 && (strcmp(res->Name(), "ErrorCodes") || GetProcessingSettings().debugLevel >= 4)) {
+  if (GetProcessingSettings().debugLevel >= 3 && !GetProcessingSettings().debugSilent && (strcmp(res->Name(), "ErrorCodes") || GetProcessingSettings().debugLevel >= 4)) {
     GPUInfo("Copying to %s: %s - %ld bytes", toGPU ? "GPU" : "Host", res->Name(), (int64_t)res->Size());
   }
   return GPUMemCpy(dst, src, res->Size(), stream, toGPU, ev, evList, nEvents);

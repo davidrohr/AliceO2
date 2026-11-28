@@ -101,7 +101,7 @@ int32_t GPUChainTracking::RunTPCTrackingMerger(bool synchronizeOutput)
   GPUTPCGMMerger& Merger = processors()->tpcMerger;
   GPUTPCGMMerger& MergerShadow = doGPU ? processorsShadow()->tpcMerger : Merger;
   const int32_t outputStream = OutputStream();
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("Running TPC Merger");
   }
   const auto& holdContext = GetThreadContext();
@@ -448,7 +448,7 @@ int32_t GPUChainTracking::RunTPCTrackingMerger(bool synchronizeOutput)
     WriteToConstantMemory(RecoStep::TPCMerging, (char*)&processors()->ioPtrs - (char*)processors(), &processorsShadow()->ioPtrs, sizeof(processorsShadow()->ioPtrs), 0);
   }
 
-  if (GetProcessingSettings().debugLevel >= 2) {
+  if (GetProcessingSettings().debugLevel >= 2 && !GetProcessingSettings().debugSilent) {
     GPUInfo("TPC Merger Finished (output clusters %d / input clusters %d)", Merger.NMergedTrackClusters(), Merger.NSectorHits());
   }
   return 0;
