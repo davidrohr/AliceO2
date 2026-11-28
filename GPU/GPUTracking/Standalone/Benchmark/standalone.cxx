@@ -318,7 +318,9 @@ int32_t ReadConfiguration(int argc, char** argv)
         printf("setO2Settings requires the usage of --inputMemory and --outputMemory as in O2\n");
         return 1;
       }
-      configStandalone.proc.forceHostMemoryPoolSize = 1024 * 1024 * 1024;
+      if (configStandalone.proc.forceHostMemoryPoolSize < 1024) {
+        configStandalone.proc.forceHostMemoryPoolSize = 1024 * 1024 * 1024;
+      }
     }
     configStandalone.rec.tpc.trackReferenceX = 83;
     configStandalone.proc.outputSharedClusterMap = 1;

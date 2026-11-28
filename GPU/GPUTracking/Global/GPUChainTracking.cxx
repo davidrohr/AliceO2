@@ -168,8 +168,9 @@ void GPUChainTracking::RegisterGPUProcessors()
 
 void GPUChainTracking::MemorySize(size_t& gpuMem, size_t& pageLockedHostMem)
 {
+  const int32_t gatherMode = mRec->GetProcessingSettings().tpcCompressionGatherMode == -1 ? mRec->getGPUParameters(mRec->GetRecoStepsGPU() & gpudatatypes::RecoStep::TPCCompression).par_COMP_GATHER_MODE : mRec->GetProcessingSettings().tpcCompressionGatherMode;
   gpuMem = constants::GPU_DEFAULT_MEMORY_SIZE;
-  pageLockedHostMem = constants::GPU_DEFAULT_HOST_MEMORY_SIZE;
+  pageLockedHostMem = constants::GPU_DEFAULT_HOST_MEMORY_SIZE * (gatherMode < 2 ? 2 : 1);
 }
 
 bool GPUChainTracking::ValidateSteps()

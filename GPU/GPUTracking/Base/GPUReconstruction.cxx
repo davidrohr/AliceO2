@@ -142,7 +142,7 @@ int32_t GPUReconstruction::Init()
       return retVal;
     }
     mNStreams = std::max(mNStreams, mSlaves[i]->mNStreams);
-    mHostMemorySize = std::max(mHostMemorySize, mSlaves[i]->mHostMemorySize);
+    mHostMemorySize += mSlaves[i]->mHostMemorySize;
     mDeviceMemorySize = std::max(mDeviceMemorySize, mSlaves[i]->mDeviceMemorySize);
   }
   if (InitDevice()) {
@@ -375,7 +375,7 @@ int32_t GPUReconstruction::InitPhaseBeforeDevice()
       return 1;
     }
     mChains[i]->RegisterPermanentMemoryAndProcessors();
-    size_t memPrimary, memPageLocked;
+    size_t memPrimary = 0, memPageLocked = 0;
     mChains[i]->MemorySize(memPrimary, memPageLocked);
     if (!IsGPU() || mOutputControl.useInternal()) {
       memPageLocked = memPrimary;
