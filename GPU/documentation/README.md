@@ -6,6 +6,9 @@
 - Instructions how to build and run the standalone benchmark.
 - Instructions how to extract data sets for the standalone benchmark from real data or using simulation.
 
+[benchmark.md](https://github.com/AliceO2Group/AliceO2/blob/dev/GPU/documentation/benchmark.md) :
+- How to benchmark the GPU reconstruction with the benchmark mode of the standalone benchmark (`--benchmark`), how to read the results, and what is measured.
+
 [deterministic-mode.md](https://github.com/AliceO2Group/AliceO2/blob/dev/GPU/documentation/deterministic-mode.md) :
 - Instructions how to use the deterministic mode for both the standalone benchmark and O2.
 

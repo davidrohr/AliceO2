@@ -57,6 +57,7 @@ AddOption(nEvents, int32_t, -1, "", 'n', "Number of events to process (-1; all)"
 AddOption(runs, int32_t, 1, "runs", 'r', "Number of iterations to perform (repeat each event)", min(0))
 AddOption(runs2, int32_t, 1, "runsExternal", 0, "Number of iterations to perform (repeat full processing)", min(1))
 AddOption(runsInit, int32_t, 1, "", 0, "Number of initial iterations excluded from average", min(0))
+AddOption(benchmark, const char*, "", "", 0, "Benchmark mode [sync|async|combined|alldetectors]-[gpu|cpu]-[wall|kernel]: sets and checks the options for it, needs -n (iterate over events) or --runs (repeat one event)")
 AddOption(eventsDir, const char*, "pp", "events", 'e', "Directory with events to process", message("Reading events from Directory %s"))
 AddOption(absoluteEventsDir, bool, false, "", 0, "Events directory is absolute, and not inside './events/'")
 AddOption(noEvents, bool, false, "", 0, "Run without data (e.g. for field visualization)")

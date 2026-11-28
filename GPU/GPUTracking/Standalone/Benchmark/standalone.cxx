@@ -60,6 +60,7 @@
 #include <atomic>
 #include <vector>
 #include <map>
+#include <sstream>
 
 #ifndef _WIN32
 #include <unistd.h>
@@ -95,6 +96,7 @@ std::unique_ptr<GPUDisplayFrontendInterface> eventDisplay;
 std::unique_ptr<GPUReconstructionTimeframe> tf;
 int32_t nEventsInDirectory = 0;
 std::atomic<uint32_t> nIteration, nIterationEnd;
+bool benchmark = false, benchmarkGPU = false; // From configStandalone.benchmark
 
 std::vector<GPUTrackingInOutPointers> ioPtrEvents;
 std::vector<GPUChainTracking::InOutMemory> ioMemEvents;
@@ -117,6 +119,47 @@ int32_t ReadConfiguration(int argc, char** argv)
   if (configStandalone.printSettings > 1) {
     printf("Config Dump before ReadConfiguration\n");
     qConfig::qConfigPrint();
+  }
+  benchmark = configStandalone.benchmark && configStandalone.benchmark[0];
+  if (benchmark) { // comes first, affects below options
+    std::istringstream benchmarkStream(configStandalone.benchmark);
+    std::string mode, dev, timing;
+    std::getline(std::getline(std::getline(benchmarkStream, mode, '-'), dev, '-'), timing);
+    const bool gpu = benchmarkGPU = dev == "gpu", kernel = timing == "kernel";
+    const bool nSet = configStandalone.nEvents != -1 && configStandalone.nEvents != configStandalone.StartEvent + 1;
+    const bool pipeline = gpu && (mode == "sync" || mode == "combined") && !kernel;
+    const int32_t iterations = nSet ? configStandalone.nEvents - configStandalone.StartEvent : configStandalone.runs;
+    const std::pair<bool, const char*> checks[] = {
+      {(mode != "sync" && mode != "async" && mode != "combined" && mode != "alldetectors") || (!gpu && dev != "cpu") || (!kernel && timing != "wall"), "format must be [sync|async|combined|alldetectors]-[gpu|cpu]-[wall|kernel]"},
+      {(configStandalone.testSync && mode != "sync") || (configStandalone.testAsync && mode != "async") || configStandalone.testSyncAsync, "--sync / --async / --syncAsync contradict the mode"},
+      {configStandalone.recoSteps != -1, "--recoSteps must not be set"},
+      {configStandalone.proc.debugLevel != -1 && configStandalone.proc.debugLevel != kernel, "--debug contradicts the timing mode"},
+      {!nSet && configStandalone.runs == 1, "-n or --runs required"},
+      {nSet && configStandalone.runs != 1 && configStandalone.runs != iterations, "-n (minus -s) and --runs differ"},
+      {iterations < (pipeline ? 10 : 5), "at least 5 iterations needed, 10 with double pipeline"}};
+    for (const auto& [failed, msg] : checks) {
+      if (failed) {
+        printf("Invalid --benchmark %s: %s\n", configStandalone.benchmark, msg);
+        return 1;
+      }
+    }
+    configStandalone.testSync = mode == "sync";
+    configStandalone.testAsync = mode == "async";
+    configStandalone.runGPU = gpu ? 2 : 0;
+    configStandalone.runGPUforce = true;
+    configStandalone.runTRD = mode == "alldetectors" ? 1 : (mode == "async" ? configStandalone.runTRD : 0);
+    configStandalone.timeFrameTime = !kernel;
+    configStandalone.proc.debugLevel = kernel;
+    configStandalone.proc.debugSilent = 1;
+    configStandalone.proc.doublePipeline = pipeline;
+    if (gpu) {
+      configStandalone.proc.forceMemoryPoolSize = configStandalone.proc.forceMemoryPoolSize == 1 ? 12000000000 : configStandalone.proc.forceMemoryPoolSize;
+      configStandalone.inputcontrolmem = configStandalone.inputcontrolmem ? configStandalone.inputcontrolmem : 6000000000;
+      configStandalone.outputcontrolmem = configStandalone.outputcontrolmem ? configStandalone.outputcontrolmem : 10000000000;
+    }
+    configStandalone.runs = nSet && !pipeline ? 1 : iterations;
+    configStandalone.nEvents = nSet ? configStandalone.nEvents : configStandalone.StartEvent + 1;
+    configStandalone.preloadEvents |= nSet && pipeline;
   }
   if (configStandalone.proc.debugLevel == -1) {
     configStandalone.proc.debugLevel = 0;
@@ -670,6 +713,10 @@ int32_t LoadEvent(int32_t iEvent, int32_t x)
       return 1;
     }
   }
+  if (benchmark && ((configStandalone.testAsync ? !chainTracking->mIOPtrs.tpcCompressedClusters : !chainTracking->mIOPtrs.tpcZS) || (configStandalone.runTRD > 0 && !chainTracking->mIOPtrs.nTRDTracklets))) {
+    printf("Benchmark needs ZS raw input for sync / combined / alldetectors, compressed clusters for async, and TRD tracklets for alldetectors\n");
+    return 1;
+  }
   bool encodeZS = configStandalone.encodeZS == -1 ? (chainTracking->mIOPtrs.tpcPackedDigits && !chainTracking->mIOPtrs.tpcZS) : (bool)configStandalone.encodeZS;
   bool zsFilter = configStandalone.zsFilter == -1 ? (!encodeZS && chainTracking->mIOPtrs.tpcPackedDigits && !chainTracking->mIOPtrs.tpcZS) : (bool)configStandalone.zsFilter;
   if (encodeZS || zsFilter) {
@@ -741,7 +788,10 @@ int32_t RunBenchmark(GPUReconstruction* recUse, GPUChainTracking* chainTrackingU
       printf("Run %d (thread %d)\n", iteration + 1, threadId);
     }
     if (configStandalone.runsInit > 0 && configStandalone.proc.debugCSV.empty()) {
-      recUse->SetResetTimers(iRun < configStandalone.runsInit);
+      recUse->SetResetTimers(iRun + (benchmark ? iEvent - configStandalone.StartEvent : 0) < configStandalone.runsInit);
+    }
+    if (benchmark && !configStandalone.proc.doublePipeline) {
+      recUse->SetDebugLevelTmp(-100, iteration != runs - 1 || iEvent != configStandalone.nEvents - 1);
     }
     if (configStandalone.outputcontrolmem) {
       recUse->SetOutputControl(threadId ? outputmemoryPipeline.get() : outputmemory.get(), configStandalone.outputcontrolmem);
@@ -874,6 +924,13 @@ int32_t main(int argc, char** argv)
     printf("Error initializing GPUReconstruction\n");
     return 1;
   }
+  if (benchmark && rec->IsGPU() != benchmarkGPU) {
+    printf("Invalid --benchmark %s: device type contradicts the benchmark\n", configStandalone.benchmark);
+    return 1;
+  }
+  if (benchmark && benchmarkGPU && rec->backendSupportsRTC()) {
+    configStandalone.proc.rtc.enable = configStandalone.proc.rtc.cacheOutput = true;
+  }
   rec->SetDebugLevelTmp(configStandalone.proc.debugLevel);
   chainTracking = rec->AddChain<GPUChainTracking>();
   if (configStandalone.testSyncAsync) {
@@ -903,11 +960,6 @@ int32_t main(int argc, char** argv)
 
   if (SetupReconstruction()) {
     return 1;
-  }
-
-  std::unique_ptr<std::thread> pipelineThread;
-  if (configStandalone.proc.doublePipeline) {
-    pipelineThread.reset(new std::thread([]() { rec->RunPipelineWorker(); }));
   }
 
   if (configStandalone.seed == -1) {
@@ -947,6 +999,9 @@ int32_t main(int argc, char** argv)
     if (nEvents == -1 || nEvents > nEventsInDirectory) {
       if (nEvents >= 0) {
         printf("Only %d events available in directory %s (%d events requested)\n", nEventsInDirectory, eventsDir.c_str(), nEvents);
+        if (benchmark) {
+          return 1;
+        }
       }
       nEvents = nEventsInDirectory;
     }
@@ -964,13 +1019,21 @@ int32_t main(int argc, char** argv)
     printf("Preloading events%s", configStandalone.proc.debugLevel >= 2 ? "\n" : "");
     fflush(stdout);
     for (int32_t i = 0; i < nEvents - configStandalone.StartEvent; i++) {
-      LoadEvent(configStandalone.StartEvent + i, i);
+      if (LoadEvent(configStandalone.StartEvent + i, i)) {
+        return 1;
+      }
       printf(configStandalone.proc.debugLevel >= 2 ? "Loading event %d\n" : " %d", i + configStandalone.StartEvent);
       fflush(stdout);
     }
     printf("\n");
   }
 
+  std::unique_ptr<std::thread> pipelineThread;
+  if (configStandalone.proc.doublePipeline) {
+    pipelineThread.reset(new std::thread([]() { rec->RunPipelineWorker(); }));
+  }
+
+  int32_t retVal = 1;
   for (int32_t iRunOuter = 0; iRunOuter < configStandalone.runs2; iRunOuter++) {
     if (configStandalone.QA.inputHistogramsOnly) {
       chainTracking->ForceInitQA();
@@ -1085,6 +1148,7 @@ int32_t main(int argc, char** argv)
       printf("Total: %zu clusters, %zu tracks\n", nClustersTotal, nTracksTotal);
     }
   }
+  retVal = 0;
 
 breakrun:
   if (rec->GetProcessingSettings().memoryAllocationStrategy == GPUMemoryResource::ALLOCATION_GLOBAL) {
@@ -1119,5 +1183,5 @@ breakrun:
     printf("Press a key to exit!\n");
     getchar();
   }
-  return (0);
+  return retVal;
 }

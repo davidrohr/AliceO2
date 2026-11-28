@@ -39,6 +39,7 @@ class GPUReconstructionCPUDevice : public GPUReconstructionProcessing::KernelInt
  public:
   GPUReconstructionCPUDevice(const GPUSettingsDeviceBackend& cfg);
   ~GPUReconstructionCPUDevice() override;
+  bool backendSupportsRTC() const override { return true; }
 
   template <class T, int32_t I = 0, typename... Args>
   void runKernelBackend(const krnlSetupTime& _xyz, const Args&... args);

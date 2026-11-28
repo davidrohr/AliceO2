@@ -357,6 +357,7 @@ int32_t GPUReconstructionCPU::RunChains()
       }
     }
   }
+  mStatKernelTime = kernelTotal * 1000000. / mStatNEvents; // Average kernel time per run in us, like mStatWallTime, only with debugLevel >= 1
   if (GetProcessingSettings().recoTaskTiming) {
     for (int32_t i = 0; i < gpudatatypes::N_RECO_STEPS; i++) {
       if (kernelStepTimes[i] != 0. || mTimersRecoSteps[i].timerTotal.GetElapsedTime() != 0.) {

@@ -206,6 +206,7 @@ class GPUReconstruction
   // Getters / setters for parameters
   DeviceType GetDeviceType() const;
   bool IsGPU() const { return GetDeviceType() != DeviceType::INVALID_DEVICE && GetDeviceType() != DeviceType::CPU; }
+  virtual bool backendSupportsRTC() const { return false; }
   const GPUParam& GetParam() const;
   const GPUConstantMem& GetConstantMem() const { return *mHostConstantMem; }
   const GPUTrackingInOutPointers GetIOPtrs() const;
